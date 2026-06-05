@@ -18,11 +18,7 @@ import com.kp.beautytips.model.ListModel
 import com.kp.beautytips.utils.ActivityUtils
 import com.kp.beautytips.utils.AppUtils
 import com.kp.beautytips.utils.Constants
-import com.kp.beautytips.data.eyes.*
-import com.kp.beautytips.data.face.*
-import com.kp.beautytips.data.hair.*
-import com.kp.beautytips.data.handsfeet.*
-import com.kp.beautytips.data.skin.*
+import com.kp.beautytips.data.TipRepository
 import com.google.android.gms.ads.*
 import com.google.android.gms.ads.interstitial.InterstitialAd
 import com.google.android.gms.ads.interstitial.InterstitialAdLoadCallback
@@ -101,148 +97,8 @@ class SearchActivity : BaseActivity() {
     }
 
     private fun loadAllTips() {
-        val context = this
-        // Face
-        allTips.addAll(FaceWrinkles.remedy(context))
-        allTips.addAll(FaceWrinkles.diet(context))
-        allTips.addAll(FaceWrinkles.exercise(context))
-        allTips.addAll(Acne.remedy(context))
-        allTips.addAll(Acne.diet(context))
-        allTips.addAll(Acne.exercise(context))
-        allTips.addAll(FairSkin.remedy(context))
-        allTips.addAll(FairSkin.diet(context))
-        allTips.addAll(FairSkin.exercise(context))
-        allTips.addAll(BlackHeads.remedy(context))
-        allTips.addAll(BlackHeads.diet(context))
-        allTips.addAll(BlackHeads.exercise(context))
-        allTips.addAll(FacialHairRemoval.remedy(context))
-        allTips.addAll(FacialHairRemoval.diet(context))
-        allTips.addAll(FacialHairRemoval.exercise(context))
-        allTips.addAll(DeTanning.remedy(context))
-        allTips.addAll(DeTanning.diet(context))
-        allTips.addAll(DeTanning.exercise(context))
-        allTips.addAll(TeethWhitening.remedy(context))
-        allTips.addAll(TeethWhitening.diet(context))
-        allTips.addAll(TeethWhitening.exercise(context))
-        allTips.addAll(DarkLips.remedy(context))
-        allTips.addAll(DarkLips.diet(context))
-        allTips.addAll(DarkLips.exercise(context))
-        allTips.addAll(Blemishes.remedy(context))
-        allTips.addAll(Blemishes.diet(context))
-        allTips.addAll(Blemishes.exercise(context))
-
-        // Hair
-        allTips.addAll(Dandruff.remedy(context))
-        allTips.addAll(Dandruff.diet(context))
-        allTips.addAll(Dandruff.exercise(context))
-        allTips.addAll(Silky.remedy(context))
-        allTips.addAll(Silky.diet(context))
-        allTips.addAll(Silky.exercise(context))
-        allTips.addAll(Straight.remedy(context))
-        allTips.addAll(Straight.diet(context))
-        allTips.addAll(Straight.exercise(context))
-        allTips.addAll(SplitEnds.remedy(context))
-        allTips.addAll(SplitEnds.diet(context))
-        allTips.addAll(SplitEnds.exercise(context))
-        allTips.addAll(Greying.remedy(context))
-        allTips.addAll(Greying.diet(context))
-        allTips.addAll(Greying.exercise(context))
-        allTips.addAll(HairFall.remedy(context))
-        allTips.addAll(HairFall.diet(context))
-        allTips.addAll(HairFall.exercise(context))
-        allTips.addAll(FrizzyHair.remedy(context))
-        allTips.addAll(FrizzyHair.diet(context))
-        allTips.addAll(FrizzyHair.exercise(context))
-        allTips.addAll(HeadLice.remedy(context))
-        allTips.addAll(HeadLice.diet(context))
-        allTips.addAll(HeadLice.exercise(context))
-        allTips.addAll(DryAndDamagedHair.remedy(context))
-        allTips.addAll(DryAndDamagedHair.diet(context))
-        allTips.addAll(DryAndDamagedHair.exercise(context))
-
-        // Skin
-        allTips.addAll(GlowingSkin.remedy(context))
-        allTips.addAll(GlowingSkin.diet(context))
-        allTips.addAll(GlowingSkin.exercise(context))
-        allTips.addAll(UnevenSkin.remedy(context))
-        allTips.addAll(UnevenSkin.diet(context))
-        allTips.addAll(UnevenSkin.exercise(context))
-        allTips.addAll(Warts.remedy(context))
-        allTips.addAll(Warts.diet(context))
-        allTips.addAll(Warts.exercise(context))
-        allTips.addAll(StretchMarks.remedy(context))
-        allTips.addAll(StretchMarks.diet(context))
-        allTips.addAll(StretchMarks.exercise(context))
-        allTips.addAll(PricklyHeat.remedy(context))
-        allTips.addAll(PricklyHeat.diet(context))
-        allTips.addAll(PricklyHeat.exercise(context))
-        allTips.addAll(BodyScrubs.remedy(context))
-        allTips.addAll(BodyScrubs.diet(context))
-        allTips.addAll(BodyScrubs.exercise(context))
-        allTips.addAll(BodyPolish.remedy(context))
-        allTips.addAll(BodyPolish.diet(context))
-        allTips.addAll(BodyPolish.exercise(context))
-
-        // Eyes
-        allTips.addAll(DarkCircles.remedy(context))
-        allTips.addAll(DarkCircles.diet(context))
-        allTips.addAll(DarkCircles.exercise(context))
-        allTips.addAll(PuffyEyes.remedy(context))
-        allTips.addAll(PuffyEyes.diet(context))
-        allTips.addAll(PuffyEyes.exercise(context))
-        allTips.addAll(BeautifulEyes.remedy(context))
-        allTips.addAll(BeautifulEyes.diet(context))
-        allTips.addAll(BeautifulEyes.exercise(context))
-        allTips.addAll(SunkenEyes.remedy(context))
-        allTips.addAll(SunkenEyes.diet(context))
-        allTips.addAll(SunkenEyes.exercise(context))
-        allTips.addAll(BetterEyeBrows.remedy(context))
-        allTips.addAll(BetterEyeBrows.diet(context))
-        allTips.addAll(BetterEyeBrows.exercise(context))
-        allTips.addAll(ThickerAndLongerEye.remedy(context))
-        allTips.addAll(ThickerAndLongerEye.diet(context))
-        allTips.addAll(ThickerAndLongerEye.exercise(context))
-
-        // Hands & Feet
-        allTips.addAll(WaxingAtHome.remedy(context))
-        allTips.addAll(WaxingAtHome.diet(context))
-        allTips.addAll(WaxingAtHome.exercise(context))
-        allTips.addAll(DryAndRoughHand.remedy(context))
-        allTips.addAll(DryAndRoughHand.diet(context))
-        allTips.addAll(DryAndRoughHand.exercise(context))
-        allTips.addAll(NailGrowth.remedy(context))
-        allTips.addAll(NailGrowth.diet(context))
-        allTips.addAll(NailGrowth.exercise(context))
-        allTips.addAll(PinkyShinyNail.remedy(context))
-        allTips.addAll(PinkyShinyNail.diet(context))
-        allTips.addAll(PinkyShinyNail.exercise(context))
-        allTips.addAll(DarkInnerThighs.remedy(context))
-        allTips.addAll(DarkInnerThighs.diet(context))
-        allTips.addAll(DarkInnerThighs.exercise(context))
-        allTips.addAll(DarkUnderArms.remedy(context))
-        allTips.addAll(DarkUnderArms.diet(context))
-        allTips.addAll(DarkUnderArms.exercise(context))
-        allTips.addAll(DarkPrivateAreas.remedy(context))
-        allTips.addAll(DarkPrivateAreas.diet(context))
-        allTips.addAll(DarkPrivateAreas.exercise(context))
-        allTips.addAll(CrackedHeels.remedy(context))
-        allTips.addAll(CrackedHeels.diet(context))
-        allTips.addAll(CrackedHeels.exercise(context))
-        allTips.addAll(DarkHandsAndFeet.remedy(context))
-        allTips.addAll(DarkHandsAndFeet.diet(context))
-        allTips.addAll(DarkHandsAndFeet.exercise(context))
-
-        // Deduplicate list by title to ensure unique search results
-        val uniqueTips = ArrayList<ListModel>()
-        val titlesSeen = HashSet<String>()
-        for (tip in allTips) {
-            if (!titlesSeen.contains(tip.title)) {
-                uniqueTips.add(tip)
-                titlesSeen.add(tip.title)
-            }
-        }
         allTips.clear()
-        allTips.addAll(uniqueTips)
+        allTips.addAll(TipRepository.getAllTips(this))
     }
 
     private fun performSearch(query: String) {

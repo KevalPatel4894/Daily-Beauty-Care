@@ -133,7 +133,7 @@ This document tracks all zero-budget features designed to maximize user retentio
 * **Details:** Add a new category for "Body Care & Wellness" covering subcategories like Stretch Marks, Neck Whitening, Body Scrub recipes, and Elbow/Knee Softening.
 * **Tech:** Content templates and new data classes/models.
 
-### [ ] Feature 22: JSON-Based Local Content Database (Architecture Upgrade)
+### [x] Feature 22: JSON-Based Local Content Database (Architecture Upgrade)
 * **Goal:** Clean up the codebase and make adding/updating beauty tips 10x faster.
 * **Details:** Currently, all beauty tips are hardcoded in static Kotlin files (like `Acne.kt`, `FairSkin.kt`). Migrate this static content into a single `tips_data.json` asset file. The app will parse this JSON dynamically to load categories, subcategories, and tips.
 * **Tech:** Kotlin Serialization or Gson parsing local assets.
