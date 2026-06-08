@@ -11,8 +11,8 @@ android {
         applicationId = "com.kp.beautytips"
         minSdk = 21
         targetSdk = 36
-        versionCode = 2
-        versionName = "1.0"
+        versionCode = 5
+        versionName = "1.0.2"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
