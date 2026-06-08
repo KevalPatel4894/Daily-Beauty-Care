@@ -13,10 +13,25 @@ import android.content.Context
 import com.kp.beautytips.model.ListModel
 import com.kp.beautytips.data.TipRepository
 
-class RemedyFragment(var categoryName: String) : Fragment() {
-
+class RemedyFragment : Fragment() {
+    private var categoryName: String = ""
     private lateinit var inflatedView: View
     private lateinit var rvList: RecyclerView
+
+    companion object {
+        fun newInstance(categoryName: String): RemedyFragment {
+            val fragment = RemedyFragment()
+            val args = Bundle()
+            args.putString("categoryName", categoryName)
+            fragment.arguments = args
+            return fragment
+        }
+    }
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        categoryName = arguments?.getString("categoryName") ?: ""
+    }
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,

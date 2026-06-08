@@ -19,7 +19,7 @@ object ReminderScheduler {
 
     fun scheduleReminder(context: Context) {
         val sharedPrefs = context.getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE)
-        val enabled = sharedPrefs.getBoolean(KEY_REMINDER_ENABLED, false)
+        val enabled = sharedPrefs.getBoolean(KEY_REMINDER_ENABLED, true)
         val alarmManager = context.getSystemService(Context.ALARM_SERVICE) as AlarmManager
 
         val intent = Intent(context, ReminderReceiver::class.java)

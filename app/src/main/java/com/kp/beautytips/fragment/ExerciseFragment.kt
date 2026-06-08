@@ -11,9 +11,24 @@ import com.kp.beautytips.R
 import com.kp.beautytips.adapter.ListAdapter
 import com.kp.beautytips.data.TipRepository
 
-class ExerciseFragment(var categoryName: String) : Fragment() {
-
+class ExerciseFragment : Fragment() {
+    private var categoryName: String = ""
     private lateinit var inflatedView: View
+
+    companion object {
+        fun newInstance(categoryName: String): ExerciseFragment {
+            val fragment = ExerciseFragment()
+            val args = Bundle()
+            args.putString("categoryName", categoryName)
+            fragment.arguments = args
+            return fragment
+        }
+    }
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        categoryName = arguments?.getString("categoryName") ?: ""
+    }
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,

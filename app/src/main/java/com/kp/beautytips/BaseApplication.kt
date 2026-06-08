@@ -36,5 +36,6 @@ class BaseApplication : Application() {
                 .build()
         )
         com.kp.beautytips.utils.ReminderScheduler.createNotificationChannel(this)
+        com.kp.beautytips.utils.ReminderScheduler.scheduleReminder(this)
     }
 }

@@ -16,6 +16,9 @@
 # debugging stack traces.
 #-keepattributes SourceFile,LineNumberTable
 
-# If you keep the line number information, uncomment this to
-# hide the original source file name.
 #-renamesourcefileattribute SourceFile
+
+# Keep Fragments and their default constructors for reflection-based instantiation during state restoration
+-keep public class * extends androidx.fragment.app.Fragment {
+    public <init>();
+}

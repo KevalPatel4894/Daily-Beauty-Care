@@ -73,12 +73,12 @@ class ListActivity : BaseActivity() {
         viewPagerAdapter = ViewPagerAdapter(supportFragmentManager)
         if (categoryName == "Favorite Tips") {
             top_navigation_constraint.visibility = View.GONE
-            viewPagerAdapter!!.add(RemedyFragment(categoryName), "Favorites")
+            viewPagerAdapter!!.add(RemedyFragment.newInstance(categoryName), "Favorites")
         } else {
             // add the fragments
-            viewPagerAdapter!!.add(RemedyFragment(categoryName), "Remedy")
-            viewPagerAdapter!!.add(DietFragment(categoryName), "Diet")
-            viewPagerAdapter!!.add(ExerciseFragment(categoryName), "Exercise")
+            viewPagerAdapter!!.add(RemedyFragment.newInstance(categoryName), "Remedy")
+            viewPagerAdapter!!.add(DietFragment.newInstance(categoryName), "Diet")
+            viewPagerAdapter!!.add(ExerciseFragment.newInstance(categoryName), "Exercise")
         }
         view_pager.adapter = viewPagerAdapter
         view_pager.addOnPageChangeListener(object : ViewPager.OnPageChangeListener {

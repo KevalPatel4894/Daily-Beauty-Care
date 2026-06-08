@@ -66,7 +66,7 @@ class ReminderActivity : BaseActivity() {
         rlTimePicker = findViewById(R.id.rlTimePicker)
 
         sharedPrefs = getSharedPreferences(ReminderScheduler.PREFS_NAME, Context.MODE_PRIVATE)
-        val enabled = sharedPrefs.getBoolean(ReminderScheduler.KEY_REMINDER_ENABLED, false)
+        val enabled = sharedPrefs.getBoolean(ReminderScheduler.KEY_REMINDER_ENABLED, true)
         val hour = sharedPrefs.getInt(ReminderScheduler.KEY_REMINDER_HOUR, 9)
         val minute = sharedPrefs.getInt(ReminderScheduler.KEY_REMINDER_MINUTE, 0)
 
