@@ -52,7 +52,7 @@ This document tracks all zero-budget features designed to maximize user retentio
 * **Details:** A short onboarding setup (Skin type, Hair texture, Age, and concerns). The main screen then highlights tips tagged specifically for their profile.
 * **Tech:** Local content tag filter query.
 
-### [ ] Feature 9: Step-by-Step Timer Integration
+### [x] Feature 9: Step-by-Step Timer Integration
 * **Goal:** Help users time natural masks or massage routines safely.
 * **Details:** If a tip text says *"leave for 15 minutes"*, show a *"Start 15-Min Timer"* button. Tapping it starts a countdown and alerts the user with an alarm when the mask is ready to wash off.
 * **Tech:** Android `CountDownTimer` and `Vibrator`/Ringtone services.

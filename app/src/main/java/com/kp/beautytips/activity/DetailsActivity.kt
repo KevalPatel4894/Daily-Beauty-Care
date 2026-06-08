@@ -5,21 +5,29 @@ import android.content.ActivityNotFoundException
 import android.content.ClipData
 import android.content.Context
 import android.content.Intent
+import android.media.Ringtone
+import android.media.RingtoneManager
+import android.net.Uri
+import android.os.Build
 import android.os.Bundle
+import android.os.CountDownTimer
+import android.os.VibrationEffect
+import android.os.Vibrator
 import android.view.View
+import android.widget.ProgressBar
 import android.widget.RelativeLayout
 import android.widget.Toast
-import com.kp.beautytips.R
-import com.kp.beautytips.utils.ActivityUtils
-import com.kp.beautytips.utils.AppUtils
-import com.kp.beautytips.utils.Constants
+import androidx.cardview.widget.CardView
 import com.bumptech.glide.Glide
 import com.google.android.gms.ads.*
 import com.google.android.gms.ads.interstitial.InterstitialAd
 import com.google.android.gms.ads.interstitial.InterstitialAdLoadCallback
+import com.kp.beautytips.R
+import com.kp.beautytips.utils.ActivityUtils
+import com.kp.beautytips.utils.AppUtils
+import com.kp.beautytips.utils.Constants
 import io.github.inflationx.viewpump.ViewPumpContextWrapper
-
-
+import java.util.Locale
 
 class DetailsActivity : BaseActivity() {
     private var tabName: String = ""
@@ -29,6 +37,14 @@ class DetailsActivity : BaseActivity() {
     private var adRequest: AdRequest? = null
     private var mInterstitialAd: InterstitialAd? = null
     private var mAdIsLoading: Boolean = false
+
+    // Timer variables
+    private var durationText: String = ""
+    private var totalTimeInMillis: Long = 0
+    private var timeRemainingInMillis: Long = 0
+    private var countDownTimer: CountDownTimer? = null
+    private var isTimerRunning = false
+    private var ringtone: Ringtone? = null
 
     override fun attachBaseContext(newBase: Context) {
         val wrappedBase = ViewPumpContextWrapper.wrap(newBase)
@@ -52,12 +68,21 @@ class DetailsActivity : BaseActivity() {
         val lrShare = findViewById<View>(R.id.lrShare)
         val lrWhatShare = findViewById<View>(R.id.lrWhatShare)
 
+        // Timer views
+        val cardTimer = findViewById<CardView>(R.id.cardTimer)
+        val txtTimerDuration = findViewById<androidx.appcompat.widget.AppCompatTextView>(R.id.txtTimerDuration)
+        val progressTimer = findViewById<ProgressBar>(R.id.progressTimer)
+        val btnTimerStart = findViewById<androidx.appcompat.widget.AppCompatButton>(R.id.btnTimerStart)
+        val btnTimerReset = findViewById<androidx.appcompat.widget.AppCompatButton>(R.id.btnTimerReset)
+
         val bundle: Bundle? = intent.extras
         if (bundle != null) {
             tabName = bundle.getString("tabName").toString()
             title = bundle.getString("title").toString()
             image = bundle.getInt("image")
             details = bundle.getString("details").toString()
+            durationText = bundle.getString("descriptionName").toString()
+            
             txtTabTitle.text = tabName
             txtTitle.text = title
             txtDetails.text = details
@@ -67,6 +92,27 @@ class DetailsActivity : BaseActivity() {
                     image
                 )
             ).into(img)
+
+            // Setup timer if a valid duration exists
+            val parsedMinutes = extractMinutes(durationText)
+            if (parsedMinutes != null && parsedMinutes > 0) {
+                totalTimeInMillis = parsedMinutes * 60 * 1000L
+                timeRemainingInMillis = totalTimeInMillis
+                cardTimer.visibility = View.VISIBLE
+                updateTimerText(timeRemainingInMillis, txtTimerDuration)
+
+                btnTimerStart.setOnClickListener {
+                    if (isTimerRunning) {
+                        pauseTimer(btnTimerStart)
+                    } else {
+                        startTimer(txtTimerDuration, progressTimer, btnTimerStart)
+                    }
+                }
+
+                btnTimerReset.setOnClickListener {
+                    resetTimer(txtTimerDuration, progressTimer, btnTimerStart)
+                }
+            }
         }
         setSupportActionBar(toolBar)
         supportActionBar!!.setDisplayShowTitleEnabled(false)
@@ -91,6 +137,116 @@ class DetailsActivity : BaseActivity() {
 
         lrShare.setOnClickListener { shareContent() }
         lrWhatShare.setOnClickListener { shareContentOnlyWhatsapp() }
+    }
+
+    private fun extractMinutes(durationText: String): Int? {
+        val clean = durationText.lowercase(Locale.getDefault())
+        
+        // Handle ranges like "05-15 m" or "10-15 Min"
+        val rangePattern = Regex("(\\d+)\\s*-\\s*(\\d+)\\s*(min|m|minute|minutes|मिनट)")
+        val rangeMatch = rangePattern.find(clean)
+        if (rangeMatch != null) {
+            return rangeMatch.groupValues[2].toInt()
+        }
+
+        // Handle single numeric values
+        val pattern = Regex("(\\d+)\\s*(min|m|minute|minutes|मिनट|minuto|minutos)")
+        val match = pattern.find(clean)
+        if (match != null) {
+            return match.groupValues[1].toInt()
+        }
+        return null
+    }
+
+    private fun updateTimerText(millisUntilFinished: Long, textView: androidx.appcompat.widget.AppCompatTextView) {
+        val seconds = (millisUntilFinished / 1000) % 60
+        val minutes = (millisUntilFinished / 1000) / 60
+        val timeStr = String.format(Locale.getDefault(), "%02d:%02d", minutes, seconds)
+        textView.text = timeStr
+    }
+
+    private fun startTimer(
+        txtDuration: androidx.appcompat.widget.AppCompatTextView,
+        progressBar: ProgressBar,
+        btnStart: androidx.appcompat.widget.AppCompatButton
+    ) {
+        stopAlarm()
+
+        countDownTimer = object : CountDownTimer(timeRemainingInMillis, 1000) {
+            override fun onTick(millisUntilFinished: Long) {
+                timeRemainingInMillis = millisUntilFinished
+                updateTimerText(timeRemainingInMillis, txtDuration)
+                val progress = ((timeRemainingInMillis.toFloat() / totalTimeInMillis.toFloat()) * 100).toInt()
+                progressBar.progress = progress
+            }
+
+            override fun onFinish() {
+                timeRemainingInMillis = 0
+                updateTimerText(0, txtDuration)
+                progressBar.progress = 0
+                btnStart.text = "Start"
+                isTimerRunning = false
+                triggerAlarm()
+            }
+        }.start()
+
+        btnStart.text = "Pause"
+        isTimerRunning = true
+    }
+
+    private fun pauseTimer(btnStart: androidx.appcompat.widget.AppCompatButton) {
+        countDownTimer?.cancel()
+        btnStart.text = "Start"
+        isTimerRunning = false
+    }
+
+    private fun resetTimer(
+        txtDuration: androidx.appcompat.widget.AppCompatTextView,
+        progressBar: ProgressBar,
+        btnStart: androidx.appcompat.widget.AppCompatButton
+    ) {
+        countDownTimer?.cancel()
+        stopAlarm()
+        timeRemainingInMillis = totalTimeInMillis
+        updateTimerText(timeRemainingInMillis, txtDuration)
+        progressBar.progress = 100
+        btnStart.text = "Start"
+        isTimerRunning = false
+    }
+
+    private fun triggerAlarm() {
+        try {
+            val alarmUri: Uri = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION)
+            ringtone = RingtoneManager.getRingtone(applicationContext, alarmUri)
+            ringtone?.play()
+
+            val vibrator = getSystemService(Context.VIBRATOR_SERVICE) as Vibrator
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+                vibrator.vibrate(VibrationEffect.createOneShot(1000, VibrationEffect.DEFAULT_AMPLITUDE))
+            } else {
+                vibrator.vibrate(1000)
+            }
+
+            Toast.makeText(this, "Timer finished! Time to wash off.", Toast.LENGTH_LONG).show()
+        } catch (e: Exception) {
+            e.printStackTrace()
+        }
+    }
+
+    private fun stopAlarm() {
+        try {
+            if (ringtone?.isPlaying == true) {
+                ringtone?.stop()
+            }
+        } catch (e: Exception) {
+            e.printStackTrace()
+        }
+    }
+
+    override fun onDestroy() {
+        countDownTimer?.cancel()
+        stopAlarm()
+        super.onDestroy()
     }
 
     private fun copyToClipboard(copyText: String?) {
@@ -221,21 +377,16 @@ class DetailsActivity : BaseActivity() {
             mInterstitialAd?.fullScreenContentCallback = object : FullScreenContentCallback() {
                 override fun onAdDismissedFullScreenContent() {
                     AppUtils.logI("Ad was dismissed.")
-                    // Don't forget to set the ad reference to null so you
-                    // don't show the ad a second time.
                     mInterstitialAd = null
                 }
 
                 override fun onAdFailedToShowFullScreenContent(adError: AdError) {
                     AppUtils.logI("Ad failed to show.")
-                    // Don't forget to set the ad reference to null so you
-                    // don't show the ad a second time.
                     mInterstitialAd = null
                 }
 
                 override fun onAdShowedFullScreenContent() {
                     AppUtils.logI("Ad showed fullscreen content.")
-                    // Called when ad is dismissed.
                 }
             }
             mInterstitialAd?.show(this)

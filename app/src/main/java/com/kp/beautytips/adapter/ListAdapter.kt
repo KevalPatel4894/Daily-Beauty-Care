@@ -51,6 +51,7 @@ class ListAdapter(
             intent.putExtra("title", listArrayList[position].title)
             intent.putExtra("image", listArrayList[position].image)
             intent.putExtra("details", listArrayList[position].details)
+            intent.putExtra("descriptionName", listArrayList[position].descriptionName)
             it.context.startActivity(intent)
             AppUtils.startFromRightToLeft(it.context)
         }
