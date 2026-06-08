@@ -141,7 +141,8 @@
                             android:background="@drawable/default_background_rounded"
                             android:paddingStart="@dimen/_20sdp"
                             android:paddingEnd="@dimen/_20sdp"
-                            android:layout_marginEnd="@dimen/_10sdp"/>
+                            android:layout_marginEnd="@dimen/_10sdp"
+                            android:layout_marginBottom="@dimen/_5sdp"/>
 
                         <androidx.appcompat.widget.AppCompatButton
                             android:id="@+id/btnTimerReset"
@@ -151,7 +152,8 @@
                             android:textColor="@color/toolBarColor"
                             android:background="@drawable/white_background_rounded"
                             android:paddingStart="@dimen/_20sdp"
-                            android:paddingEnd="@dimen/_20sdp" />
+                            android:paddingEnd="@dimen/_20sdp"
+                            android:layout_marginBottom="@dimen/_5sdp"/>
 
                     </androidx.appcompat.widget.LinearLayoutCompat>
 
