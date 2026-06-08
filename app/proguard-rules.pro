@@ -22,3 +22,9 @@
 -keep public class * extends androidx.fragment.app.Fragment {
     public <init>();
 }
+
+# Keep model classes from obfuscation and shrinking
+-keep class com.kp.beautytips.model.** { *; }
+
+# Keep data and repository classes from obfuscation and shrinking
+-keep class com.kp.beautytips.data.** { *; }

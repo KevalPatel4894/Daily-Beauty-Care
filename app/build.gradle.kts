@@ -11,7 +11,7 @@ android {
         applicationId = "com.kp.beautytips"
         minSdk = 21
         targetSdk = 36
-        versionCode = 7
+        versionCode = 8
         versionName = "1.0.2"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -24,7 +24,7 @@ android {
         }
         getByName("release") {
             isMinifyEnabled = true
-            isShrinkResources = true
+            isShrinkResources = false
             proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
         }
     }
