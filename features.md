@@ -114,7 +114,7 @@ This document tracks all zero-budget features designed to maximize user retentio
 * **Details:** Add a theme selector in Settings (Light, Dark, System Default).
 * **Tech:** Android `AppCompatDelegate` night modes.
 
-### [ ] Feature 19: Text-to-Speech (Audio Tips Listener)
+### [x] Feature 19: Text-to-Speech (Audio Tips Listener)
 * **Goal:** Let users "listen" to the recipe steps while their hands are busy preparing or applying a mask.
 * **Details:** A "Play/Pause" speaker button on the details screen that reads the instructions aloud.
 * **Tech:** Android standard `TextToSpeech` API (100% free and native).

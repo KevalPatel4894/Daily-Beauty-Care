@@ -28,6 +28,8 @@ import com.kp.beautytips.utils.AppUtils
 import com.kp.beautytips.utils.Constants
 import io.github.inflationx.viewpump.ViewPumpContextWrapper
 import java.util.Locale
+import android.speech.tts.TextToSpeech
+import android.speech.tts.UtteranceProgressListener
 
 class DetailsActivity : BaseActivity() {
     private var tabName: String = ""
@@ -45,6 +47,10 @@ class DetailsActivity : BaseActivity() {
     private var countDownTimer: CountDownTimer? = null
     private var isTimerRunning = false
     private var ringtone: Ringtone? = null
+
+    // TTS variables
+    private var textToSpeech: TextToSpeech? = null
+    private var isTtsSpeaking = false
 
     override fun attachBaseContext(newBase: Context) {
         val wrappedBase = ViewPumpContextWrapper.wrap(newBase)
@@ -130,6 +136,70 @@ class DetailsActivity : BaseActivity() {
         mAdView.loadAd(adRequest!!)
 
         loadFullScreenAds()
+
+        val lrAudio = findViewById<View>(R.id.lrAudio)
+        val imgAudio = findViewById<androidx.appcompat.widget.AppCompatImageView>(R.id.imgAudio)
+
+        textToSpeech = TextToSpeech(this) { status ->
+            if (status == TextToSpeech.SUCCESS) {
+                val currentLocale = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
+                    resources.configuration.locales.get(0)
+                } else {
+                    @Suppress("DEPRECATION")
+                    resources.configuration.locale
+                } ?: Locale.getDefault()
+                
+                var result = textToSpeech?.setLanguage(currentLocale)
+                if (result == TextToSpeech.LANG_MISSING_DATA || result == TextToSpeech.LANG_NOT_SUPPORTED) {
+                    AppUtils.logI("TTS language $currentLocale is not supported or missing data, falling back to English")
+                    result = textToSpeech?.setLanguage(Locale.ENGLISH)
+                    if (result == TextToSpeech.LANG_MISSING_DATA || result == TextToSpeech.LANG_NOT_SUPPORTED) {
+                        AppUtils.logI("Fallback English language is also not supported")
+                    }
+                }
+                
+                textToSpeech?.setOnUtteranceProgressListener(object : UtteranceProgressListener() {
+                    override fun onStart(utteranceId: String?) {
+                        runOnUiThread {
+                            isTtsSpeaking = true
+                            imgAudio.setImageResource(R.drawable.ic_pause)
+                        }
+                    }
+
+                    override fun onDone(utteranceId: String?) {
+                        runOnUiThread {
+                            isTtsSpeaking = false
+                            imgAudio.setImageResource(R.drawable.ic_volume_up)
+                        }
+                    }
+
+                    @Deprecated("Deprecated in Java")
+                    override fun onError(utteranceId: String?) {
+                        runOnUiThread {
+                            isTtsSpeaking = false
+                            imgAudio.setImageResource(R.drawable.ic_volume_up)
+                        }
+                    }
+
+                    override fun onError(utteranceId: String?, errorCode: Int) {
+                        runOnUiThread {
+                            isTtsSpeaking = false
+                            imgAudio.setImageResource(R.drawable.ic_volume_up)
+                        }
+                    }
+                })
+            } else {
+                AppUtils.logI("TTS Initialization failed")
+            }
+        }
+
+        lrAudio.setOnClickListener {
+            if (isTtsSpeaking) {
+                stopSpeech(imgAudio)
+            } else {
+                startSpeech(imgAudio)
+            }
+        }
 
         lrCopy.setOnClickListener {
             copyToClipboard(details)
@@ -243,9 +313,44 @@ class DetailsActivity : BaseActivity() {
         }
     }
 
+    private fun startSpeech(imgAudio: androidx.appcompat.widget.AppCompatImageView) {
+        if (textToSpeech == null) {
+            Toast.makeText(this, "Audio Reader is not ready yet", Toast.LENGTH_SHORT).show()
+            return
+        }
+        val speechText = "$title. $details"
+        val params = Bundle()
+        params.putString(TextToSpeech.Engine.KEY_PARAM_UTTERANCE_ID, "remedyTextId")
+        val speakResult = textToSpeech?.speak(speechText, TextToSpeech.QUEUE_FLUSH, params, "remedyTextId")
+        if (speakResult == TextToSpeech.ERROR) {
+            Toast.makeText(this, "Error starting Audio Reader", Toast.LENGTH_SHORT).show()
+        } else {
+            isTtsSpeaking = true
+            imgAudio.setImageResource(R.drawable.ic_pause)
+        }
+    }
+
+    private fun stopSpeech(imgAudio: androidx.appcompat.widget.AppCompatImageView) {
+        textToSpeech?.stop()
+        isTtsSpeaking = false
+        imgAudio.setImageResource(R.drawable.ic_volume_up)
+    }
+
+    override fun onPause() {
+        if (isTtsSpeaking) {
+            val imgAudio = findViewById<androidx.appcompat.widget.AppCompatImageView>(R.id.imgAudio)
+            stopSpeech(imgAudio)
+        }
+        super.onPause()
+    }
+
     override fun onDestroy() {
         countDownTimer?.cancel()
         stopAlarm()
+        if (textToSpeech != null) {
+            textToSpeech?.stop()
+            textToSpeech?.shutdown()
+        }
         super.onDestroy()
     }
 
