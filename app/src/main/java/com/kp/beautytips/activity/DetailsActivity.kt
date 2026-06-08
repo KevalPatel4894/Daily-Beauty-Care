@@ -93,11 +93,7 @@ class DetailsActivity : BaseActivity() {
             txtTitle.text = title
             txtDetails.text = details
 
-            Glide.with(activity).load(
-                activity.getDrawable(
-                    image
-                )
-            ).into(img)
+            Glide.with(activity).load(image).into(img)
 
             // Setup timer if a valid duration exists
             val parsedMinutes = extractMinutes(durationText)

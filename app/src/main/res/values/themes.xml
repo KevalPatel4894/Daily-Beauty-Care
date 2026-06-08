@@ -25,4 +25,34 @@
         <item name="fontPath">fonts/lato_bold.ttf</item>
     </style>
 
+    <!-- Custom theme for Date/Time picker dialogs to keep text readable -->
+    <style name="DialogTheme" parent="Theme.MaterialComponents.Light.Dialog">
+        <item name="colorPrimary">@color/toolBarColor</item>
+        <item name="android:colorPrimary">@color/toolBarColor</item>
+        <item name="colorAccent">@color/toolBarColor</item>
+        <item name="android:colorAccent">@color/toolBarColor</item>
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="android:textColorSecondary">@color/black</item>
+        <item name="android:textColorPrimaryInverse">@color/white</item>
+        <item name="android:textColorSecondaryInverse">@color/white</item>
+        <item name="android:timePickerStyle">@style/CustomTimePickerStyle</item>
+        <item name="buttonBarPositiveButtonStyle">@style/DialogButtonStyle</item>
+        <item name="buttonBarNegativeButtonStyle">@style/DialogButtonStyle</item>
+        <item name="android:buttonBarPositiveButtonStyle">@style/DialogButtonStyle</item>
+        <item name="android:buttonBarNegativeButtonStyle">@style/DialogButtonStyle</item>
+    </style>
+
+    <style name="CustomTimePickerStyle" parent="android:Widget.Material.Light.TimePicker">
+        <item name="android:headerBackground">@color/toolBarColor</item>
+        <item name="android:numbersTextColor">@color/black</item>
+        <item name="android:numbersInnerTextColor">@color/black</item>
+        <item name="android:numbersSelectorColor">@color/toolBarColor</item>
+        <item name="android:numbersBackgroundColor">#FFEBEBEB</item>
+        <item name="android:amPmTextColor">@color/black</item>
+    </style>
+
+    <style name="DialogButtonStyle" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:textColor">@color/toolBarColor</item>
+    </style>
+
 </resources>

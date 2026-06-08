@@ -37,11 +37,7 @@ class CategoryAdapter(
         holder.cardView.setCardBackgroundColor(Color.parseColor(categoryArrayList[position].colorCode))
         holder.categoryName.text = categoryArrayList[position].categoryName
         holder.view.setBackgroundColor(Color.parseColor(categoryArrayList[position].viewColorCode))
-        Glide.with(holder.itemView.context).load(
-            holder.itemView.context.getDrawable(
-                categoryArrayList[position].image
-            )
-        ).into(holder.categoryImage)
+        Glide.with(holder.itemView.context).load(categoryArrayList[position].image).into(holder.categoryImage)
         holder.itemView.setOnClickListener {
             onItemClick.onItemClick(
                 categoryModel,

@@ -35,7 +35,7 @@ This document tracks all zero-budget features designed to maximize user retentio
 * **Details:** A private photo journal inside the app. Users write text notes and save photos of their face/hair to visually track progress of natural treatments.
 * **Tech:** Android SQLite/Room database and local file storage.
 
-### [ ] Feature 6: Daily Reminders & Habit Alarm Scheduler
+### [x] Feature 6: Daily Reminders & Habit Alarm Scheduler
 * **Goal:** Integrate self-care habits into the user's daily calendar.
 * **Details:** Custom alarm selectors for water intake, weekly face mask routines, or morning/night hair treatments. App triggers local notifications with motivating self-care tips.
 * **Tech:** Android `AlarmManager` and `NotificationManager`.

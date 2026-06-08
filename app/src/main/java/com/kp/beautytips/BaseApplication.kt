@@ -35,5 +35,6 @@ class BaseApplication : Application() {
                 /* .setTestDeviceIds(listOf(Constants.TEST_ID))*/
                 .build()
         )
+        com.kp.beautytips.utils.ReminderScheduler.createNotificationChannel(this)
     }
 }

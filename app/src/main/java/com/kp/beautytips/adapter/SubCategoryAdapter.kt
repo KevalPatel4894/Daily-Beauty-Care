@@ -33,11 +33,7 @@ class SubCategoryAdapter(
     override fun onBindViewHolder(holder: HomeHolder, position: Int) {
         val subCategoryModel = subCategoryArrayList[position]
         holder.categoryName.text = subCategoryArrayList[position].categoryName
-        Glide.with(holder.itemView.context).load(
-            holder.itemView.context.getDrawable(
-                subCategoryArrayList[position].image
-            )
-        ).into(holder.subCategoryImage)
+        Glide.with(holder.itemView.context).load(subCategoryArrayList[position].image).into(holder.subCategoryImage)
         holder.itemView.setOnClickListener {
             onItemClick.onItemClick(
                 subCategoryModel,

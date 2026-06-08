@@ -28,13 +28,15 @@
         android:layout_below="@+id/toolBar"
         android:layout_margin="@dimen/_15sdp"
         android:background="@drawable/default_background_rounded"
-        android:orientation="vertical"
-        android:padding="@dimen/_15sdp">
+        android:orientation="vertical">
 
         <!-- Switch row -->
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_marginEnd="@dimen/_8sdp"
             android:padding="@dimen/_8sdp">
 
             <androidx.appcompat.widget.AppCompatTextView
@@ -43,8 +45,7 @@
                 android:layout_centerVertical="true"
                 android:text="Enable Daily Reminders"
                 android:textColor="@color/white"
-                android:textSize="@dimen/_14sdp"
-                android:textStyle="bold" />
+                android:textSize="@dimen/_13sdp" />
 
             <androidx.appcompat.widget.SwitchCompat
                 android:id="@+id/switchReminder"
@@ -52,23 +53,19 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentEnd="true"
                 android:layout_centerVertical="true"
-                app:thumbTint="@color/white"
-                app:trackTint="@color/toolBarColor" />
+                app:thumbTint="@color/switch_thumb_color"
+                app:trackTint="@color/switch_track_color" />
         </RelativeLayout>
-
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:layout_marginTop="@dimen/_10sdp"
-            android:layout_marginBottom="@dimen/_10sdp"
-            android:background="@color/white"
-            android:alpha="0.3" />
 
         <!-- Time Selector Row -->
         <RelativeLayout
             android:id="@+id/rlTimePicker"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_marginEnd="@dimen/_8sdp"
+            android:layout_marginBottom="@dimen/_15sdp"
             android:background="?android:attr/selectableItemBackground"
             android:clickable="true"
             android:focusable="true"
@@ -97,13 +94,12 @@
                     android:layout_height="wrap_content"
                     android:text="09:00 AM"
                     android:textColor="@color/white"
-                    android:textSize="@dimen/_14sdp"
-                    android:textStyle="bold"
+                    android:textSize="@dimen/_13sdp"
                     android:layout_marginEnd="@dimen/_5sdp" />
 
                 <androidx.appcompat.widget.AppCompatImageView
-                    android:layout_width="@dimen/_18sdp"
-                    android:layout_height="@dimen/_18sdp"
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
                     android:src="@drawable/ic_arrow_forward"
                     android:tint="@color/white" />
 

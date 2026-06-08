@@ -86,7 +86,7 @@ class ReminderActivity : BaseActivity() {
                 val currentHour = sharedPrefs.getInt(ReminderScheduler.KEY_REMINDER_HOUR, 9)
                 val currentMinute = sharedPrefs.getInt(ReminderScheduler.KEY_REMINDER_MINUTE, 0)
                 
-                TimePickerDialog(this, { _, h, m ->
+                TimePickerDialog(this, R.style.DialogTheme, { _, h, m ->
                     sharedPrefs.edit()
                         .putInt(ReminderScheduler.KEY_REMINDER_HOUR, h)
                         .putInt(ReminderScheduler.KEY_REMINDER_MINUTE, m)

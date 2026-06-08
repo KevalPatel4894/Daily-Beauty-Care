@@ -40,11 +40,7 @@ class ListAdapter(
         } else {
             holder.description.visibility = View.GONE
         }
-        Glide.with(holder.itemView.context).load(
-            holder.itemView.context.getDrawable(
-                listArrayList[position].image
-            )
-        ).into(holder.image)
+        Glide.with(holder.itemView.context).load(listArrayList[position].image).into(holder.image)
         holder.itemView.setOnClickListener {
             val intent = Intent(it.context, DetailsActivity::class.java)
             intent.putExtra("tabName", tabName)
