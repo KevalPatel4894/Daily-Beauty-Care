@@ -173,6 +173,41 @@
         </RelativeLayout>
 
         <RelativeLayout
+            android:id="@+id/rlReminders"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_marginEnd="@dimen/_8sdp"
+            android:padding="@dimen/_8sdp">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/imgReminders"
+                android:layout_width="@dimen/_25sdp"
+                android:layout_height="@dimen/_25sdp"
+                android:src="@drawable/ic_settings"
+                android:layout_centerVertical="true" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:layout_toEndOf="@+id/imgReminders"
+                android:text="Daily Reminders"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_13sdp" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_arrow_forward" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
             android:id="@+id/rlLanguages"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

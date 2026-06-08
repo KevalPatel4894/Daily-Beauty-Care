@@ -71,7 +71,7 @@ This document tracks all zero-budget features designed to maximize user retentio
 * **Details:** Instead of sharing plain text, the app renders the beauty tip on a beautiful image card with background graphics, watermarked with your app logo and Google Play Store link.
 * **Tech:** Android `Canvas` View-to-Bitmap rendering and standard Share Intent.
 
-### [ ] Feature 12: "Shake to Suggest" Random Tip
+### [x] Feature 12: "Shake to Suggest" Random Tip
 * **Goal:** Add a fun, interactive easter egg that users share with friends.
 * **Details:** When the user shakes their phone, the app plays a subtle sound, vibrates, and opens a random high-rated beauty tip.
 * **Tech:** Android `SensorManager` (Accelerometer).

@@ -112,6 +112,14 @@ class SettingActivity : BaseActivity() {
             AppUtils.startFromRightToLeft(this)
         }
 
+        val rlReminders = findViewById<View>(R.id.rlReminders)
+        rlReminders.setOnClickListener {
+            Intent(this, ReminderActivity::class.java).also {
+                startActivity(it)
+                AppUtils.startFromRightToLeft(this)
+            }
+        }
+
         val rlLanguages = findViewById<View>(R.id.rlLanguages)
         rlLanguages.setOnClickListener {
             Intent(this, LanguagesActivity::class.java).also {

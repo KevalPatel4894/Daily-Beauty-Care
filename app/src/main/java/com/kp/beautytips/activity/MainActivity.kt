@@ -19,6 +19,15 @@ import com.google.android.gms.ads.*
 import com.google.android.gms.ads.interstitial.InterstitialAd
 import com.google.android.gms.ads.interstitial.InterstitialAdLoadCallback
 import io.github.inflationx.viewpump.ViewPumpContextWrapper
+import android.hardware.Sensor
+import android.hardware.SensorEvent
+import android.hardware.SensorEventListener
+import android.hardware.SensorManager
+import android.media.RingtoneManager
+import android.os.Build
+import android.os.VibrationEffect
+import android.os.Vibrator
+import com.kp.beautytips.data.TipRepository
 
 
 
@@ -27,6 +36,34 @@ class MainActivity : BaseActivity(), CategoryAdapter.OnItemClick {
     private var mInterstitialAd: InterstitialAd? = null
     private var mAdIsLoading: Boolean = false
     private lateinit var toolbar: Toolbar
+
+    // Shake Suggestion variables
+    private var sensorManager: SensorManager? = null
+    private var accelerometer: Sensor? = null
+    private var lastShakeTime: Long = 0
+    private val SHAKE_THRESHOLD = 2.7f
+    private val SHAKE_COOLDOWN_MS = 2000
+
+    private val sensorListener = object : SensorEventListener {
+        override fun onSensorChanged(event: SensorEvent?) {
+            if (event == null || event.sensor.type != Sensor.TYPE_ACCELEROMETER) return
+            
+            val x = event.values[0]
+            val y = event.values[1]
+            val z = event.values[2]
+            
+            val gForce = Math.sqrt((x * x + y * y + z * z).toDouble()) / SensorManager.GRAVITY_EARTH
+            if (gForce > SHAKE_THRESHOLD) {
+                val currentTime = System.currentTimeMillis()
+                if (currentTime - lastShakeTime > SHAKE_COOLDOWN_MS) {
+                    lastShakeTime = currentTime
+                    triggerShakeSuggestion()
+                }
+            }
+        }
+
+        override fun onAccuracyChanged(sensor: Sensor?, accuracy: Int) {}
+    }
 
 
     override fun attachBaseContext(newBase: Context) {
@@ -37,6 +74,10 @@ class MainActivity : BaseActivity(), CategoryAdapter.OnItemClick {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        
+        sensorManager = getSystemService(Context.SENSOR_SERVICE) as SensorManager
+        accelerometer = sensorManager?.getDefaultSensor(Sensor.TYPE_ACCELEROMETER)
+        
         init()
     }
 
@@ -185,6 +226,53 @@ class MainActivity : BaseActivity(), CategoryAdapter.OnItemClick {
                 }
             }
             mInterstitialAd?.show(this)
+        }
+    }
+
+    override fun onResume() {
+        super.onResume()
+        accelerometer?.let {
+            sensorManager?.registerListener(sensorListener, it, SensorManager.SENSOR_DELAY_UI)
+        }
+    }
+
+    override fun onPause() {
+        sensorManager?.unregisterListener(sensorListener)
+        super.onPause()
+    }
+
+    private fun triggerShakeSuggestion() {
+        try {
+            // Haptic Feedback (Vibration)
+            val vibrator = getSystemService(Context.VIBRATOR_SERVICE) as Vibrator
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+                vibrator.vibrate(VibrationEffect.createOneShot(300, VibrationEffect.DEFAULT_AMPLITUDE))
+            } else {
+                vibrator.vibrate(300)
+            }
+
+            // Audio Feedback (Short notification beep)
+            val notificationUri = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION)
+            val ringtone = RingtoneManager.getRingtone(applicationContext, notificationUri)
+            ringtone?.play()
+
+            // Fetch dynamic tips
+            val allTips = TipRepository.getAllTips(this)
+            if (allTips.isNotEmpty()) {
+                val randomTip = allTips.shuffled().first()
+                
+                Intent(this, DetailsActivity::class.java).also { intent ->
+                    intent.putExtra("tabName", "Daily Suggestion")
+                    intent.putExtra("title", randomTip.title)
+                    intent.putExtra("image", randomTip.image)
+                    intent.putExtra("details", randomTip.details)
+                    intent.putExtra("descriptionName", randomTip.descriptionName)
+                    startActivity(intent)
+                    AppUtils.startFromRightToLeft(this)
+                }
+            }
+        } catch (e: Exception) {
+            e.printStackTrace()
         }
     }
 }
