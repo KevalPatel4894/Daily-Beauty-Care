@@ -57,9 +57,12 @@
 
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:layout_above="@+id/lrMainShare"
-        android:layout_below="@+id/lrMain">
+        android:layout_below="@+id/lrMain"
+        android:fillViewport="true"
+        android:paddingBottom="@dimen/_20sdp"
+        android:clipToPadding="false">
 
         <androidx.appcompat.widget.LinearLayoutCompat
             android:layout_width="match_parent"

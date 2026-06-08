@@ -3,14 +3,16 @@
     <string name="app_name">Daily Beauty Care</string>
 
     <!--ads local-->
-<!--    <string name="admob_app_id" translatable="false">ca-app-pub-5201293285638793~1348054154</string>
+    <string name="admob_app_id" translatable="false">ca-app-pub-5201293285638793~1348054154</string>
     <string name="banner_home_footer" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
-    <string name="interstitial_full_screen" translatable="false">ca-app-pub-3940256099942544/1033173712</string>-->
+    <string name="interstitial_full_screen" translatable="false">ca-app-pub-3940256099942544/1033173712</string>
 
     <!--ads live-->
+<!--
     <string name="admob_app_id" translatable="false">ca-app-pub-8227493781755679~1497458469</string>
     <string name="banner_home_footer" translatable="false">ca-app-pub-8227493781755679/4181910678</string>
     <string name="interstitial_full_screen" translatable="false">ca-app-pub-8227493781755679/4153990513</string>
+-->
 
     //List
     <string name="accupressure_point_palm_side">accupressure point on palm side</string>
