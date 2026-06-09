@@ -33,6 +33,10 @@ import com.google.android.play.core.appupdate.AppUpdateManagerFactory
 import com.google.android.play.core.install.model.AppUpdateType
 import com.google.android.play.core.install.model.UpdateAvailability
 import android.widget.Toast
+import androidx.appcompat.widget.AppCompatTextView
+import java.text.SimpleDateFormat
+import java.util.Calendar
+import java.util.Locale
 
 
 
@@ -155,6 +159,14 @@ class MainActivity : BaseActivity(), CategoryAdapter.OnItemClick {
             }
         }
 
+        val cardCheckInBanner = findViewById<View>(R.id.cardCheckInBanner)
+        cardCheckInBanner.setOnClickListener {
+            Intent(this, CheckInActivity::class.java).also {
+                startActivity(it)
+                AppUtils.startFromRightToLeft(this)
+            }
+        }
+
         val imgSearch = findViewById<androidx.appcompat.widget.AppCompatImageView>(R.id.imgSearch)
         imgSearch.setOnClickListener {
             Intent(this, SearchActivity::class.java).also {
@@ -252,6 +264,25 @@ class MainActivity : BaseActivity(), CategoryAdapter.OnItemClick {
         super.onResume()
         accelerometer?.let {
             sensorManager?.registerListener(sensorListener, it, SensorManager.SENSOR_DELAY_UI)
+        }
+
+        // Update Daily Check-In status on banner
+        try {
+            val sharedPrefs = getSharedPreferences("DailyBeautyCarePrefs", Context.MODE_PRIVATE)
+            val streak = sharedPrefs.getInt("check_in_streak", 0)
+            val checkInDates = sharedPrefs.getStringSet("check_in_dates", emptySet()) ?: emptySet()
+            val todayStr = SimpleDateFormat("yyyy-MM-dd", Locale.US).format(Calendar.getInstance().time)
+            val isCheckedInToday = checkInDates.contains(todayStr)
+
+            val txtCheckInSubtitle = findViewById<AppCompatTextView>(R.id.txtCheckInSubtitle)
+            if (isCheckedInToday) {
+                val streakStr = String.format(getString(R.string.check_in_streak_format), streak)
+                txtCheckInSubtitle.text = "$streakStr - ${getString(R.string.checked_in_today)}"
+            } else {
+                txtCheckInSubtitle.text = getString(R.string.check_in_subtitle)
+            }
+        } catch (e: Exception) {
+            e.printStackTrace()
         }
         
         // Resume in-progress update if any

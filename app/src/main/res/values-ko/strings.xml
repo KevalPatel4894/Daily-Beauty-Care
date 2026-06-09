@@ -3419,4 +3419,25 @@
     <string name="challenge_task_bright_eyes_day6_details">신선한 알로에 베라 겔을 눈 밑에 2분 동안 가볍게 두드려 줍니다. 15분 후 씻어냅니다.</string>
     <string name="challenge_task_bright_eyes_day7_title">안구 롤링 및 초점 맞추기 운동</string>
     <string name="challenge_task_bright_eyes_day7_details">눈을 시계 방향과 반시계 방향으로 굴린 후, 1분 동안 빠르게 깜박여 혈류를 촉진합니다.</string>
+
+    <!-- Auto-Generated Translations for Daily Check-In & Streaks Feature -->
+    <string name="daily_check_in">일일 체크인</string>
+    <string name="check_in_streak_format" formatted="false">%1$d일</string>
+    <string name="check_in_subtitle">일일 체크인을 기록하고 연속 일수를 쌓으려면 탭하세요!</string>
+    <string name="checked_in_today">오늘 체크인을 완료했습니다!</string>
+    <string name="check_in_now">오늘 체크인하기</string>
+    <string name="checked_in">체크인 완료</string>
+    <string name="check_in_success_toast" formatted="false">체크인 성공! 현재 연속 체크인: %1$d일</string>
+    <string name="weekly_progress">주간 진행 상황</string>
+    <string name="achievements_badges">획득한 배지</string>
+    <string name="bronze_glow_title">브론즈 글로우</string>
+    <string name="bronze_glow_desc">연속 체크인 3일 달성</string>
+    <string name="silver_beauty_title">실버 뷰티</string>
+    <string name="silver_beauty_desc">연속 체크인 7일 달성</string>
+    <string name="gold_selfcare_title">골드 셀프케어</string>
+    <string name="gold_selfcare_desc">연속 체크인 15일 달성</string>
+    <string name="diamond_guru_title">다이아몬드 구루</string>
+    <string name="diamond_guru_desc">연속 체크인 30일 달성</string>
+    <string name="locked">잠김</string>
+    <string name="unlocked">잠금 해제됨</string>
 </resources>

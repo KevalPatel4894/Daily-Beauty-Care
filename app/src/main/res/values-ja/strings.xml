@@ -3419,4 +3419,25 @@
     <string name="challenge_task_bright_eyes_day6_details">新鮮なアロエベラジェルをごく少量、目の下に2分間優しくタッピングします。15分後に洗い流します。</string>
     <string name="challenge_task_bright_eyes_day7_title">アイロール＆フォーカス運動</string>
     <string name="challenge_task_bright_eyes_day7_details">目を時計回りと反時計回りに回し、その後1分間素早く瞬きをして血流を促進します。</string>
+
+    <!-- Auto-Generated Translations for Daily Check-In & Streaks Feature -->
+    <string name="daily_check_in">毎日チェックイン</string>
+    <string name="check_in_streak_format" formatted="false">%1$d 日間</string>
+    <string name="check_in_subtitle">タップして毎日のチェックインを記録し、継続日数を増やしましょう！</string>
+    <string name="checked_in_today">本日のチェックインは完了しています！</string>
+    <string name="check_in_now">今日チェックインする</string>
+    <string name="checked_in">チェックイン済み</string>
+    <string name="check_in_success_toast" formatted="false">チェックイン完了！現在の継続日数：%1$d 日間</string>
+    <string name="weekly_progress">今週の進捗</string>
+    <string name="achievements_badges">アンロックされたバッジ</string>
+    <string name="bronze_glow_title">ブロンズの輝き</string>
+    <string name="bronze_glow_desc">チェックインを 3 日間継続する</string>
+    <string name="silver_beauty_title">シルバービューティー</string>
+    <string name="silver_beauty_desc">チェックインを 7 日間継続する</string>
+    <string name="gold_selfcare_title">ゴールドセルフケア</string>
+    <string name="gold_selfcare_desc">チェックインを 15 日间継続する</string>
+    <string name="diamond_guru_title">ダイヤモンドの達人</string>
+    <string name="diamond_guru_desc">チェックインを 30 日間継続する</string>
+    <string name="locked">ロック中</string>
+    <string name="unlocked">解除済み</string>
 </resources>

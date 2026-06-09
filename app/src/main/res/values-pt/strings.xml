@@ -3419,4 +3419,25 @@
     <string name="challenge_task_bright_eyes_day6_details">Aplique suavemente uma pequena quantidade de gel de aloe vera sob os olhos por 2 minutos. Enxágue após 15 minutos.</string>
     <string name="challenge_task_bright_eyes_day7_title">Exercícios de foco e rotação ocular</string>
     <string name="challenge_task_bright_eyes_day7_details">Gira os olhos no sentido horário e anti-horário, depois pisque rapidamente por 1 minuto para estimular o fluxo sanguíneo.</string>
+
+    <!-- Auto-Generated Translations for Daily Check-In & Streaks Feature -->
+    <string name="daily_check_in">Check-in Diário</string>
+    <string name="check_in_streak_format" formatted="false">%1$d Dias</string>
+    <string name="check_in_subtitle">Toque para registrar seu check-in diário e aumentar seus dias!</string>
+    <string name="checked_in_today">Você já fez o check-in hoje!</string>
+    <string name="check_in_now">Fazer Check-In Hoje</string>
+    <string name="checked_in">Registrado</string>
+    <string name="check_in_success_toast" formatted="false">Check-in realizado! Sequência atual: %1$d Dias</string>
+    <string name="weekly_progress">Progresso Semanal</string>
+    <string name="achievements_badges">Conquistas Desbloqueadas</string>
+    <string name="bronze_glow_title">Brilho de Bronze</string>
+    <string name="bronze_glow_desc">Alcance uma sequência de 3 dias de check-in</string>
+    <string name="silver_beauty_title">Beleza de Prata</string>
+    <string name="silver_beauty_desc">Alcance uma sequência de 7 dias de check-in</string>
+    <string name="gold_selfcare_title">Autocuidado de Ouro</string>
+    <string name="gold_selfcare_desc">Alcance uma sequência de 15 dias de check-in</string>
+    <string name="diamond_guru_title">Guru de Diamante</string>
+    <string name="diamond_guru_desc">Alcance uma sequência de 30 dias de check-in</string>
+    <string name="locked">Bloqueado</string>
+    <string name="unlocked">Desbloqueado</string>
 </resources>

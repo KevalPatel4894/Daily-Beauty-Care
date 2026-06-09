@@ -3419,4 +3419,25 @@
     <string name="challenge_task_bright_eyes_day6_details">Klopfen Sie 2 Minuten lang eine winzige Menge frisches Aloe-Vera-Gel sanft unter Ihre Augen. Nach 15 Minuten abwaschen.</string>
     <string name="challenge_task_bright_eyes_day7_title">Augenrollen &amp; Fokusübungen</string>
     <string name="challenge_task_bright_eyes_day7_details">Rollen Sie Ihre Augen im Uhrzeigersinn und gegen den Uhrzeigersinn, blinzeln Sie dann 1 minute lang schnell, um die Durchblutung zu fördern.</string>
+
+    <!-- Auto-Generated Translations for Daily Check-In & Streaks Feature -->
+    <string name="daily_check_in">Täglicher Check-in</string>
+    <string name="check_in_streak_format" formatted="false">%1$d Tage</string>
+    <string name="check_in_subtitle">Tippen Sie hier, um Ihren täglichen Check-in zu registrieren!</string>
+    <string name="checked_in_today">Sie sind für heute eingetragen!</string>
+    <string name="check_in_now">Heute einchecken</string>
+    <string name="checked_in">Eingecheckt</string>
+    <string name="check_in_success_toast" formatted="false">Check-in erfolgreich! Aktuelle Serie: %1$d Tage</string>
+    <string name="weekly_progress">Wöchentlicher Fortschritt</string>
+    <string name="achievements_badges">Freigeschaltete Abzeichen</string>
+    <string name="bronze_glow_title">Bronzenes Leuchten</string>
+    <string name="bronze_glow_desc">Erreichen Sie eine 3-Tage-Check-in-Serie</string>
+    <string name="silver_beauty_title">Silberne Schönheit</string>
+    <string name="silver_beauty_desc">Erreichen Sie eine 7-Tage-Check-in-Serie</string>
+    <string name="gold_selfcare_title">Goldene Selbstpflege</string>
+    <string name="gold_selfcare_desc">Erreichen Sie eine 15-Tage-Check-in-Serie</string>
+    <string name="diamond_guru_title">Diamant-Guru</string>
+    <string name="diamond_guru_desc">Erreichen Sie eine 30-Tage-Check-in-Serie</string>
+    <string name="locked">Gesperrt</string>
+    <string name="unlocked">Freigeschaltet</string>
 </resources>

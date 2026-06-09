@@ -3430,4 +3430,25 @@
     <string name="challenge_task_bright_eyes_day6_details">Gently tap a tiny amount of fresh aloe vera gel under your eyes for 2 minutes. Wash off after 15 minutes.</string>
     <string name="challenge_task_bright_eyes_day7_title">Eye Roll &amp; Focus Exercises</string>
     <string name="challenge_task_bright_eyes_day7_details">Roll your eyes in clockwise and counter-clockwise directions, then blink rapidly for 1 minute to boost blood flow.</string>
+
+    <!-- Auto-Generated Translations for Daily Check-In & Streaks Feature -->
+    <string name="daily_check_in">Daily Check-In</string>
+    <string name="check_in_streak_format" formatted="false">%1$d Days</string>
+    <string name="check_in_subtitle">Tap to record your daily check-in &amp; build streaks!</string>
+    <string name="checked_in_today">You are checked in for today!</string>
+    <string name="check_in_now">Check-In Today</string>
+    <string name="checked_in">Checked In</string>
+    <string name="check_in_success_toast" formatted="false">Check-in successful! Current streak: %1$d Days</string>
+    <string name="weekly_progress">Weekly Progress</string>
+    <string name="achievements_badges">Unlocked Badges</string>
+    <string name="bronze_glow_title">Bronze Glow</string>
+    <string name="bronze_glow_desc">Reach a 3-day check-in streak</string>
+    <string name="silver_beauty_title">Silver Beauty</string>
+    <string name="silver_beauty_desc">Reach a 7-day check-in streak</string>
+    <string name="gold_selfcare_title">Gold Self-Care</string>
+    <string name="gold_selfcare_desc">Reach a 15-day check-in streak</string>
+    <string name="diamond_guru_title">Diamond Guru</string>
+    <string name="diamond_guru_desc">Reach a 30-day check-in streak</string>
+    <string name="locked">Locked</string>
+    <string name="unlocked">Unlocked</string>
 </resources>

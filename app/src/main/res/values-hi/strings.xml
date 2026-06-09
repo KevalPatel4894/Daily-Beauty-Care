@@ -3419,4 +3419,25 @@
     <string name="challenge_task_bright_eyes_day6_details">अपनी आंखों के नीचे 2 मिनट के लिए ताजा एलोवेरा जेल थपथपाएं। 15 मिनट बाद धो लें।</string>
     <string name="challenge_task_bright_eyes_day7_title">आई रोल और फोकस एक्सरसाइज</string>
     <string name="challenge_task_bright_eyes_day7_details">अपनी आंखों को दक्षिणावर्त और वामावर्त दिशाओं में घुमाएं, फिर रक्त प्रवाह बढ़ाने के लिए 1 मिनट तक तेजी से पलकें झपकाएं।</string>
+
+    <!-- Auto-Generated Translations for Daily Check-In & Streaks Feature -->
+    <string name="daily_check_in">दैनिक चेक-इन</string>
+    <string name="check_in_streak_format" formatted="false">%1$d दिन</string>
+    <string name="check_in_subtitle">अपने दैनिक चेक-इन को रिकॉर्ड करने के लिए टैप करें!</string>
+    <string name="checked_in_today">आप आज के लिए चेक-इन कर चुके हैं!</string>
+    <string name="check_in_now">आज चेक-इन करें</string>
+    <string name="checked_in">चेक-इन किया गया</string>
+    <string name="check_in_success_toast" formatted="false">चेक-इन सफल! वर्तमान लकीर: %1$d दिन</string>
+    <string name="weekly_progress">साप्ताहिक प्रगति</string>
+    <string name="achievements_badges">अनलॉक किए गए बैज</string>
+    <string name="bronze_glow_title">कांस्य चमक</string>
+    <string name="bronze_glow_desc">3-दिवसीय चेक-इन लकीर तक पहुंचें</string>
+    <string name="silver_beauty_title">रजत सौंदर्य</string>
+    <string name="silver_beauty_desc">7-दिवसीय चेक-इन लकीर तक पहुंचें</string>
+    <string name="gold_selfcare_title">स्वर्ण स्व-देखभाल</string>
+    <string name="gold_selfcare_desc">15-दिवसीय चेक-इन लकीर तक पहुंचें</string>
+    <string name="diamond_guru_title">डायमंड गुरु</string>
+    <string name="diamond_guru_desc">30-दिवसीय चेक-इन लकीर तक पहुंचें</string>
+    <string name="locked">लॉक है</string>
+    <string name="unlocked">अनलॉक है</string>
 </resources>

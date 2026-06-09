@@ -1,0 +1,729 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:fitsSystemWindows="true"
+    tools:context=".activity.CheckInActivity">
+
+    <!-- Toolbar -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/toolBarColor">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txtTabTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/daily_check_in"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/_18sdp"
+            android:textStyle="bold" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <!-- Scrollable content -->
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/ad_view"
+        android:layout_below="@+id/toolBar"
+        android:fillViewport="true">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/_12sdp">
+
+            <!-- 1. STREAK STATUS CARD -->
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_10sdp"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="4dp"
+                app:cardBackgroundColor="@android:color/white"
+                app:strokeWidth="0dp">
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:padding="@dimen/_15sdp">
+
+                    <!-- Flame Icon with Glow/Shadow effect or just large size -->
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:id="@+id/imgFlameBig"
+                        android:layout_width="@dimen/_60sdp"
+                        android:layout_height="@dimen/_60sdp"
+                        android:src="@drawable/ic_streak_flame"
+                        android:contentDescription="@string/daily_check_in" />
+
+                    <!-- Streak Number -->
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/txtStreakCount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_4sdp"
+                        android:text="0"
+                        android:textColor="#FF7043"
+                        android:textSize="40sp"
+                        android:textStyle="bold" />
+
+                    <!-- Streak Text -->
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/txtStreakLabel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/check_in_streak_format"
+                        android:textColor="#555555"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_4sdp"
+                        android:text="@string/check_in_subtitle"
+                        android:textColor="#888888"
+                        android:textSize="12sp"
+                        android:gravity="center" />
+
+                    <!-- Action Button -->
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/btnCheckIn"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_40sdp"
+                        android:layout_marginTop="@dimen/_12sdp"
+                        android:text="@string/check_in_now"
+                        android:textColor="@android:color/white"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        app:cornerRadius="24dp"
+                        app:backgroundTint="#2E7D32"
+                        app:rippleColor="#FFFFFF" />
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- 2. WEEKLY PROGRESS SECTION -->
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_6sdp"
+                android:text="@string/weekly_progress"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_10sdp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="3dp"
+                app:cardBackgroundColor="@android:color/white"
+                app:strokeWidth="0dp">
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingTop="@dimen/_10sdp"
+                    android:paddingBottom="@dimen/_10sdp"
+                    android:gravity="center">
+
+                    <!-- Repeat for 7 Days (Mon-Sun) -->
+                    <!-- Day 1 -->
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:gravity="center">
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/txtDayName1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Mon"
+                            android:textColor="#555555"
+                            android:textSize="11sp"
+                            android:textStyle="bold" />
+
+                        <FrameLayout
+                            android:id="@+id/frameDayCircle1"
+                            android:layout_width="@dimen/_28sdp"
+                            android:layout_height="@dimen/_28sdp"
+                            android:layout_marginTop="@dimen/_4sdp"
+                            android:background="@drawable/circle_gray_border">
+
+                            <androidx.appcompat.widget.AppCompatTextView
+                                android:id="@+id/txtDayNum1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:text="1"
+                                android:textColor="#555555"
+                                android:textSize="12sp"
+                                android:textStyle="bold" />
+
+                            <androidx.appcompat.widget.AppCompatImageView
+                                android:id="@+id/imgDayCheck1"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/ic_check_circle_green"
+                                android:visibility="gone" />
+                        </FrameLayout>
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+                    <!-- Day 2 -->
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:gravity="center">
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/txtDayName2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Tue"
+                            android:textColor="#555555"
+                            android:textSize="11sp"
+                            android:textStyle="bold" />
+
+                        <FrameLayout
+                            android:id="@+id/frameDayCircle2"
+                            android:layout_width="@dimen/_28sdp"
+                            android:layout_height="@dimen/_28sdp"
+                            android:layout_marginTop="@dimen/_4sdp"
+                            android:background="@drawable/circle_gray_border">
+
+                            <androidx.appcompat.widget.AppCompatTextView
+                                android:id="@+id/txtDayNum2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:text="2"
+                                android:textColor="#555555"
+                                android:textSize="12sp"
+                                android:textStyle="bold" />
+
+                            <androidx.appcompat.widget.AppCompatImageView
+                                android:id="@+id/imgDayCheck2"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/ic_check_circle_green"
+                                android:visibility="gone" />
+                        </FrameLayout>
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+                    <!-- Day 3 -->
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:gravity="center">
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/txtDayName3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Wed"
+                            android:textColor="#555555"
+                            android:textSize="11sp"
+                            android:textStyle="bold" />
+
+                        <FrameLayout
+                            android:id="@+id/frameDayCircle3"
+                            android:layout_width="@dimen/_28sdp"
+                            android:layout_height="@dimen/_28sdp"
+                            android:layout_marginTop="@dimen/_4sdp"
+                            android:background="@drawable/circle_gray_border">
+
+                            <androidx.appcompat.widget.AppCompatTextView
+                                android:id="@+id/txtDayNum3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:text="3"
+                                android:textColor="#555555"
+                                android:textSize="12sp"
+                                android:textStyle="bold" />
+
+                            <androidx.appcompat.widget.AppCompatImageView
+                                android:id="@+id/imgDayCheck3"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/ic_check_circle_green"
+                                android:visibility="gone" />
+                        </FrameLayout>
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+                    <!-- Day 4 -->
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:gravity="center">
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/txtDayName4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Thu"
+                            android:textColor="#555555"
+                            android:textSize="11sp"
+                            android:textStyle="bold" />
+
+                        <FrameLayout
+                            android:id="@+id/frameDayCircle4"
+                            android:layout_width="@dimen/_28sdp"
+                            android:layout_height="@dimen/_28sdp"
+                            android:layout_marginTop="@dimen/_4sdp"
+                            android:background="@drawable/circle_gray_border">
+
+                            <androidx.appcompat.widget.AppCompatTextView
+                                android:id="@+id/txtDayNum4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:text="4"
+                                android:textColor="#555555"
+                                android:textSize="12sp"
+                                android:textStyle="bold" />
+
+                            <androidx.appcompat.widget.AppCompatImageView
+                                android:id="@+id/imgDayCheck4"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/ic_check_circle_green"
+                                android:visibility="gone" />
+                        </FrameLayout>
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+                    <!-- Day 5 -->
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:gravity="center">
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/txtDayName5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Fri"
+                            android:textColor="#555555"
+                            android:textSize="11sp"
+                            android:textStyle="bold" />
+
+                        <FrameLayout
+                            android:id="@+id/frameDayCircle5"
+                            android:layout_width="@dimen/_28sdp"
+                            android:layout_height="@dimen/_28sdp"
+                            android:layout_marginTop="@dimen/_4sdp"
+                            android:background="@drawable/circle_gray_border">
+
+                            <androidx.appcompat.widget.AppCompatTextView
+                                android:id="@+id/txtDayNum5"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:text="5"
+                                android:textColor="#555555"
+                                android:textSize="12sp"
+                                android:textStyle="bold" />
+
+                            <androidx.appcompat.widget.AppCompatImageView
+                                android:id="@+id/imgDayCheck5"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/ic_check_circle_green"
+                                android:visibility="gone" />
+                        </FrameLayout>
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+                    <!-- Day 6 -->
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:gravity="center">
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/txtDayName6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Sat"
+                            android:textColor="#555555"
+                            android:textSize="11sp"
+                            android:textStyle="bold" />
+
+                        <FrameLayout
+                            android:id="@+id/frameDayCircle6"
+                            android:layout_width="@dimen/_28sdp"
+                            android:layout_height="@dimen/_28sdp"
+                            android:layout_marginTop="@dimen/_4sdp"
+                            android:background="@drawable/circle_gray_border">
+
+                            <androidx.appcompat.widget.AppCompatTextView
+                                android:id="@+id/txtDayNum6"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:text="6"
+                                android:textColor="#555555"
+                                android:textSize="12sp"
+                                android:textStyle="bold" />
+
+                            <androidx.appcompat.widget.AppCompatImageView
+                                android:id="@+id/imgDayCheck6"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/ic_check_circle_green"
+                                android:visibility="gone" />
+                        </FrameLayout>
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+                    <!-- Day 7 -->
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:gravity="center">
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/txtDayName7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Sun"
+                            android:textColor="#555555"
+                            android:textSize="11sp"
+                            android:textStyle="bold" />
+
+                        <FrameLayout
+                            android:id="@+id/frameDayCircle7"
+                            android:layout_width="@dimen/_28sdp"
+                            android:layout_height="@dimen/_28sdp"
+                            android:layout_marginTop="@dimen/_4sdp"
+                            android:background="@drawable/circle_gray_border">
+
+                            <androidx.appcompat.widget.AppCompatTextView
+                                android:id="@+id/txtDayNum7"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:text="7"
+                                android:textColor="#555555"
+                                android:textSize="12sp"
+                                android:textStyle="bold" />
+
+                            <androidx.appcompat.widget.AppCompatImageView
+                                android:id="@+id/imgDayCheck7"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/ic_check_circle_green"
+                                android:visibility="gone" />
+                        </FrameLayout>
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- 3. UNLOCKED BADGES SECTION -->
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_4sdp"
+                android:layout_marginBottom="@dimen/_6sdp"
+                android:text="@string/achievements_badges"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <!-- Grid of 4 Badges (2x2) using linear layouts for responsive safety -->
+            <!-- Row 1 -->
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="@dimen/_6sdp">
+
+                <!-- Badge 1: Bronze Glow -->
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/cardBadge1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="@dimen/_4sdp"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="2dp"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:strokeWidth="0dp">
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:padding="@dimen/_10sdp">
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:id="@+id/imgBadge1"
+                            android:layout_width="@dimen/_40sdp"
+                            android:layout_height="@dimen/_40sdp"
+                            android:src="@drawable/ic_badge_gold"
+                            app:tint="#CD7F32" /> <!-- Bronze Tint -->
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/txtBadgeTitle1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_4sdp"
+                            android:text="@string/bronze_glow_title"
+                            android:textColor="@color/black"
+                            android:textSize="13sp"
+                            android:textStyle="bold"
+                            android:gravity="center" />
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/txtBadgeDesc1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="2dp"
+                            android:text="@string/bronze_glow_desc"
+                            android:textColor="#777777"
+                            android:textSize="10sp"
+                            android:gravity="center" />
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/txtBadgeStatus1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_4sdp"
+                            android:text="@string/locked"
+                            android:textColor="#E87A8D"
+                            android:textSize="10sp"
+                            android:textStyle="bold" />
+
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+                </com.google.android.material.card.MaterialCardView>
+
+                <!-- Badge 2: Silver Beauty -->
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/cardBadge2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginStart="@dimen/_4sdp"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="2dp"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:strokeWidth="0dp">
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:padding="@dimen/_10sdp">
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:id="@+id/imgBadge2"
+                            android:layout_width="@dimen/_40sdp"
+                            android:layout_height="@dimen/_40sdp"
+                            android:src="@drawable/ic_badge_gold"
+                            app:tint="#C0C0C0" /> <!-- Silver Tint -->
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/txtBadgeTitle2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_4sdp"
+                            android:text="@string/silver_beauty_title"
+                            android:textColor="@color/black"
+                            android:textSize="13sp"
+                            android:textStyle="bold"
+                            android:gravity="center" />
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/txtBadgeDesc2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="2dp"
+                            android:text="@string/silver_beauty_desc"
+                            android:textColor="#777777"
+                            android:textSize="10sp"
+                            android:gravity="center" />
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/txtBadgeStatus2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_4sdp"
+                            android:text="@string/locked"
+                            android:textColor="#E87A8D"
+                            android:textSize="10sp"
+                            android:textStyle="bold" />
+
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+                </com.google.android.material.card.MaterialCardView>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <!-- Row 2 -->
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="@dimen/_10sdp">
+
+                <!-- Badge 3: Gold Self-Care -->
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/cardBadge3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="@dimen/_4sdp"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="2dp"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:strokeWidth="0dp">
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:padding="@dimen/_10sdp">
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:id="@+id/imgBadge3"
+                            android:layout_width="@dimen/_40sdp"
+                            android:layout_height="@dimen/_40sdp"
+                            android:src="@drawable/ic_badge_gold"
+                            app:tint="#FFD700" /> <!-- Gold Tint -->
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/txtBadgeTitle3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_4sdp"
+                            android:text="@string/gold_selfcare_title"
+                            android:textColor="@color/black"
+                            android:textSize="13sp"
+                            android:textStyle="bold"
+                            android:gravity="center" />
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/txtBadgeDesc3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="2dp"
+                            android:text="@string/gold_selfcare_desc"
+                            android:textColor="#777777"
+                            android:textSize="10sp"
+                            android:gravity="center" />
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/txtBadgeStatus3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_4sdp"
+                            android:text="@string/locked"
+                            android:textColor="#E87A8D"
+                            android:textSize="10sp"
+                            android:textStyle="bold" />
+
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+                </com.google.android.material.card.MaterialCardView>
+
+                <!-- Badge 4: Diamond Guru -->
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/cardBadge4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginStart="@dimen/_4sdp"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="2dp"
+                    app:cardBackgroundColor="@android:color/white"
+                    app:strokeWidth="0dp">
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:padding="@dimen/_10sdp">
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:id="@+id/imgBadge4"
+                            android:layout_width="@dimen/_40sdp"
+                            android:layout_height="@dimen/_40sdp"
+                            android:src="@drawable/ic_badge_gold"
+                            app:tint="#00E5FF" /> <!-- Diamond Tint -->
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/txtBadgeTitle4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_4sdp"
+                            android:text="@string/diamond_guru_title"
+                            android:textColor="@color/black"
+                            android:textSize="13sp"
+                            android:textStyle="bold"
+                            android:gravity="center" />
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/txtBadgeDesc4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="2dp"
+                            android:text="@string/diamond_guru_desc"
+                            android:textColor="#777777"
+                            android:textSize="10sp"
+                            android:gravity="center" />
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/txtBadgeStatus4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_4sdp"
+                            android:text="@string/locked"
+                            android:textColor="#E87A8D"
+                            android:textSize="10sp"
+                            android:textStyle="bold" />
+
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+                </com.google.android.material.card.MaterialCardView>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.core.widget.NestedScrollView>
+
+    <!-- Bottom Ad Banner matching the app styling -->
+    <RelativeLayout
+        android:id="@+id/ad_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center" />
+
+</RelativeLayout>

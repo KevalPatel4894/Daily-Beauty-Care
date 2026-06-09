@@ -3419,4 +3419,25 @@
     <string name="challenge_task_bright_eyes_day6_details">Аккуратно похлопывайте подушечками пальцев с гелем алоэ вера под глазами в течение 2 минут. Смойте через 15 минут.</string>
     <string name="challenge_task_bright_eyes_day7_title">Гимнастика для глаз</string>
     <string name="challenge_task_bright_eyes_day7_details">Вращайте глазами по часовой стрелке и против нее, затем быстро моргайте в течение 1 минуты для стимуляции кровообращения.</string>
+
+    <!-- Auto-Generated Translations for Daily Check-In & Streaks Feature -->
+    <string name="daily_check_in">Ежедневная отметка</string>
+    <string name="check_in_streak_format" formatted="false">%1$d дн.</string>
+    <string name="check_in_subtitle">Нажмите, чтобы отметиться сегодня и продлить серию!</string>
+    <string name="checked_in_today">Вы уже отметились сегодня!</string>
+    <string name="check_in_now">Отметиться сегодня</string>
+    <string name="checked_in">Отмечено</string>
+    <string name="check_in_success_toast" formatted="false">Успешная отметка! Текущая серия: %1$d дн.</string>
+    <string name="weekly_progress">Прогресс за неделю</string>
+    <string name="achievements_badges">Разблокированные значки</string>
+    <string name="bronze_glow_title">Бронзовое сияние</string>
+    <string name="bronze_glow_desc">Достигните 3-дневной серии отметок</string>
+    <string name="silver_beauty_title">Серебряная красота</string>
+    <string name="silver_beauty_desc">Достигните 7-дневной серии отметок</string>
+    <string name="gold_selfcare_title">Золотой уход</string>
+    <string name="gold_selfcare_desc">Достигните 15-дневной серии отметок</string>
+    <string name="diamond_guru_title">Алмазный гуру</string>
+    <string name="diamond_guru_desc">Достигните 30-дневной серии отметок</string>
+    <string name="locked">Заблокировано</string>
+    <string name="unlocked">Разблокировано</string>
 </resources>

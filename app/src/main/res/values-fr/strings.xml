@@ -3419,4 +3419,25 @@
     <string name="challenge_task_bright_eyes_day6_details">Tapotez doucement une infime quantité de gel d\'aloe vera frais sous vos yeux pendant 2 minutes. Rincez après 15 minutes.</string>
     <string name="challenge_task_bright_eyes_day7_title">Exercices de rotation et de mise au point des yeux</string>
     <string name="challenge_task_bright_eyes_day7_details">Faites rouler vos yeux dans le sens des aiguilles d\'une montre et dans le sens inverse, puis clignez des yeux rapidement pendant 1 minute pour stimuler la circulation.</string>
+
+    <!-- Auto-Generated Translations for Daily Check-In & Streaks Feature -->
+    <string name="daily_check_in">Enregistrement Quotidien</string>
+    <string name="check_in_streak_format" formatted="false">%1$d jours</string>
+    <string name="check_in_subtitle">Appuyez pour enregistrer votre présence quotidienne !</string>
+    <string name="checked_in_today">Vous êtes enregistré pour aujourd\'hui !</string>
+    <string name="check_in_now">S\'enregistrer Aujourd\'hui</string>
+    <string name="checked_in">Enregistré</string>
+    <string name="check_in_success_toast" formatted="false">Enregistrement réussi ! Série actuelle : %1$d jours</string>
+    <string name="weekly_progress">Progression Hebdomadaire</string>
+    <string name="achievements_badges">Badges Débloqués</string>
+    <string name="bronze_glow_title">Éclat de Bronze</string>
+    <string name="bronze_glow_desc">Atteignez une série d\'enregistrement de 3 jours</string>
+    <string name="silver_beauty_title">Beauté d\'Argent</string>
+    <string name="silver_beauty_desc">Atteignez une série d\'enregistrement de 7 jours</string>
+    <string name="gold_selfcare_title">Soin d\'Or</string>
+    <string name="gold_selfcare_desc">Atteignez une série d\'enregistrement de 15 jours</string>
+    <string name="diamond_guru_title">Gourou de Diamant</string>
+    <string name="diamond_guru_desc">Atteignez une série d\'enregistrement de 30 jours</string>
+    <string name="locked">Verrouillé</string>
+    <string name="unlocked">Débloqué</string>
 </resources>

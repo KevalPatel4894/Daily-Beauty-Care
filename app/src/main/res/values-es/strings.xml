@@ -3419,4 +3419,25 @@
     <string name="challenge_task_bright_eyes_day6_details">Aplica suavemente una pequeña cantidad de gel de aloe vera debajo de los ojos durante 2 minutos. Enjuaga después de 15 minutos.</string>
     <string name="challenge_task_bright_eyes_day7_title">Ejercicios de enfoque y rotación ocular</string>
     <string name="challenge_task_bright_eyes_day7_details">Gira los ojos en sentido horario y antihorario, luego parpadea rápidamente durante 1 minuto para estimular el flujo sanguíneo.</string>
+
+    <!-- Auto-Generated Translations for Daily Check-In & Streaks Feature -->
+    <string name="daily_check_in">Registro Diario</string>
+    <string name="check_in_streak_format" formatted="false">%1$d Días</string>
+    <string name="check_in_subtitle">¡Toca para registrar tu check-in diario y acumular días!</string>
+    <string name="checked_in_today">¡Ya te has registrado hoy!</string>
+    <string name="check_in_now">Registrarse Hoy</string>
+    <string name="checked_in">Registrado</string>
+    <string name="check_in_success_toast" formatted="false">¡Registro exitoso! Racha actual: %1$d Días</string>
+    <string name="weekly_progress">Progreso Semanal</string>
+    <string name="achievements_badges">Insignias Desbloqueadas</string>
+    <string name="bronze_glow_title">Brillo de Bronce</string>
+    <string name="bronze_glow_desc">Alcanza una racha de registro de 3 días</string>
+    <string name="silver_beauty_title">Belleza de Plata</string>
+    <string name="silver_beauty_desc">Alcanza una racha de registro de 7 días</string>
+    <string name="gold_selfcare_title">Autocuidado de Oro</string>
+    <string name="gold_selfcare_desc">Alcanza una racha de registro de 15 días</string>
+    <string name="diamond_guru_title">Gurú de Diamante</string>
+    <string name="diamond_guru_desc">Alcanza una racha de registro de 30 días</string>
+    <string name="locked">Bloqueado</string>
+    <string name="unlocked">Desbloqueado</string>
 </resources>
