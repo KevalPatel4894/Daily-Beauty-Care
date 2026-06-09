@@ -40,7 +40,7 @@
                 android:layout_marginStart="@dimen/_10sdp"
                 android:layout_marginEnd="@dimen/_10sdp"
                 android:background="@android:color/transparent"
-                android:hint="Search tips (e.g. honey, acne)..."
+                android:hint="@string/search_hint"
                 android:textColorHint="#E6FFFFFF"
                 android:textColor="@android:color/white"
                 android:textSize="@dimen/_14sdp"
@@ -74,7 +74,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:text="No search results found"
+        android:text="@string/no_results_found"
         android:textColor="@color/black"
         android:textSize="@dimen/_14sdp"
         android:visibility="gone" />

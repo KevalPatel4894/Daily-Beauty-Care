@@ -3,14 +3,14 @@
     <string name="app_name">Daily Beauty Care</string>
 
     <!--ads local-->
-<!--    <string name="admob_app_id" translatable="false">ca-app-pub-5201293285638793~1348054154</string>
+    <string name="admob_app_id" translatable="false">ca-app-pub-5201293285638793~1348054154</string>
     <string name="banner_home_footer" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
-    <string name="interstitial_full_screen" translatable="false">ca-app-pub-3940256099942544/1033173712</string>-->
+    <string name="interstitial_full_screen" translatable="false">ca-app-pub-3940256099942544/1033173712</string>
 
     <!--ads live-->
-    <string name="admob_app_id" translatable="false">ca-app-pub-8227493781755679~1497458469</string>
+<!--    <string name="admob_app_id" translatable="false">ca-app-pub-8227493781755679~1497458469</string>
     <string name="banner_home_footer" translatable="false">ca-app-pub-8227493781755679/4181910678</string>
-    <string name="interstitial_full_screen" translatable="false">ca-app-pub-8227493781755679/4153990513</string>
+    <string name="interstitial_full_screen" translatable="false">ca-app-pub-8227493781755679/4153990513</string>-->
 
     //List
     <string name="accupressure_point_palm_side">accupressure point on palm side</string>
@@ -3324,4 +3324,110 @@
     <string name="more_apps">More Apps</string>
     <string name="app_share">Here you will find your best desire beauty care tips and fashion style to uplift your self</string>
     <string name="read_now">Read Now</string>
+
+    <!-- Auto-Generated Translations for Challenges, Share Card, Reminders, Search & Favorites Features -->
+    <string name="beauty_challenges">Beauty Challenges</string>
+    <string name="challenge_details">Challenge Details</string>
+    <string name="daily_tasks">Daily Tasks</string>
+    <string name="share_remedy">Share Remedy</string>
+    <string name="choose_share_tip">Choose how you want to share this beauty tip:</string>
+    <string name="beautiful_image_card">Beautiful Image Card</string>
+    <string name="whatsapp_stories_status">Perfect for WhatsApp Status &amp; Stories</string>
+    <string name="plain_text_recipe">Plain Text Recipe</string>
+    <string name="share_text_message">Share recipe details as a text message</string>
+    <string name="cancel">Cancel</string>
+    <string name="natural_remedies_guide">Natural remedies guide</string>
+    <string name="get_on_google_play">GET ON GOOGLE PLAY</string>
+    <string name="complete_today_routine">Complete Today\'s Routine</string>
+    <string name="daily_beauty_challenges">Daily Beauty Challenges</string>
+    <string name="join_7day_habits">Join 7-day habits for glowing skin &amp; hair</string>
+    <string name="challenge_progress" formatted="false">Progress: %1$d/%2$d Days</string>
+    <string name="challenge_days_progress" formatted="false">%1$d/%2$d Days</string>
+    <string name="challenge_day_locked" formatted="false">Day %1$d is locked! Complete previous days first.</string>
+    <string name="timer_finished_toast">Timer finished! Time to wash off.</string>
+    <string name="audio_reader_not_ready_toast">Audio Reader is not ready yet</string>
+    <string name="audio_reader_error_toast">Error starting Audio Reader</string>
+    <string name="favorites_removed_toast">Removed from Favorites</string>
+    <string name="favorites_saved_toast">Saved to Favorites</string>
+    <string name="share_card_failed_toast">Failed to generate share card</string>
+    <string name="share_image_error_toast" formatted="false">Failed to share image: %1$s</string>
+    <string name="challenge_day_completed_toast" formatted="false">Day %1$d task completed!</string>
+    <string name="start">Start</string>
+    <string name="pause">Pause</string>
+    <string name="daily_suggestion">Daily Suggestion</string>
+    <string name="daily_reminders">Daily Reminders</string>
+    <string name="enable_daily_reminders">Enable Daily Reminders</string>
+    <string name="reminder_time">Reminder Time</string>
+    <string name="notification_permission_required_toast">Notification permission is required for reminders</string>
+    <string name="reminder_scheduled_toast">Reminder scheduled successfully</string>
+    <string name="please_enable_reminders_toast">Please enable reminders first</string>
+    <string name="reminders_enabled_toast">Daily reminders enabled</string>
+    <string name="reminders_disabled_toast">Daily reminders disabled</string>
+    <string name="reminder_channel_name">Self-Care Reminders</string>
+    <string name="reminder_channel_desc">Get daily notifications with beauty and wellness tips</string>
+    <string name="reminder_default_title">Daily Self-Care Reminder</string>
+    <string name="reminder_default_content">Time to pamper yourself! Open the app for your daily self-care tip.</string>
+    <string name="daily_tip">Daily Tip</string>
+    <string name="notification_title_format" formatted="false">🌸 Daily Beauty Tip: %1$s</string>
+    <string name="search_results">Search Results</string>
+    <string name="search_hint">Search tips (e.g. honey, acne)...</string>
+    <string name="no_results_found">No search results found</string>
+    <string name="favorite_tips">Favorite Tips</string>
+    <string name="challenge_glow_title">7-Day Glowing Skin Challenge</string>
+    <string name="challenge_glow_desc">Get radiant, glowing skin with daily natural masks, scrubs, and massage routines.</string>
+    <string name="challenge_hair_title">7-Day Healthy Hair Challenge</string>
+    <string name="challenge_hair_desc">Stop hair fall and eliminate dandruff with this intensive scalp repair routine.</string>
+    <string name="challenge_eyes_title">7-Day Bright Eyes Challenge</string>
+    <string name="challenge_eyes_desc">Reduce dark circles, soothe puffy eyes, and brighten your look.</string>
+    <string name="challenge_cat_face">Face Care</string>
+    <string name="challenge_cat_hair">Hair Care</string>
+    <string name="challenge_cat_eye">Eye Care</string>
+    <string name="duration_2_min">2 Min</string>
+    <string name="duration_5_min">5 Min</string>
+    <string name="duration_10_min">10 Min</string>
+    <string name="duration_15_min">15 Min</string>
+    <string name="duration_20_min">20 Min</string>
+    <string name="duration_30_min">30 Min</string>
+    <string name="challenge_task_glowing_skin_day1_title">Honey Hydrating Mask</string>
+    <string name="challenge_task_glowing_skin_day1_details">Apply raw honey evenly to your face. Leave for 15 minutes, then rinse off with warm water for instant hydration.</string>
+    <string name="challenge_task_glowing_skin_day2_title">Aloe Vera Soothing Gel</string>
+    <string name="challenge_task_glowing_skin_day2_details">Apply fresh aloe vera gel on your face. Massage in circular motions for 5 minutes. Leave overnight.</string>
+    <string name="challenge_task_glowing_skin_day3_title">Cucumber &amp; Milk Freshener</string>
+    <string name="challenge_task_glowing_skin_day3_details">Mix cucumber juice with raw milk. Apply with a cotton ball. Wash off after 15 minutes for fresh skin.</string>
+    <string name="challenge_task_glowing_skin_day4_title">Tomato &amp; Lemon Spot Corrector</string>
+    <string name="challenge_task_glowing_skin_day4_details">Extract tomato juice and mix with 3-4 drops of lemon juice. Apply to face, let dry for 10 minutes, and rinse.</string>
+    <string name="challenge_task_glowing_skin_day5_title">Papaya &amp; Turmeric Pack</string>
+    <string name="challenge_task_glowing_skin_day5_details">Mash ripe papaya and mix with a pinch of turmeric. Apply to face for 15 minutes to clear dark spots and glow.</string>
+    <string name="challenge_task_glowing_skin_day6_title">Baking Soda Exfoliator</string>
+    <string name="challenge_task_glowing_skin_day6_details">Mix 1 teaspoon of baking soda with water to make a paste. Gently scrub in circular motions for 2 minutes to remove dead skin cells.</string>
+    <string name="challenge_task_glowing_skin_day7_title">Saffron Glow Pack</string>
+    <string name="challenge_task_glowing_skin_day7_details">Soak 2-3 saffron strands in 1 tablespoon of milk cream. Apply to face for 20 minutes to achieve a radiant golden complexion.</string>
+    <string name="challenge_task_healthy_hair_day1_title">Coconut Oil Scalp Massage</string>
+    <string name="challenge_task_healthy_hair_day1_details">Warm 2 tablespoons of coconut oil. Massage into scalp for 10 minutes. Leave for 1 hour before washing.</string>
+    <string name="challenge_task_healthy_hair_day2_title">Lemon Juice Rub</string>
+    <string name="challenge_task_healthy_hair_day2_details">Apply 2 tablespoons of fresh lemon juice directly to your scalp. Leave for 5 minutes, then rinse off.</string>
+    <string name="challenge_task_healthy_hair_day3_title">Yogurt Calming Mask</string>
+    <string name="challenge_task_healthy_hair_day3_details">Apply plain curd on your scalp. Leave it for 30 minutes to soothe itchiness, then rinse with lukewarm water.</string>
+    <string name="challenge_task_healthy_hair_day4_title">Apple Cider Vinegar Spray</string>
+    <string name="challenge_task_healthy_hair_day4_details">Mix equal parts ACV and water. Spray onto scalp after washing, let sit for 15 minutes, and rinse.</string>
+    <string name="challenge_task_healthy_hair_day5_title">Aloe Vera Scalp Treatment</string>
+    <string name="challenge_task_healthy_hair_day5_details">Apply fresh aloe vera gel directly to your scalp. Massage gently for 5 minutes. Wash after 30 minutes.</string>
+    <string name="challenge_task_healthy_hair_day6_title">Baking Soda Deep Cleanse</string>
+    <string name="challenge_task_healthy_hair_day6_details">Rub 1 tablespoon of baking soda into wet hair and scalp. Rinse thoroughly. Do not shampoo today.</string>
+    <string name="challenge_task_healthy_hair_day7_title">Neem Water Anti-Itch Rinse</string>
+    <string name="challenge_task_healthy_hair_day7_details">Boil neem leaves in water, strain, and let cool. Use this neem-infused water as a final rinse after washing hair.</string>
+    <string name="challenge_task_bright_eyes_day1_title">Hydrating Cucumber Slices</string>
+    <string name="challenge_task_bright_eyes_day1_details">Place chilled cucumber slices on your eyes for 15 minutes. This reduces puffiness and cools the area.</string>
+    <string name="challenge_task_bright_eyes_day2_title">Almond Oil Overnight Massage</string>
+    <string name="challenge_task_bright_eyes_day2_details">Massage 2 drops of almond oil gently under your eyes before bed. Leave it overnight to clear dark circles.</string>
+    <string name="challenge_task_bright_eyes_day3_title">Green Tea Bag Compress</string>
+    <string name="challenge_task_bright_eyes_day3_details">Place used, cooled green tea bags over closed eyes for 10 minutes. Caffeine helps shrink blood vessels.</string>
+    <string name="challenge_task_bright_eyes_day4_title">Eye Palming Relaxation</string>
+    <string name="challenge_task_bright_eyes_day4_details">Rub your palms together until warm, then cup them gently over closed eyes. Breathe deeply for 5 minutes.</string>
+    <string name="challenge_task_bright_eyes_day5_title">Rosewater Splash &amp; Cotton Pad</string>
+    <string name="challenge_task_bright_eyes_day5_details">Soak cotton pads in pure rosewater and place them on your eyes for 15 minutes to revive tired eyes.</string>
+    <string name="challenge_task_bright_eyes_day6_title">Aloe Vera Soothing Gel</string>
+    <string name="challenge_task_bright_eyes_day6_details">Gently tap a tiny amount of fresh aloe vera gel under your eyes for 2 minutes. Wash off after 15 minutes.</string>
+    <string name="challenge_task_bright_eyes_day7_title">Eye Roll &amp; Focus Exercises</string>
+    <string name="challenge_task_bright_eyes_day7_details">Roll your eyes in clockwise and counter-clockwise directions, then blink rapidly for 1 minute to boost blood flow.</string>
 </resources>

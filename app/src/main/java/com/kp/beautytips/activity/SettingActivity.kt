@@ -107,7 +107,7 @@ class SettingActivity : BaseActivity() {
         rlFavorites.setOnClickListener {
             val intent = Intent(this, ListActivity::class.java)
             intent.putExtra("position", -1)
-            intent.putExtra("categoryName", "Favorite Tips")
+            intent.putExtra("categoryName", getString(R.string.favorite_tips))
             startActivity(intent)
             AppUtils.startFromRightToLeft(this)
         }

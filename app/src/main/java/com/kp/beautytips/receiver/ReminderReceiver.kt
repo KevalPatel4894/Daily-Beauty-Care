@@ -34,12 +34,12 @@ class ReminderReceiver : BroadcastReceiver() {
             val randomTip = allTips.shuffled().first()
             Triple(randomTip.title, randomTip.details, randomTip)
         } else {
-            Triple("Daily Self-Care Reminder", "Time to pamper yourself! Open the app for your daily self-care tip.", null)
+            Triple(context.getString(R.string.reminder_default_title), context.getString(R.string.reminder_default_content), null)
         }
 
         val notificationIntent = if (tip != null) {
             Intent(context, DetailsActivity::class.java).apply {
-                putExtra("tabName", "Daily Tip")
+                putExtra("tabName", context.getString(R.string.daily_tip))
                 putExtra("title", tip.title)
                 putExtra("image", tip.image)
                 putExtra("details", tip.details)
@@ -61,7 +61,7 @@ class ReminderReceiver : BroadcastReceiver() {
 
         val notification = NotificationCompat.Builder(context, ReminderScheduler.REMINDER_CHANNEL_ID)
             .setSmallIcon(R.mipmap.ic_launcher)
-            .setContentTitle("🌸 Daily Beauty Tip: $title")
+            .setContentTitle(context.getString(R.string.notification_title_format, title))
             .setContentText(content)
             .setStyle(NotificationCompat.BigTextStyle().bigText(content))
             .setPriority(NotificationCompat.PRIORITY_DEFAULT)

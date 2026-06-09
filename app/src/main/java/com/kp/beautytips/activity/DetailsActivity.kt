@@ -30,6 +30,13 @@ import io.github.inflationx.viewpump.ViewPumpContextWrapper
 import java.util.Locale
 import android.speech.tts.TextToSpeech
 import android.speech.tts.UtteranceProgressListener
+import android.graphics.Bitmap
+import android.graphics.Canvas
+import android.view.LayoutInflater
+import androidx.core.content.FileProvider
+import java.io.File
+import java.io.FileOutputStream
+import java.io.IOException
 
 class DetailsActivity : BaseActivity() {
     private var tabName: String = ""
@@ -52,6 +59,11 @@ class DetailsActivity : BaseActivity() {
     private var textToSpeech: TextToSpeech? = null
     private var isTtsSpeaking = false
 
+    // Challenge variables
+    private var challengeId: String = ""
+    private var dayIndex: Int = -1
+    private var isChallengeTaskCompleted: Boolean = false
+
     override fun attachBaseContext(newBase: Context) {
         val wrappedBase = ViewPumpContextWrapper.wrap(newBase)
         super.attachBaseContext(ActivityUtils.updateBaseContextLocale(wrappedBase))
@@ -73,6 +85,7 @@ class DetailsActivity : BaseActivity() {
         val lrCopy = findViewById<View>(R.id.lrCopy)
         val lrShare = findViewById<View>(R.id.lrShare)
         val lrWhatShare = findViewById<View>(R.id.lrWhatShare)
+        val lrMainShare = findViewById<View>(R.id.lrMainShare)
 
         // Timer views
         val cardTimer = findViewById<CardView>(R.id.cardTimer)
@@ -88,6 +101,9 @@ class DetailsActivity : BaseActivity() {
             image = bundle.getInt("image")
             details = bundle.getString("details").toString()
             durationText = bundle.getString("descriptionName").toString()
+            challengeId = bundle.getString("challenge_id", "")
+            dayIndex = bundle.getInt("day_index", -1)
+            isChallengeTaskCompleted = bundle.getBoolean("challenge_task_completed", false)
             
             txtTabTitle.text = tabName
             txtTitle.text = title
@@ -201,8 +217,20 @@ class DetailsActivity : BaseActivity() {
             copyToClipboard(details)
         }
 
-        lrShare.setOnClickListener { shareContent() }
-        lrWhatShare.setOnClickListener { shareContentOnlyWhatsapp() }
+        lrShare.setOnClickListener { showShareChooserDialog(null) }
+        lrWhatShare.setOnClickListener { showShareChooserDialog("com.whatsapp") }
+
+        val btnCompleteChallenge = findViewById<androidx.appcompat.widget.AppCompatButton>(R.id.btnCompleteChallenge)
+        if (challengeId.isNotEmpty() && !isChallengeTaskCompleted && dayIndex != -1) {
+            lrMainShare.visibility = View.GONE
+            btnCompleteChallenge.visibility = View.VISIBLE
+            btnCompleteChallenge.setOnClickListener {
+                markChallengeTaskCompleted()
+            }
+        } else {
+            lrMainShare.visibility = View.VISIBLE
+            btnCompleteChallenge.visibility = View.GONE
+        }
     }
 
     private fun extractMinutes(durationText: String): Int? {
@@ -250,19 +278,19 @@ class DetailsActivity : BaseActivity() {
                 timeRemainingInMillis = 0
                 updateTimerText(0, txtDuration)
                 progressBar.progress = 0
-                btnStart.text = "Start"
+                btnStart.text = getString(R.string.start)
                 isTimerRunning = false
                 triggerAlarm()
             }
         }.start()
 
-        btnStart.text = "Pause"
+        btnStart.text = getString(R.string.pause)
         isTimerRunning = true
     }
 
     private fun pauseTimer(btnStart: androidx.appcompat.widget.AppCompatButton) {
         countDownTimer?.cancel()
-        btnStart.text = "Start"
+        btnStart.text = getString(R.string.start)
         isTimerRunning = false
     }
 
@@ -276,7 +304,7 @@ class DetailsActivity : BaseActivity() {
         timeRemainingInMillis = totalTimeInMillis
         updateTimerText(timeRemainingInMillis, txtDuration)
         progressBar.progress = 100
-        btnStart.text = "Start"
+        btnStart.text = getString(R.string.start)
         isTimerRunning = false
     }
 
@@ -293,7 +321,7 @@ class DetailsActivity : BaseActivity() {
                 vibrator.vibrate(1000)
             }
 
-            Toast.makeText(this, "Timer finished! Time to wash off.", Toast.LENGTH_LONG).show()
+            Toast.makeText(this, getString(R.string.timer_finished_toast), Toast.LENGTH_LONG).show()
         } catch (e: Exception) {
             e.printStackTrace()
         }
@@ -311,7 +339,7 @@ class DetailsActivity : BaseActivity() {
 
     private fun startSpeech(imgAudio: androidx.appcompat.widget.AppCompatImageView) {
         if (textToSpeech == null) {
-            Toast.makeText(this, "Audio Reader is not ready yet", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, getString(R.string.audio_reader_not_ready_toast), Toast.LENGTH_SHORT).show()
             return
         }
         val speechText = "$title. $details"
@@ -319,7 +347,7 @@ class DetailsActivity : BaseActivity() {
         params.putString(TextToSpeech.Engine.KEY_PARAM_UTTERANCE_ID, "remedyTextId")
         val speakResult = textToSpeech?.speak(speechText, TextToSpeech.QUEUE_FLUSH, params, "remedyTextId")
         if (speakResult == TextToSpeech.ERROR) {
-            Toast.makeText(this, "Error starting Audio Reader", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, getString(R.string.audio_reader_error_toast), Toast.LENGTH_SHORT).show()
         } else {
             isTtsSpeaking = true
             imgAudio.setImageResource(R.drawable.ic_pause)
@@ -412,11 +440,11 @@ class DetailsActivity : BaseActivity() {
             if (isFav) {
                 editor.putBoolean("fav_" + title, false).apply()
                 item.setIcon(R.drawable.ic_favorite_border)
-                Toast.makeText(this, "Removed from Favorites", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, getString(R.string.favorites_removed_toast), Toast.LENGTH_SHORT).show()
             } else {
                 editor.putBoolean("fav_" + title, true).apply()
                 item.setIcon(R.drawable.ic_favorite)
-                Toast.makeText(this, "Saved to Favorites", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, getString(R.string.favorites_saved_toast), Toast.LENGTH_SHORT).show()
             }
             return true
         }
@@ -492,5 +520,155 @@ class DetailsActivity : BaseActivity() {
             }
             mInterstitialAd?.show(this)
         }
+    }
+
+    private fun showShareChooserDialog(targetPackage: String?) {
+        val dialogView = LayoutInflater.from(this).inflate(R.layout.dialog_share_chooser, null)
+        val dialog = android.app.Dialog(this)
+        dialog.requestWindowFeature(android.view.Window.FEATURE_NO_TITLE)
+        dialog.setContentView(dialogView)
+        dialog.window?.setBackgroundDrawableResource(android.R.color.transparent)
+
+        val cardShareImageOption = dialogView.findViewById<com.google.android.material.card.MaterialCardView>(R.id.cardShareImageOption)
+        val cardShareTextOption = dialogView.findViewById<com.google.android.material.card.MaterialCardView>(R.id.cardShareTextOption)
+        val btnCancelShare = dialogView.findViewById<androidx.appcompat.widget.AppCompatButton>(R.id.btnCancelShare)
+
+        cardShareImageOption.setOnClickListener {
+            dialog.dismiss()
+            shareAsImageCard(targetPackage)
+        }
+
+        cardShareTextOption.setOnClickListener {
+            dialog.dismiss()
+            if (targetPackage == "com.whatsapp") {
+                shareContentOnlyWhatsapp()
+            } else {
+                shareContent()
+            }
+        }
+
+        btnCancelShare.setOnClickListener {
+            dialog.dismiss()
+        }
+
+        dialog.show()
+        dialog.window?.setLayout(
+            android.view.ViewGroup.LayoutParams.MATCH_PARENT,
+            android.view.ViewGroup.LayoutParams.WRAP_CONTENT
+        )
+    }
+
+    private fun shareAsImageCard(targetPackage: String?) {
+        try {
+            val bitmap = generateShareCardBitmap()
+            val uri = saveBitmapToCache(bitmap)
+            if (uri != null) {
+                val shareIntent = Intent(Intent.ACTION_SEND)
+                shareIntent.type = "image/png"
+                shareIntent.putExtra(Intent.EXTRA_STREAM, uri)
+                val caption = title + "\n\n" + getString(R.string.app_share) + ": http://play.google.com/store/apps/details?id=" + packageName
+                shareIntent.putExtra(Intent.EXTRA_TEXT, caption)
+                shareIntent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION)
+                
+                if (targetPackage != null) {
+                    shareIntent.setPackage(targetPackage)
+                    try {
+                        startActivity(shareIntent)
+                    } catch (e: ActivityNotFoundException) {
+                        Toast.makeText(this, getString(R.string.whatsapp_not_installed), Toast.LENGTH_SHORT).show()
+                    }
+                } else {
+                    startActivity(Intent.createChooser(shareIntent, getString(R.string.share)))
+                }
+            } else {
+                Toast.makeText(this, getString(R.string.share_card_failed_toast), Toast.LENGTH_SHORT).show()
+            }
+        } catch (e: Exception) {
+            AppUtils.logI("Error sharing image card: " + e.message)
+            Toast.makeText(this, getString(R.string.share_image_error_toast, e.message ?: ""), Toast.LENGTH_SHORT).show()
+        }
+    }
+
+    private fun generateShareCardBitmap(): Bitmap {
+        val inflater = LayoutInflater.from(this)
+        val cardView = inflater.inflate(R.layout.layout_share_card, null)
+
+        val txtShareCategory = cardView.findViewById<androidx.appcompat.widget.AppCompatTextView>(R.id.txtShareCategory)
+        val txtShareTitle = cardView.findViewById<androidx.appcompat.widget.AppCompatTextView>(R.id.txtShareTitle)
+        val txtShareDetails = cardView.findViewById<androidx.appcompat.widget.AppCompatTextView>(R.id.txtShareDetails)
+        val imgShare = cardView.findViewById<androidx.appcompat.widget.AppCompatImageView>(R.id.imgShare)
+        val cardShareImage = cardView.findViewById<androidx.cardview.widget.CardView>(R.id.cardShareImage)
+
+        txtShareCategory.text = tabName.uppercase(Locale.getDefault())
+        txtShareTitle.text = title
+        txtShareDetails.text = details
+
+        if (image != 0) {
+            imgShare.setImageResource(image)
+            cardShareImage.visibility = View.VISIBLE
+        } else {
+            cardShareImage.visibility = View.GONE
+        }
+
+        val density = resources.displayMetrics.density
+        val widthPx = (600 * density).toInt()
+        val widthSpec = View.MeasureSpec.makeMeasureSpec(widthPx, View.MeasureSpec.EXACTLY)
+        val heightSpec = View.MeasureSpec.makeMeasureSpec(0, View.MeasureSpec.UNSPECIFIED)
+
+        cardView.measure(widthSpec, heightSpec)
+        cardView.layout(0, 0, cardView.measuredWidth, cardView.measuredHeight)
+
+        val bitmap = Bitmap.createBitmap(cardView.measuredWidth, cardView.measuredHeight, Bitmap.Config.ARGB_8888)
+        val canvas = Canvas(bitmap)
+        cardView.draw(canvas)
+
+        return bitmap
+    }
+
+    private fun saveBitmapToCache(bitmap: Bitmap): Uri? {
+        try {
+            val cachePath = File(cacheDir, "shared_images")
+            if (!cachePath.exists()) {
+                cachePath.mkdirs()
+            }
+            // Clean up older cache files
+            val files = cachePath.listFiles()
+            if (files != null) {
+                for (f in files) {
+                    f.delete()
+                }
+            }
+            val file = File(cachePath, "share_remedy_${System.currentTimeMillis()}.png")
+            val stream = FileOutputStream(file)
+            bitmap.compress(Bitmap.CompressFormat.PNG, 100, stream)
+            stream.flush()
+            stream.close()
+            return FileProvider.getUriForFile(this, "$packageName.fileprovider", file)
+        } catch (e: IOException) {
+            AppUtils.logI("Failed to save bitmap: " + e.message)
+            return null
+        }
+    }
+
+    private fun markChallengeTaskCompleted() {
+        val prefs = getSharedPreferences("beautytips_prefs", Context.MODE_PRIVATE)
+        prefs.edit().putBoolean("challenge_completed_${challengeId}_$dayIndex", true).apply()
+        
+        try {
+            val vibrator = getSystemService(Context.VIBRATOR_SERVICE) as Vibrator
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+                vibrator.vibrate(VibrationEffect.createOneShot(150, VibrationEffect.DEFAULT_AMPLITUDE))
+            } else {
+                @Suppress("DEPRECATION")
+                vibrator.vibrate(150)
+            }
+        } catch (e: Exception) {
+            e.printStackTrace()
+        }
+
+        Toast.makeText(this, getString(R.string.challenge_day_completed_toast, dayIndex + 1), Toast.LENGTH_SHORT).show()
+        
+        finish()
+        AppUtils.finishFromLeftToRight(activity)
     }
 }

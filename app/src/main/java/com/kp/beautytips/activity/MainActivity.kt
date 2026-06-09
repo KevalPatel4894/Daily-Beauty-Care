@@ -41,7 +41,7 @@ class MainActivity : BaseActivity(), CategoryAdapter.OnItemClick {
     private var sensorManager: SensorManager? = null
     private var accelerometer: Sensor? = null
     private var lastShakeTime: Long = 0
-    private val SHAKE_THRESHOLD = 2.7f
+    private val SHAKE_THRESHOLD = 1.8f
     private val SHAKE_COOLDOWN_MS = 2000
 
     private val sensorListener = object : SensorEventListener {
@@ -135,6 +135,14 @@ class MainActivity : BaseActivity(), CategoryAdapter.OnItemClick {
 
         rvCategory.layoutManager = LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false)
         rvCategory.adapter = CategoryAdapter(category, this)
+
+        val cardChallengesBanner = findViewById<View>(R.id.cardChallengesBanner)
+        cardChallengesBanner.setOnClickListener {
+            Intent(this, ChallengesActivity::class.java).also {
+                startActivity(it)
+                AppUtils.startFromRightToLeft(this)
+            }
+        }
 
         val imgSearch = findViewById<androidx.appcompat.widget.AppCompatImageView>(R.id.imgSearch)
         imgSearch.setOnClickListener {
@@ -244,11 +252,15 @@ class MainActivity : BaseActivity(), CategoryAdapter.OnItemClick {
     private fun triggerShakeSuggestion() {
         try {
             // Haptic Feedback (Vibration)
-            val vibrator = getSystemService(Context.VIBRATOR_SERVICE) as Vibrator
-            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-                vibrator.vibrate(VibrationEffect.createOneShot(300, VibrationEffect.DEFAULT_AMPLITUDE))
-            } else {
-                vibrator.vibrate(300)
+            try {
+                val vibrator = getSystemService(Context.VIBRATOR_SERVICE) as Vibrator
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+                    vibrator.vibrate(VibrationEffect.createOneShot(300, VibrationEffect.DEFAULT_AMPLITUDE))
+                } else {
+                    vibrator.vibrate(300)
+                }
+            } catch (e: Exception) {
+                e.printStackTrace()
             }
 
             // Audio Feedback (Short notification beep)
@@ -262,7 +274,7 @@ class MainActivity : BaseActivity(), CategoryAdapter.OnItemClick {
                 val randomTip = allTips.shuffled().first()
                 
                 Intent(this, DetailsActivity::class.java).also { intent ->
-                    intent.putExtra("tabName", "Daily Suggestion")
+                    intent.putExtra("tabName", getString(R.string.daily_suggestion))
                     intent.putExtra("title", randomTip.title)
                     intent.putExtra("image", randomTip.image)
                     intent.putExtra("details", randomTip.details)

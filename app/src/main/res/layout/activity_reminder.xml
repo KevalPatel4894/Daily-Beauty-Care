@@ -17,7 +17,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="Daily Reminders"
+            android:text="@string/daily_reminders"
             android:textColor="@android:color/white"
             android:textSize="@dimen/_18sdp" />
     </androidx.appcompat.widget.Toolbar>
@@ -43,7 +43,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
-                android:text="Enable Daily Reminders"
+                android:text="@string/enable_daily_reminders"
                 android:textColor="@color/white"
                 android:textSize="@dimen/_13sdp" />
 
@@ -76,7 +76,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
-                android:text="Reminder Time"
+                android:text="@string/reminder_time"
                 android:textColor="@color/white"
                 android:textSize="@dimen/_13sdp" />
 

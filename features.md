@@ -6,7 +6,7 @@ This document tracks all zero-budget features designed to maximize user retentio
 
 ## 🎮 Category 1: Gamification & Engagement (Habit Building)
 
-### [ ] Feature 1: 7-Day / 14-Day Beauty Challenges
+### [x] Feature 1: 7-Day / 14-Day Beauty Challenges
 * **Goal:** Increase daily active usage (DAUs) by setting up structured, multi-day self-care routines.
 * **Details:** Users join challenges (e.g. *"7-Day Glowing Skin Challenge"*, *"14-Day Hair Care Challenge"*). Each day, the app unlocks a specific natural remedy task they must check off.
 * **Tech:** Local database storing task states and unlock times.
@@ -66,7 +66,7 @@ This document tracks all zero-budget features designed to maximize user retentio
 
 ## 📢 Category 3: Virality & Sharing (Organic Downloads)
 
-### [ ] Feature 11: Visual Card Generator & Social Share
+### [x] Feature 11: Visual Card Generator & Social Share
 * **Goal:** Drive organic Play Store downloads through WhatsApp/Instagram statuses.
 * **Details:** Instead of sharing plain text, the app renders the beauty tip on a beautiful image card with background graphics, watermarked with your app logo and Google Play Store link.
 * **Tech:** Android `Canvas` View-to-Bitmap rendering and standard Share Intent.
@@ -178,3 +178,23 @@ This document tracks all zero-budget features designed to maximize user retentio
 * **Goal:** Elevate app utility into a pocket advisor.
 * **Details:** An offline dictionary lookup for common product ingredients (e.g., Parabens, Retinol, Hyaluronic Acid, Sulfates). Indicates safety rating (safe, avoid, hazard) and skin type compatibility.
 * **Tech:** Local SQLite/Room DB asset matching chemical terms.
+
+---
+
+## ⚙️ Category 9: App Updates & Maintenance (App Life-Cycle)
+
+### [ ] Feature 29: Force Update Functionality
+* **Goal:** Ensure all active users are on the latest, bug-free, and Play-Store-compliant version of the app.
+* **Details:** The app checks the minimum required version configuration (using Firebase Remote Config, a simple hosted JSON API, or standard Google Play In-App Updates) on startup. If the current version is outdated, displays a non-dismissible dialog directing users to Google Play to update the app.
+* **Tech:** Google Play In-App Updates API or Firebase Remote Config + Play Store Intent redirection.
+
+---
+
+## 🌍 Localization & Translation Coding Guidelines
+
+To support multiple languages and prevent packaging build errors:
+1. **No Hardcoded/Static Strings:** Under no circumstances should raw string literals be hardcoded in layout XML files or Kotlin source files. All user-facing strings must be defined inside `strings.xml` files.
+2. **Mandatory Translations:** Any new string resource added to the base `strings.xml` must also be translated and added to the other 8 localized resource directories: German (`values-de`), Spanish (`values-es`), French (`values-fr`), Hindi (`values-hi`), Japanese (`values-ja`), Korean (`values-ko`), Portuguese (`values-pt`), and Russian (`values-ru`).
+3. **Apostrophe Escaping:** In XML string resources, all apostrophes (`'`) must be properly escaped as `\'` or enclosed in double quotes (e.g. `Complete Today\'s Routine` or `"Complete Today's Routine"`).
+4. **Formatting Constraints:** All string resources containing dynamic format parameters (like `%1$d` or `%1$s`) must be defined with the `formatted="false"` attribute to ensure AAPT2 compiler compatibility.
+

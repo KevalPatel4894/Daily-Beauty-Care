@@ -79,7 +79,7 @@ class SearchActivity : BaseActivity() {
                     performSearch(query)
                 } else {
                     imgClear.visibility = View.GONE
-                    rvResults.adapter = ListAdapter(ArrayList(), "Search Results")
+                    rvResults.adapter = ListAdapter(ArrayList(), getString(R.string.search_results))
                     tvNoResults.visibility = View.GONE
                 }
             }
@@ -119,7 +119,7 @@ class SearchActivity : BaseActivity() {
         } else {
             rvResults.visibility = View.VISIBLE
             tvNoResults.visibility = View.GONE
-            rvResults.adapter = ListAdapter(filteredList, "Search Results")
+            rvResults.adapter = ListAdapter(filteredList, getString(R.string.search_results))
         }
     }
 

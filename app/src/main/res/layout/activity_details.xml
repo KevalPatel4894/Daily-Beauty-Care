@@ -243,6 +243,18 @@
 
     </androidx.appcompat.widget.LinearLayoutCompat>
 
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnCompleteChallenge"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_45sdp"
+        android:layout_above="@+id/ad_view"
+        android:background="@color/toolBarColor"
+        android:text="@string/complete_today_routine"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
     <RelativeLayout
         android:id="@+id/ad_view"
         android:layout_width="match_parent"

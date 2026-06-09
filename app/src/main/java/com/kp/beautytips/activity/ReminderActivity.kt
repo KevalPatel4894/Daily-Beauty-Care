@@ -36,7 +36,7 @@ class ReminderActivity : BaseActivity() {
             enableReminder(true)
         } else {
             switchReminder.isChecked = false
-            Toast.makeText(this, "Notification permission is required for reminders", Toast.LENGTH_LONG).show()
+            Toast.makeText(this, getString(R.string.notification_permission_required_toast), Toast.LENGTH_LONG).show()
         }
     }
 
@@ -59,7 +59,7 @@ class ReminderActivity : BaseActivity() {
         supportActionBar!!.setDisplayShowHomeEnabled(true)
 
         val txtTabTitle = findViewById<androidx.appcompat.widget.AppCompatTextView>(R.id.txtTabTitle)
-        txtTabTitle.text = "Daily Reminders"
+        txtTabTitle.text = getString(R.string.daily_reminders)
 
         switchReminder = findViewById(R.id.switchReminder)
         tvReminderTime = findViewById(R.id.tvReminderTime)
@@ -93,10 +93,10 @@ class ReminderActivity : BaseActivity() {
                         .apply()
                     updateTimeText(h, m)
                     ReminderScheduler.scheduleReminder(this)
-                    Toast.makeText(this, "Reminder scheduled successfully", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this, getString(R.string.reminder_scheduled_toast), Toast.LENGTH_SHORT).show()
                 }, currentHour, currentMinute, false).show()
             } else {
-                Toast.makeText(this, "Please enable reminders first", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, getString(R.string.please_enable_reminders_toast), Toast.LENGTH_SHORT).show()
             }
         }
 
@@ -126,9 +126,9 @@ class ReminderActivity : BaseActivity() {
         sharedPrefs.edit().putBoolean(ReminderScheduler.KEY_REMINDER_ENABLED, enable).apply()
         ReminderScheduler.scheduleReminder(this)
         if (enable) {
-            Toast.makeText(this, "Daily reminders enabled", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, getString(R.string.reminders_enabled_toast), Toast.LENGTH_SHORT).show()
         } else {
-            Toast.makeText(this, "Daily reminders disabled", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, getString(R.string.reminders_disabled_toast), Toast.LENGTH_SHORT).show()
         }
     }
 

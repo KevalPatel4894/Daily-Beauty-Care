@@ -90,8 +90,8 @@ object ReminderScheduler {
 
     fun createNotificationChannel(context: Context) {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-            val name = "Self-Care Reminders"
-            val descriptionText = "Get daily notifications with beauty and wellness tips"
+            val name = context.getString(com.kp.beautytips.R.string.reminder_channel_name)
+            val descriptionText = context.getString(com.kp.beautytips.R.string.reminder_channel_desc)
             val importance = NotificationManager.IMPORTANCE_DEFAULT
             val channel = NotificationChannel(REMINDER_CHANNEL_ID, name, importance).apply {
                 description = descriptionText
