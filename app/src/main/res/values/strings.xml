@@ -3479,4 +3479,10 @@
     <string name="daily_tip_channel_name">Daily Tip of the Day</string>
     <string name="daily_tip_channel_desc">Morning push notifications containing natural beauty remedies</string>
     <string name="daily_tip_notification_title">Morning Self-Care Tip 🌸</string>
+
+    <!-- Short Strings for Home Mini-Cards (Feature 13 Option A) -->
+    <string name="checked_in_today_short">Checked In</string>
+    <string name="check_in_tap_short">Tap to Record</string>
+    <string name="water_tap_short">Tap to Track</string>
+    <string name="challenges_desc_short">7-Day Habits</string>
 </resources>

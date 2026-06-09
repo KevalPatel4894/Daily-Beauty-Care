@@ -3468,4 +3468,10 @@
     <string name="daily_tip_channel_name">今日のデイリーヒント</string>
     <string name="daily_tip_channel_desc">自然な美容法を含む朝のプッシュ通知</string>
     <string name="daily_tip_notification_title">朝のセルフケアのヒント 🌸</string>
+
+    <!-- Short Strings for Home Mini-Cards (Feature 13 Option A) -->
+    <string name="checked_in_today_short">チェックイン済</string>
+    <string name="check_in_tap_short">タップして記録</string>
+    <string name="water_tap_short">タップして記録</string>
+    <string name="challenges_desc_short">7日間の習慣</string>
 </resources>

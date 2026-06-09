@@ -284,10 +284,9 @@ class MainActivity : BaseActivity(), CategoryAdapter.OnItemClick {
 
             val txtCheckInSubtitle = findViewById<AppCompatTextView>(R.id.txtCheckInSubtitle)
             if (isCheckedInToday) {
-                val streakStr = String.format(getString(R.string.check_in_streak_format), streak)
-                txtCheckInSubtitle.text = "$streakStr - ${getString(R.string.checked_in_today)}"
+                txtCheckInSubtitle.text = String.format(getString(R.string.check_in_streak_format), streak)
             } else {
-                txtCheckInSubtitle.text = getString(R.string.check_in_subtitle)
+                txtCheckInSubtitle.text = getString(R.string.check_in_tap_short)
             }
         } catch (e: Exception) {
             e.printStackTrace()
@@ -306,7 +305,7 @@ class MainActivity : BaseActivity(), CategoryAdapter.OnItemClick {
             
             val goal = waterPrefs.getInt("water_water_goal", 8)
             val txtWaterSubtitle = findViewById<AppCompatTextView>(R.id.txtWaterSubtitle)
-            txtWaterSubtitle.text = String.format(getString(R.string.glasses_format), count, goal) + " • " + getString(R.string.water_tracker_subtitle)
+            txtWaterSubtitle.text = String.format(getString(R.string.glasses_format), count, goal)
         } catch (e: Exception) {
             e.printStackTrace()
         }

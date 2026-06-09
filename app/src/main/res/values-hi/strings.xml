@@ -3468,4 +3468,10 @@
     <string name="daily_tip_channel_name">आज का दैनिक नुस्खा</string>
     <string name="daily_tip_channel_desc">प्राकृतिक सौंदर्य नुस्खों वाले सुबह के पुश नोटिफिकेशन</string>
     <string name="daily_tip_notification_title">सुबह का स्व-देखभाल नुस्खा 🌸</string>
+
+    <!-- Short Strings for Home Mini-Cards (Feature 13 Option A) -->
+    <string name="checked_in_today_short">चेक-इन हो गया</string>
+    <string name="check_in_tap_short">दर्ज करने के लिए दबाएं</string>
+    <string name="water_tap_short">ट्रैक करने के लिए दबाएं</string>
+    <string name="challenges_desc_short">7-दिन की आदतें</string>
 </resources>

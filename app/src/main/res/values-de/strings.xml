@@ -3468,4 +3468,10 @@
     <string name="daily_tip_channel_name">Täglicher Tipp des Tages</string>
     <string name="daily_tip_channel_desc">Morgendliche Push-Benachrichtigungen mit natürlichen Schönheitstipps</string>
     <string name="daily_tip_notification_title">Morgendlicher Pflegetipp 🌸</string>
+
+    <!-- Short Strings for Home Mini-Cards (Feature 13 Option A) -->
+    <string name="checked_in_today_short">Eingecheckt</string>
+    <string name="check_in_tap_short">Tippen zum Eintragen</string>
+    <string name="water_tap_short">Tippen zum Verfolgen</string>
+    <string name="challenges_desc_short">7-Tage-Gewohnheiten</string>
 </resources>

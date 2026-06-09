@@ -3468,4 +3468,10 @@
     <string name="daily_tip_channel_name">Consejo diario del día</string>
     <string name="daily_tip_channel_desc">Notificaciones push matutinas con remedios naturales de belleza</string>
     <string name="daily_tip_notification_title">Consejo de autocuidado matutino 🌸</string>
+
+    <!-- Short Strings for Home Mini-Cards (Feature 13 Option A) -->
+    <string name="checked_in_today_short">Registrado</string>
+    <string name="check_in_tap_short">Toca para registrar</string>
+    <string name="water_tap_short">Toca para registrar</string>
+    <string name="challenges_desc_short">Hábitos de 7 días</string>
 </resources>

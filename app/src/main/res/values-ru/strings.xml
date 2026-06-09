@@ -3468,4 +3468,10 @@
     <string name="daily_tip_channel_name">Ежедневный совет дня</string>
     <string name="daily_tip_channel_desc">Утренние push-уведомления с натуральными рецептами красоты</string>
     <string name="daily_tip_notification_title">Утренний совет по уходу за собой 🌸</string>
+
+    <!-- Short Strings for Home Mini-Cards (Feature 13 Option A) -->
+    <string name="checked_in_today_short">Отмечено</string>
+    <string name="check_in_tap_short">Нажмите для записи</string>
+    <string name="water_tap_short">Нажмите для отслеживания</string>
+    <string name="challenges_desc_short">7-дневные привычки</string>
 </resources>
