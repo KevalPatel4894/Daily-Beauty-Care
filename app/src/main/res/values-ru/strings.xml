@@ -3440,4 +3440,25 @@
     <string name="diamond_guru_desc">Достигните 30-дневной серии отметок</string>
     <string name="locked">Заблокировано</string>
     <string name="unlocked">Разблокировано</string>
+
+    <!-- Auto-Generated Translations for Water Intake Tracker Feature -->
+    <string name="water_tracker">Трекер воды</string>
+    <string name="water_tracker_subtitle">Следите за потреблением воды для сияющей кожи!</string>
+    <string name="daily_goal">Дневная цель</string>
+    <string name="glasses_format" formatted="false">%1$d / %2$d стак.</string>
+    <string name="add_glass">Добавить стакан</string>
+    <string name="remove_glass">Убрать стакан</string>
+    <string name="water_goal_achieved">Поздравляем! Вы достигли своей дневной нормы воды! 🎉</string>
+    <string name="hydration_tip_title">Знаете ли вы?</string>
+    <string name="hydration_tip_1">Питьевая вода улучшает цвет лица и уменьшает отечность.</string>
+    <string name="hydration_tip_2">Достаточное увлажнение помогает выводить токсины и предотвращает появление прыщей.</string>
+    <string name="hydration_tip_3">Вода помогает сохранять эластичность кожи и предотвращает появление ранних морщин.</string>
+    <string name="hydration_tip_4">Увлажнение регулирует естественный баланс влаги, устраняя сухость кожи.</string>
+    <string name="hydration_tip_5">Увлажненный организм способствует более быстрому заживлению кожи и обновлению клеток.</string>
+    <string name="water_reminders">Напоминания о воде</string>
+    <string name="water_reminders_desc">Получайте ненавязчивые напоминания о необходимости пить воду.</string>
+    <string name="water_notification_title">Время пить воду! 💧</string>
+    <string name="water_notification_body">Выпейте стакан воды прямо сейчас, чтобы кожа оставалась здоровой и сияющей!</string>
+    <string name="water_channel_name">Трекер увлажнения</string>
+    <string name="water_channel_desc">Уведомления с напоминанием пить воду в течение дня</string>
 </resources>

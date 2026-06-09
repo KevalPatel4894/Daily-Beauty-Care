@@ -11,7 +11,7 @@ This document tracks all zero-budget features designed to maximize user retentio
 * **Details:** Users join challenges (e.g. *"7-Day Glowing Skin Challenge"*, *"14-Day Hair Care Challenge"*). Each day, the app unlocks a specific natural remedy task they must check off.
 * **Tech:** Local database storing task states and unlock times.
 
-### [ ] Feature 2: Daily Check-In & Streaks
+### [x] Feature 2: Daily Check-In & Streaks
 * **Goal:** Build a daily usage habit.
 * **Details:** A calendar view showing check-in progress. Checking in daily builds a streak (e.g., *"5 Days Streak!"*) and unlocks self-care badges (e.g. *"Glow Master"*, *"Hair Guru"*).
 * **Tech:** SharedPreferences tracking daily login timestamps.
@@ -164,7 +164,7 @@ This document tracks all zero-budget features designed to maximize user retentio
 * **Details:** Dynamic advice depending on current calendar month (e.g. *Summer Glow checklist* with hydration remedies, *Winter Care checklist* with dry skin/chapped lips remedies, *Monsoon Hair Fall control*).
 * **Tech:** Standard local system Calendar class checking local date.
 
-### [ ] Feature 26: Daily Water Intake & Hydration Tracker (Glowing Skin Habit)
+### [x] Feature 26: Daily Water Intake & Hydration Tracker (Glowing Skin Habit)
 * **Goal:** Build strong daily user retention (hydration is directly tied to skin glow).
 * **Details:** A simple, beautiful tracking card on the main screen where users tap to check off water glasses drank. App triggers gentle notifications: *"Drink a cup of water now for naturally glowing skin!"*
 * **Tech:** SharedPreferences storage and basic alarms.

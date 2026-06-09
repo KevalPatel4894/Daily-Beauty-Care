@@ -3440,4 +3440,25 @@
     <string name="diamond_guru_desc">연속 체크인 30일 달성</string>
     <string name="locked">잠김</string>
     <string name="unlocked">잠금 해제됨</string>
+
+    <!-- Auto-Generated Translations for Water Intake Tracker Feature -->
+    <string name="water_tracker">수분 추적기</string>
+    <string name="water_tracker_subtitle">빛나는 피부를 위해 매일의 수분 섭취를 추적하세요!</string>
+    <string name="daily_goal">일일 목표</string>
+    <string name="glasses_format" formatted="false">%1$d / %2$d 잔</string>
+    <string name="add_glass">물컵 추가</string>
+    <string name="remove_glass">물컵 빼기</string>
+    <string name="water_goal_achieved">축하합니다! 일일 수분 섭취 목표를 달성했습니다! 🎉</string>
+    <string name="hydration_tip_title">알고 계셨나요?</string>
+    <string name="hydration_tip_1">물을 마시면 피부 톤이 맑아지고 부기가 줄어듭니다.</string>
+    <string name="hydration_tip_2">충분한 수분 섭취는 노폐물을 배출해 여드름 예방에 도움을 줍니다.</string>
+    <string name="hydration_tip_3">물은 피부 탄력을 유지하고 노화 방지에 도움을 줍니다.</string>
+    <string name="hydration_tip_4">수분 공급은 피부의 자연스러운 수분을 조절하여 건조함을 해결합니다.</string>
+    <string name="hydration_tip_5">수분이 충분하면 피부 재생 및 세포 리뉴얼이 빨라집니다.</string>
+    <string name="water_reminders">수분 섭취 알림</string>
+    <string name="water_reminders_desc">하루 동안 물을 마시도록 부드러운 알림을 받습니다.</string>
+    <string name="water_notification_title">수분 보충 시간입니다! 💧</string>
+    <string name="water_notification_body">피부를 빛나고 건강하게 유지하기 위해 지금 물 한 잔을 마시세요!</string>
+    <string name="water_channel_name">수분 섭취 추적기</string>
+    <string name="water_channel_desc">일일 수분 섭취 알림 알림</string>
 </resources>

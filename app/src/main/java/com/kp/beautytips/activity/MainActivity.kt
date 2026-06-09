@@ -167,6 +167,14 @@ class MainActivity : BaseActivity(), CategoryAdapter.OnItemClick {
             }
         }
 
+        val cardWaterTrackerBanner = findViewById<View>(R.id.cardWaterTrackerBanner)
+        cardWaterTrackerBanner.setOnClickListener {
+            Intent(this, WaterTrackerActivity::class.java).also {
+                startActivity(it)
+                AppUtils.startFromRightToLeft(this)
+            }
+        }
+
         val imgSearch = findViewById<androidx.appcompat.widget.AppCompatImageView>(R.id.imgSearch)
         imgSearch.setOnClickListener {
             Intent(this, SearchActivity::class.java).also {
@@ -281,6 +289,24 @@ class MainActivity : BaseActivity(), CategoryAdapter.OnItemClick {
             } else {
                 txtCheckInSubtitle.text = getString(R.string.check_in_subtitle)
             }
+        } catch (e: Exception) {
+            e.printStackTrace()
+        }
+
+        // Update Water Tracker status on banner
+        try {
+            val waterPrefs = getSharedPreferences("water_tracker_prefs", Context.MODE_PRIVATE)
+            val todayStr = SimpleDateFormat("yyyy-MM-dd", Locale.US).format(Calendar.getInstance().time)
+            val lastDate = waterPrefs.getString("water_last_date", "") ?: ""
+            var count = waterPrefs.getInt("water_today_count", 0)
+            if (todayStr != lastDate) {
+                count = 0
+                waterPrefs.edit().putInt("water_today_count", 0).putString("water_last_date", todayStr).apply()
+            }
+            
+            val goal = waterPrefs.getInt("water_water_goal", 8)
+            val txtWaterSubtitle = findViewById<AppCompatTextView>(R.id.txtWaterSubtitle)
+            txtWaterSubtitle.text = String.format(getString(R.string.glasses_format), count, goal) + " • " + getString(R.string.water_tracker_subtitle)
         } catch (e: Exception) {
             e.printStackTrace()
         }

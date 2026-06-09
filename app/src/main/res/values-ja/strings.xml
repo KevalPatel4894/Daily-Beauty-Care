@@ -3440,4 +3440,25 @@
     <string name="diamond_guru_desc">チェックインを 30 日間継続する</string>
     <string name="locked">ロック中</string>
     <string name="unlocked">解除済み</string>
+
+    <!-- Auto-Generated Translations for Water Intake Tracker Feature -->
+    <string name="water_tracker">給水トラッカー</string>
+    <string name="water_tracker_subtitle">輝く肌のために毎日の水分摂取量を記録しましょう！</string>
+    <string name="daily_goal">1日の目標</string>
+    <string name="glasses_format" formatted="false">%1$d / %2$d コップ</string>
+    <string name="add_glass">コップを追加</string>
+    <string name="remove_glass">コップを減らす</string>
+    <string name="water_goal_achieved">おめでとうございます！今日の水分補給目標を達成しました！ 🎉</string>
+    <string name="hydration_tip_title">ご存知ですか？</string>
+    <string name="hydration_tip_1">水を飲むと肌のトーンが良くなり、むくみが軽減されます。</string>
+    <string name="hydration_tip_2">適切な水分補給は、毒素を排出してニキビを防ぐのに役立ちます。</string>
+    <string name="hydration_tip_3">水は肌の弾力性を保ち、しわの予防に役立ちます。</string>
+    <string name="hydration_tip_4">水分補給は肌本来の潤いを整え、かさつきを防ぎます。</string>
+    <string name="hydration_tip_5">水分が十分な体は、肌の修復やターンオーバーを促進します。</string>
+    <string name="water_reminders">水分補給のリマインダー</string>
+    <string name="water_reminders_desc">日中、水分補給を促す優しいリマインダーを受け取ります。</string>
+    <string name="water_notification_title">水分補給の時間です！ 💧</string>
+    <string name="water_notification_body">肌の輝きと健康を保つために、コップ1杯の水を飲みましょう！</string>
+    <string name="water_channel_name">水分補給トラッカー</string>
+    <string name="water_channel_desc">毎日の水分摂取リマインダー通知</string>
 </resources>

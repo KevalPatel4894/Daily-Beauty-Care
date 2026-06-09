@@ -3440,4 +3440,25 @@
     <string name="diamond_guru_desc">Erreichen Sie eine 30-Tage-Check-in-Serie</string>
     <string name="locked">Gesperrt</string>
     <string name="unlocked">Freigeschaltet</string>
+
+    <!-- Auto-Generated Translations for Water Intake Tracker Feature -->
+    <string name="water_tracker">Wasser-Tracker</string>
+    <string name="water_tracker_subtitle">Tägliche Wasseraufnahme für strahlende Haut tracken!</string>
+    <string name="daily_goal">Tägliches Ziel</string>
+    <string name="glasses_format" formatted="false">%1$d / %2$d Gläser</string>
+    <string name="add_glass">Glas hinzufügen</string>
+    <string name="remove_glass">Glas entfernen</string>
+    <string name="water_goal_achieved">Glückwunsch! Du hast dein tägliches Wasserziel erreicht! 🎉</string>
+    <string name="hydration_tip_title">Wusstest du schon?</string>
+    <string name="hydration_tip_1">Wasser trinken verbessert den Hautton und reduziert Schwellungen.</string>
+    <string name="hydration_tip_2">Ausreichende Hydratation hilft, Giftstoffe auszuspülen, um Akne vorzubeugen.</string>
+    <string name="hydration_tip_3">Wasser hilft, die Elastizität der Haut zu erhalten, und beugt Falten vor.</string>
+    <string name="hydration_tip_4">Hydratation reguliert die natürliche Hautfeuchtigkeit und heilt trockene Stellen.</string>
+    <string name="hydration_tip_5">Ein hydrierter Körper unterstützt eine schnellere Hautheilung und Zellerneuerung.</string>
+    <string name="water_reminders">Trink-Erinnerungen</string>
+    <string name="water_reminders_desc">Erhalte tagsüber sanfte Erinnerungen, um Wasser zu trinken.</string>
+    <string name="water_notification_title">Zeit zum Trinken! 💧</string>
+    <string name="water_notification_body">Trinke jetzt ein Glas Wasser, um deine Haut strahlend und gesund zu halten!</string>
+    <string name="water_channel_name">Wasser-Tracker</string>
+    <string name="water_channel_desc">Benachrichtigungen für tägliche Erinnerungen zur Wasseraufnahme</string>
 </resources>

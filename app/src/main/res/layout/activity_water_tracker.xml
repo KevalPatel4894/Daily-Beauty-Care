@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:fitsSystemWindows="true"
+    tools:context=".activity.WaterTrackerActivity">
+
+    <!-- Toolbar -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/toolBarColor">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txtTabTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/water_tracker"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/_18sdp"
+            android:textStyle="bold" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <!-- Scrollable content -->
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/ad_view"
+        android:layout_below="@+id/toolBar"
+        android:fillViewport="true">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/_12sdp">
+
+            <!-- 1. HYDRATION PROGRESS CARD -->
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_10sdp"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="4dp"
+                app:cardBackgroundColor="@android:color/white"
+                app:strokeWidth="0dp">
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:padding="@dimen/_15sdp">
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/daily_goal"
+                        android:textColor="#555555"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <!-- Circular Progress Meter overlapping text -->
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_12sdp"
+                        android:layout_marginBottom="@dimen/_12sdp">
+
+                        <com.google.android.material.progressindicator.CircularProgressIndicator
+                            android:id="@+id/progressWater"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            app:indicatorSize="@dimen/_120sdp"
+                            app:trackThickness="@dimen/_10sdp"
+                            app:indicatorColor="#2980B9"
+                            app:trackColor="#E8F4F8"
+                            android:max="8"
+                            android:progress="0" />
+
+                        <androidx.appcompat.widget.LinearLayoutCompat
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="vertical"
+                            android:gravity="center">
+
+                            <androidx.appcompat.widget.AppCompatImageView
+                                android:layout_width="@dimen/_24sdp"
+                                android:layout_height="@dimen/_24sdp"
+                                android:src="@drawable/ic_water_drop" />
+
+                            <androidx.appcompat.widget.AppCompatTextView
+                                android:id="@+id/txtWaterCups"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="4dp"
+                                android:text="0 / 8"
+                                android:textColor="#2980B9"
+                                android:textSize="22sp"
+                                android:textStyle="bold" />
+
+                            <androidx.appcompat.widget.AppCompatTextView
+                                android:id="@+id/txtWaterPercent"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="0%"
+                                android:textColor="#7F8C8D"
+                                android:textSize="12sp" />
+                        </androidx.appcompat.widget.LinearLayoutCompat>
+                    </FrameLayout>
+
+                    <!-- Horizontal Grid of 8 Glasses -->
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="@dimen/_8sdp"
+                        android:layout_marginBottom="@dimen/_12sdp"
+                        android:gravity="center">
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:id="@+id/imgGlass1"
+                            android:layout_width="0dp"
+                            android:layout_height="@dimen/_24sdp"
+                            android:layout_weight="1"
+                            android:src="@drawable/ic_glass_empty" />
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:id="@+id/imgGlass2"
+                            android:layout_width="0dp"
+                            android:layout_height="@dimen/_24sdp"
+                            android:layout_weight="1"
+                            android:src="@drawable/ic_glass_empty" />
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:id="@+id/imgGlass3"
+                            android:layout_width="0dp"
+                            android:layout_height="@dimen/_24sdp"
+                            android:layout_weight="1"
+                            android:src="@drawable/ic_glass_empty" />
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:id="@+id/imgGlass4"
+                            android:layout_width="0dp"
+                            android:layout_height="@dimen/_24sdp"
+                            android:layout_weight="1"
+                            android:src="@drawable/ic_glass_empty" />
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:id="@+id/imgGlass5"
+                            android:layout_width="0dp"
+                            android:layout_height="@dimen/_24sdp"
+                            android:layout_weight="1"
+                            android:src="@drawable/ic_glass_empty" />
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:id="@+id/imgGlass6"
+                            android:layout_width="0dp"
+                            android:layout_height="@dimen/_24sdp"
+                            android:layout_weight="1"
+                            android:src="@drawable/ic_glass_empty" />
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:id="@+id/imgGlass7"
+                            android:layout_width="0dp"
+                            android:layout_height="@dimen/_24sdp"
+                            android:layout_weight="1"
+                            android:src="@drawable/ic_glass_empty" />
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:id="@+id/imgGlass8"
+                            android:layout_width="0dp"
+                            android:layout_height="@dimen/_24sdp"
+                            android:layout_weight="1"
+                            android:src="@drawable/ic_glass_empty" />
+
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+                    <!-- Control Buttons -->
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center">
+
+                        <!-- Remove Button -->
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/btnRemoveGlass"
+                            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                            android:layout_width="0dp"
+                            android:layout_height="@dimen/_36sdp"
+                            android:layout_weight="1"
+                            android:layout_marginEnd="@dimen/_6sdp"
+                            android:text="@string/remove_glass"
+                            android:textColor="#C0392B"
+                            app:strokeColor="#C0392B"
+                            app:cornerRadius="20dp" />
+
+                        <!-- Add Button -->
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/btnAddGlass"
+                            android:layout_width="0dp"
+                            android:layout_height="@dimen/_36sdp"
+                            android:layout_weight="1.2"
+                            android:layout_marginStart="@dimen/_6sdp"
+                            android:text="@string/add_glass"
+                            android:textColor="@android:color/white"
+                            app:backgroundTint="#2980B9"
+                            app:cornerRadius="20dp" />
+
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- 2. HYDRATION INFO / FACT CARD -->
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_10sdp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="2dp"
+                app:cardBackgroundColor="#FEF9E7"
+                app:strokeWidth="0dp">
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="@dimen/_12sdp">
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical">
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:layout_width="@dimen/_16sdp"
+                            android:layout_height="@dimen/_16sdp"
+                            android:src="@drawable/ic_star_rate"
+                            app:tint="#F39C12" />
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="6dp"
+                            android:text="@string/hydration_tip_title"
+                            android:textColor="#F39C12"
+                            android:textSize="13sp"
+                            android:textStyle="bold" />
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/txtHydrationTip"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:text="@string/hydration_tip_1"
+                        android:textColor="#7F6000"
+                        android:textSize="12sp" />
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- 3. REMINDERS SETTINGS CARD -->
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_10sdp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="3dp"
+                app:cardBackgroundColor="@android:color/white"
+                app:strokeWidth="0dp">
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="@dimen/_12sdp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <androidx.appcompat.widget.LinearLayoutCompat
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_toStartOf="@+id/switchWaterReminder"
+                            android:orientation="vertical">
+
+                            <androidx.appcompat.widget.AppCompatTextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/water_reminders"
+                                android:textColor="@color/black"
+                                android:textSize="14sp"
+                                android:textStyle="bold" />
+
+                            <androidx.appcompat.widget.AppCompatTextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="2dp"
+                                android:text="@string/water_reminders_desc"
+                                android:textColor="#888888"
+                                android:textSize="11sp" />
+                        </androidx.appcompat.widget.LinearLayoutCompat>
+
+                        <com.google.android.material.switchmaterial.SwitchMaterial
+                            android:id="@+id/switchWaterReminder"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:layout_centerVertical="true"
+                            android:checked="true"
+                            app:thumbTint="@color/toolBarColor"
+                            app:trackTint="#F1B6D6" />
+
+                    </RelativeLayout>
+
+                    <!-- Interval Selection (visible if switch is checked) -->
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:id="@+id/layoutInterval"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:paddingTop="@dimen/_8sdp">
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="#EEEEEE"
+                            android:layout_marginBottom="@dimen/_10sdp"/>
+
+                        <RadioGroup
+                            android:id="@+id/radioGroupInterval"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:gravity="center">
+
+                            <androidx.appcompat.widget.AppCompatRadioButton
+                                android:id="@+id/radio2h"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="2 Hrs"
+                                android:textSize="12sp"
+                                android:textColor="#555555"
+                                android:checked="true"/>
+
+                            <androidx.appcompat.widget.AppCompatRadioButton
+                                android:id="@+id/radio3h"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="3 Hrs"
+                                android:textSize="12sp"
+                                android:textColor="#555555"/>
+
+                            <androidx.appcompat.widget.AppCompatRadioButton
+                                android:id="@+id/radio4h"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="4 Hrs"
+                                android:textSize="12sp"
+                                android:textColor="#555555"/>
+
+                        </RadioGroup>
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+            </com.google.android.material.card.MaterialCardView>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.core.widget.NestedScrollView>
+
+    <!-- Bottom Ad Banner -->
+    <RelativeLayout
+        android:id="@+id/ad_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center" />
+
+</RelativeLayout>

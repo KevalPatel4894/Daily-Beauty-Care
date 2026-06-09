@@ -3440,4 +3440,25 @@
     <string name="diamond_guru_desc">30-दिवसीय चेक-इन लकीर तक पहुंचें</string>
     <string name="locked">लॉक है</string>
     <string name="unlocked">अनलॉक है</string>
+
+    <!-- Auto-Generated Translations for Water Intake Tracker Feature -->
+    <string name="water_tracker">पानी ट्रैकर</string>
+    <string name="water_tracker_subtitle">चमकदार त्वचा के लिए दैनिक पानी के सेवन को ट्रैक करें!</string>
+    <string name="daily_goal">दैनिक लक्ष्य</string>
+    <string name="glasses_format" formatted="false">%1$d / %2$d गिलास</string>
+    <string name="add_glass">गिलास जोड़ें</string>
+    <string name="remove_glass">गिलास हटाएं</string>
+    <string name="water_goal_achieved">बधाई हो! आपने अपना दैनिक हाइड्रेशन लक्ष्य पूरा कर लिया है! 🎉</string>
+    <string name="hydration_tip_title">क्या आप जानते हैं?</string>
+    <string name="hydration_tip_1">पानी पीने से त्वचा की रंगत सुधरती है और सूजन कम होती है।</string>
+    <string name="hydration_tip_2">उचित हाइड्रेशन मुंहासों को रोकने के लिए विषाक्त पदार्थों को बाहर निकालने में मदद करता है।</string>
+    <string name="hydration_tip_3">पानी त्वचा की लोच बनाए रखने में मदद करता है और झुर्रियों को रोकता है।</string>
+    <string name="hydration_tip_4">हाइड्रेशन त्वचा की प्राकृतिक नमी को नियंत्रित करता है, जिससे सूखापन ठीक होता है।</string>
+    <string name="hydration_tip_5">हाइड्रेटेड शरीर त्वचा के तेजी से ठीक होने और सेल नवीनीकरण में मदद करता है।</string>
+    <string name="water_reminders">हाइड्रेशन रिमाइंडर</string>
+    <string name="water_reminders_desc">पानी पीने के लिए दिन के दौरान कोमल रिमाइंडर प्राप्त करें।</string>
+    <string name="water_notification_title">हाइड्रेट होने का समय! 💧</string>
+    <string name="water_notification_body">अपनी त्वचा को चमकदार और स्वस्थ रखने के लिए अभी एक गिलास पानी पिएं!</string>
+    <string name="water_channel_name">हाइड्रेशन ट्रैकर</string>
+    <string name="water_channel_desc">दैनिक पानी के सेवन के अनुस्मारक के लिए सूचनाएं</string>
 </resources>

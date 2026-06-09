@@ -3440,4 +3440,25 @@
     <string name="diamond_guru_desc">Alcanza una racha de registro de 30 días</string>
     <string name="locked">Bloqueado</string>
     <string name="unlocked">Desbloqueado</string>
+
+    <!-- Auto-Generated Translations for Water Intake Tracker Feature -->
+    <string name="water_tracker">Control de Agua</string>
+    <string name="water_tracker_subtitle">¡Sigue la ingesta diaria de agua para una piel radiante!</string>
+    <string name="daily_goal">Meta Diaria</string>
+    <string name="glasses_format" formatted="false">%1$d / %2$d Vasos</string>
+    <string name="add_glass">Añadir Vaso</string>
+    <string name="remove_glass">Quitar Vaso</string>
+    <string name="water_goal_achieved">¡Felicidades! ¡Has alcanzado tu meta diaria de hidratación! 🎉</string>
+    <string name="hydration_tip_title">¿Sabías que?</string>
+    <string name="hydration_tip_1">Beber agua mejora el tono de la piel y reduce la hinchazón.</string>
+    <string name="hydration_tip_2">Una hidratación adecuada ayuda a eliminar toxinas para prevenir el acné.</string>
+    <string name="hydration_tip_3">El agua ayuda a mantener la elasticidad de la piel y previene arrugas tempranas.</string>
+    <string name="hydration_tip_4">La hidratación regula la humedad natural de la piel y combate la sequedad.</string>
+    <string name="hydration_tip_5">Un cuerpo hidratado favorece una cicatrización más rápida y la renovación celular.</string>
+    <string name="water_reminders">Recordatorios de Hidratación</string>
+    <string name="water_reminders_desc">Recibe recordatorios amables durante el día para beber agua.</string>
+    <string name="water_notification_title">¡Hora de hidratarse! 💧</string>
+    <string name="water_notification_body">¡Bebe un vaso de agua ahora para mantener tu piel radiante y saludable!</string>
+    <string name="water_channel_name">Control de Hidratación</string>
+    <string name="water_channel_desc">Notificaciones para recordatorios diarios de ingesta de agua</string>
 </resources>

@@ -3440,4 +3440,25 @@
     <string name="diamond_guru_desc">Atteignez une série d\'enregistrement de 30 jours</string>
     <string name="locked">Verrouillé</string>
     <string name="unlocked">Débloqué</string>
+
+    <!-- Auto-Generated Translations for Water Intake Tracker Feature -->
+    <string name="water_tracker">Suivi de l\'eau</string>
+    <string name="water_tracker_subtitle">Suivez votre consommation d\'eau pour une peau éclatante !</string>
+    <string name="daily_goal">Objectif quotidien</string>
+    <string name="glasses_format" formatted="false">%1$d / %2$d Verres</string>
+    <string name="add_glass">Ajouter un verre</string>
+    <string name="remove_glass">Enlever un verre</string>
+    <string name="water_goal_achieved">Félicitations ! Vous avez atteint votre objectif d\'hydratation ! 🎉</string>
+    <string name="hydration_tip_title">Le saviez-vous ?</string>
+    <string name="hydration_tip_1">Boire de l\'eau améliore le teint et réduit les poches sous les yeux.</string>
+    <string name="hydration_tip_2">Une bonne hydratation aide à éliminer les toxines pour prévenir l\'acné.</string>
+    <string name="hydration_tip_3">L\'eau aide à maintenir l\'élasticité de la peau et prévient les rides précoces.</string>
+    <string name="hydration_tip_4">L\'hydratation régule l\'humidité naturelle de la peau et soigne les zones sèches.</string>
+    <string name="hydration_tip_5">Un corps hydraté favorise une guérison plus rapide de la peau et le renouvellement cellulaire.</string>
+    <string name="water_reminders">Rappels d\'hydratation</string>
+    <string name="water_reminders_desc">Recevez de doux rappels pour boire de l\'eau pendant la journée.</string>
+    <string name="water_notification_title">L\'heure de s\'hydrater ! 💧</string>
+    <string name="water_notification_body">Buvez un verre d\'eau maintenant pour garder votre peau éclatante et saine !</string>
+    <string name="water_channel_name">Suivi d\'hydratation</string>
+    <string name="water_channel_desc">Notifications de rappel pour votre consommation d\'eau quotidienne</string>
 </resources>

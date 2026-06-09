@@ -3451,4 +3451,25 @@
     <string name="diamond_guru_desc">Reach a 30-day check-in streak</string>
     <string name="locked">Locked</string>
     <string name="unlocked">Unlocked</string>
+
+    <!-- Auto-Generated Translations for Water Intake Tracker Feature -->
+    <string name="water_tracker">Water Tracker</string>
+    <string name="water_tracker_subtitle">Track daily water intake for glowing skin!</string>
+    <string name="daily_goal">Daily Goal</string>
+    <string name="glasses_format" formatted="false">%1$d / %2$d Glasses</string>
+    <string name="add_glass">Add Glass</string>
+    <string name="remove_glass">Remove Glass</string>
+    <string name="water_goal_achieved">Congratulations! You reached your daily hydration goal! 🎉</string>
+    <string name="hydration_tip_title">Did You Know?</string>
+    <string name="hydration_tip_1">Drinking water improves skin tone and reduces puffiness.</string>
+    <string name="hydration_tip_2">Proper hydration helps flush out toxins to prevent acne.</string>
+    <string name="hydration_tip_3">Water helps maintain skin elasticity and prevents early wrinkles.</string>
+    <string name="hydration_tip_4">Hydration regulates natural skin moisture, curing dry patches.</string>
+    <string name="hydration_tip_5">A hydrated body supports faster skin healing and cell renewal.</string>
+    <string name="water_reminders">Hydration Reminders</string>
+    <string name="water_reminders_desc">Get gentle reminders during the day to drink water.</string>
+    <string name="water_notification_title">Time to Hydrate! 💧</string>
+    <string name="water_notification_body">Drink a glass of water now to keep your skin glowing and healthy!</string>
+    <string name="water_channel_name">Hydration Tracker</string>
+    <string name="water_channel_desc">Notifications for daily water intake reminders</string>
 </resources>
