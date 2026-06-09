@@ -3461,4 +3461,11 @@
     <string name="water_notification_body">Buvez un verre d\'eau maintenant pour garder votre peau éclatante et saine !</string>
     <string name="water_channel_name">Suivi d\'hydratation</string>
     <string name="water_channel_desc">Notifications de rappel pour votre consommation d\'eau quotidienne</string>
+
+    <!-- Daily Tip of the Day Notification (Feature 13) -->
+    <string name="daily_tip_setting">Conseil quotidien du jour</string>
+    <string name="daily_tip_setting_desc">Recevez un conseil de soin naturel tous les matins à 9h00</string>
+    <string name="daily_tip_channel_name">Conseil quotidien du jour</string>
+    <string name="daily_tip_channel_desc">Notifications push matinales contenant des remèdes de beauté naturels</string>
+    <string name="daily_tip_notification_title">Conseil de soin matinal 🌸</string>
 </resources>

@@ -3461,4 +3461,11 @@
     <string name="water_notification_body">肌の輝きと健康を保つために、コップ1杯の水を飲みましょう！</string>
     <string name="water_channel_name">水分補給トラッカー</string>
     <string name="water_channel_desc">毎日の水分摂取リマインダー通知</string>
+
+    <!-- Daily Tip of the Day Notification (Feature 13) -->
+    <string name="daily_tip_setting">今日のデイリーヒント</string>
+    <string name="daily_tip_setting_desc">毎朝9:00に自然なセルフケアのヒントを受け取る</string>
+    <string name="daily_tip_channel_name">今日のデイリーヒント</string>
+    <string name="daily_tip_channel_desc">自然な美容法を含む朝のプッシュ通知</string>
+    <string name="daily_tip_notification_title">朝のセルフケアのヒント 🌸</string>
 </resources>

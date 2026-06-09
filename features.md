@@ -76,7 +76,7 @@ This document tracks all zero-budget features designed to maximize user retentio
 * **Details:** When the user shakes their phone, the app plays a subtle sound, vibrates, and opens a random high-rated beauty tip.
 * **Tech:** Android `SensorManager` (Accelerometer).
 
-### [ ] Feature 13: Self-Care Tip of the Day Local Push Notification
+### [x] Feature 13: Self-Care Tip of the Day Local Push Notification
 * **Goal:** Bring users back to the app daily without server costs.
 * **Details:** Built-in alarm triggers a daily push notification with a random beauty tip at a set time (e.g. 9:00 AM). Clicking it opens that tip directly.
 * **Tech:** Android `WorkManager`.

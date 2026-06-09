@@ -3461,4 +3461,11 @@
     <string name="water_notification_body">अपनी त्वचा को चमकदार और स्वस्थ रखने के लिए अभी एक गिलास पानी पिएं!</string>
     <string name="water_channel_name">हाइड्रेशन ट्रैकर</string>
     <string name="water_channel_desc">दैनिक पानी के सेवन के अनुस्मारक के लिए सूचनाएं</string>
+
+    <!-- Daily Tip of the Day Notification (Feature 13) -->
+    <string name="daily_tip_setting">आज का दैनिक नुस्खा</string>
+    <string name="daily_tip_setting_desc">हर सुबह 9:00 बजे एक प्राकृतिक स्व-देखभाल नुस्खा प्राप्त करें</string>
+    <string name="daily_tip_channel_name">आज का दैनिक नुस्खा</string>
+    <string name="daily_tip_channel_desc">प्राकृतिक सौंदर्य नुस्खों वाले सुबह के पुश नोटिफिकेशन</string>
+    <string name="daily_tip_notification_title">सुबह का स्व-देखभाल नुस्खा 🌸</string>
 </resources>

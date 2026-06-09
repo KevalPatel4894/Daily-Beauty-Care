@@ -3472,4 +3472,11 @@
     <string name="water_notification_body">Drink a glass of water now to keep your skin glowing and healthy!</string>
     <string name="water_channel_name">Hydration Tracker</string>
     <string name="water_channel_desc">Notifications for daily water intake reminders</string>
+
+    <!-- Daily Tip of the Day Notification (Feature 13) -->
+    <string name="daily_tip_setting">Daily Tip of the Day</string>
+    <string name="daily_tip_setting_desc">Get a natural self-care tip every morning at 9:00 AM</string>
+    <string name="daily_tip_channel_name">Daily Tip of the Day</string>
+    <string name="daily_tip_channel_desc">Morning push notifications containing natural beauty remedies</string>
+    <string name="daily_tip_notification_title">Morning Self-Care Tip 🌸</string>
 </resources>

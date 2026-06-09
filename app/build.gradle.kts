@@ -56,6 +56,9 @@ dependencies {
     //SDP Libs
     implementation("com.intuit.sdp:sdp-android:1.1.1")
 
+    // WorkManager
+    implementation("androidx.work:work-runtime-ktx:2.9.1")
+
     //calligraphy
     implementation("io.github.inflationx:calligraphy3:3.1.1")
     implementation("io.github.inflationx:viewpump:2.0.3")

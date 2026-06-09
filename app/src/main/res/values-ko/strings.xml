@@ -3461,4 +3461,11 @@
     <string name="water_notification_body">피부를 빛나고 건강하게 유지하기 위해 지금 물 한 잔을 마시세요!</string>
     <string name="water_channel_name">수분 섭취 추적기</string>
     <string name="water_channel_desc">일일 수분 섭취 알림 알림</string>
+
+    <!-- Daily Tip of the Day Notification (Feature 13) -->
+    <string name="daily_tip_setting">오늘의 일일 팁</string>
+    <string name="daily_tip_setting_desc">매일 아침 9:00에 자연스러운 셀프 케어 팁 받기</string>
+    <string name="daily_tip_channel_name">오늘의 일일 팁</string>
+    <string name="daily_tip_channel_desc">자연스러운 미용법이 포함된 아침 푸시 알림</string>
+    <string name="daily_tip_notification_title">아침 셀프 케어 팁 🌸</string>
 </resources>

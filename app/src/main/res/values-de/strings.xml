@@ -3461,4 +3461,11 @@
     <string name="water_notification_body">Trinke jetzt ein Glas Wasser, um deine Haut strahlend und gesund zu halten!</string>
     <string name="water_channel_name">Wasser-Tracker</string>
     <string name="water_channel_desc">Benachrichtigungen für tägliche Erinnerungen zur Wasseraufnahme</string>
+
+    <!-- Daily Tip of the Day Notification (Feature 13) -->
+    <string name="daily_tip_setting">Täglicher Tipp des Tages</string>
+    <string name="daily_tip_setting_desc">Erhalten Sie jeden Morgen um 9:00 Uhr einen natürlichen Pflegetipp</string>
+    <string name="daily_tip_channel_name">Täglicher Tipp des Tages</string>
+    <string name="daily_tip_channel_desc">Morgendliche Push-Benachrichtigungen mit natürlichen Schönheitstipps</string>
+    <string name="daily_tip_notification_title">Morgendlicher Pflegetipp 🌸</string>
 </resources>

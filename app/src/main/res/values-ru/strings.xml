@@ -3461,4 +3461,11 @@
     <string name="water_notification_body">Выпейте стакан воды прямо сейчас, чтобы кожа оставалась здоровой и сияющей!</string>
     <string name="water_channel_name">Трекер увлажнения</string>
     <string name="water_channel_desc">Уведомления с напоминанием пить воду в течение дня</string>
+
+    <!-- Daily Tip of the Day Notification (Feature 13) -->
+    <string name="daily_tip_setting">Ежедневный совет дня</string>
+    <string name="daily_tip_setting_desc">Получайте естественный совет по уходу за собой каждое утро в 9:00</string>
+    <string name="daily_tip_channel_name">Ежедневный совет дня</string>
+    <string name="daily_tip_channel_desc">Утренние push-уведомления с натуральными рецептами красоты</string>
+    <string name="daily_tip_notification_title">Утренний совет по уходу за собой 🌸</string>
 </resources>

@@ -3461,4 +3461,11 @@
     <string name="water_notification_body">Beba um copo de água agora para manter sua pele radiante e saudável!</string>
     <string name="water_channel_name">Controle de Hidratação</string>
     <string name="water_channel_desc">Notificações de lembretes diários de consumo de água</string>
+
+    <!-- Daily Tip of the Day Notification (Feature 13) -->
+    <string name="daily_tip_setting">Dica diária do dia</string>
+    <string name="daily_tip_setting_desc">Receba uma dica de autocuidado natural todas as manhãs às 9h00</string>
+    <string name="daily_tip_channel_name">Dica diária do dia</string>
+    <string name="daily_tip_channel_desc">Notificaciones push matinais com remédios naturais de beleza</string>
+    <string name="daily_tip_notification_title">Dica de autocuidado matinal 🌸</string>
 </resources>

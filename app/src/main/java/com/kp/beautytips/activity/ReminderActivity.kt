@@ -19,6 +19,8 @@ import com.kp.beautytips.R
 import com.kp.beautytips.utils.ActivityUtils
 import com.kp.beautytips.utils.AppUtils
 import com.kp.beautytips.utils.ReminderScheduler
+import com.kp.beautytips.worker.DailyTipWorker
+import com.kp.beautytips.utils.DailyTipScheduler
 import io.github.inflationx.viewpump.ViewPumpContextWrapper
 import java.util.Locale
 
@@ -26,6 +28,7 @@ class ReminderActivity : BaseActivity() {
     private lateinit var switchReminder: SwitchCompat
     private lateinit var tvReminderTime: androidx.appcompat.widget.AppCompatTextView
     private lateinit var rlTimePicker: View
+    private lateinit var switchDailyTip: SwitchCompat
     private lateinit var sharedPrefs: SharedPreferences
     private var adRequest: AdRequest? = null
 
@@ -64,6 +67,7 @@ class ReminderActivity : BaseActivity() {
         switchReminder = findViewById(R.id.switchReminder)
         tvReminderTime = findViewById(R.id.tvReminderTime)
         rlTimePicker = findViewById(R.id.rlTimePicker)
+        switchDailyTip = findViewById(R.id.switchDailyTip)
 
         sharedPrefs = getSharedPreferences(ReminderScheduler.PREFS_NAME, Context.MODE_PRIVATE)
         val enabled = sharedPrefs.getBoolean(ReminderScheduler.KEY_REMINDER_ENABLED, true)
@@ -78,6 +82,21 @@ class ReminderActivity : BaseActivity() {
                 checkNotificationPermissionAndEnable()
             } else {
                 enableReminder(false)
+            }
+        }
+
+        // Daily Tip of the Day switch setup
+        val dailyTipPrefs = getSharedPreferences(DailyTipWorker.PREFS_FILE, Context.MODE_PRIVATE)
+        val dailyTipEnabled = dailyTipPrefs.getBoolean(DailyTipWorker.KEY_DAILY_TIP_ENABLED, true)
+        switchDailyTip.isChecked = dailyTipEnabled
+
+        switchDailyTip.setOnCheckedChangeListener { _, isChecked ->
+            dailyTipPrefs.edit().putBoolean(DailyTipWorker.KEY_DAILY_TIP_ENABLED, isChecked).apply()
+            DailyTipScheduler.scheduleDailyTip(this)
+            if (isChecked) {
+                Toast.makeText(this, getString(R.string.reminder_scheduled_toast), Toast.LENGTH_SHORT).show()
+            } else {
+                Toast.makeText(this, getString(R.string.reminders_disabled_toast), Toast.LENGTH_SHORT).show()
             }
         }
 
