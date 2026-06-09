@@ -3445,9 +3445,9 @@
     <string name="water_tracker">Suivi de l\'eau</string>
     <string name="water_tracker_subtitle">Suivez votre consommation d\'eau pour une peau éclatante !</string>
     <string name="daily_goal">Objectif quotidien</string>
-    <string name="glasses_format" formatted="false">%1$d / %2$d Verres</string>
-    <string name="add_glass">Ajouter un verre</string>
-    <string name="remove_glass">Enlever un verre</string>
+    <string name="glasses_format" formatted="false">%1$d / %2$d</string>
+    <string name="add_glass">Ajouter</string>
+    <string name="remove_glass">Enlever</string>
     <string name="water_goal_achieved">Félicitations ! Vous avez atteint votre objectif d\'hydratation ! 🎉</string>
     <string name="hydration_tip_title">Le saviez-vous ?</string>
     <string name="hydration_tip_1">Boire de l\'eau améliore le teint et réduit les poches sous les yeux.</string>

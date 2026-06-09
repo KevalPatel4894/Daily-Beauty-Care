@@ -37,5 +37,7 @@ class BaseApplication : Application() {
         )
         com.kp.beautytips.utils.ReminderScheduler.createNotificationChannel(this)
         com.kp.beautytips.utils.ReminderScheduler.scheduleReminder(this)
+        com.kp.beautytips.utils.WaterReminderScheduler.createNotificationChannel(this)
+        com.kp.beautytips.utils.WaterReminderScheduler.scheduleWaterReminder(this, false)
     }
 }

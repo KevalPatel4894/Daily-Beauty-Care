@@ -3445,9 +3445,9 @@
     <string name="water_tracker">Wasser-Tracker</string>
     <string name="water_tracker_subtitle">Tägliche Wasseraufnahme für strahlende Haut tracken!</string>
     <string name="daily_goal">Tägliches Ziel</string>
-    <string name="glasses_format" formatted="false">%1$d / %2$d Gläser</string>
-    <string name="add_glass">Glas hinzufügen</string>
-    <string name="remove_glass">Glas entfernen</string>
+    <string name="glasses_format" formatted="false">%1$d / %2$d</string>
+    <string name="add_glass">Hinzufügen</string>
+    <string name="remove_glass">Entfernen</string>
     <string name="water_goal_achieved">Glückwunsch! Du hast dein tägliches Wasserziel erreicht! 🎉</string>
     <string name="hydration_tip_title">Wusstest du schon?</string>
     <string name="hydration_tip_1">Wasser trinken verbessert den Hautton und reduziert Schwellungen.</string>

@@ -3445,9 +3445,9 @@
     <string name="water_tracker">수분 추적기</string>
     <string name="water_tracker_subtitle">빛나는 피부를 위해 매일의 수분 섭취를 추적하세요!</string>
     <string name="daily_goal">일일 목표</string>
-    <string name="glasses_format" formatted="false">%1$d / %2$d 잔</string>
-    <string name="add_glass">물컵 추가</string>
-    <string name="remove_glass">물컵 빼기</string>
+    <string name="glasses_format" formatted="false">%1$d / %2$d</string>
+    <string name="add_glass">추가</string>
+    <string name="remove_glass">제거</string>
     <string name="water_goal_achieved">축하합니다! 일일 수분 섭취 목표를 달성했습니다! 🎉</string>
     <string name="hydration_tip_title">알고 계셨나요?</string>
     <string name="hydration_tip_1">물을 마시면 피부 톤이 맑아지고 부기가 줄어듭니다.</string>

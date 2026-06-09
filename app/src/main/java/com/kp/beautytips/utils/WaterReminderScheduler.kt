@@ -16,8 +16,9 @@ object WaterReminderScheduler {
     const val PREFS_FILE = "water_tracker_prefs"
     const val KEY_WATER_REMINDER_ENABLED = "water_reminder_enabled"
     const val KEY_WATER_REMINDER_INTERVAL = "water_reminder_interval"
+    const val KEY_NEXT_ALARM_TIME = "water_next_alarm_time"
 
-    fun scheduleWaterReminder(context: Context) {
+    fun scheduleWaterReminder(context: Context, force: Boolean = true) {
         val sharedPrefs = context.getSharedPreferences(PREFS_FILE, Context.MODE_PRIVATE)
         val enabled = sharedPrefs.getBoolean(KEY_WATER_REMINDER_ENABLED, true)
         val interval = sharedPrefs.getInt(KEY_WATER_REMINDER_INTERVAL, 2)
@@ -33,7 +34,16 @@ object WaterReminderScheduler {
 
         if (!enabled) {
             alarmManager.cancel(pendingIntent)
+            sharedPrefs.edit().putLong(KEY_NEXT_ALARM_TIME, 0L).apply()
             return
+        }
+
+        if (!force) {
+            val nextAlarmTime = sharedPrefs.getLong(KEY_NEXT_ALARM_TIME, 0L)
+            if (nextAlarmTime > System.currentTimeMillis()) {
+                // Alarm is already scheduled in the future, don't overwrite it
+                return
+            }
         }
 
         // Calculate target alarm time using Smart Awake-Hours logic (9:00 AM to 9:00 PM)
@@ -107,6 +117,7 @@ object WaterReminderScheduler {
                 )
             }
         }
+        sharedPrefs.edit().putLong(KEY_NEXT_ALARM_TIME, target.timeInMillis).apply()
     }
 
     fun createNotificationChannel(context: Context) {

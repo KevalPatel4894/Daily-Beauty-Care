@@ -3445,9 +3445,9 @@
     <string name="water_tracker">Трекер воды</string>
     <string name="water_tracker_subtitle">Следите за потреблением воды для сияющей кожи!</string>
     <string name="daily_goal">Дневная цель</string>
-    <string name="glasses_format" formatted="false">%1$d / %2$d стак.</string>
-    <string name="add_glass">Добавить стакан</string>
-    <string name="remove_glass">Убрать стакан</string>
+    <string name="glasses_format" formatted="false">%1$d / %2$d</string>
+    <string name="add_glass">Добавить</string>
+    <string name="remove_glass">Убрать</string>
     <string name="water_goal_achieved">Поздравляем! Вы достигли своей дневной нормы воды! 🎉</string>
     <string name="hydration_tip_title">Знаете ли вы?</string>
     <string name="hydration_tip_1">Питьевая вода улучшает цвет лица и уменьшает отечность.</string>

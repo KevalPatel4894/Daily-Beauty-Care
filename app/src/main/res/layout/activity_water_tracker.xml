@@ -38,7 +38,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:padding="@dimen/_12sdp">
+            android:paddingLeft="@dimen/_14sdp"
+            android:paddingRight="@dimen/_14sdp"
+            android:paddingTop="@dimen/_12sdp"
+            android:paddingBottom="@dimen/_20sdp">
 
             <!-- 1. HYDRATION PROGRESS CARD -->
             <com.google.android.material.card.MaterialCardView
@@ -55,7 +58,7 @@
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
                     android:gravity="center"
-                    android:padding="@dimen/_15sdp">
+                    android:padding="@dimen/_16sdp">
 
                     <androidx.appcompat.widget.AppCompatTextView
                         android:layout_width="wrap_content"
@@ -69,8 +72,8 @@
                     <FrameLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="@dimen/_12sdp"
-                        android:layout_marginBottom="@dimen/_12sdp">
+                        android:layout_marginTop="@dimen/_16sdp"
+                        android:layout_marginBottom="@dimen/_16sdp">
 
                         <com.google.android.material.progressindicator.CircularProgressIndicator
                             android:id="@+id/progressWater"
@@ -121,8 +124,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:orientation="horizontal"
-                        android:layout_marginTop="@dimen/_8sdp"
-                        android:layout_marginBottom="@dimen/_12sdp"
+                        android:layout_marginTop="@dimen/_12sdp"
+                        android:layout_marginBottom="@dimen/_16sdp"
                         android:gravity="center">
 
                         <androidx.appcompat.widget.AppCompatImageView
@@ -200,6 +203,8 @@
                             android:layout_marginEnd="@dimen/_6sdp"
                             android:text="@string/remove_glass"
                             android:textColor="#C0392B"
+                            android:paddingLeft="0dp"
+                            android:paddingRight="0dp"
                             app:strokeColor="#C0392B"
                             app:cornerRadius="20dp" />
 
@@ -208,10 +213,12 @@
                             android:id="@+id/btnAddGlass"
                             android:layout_width="0dp"
                             android:layout_height="@dimen/_36sdp"
-                            android:layout_weight="1.2"
+                            android:layout_weight="1"
                             android:layout_marginStart="@dimen/_6sdp"
                             android:text="@string/add_glass"
                             android:textColor="@android:color/white"
+                            android:paddingLeft="0dp"
+                            android:paddingRight="0dp"
                             app:backgroundTint="#2980B9"
                             app:cornerRadius="20dp" />
 
@@ -234,7 +241,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
-                    android:padding="@dimen/_12sdp">
+                    android:padding="@dimen/_16sdp">
 
                     <androidx.appcompat.widget.LinearLayoutCompat
                         android:layout_width="match_parent"
@@ -262,7 +269,7 @@
                         android:id="@+id/txtHydrationTip"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="6dp"
+                        android:layout_marginTop="@dimen/_8sdp"
                         android:text="@string/hydration_tip_1"
                         android:textColor="#7F6000"
                         android:textSize="12sp" />
@@ -284,7 +291,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
-                    android:padding="@dimen/_12sdp">
+                    android:padding="@dimen/_16sdp">
 
                     <RelativeLayout
                         android:layout_width="match_parent"
@@ -332,21 +339,23 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:orientation="vertical"
-                        android:layout_marginTop="@dimen/_10sdp"
-                        android:paddingTop="@dimen/_8sdp">
+                        android:layout_marginTop="@dimen/_4sdp"
+                        android:paddingTop="@dimen/_4sdp">
 
                         <View
                             android:layout_width="match_parent"
                             android:layout_height="1dp"
                             android:background="#EEEEEE"
-                            android:layout_marginBottom="@dimen/_10sdp"/>
+                            android:layout_marginTop="@dimen/_4sdp"
+                            android:layout_marginBottom="@dimen/_12sdp"/>
 
                         <RadioGroup
                             android:id="@+id/radioGroupInterval"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:orientation="horizontal"
-                            android:gravity="center">
+                            android:gravity="center"
+                            android:layout_marginBottom="@dimen/_6sdp">
 
                             <androidx.appcompat.widget.AppCompatRadioButton
                                 android:id="@+id/radio2h"
@@ -356,7 +365,8 @@
                                 android:text="2 Hrs"
                                 android:textSize="12sp"
                                 android:textColor="#555555"
-                                android:checked="true"/>
+                                android:checked="true"
+                                app:buttonTint="#2980B9"/>
 
                             <androidx.appcompat.widget.AppCompatRadioButton
                                 android:id="@+id/radio3h"
@@ -365,7 +375,8 @@
                                 android:layout_weight="1"
                                 android:text="3 Hrs"
                                 android:textSize="12sp"
-                                android:textColor="#555555"/>
+                                android:textColor="#555555"
+                                app:buttonTint="#2980B9"/>
 
                             <androidx.appcompat.widget.AppCompatRadioButton
                                 android:id="@+id/radio4h"
@@ -374,7 +385,8 @@
                                 android:layout_weight="1"
                                 android:text="4 Hrs"
                                 android:textSize="12sp"
-                                android:textColor="#555555"/>
+                                android:textColor="#555555"
+                                app:buttonTint="#2980B9"/>
 
                         </RadioGroup>
                     </androidx.appcompat.widget.LinearLayoutCompat>

@@ -3445,9 +3445,9 @@
     <string name="water_tracker">給水トラッカー</string>
     <string name="water_tracker_subtitle">輝く肌のために毎日の水分摂取量を記録しましょう！</string>
     <string name="daily_goal">1日の目標</string>
-    <string name="glasses_format" formatted="false">%1$d / %2$d コップ</string>
-    <string name="add_glass">コップを追加</string>
-    <string name="remove_glass">コップを減らす</string>
+    <string name="glasses_format" formatted="false">%1$d / %2$d</string>
+    <string name="add_glass">追加</string>
+    <string name="remove_glass">減らす</string>
     <string name="water_goal_achieved">おめでとうございます！今日の水分補給目標を達成しました！ 🎉</string>
     <string name="hydration_tip_title">ご存知ですか？</string>
     <string name="hydration_tip_1">水を飲むと肌のトーンが良くなり、むくみが軽減されます。</string>

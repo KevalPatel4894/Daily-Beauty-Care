@@ -3456,9 +3456,9 @@
     <string name="water_tracker">Water Tracker</string>
     <string name="water_tracker_subtitle">Track daily water intake for glowing skin!</string>
     <string name="daily_goal">Daily Goal</string>
-    <string name="glasses_format" formatted="false">%1$d / %2$d Glasses</string>
-    <string name="add_glass">Add Glass</string>
-    <string name="remove_glass">Remove Glass</string>
+    <string name="glasses_format" formatted="false">%1$d / %2$d</string>
+    <string name="add_glass">Add</string>
+    <string name="remove_glass">Remove</string>
     <string name="water_goal_achieved">Congratulations! You reached your daily hydration goal! 🎉</string>
     <string name="hydration_tip_title">Did You Know?</string>
     <string name="hydration_tip_1">Drinking water improves skin tone and reduces puffiness.</string>

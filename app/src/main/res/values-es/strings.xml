@@ -3445,9 +3445,9 @@
     <string name="water_tracker">Control de Agua</string>
     <string name="water_tracker_subtitle">¡Sigue la ingesta diaria de agua para una piel radiante!</string>
     <string name="daily_goal">Meta Diaria</string>
-    <string name="glasses_format" formatted="false">%1$d / %2$d Vasos</string>
-    <string name="add_glass">Añadir Vaso</string>
-    <string name="remove_glass">Quitar Vaso</string>
+    <string name="glasses_format" formatted="false">%1$d / %2$d</string>
+    <string name="add_glass">Añadir</string>
+    <string name="remove_glass">Quitar</string>
     <string name="water_goal_achieved">¡Felicidades! ¡Has alcanzado tu meta diaria de hidratación! 🎉</string>
     <string name="hydration_tip_title">¿Sabías que?</string>
     <string name="hydration_tip_1">Beber agua mejora el tono de la piel y reduce la hinchazón.</string>
