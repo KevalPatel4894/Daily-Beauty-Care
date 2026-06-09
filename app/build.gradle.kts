@@ -73,6 +73,9 @@ dependencies {
     //Admob
     implementation("com.google.android.gms:play-services-ads:23.6.0")
 
+    //Google Play In-App Updates
+    implementation("com.google.android.play:app-update-ktx:2.1.0")
+
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.3.0")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.6.1")

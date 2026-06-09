@@ -183,7 +183,7 @@ This document tracks all zero-budget features designed to maximize user retentio
 
 ## ⚙️ Category 9: App Updates & Maintenance (App Life-Cycle)
 
-### [ ] Feature 29: Force Update Functionality
+### [x] Feature 29: Force Update Functionality
 * **Goal:** Ensure all active users are on the latest, bug-free, and Play-Store-compliant version of the app.
 * **Details:** The app checks the minimum required version configuration (using Firebase Remote Config, a simple hosted JSON API, or standard Google Play In-App Updates) on startup. If the current version is outdated, displays a non-dismissible dialog directing users to Google Play to update the app.
 * **Tech:** Google Play In-App Updates API or Firebase Remote Config + Play Store Intent redirection.
