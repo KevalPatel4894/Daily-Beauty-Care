@@ -3474,4 +3474,71 @@
     <string name="check_in_tap_short">Toca para registrar</string>
     <string name="water_tap_short">Toca para registrar</string>
     <string name="challenges_desc_short">Hábitos de 7 días</string>
+
+    <!-- Localized Strings for Beauty Calculators (Feature 7) -->
+    <string name="beauty_calculators" formatted="false">Calculadoras de belleza</string>
+    <string name="beauty_calculators_desc" formatted="false">Calculadora de agua y test de tipo de piel</string>
+    <string name="water_intake_calculator" formatted="false">Calculadora de consumo de agua</string>
+    <string name="water_intake_desc" formatted="false">Calcula tus necesidades diarias de agua según el peso y la actividad.</string>
+    <string name="skin_type_test" formatted="false">Test de tipo de piel</string>
+    <string name="skin_type_desc" formatted="false">Identifica piel grasa, seca, sensible o mixta.</string>
+    <string name="weight" formatted="false">Peso</string>
+    <string name="weight_hint" formatted="false">Ingresar peso</string>
+    <string name="calculate" formatted="false">Calcular</string>
+    <string name="select_unit" formatted="false">Seleccionar unidad</string>
+    <string name="climate" formatted="false">Clima</string>
+    <string name="hot" formatted="false">Cálido / Húmedo</string>
+    <string name="temperate" formatted="false">Templado</string>
+    <string name="cold" formatted="false">Frío</string>
+    <string name="activity_level" formatted="false">Nivel de actividad</string>
+    <string name="low" formatted="false">Sedentario</string>
+    <string name="medium" formatted="false">Activo</string>
+    <string name="high" formatted="false">Muy activo</string>
+    <string name="calculated_result" formatted="false">Tu objetivo diario</string>
+    <string name="glasses" formatted="false">vasos</string>
+    <string name="set_water_goal" formatted="false">Establecer como meta</string>
+    <string name="water_goal_saved" formatted="false">¡Meta de agua diaria actualizada con éxito!</string>
+    <string name="skin_type_result" formatted="false">Tu tipo de piel</string>
+    <string name="explore_remedies" formatted="false">Explorar remedios recomendados</string>
+    <string name="skin_type_oily" formatted="false">Piel grasa</string>
+    <string name="skin_type_dry" formatted="false">Piel seca</string>
+    <string name="skin_type_combination" formatted="false">Piel mixta</string>
+    <string name="skin_type_sensitive" formatted="false">Piel sensible</string>
+    <string name="skin_type_normal" formatted="false">Piel normal</string>
+    <string name="oily_skin_desc" formatted="false">Tu piel tiene glándulas sebáceas hiperactivas que producen exceso de sebo. Esto puede causar poros dilatados, brillo y brotes frecuentes de acné. Usa mascarillas de arcilla, árbol de té e hidratación libre de aceite.</string>
+    <string name="dry_skin_desc" formatted="false">Tu piel produce menos sebo de lo normal, lo que provoca pérdida de humedad. Puede sentirse tensa, áspera, luir opaca y ser propensa a arrugas finas. Concéntrate en cremas ricas a base de aceite, miel e hidratación.</string>
+    <string name="combination_skin_desc" formatted="false">Tu piel presenta mejillas secas pero una zona T grasa (frente, nariz, barbilla). Requiere un cuidado equilibrado: control de grasa en la zona T e hidratación rica en las zonas secas. Usa limpiadores suaves.</string>
+    <string name="sensitive_skin_desc" formatted="false">Tu piel se irrita fácilmente, reaccionando a químicos, al clima o a ingredientes con enrojecimiento, picazón o ardor. Enfócate en remedios calmantes e hipoalergénicos como el aloe vera y el pepino.</string>
+    <string name="skin_type_normal_desc" formatted="false">Tu piel está bien equilibrada: ni demasiado grasa ni demasiado seca. Los poros son pequeños, la circulación es buena y los brotes son raros. Mantén este estado con una limpieza suave y protección solar.</string>
+    <string name="quiz_progress" formatted="false">Pregunta %1$d de 5</string>
+    <string name="quiz_q1" formatted="false">1. ¿Cómo se siente tu piel por la mañana?</string>
+    <string name="quiz_q1_a" formatted="false">Tirante, seca o escamosa</string>
+    <string name="quiz_q1_b" formatted="false">Grasa o brillante solo en la zona T (frente, nariz)</string>
+    <string name="quiz_q1_c" formatted="false">Grasa y brillante en todo el rostro</string>
+    <string name="quiz_q1_d" formatted="false">Roja, con picazón o ligeramente irritada</string>
+    <string name="quiz_q1_e" formatted="false">Cómoda, suave y equilibrada</string>
+    <string name="quiz_q2" formatted="false">2. ¿Con qué frecuencia tienes brotes o acné?</string>
+    <string name="quiz_q2_a" formatted="false">Rara vez o nunca</string>
+    <string name="quiz_q2_b" formatted="false">Solo en la zona T</string>
+    <string name="quiz_q2_c" formatted="false">Con mucha frecuencia en todo el rostro</string>
+    <string name="quiz_q2_d" formatted="false">A veces, con rojez/irritación</string>
+    <string name="quiz_q2_e" formatted="false">Granos menores ocasionales</string>
+    <string name="quiz_q3" formatted="false">3. ¿Cómo reacciona tu piel a productos nuevos?</string>
+    <string name="quiz_q3_a" formatted="false">Se siente seca, tirante o no absorbe bien</string>
+    <string name="quiz_q3_b" formatted="false">La zona T se vuelve grasa o salen granos</string>
+    <string name="quiz_q3_c" formatted="false">Salen granos o se engrasa por completo</string>
+    <string name="quiz_q3_d" formatted="false">Arde, pica o se pone roja e irritada</string>
+    <string name="quiz_q3_e" formatted="false">Se adapta fácilmente sin problemas</string>
+    <string name="quiz_q4" formatted="false">4. ¿Cómo se ven tus poros?</string>
+    <string name="quiz_q4_a" formatted="false">Casi invisibles</string>
+    <string name="quiz_q4_b" formatted="false">Grandes solo en la nariz y frente</string>
+    <string name="quiz_q4_c" formatted="false">Grandes y visibles en todo el rostro</string>
+    <string name="quiz_q4_d" formatted="false">Medianos, pero la piel se ve irritada</string>
+    <string name="quiz_q4_e" formatted="false">Pequeños, de tamaño normal</string>
+    <string name="quiz_q5" formatted="false">5. 15 minutos después de lavarte la cara, se siente:</string>
+    <string name="quiz_q5_a" formatted="false">Muy tirante y estirada</string>
+    <string name="quiz_q5_b" formatted="false">Grasa en la zona T, tirante en las mejillas</string>
+    <string name="quiz_q5_c" formatted="false">Brillante y grasa en todo el rostro</string>
+    <string name="quiz_q5_d" formatted="false">Roja, tibia o con picazón</string>
+    <string name="quiz_q5_e" formatted="false">Suave, limpia y cómoda</string>
 </resources>

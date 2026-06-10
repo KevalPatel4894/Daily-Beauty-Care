@@ -3474,4 +3474,71 @@
     <string name="check_in_tap_short">탭하여 기록</string>
     <string name="water_tap_short">탭하여 기록</string>
     <string name="challenges_desc_short">7일 습관</string>
+
+    <!-- Localized Strings for Beauty Calculators (Feature 7) -->
+    <string name="beauty_calculators" formatted="false">뷰티 계산기</string>
+    <string name="beauty_calculators_desc" formatted="false">물 목표 계산기 및 피부 타입 테스트</string>
+    <string name="water_intake_calculator" formatted="false">물 섭취량 계산기</string>
+    <string name="water_intake_desc" formatted="false">체중과 활동량을 바탕으로 하루 물 필요량을 계산합니다.</string>
+    <string name="skin_type_test" formatted="false">피부 타입 테스트</string>
+    <string name="skin_type_desc" formatted="false">지성, 건성, 민감성 또는 복합성 피부를 식별합니다.</string>
+    <string name="weight" formatted="false">몸무게</string>
+    <string name="weight_hint" formatted="false">몸무게 입력</string>
+    <string name="calculate" formatted="false">계산</string>
+    <string name="select_unit" formatted="false">단위 선택</string>
+    <string name="climate" formatted="false">기후</string>
+    <string name="hot" formatted="false">덥고 습함</string>
+    <string name="temperate" formatted="false">온화함</string>
+    <string name="cold" formatted="false">추움</string>
+    <string name="activity_level" formatted="false">활동 수준</string>
+    <string name="low" formatted="false">주로 앉아서 지냄</string>
+    <string name="medium" formatted="false">활동적</string>
+    <string name="high" formatted="false">매우 활동적</string>
+    <string name="calculated_result" formatted="false">하루 권장 목표</string>
+    <string name="glasses" formatted="false">잔</string>
+    <string name="set_water_goal" formatted="false">물 섭취 목표로 설정</string>
+    <string name="water_goal_saved" formatted="false">하루 물 목표가 성공적으로 업데이트되었습니다!</string>
+    <string name="skin_type_result" formatted="false">당신의 피부 타입</string>
+    <string name="explore_remedies" formatted="false">추천 치료법 탐색</string>
+    <string name="skin_type_oily" formatted="false">지성 피부</string>
+    <string name="skin_type_dry" formatted="false">건성 피부</string>
+    <string name="skin_type_combination" formatted="false">복합성 피부</string>
+    <string name="skin_type_sensitive" formatted="false">민감성 피부</string>
+    <string name="skin_type_normal" formatted="false">중성 피부</string>
+    <string name="oily_skin_desc" formatted="false">피지선이 과도하게 활성화되어 피지가 과다 분비되는 피부입니다. 모공이 넓어지고 번들거리며 여드름이 자주 발생할 수 있습니다. 클레이 마스크, 티트리, 오일 프리 보습제를 사용하세요.</string>
+    <string name="dry_skin_desc" formatted="false">피지가 정상보다 적게 분비되어 수분이 쉽게 손실되는 피부입니다. 당김이나 거칠어짐, 푸석함이 느껴지며 잔주름이 생기기 쉽습니다. 풍부한 오일 베이스 크림, 꿀, 고보습 관리에 집중하세요.</string>
+    <string name="combination_skin_desc" formatted="false">볼은 건조하지만 T존(이마, 코, 턱)은 지성인 피부입니다. T존은 피지를 조절하고 건조한 부위는 풍부한 보습을 주는 균형 잡힌 관리가 필요합니다. 순한 클렌저를 사용하세요.</string>
+    <string name="sensitive_skin_desc" formatted="false">자극을 쉽게 받으며 화학 물질, 날씨 또는 화장품 성분에 붉어짐, 가려움, 따가움으로 반응하는 피부입니다. 알로에 베라, 오이와 같이 순하고 진정 효과가 있는 치료에 집중하고 향료를 피하세요.</string>
+    <string name="skin_type_normal_desc" formatted="false">유수분 밸런스가 잘 맞아 너무 지성도 건성도 아닌 피부입니다. 모공이 작고 혈액 순환이 잘 되며 피부 트러블이 거의 없습니다. 순한 클렌징과 보습, 자외선 차단으로 이 상태를 유지하세요.</string>
+    <string name="quiz_progress" formatted="false">5개 질문 중 %1$d번째</string>
+    <string name="quiz_q1" formatted="false">1. 아침에 일어났을 때 피부 상태는 어떤가요?</string>
+    <string name="quiz_q1_a" formatted="false">당김이 심하고 건조하거나 각질이 일어남</string>
+    <string name="quiz_q1_b" formatted="false">T존(이마, 코)에만 유분이 많고 번들거림</string>
+    <string name="quiz_q1_c" formatted="false">얼굴 전체에 유분이 많고 번들거림</string>
+    <string name="quiz_q1_d" formatted="false">붉어짐, 가려움 또는 약한 자극이 느껴짐</string>
+    <string name="quiz_q1_e" formatted="false">당김 없이 편안하고 부드러우며 균형 잡힘</string>
+    <string name="quiz_q2" formatted="false">2. 여드름이나 피부 트러블은 얼마나 자주 발생하나요?</string>
+    <string name="quiz_q2_a" formatted="false">거의 없거나 전혀 없음</string>
+    <string name="quiz_q2_b" formatted="false">T존에만 집중적으로 발생</string>
+    <string name="quiz_q2_c" formatted="false">얼굴 전체에 매우 자주 발생</string>
+    <string name="quiz_q2_d" formatted="false">붉어짐/자극을 동반하여 가끔 발생</string>
+    <string name="quiz_q2_e" formatted="false">가끔 미미한 뾰루지가 발생</string>
+    <string name="quiz_q3" formatted="false">3. 새로운 화장품을 썼을 때 피부 반응은 어떤가요?</string>
+    <string name="quiz_q3_a" formatted="false">건조하고 당기거나 흡수가 잘 되지 않음</string>
+    <string name="quiz_q3_b" formatted="false">T존이 번들거리거나 트러블이 생김</string>
+    <string name="quiz_q3_c" formatted="false">얼굴 전체에 트러블이 나거나 번들거림</string>
+    <string name="quiz_q3_d" formatted="false">따갑거나 화끈거리고, 붉어지거나 가려움</string>
+    <string name="quiz_q3_e" formatted="false">문제없이 쉽게 잘 맞음</string>
+    <string name="quiz_q4" formatted="false">4. 모공의 크기는 어떤가요?</string>
+    <string name="quiz_q4_a" formatted="false">거의 보이지 않음</string>
+    <string name="quiz_q4_b" formatted="false">코와 이마 부위만 도드라짐</string>
+    <string name="quiz_q4_c" formatted="false">얼굴 전체에 모공이 넓고 눈에 띔</string>
+    <string name="quiz_q4_d" formatted="false">중간 정도이나 피부가 자극받아 보임</string>
+    <string name="quiz_q4_e" formatted="false">보통 크기의 작고 평범한 모공</string>
+    <string name="quiz_q5" formatted="false">5. 세안 후 15분이 지났을 때 피부 느낌은 어떤가요?</string>
+    <string name="quiz_q5_a" formatted="false">매우 심하게 당기고 건조함</string>
+    <string name="quiz_q5_b" formatted="false">T존은 유분이 돌고 볼은 당김</string>
+    <string name="quiz_q5_c" formatted="false">얼굴 전체가 번들거리고 유분이 돎</string>
+    <string name="quiz_q5_d" formatted="false">붉어지거나 화끈거리고, 살짝 가려움</string>
+    <string name="quiz_q5_e" formatted="false">부드럽고 깨끗하며 편안함</string>
 </resources>

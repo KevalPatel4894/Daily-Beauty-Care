@@ -40,7 +40,7 @@ This document tracks all zero-budget features designed to maximize user retentio
 * **Details:** Custom alarm selectors for water intake, weekly face mask routines, or morning/night hair treatments. App triggers local notifications with motivating self-care tips.
 * **Tech:** Android `AlarmManager` and `NotificationManager`.
 
-### [ ] Feature 7: Interactive Beauty Calculator Tools
+### [x] Feature 7: Interactive Beauty Calculator Tools
 * **Goal:** High-interaction tool to calculate customized metrics.
 * **Details:** Calculators for:
   1. *Water intake calculator:* Calculates daily water needs based on user weight and climate.
@@ -187,6 +187,11 @@ This document tracks all zero-budget features designed to maximize user retentio
 * **Goal:** Ensure all active users are on the latest, bug-free, and Play-Store-compliant version of the app.
 * **Details:** The app checks the minimum required version configuration (using Firebase Remote Config, a simple hosted JSON API, or standard Google Play In-App Updates) on startup. If the current version is outdated, displays a non-dismissible dialog directing users to Google Play to update the app.
 * **Tech:** Google Play In-App Updates API or Firebase Remote Config + Play Store Intent redirection.
+
+### [x] Feature 30: Home Screen Layout Optimization (Quick-Action Grid)
+* **Goal:** Move the main Categories list above the fold to prioritize core app functionality.
+* **Details:** Replaced the three large, full-width vertical stacked banners (Challenges, Check-In, Water Tracker) with a compact, 3-column horizontal grid. Subtitle texts are dynamically shortened (e.g., check-in streak, water intake fraction) to fit perfectly side-by-side.
+* **Tech:** Responsive LinearLayout weight distribution and localized dynamic text formatting.
 
 ---
 

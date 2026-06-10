@@ -1,13 +1,17 @@
 package com.kp.beautytips.activity
 
+import android.Manifest
 import android.content.Context
 import android.content.Intent
+import android.content.pm.PackageManager
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import android.view.View
 import android.widget.RelativeLayout
+import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.widget.Toolbar
+import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.kp.beautytips.R
 import com.kp.beautytips.adapter.CategoryAdapter
@@ -15,6 +19,9 @@ import com.kp.beautytips.model.CategoryModel
 import com.kp.beautytips.utils.ActivityUtils
 import com.kp.beautytips.utils.AppUtils
 import com.kp.beautytips.utils.Constants
+import com.kp.beautytips.utils.DailyTipScheduler
+import com.kp.beautytips.utils.ReminderScheduler
+import com.kp.beautytips.worker.DailyTipWorker
 import com.google.android.gms.ads.*
 import com.google.android.gms.ads.interstitial.InterstitialAd
 import com.google.android.gms.ads.interstitial.InterstitialAdLoadCallback
@@ -56,6 +63,24 @@ class MainActivity : BaseActivity(), CategoryAdapter.OnItemClick {
     private val SHAKE_THRESHOLD = 1.8f
     private val SHAKE_COOLDOWN_MS = 2000
 
+    // Notification permission launcher (Android 13+)
+    private val notificationPermissionLauncher = registerForActivityResult(
+        ActivityResultContracts.RequestPermission()
+    ) { isGranted ->
+        if (isGranted) {
+            // Permission granted — schedule default reminders
+            ReminderScheduler.scheduleReminder(this)
+            DailyTipScheduler.scheduleDailyTip(this)
+        } else {
+            // Permission denied — turn off default reminder so Settings switch matches reality
+            getSharedPreferences(ReminderScheduler.PREFS_NAME, Context.MODE_PRIVATE)
+                .edit().putBoolean(ReminderScheduler.KEY_REMINDER_ENABLED, false).apply()
+        }
+        // Mark that we have already asked so we never ask again
+        getSharedPreferences("app_launch_prefs", Context.MODE_PRIVATE)
+            .edit().putBoolean("notification_permission_asked", true).apply()
+    }
+
     private val sensorListener = object : SensorEventListener {
         override fun onSensorChanged(event: SensorEvent?) {
             if (event == null || event.sensor.type != Sensor.TYPE_ACCELEROMETER) return
@@ -86,14 +111,49 @@ class MainActivity : BaseActivity(), CategoryAdapter.OnItemClick {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        
+
         appUpdateManager = AppUpdateManagerFactory.create(this)
         checkForAppUpdate()
-        
+
         sensorManager = getSystemService(Context.SENSOR_SERVICE) as SensorManager
         accelerometer = sensorManager?.getDefaultSensor(Sensor.TYPE_ACCELEROMETER)
-        
+
+        // Request POST_NOTIFICATIONS on Android 13+ on first launch
+        requestNotificationPermissionIfNeeded()
+
         init()
+    }
+
+    private fun requestNotificationPermissionIfNeeded() {
+        if (Build.VERSION.SDK_INT < Build.VERSION_CODES.TIRAMISU) {
+            // Below Android 13 — no runtime permission needed, just schedule
+            ReminderScheduler.scheduleReminder(this)
+            DailyTipScheduler.scheduleDailyTip(this)
+            return
+        }
+
+        val launchPrefs = getSharedPreferences("app_launch_prefs", Context.MODE_PRIVATE)
+        val alreadyAsked = launchPrefs.getBoolean("notification_permission_asked", false)
+        if (alreadyAsked) {
+            // Already asked before — if granted now, re-schedule (handles app reinstalls)
+            if (ContextCompat.checkSelfPermission(this, Manifest.permission.POST_NOTIFICATIONS)
+                == PackageManager.PERMISSION_GRANTED) {
+                ReminderScheduler.scheduleReminder(this)
+                DailyTipScheduler.scheduleDailyTip(this)
+            }
+            return
+        }
+
+        // First launch — check if permission is already granted (rare but possible)
+        if (ContextCompat.checkSelfPermission(this, Manifest.permission.POST_NOTIFICATIONS)
+            == PackageManager.PERMISSION_GRANTED) {
+            ReminderScheduler.scheduleReminder(this)
+            DailyTipScheduler.scheduleDailyTip(this)
+            launchPrefs.edit().putBoolean("notification_permission_asked", true).apply()
+        } else {
+            // Ask the user — system dialog will appear
+            notificationPermissionLauncher.launch(Manifest.permission.POST_NOTIFICATIONS)
+        }
     }
 
     private fun init() {

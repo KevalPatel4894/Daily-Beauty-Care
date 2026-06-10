@@ -127,6 +127,14 @@ class SettingActivity : BaseActivity() {
                 AppUtils.startFromRightToLeft(this)
             }
         }
+
+        val rlCalculators = findViewById<View>(R.id.rlCalculators)
+        rlCalculators.setOnClickListener {
+            Intent(this, CalculatorActivity::class.java).also {
+                startActivity(it)
+                AppUtils.startFromRightToLeft(this)
+            }
+        }
     }
 
     override fun onSupportNavigateUp(): Boolean {

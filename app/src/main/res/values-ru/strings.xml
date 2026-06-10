@@ -3474,4 +3474,71 @@
     <string name="check_in_tap_short">Нажмите для записи</string>
     <string name="water_tap_short">Нажмите для отслеживания</string>
     <string name="challenges_desc_short">7-дневные привычки</string>
+
+    <!-- Localized Strings for Beauty Calculators (Feature 7) -->
+    <string name="beauty_calculators" formatted="false">Калькуляторы красоты</string>
+    <string name="beauty_calculators_desc" formatted="false">Калькулятор воды и тест типа кожи</string>
+    <string name="water_intake_calculator" formatted="false">Калькулятор потребления воды</string>
+    <string name="water_intake_desc" formatted="false">Рассчитайте суточную потребность в воде на основе веса и активности.</string>
+    <string name="skin_type_test" formatted="false">Тест на тип кожи</string>
+    <string name="skin_type_desc" formatted="false">Определите жирную, сухую, чувствительную или комбинированную кожу.</string>
+    <string name="weight" formatted="false">Вес</string>
+    <string name="weight_hint" formatted="false">Введите вес</string>
+    <string name="calculate" formatted="false">Рассчитать</string>
+    <string name="select_unit" formatted="false">Выберите единицу</string>
+    <string name="climate" formatted="false">Климат</string>
+    <string name="hot" formatted="false">Жаркий / Влажный</string>
+    <string name="temperate" formatted="false">Умеренный</string>
+    <string name="cold" formatted="false">Холодный</string>
+    <string name="activity_level" formatted="false">Уровень активности</string>
+    <string name="low" formatted="false">Малоподвижный</string>
+    <string name="medium" formatted="false">Активный</string>
+    <string name="high" formatted="false">Очень активный</string>
+    <string name="calculated_result" formatted="false">Ваша суточная цель</string>
+    <string name="glasses" formatted="false">стаканов</string>
+    <string name="set_water_goal" formatted="false">Установить как цель</string>
+    <string name="water_goal_saved" formatted="false">Суточная цель по воде успешно обновлена!</string>
+    <string name="skin_type_result" formatted="false">Ваш тип кожи</string>
+    <string name="explore_remedies" formatted="false">Рекомендуемые средства</string>
+    <string name="skin_type_oily" formatted="false">Жирная кожа</string>
+    <string name="skin_type_dry" formatted="false">Сухая кожа</string>
+    <string name="skin_type_combination" formatted="false">Комбинированная кожа</string>
+    <string name="skin_type_sensitive" formatted="false">Чувствительная кожа</string>
+    <string name="skin_type_normal" formatted="false">Нормальная кожа</string>
+    <string name="oily_skin_desc" formatted="false">У вас сверхактивные сальные железы, вырабатывающие избыток кожного сала. Это может приводить к расширенным порам, блеску и частым высыпаниям. Используйте глиняные маски, чайное дерево и безмасляный уход.</string>
+    <string name="dry_skin_desc" formatted="false">Кожа вырабатывает меньше сала, чем обычно, что ведет к потере влаги. Она может казаться стянутой, шелушиться, выглядеть тусклой и быть склонной к морщинам. Полезны плотные кремы, мед и глубокое увлажнение.</string>
+    <string name="combination_skin_desc" formatted="false">Сухие щеки сочетаются с жирной Т-зоной (лоб, нос, подбородок). Требуется сбалансированный уход: себорегулирование на Т-зоне и плотное питание на сухих участках. Используйте мягкие очищающие средства.</string>
+    <string name="sensitive_skin_desc" formatted="false">Кожа легко раздражается, реагируя на химикаты, погоду или косметику краснотой, зудом или жжением. Выбирайте гипоаллергенный, успокаивающий уход, такой как алоэ вера, огурец, и избегайте отдушек.</string>
+    <string name="skin_type_normal_desc" formatted="false">Ваша кожа прекрасно сбалансирована: не слишком жирная и не слишком сухая. Поры мелкие, кровообращение хорошее, высыпания редки. Поддерживайте это состояние мягким очищением и защитой от солнца.</string>
+    <string name="quiz_progress" formatted="false">Вопрос %1$d из 5</string>
+    <string name="quiz_q1" formatted="false">1. Как ваша кожа чувствует себя по утрам?</string>
+    <string name="quiz_q1_a" formatted="false">Стянутая, сухая или шелуется</string>
+    <string name="quiz_q1_b" formatted="false">Жирная или блестит только в Т-зоне (лоб, нос)</string>
+    <string name="quiz_q1_c" formatted="false">Жирная и лоснится по всему лицу</string>
+    <string name="quiz_q1_d" formatted="false">Красная, чешется или слегка раздражена</string>
+    <string name="quiz_q1_e" formatted="false">Комфортная, мягкая и сбалансированная</string>
+    <string name="quiz_q2" formatted="false">2. Как часто у вас бывают прыщи или акне?</string>
+    <string name="quiz_q2_a" formatted="false">Редко или никогда</string>
+    <string name="quiz_q2_b" formatted="false">Только в Т-зоне</string>
+    <string name="quiz_q2_c" formatted="false">Очень часто по всему лицу</string>
+    <string name="quiz_q2_d" formatted="false">Иногда с покраснением/раздражением</string>
+    <string name="quiz_q2_e" formatted="false">Изредка небольшие воспаления</string>
+    <string name="quiz_q3" formatted="false">3. Как ваша кожа реагирует на новые косметические средства?</string>
+    <string name="quiz_q3_a" formatted="false">Кажется сухой, стянутой или плохо впитывает</string>
+    <string name="quiz_q3_b" formatted="false">Т-зона жирнеет или появляются высыпания</string>
+    <string name="quiz_q3_c" formatted="false">Появляются высыпания или жирнеет все лицо</string>
+    <string name="quiz_q3_d" formatted="false">Щиплет, горит или краснеет и чешется</string>
+    <string name="quiz_q3_e" formatted="false">Легко адаптируется без проблем</string>
+    <string name="quiz_q4" formatted="false">4. Как выглядят ваши поры?</string>
+    <string name="quiz_q4_a" formatted="false">Почти невидимы</string>
+    <string name="quiz_q4_b" formatted="false">Крупные только на носу и лбу</string>
+    <string name="quiz_q4_c" formatted="false">Крупные и заметные по всему лицу</string>
+    <string name="quiz_q4_d" formatted="false">Средние, но кожа выглядит раздраженной</string>
+    <string name="quiz_q4_e" formatted="false">Мелкие, поры обычного размера</string>
+    <string name="quiz_q5" formatted="false">5. Что вы чувствуете через 15 минут после умывания:</string>
+    <string name="quiz_q5_a" formatted="false">Сильную стянутость и сухость</string>
+    <string name="quiz_q5_b" formatted="false">Жирность в Т-зоне, стянутость на щеках</string>
+    <string name="quiz_q5_c" formatted="false">Блеск и жирность по всему лицу</string>
+    <string name="quiz_q5_d" formatted="false">Покраснение, жар или легкий зуд</string>
+    <string name="quiz_q5_e" formatted="false">Мягкость, чистоту и комфорт</string>
 </resources>

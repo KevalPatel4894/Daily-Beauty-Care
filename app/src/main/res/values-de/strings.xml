@@ -3474,4 +3474,71 @@
     <string name="check_in_tap_short">Tippen zum Eintragen</string>
     <string name="water_tap_short">Tippen zum Verfolgen</string>
     <string name="challenges_desc_short">7-Tage-Gewohnheiten</string>
+
+    <!-- Localized Strings for Beauty Calculators (Feature 7) -->
+    <string name="beauty_calculators" formatted="false">Schönheitsrechner</string>
+    <string name="beauty_calculators_desc" formatted="false">Wasserzielrechner &amp; Hauttyptest</string>
+    <string name="water_intake_calculator" formatted="false">Wasseraufnahmerechner</string>
+    <string name="water_intake_desc" formatted="false">Berechnen Sie Ihren täglichen Wasserbedarf basierend auf Gewicht und Aktivität.</string>
+    <string name="skin_type_test" formatted="false">Hauttyptest</string>
+    <string name="skin_type_desc" formatted="false">Identifizieren Sie fettige, trockene, empfindliche oder Mischhaut.</string>
+    <string name="weight" formatted="false">Gewicht</string>
+    <string name="weight_hint" formatted="false">Gewicht eingeben</string>
+    <string name="calculate" formatted="false">Berechnen</string>
+    <string name="select_unit" formatted="false">Einheit auswählen</string>
+    <string name="climate" formatted="false">Klima</string>
+    <string name="hot" formatted="false">Heiß / Feucht</string>
+    <string name="temperate" formatted="false">Gemäßigt</string>
+    <string name="cold" formatted="false">Kalt</string>
+    <string name="activity_level" formatted="false">Aktivitätslevel</string>
+    <string name="low" formatted="false">Sitzend</string>
+    <string name="medium" formatted="false">Aktiv</string>
+    <string name="high" formatted="false">Sehr aktiv</string>
+    <string name="calculated_result" formatted="false">Ihr tägliches Ziel</string>
+    <string name="glasses" formatted="false">Gläser</string>
+    <string name="set_water_goal" formatted="false">Als Wasserziel festlegen</string>
+    <string name="water_goal_saved" formatted="false">Tägliches Wasserziel erfolgreich aktualisiert!</string>
+    <string name="skin_type_result" formatted="false">Ihr Hauttyp</string>
+    <string name="explore_remedies" formatted="false">Empfohlene Heilmittel erkunden</string>
+    <string name="skin_type_oily" formatted="false">Fettige Haut</string>
+    <string name="skin_type_dry" formatted="false">Trockene Haut</string>
+    <string name="skin_type_combination" formatted="false">Mischhaut</string>
+    <string name="skin_type_sensitive" formatted="false">Empfindliche Haut</string>
+    <string name="skin_type_normal" formatted="false">Normale Haut</string>
+    <string name="oily_skin_desc" formatted="false">Ihre Haut hat überaktive Talgdrüsen, die überschüssigen Talg produzieren. Dies kann zu größeren Poren, Glanz und häufigen Akne-Ausbrüchen führen. Verwenden Sie Tonmasken, Teebaumöl und ölfreie Feuchtigkeitspflege.</string>
+    <string name="dry_skin_desc" formatted="false">Ihre Haut produziert weniger Talg als normal, was zu Feuchtigkeitsverlust führt. Sie kann sich trocken, rau anfühlen, fahl aussehen und zu feinen Falten neigen. Konzentrieren Sie sich auf reichhaltige Cremes auf Ölbasis, Honig und Feuchtigkeit.</string>
+    <string name="combination_skin_desc" formatted="false">Ihre Haut weist trockene Wangen, aber eine fettige T-Zone (Stirn, Nase, Kinn) auf. Sie benötigt eine ausgewogene Pflege: Ölkontrolle in der T-Zone und reichhaltige Feuchtigkeit in trockenen Zonen. Verwenden Sie milde Reiniger.</string>
+    <string name="sensitive_skin_desc" formatted="false">Ihre Haut ist leicht reizbar und reagiert auf Chemikalien, Wetter oder Inhaltsstoffe mit Rötungen, Juckreiz oder Brennen. Konzentrieren Sie sich auf beruhigende Mittel wie Aloe Vera und Gurke.</string>
+    <string name="skin_type_normal_desc" formatted="false">Ihre Haut ist gut ausgeglichen: weder zu fettig noch zu trocken. Die Poren sind klein, die Durchblutung ist gut und Ausbrüche sind selten. Erhalten Sie diesen Zustand mit sanfter Reinigung.</string>
+    <string name="quiz_progress" formatted="false">Frage %1$d von 5</string>
+    <string name="quiz_q1" formatted="false">1. Wie fühlt sich Ihre Haut morgens an?</string>
+    <string name="quiz_q1_a" formatted="false">Gezogen, trocken oder schuppig</string>
+    <string name="quiz_q1_b" formatted="false">Fettig oder glänzend nur in der T-Zone</string>
+    <string name="quiz_q1_c" formatted="false">Überall fettig und glänzend</string>
+    <string name="quiz_q1_d" formatted="false">Rot, juckend oder leicht gereizt</string>
+    <string name="quiz_q1_e" formatted="false">Angenehm, weich und ausgeglichen</string>
+    <string name="quiz_q2" formatted="false">2. Wie oft haben Sie Ausbrüche oder Akne?</string>
+    <string name="quiz_q2_a" formatted="false">Selten oder nie</string>
+    <string name="quiz_q2_b" formatted="false">Nur in der T-Zone</string>
+    <string name="quiz_q2_c" formatted="false">Sehr häufig am ganzen Körper</string>
+    <string name="quiz_q2_d" formatted="false">Manchmal mit Rötung/Reizung</string>
+    <string name="quiz_q2_e" formatted="false">Gelegentliche kleinere Pickel</string>
+    <string name="quiz_q3" formatted="false">3. Wie reagiert Ihre Haut auf neue Pflegeprodukte?</string>
+    <string name="quiz_q3_a" formatted="false">Fühlt sich trocken, gespannt an oder zieht nicht gut ein</string>
+    <string name="quiz_q3_b" formatted="false">T-Zone wird fettig oder bekommt Pickel</string>
+    <string name="quiz_q3_c" formatted="false">Bekommt überall Pickel oder wird fettig</string>
+    <string name="quiz_q3_d" formatted="false">Brennt, sticht oder wird rot und juckt</string>
+    <string name="quiz_q3_e" formatted="false">Passt sich problemlos und ohne Probleme an</string>
+    <string name="quiz_q4" formatted="false">4. Wie sehen Ihre Poren aus?</string>
+    <string name="quiz_q4_a" formatted="false">Fast unsichtbar</string>
+    <string name="quiz_q4_b" formatted="false">Groß nur auf Nase und Stirn</string>
+    <string name="quiz_q4_c" formatted="false">Groß und überall sichtbar</string>
+    <string name="quiz_q4_d" formatted="false">Mittelgroß, aber die Haut sieht gereizt aus</string>
+    <string name="quiz_q4_e" formatted="false">Kleine, normal große Poren</string>
+    <string name="quiz_q5" formatted="false">5. 15 Minuten nach dem Waschen fühlt sich Ihre Haut:</string>
+    <string name="quiz_q5_a" formatted="false">Sehr trocken und gespannt an</string>
+    <string name="quiz_q5_b" formatted="false">Fettig in der T-Zone, gespannt an den Wangen</string>
+    <string name="quiz_q5_c" formatted="false">Überall glänzend und fettig</string>
+    <string name="quiz_q5_d" formatted="false">Rot, warm oder leicht juckend</string>
+    <string name="quiz_q5_e" formatted="false">Weich, sauber und angenehm</string>
 </resources>

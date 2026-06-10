@@ -3474,4 +3474,71 @@
     <string name="check_in_tap_short">Appuyez pour enregistrer</string>
     <string name="water_tap_short">Appuyez pour suivre</string>
     <string name="challenges_desc_short">Habitudes de 7 jours</string>
+
+    <!-- Localized Strings for Beauty Calculators (Feature 7) -->
+    <string name="beauty_calculators" formatted="false">Calculateurs de beauté</string>
+    <string name="beauty_calculators_desc" formatted="false">Calculateur d\'eau et test de type de peau</string>
+    <string name="water_intake_calculator" formatted="false">Calculateur d\'apport en eau</string>
+    <string name="water_intake_desc" formatted="false">Calculez vos besoins quotidiens en eau en fonction de votre poids et de votre activité.</string>
+    <string name="skin_type_test" formatted="false">Test de type de peau</string>
+    <string name="skin_type_desc" formatted="false">Identifiez les peaux grasses, sèches, sensibles ou mixtes.</string>
+    <string name="weight" formatted="false">Poids</string>
+    <string name="weight_hint" formatted="false">Entrer le poids</string>
+    <string name="calculate" formatted="false">Calculer</string>
+    <string name="select_unit" formatted="false">Sélectionner l\'unité</string>
+    <string name="climate" formatted="false">Climat</string>
+    <string name="hot" formatted="false">Chaud / Humide</string>
+    <string name="temperate" formatted="false">Tempéré</string>
+    <string name="cold" formatted="false">Froid</string>
+    <string name="activity_level" formatted="false">Niveau d\'activité</string>
+    <string name="low" formatted="false">Sédentaire</string>
+    <string name="medium" formatted="false">Actif</string>
+    <string name="high" formatted="false">Très actif</string>
+    <string name="calculated_result" formatted="false">Votre objectif quotidien</string>
+    <string name="glasses" formatted="false">verres</string>
+    <string name="set_water_goal" formatted="false">Définir comme objectif</string>
+    <string name="water_goal_saved" formatted="false">Objectif d\'eau quotidien mis à jour avec succès !</string>
+    <string name="skin_type_result" formatted="false">Votre type de peau</string>
+    <string name="explore_remedies" formatted="false">Explorer les remèdes recommandés</string>
+    <string name="skin_type_oily" formatted="false">Peau grasse</string>
+    <string name="skin_type_dry" formatted="false">Peau sèche</string>
+    <string name="skin_type_combination" formatted="false">Peau mixte</string>
+    <string name="skin_type_sensitive" formatted="false">Peau sensible</string>
+    <string name="skin_type_normal" formatted="false">Peau normale</string>
+    <string name="oily_skin_desc" formatted="false">Votre peau a des glandes sébacées hyperactives qui produisent un excès de sébum. Cela peut entraîner des pores dilatés, de la brillance et des poussées d\'acné fréquentes. Utilisez des masques à l\'argile, de l\'arbre à thé et une hydratation sans huile.</string>
+    <string name="dry_skin_desc" formatted="false">Votre peau produit moins de sébum que la normale, ce qui entraîne une perte d\'humidité. Elle peut être tiraillée, rugueuse, terne et sujette aux ridules. Privilégiez les crèmes riches à base d\'huile, le miel et l\'hydratation.</string>
+    <string name="combination_skin_desc" formatted="false">Votre peau présente des joues sèches mais une zone T grasse (front, nez, menton). Elle nécessite un soin équilibré : contrôle du sébum sur la zone T et hydratation riche sur les zones sèches. Utilisez des nettoyants doux.</string>
+    <string name="sensitive_skin_desc" formatted="false">Votre peau s\'irrite facilement, réagissant aux produits chimiques, au climat ou aux ingrédients par des rougeurs, des démangeaisons ou des brûlures. Privilégiez les remèdes apaisants comme l\'aloe vera.</string>
+    <string name="skin_type_normal_desc" formatted="false">Votre peau est bien équilibrée : ni trop grasse ni trop sèche. Les pores sont petits, la circulation est bonne et les poussées sont rares. Maintenez cet état par un nettoyage doux et une protection solaire.</string>
+    <string name="quiz_progress" formatted="false">Question %1$d sur 5</string>
+    <string name="quiz_q1" formatted="false">1. Comment se sent votre peau le matin ?</string>
+    <string name="quiz_q1_a" formatted="false">Tiraillée, sèche ou squameuse</string>
+    <string name="quiz_q1_b" formatted="false">Grasse ou brillante uniquement sur la zone T</string>
+    <string name="quiz_q1_c" formatted="false">Grasse et brillante partout</string>
+    <string name="quiz_q1_d" formatted="false">Rouge, irritée ou démangeaisons</string>
+    <string name="quiz_q1_e" formatted="false">Confortable, douce et équilibrée</string>
+    <string name="quiz_q2" formatted="false">2. À quelle fréquence avez-vous des poussées d\'acné ?</string>
+    <string name="quiz_q2_a" formatted="false">Rarement ou jamais</string>
+    <string name="quiz_q2_b" formatted="false">Uniquement sur la zone T</string>
+    <string name="quiz_q2_c" formatted="false">Très fréquemment sur tout le visage</string>
+    <string name="quiz_q2_d" formatted="false">Parfois, avec des rougeurs/irritations</string>
+    <string name="quiz_q2_e" formatted="false">Boutons mineurs occasionnels</string>
+    <string name="quiz_q3" formatted="false">3. Comment votre peau réagit-elle aux nouveaux produits ?</string>
+    <string name="quiz_q3_a" formatted="false">Sûre, tiraillée ou n\'absorbe pas bien</string>
+    <string name="quiz_q3_b" formatted="false">La zone T devient grasse ou a des boutons</string>
+    <string name="quiz_q3_c" formatted="false">Boutons ou devient grasse partout</string>
+    <string name="quiz_q3_d" formatted="false">Brûle, pique ou devient rouge et démange</string>
+    <string name="quiz_q3_e" formatted="false">S\'adapte facilement sans problème</string>
+    <string name="quiz_q4" formatted="false">4. À quoi ressemblent vos pores ?</string>
+    <string name="quiz_q4_a" formatted="false">Presque invisibles</string>
+    <string name="quiz_q4_b" formatted="false">Grands uniquement sur le nez et le front</string>
+    <string name="quiz_q4_c" formatted="false">Grands et visibles partout</string>
+    <string name="quiz_q4_d" formatted="false">Moyens, mais la peau semble irritée</string>
+    <string name="quiz_q4_e" formatted="false">Petits pores de taille normale</string>
+    <string name="quiz_q5" formatted="false">5. 15 minutes après le lavage du visage, votre peau est :</string>
+    <string name="quiz_q5_a" formatted="false">Très tiraillée et étirée</string>
+    <string name="quiz_q5_b" formatted="false">Grasse sur la zone T, tiraillée sur les joues</string>
+    <string name="quiz_q5_c" formatted="false">Brillante et grasse partout</string>
+    <string name="quiz_q5_d" formatted="false">Rouge, chaude ou démangeaisons</string>
+    <string name="quiz_q5_e" formatted="false">Douce, propre et confortable</string>
 </resources>
