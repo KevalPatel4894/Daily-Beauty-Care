@@ -203,3 +203,91 @@ To support multiple languages and prevent packaging build errors:
 3. **Apostrophe Escaping:** In XML string resources, all apostrophes (`'`) must be properly escaped as `\'` or enclosed in double quotes (e.g. `Complete Today\'s Routine` or `"Complete Today's Routine"`).
 4. **Formatting Constraints:** All string resources containing dynamic format parameters (like `%1$d` or `%1$s`) must be defined with the `formatted="false"` attribute to ensure AAPT2 compiler compatibility.
 
+
+---
+
+## 🧴 Category 10: Personalization & Smart Tools
+
+### [ ] Feature 31: Beauty Routine Builder
+* **Goal:** Let users create their own fully custom morning and night beauty routines — a unique offline differentiator.
+* **Details:** Users add steps in sequence (e.g. *"Step 1: Cleanse → Step 2: Toner → Step 3: Moisturize"*). Each step has an optional built-in countdown timer. Save multiple named routines (e.g. *"Morning Glow Routine"*, *"Sunday Deep Care"*) and launch them with one tap.
+* **Tech:** Room database storing routine steps; `CountDownTimer` per step; RecyclerView with drag-to-reorder.
+
+### [ ] Feature 32: Mood-Based Tip Picker
+* **Goal:** Drive deeper engagement with existing content by matching tips to how the user\'s skin feels right now.
+* **Details:** A card asks *"How is your skin feeling today?"* with options: Dull, Oily, Dry, Tired, Sensitive, Glowing. The app instantly shows curated tips matching that mood/condition.
+* **Tech:** Tag-based offline filter on existing JSON tips data; no extra database required.
+
+### [ ] Feature 33: Tip Rating System
+* **Goal:** Surface the most effective tips to the top over time, giving users a sense of ownership.
+* **Details:** A 👍 / 👎 button on each tip detail screen. Ratings stored locally per Tip ID. A *"Top Rated"* section shows the 10 most liked tips across all categories.
+* **Tech:** `SharedPreferences` storing like/dislike counts per Tip ID; sorted RecyclerView adapter.
+
+### [ ] Feature 34: Face Shape Guide
+* **Goal:** Provide hyper-personalized makeup and hairstyle tips based on the user\'s face shape.
+* **Details:** A short interactive quiz (4–5 questions about facial proportions) determines face shape (Oval, Round, Square, Heart, Diamond). Results show personalized contouring tips and ideal hairstyle recommendations.
+* **Tech:** Offline quiz logic similar to existing Skin Type Test; result screen with image illustrations.
+
+### [ ] Feature 35: Hair Porosity Test
+* **Goal:** Help users understand their hair type for better remedy and product decisions.
+* **Details:** A 3-step interactive quiz tests hair porosity (Low / Normal / High). Result explains what it means and links to targeted remedies (e.g. protein treatments for high porosity, lightweight oils for low porosity).
+* **Tech:** Simple quiz scoring logic; result links to existing hair tips in the app.
+
+### [ ] Feature 36: Age Group Filter
+* **Goal:** Make tips feel personally relevant by surfacing age-appropriate content.
+* **Details:** Users set their age group once in Settings (Teens / 20s / 30s / 40s+). Tips relevant to their age show a *"Best for your age"* badge. A *"For You"* section shows only age-matched tips.
+* **Tech:** Age tag field added to JSON tips data; `SharedPreferences` storing selected age group; filtered adapter.
+
+### [ ] Feature 37: Allergy & Ingredient Avoid List
+* **Goal:** Protect users from harmful suggestions by flagging ingredients they are allergic or sensitive to.
+* **Details:** Users add ingredients to avoid (e.g. Lemon, Honey, Coconut Oil) in Settings. Any tip mentioning those ingredients shows a ⚠️ *"Contains allergen you marked"* warning banner on its card.
+* **Tech:** `SharedPreferences` storing a Set of avoided ingredient keywords; string search in tip text on adapter bind.
+
+### [ ] Feature 38: Beauty Wellness Score
+* **Goal:** Gamify the overall self-care habit by combining multiple health signals into one motivating score.
+* **Details:** A *"Beauty Wellness Score"* (0–100) shown as a circular progress ring on the home screen. Calculated from: daily water intake progress + check-in streak + active challenge progress + tips read today.
+* **Tech:** Read existing SharedPrefs for water count, streak, challenge data; formula computed in `onResume`; no new database needed.
+
+---
+
+## 📅 Category 11: Engagement & Retention
+
+### [ ] Feature 39: Beauty Calendar & Routine Planner
+* **Goal:** Help users plan and stick to their weekly self-care schedule with a visual calendar.
+* **Details:** A monthly calendar view where users schedule recurring routines (e.g. *"Face Mask every Sunday"*, *"Hair Oil every Wednesday"*). Scheduled days show colored dots. Tapping a day shows the planned routine with a check-off button.
+* **Tech:** Room database storing scheduled events per day-of-week; simple 7-column week row UI.
+
+### [ ] Feature 40: Daily Mini Challenge
+* **Goal:** Deliver one fresh, quick, achievable beauty challenge every day to build a micro-habit.
+* **Details:** Each day a new *"5-Minute Challenge"* appears (e.g. *"Massage your scalp for 5 minutes"*, *"Apply a cold spoon under eyes for 2 minutes"*). Users tap *"Done"* to complete it and build a mini-challenge streak. Different from the 7/14-day challenges — these are single-step daily tasks.
+* **Tech:** Deterministic daily index from `Calendar.DAY_OF_YEAR` into a local challenges array; streak in `SharedPreferences`.
+
+### [ ] Feature 41: Tip of the Week (Featured Content)
+* **Goal:** Give returning users a reason to open the app every week with highlighted premium content.
+* **Details:** One tip is featured at the top of the home screen in a highlighted banner card. Auto-rotates weekly using a deterministic weekly index. Shows a *"This Week\'s Pick"* badge with the tip title and category.
+* **Tech:** `Calendar.WEEK_OF_YEAR` as index into tip list; no backend required; home screen card view.
+
+### [ ] Feature 42: Recently Viewed History
+* **Goal:** Let users quickly return to tips they were reading without searching again.
+* **Details:** Every time a user opens a tip detail screen, its ID and title are stored in a *"Recently Viewed"* list (max 15 entries, newest first). Accessible from the Search screen or Settings menu.
+* **Tech:** `SharedPreferences` storing a JSON array of last 15 tip IDs/titles; displayed in a simple RecyclerView.
+
+---
+
+## 🎓 Category 12: Education & Learning
+
+### [ ] Feature 43: Beauty Myths Quiz
+* **Goal:** Drive weekly re-engagement through a fun, shareable education format — different from the static FAQ (Feature 17) which is expandable Q&A content.
+* **Details:** A weekly *"True or False"* quiz with 5 beauty myths (e.g. *"Lemon permanently removes dark spots — True or False?"*). Users answer all 5 and see a score with correct explanations. Results are shareable as a card image.
+* **Tech:** Static quiz data in a Kotlin object; `SharedPreferences` storing last played week to prevent repeats; score result screen with share option.
+
+### [ ] Feature 44: Ingredient Spotlight (Daily Feature)
+* **Goal:** Educate users on natural ingredients — complementary to the Ingredient Directory (Feature 16) which is a full glossary; this is a curated daily highlight card.
+* **Details:** One natural ingredient spotlighted daily on the home screen (e.g. *"Today: Turmeric — Benefits, Uses & 3 Recipes"*). Tapping opens a dedicated page with skin/hair benefits and links to related tips already in the app.
+* **Tech:** Deterministic daily index from `Calendar.DAY_OF_YEAR` into a local ingredients array; no backend.
+
+### [ ] Feature 45: Beginner\'s Guide Mode
+* **Goal:** Reduce new-user churn by giving first-time users a clear, friendly starting path.
+* **Details:** On first launch, users are offered a *"Start Here"* 7-day beginner program — one simple tip or habit per day, unlocking sequentially. Day 1: *"Cleanse twice a day"*, Day 2: *"Always moisturize after washing"*, etc. A progress bar shows progress through the guide.
+* **Tech:** `SharedPreferences` tracking current day index; static 7-item beginner tips array; home screen banner card.
+
