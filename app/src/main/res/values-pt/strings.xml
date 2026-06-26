@@ -3596,4 +3596,21 @@
     <string name="diary_photo_remove">Remover Foto</string>
     <string name="diary_saved_toast">Entrada no diário salva!</string>
     <string name="diary_deleted_toast">Entrada no diário excluída!</string>
+
+    <!-- Feature 8: Personal Beauty Profile Setup -->
+    <string name="settings_profile">Meu Perfil de Beleza</string>
+    <string name="profile_intro_title">Seu Perfil de Beleza</string>
+    <string name="profile_intro_desc">Personalize sua experiência informando seus tipos e preocupações. Recomendaremos receitas sob medida para você!</string>
+    <string name="profile_skin_type_label">Tipo de Pele</string>
+    <string name="profile_hair_type_label">Tipo de Cabelo</string>
+    <string name="profile_age_group_label">Faixa Etária</string>
+    <string name="profile_concern_label">Preocupação Principal</string>
+    <string name="profile_skin_test_prompt">Inseguro sobre seu Tipo de Pele?</string>
+    <string name="profile_skin_test_desc">Faça o teste de pele para analisar seu tipo de pele dinamicamente.</string>
+    <string name="profile_banner_title">Personalize sua Rotina</string>
+    <string name="profile_banner_desc">Configure seu Perfil de Beleza para desbloquear recomendações personalizadas no seu feed!</string>
+    <string name="profile_get_started">Começar</string>
+    <string name="profile_for_you_header">Para Você</string>
+    <string name="profile_edit_link">Editar</string>
+    <string name="profile_saved_toast">Perfil de beleza salvo com sucesso!</string>
 </resources>

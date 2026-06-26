@@ -3596,4 +3596,21 @@
     <string name="diary_photo_remove">사진 삭제</string>
     <string name="diary_saved_toast">다이어리가 저장되었습니다!</string>
     <string name="diary_deleted_toast">다이어리가 삭제되었습니다!</string>
+
+    <!-- Feature 8: Personal Beauty Profile Setup -->
+    <string name="settings_profile">뷰티 프로필</string>
+    <string name="profile_intro_title">나의 뷰티 프로필</string>
+    <string name="profile_intro_desc">피부 및 헤어 타입, 고민을 공유하여 경험을 맞춤 설정하세요. 당신만을 위한 관리법을 추천합니다!</string>
+    <string name="profile_skin_type_label">피부 타입</string>
+    <string name="profile_hair_type_label">헤어 타입</string>
+    <string name="profile_age_group_label">연령대</string>
+    <string name="profile_concern_label">주요 고민</string>
+    <string name="profile_skin_test_prompt">피부 타입을 잘 모르겠나요?</string>
+    <string name="profile_skin_test_desc">피부 타입 테스트를 통해 내 피부 타입을 분석해보세요.</string>
+    <string name="profile_banner_title">내 루틴 맞춤 설정</string>
+    <string name="profile_banner_desc">뷰티 프로필을 설정하고 나에게 꼭 맞는 천연 관리법 추천을 받아보세요!</string>
+    <string name="profile_get_started">시작하기</string>
+    <string name="profile_for_you_header">추천</string>
+    <string name="profile_edit_link">편집</string>
+    <string name="profile_saved_toast">뷰티 프로필이 저장되었습니다!</string>
 </resources>

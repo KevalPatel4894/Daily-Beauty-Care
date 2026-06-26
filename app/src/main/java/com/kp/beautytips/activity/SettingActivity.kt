@@ -136,6 +136,14 @@ class SettingActivity : BaseActivity() {
             }
         }
 
+        val rlProfile = findViewById<View>(R.id.rlProfile)
+        rlProfile.setOnClickListener {
+            Intent(this, ProfileActivity::class.java).also {
+                startActivity(it)
+                AppUtils.startFromRightToLeft(this)
+            }
+        }
+
         val rlAchievements = findViewById<View>(R.id.rlAchievements)
         rlAchievements.setOnClickListener {
             Intent(this, BadgesActivity::class.java).also {

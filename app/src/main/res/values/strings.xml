@@ -3607,4 +3607,32 @@
     <string name="diary_photo_remove">Remove Photo</string>
     <string name="diary_saved_toast">Diary entry saved!</string>
     <string name="diary_deleted_toast">Diary entry deleted!</string>
+
+    <!-- Feature 8: Personal Beauty Profile Setup -->
+    <string name="settings_profile">My Beauty Profile</string>
+    <string name="profile_intro_title">Your Beauty Profile</string>
+    <string name="profile_intro_desc">Tailor your experience by sharing your concerns and types. We\'ll highlight remedies just for you!</string>
+    <string name="profile_skin_type_label">Skin Type</string>
+    <string name="profile_hair_type_label">Hair Type</string>
+    <string name="profile_age_group_label">Age Group</string>
+    <string name="profile_concern_label">Primary Concern</string>
+    <string name="profile_skin_test_prompt">Unsure of your Skin Type?</string>
+    <string name="profile_skin_test_desc">Take the Skin Type Test to analyze your skin dynamically.</string>
+    <string name="profile_banner_title">Personalize Your Routine</string>
+    <string name="profile_banner_desc">Set up your Beauty Profile to unlock custom natural remedy recommendations on your feed!</string>
+    <string name="profile_get_started">Get Started</string>
+    <string name="profile_for_you_header">For You</string>
+    <string name="profile_edit_link">Edit</string>
+    <string name="profile_saved_toast">Beauty Profile saved successfully!</string>
+
+    <!-- Profile Option Items -->
+    <string name="profile_hair_normal">Normal</string>
+    <string name="profile_hair_dry">Dry</string>
+    <string name="profile_hair_oily">Oily</string>
+    <string name="profile_hair_dandruff">Dandruff-prone</string>
+    
+    <string name="profile_age_teens">Teens (&lt; 20)</string>
+    <string name="profile_age_20s">20s</string>
+    <string name="profile_age_30s">30s</string>
+    <string name="profile_age_40s">40s+</string>
 </resources>

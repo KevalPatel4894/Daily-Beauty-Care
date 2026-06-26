@@ -47,7 +47,7 @@ This document tracks all zero-budget features designed to maximize user retentio
   2. *Skin Type Test:* A simple quiz that identifies dry/oily/sensitive skin.
 * **Tech:** Simple offline logic and algorithms.
 
-### [ ] Feature 8: Personal Beauty Profile Setup
+### [x] Feature 8: Personal Beauty Profile Setup
 * **Goal:** Personalize the app content to match the user's physical needs.
 * **Details:** A short onboarding setup (Skin type, Hair texture, Age, and concerns). The main screen then highlights tips tagged specifically for their profile.
 * **Tech:** Local content tag filter query.

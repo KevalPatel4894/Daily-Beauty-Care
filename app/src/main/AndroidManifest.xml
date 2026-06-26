@@ -99,6 +99,11 @@
             android:windowSoftInputMode="stateAlwaysHidden" />
 
         <activity
+            android:name=".activity.ProfileActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
+        <activity
             android:name=".activity.WaterCalculatorActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden" />

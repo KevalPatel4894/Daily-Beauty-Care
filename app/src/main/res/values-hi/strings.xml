@@ -3596,4 +3596,21 @@
     <string name="diary_photo_remove">फोटो हटाएं</string>
     <string name="diary_saved_toast">डायरी प्रविष्टि सहेजी गई!</string>
     <string name="diary_deleted_toast">डायरी प्रविष्टि हटा दी गई!</string>
+
+    <!-- Feature 8: Personal Beauty Profile Setup -->
+    <string name="settings_profile">मेरा ब्यूटी प्रोफाइल</string>
+    <string name="profile_intro_title">आपका ब्यूटी प्रोफाइल</string>
+    <string name="profile_intro_desc">अपनी चिंताओं और प्रकारों को साझा करके अपना अनुभव अनुकूलित करें। हम आपके लिए विशेष उपचार दिखाएंगे!</string>
+    <string name="profile_skin_type_label">त्वचा का प्रकार</string>
+    <string name="profile_hair_type_label">बालों का प्रकार</string>
+    <string name="profile_age_group_label">आयु समूह</string>
+    <string name="profile_concern_label">मुख्य चिंता</string>
+    <string name="profile_skin_test_prompt">अपनी त्वचा के प्रकार के बारे में अनिश्चित हैं?</string>
+    <string name="profile_skin_test_desc">अपनी त्वचा का गतिशील रूप से विश्लेषण करने के लिए स्किन टाइप टेस्ट लें।</string>
+    <string name="profile_banner_title">अपनी दिनचर्या को अनुकूलित करें</string>
+    <string name="profile_banner_desc">अपने फीड पर कस्टम प्राकृतिक उपचार अनुशंसाओं को अनलॉक करने के लिए अपना ब्यूटी प्रोफाइल सेट करें!</string>
+    <string name="profile_get_started">शुरू करें</string>
+    <string name="profile_for_you_header">आपके लिए</string>
+    <string name="profile_edit_link">संपादित करें</string>
+    <string name="profile_saved_toast">ब्यूटी प्रोफाइल सफलतापूर्वक सहेज लिया गया!</string>
 </resources>

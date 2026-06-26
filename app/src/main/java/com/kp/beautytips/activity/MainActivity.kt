@@ -248,6 +248,25 @@ class MainActivity : BaseActivity(), CategoryAdapter.OnItemClick {
             startActivity(it)
             AppUtils.startFromRightToLeft(this)
         } }
+
+        findViewById<View>(R.id.btnGetStartedProfile).setOnClickListener {
+            Intent(this, ProfileActivity::class.java).also {
+                startActivity(it)
+                AppUtils.startFromRightToLeft(this)
+            }
+        }
+        findViewById<View>(R.id.cardProfileOnboarding).setOnClickListener {
+            Intent(this, ProfileActivity::class.java).also {
+                startActivity(it)
+                AppUtils.startFromRightToLeft(this)
+            }
+        }
+        findViewById<View>(R.id.txtEditProfileLink).setOnClickListener {
+            Intent(this, ProfileActivity::class.java).also {
+                startActivity(it)
+                AppUtils.startFromRightToLeft(this)
+            }
+        }
     }
 
     override fun onItemClick(category: CategoryModel, position: Int) {
@@ -388,6 +407,7 @@ class MainActivity : BaseActivity(), CategoryAdapter.OnItemClick {
         }
         
         updateWellnessScore()
+        setupPersonalizedRecommendations()
     }
 
     override fun onPause() {
@@ -630,6 +650,86 @@ class MainActivity : BaseActivity(), CategoryAdapter.OnItemClick {
 
             bottomSheetDialog.setContentView(view)
             bottomSheetDialog.show()
+        } catch (e: Exception) {
+            e.printStackTrace()
+        }
+    }
+
+    private fun setupPersonalizedRecommendations() {
+        try {
+            val prefs = getSharedPreferences("BeautyProfile", Context.MODE_PRIVATE)
+            val isConfigured = prefs.getBoolean("profile_is_configured", false)
+            
+            val cardProfileOnboarding = findViewById<View>(R.id.cardProfileOnboarding)
+            val layoutPersonalizedFeed = findViewById<View>(R.id.layoutPersonalizedFeed)
+
+            if (!isConfigured) {
+                cardProfileOnboarding.visibility = View.VISIBLE
+                layoutPersonalizedFeed.visibility = View.GONE
+            } else {
+                cardProfileOnboarding.visibility = View.GONE
+                layoutPersonalizedFeed.visibility = View.VISIBLE
+
+                val skinType = prefs.getString("profile_skin_type", "Normal") ?: "Normal"
+                val hairType = prefs.getString("profile_hair_type", "Normal") ?: "Normal"
+                val concern = prefs.getString("profile_primary_concern", "acne_title") ?: "acne_title"
+
+                // Translate/Get display names
+                val skinDisplay = when(skinType) {
+                    "Normal" -> getString(R.string.skin_type_normal)
+                    "Dry" -> getString(R.string.skin_type_dry)
+                    "Oily" -> getString(R.string.skin_type_oily)
+                    "Sensitive" -> getString(R.string.skin_type_sensitive)
+                    "Combination" -> getString(R.string.skin_type_combination)
+                    else -> skinType
+                }
+                
+                val concernDisplay = when(concern) {
+                    "acne_title" -> getString(R.string.acne_title)
+                    "glowingskin_title" -> getString(R.string.glowingskin_title)
+                    "hairfall_title" -> getString(R.string.hairfall_title)
+                    "dandruff_title" -> getString(R.string.dandruff_title)
+                    "wrinkles_title" -> getString(R.string.wrinkles_title)
+                    "darkcircle_title" -> getString(R.string.darkcircle_title)
+                    "detan_title" -> getString(R.string.detan_title)
+                    "teethwhitening_title" -> getString(R.string.teethwhitening_title)
+                    else -> concern
+                }
+
+                val txtProfileSummary = findViewById<AppCompatTextView>(R.id.txtProfileSummary)
+                txtProfileSummary.text = String.format("(%s | %s)", skinDisplay, concernDisplay)
+
+                // Query recommendations
+                val matchedTips = ArrayList<com.kp.beautytips.model.ListModel>()
+                
+                // 1. Primary Concern
+                val concernTips = TipRepository.getRemedies(this, concern)
+                matchedTips.addAll(concernTips)
+
+                // 2. Skin Type
+                if (skinType == "Dry") {
+                    matchedTips.addAll(TipRepository.getRemedies(this, "glowingskin_title"))
+                } else if (skinType == "Oily" || skinType == "Combination") {
+                    matchedTips.addAll(TipRepository.getRemedies(this, "blackheads_title"))
+                } else if (skinType == "Sensitive") {
+                    matchedTips.addAll(TipRepository.getRemedies(this, "unevenskin_title"))
+                }
+
+                // 3. Hair Type
+                if (hairType == "Dandruff") {
+                    matchedTips.addAll(TipRepository.getRemedies(this, "dandruff_title"))
+                } else if (hairType == "Dry") {
+                    matchedTips.addAll(TipRepository.getRemedies(this, "drydmghair_title"))
+                }
+
+                val finalTips = matchedTips.distinctBy { it.title }.take(3)
+
+                val rvPersonalizedRecommendations = findViewById<androidx.recyclerview.widget.RecyclerView>(R.id.rvPersonalizedRecommendations)
+                rvPersonalizedRecommendations.layoutManager = LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false)
+                
+                val adapter = com.kp.beautytips.adapter.PersonalizedTipsAdapter(this, finalTips, concernDisplay.uppercase())
+                rvPersonalizedRecommendations.adapter = adapter
+            }
         } catch (e: Exception) {
             e.printStackTrace()
         }

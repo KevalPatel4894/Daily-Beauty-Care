@@ -3596,4 +3596,21 @@
     <string name="diary_photo_remove">Foto entfernen</string>
     <string name="diary_saved_toast">Tagebucheintrag gespeichert!</string>
     <string name="diary_deleted_toast">Tagebucheintrag gelöscht!</string>
+
+    <!-- Feature 8: Personal Beauty Profile Setup -->
+    <string name="settings_profile">Mein Schönheitsprofil</string>
+    <string name="profile_intro_title">Dein Schönheitsprofil</string>
+    <string name="profile_intro_desc">Passe Deine App-Erfahrung an! Wir empfehlen Rezepte, die genau auf Dich abgestimmt sind.</string>
+    <string name="profile_skin_type_label">Hauttyp</string>
+    <string name="profile_hair_type_label">Haartyp</string>
+    <string name="profile_age_group_label">Altersgruppe</string>
+    <string name="profile_concern_label">Hauptanliegen</string>
+    <string name="profile_skin_test_prompt">Hauttyp unsicher?</string>
+    <string name="profile_skin_test_desc">Mache den Hauttest, um Deinen Hauttyp dynamisch zu analysieren.</string>
+    <string name="profile_banner_title">Personalisiere Deine Routine</string>
+    <string name="profile_banner_desc">Erstelle Dein Schönheitsprofil, um maßgeschneiderte Empfehlungen zu erhalten!</string>
+    <string name="profile_get_started">Jetzt starten</string>
+    <string name="profile_for_you_header">Für Dich</string>
+    <string name="profile_edit_link">Bearbeiten</string>
+    <string name="profile_saved_toast">Schönheitsprofil erfolgreich gespeichert!</string>
 </resources>

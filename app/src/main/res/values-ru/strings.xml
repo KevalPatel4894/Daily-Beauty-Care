@@ -3596,4 +3596,21 @@
     <string name="diary_photo_remove">Удалить фото</string>
     <string name="diary_saved_toast">Запись сохранена в дневнике!</string>
     <string name="diary_deleted_toast">Запись удалена из дневника!</string>
+
+    <!-- Feature 8: Personal Beauty Profile Setup -->
+    <string name="settings_profile">Профиль красоты</string>
+    <string name="profile_intro_title">Ваш профиль красоты</string>
+    <string name="profile_intro_desc">Настройте приложение под себя, указав свои типы и проблемы. Мы покажем рецепты специально для вас!</string>
+    <string name="profile_skin_type_label">Тип кожи</string>
+    <string name="profile_hair_type_label">Тип волос</string>
+    <string name="profile_age_group_label">Возрастная группа</string>
+    <string name="profile_concern_label">Основная проблема</string>
+    <string name="profile_skin_test_prompt">Не знаете свой тип кожи?</string>
+    <string name="profile_skin_test_desc">Пройдите тест типа кожи, чтобы динамически проанализировать ее.</string>
+    <string name="profile_banner_title">Персонализируйте уход</string>
+    <string name="profile_banner_desc">Настройте свой профиль красоты, чтобы разблокировать персональные рекомендации рецептов в вашей ленте!</string>
+    <string name="profile_get_started">Начать</string>
+    <string name="profile_for_you_header">Для вас</string>
+    <string name="profile_edit_link">Изменить</string>
+    <string name="profile_saved_toast">Профиль красоты успешно сохранен!</string>
 </resources>

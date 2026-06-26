@@ -178,6 +178,16 @@ class SkinTestActivity : BaseActivity() {
 
         // Map dominant option to Skin Type
         // A -> Dry, B -> Combination, C -> Oily, D -> Sensitive, E -> Normal
+        val skinTypeKey = when (dominant) {
+            "A" -> "Dry"
+            "B" -> "Combination"
+            "C" -> "Oily"
+            "D" -> "Sensitive"
+            else -> "Normal"
+        }
+        val prefs = getSharedPreferences("BeautyProfile", Context.MODE_PRIVATE)
+        prefs.edit().putString("profile_skin_type", skinTypeKey).putBoolean("profile_is_configured", true).apply()
+
         when (dominant) {
             "A" -> {
                 txtResultType.text = getString(R.string.skin_type_result) + ": " + getString(R.string.skin_type_dry)

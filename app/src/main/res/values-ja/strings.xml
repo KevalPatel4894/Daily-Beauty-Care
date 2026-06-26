@@ -3596,4 +3596,21 @@
     <string name="diary_photo_remove">写真を削除</string>
     <string name="diary_saved_toast">日記を保存しました！</string>
     <string name="diary_deleted_toast">日記を削除しました！</string>
+
+    <!-- Feature 8: Personal Beauty Profile Setup -->
+    <string name="settings_profile">プロフィール設定</string>
+    <string name="profile_intro_title">ビューティープロフィール</string>
+    <string name="profile_intro_desc">肌や髪のタイプ、お悩みを登録して、あなただけに合ったパーソナライズされたレシピを表示します！</string>
+    <string name="profile_skin_type_label">肌質</string>
+    <string name="profile_hair_type_label">髪質</string>
+    <string name="profile_age_group_label">年代</string>
+    <string name="profile_concern_label">一番のお悩み</string>
+    <string name="profile_skin_test_prompt">自分の肌タイプがわからない？</string>
+    <string name="profile_skin_test_desc">肌タイプ診断テストを受けて、あなたの肌質を分析しましょう。</string>
+    <string name="profile_banner_title">スキンケアをパーソナライズ</string>
+    <string name="profile_banner_desc">プロフィールを設定して、あなたの肌にぴったりのナチュラルケアのおすすめをアンロック！</string>
+    <string name="profile_get_started">始める</string>
+    <string name="profile_for_you_header">おすすめ</string>
+    <string name="profile_edit_link">編集</string>
+    <string name="profile_saved_toast">プロフィールを設定しました！</string>
 </resources>
