@@ -395,6 +395,7 @@ class DetailsActivity : BaseActivity() {
     }
 
     private fun shareContent() {
+        incrementShareCount()
         val text =
             title + " :\n\n" + details + "\n\n" + getString(R.string.app_share) + ": http://play.google.com/store/apps/details?id=" + packageName
         val shareIntent = Intent()
@@ -405,6 +406,7 @@ class DetailsActivity : BaseActivity() {
     }
 
     private fun shareContentOnlyWhatsapp() {
+        incrementShareCount()
         val text =
             title + " :\n\n" + details + "\n\n" + getString(R.string.app_share) + ": http://play.google.com/store/apps/details?id=" + packageName
 
@@ -563,6 +565,7 @@ class DetailsActivity : BaseActivity() {
     }
 
     private fun shareAsImageCard(targetPackage: String?) {
+        incrementShareCount()
         try {
             val bitmap = generateShareCardBitmap()
             val uri = saveBitmapToCache(bitmap)
@@ -680,11 +683,51 @@ class DetailsActivity : BaseActivity() {
         try {
             val prefs = getSharedPreferences("beautytips_prefs", Context.MODE_PRIVATE)
             val todayStr = java.text.SimpleDateFormat("yyyy-MM-dd", java.util.Locale.US).format(java.util.Calendar.getInstance().time)
+            
+            // 1. Log overall daily tip read (for wellness score)
             val key = "read_tips_$todayStr"
             val readSet = prefs.getStringSet(key, emptySet()) ?: emptySet()
             val newSet = HashSet(readSet)
             newSet.add(tipTitle)
             prefs.edit().putStringSet(key, newSet).apply()
+
+            // 2. Log all-time read tips (to count total unique read tips)
+            val allKey = "all_read_tips"
+            val allReadSet = prefs.getStringSet(allKey, emptySet()) ?: emptySet()
+            val newAllSet = HashSet(allReadSet)
+            newAllSet.add(tipTitle)
+            prefs.edit().putStringSet(allKey, newAllSet).apply()
+
+            // 3. Log category specific read tips (to track Glow Master / Hair Guru achievements)
+            val faceStr = getString(R.string.face)
+            val skinStr = getString(R.string.skin)
+            val eyesStr = getString(R.string.eyes)
+            val handsFeetStr = getString(R.string.handsfeet)
+            val hairStr = getString(R.string.hair)
+
+            if (tabName == faceStr || tabName == skinStr || tabName == eyesStr || tabName == handsFeetStr) {
+                val skinKey = "read_tips_skin"
+                val skinSet = prefs.getStringSet(skinKey, emptySet()) ?: emptySet()
+                val newSkinSet = HashSet(skinSet)
+                newSkinSet.add(tipTitle)
+                prefs.edit().putStringSet(skinKey, newSkinSet).apply()
+            } else if (tabName == hairStr) {
+                val hairKey = "read_tips_hair"
+                val hairSet = prefs.getStringSet(hairKey, emptySet()) ?: emptySet()
+                val newHairSet = HashSet(hairSet)
+                newHairSet.add(tipTitle)
+                prefs.edit().putStringSet(hairKey, newHairSet).apply()
+            }
+        } catch (e: Exception) {
+            e.printStackTrace()
+        }
+    }
+
+    private fun incrementShareCount() {
+        try {
+            val prefs = getSharedPreferences("beautytips_prefs", Context.MODE_PRIVATE)
+            val count = prefs.getInt("tips_shared_count", 0)
+            prefs.edit().putInt("tips_shared_count", count + 1).apply()
         } catch (e: Exception) {
             e.printStackTrace()
         }

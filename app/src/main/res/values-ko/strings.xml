@@ -3559,4 +3559,41 @@
     <string name="wellness_score_detail_challenge_advice">진행 중인 챌린지 퀘스트를 완료하여 성취도를 유지하세요.</string>
     <string name="wellness_score_detail_reads_advice" formatted="false">새로운 천연 요법을 알아보기 위해 오늘 최소 %1$d개의 뷰티 팁을 읽어보세요.</string>
     <string name="close">닫기</string>
+
+    <!-- Feature 3: Achievements & Badges -->
+    <string name="settings_achievements">업적 및 배지</string>
+    <string name="badge_locked">잠김</string>
+    <string name="badge_unlocked">잠금 해제!</string>
+    <string name="badge_progress_format" formatted="false">진행 상황: %1$d/%2$d</string>
+    <string name="badge_glow_master_title">광채 마스터</string>
+    <string name="badge_glow_master_desc">얼굴 또는 피부 팁 5개 읽기</string>
+    <string name="badge_hair_guru_title">헤어 구루</string>
+    <string name="badge_hair_guru_desc">헤어 팁 5개 읽기</string>
+    <string name="badge_remedy_saver_title">레시피 보관함</string>
+    <string name="badge_remedy_saver_desc">즐겨찾기에 뷰티 팁 5개 저장하기</string>
+    <string name="badge_hydration_hero_title">수분 히어로</string>
+    <string name="badge_hydration_hero_desc">3일 동안 일일 물 목표 달성하기</string>
+    <string name="badge_consistency_champion_title">꾸준함의 챔피언</string>
+    <string name="badge_consistency_champion_desc">7일 연속 체크인 유지하기</string>
+    <string name="badge_challenge_champion_title">챌린지 정복자</string>
+    <string name="badge_challenge_champion_desc">아무 7일 챌린지나 완료하기</string>
+    <string name="badge_social_beautician_title">소셜 뷰티션</string>
+    <string name="badge_social_beautician_desc">친구들에게 뷰티 팁 3번 공유하기</string>
+
+    <!-- Feature 5: My Beauty Diary -->
+    <string name="settings_diary">나의 뷰티 다이어리</string>
+    <string name="diary_empty_title">뷰티 다이어리가 비어 있습니다</string>
+    <string name="diary_empty_desc">시간에 따른 시각적 변화를 기록하기 위해 매일 피부 및 헤어 케어를 기록해보세요!</string>
+    <string name="diary_add_entry">다이어리 추가</string>
+    <string name="diary_edit_entry">다이어리 편집</string>
+    <string name="diary_title_hint">제목 (예: 1일차 알로에 베라 케어)</string>
+    <string name="diary_content_hint">피부나 머릿결이 어땠나요? 상세 정보를 기록해보세요...</string>
+    <string name="diary_date_label">날짜:</string>
+    <string name="diary_save">저장</string>
+    <string name="diary_delete">삭제</string>
+    <string name="diary_delete_confirm">이 다이어리를 정말 삭제하시겠습니까?</string>
+    <string name="diary_photo_option">사진 로그 추가</string>
+    <string name="diary_photo_remove">사진 삭제</string>
+    <string name="diary_saved_toast">다이어리가 저장되었습니다!</string>
+    <string name="diary_deleted_toast">다이어리가 삭제되었습니다!</string>
 </resources>

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:fitsSystemWindows="true">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/toolBarColor">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txtTabTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/diary_add_entry"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/_18sdp" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/ad_view"
+        android:layout_below="@+id/toolBar"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/_16sdp">
+
+            <!-- Date Row -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginBottom="@dimen/_12sdp">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/diary_date_label"
+                    android:textColor="@color/toolBarColor"
+                    android:textSize="@dimen/_12sdp"
+                    android:textStyle="bold" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/txtEntryDate"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginStart="@dimen/_8sdp"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_12sdp"
+                    android:textStyle="bold"
+                    tools:text="2026-06-26" />
+
+                <androidx.appcompat.widget.AppCompatImageButton
+                    android:id="@+id/btnChangeDate"
+                    android:layout_width="@dimen/_25sdp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:background="?android:attr/selectableItemBackgroundBorderless"
+                    android:src="@android:drawable/ic_menu_my_calendar"
+                    android:tint="@color/toolBarColor" />
+
+            </LinearLayout>
+
+            <!-- Title Field -->
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/etEntryTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/diary_title_hint"
+                android:textColor="@color/black"
+                android:textColorHint="#888888"
+                android:textSize="@dimen/_12sdp"
+                android:inputType="textCapSentences"
+                android:background="@drawable/bg_white_rounded_10"
+                android:padding="@dimen/_12sdp"
+                android:layout_marginBottom="@dimen/_12sdp"
+                android:maxLines="2" />
+
+            <!-- Content Field -->
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/etEntryContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/diary_content_hint"
+                android:textColor="@color/black"
+                android:textColorHint="#888888"
+                android:textSize="@dimen/_11sdp"
+                android:inputType="textMultiLine|textCapSentences"
+                android:background="@drawable/bg_white_rounded_10"
+                android:padding="@dimen/_12sdp"
+                android:layout_marginBottom="@dimen/_15sdp"
+                android:gravity="top"
+                android:minLines="6" />
+
+            <!-- Photo Upload Area -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnAddPhoto"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/diary_photo_option"
+                android:textColor="@color/toolBarColor"
+                app:strokeColor="@color/toolBarColor"
+                app:strokeWidth="1dp"
+                app:icon="@android:drawable/ic_menu_camera"
+                app:iconTint="@color/toolBarColor"
+                android:layout_marginBottom="@dimen/_12sdp" />
+
+            <!-- Photo Preview Card -->
+            <FrameLayout
+                android:id="@+id/layoutPhotoPreview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_20sdp"
+                android:visibility="gone"
+                tools:visibility="visible">
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_180sdp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="2dp">
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:id="@+id/imgEntryPhoto"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop"
+                        tools:src="@drawable/ic_book" />
+
+                </com.google.android.material.card.MaterialCardView>
+
+                <!-- Remove Photo overlay button -->
+                <androidx.appcompat.widget.AppCompatImageButton
+                    android:id="@+id/btnRemovePhoto"
+                    android:layout_width="@dimen/_30sdp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_gravity="top|end"
+                    android:layout_margin="@dimen/_8sdp"
+                    android:background="@drawable/white_background_rounded"
+                    android:src="@android:drawable/ic_menu_close_clear_cancel"
+                    android:tint="@android:color/black"
+                    android:elevation="4dp" />
+            </FrameLayout>
+
+            <!-- Action Buttons -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnSaveEntry"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/diary_save"
+                android:textColor="@color/white"
+                app:backgroundTint="@color/toolBarColor"
+                android:layout_marginBottom="@dimen/_8sdp"
+                android:paddingVertical="@dimen/_10sdp"
+                app:cornerRadius="8dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnDeleteEntry"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/diary_delete"
+                android:textColor="#E74C3C"
+                android:visibility="gone"
+                tools:visibility="visible"
+                android:paddingVertical="@dimen/_10sdp" />
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <RelativeLayout
+        android:id="@+id/ad_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center" />
+
+</RelativeLayout>

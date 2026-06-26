@@ -3559,4 +3559,41 @@
     <string name="wellness_score_detail_challenge_advice">Complete as tarefas dos seus desafios ativos para manter o progresso.</string>
     <string name="wellness_score_detail_reads_advice" formatted="false">Leia pelo menos %1$d dicas de beleza hoje para aprender novos remédios naturais.</string>
     <string name="close">Fechar</string>
+
+    <!-- Feature 3: Achievements & Badges -->
+    <string name="settings_achievements">Conquistas e Insígnias</string>
+    <string name="badge_locked">Bloqueado</string>
+    <string name="badge_unlocked">Desbloqueado!</string>
+    <string name="badge_progress_format" formatted="false">Progresso: %1$d/%2$d</string>
+    <string name="badge_glow_master_title">Mestre do Brilho</string>
+    <string name="badge_glow_master_desc">Leia 5 dicas de rosto ou pele</string>
+    <string name="badge_hair_guru_title">Guru do Cabelo</string>
+    <string name="badge_hair_guru_desc">Leia 5 dicas de cabelo</string>
+    <string name="badge_remedy_saver_title">Protetor de Receitas</string>
+    <string name="badge_remedy_saver_desc">Salve 5 dicas de beleza nos favoritos</string>
+    <string name="badge_hydration_hero_title">Herói da Hidratación</string>
+    <string name="badge_hydration_hero_desc">Cumpra a meta de água por 3 dias</string>
+    <string name="badge_consistency_champion_title">Campeão da Consistência</string>
+    <string name="badge_consistency_champion_desc">Mantenha uma sequência de 7 dias de check-in</string>
+    <string name="badge_challenge_champion_title">Campeão do Desafio</string>
+    <string name="badge_challenge_champion_desc">Complete qualquer desafio de 7 dias</string>
+    <string name="badge_social_beautician_title">Esteticista Social</string>
+    <string name="badge_social_beautician_desc">Compartilhe 3 dicas de beleza com amigos</string>
+
+    <!-- Feature 5: My Beauty Diary -->
+    <string name="settings_diary">Meu Diário de Beleza</string>
+    <string name="diary_empty_title">Seu Diário de Beleza está vazio</string>
+    <string name="diary_empty_desc">Registre seus tratamentos de pele e cabelo diariamente para acompanhar as melhorias ao longo do tempo!</string>
+    <string name="diary_add_entry">Adicionar Entrada no Diário</string>
+    <string name="diary_edit_entry">Editar Entrada no Diário</string>
+    <string name="diary_title_hint">Título (ex: Dia 1 Tratamiento com Babosa)</string>
+    <string name="diary_content_hint">Como se sentiu sua pele/cabelo? Descreva os detalhes...</string>
+    <string name="diary_date_label">Data:</string>
+    <string name="diary_save">Salvar</string>
+    <string name="diary_delete">Excluir</string>
+    <string name="diary_delete_confirm">Tem certeza de que deseja excluir esta entrada?</string>
+    <string name="diary_photo_option">Adicionar Foto de Progreso</string>
+    <string name="diary_photo_remove">Remover Foto</string>
+    <string name="diary_saved_toast">Entrada no diário salva!</string>
+    <string name="diary_deleted_toast">Entrada no diário excluída!</string>
 </resources>

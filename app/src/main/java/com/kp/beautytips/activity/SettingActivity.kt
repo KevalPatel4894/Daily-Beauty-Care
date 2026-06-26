@@ -128,6 +128,22 @@ class SettingActivity : BaseActivity() {
             }
         }
 
+        val rlDiary = findViewById<View>(R.id.rlDiary)
+        rlDiary.setOnClickListener {
+            Intent(this, DiaryActivity::class.java).also {
+                startActivity(it)
+                AppUtils.startFromRightToLeft(this)
+            }
+        }
+
+        val rlAchievements = findViewById<View>(R.id.rlAchievements)
+        rlAchievements.setOnClickListener {
+            Intent(this, BadgesActivity::class.java).also {
+                startActivity(it)
+                AppUtils.startFromRightToLeft(this)
+            }
+        }
+
         val rlCalculators = findViewById<View>(R.id.rlCalculators)
         rlCalculators.setOnClickListener {
             Intent(this, CalculatorActivity::class.java).also {

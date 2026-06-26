@@ -3559,4 +3559,41 @@
     <string name="wellness_score_detail_challenge_advice">Выполняйте задания активных челенджей, чтобы двигаться вперед.</string>
     <string name="wellness_score_detail_reads_advice" formatted="false">Прочитайте сегодня как минимум %1$d советов, чтобы узнать о новых рецептах.</string>
     <string name="close">Закрыть</string>
+
+    <!-- Feature 3: Achievements & Badges -->
+    <string name="settings_achievements">Достижения и значки</string>
+    <string name="badge_locked">Закрыто</string>
+    <string name="badge_unlocked">Открыто!</string>
+    <string name="badge_progress_format" formatted="false">Прогресс: %1$d/%2$d</string>
+    <string name="badge_glow_master_title">Мастер сияния</string>
+    <string name="badge_glow_master_desc">Прочтите 5 советов для лица или кожи</string>
+    <string name="badge_hair_guru_title">Гуру волос</string>
+    <string name="badge_hair_guru_desc">Прочтите 5 советов для волос</string>
+    <string name="badge_remedy_saver_title">Хранитель рецептов</string>
+    <string name="badge_remedy_saver_desc">Добавьте 5 советов в избранное</string>
+    <string name="badge_hydration_hero_title">Герой гидратации</string>
+    <string name="badge_hydration_hero_desc">Выполняйте норму воды 3 дня</string>
+    <string name="badge_consistency_champion_title">Чемпион регулярности</string>
+    <string name="badge_consistency_champion_desc">Поддерживайте серию отметок 7 дней</string>
+    <string name="badge_challenge_champion_title">Победитель челенджей</string>
+    <string name="badge_challenge_champion_desc">Завершите любой 7-дневный челендж</string>
+    <string name="badge_social_beautician_title">Социальный косметолог</string>
+    <string name="badge_social_beautician_desc">Поделитесь 3 советами с друзьями</string>
+
+    <!-- Feature 5: My Beauty Diary -->
+    <string name="settings_diary">Дневник красоты</string>
+    <string name="diary_empty_title">Ваш дневник красоты пуст</string>
+    <string name="diary_empty_desc">Записывайте процедуры для кожи и волос ежедневно, чтобы отслеживать видимые улучшения!</string>
+    <string name="diary_add_entry">Добавить запись</string>
+    <string name="diary_edit_entry">Изменить запись</string>
+    <string name="diary_title_hint">Заголовок (например, День 1 Лечение Алоэ)</string>
+    <string name="diary_content_hint">Что вы почувствовали на коже/волосах? Опишите детали...</string>
+    <string name="diary_date_label">Дата:</string>
+    <string name="diary_save">Сохранить</string>
+    <string name="diary_delete">Удалить</string>
+    <string name="diary_delete_confirm">Вы уверены, что хотите удалить эту запись?</string>
+    <string name="diary_photo_option">Добавить фото прогресса</string>
+    <string name="diary_photo_remove">Удалить фото</string>
+    <string name="diary_saved_toast">Запись сохранена в дневнике!</string>
+    <string name="diary_deleted_toast">Запись удалена из дневника!</string>
 </resources>

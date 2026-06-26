@@ -3559,4 +3559,41 @@
     <string name="wellness_score_detail_challenge_advice">Terminez les tâches de vos défis actifs pour maintenir vos progrès.</string>
     <string name="wellness_score_detail_reads_advice" formatted="false">Lisez au moins %1$d conseils de beauté aujourd\'hui pour apprendre de nouveaux remèdes naturels.</string>
     <string name="close">Fermer</string>
+
+    <!-- Feature 3: Achievements & Badges -->
+    <string name="settings_achievements">Succès et Badges</string>
+    <string name="badge_locked">Verrouillé</string>
+    <string name="badge_unlocked">Déverrouillé!</string>
+    <string name="badge_progress_format" formatted="false">Progression: %1$d/%2$d</string>
+    <string name="badge_glow_master_title">Maître de l\'Éclat</string>
+    <string name="badge_glow_master_desc">Lisez 5 conseils pour le visage ou la peau</string>
+    <string name="badge_hair_guru_title">Gourou des Cheveux</string>
+    <string name="badge_hair_guru_desc">Lisez 5 conseils pour les cheveux</string>
+    <string name="badge_remedy_saver_title">Sauveur de Remèdes</string>
+    <string name="badge_remedy_saver_desc">Enregistrez 5 conseils de beauté dans vos favoris</string>
+    <string name="badge_hydration_hero_title">Héros de l\'Hydratation</string>
+    <string name="badge_hydration_hero_desc">Atteignez vos objectifs d\'eau pendant 3 jours</string>
+    <string name="badge_consistency_champion_title">Champion de la Régularité</string>
+    <string name="badge_consistency_champion_desc">Maintenez une série d\'enregistrement de 7 jours</string>
+    <string name="badge_challenge_champion_title">Champion des Défis</string>
+    <string name="badge_challenge_champion_desc">Terminez n\'importe quel défi de 7 jours</string>
+    <string name="badge_social_beautician_title">Esthéticienne Sociale</string>
+    <string name="badge_social_beautician_desc">Partagez 3 conseils de beauté avec vos amis</string>
+
+    <!-- Feature 5: My Beauty Diary -->
+    <string name="settings_diary">Mon Journal de Beauté</string>
+    <string name="diary_empty_title">Votre journal de beauté est vide</string>
+    <string name="diary_empty_desc">Documentez quotidiennement vos soins de la peau et des cheveux pour suivre vos progrès visuels !</string>
+    <string name="diary_add_entry">Ajouter une entrée</string>
+    <string name="diary_edit_entry">Modifier l\'entrée</string>
+    <string name="diary_title_hint">Titre (ex: Jour 1 Soin Aloe Vera)</string>
+    <string name="diary_content_hint">Comment avez-vous senti votre peau/cheveux ? Décrivez...</string>
+    <string name="diary_date_label">Date :</string>
+    <string name="diary_save">Enregistrer</string>
+    <string name="diary_delete">Supprimer</string>
+    <string name="diary_delete_confirm">Voulez-vous vraiment supprimer cette entrée ?</string>
+    <string name="diary_photo_option">Ajouter un journal photo</string>
+    <string name="diary_photo_remove">Supprimer la photo</string>
+    <string name="diary_saved_toast">Entrée enregistrée !</string>
+    <string name="diary_deleted_toast">Entrée supprimée !</string>
 </resources>

@@ -3559,4 +3559,41 @@
     <string name="wellness_score_detail_challenge_advice">進行中のチャレンジタスクを完了して、進捗を維持しましょう。</string>
     <string name="wellness_score_detail_reads_advice" formatted="false">新しい自然療法を学ぶために、今日は少なくとも %1$d つのビューティーヒントを読みましょう。</string>
     <string name="close">閉じる</string>
+
+    <!-- Feature 3: Achievements & Badges -->
+    <string name="settings_achievements">実績とバッジ</string>
+    <string name="badge_locked">ロック中</string>
+    <string name="badge_unlocked">アンロック！</string>
+    <string name="badge_progress_format" formatted="false">進捗: %1$d/%2$d</string>
+    <string name="badge_glow_master_title">グロウマスター</string>
+    <string name="badge_glow_master_desc">美肌・フェイスヒントを5回読む</string>
+    <string name="badge_hair_guru_title">ヘアグル</string>
+    <string name="badge_hair_guru_desc">ヘアケアヒントを5回読む</string>
+    <string name="badge_remedy_saver_title">レシピセーバー</string>
+    <string name="badge_remedy_saver_desc">お気に入りにヒントを5回保存する</string>
+    <string name="badge_hydration_hero_title">水分のヒーロー</string>
+    <string name="badge_hydration_hero_desc">3日間、水分目標を達成する</string>
+    <string name="badge_consistency_champion_title">継続のチャンピオン</string>
+    <string name="badge_consistency_champion_desc">7日間のログイン継続を維持する</string>
+    <string name="badge_challenge_champion_title">チャレンジの覇者</string>
+    <string name="badge_challenge_champion_desc">いずれかの7日間チャレンジを完了する</string>
+    <string name="badge_social_beautician_title">ソーシャル美容師</string>
+    <string name="badge_social_beautician_desc">ヒントを3回友達にシェアする</string>
+
+    <!-- Feature 5: My Beauty Diary -->
+    <string name="settings_diary">ビューティーダイアリー</string>
+    <string name="diary_empty_title">日記が空です</string>
+    <string name="diary_empty_desc">毎日の肌や髪のお手入れを記録して、時間の経過とともに変化を追跡しましょう！</string>
+    <string name="diary_add_entry">日記を追加する</string>
+    <string name="diary_edit_entry">日記を編集する</string>
+    <string name="diary_title_hint">タイトル (例: 1日目 アロエベラのお手入れ)</string>
+    <string name="diary_content_hint">肌や髪の状態はどうでしたか？詳細を記録してください...</string>
+    <string name="diary_date_label">日付:</string>
+    <string name="diary_save">保存</string>
+    <string name="diary_delete">削除</string>
+    <string name="diary_delete_confirm">この日記を本当に削除しますか？</string>
+    <string name="diary_photo_option">写真を追加する</string>
+    <string name="diary_photo_remove">写真を削除</string>
+    <string name="diary_saved_toast">日記を保存しました！</string>
+    <string name="diary_deleted_toast">日記を削除しました！</string>
 </resources>

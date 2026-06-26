@@ -3559,4 +3559,41 @@
     <string name="wellness_score_detail_challenge_advice">Schließe Aufgaben Deiner aktiven Herausforderungen ab, um Fortschritte zu machen.</string>
     <string name="wellness_score_detail_reads_advice" formatted="false">Lies heute mindestens %1$d Schönheitstipps, um neue Naturheilmittel kennenzulernen.</string>
     <string name="close">Schließen</string>
+
+    <!-- Feature 3: Achievements & Badges -->
+    <string name="settings_achievements">Erfolge &amp; Abzeichen</string>
+    <string name="badge_locked">Gesperrt</string>
+    <string name="badge_unlocked">Freigeschaltet!</string>
+    <string name="badge_progress_format" formatted="false">Fortschritt: %1$d/%2$d</string>
+    <string name="badge_glow_master_title">Glow-Meister</string>
+    <string name="badge_glow_master_desc">Lies 5 Gesichts- oder Hauttipps</string>
+    <string name="badge_hair_guru_title">Haar-Guru</string>
+    <string name="badge_hair_guru_desc">Lies 5 Haartipps</string>
+    <string name="badge_remedy_saver_title">Rezept-Retter</string>
+    <string name="badge_remedy_saver_desc">Speichere 5 Schönheitstipps in Favoriten</string>
+    <string name="badge_hydration_hero_title">Hydrations-Held</string>
+    <string name="badge_hydration_hero_desc">Erreiche an 3 Tagen Deine Wasserziel</string>
+    <string name="badge_consistency_champion_title">Konsistenz-Champion</string>
+    <string name="badge_consistency_champion_desc">Halte eine 7-Tage-Check-in-Serie</string>
+    <string name="badge_challenge_champion_title">Herausforderungs-Champion</string>
+    <string name="badge_challenge_champion_desc">Schließe eine beliebige 7-Tage-Challenge ab</string>
+    <string name="badge_social_beautician_title">Soziale Kosmetikerin</string>
+    <string name="badge_social_beautician_desc">Teile 3 Schönheitstipps mit Freunden</string>
+
+    <!-- Feature 5: My Beauty Diary -->
+    <string name="settings_diary">Mein Schönheits-Tagebuch</string>
+    <string name="diary_empty_title">Dein Schönheits-Tagebuch ist leer</string>
+    <string name="diary_empty_desc">Dokumentiere täglich Deine Haut- und Haarbehandlungen, um optische Verbesserungen im Laufe der Zeit zu verfolgen!</string>
+    <string name="diary_add_entry">Tagebucheintrag hinzufügen</string>
+    <string name="diary_edit_entry">Tagebucheintrag bearbeiten</string>
+    <string name="diary_title_hint">Titel (z. B. Tag 1 Aloe-Vera-Behandlung)</string>
+    <string name="diary_content_hint">Wie hat sich Deine Haut/Dein Haar angefühlt? Beschreibe Details...</string>
+    <string name="diary_date_label">Datum:</string>
+    <string name="diary_save">Speichern</string>
+    <string name="diary_delete">Löschen</string>
+    <string name="diary_delete_confirm">Möchtest Du diesen Eintrag wirklich löschen?</string>
+    <string name="diary_photo_option">Fotoprotokoll hinzufügen</string>
+    <string name="diary_photo_remove">Foto entfernen</string>
+    <string name="diary_saved_toast">Tagebucheintrag gespeichert!</string>
+    <string name="diary_deleted_toast">Tagebucheintrag gelöscht!</string>
 </resources>

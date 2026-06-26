@@ -16,7 +16,7 @@ This document tracks all zero-budget features designed to maximize user retentio
 * **Details:** A calendar view showing check-in progress. Checking in daily builds a streak (e.g., *"5 Days Streak!"*) and unlocks self-care badges (e.g. *"Glow Master"*, *"Hair Guru"*).
 * **Tech:** SharedPreferences tracking daily login timestamps.
 
-### [ ] Feature 3: Achievements & Self-Care Badges
+### [x] Feature 3: Achievements & Self-Care Badges
 * **Goal:** Give users a sense of progression and reward.
 * **Details:** Display locked/unlocked badges based on user actions (e.g., read 10 skin tips, saved 5 favorites, shared 3 tips).
 * **Tech:** Local counter variables in SharedPreferences.
@@ -30,7 +30,7 @@ This document tracks all zero-budget features designed to maximize user retentio
 * **Details:** Add a Heart icon to the toolbar of the tip details page (`DetailsActivity`). Clicking the Heart toggles its state and saves/removes the tip ID in `SharedPreferences`. Add a "Favorites" tab or navigation option to view them.
 * **Tech:** `SharedPreferences` (Offline XML key-value store).
 
-### [ ] Feature 5: "My Beauty Diary" Progress Log (With Offline Photo Logs)
+### [x] Feature 5: "My Beauty Diary" Progress Log (With Offline Photo Logs)
 * **Goal:** High retention feature where users document their skin/hair improvements over time.
 * **Details:** A private photo journal inside the app. Users write text notes and save photos of their face/hair to visually track progress of natural treatments.
 * **Tech:** Android SQLite/Room database and local file storage.

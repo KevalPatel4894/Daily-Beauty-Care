@@ -201,6 +201,16 @@ class WaterTrackerActivity : BaseActivity() {
             Toast.makeText(this, getString(R.string.water_goal_achieved), Toast.LENGTH_LONG).show()
         }
 
+        if (newCount >= 8) {
+            val todayStr = SimpleDateFormat("yyyy-MM-dd", Locale.US).format(Calendar.getInstance().time)
+            val completedDates = sharedPreferences.getStringSet("water_completed_dates", emptySet()) ?: emptySet()
+            if (!completedDates.contains(todayStr)) {
+                val newCompletedDates = HashSet(completedDates)
+                newCompletedDates.add(todayStr)
+                sharedPreferences.edit().putStringSet("water_completed_dates", newCompletedDates).apply()
+            }
+        }
+
         updateUI()
     }
 

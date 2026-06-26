@@ -3559,4 +3559,41 @@
     <string name="wellness_score_detail_challenge_advice">प्रगति बनाए रखने के लिए अपनी सक्रिय चुनौती वाले कार्यों को पूरा करें।</string>
     <string name="wellness_score_detail_reads_advice" formatted="false">प्राकृतिक उपचार सीखने के लिए आज कम से कम %1$d ब्यूटी टिप्स पढ़ें।</string>
     <string name="close">बंद करें</string>
+
+    <!-- Feature 3: Achievements & Badges -->
+    <string name="settings_achievements">उपलब्धियां और बैज</string>
+    <string name="badge_locked">लॉक्ड</string>
+    <string name="badge_unlocked">अनलॉक!</string>
+    <string name="badge_progress_format" formatted="false">प्रगति: %1$d/%2$d</string>
+    <string name="badge_glow_master_title">ग्लो मास्टर</string>
+    <string name="badge_glow_master_desc">चेहरे या त्वचा के 5 टिप्स पढ़ें</string>
+    <string name="badge_hair_guru_title">हेयर गुरु</string>
+    <string name="badge_hair_guru_desc">बालों के 5 टिप्स पढ़ें</string>
+    <string name="badge_remedy_saver_title">उपचार रक्षक</string>
+    <string name="badge_remedy_saver_desc">5 ब्यूटी टिप्स को पसंदीदा में सहेजें</string>
+    <string name="badge_hydration_hero_title">हाइड्रेशन हीरो</string>
+    <string name="badge_hydration_hero_desc">3 दिनों तक पानी का लक्ष्य पूरा करें</string>
+    <string name="badge_consistency_champion_title">निरंतरता चैंपियन</string>
+    <string name="badge_consistency_champion_desc">7 दिनों का चेक-इन सिलसिला बनाए रखें</string>
+    <string name="badge_challenge_champion_title">चुनौती चैंपियन</string>
+    <string name="badge_challenge_champion_desc">कोई भी 7-दिवसीय चुनौती पूरी करें</string>
+    <string name="badge_social_beautician_title">सोशल ब्यूटीशियन</string>
+    <string name="badge_social_beautician_desc">दोस्तों के साथ 3 ब्यूटी टिप्स साझा करें</string>
+
+    <!-- Feature 5: My Beauty Diary -->
+    <string name="settings_diary">मेरी ब्यूटी डायरी</string>
+    <string name="diary_empty_title">आपकी ब्यूटी डायरी खाली है</string>
+    <string name="diary_empty_desc">समय के साथ सुधार देखने के लिए अपनी त्वचा और बालों के उपचारों को प्रतिदिन दर्ज करें!</string>
+    <string name="diary_add_entry">डायरी प्रविष्टि जोड़ें</string>
+    <string name="diary_edit_entry">डायरी प्रविष्टि संपादित करें</string>
+    <string name="diary_title_hint">शीर्षक (जैसे दिन 1 एलोवेरा उपचार)</string>
+    <string name="diary_content_hint">आपकी त्वचा/बाल कैसे महसूस हुए? विवरण लिखें...</string>
+    <string name="diary_date_label">दिनांक:</string>
+    <string name="diary_save">सहेजें</string>
+    <string name="diary_delete">हटाएं</string>
+    <string name="diary_delete_confirm">क्या आप वाकई इस प्रविष्टि को हटाना चाहते हैं?</string>
+    <string name="diary_photo_option">फोटो लॉग जोड़ें</string>
+    <string name="diary_photo_remove">फोटो हटाएं</string>
+    <string name="diary_saved_toast">डायरी प्रविष्टि सहेजी गई!</string>
+    <string name="diary_deleted_toast">डायरी प्रविष्टि हटा दी गई!</string>
 </resources>

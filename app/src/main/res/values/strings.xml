@@ -3570,4 +3570,41 @@
     <string name="wellness_score_detail_challenge_advice">Complete your active challenge tasks to maintain progress.</string>
     <string name="wellness_score_detail_reads_advice" formatted="false">Read at least %1$d beauty tips today to learn new natural remedies.</string>
     <string name="close">Close</string>
+
+    <!-- Feature 3: Achievements & Badges -->
+    <string name="settings_achievements">Achievements &amp; Badges</string>
+    <string name="badge_locked">Locked</string>
+    <string name="badge_unlocked">Unlocked!</string>
+    <string name="badge_progress_format" formatted="false">Progress: %1$d/%2$d</string>
+    <string name="badge_glow_master_title">Glow Master</string>
+    <string name="badge_glow_master_desc">Read 5 Face or Skin Tips</string>
+    <string name="badge_hair_guru_title">Hair Guru</string>
+    <string name="badge_hair_guru_desc">Read 5 Hair Tips</string>
+    <string name="badge_remedy_saver_title">Remedy Saver</string>
+    <string name="badge_remedy_saver_desc">Save 5 beauty tips to favorites</string>
+    <string name="badge_hydration_hero_title">Hydration Hero</string>
+    <string name="badge_hydration_hero_desc">Meet water goals on 3 days</string>
+    <string name="badge_consistency_champion_title">Consistency Champion</string>
+    <string name="badge_consistency_champion_desc">Maintain 7-day check-in streak</string>
+    <string name="badge_challenge_champion_title">Challenge Champion</string>
+    <string name="badge_challenge_champion_desc">Complete any 7-Day challenge</string>
+    <string name="badge_social_beautician_title">Social Beautician</string>
+    <string name="badge_social_beautician_desc">Share 3 beauty tips with friends</string>
+
+    <!-- Feature 5: My Beauty Diary -->
+    <string name="settings_diary">My Beauty Diary</string>
+    <string name="diary_empty_title">Your Beauty Diary is Empty</string>
+    <string name="diary_empty_desc">Document your skin &amp; hair treatments daily to track visual improvements over time!</string>
+    <string name="diary_add_entry">Add Diary Entry</string>
+    <string name="diary_edit_entry">Edit Diary Entry</string>
+    <string name="diary_title_hint">Title (e.g. Day 1 Aloe Vera Treatment)</string>
+    <string name="diary_content_hint">How did your skin/hair feel? Describe details...</string>
+    <string name="diary_date_label">Date:</string>
+    <string name="diary_save">Save</string>
+    <string name="diary_delete">Delete</string>
+    <string name="diary_delete_confirm">Are you sure you want to delete this entry?</string>
+    <string name="diary_photo_option">Add Photo Log</string>
+    <string name="diary_photo_remove">Remove Photo</string>
+    <string name="diary_saved_toast">Diary entry saved!</string>
+    <string name="diary_deleted_toast">Diary entry deleted!</string>
 </resources>
