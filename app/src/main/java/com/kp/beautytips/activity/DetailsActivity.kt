@@ -231,6 +231,10 @@ class DetailsActivity : BaseActivity() {
             lrMainShare.visibility = View.VISIBLE
             btnCompleteChallenge.visibility = View.GONE
         }
+
+        if (title.isNotEmpty()) {
+            recordTipRead(title)
+        }
     }
 
     private fun extractMinutes(durationText: String): Int? {
@@ -670,5 +674,19 @@ class DetailsActivity : BaseActivity() {
         
         finish()
         AppUtils.finishFromLeftToRight(activity)
+    }
+
+    private fun recordTipRead(tipTitle: String) {
+        try {
+            val prefs = getSharedPreferences("beautytips_prefs", Context.MODE_PRIVATE)
+            val todayStr = java.text.SimpleDateFormat("yyyy-MM-dd", java.util.Locale.US).format(java.util.Calendar.getInstance().time)
+            val key = "read_tips_$todayStr"
+            val readSet = prefs.getStringSet(key, emptySet()) ?: emptySet()
+            val newSet = HashSet(readSet)
+            newSet.add(tipTitle)
+            prefs.edit().putStringSet(key, newSet).apply()
+        } catch (e: Exception) {
+            e.printStackTrace()
+        }
     }
 }

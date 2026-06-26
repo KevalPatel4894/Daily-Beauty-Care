@@ -3541,4 +3541,22 @@
     <string name="quiz_q5_c" formatted="false">얼굴 전체가 번들거리고 유분이 돎</string>
     <string name="quiz_q5_d" formatted="false">붉어지거나 화끈거리고, 살짝 가려움</string>
     <string name="quiz_q5_e" formatted="false">부드럽고 깨끗하며 편안함</string>
+
+    <!-- Feature 38: Beauty Wellness Score -->
+    <string name="wellness_score_title">뷰티 웰니스 점수</string>
+    <string name="wellness_score_desc">일일 셀프케어 달성도</string>
+    <string name="wellness_score_water_label" formatted="false">물: %1$d/%2$d</string>
+    <string name="wellness_score_streak_label" formatted="false">연속: %1$d일</string>
+    <string name="wellness_score_challenges_label" formatted="false">챌린지: %1$d/%2$d</string>
+    <string name="wellness_score_reads_label" formatted="false">읽은 팁: %1$d/%2$d</string>
+    <string name="wellness_status_low">셀프케어가 필요한 시간입니다!</string>
+    <string name="wellness_status_medium">잘하고 있어요! 계속 진행하세요!</string>
+    <string name="wellness_status_high">오늘 빛이 나네요!</string>
+    <string name="wellness_score_detail_title">웰니스 점수 상세</string>
+    <string name="wellness_score_detail_intro">이 점수는 귀하의 일일 뷰티 및 웰니스 습관을 반영합니다. 100%를 달성하기 위해 목표를 완료하세요!</string>
+    <string name="wellness_score_detail_water_advice">피부를 촉촉하고 생기 있게 유지하기 위해 규칙적으로 물을 마셔주세요.</string>
+    <string name="wellness_score_detail_streak_advice">매일 체크인하여 일과를 완성하고 셀프케어 배지를 획득해보세요.</string>
+    <string name="wellness_score_detail_challenge_advice">진행 중인 챌린지 퀘스트를 완료하여 성취도를 유지하세요.</string>
+    <string name="wellness_score_detail_reads_advice" formatted="false">새로운 천연 요법을 알아보기 위해 오늘 최소 %1$d개의 뷰티 팁을 읽어보세요.</string>
+    <string name="close">닫기</string>
 </resources>

@@ -3541,4 +3541,22 @@
     <string name="quiz_q5_c" formatted="false">पूरी तरह चमकदार और तैलीय</string>
     <string name="quiz_q5_d" formatted="false">लाल, गर्म या थोड़ी खुजلىदार</string>
     <string name="quiz_q5_e" formatted="false">मुलायम, साफ और आरामदायक</string>
+
+    <!-- Feature 38: Beauty Wellness Score -->
+    <string name="wellness_score_title">ब्यूटी वेलनेस स्कोर</string>
+    <string name="wellness_score_desc">आपकी दैनिक स्व-देखभाल प्रगति</string>
+    <string name="wellness_score_water_label" formatted="false">पानी: %1$d/%2$d</string>
+    <string name="wellness_score_streak_label" formatted="false">लगातार दिन: %1$d दिन</string>
+    <string name="wellness_score_challenges_label" formatted="false">चुनौतियां: %1$d/%2$d</string>
+    <string name="wellness_score_reads_label" formatted="false">पढ़े गए टिप्स: %1$d/%2$d</string>
+    <string name="wellness_status_low">स्व-देखभाल का समय है!</string>
+    <string name="wellness_status_medium">सही रास्ते पर हैं! आगे बढ़ते रहें!</string>
+    <string name="wellness_status_high">आप आज चमक रहे हैं!</string>
+    <string name="wellness_score_detail_title">वेलनेस स्कोर विवरण</string>
+    <string name="wellness_score_detail_intro">यह स्कोर आपकी दैनिक सौंदर्य और वेलनेस की आदतों को दर्शाता है। 100% तक पहुँचने के लिए अपने लक्ष्यों को पूरा करें!</string>
+    <string name="wellness_score_detail_water_advice">अपनी त्वचा को हाइड्रेटेड और चमकदार रखने के लिए नियमित रूप से पानी पिएं।</string>
+    <string name="wellness_score_detail_streak_advice">अपनी दिनचर्या बनाने और स्व-देखभाल बैज अर्जित करने के लिए रोजाना चेक-इन करें।</string>
+    <string name="wellness_score_detail_challenge_advice">प्रगति बनाए रखने के लिए अपनी सक्रिय चुनौती वाले कार्यों को पूरा करें।</string>
+    <string name="wellness_score_detail_reads_advice" formatted="false">प्राकृतिक उपचार सीखने के लिए आज कम से कम %1$d ब्यूटी टिप्स पढ़ें।</string>
+    <string name="close">बंद करें</string>
 </resources>

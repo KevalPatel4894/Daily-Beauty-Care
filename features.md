@@ -243,7 +243,7 @@ To support multiple languages and prevent packaging build errors:
 * **Details:** Users add ingredients to avoid (e.g. Lemon, Honey, Coconut Oil) in Settings. Any tip mentioning those ingredients shows a ⚠️ *"Contains allergen you marked"* warning banner on its card.
 * **Tech:** `SharedPreferences` storing a Set of avoided ingredient keywords; string search in tip text on adapter bind.
 
-### [ ] Feature 38: Beauty Wellness Score
+### [x] Feature 38: Beauty Wellness Score
 * **Goal:** Gamify the overall self-care habit by combining multiple health signals into one motivating score.
 * **Details:** A *"Beauty Wellness Score"* (0–100) shown as a circular progress ring on the home screen. Calculated from: daily water intake progress + check-in streak + active challenge progress + tips read today.
 * **Tech:** Read existing SharedPrefs for water count, streak, challenge data; formula computed in `onResume`; no new database needed.

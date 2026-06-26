@@ -3541,4 +3541,22 @@
     <string name="quiz_q5_c" formatted="false">顔全体がテカってベタつく</string>
     <string name="quiz_q5_d" formatted="false">赤みやほてり、または軽いかゆみがある</string>
     <string name="quiz_q5_e" formatted="false">しっとりとして清潔、快適である</string>
+
+    <!-- Feature 38: Beauty Wellness Score -->
+    <string name="wellness_score_title">ビューティー健康スコア</string>
+    <string name="wellness_score_desc">毎日のセルフケアの進捗</string>
+    <string name="wellness_score_water_label" formatted="false">水分: %1$d/%2$d</string>
+    <string name="wellness_score_streak_label" formatted="false">継続: %1$d日</string>
+    <string name="wellness_score_challenges_label" formatted="false">チャレンジ: %1$d/%2$d</string>
+    <string name="wellness_score_reads_label" formatted="false">読んだヒント: %1$d/%2$d</string>
+    <string name="wellness_status_low">セルフケアを始めましょう！</string>
+    <string name="wellness_status_medium">順調です！その調子で続けましょう！</string>
+    <string name="wellness_status_high">今日はとても輝いています！</string>
+    <string name="wellness_score_detail_title">スコア詳細</string>
+    <string name="wellness_score_detail_intro">このスコアは、毎日の美と健康の習慣を反映しています。目標を達成して100%を目指しましょう！</string>
+    <string name="wellness_score_detail_water_advice">定期的に水分を補給して、肌をみずみずしく輝かせましょう。</string>
+    <string name="wellness_score_detail_streak_advice">毎日チェックインして、習慣を身につけセルフケアバッジを獲得しましょう。</string>
+    <string name="wellness_score_detail_challenge_advice">進行中のチャレンジタスクを完了して、進捗を維持しましょう。</string>
+    <string name="wellness_score_detail_reads_advice" formatted="false">新しい自然療法を学ぶために、今日は少なくとも %1$d つのビューティーヒントを読みましょう。</string>
+    <string name="close">閉じる</string>
 </resources>

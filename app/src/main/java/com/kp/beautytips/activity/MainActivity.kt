@@ -40,6 +40,7 @@ import com.google.android.play.core.appupdate.AppUpdateManagerFactory
 import com.google.android.play.core.install.model.AppUpdateType
 import com.google.android.play.core.install.model.UpdateAvailability
 import android.widget.Toast
+import android.widget.ProgressBar
 import androidx.appcompat.widget.AppCompatTextView
 import java.text.SimpleDateFormat
 import java.util.Calendar
@@ -385,6 +386,8 @@ class MainActivity : BaseActivity(), CategoryAdapter.OnItemClick {
                 }
             }
         }
+        
+        updateWellnessScore()
     }
 
     override fun onPause() {
@@ -459,6 +462,176 @@ class MainActivity : BaseActivity(), CategoryAdapter.OnItemClick {
                 Toast.makeText(this, "An update is required to continue using the app.", Toast.LENGTH_LONG).show()
                 finishAffinity()
             }
+        }
+    }
+
+    private fun updateWellnessScore() {
+        val todayStr = SimpleDateFormat("yyyy-MM-dd", Locale.US).format(Calendar.getInstance().time)
+
+        // 1. Water Points (Max 25)
+        val waterPrefs = getSharedPreferences("water_tracker_prefs", Context.MODE_PRIVATE)
+        val lastDate = waterPrefs.getString("water_last_date", "") ?: ""
+        var waterCount = waterPrefs.getInt("water_today_count", 0)
+        if (todayStr != lastDate) {
+            waterCount = 0
+        }
+        val waterGoal = waterPrefs.getInt("water_water_goal", 8)
+        val waterPoints = if (waterGoal > 0) {
+            (waterCount.toFloat() / waterGoal.toFloat() * 25).toInt().coerceIn(0, 25)
+        } else {
+            0
+        }
+
+        // 2. Check-In Streak Points (Max 25)
+        val checkInPrefs = getSharedPreferences("DailyBeautyCarePrefs", Context.MODE_PRIVATE)
+        val streak = checkInPrefs.getInt("check_in_streak", 0)
+        val checkInDates = checkInPrefs.getStringSet("check_in_dates", emptySet()) ?: emptySet()
+        val isCheckedInToday = checkInDates.contains(todayStr)
+        val streakPoints = if (isCheckedInToday) {
+            (15 + streak * 2).coerceAtMost(25)
+        } else {
+            (streak * 2).coerceAtMost(25)
+        }
+
+        // 3. Challenge Points (Max 25)
+        val beautyPrefs = getSharedPreferences("beautytips_prefs", Context.MODE_PRIVATE)
+        var totalCompletedTasks = 0
+        var totalPossibleTasks = 0
+        for (challenge in com.kp.beautytips.data.ChallengeRepository.challenges) {
+            totalPossibleTasks += challenge.daysCount
+            for (i in 0 until challenge.daysCount) {
+                if (beautyPrefs.getBoolean("challenge_completed_${challenge.id}_$i", false)) {
+                    totalCompletedTasks++
+                }
+            }
+        }
+        val challengePoints = if (totalPossibleTasks > 0) {
+            (totalCompletedTasks.toFloat() / totalPossibleTasks.toFloat() * 25).toInt().coerceIn(0, 25)
+        } else {
+            0
+        }
+
+        // 4. Tips Read Points (Max 25)
+        val readTipsSet = beautyPrefs.getStringSet("read_tips_$todayStr", emptySet()) ?: emptySet()
+        val tipsReadToday = readTipsSet.size
+        val tipsPoints = (tipsReadToday * 8).coerceAtMost(25)
+
+        // Total Score (0-100)
+        val totalScore = (waterPoints + streakPoints + challengePoints + tipsPoints).coerceIn(0, 100)
+
+        // Update Toolbar Views
+        try {
+            val toolbarScoreProgress = findViewById<ProgressBar>(R.id.toolbarScoreProgress)
+            val txtToolbarScore = findViewById<AppCompatTextView>(R.id.txtToolbarScore)
+            toolbarScoreProgress?.progress = totalScore
+            txtToolbarScore?.text = totalScore.toString()
+        } catch (e: Exception) {
+            e.printStackTrace()
+        }
+
+        // Set Click Listener to open Bottom Sheet Dialog with details
+        val layoutToolbarScore = findViewById<View>(R.id.layoutToolbarScore)
+        layoutToolbarScore?.setOnClickListener {
+            showWellnessDetailsBottomSheet(
+                totalScore,
+                waterCount, waterGoal, waterPoints,
+                streak, isCheckedInToday, streakPoints,
+                totalCompletedTasks, totalPossibleTasks, challengePoints,
+                tipsReadToday, tipsPoints
+            )
+        }
+    }
+
+    private fun showWellnessDetailsBottomSheet(
+        totalScore: Int,
+        waterCount: Int, waterGoal: Int, waterPoints: Int,
+        streak: Int, isCheckedInToday: Boolean, streakPoints: Int,
+        completedChallenges: Int, totalChallenges: Int, challengePoints: Int,
+        tipsReadToday: Int, tipsPoints: Int
+    ) {
+        try {
+            val bottomSheetDialog = com.google.android.material.bottomsheet.BottomSheetDialog(this)
+            val view = layoutInflater.inflate(R.layout.dialog_wellness_score_detail, null)
+
+            // Find views
+            val detailScoreProgress = view.findViewById<ProgressBar>(R.id.detailScoreProgress)
+            val txtDetailScore = view.findViewById<AppCompatTextView>(R.id.txtDetailScore)
+            val txtDetailScoreStatus = view.findViewById<AppCompatTextView>(R.id.txtDetailScoreStatus)
+
+            val txtWaterProgress = view.findViewById<AppCompatTextView>(R.id.txtWaterProgress)
+            val imgCheckWater = view.findViewById<androidx.appcompat.widget.AppCompatImageView>(R.id.imgCheckWater)
+
+            val txtStreakProgress = view.findViewById<AppCompatTextView>(R.id.txtStreakProgress)
+            val imgCheckStreak = view.findViewById<androidx.appcompat.widget.AppCompatImageView>(R.id.imgCheckStreak)
+
+            val txtChallengeProgress = view.findViewById<AppCompatTextView>(R.id.txtChallengeProgress)
+            val imgCheckChallenge = view.findViewById<androidx.appcompat.widget.AppCompatImageView>(R.id.imgCheckChallenge)
+
+            val txtReadsProgress = view.findViewById<AppCompatTextView>(R.id.txtReadsProgress)
+            val txtReadsAdvice = view.findViewById<AppCompatTextView>(R.id.txtReadsAdvice)
+            val imgCheckReads = view.findViewById<androidx.appcompat.widget.AppCompatImageView>(R.id.imgCheckReads)
+
+            val btnCloseDetail = view.findViewById<View>(R.id.btnCloseDetail)
+
+            // Set main score info
+            detailScoreProgress.progress = totalScore
+            txtDetailScore.text = totalScore.toString()
+            val statusRes = when {
+                totalScore >= 75 -> R.string.wellness_status_high
+                totalScore >= 40 -> R.string.wellness_status_medium
+                else -> R.string.wellness_status_low
+            }
+            txtDetailScoreStatus.setText(statusRes)
+
+            // Bind Water component
+            txtWaterProgress.text = String.format(getString(R.string.wellness_score_water_label), waterCount, waterGoal)
+            if (waterPoints >= 25) {
+                imgCheckWater.setImageResource(R.drawable.ic_check_circle_green)
+                imgCheckWater.imageTintList = null
+            } else {
+                imgCheckWater.setImageResource(R.drawable.ic_check_circle)
+                imgCheckWater.setColorFilter(android.graphics.Color.parseColor("#CCCCCC"))
+            }
+
+            // Bind Streak component
+            txtStreakProgress.text = String.format(getString(R.string.wellness_score_streak_label), streak)
+            if (streakPoints >= 25) {
+                imgCheckStreak.setImageResource(R.drawable.ic_check_circle_green)
+                imgCheckStreak.imageTintList = null
+            } else {
+                imgCheckStreak.setImageResource(R.drawable.ic_check_circle)
+                imgCheckStreak.setColorFilter(android.graphics.Color.parseColor("#CCCCCC"))
+            }
+
+            // Bind Challenge component
+            txtChallengeProgress.text = String.format(getString(R.string.wellness_score_challenges_label), completedChallenges, totalChallenges)
+            if (challengePoints >= 25) {
+                imgCheckChallenge.setImageResource(R.drawable.ic_check_circle_green)
+                imgCheckChallenge.imageTintList = null
+            } else {
+                imgCheckChallenge.setImageResource(R.drawable.ic_check_circle)
+                imgCheckChallenge.setColorFilter(android.graphics.Color.parseColor("#CCCCCC"))
+            }
+
+            // Bind Reads component
+            txtReadsProgress.text = String.format(getString(R.string.wellness_score_reads_label), tipsReadToday, 3)
+            txtReadsAdvice.text = String.format(getString(R.string.wellness_score_detail_reads_advice), 3)
+            if (tipsPoints >= 25) {
+                imgCheckReads.setImageResource(R.drawable.ic_check_circle_green)
+                imgCheckReads.imageTintList = null
+            } else {
+                imgCheckReads.setImageResource(R.drawable.ic_check_circle)
+                imgCheckReads.setColorFilter(android.graphics.Color.parseColor("#CCCCCC"))
+            }
+
+            btnCloseDetail.setOnClickListener {
+                bottomSheetDialog.dismiss()
+            }
+
+            bottomSheetDialog.setContentView(view)
+            bottomSheetDialog.show()
+        } catch (e: Exception) {
+            e.printStackTrace()
         }
     }
 }

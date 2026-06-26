@@ -3541,4 +3541,22 @@
     <string name="quiz_q5_c" formatted="false">Überall glänzend und fettig</string>
     <string name="quiz_q5_d" formatted="false">Rot, warm oder leicht juckend</string>
     <string name="quiz_q5_e" formatted="false">Weich, sauber und angenehm</string>
+
+    <!-- Feature 38: Beauty Wellness Score -->
+    <string name="wellness_score_title">Schönheits-Wellness-Score</string>
+    <string name="wellness_score_desc">Dein täglicher Selbstpflege-Fortschritt</string>
+    <string name="wellness_score_water_label" formatted="false">Wasser: %1$d/%2$d</string>
+    <string name="wellness_score_streak_label" formatted="false">Serie: %1$d Tage</string>
+    <string name="wellness_score_challenges_label" formatted="false">Herausforderungen: %1$d/%2$d</string>
+    <string name="wellness_score_reads_label" formatted="false">Gelesene Tipps: %1$d/%2$d</string>
+    <string name="wellness_status_low">Zeit für etwas Selbstpflege!</string>
+    <string name="wellness_status_medium">Auf dem richtigen Weg! Weiter so!</string>
+    <string name="wellness_status_high">Du strahlst heute!</string>
+    <string name="wellness_score_detail_title">Details zum Score</string>
+    <string name="wellness_score_detail_intro">Dieser Score spiegelt Deine täglichen Schönheits- und Wellnessgewohnheiten wider. Erreiche Deine Ziele, um 100% zu erzielen!</string>
+    <string name="wellness_score_detail_water_advice">Trinke regelmäßig Wasser, um Deine Haut hydratisiert und strahlend zu halten.</string>
+    <string name="wellness_score_detail_streak_advice">Checke täglich ein, um Deine Routine aufzubauen und Abzeichen zu verdienen.</string>
+    <string name="wellness_score_detail_challenge_advice">Schließe Aufgaben Deiner aktiven Herausforderungen ab, um Fortschritte zu machen.</string>
+    <string name="wellness_score_detail_reads_advice" formatted="false">Lies heute mindestens %1$d Schönheitstipps, um neue Naturheilmittel kennenzulernen.</string>
+    <string name="close">Schließen</string>
 </resources>

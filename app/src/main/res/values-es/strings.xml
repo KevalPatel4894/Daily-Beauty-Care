@@ -3541,4 +3541,22 @@
     <string name="quiz_q5_c" formatted="false">Brillante y grasa en todo el rostro</string>
     <string name="quiz_q5_d" formatted="false">Roja, tibia o con picazón</string>
     <string name="quiz_q5_e" formatted="false">Suave, limpia y cómoda</string>
+
+    <!-- Feature 38: Beauty Wellness Score -->
+    <string name="wellness_score_title">Puntaje de Bienestar de Belleza</string>
+    <string name="wellness_score_desc">Tu progreso diario de cuidado personal</string>
+    <string name="wellness_score_water_label" formatted="false">Agua: %1$d/%2$d</string>
+    <string name="wellness_score_streak_label" formatted="false">Racha: %1$d días</string>
+    <string name="wellness_score_challenges_label" formatted="false">Desafíos: %1$d/%2$d</string>
+    <string name="wellness_score_reads_label" formatted="false">Consejos leídos: %1$d/%2$d</string>
+    <string name="wellness_status_low">¡Hora de un poco de autocuidado!</string>
+    <string name="wellness_status_medium">¡Vas por buen camino! ¡Sigue así!</string>
+    <string name="wellness_status_high">¡Hoy estás radiante!</string>
+    <string name="wellness_score_detail_title">Detalles del Puntaje</string>
+    <string name="wellness_score_detail_intro">Este puntaje refleja tus hábitos diarios de belleza y bienestar. ¡Completa tus metas para llegar al 100%!</string>
+    <string name="wellness_score_detail_water_advice">Bebe agua regularmente para mantener tu piel hidratada y radiante.</string>
+    <string name="wellness_score_detail_streak_advice">Haz check-in diario para crear tu rutina y ganar insignias de cuidado personal.</string>
+    <string name="wellness_score_detail_challenge_advice">Completa las tareas de tus desafíos activos para mantener el progreso.</string>
+    <string name="wellness_score_detail_reads_advice" formatted="false">Lee al menos %1$d consejos de belleza hoy para aprender nuevos remedios naturales.</string>
+    <string name="close">Cerrar</string>
 </resources>
