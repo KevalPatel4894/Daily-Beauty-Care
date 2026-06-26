@@ -57,7 +57,7 @@ This document tracks all zero-budget features designed to maximize user retentio
 * **Details:** If a tip text says *"leave for 15 minutes"*, show a *"Start 15-Min Timer"* button. Tapping it starts a countdown and alerts the user with an alarm when the mask is ready to wash off.
 * **Tech:** Android `CountDownTimer` and `Vibrator`/Ringtone services.
 
-### [ ] Feature 10: "My Remedy Notes"
+### [x] Feature 10: "My Remedy Notes"
 * **Goal:** Let users customize natural recipes.
 * **Details:** A text box under each tip where users add notes (e.g. *"I added 1 spoon of lemon juice to this face mask. Works great!"*).
 * **Tech:** Room database mapping notes to Tip IDs.

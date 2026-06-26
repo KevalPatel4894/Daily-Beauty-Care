@@ -3613,4 +3613,9 @@
     <string name="profile_for_you_header">おすすめ</string>
     <string name="profile_edit_link">編集</string>
     <string name="profile_saved_toast">プロフィールを設定しました！</string>
+
+    <!-- Feature 10: My Remedy Notes -->
+    <string name="remedy_notes_title">マイメモ</string>
+    <string name="remedy_notes_hint">個人的なメモを追加（例：肌の反応、アレンジ、加えた材料など...）</string>
+    <string name="remedy_notes_saved">メモを保存しました！</string>
 </resources>

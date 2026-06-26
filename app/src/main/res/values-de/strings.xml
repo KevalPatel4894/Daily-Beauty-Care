@@ -3613,4 +3613,9 @@
     <string name="profile_for_you_header">Für Dich</string>
     <string name="profile_edit_link">Bearbeiten</string>
     <string name="profile_saved_toast">Schönheitsprofil erfolgreich gespeichert!</string>
+
+    <!-- Feature 10: My Remedy Notes -->
+    <string name="remedy_notes_title">Meine Rezept-Notizen</string>
+    <string name="remedy_notes_hint">Eigene Notizen hinzufügen (z. B. Hautreaktion, vorgenommene Änderungen, hinzugefügte Zutaten...)</string>
+    <string name="remedy_notes_saved">Notizen erfolgreich gespeichert!</string>
 </resources>

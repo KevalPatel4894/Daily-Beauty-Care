@@ -160,6 +160,80 @@
                 </androidx.appcompat.widget.LinearLayoutCompat>
             </androidx.cardview.widget.CardView>
 
+            <!-- Remedy Notes Card -->
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardRemedyNotes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/_12sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:layout_marginBottom="@dimen/_24sdp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="3dp"
+                app:cardBackgroundColor="@color/white"
+                app:strokeColor="#FADBD8"
+                app:strokeWidth="1dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="@dimen/_12sdp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical"
+                        android:layout_marginBottom="@dimen/_8sdp">
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:layout_width="@dimen/_18sdp"
+                            android:layout_height="@dimen/_18sdp"
+                            android:src="@drawable/ic_book_white"
+                            android:tint="@color/toolBarColor" />
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/_8sdp"
+                            android:text="@string/remedy_notes_title"
+                            android:textColor="@color/toolBarColor"
+                            android:textSize="@dimen/_12sdp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <androidx.appcompat.widget.AppCompatEditText
+                        android:id="@+id/etRemedyNote"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/remedy_notes_hint"
+                        android:textColor="@color/black"
+                        android:textColorHint="#999999"
+                        android:textSize="@dimen/_11sdp"
+                        android:gravity="top"
+                        android:minLines="3"
+                        android:maxLines="6"
+                        android:inputType="textMultiLine|textCapSentences"
+                        android:background="@drawable/bg_white_rounded_10"
+                        android:padding="@dimen/_8sdp"
+                        android:lineSpacingMultiplier="1.1" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/btnSaveRemedyNote"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:layout_marginTop="@dimen/_8sdp"
+                        android:text="@string/diary_save"
+                        android:textColor="@color/white"
+                        app:backgroundTint="@color/toolBarColor"
+                        app:cornerRadius="6dp"
+                        android:textSize="@dimen/_9sdp"
+                        android:paddingVertical="4dp" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
         </androidx.appcompat.widget.LinearLayoutCompat>
     </androidx.core.widget.NestedScrollView>
 

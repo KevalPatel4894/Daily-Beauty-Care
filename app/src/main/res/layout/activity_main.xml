@@ -81,316 +81,325 @@
         </RelativeLayout>
     </androidx.appcompat.widget.Toolbar>
 
-    <androidx.appcompat.widget.LinearLayoutCompat
+    <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_above="@+id/ad_view"
         android:layout_below="@+id/toolBar"
-        android:orientation="vertical">
+        android:fillViewport="true">
 
-        <!-- Horizontal Grid of 3 Quick Action Cards -->
         <androidx.appcompat.widget.LinearLayoutCompat
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="@dimen/_12sdp"
-            android:layout_marginEnd="@dimen/_12sdp"
-            android:layout_marginTop="@dimen/_10sdp"
-            android:layout_marginBottom="@dimen/_4sdp"
-            android:orientation="horizontal"
-            android:weightSum="3">
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/_12sdp">
 
-            <!-- Beauty Challenges Card -->
-            <com.google.android.material.card.MaterialCardView
-                android:id="@+id/cardChallengesBanner"
-                android:layout_width="0dp"
+            <!-- Horizontal Grid of 3 Quick Action Cards -->
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:layout_marginStart="0dp"
-                android:layout_marginEnd="@dimen/_2sdp"
-                android:minHeight="@dimen/_95sdp"
-                android:layout_marginBottom="@dimen/_3sdp"
-                android:clickable="true"
-                android:focusable="true"
+                android:layout_marginStart="@dimen/_12sdp"
+                android:layout_marginEnd="@dimen/_12sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginBottom="@dimen/_4sdp"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <!-- Beauty Challenges Card -->
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/cardChallengesBanner"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginEnd="@dimen/_2sdp"
+                    android:minHeight="@dimen/_95sdp"
+                    android:layout_marginBottom="@dimen/_3sdp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="3dp"
+                    app:cardBackgroundColor="#FFF0FD"
+                    app:strokeColor="#F1B6D6"
+                    app:strokeWidth="1dp"
+                    app:rippleColor="#F1B6D6">
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:paddingTop="@dimen/_10sdp"
+                        android:paddingBottom="@dimen/_10sdp"
+                        android:paddingStart="@dimen/_4sdp"
+                        android:paddingEnd="@dimen/_4sdp">
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:layout_width="@dimen/_28sdp"
+                            android:layout_height="@dimen/_28sdp"
+                            android:src="@drawable/ic_star_rate"
+                            android:tint="@color/toolBarColor"
+                            android:padding="2dp" />
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_6sdp"
+                            android:gravity="center"
+                            android:text="@string/beauty_challenges"
+                            android:textColor="@color/toolBarColor"
+                            android:textSize="12sp"
+                            android:textStyle="bold" />
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="2dp"
+                            android:gravity="center"
+                            android:text="@string/challenges_desc_short"
+                            android:textColor="#666666"
+                            android:textSize="10sp" />
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+                </com.google.android.material.card.MaterialCardView>
+
+                <!-- Daily Check-In Card -->
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/cardCheckInBanner"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginStart="@dimen/_2sdp"
+                    android:layout_marginEnd="@dimen/_2sdp"
+                    android:minHeight="@dimen/_95sdp"
+                    android:layout_marginBottom="@dimen/_3sdp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="3dp"
+                    app:cardBackgroundColor="#EAFAF1"
+                    app:strokeColor="#A9DFBF"
+                    app:strokeWidth="1dp"
+                    app:rippleColor="#A9DFBF">
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:paddingTop="@dimen/_10sdp"
+                        android:paddingBottom="@dimen/_10sdp"
+                        android:paddingStart="@dimen/_4sdp"
+                        android:paddingEnd="@dimen/_4sdp">
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:id="@+id/imgCheckInFlame"
+                            android:layout_width="@dimen/_28sdp"
+                            android:layout_height="@dimen/_28sdp"
+                            android:src="@drawable/ic_streak_flame"
+                            android:padding="2dp" />
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_6sdp"
+                            android:gravity="center"
+                            android:text="@string/daily_check_in"
+                            android:textColor="#2E7D32"
+                            android:textSize="12sp"
+                            android:textStyle="bold" />
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/txtCheckInSubtitle"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="2dp"
+                            android:gravity="center"
+                            android:text="@string/check_in_tap_short"
+                            android:textColor="#555555"
+                            android:textSize="10sp" />
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+                </com.google.android.material.card.MaterialCardView>
+
+                <!-- Daily Water Tracker Card -->
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/cardWaterTrackerBanner"
+                    android:layout_width="0dp"
+                    android:layout_marginBottom="@dimen/_3sdp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginStart="@dimen/_2sdp"
+                    android:layout_marginEnd="0dp"
+                    android:minHeight="@dimen/_95sdp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    app:cardCornerRadius="12dp"
+                    app:cardElevation="3dp"
+                    app:cardBackgroundColor="#EBF5FB"
+                    app:strokeColor="#AED6F1"
+                    app:strokeWidth="1dp"
+                    app:rippleColor="#AED6F1">
+
+                    <androidx.appcompat.widget.LinearLayoutCompat
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:paddingTop="@dimen/_10sdp"
+                        android:paddingBottom="@dimen/_10sdp"
+                        android:paddingStart="@dimen/_4sdp"
+                        android:paddingEnd="@dimen/_4sdp">
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:id="@+id/imgWaterDrop"
+                            android:layout_width="@dimen/_28sdp"
+                            android:layout_height="@dimen/_28sdp"
+                            android:src="@drawable/ic_water_drop"
+                            android:padding="2dp" />
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_6sdp"
+                            android:gravity="center"
+                            android:text="@string/water_tracker"
+                            android:textColor="#2980B9"
+                            android:textSize="12sp"
+                            android:textStyle="bold" />
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/txtWaterSubtitle"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="2dp"
+                            android:gravity="center"
+                            android:text="@string/water_tracker_subtitle"
+                            android:textColor="#555555"
+                            android:textSize="10sp" />
+                    </androidx.appcompat.widget.LinearLayoutCompat>
+                </com.google.android.material.card.MaterialCardView>
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <!-- Profile Personalization Onboarding Banner -->
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardProfileOnboarding"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginStart="@dimen/_12sdp"
+                android:layout_marginEnd="@dimen/_12sdp"
                 app:cardCornerRadius="12dp"
                 app:cardElevation="3dp"
                 app:cardBackgroundColor="#FFF0FD"
                 app:strokeColor="#F1B6D6"
-                app:strokeWidth="1dp"
-                app:rippleColor="#F1B6D6">
+                app:strokeWidth="1dp">
 
-                <androidx.appcompat.widget.LinearLayoutCompat
+                <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content"
                     android:orientation="vertical"
-                    android:gravity="center"
-                    android:paddingTop="@dimen/_10sdp"
-                    android:paddingBottom="@dimen/_10sdp"
-                    android:paddingStart="@dimen/_4sdp"
-                    android:paddingEnd="@dimen/_4sdp">
-
-                    <androidx.appcompat.widget.AppCompatImageView
-                        android:layout_width="@dimen/_28sdp"
-                        android:layout_height="@dimen/_28sdp"
-                        android:src="@drawable/ic_star_rate"
-                        android:tint="@color/toolBarColor"
-                        android:padding="2dp" />
+                    android:padding="@dimen/_12sdp">
 
                     <androidx.appcompat.widget.AppCompatTextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="@dimen/_6sdp"
-                        android:gravity="center"
-                        android:text="@string/beauty_challenges"
+                        android:text="@string/profile_banner_title"
                         android:textColor="@color/toolBarColor"
-                        android:textSize="12sp"
+                        android:textSize="13sp"
                         android:textStyle="bold" />
 
                     <androidx.appcompat.widget.AppCompatTextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="2dp"
-                        android:gravity="center"
-                        android:text="@string/challenges_desc_short"
-                        android:textColor="#666666"
-                        android:textSize="10sp" />
-                </androidx.appcompat.widget.LinearLayoutCompat>
-            </com.google.android.material.card.MaterialCardView>
-
-            <!-- Daily Check-In Card -->
-            <com.google.android.material.card.MaterialCardView
-                android:id="@+id/cardCheckInBanner"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:layout_marginStart="@dimen/_2sdp"
-                android:layout_marginEnd="@dimen/_2sdp"
-                android:minHeight="@dimen/_95sdp"
-                android:layout_marginBottom="@dimen/_3sdp"
-                android:clickable="true"
-                android:focusable="true"
-                app:cardCornerRadius="12dp"
-                app:cardElevation="3dp"
-                app:cardBackgroundColor="#EAFAF1"
-                app:strokeColor="#A9DFBF"
-                app:strokeWidth="1dp"
-                app:rippleColor="#A9DFBF">
-
-                <androidx.appcompat.widget.LinearLayoutCompat
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical"
-                    android:gravity="center"
-                    android:paddingTop="@dimen/_10sdp"
-                    android:paddingBottom="@dimen/_10sdp"
-                    android:paddingStart="@dimen/_4sdp"
-                    android:paddingEnd="@dimen/_4sdp">
-
-                    <androidx.appcompat.widget.AppCompatImageView
-                        android:id="@+id/imgCheckInFlame"
-                        android:layout_width="@dimen/_28sdp"
-                        android:layout_height="@dimen/_28sdp"
-                        android:src="@drawable/ic_streak_flame"
-                        android:padding="2dp" />
-
-                    <androidx.appcompat.widget.AppCompatTextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="@dimen/_6sdp"
-                        android:gravity="center"
-                        android:text="@string/daily_check_in"
-                        android:textColor="#2E7D32"
-                        android:textSize="12sp"
-                        android:textStyle="bold" />
-
-                    <androidx.appcompat.widget.AppCompatTextView
-                        android:id="@+id/txtCheckInSubtitle"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="2dp"
-                        android:gravity="center"
-                        android:text="@string/check_in_tap_short"
+                        android:text="@string/profile_banner_desc"
                         android:textColor="#555555"
                         android:textSize="10sp" />
-                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/btnGetStartedProfile"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_8sdp"
+                        android:text="@string/profile_get_started"
+                        android:textColor="@color/white"
+                        app:backgroundTint="@color/toolBarColor"
+                        app:cornerRadius="6dp"
+                        app:icon="@android:drawable/ic_menu_edit"
+                        app:iconTint="@color/white"
+                        android:textSize="10sp"
+                        android:paddingVertical="4dp" />
+                </LinearLayout>
             </com.google.android.material.card.MaterialCardView>
 
-            <!-- Daily Water Tracker Card -->
-            <com.google.android.material.card.MaterialCardView
-                android:id="@+id/cardWaterTrackerBanner"
-                android:layout_width="0dp"
-                android:layout_marginBottom="@dimen/_3sdp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:layout_marginStart="@dimen/_2sdp"
-                android:layout_marginEnd="0dp"
-                android:minHeight="@dimen/_95sdp"
-                android:clickable="true"
-                android:focusable="true"
-                app:cardCornerRadius="12dp"
-                app:cardElevation="3dp"
-                app:cardBackgroundColor="#EBF5FB"
-                app:strokeColor="#AED6F1"
-                app:strokeWidth="1dp"
-                app:rippleColor="#AED6F1">
-
-                <androidx.appcompat.widget.LinearLayoutCompat
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical"
-                    android:gravity="center"
-                    android:paddingTop="@dimen/_10sdp"
-                    android:paddingBottom="@dimen/_10sdp"
-                    android:paddingStart="@dimen/_4sdp"
-                    android:paddingEnd="@dimen/_4sdp">
-
-                    <androidx.appcompat.widget.AppCompatImageView
-                        android:id="@+id/imgWaterDrop"
-                        android:layout_width="@dimen/_28sdp"
-                        android:layout_height="@dimen/_28sdp"
-                        android:src="@drawable/ic_water_drop"
-                        android:padding="2dp" />
-
-                    <androidx.appcompat.widget.AppCompatTextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="@dimen/_6sdp"
-                        android:gravity="center"
-                        android:text="@string/water_tracker"
-                        android:textColor="#2980B9"
-                        android:textSize="12sp"
-                        android:textStyle="bold" />
-
-                    <androidx.appcompat.widget.AppCompatTextView
-                        android:id="@+id/txtWaterSubtitle"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="2dp"
-                        android:gravity="center"
-                        android:text="@string/water_tracker_subtitle"
-                        android:textColor="#555555"
-                        android:textSize="10sp" />
-                </androidx.appcompat.widget.LinearLayoutCompat>
-            </com.google.android.material.card.MaterialCardView>
-
-        </androidx.appcompat.widget.LinearLayoutCompat>
-
-        <!-- Profile Personalization Onboarding Banner -->
-        <com.google.android.material.card.MaterialCardView
-            android:id="@+id/cardProfileOnboarding"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/_10sdp"
-            android:layout_marginStart="@dimen/_12sdp"
-            android:layout_marginEnd="@dimen/_12sdp"
-            app:cardCornerRadius="12dp"
-            app:cardElevation="3dp"
-            app:cardBackgroundColor="#FFF0FD"
-            app:strokeColor="#F1B6D6"
-            app:strokeWidth="1dp">
-
+            <!-- Personalized Recommendations Feed -->
             <LinearLayout
+                android:id="@+id/layoutPersonalizedFeed"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:padding="@dimen/_12sdp">
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginStart="@dimen/_12sdp"
+                android:layout_marginEnd="@dimen/_12sdp"
+                android:visibility="gone"
+                tools:visibility="visible">
 
-                <androidx.appcompat.widget.AppCompatTextView
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/profile_banner_title"
-                    android:textColor="@color/toolBarColor"
-                    android:textSize="13sp"
-                    android:textStyle="bold" />
+                    android:orientation="horizontal"
+                    android:gravity="bottom"
+                    android:layout_marginBottom="4dp">
 
-                <androidx.appcompat.widget.AppCompatTextView
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/profile_for_you_header"
+                        android:textColor="@color/toolBarColor"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/txtProfileSummary"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginStart="@dimen/_6sdp"
+                        android:textColor="#777777"
+                        android:textSize="10sp"
+                        tools:text="(Oily Skin | Acne)"
+                        android:maxLines="1"
+                        android:ellipsize="end" />
+
+                    <!-- Re-setup profile link -->
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:id="@+id/txtEditProfileLink"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/profile_edit_link"
+                        android:textColor="@color/toolBarColor"
+                        android:textSize="10sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rvPersonalizedRecommendations"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="2dp"
-                    android:text="@string/profile_banner_desc"
-                    android:textColor="#555555"
-                    android:textSize="10sp" />
-
-                <com.google.android.material.button.MaterialButton
-                    android:id="@+id/btnGetStartedProfile"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="@dimen/_8sdp"
-                    android:text="@string/profile_get_started"
-                    android:textColor="@color/white"
-                    app:backgroundTint="@color/toolBarColor"
-                    app:cornerRadius="6dp"
-                    app:icon="@android:drawable/ic_menu_edit"
-                    app:iconTint="@color/white"
-                    android:textSize="10sp"
-                    android:paddingVertical="4dp" />
-            </LinearLayout>
-        </com.google.android.material.card.MaterialCardView>
-
-        <!-- Personalized Recommendations Feed -->
-        <LinearLayout
-            android:id="@+id/layoutPersonalizedFeed"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_marginTop="@dimen/_10sdp"
-            android:layout_marginStart="@dimen/_12sdp"
-            android:layout_marginEnd="@dimen/_12sdp"
-            android:visibility="gone"
-            tools:visibility="visible">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:gravity="bottom"
-                android:layout_marginBottom="4dp">
-
-                <androidx.appcompat.widget.AppCompatTextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/profile_for_you_header"
-                    android:textColor="@color/toolBarColor"
-                    android:textSize="14sp"
-                    android:textStyle="bold" />
-
-                <androidx.appcompat.widget.AppCompatTextView
-                    android:id="@+id/txtProfileSummary"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:layout_marginStart="@dimen/_6sdp"
-                    android:textColor="#777777"
-                    android:textSize="10sp"
-                    tools:text="(Oily Skin | Acne)"
-                    android:maxLines="1"
-                    android:ellipsize="end" />
-
-                <!-- Re-setup profile link -->
-                <androidx.appcompat.widget.AppCompatTextView
-                    android:id="@+id/txtEditProfileLink"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/profile_edit_link"
-                    android:textColor="@color/toolBarColor"
-                    android:textSize="10sp"
-                    android:textStyle="bold" />
+                    android:orientation="horizontal"
+                    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                    tools:listitem="@layout/item_personalized_tip" />
             </LinearLayout>
 
             <androidx.recyclerview.widget.RecyclerView
-                android:id="@+id/rvPersonalizedRecommendations"
+                android:id="@+id/rvCategory"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-                tools:listitem="@layout/item_personalized_tip" />
-        </LinearLayout>
+                android:layout_marginTop="@dimen/_6sdp"
+                android:nestedScrollingEnabled="false" />
 
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/rvCategory"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginTop="@dimen/_6sdp" />
-    </androidx.appcompat.widget.LinearLayoutCompat>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </androidx.core.widget.NestedScrollView>
 
     <RelativeLayout
         android:id="@+id/ad_view"

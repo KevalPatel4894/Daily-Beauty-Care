@@ -64,6 +64,11 @@ class DetailsActivity : BaseActivity() {
     private var dayIndex: Int = -1
     private var isChallengeTaskCompleted: Boolean = false
 
+    // Remedy Notes variables
+    private lateinit var remedyNotesDbHelper: com.kp.beautytips.data.RemedyNotesDbHelper
+    private lateinit var etRemedyNote: androidx.appcompat.widget.AppCompatEditText
+    private var initialNoteContent: String = ""
+
     override fun attachBaseContext(newBase: Context) {
         val wrappedBase = ViewPumpContextWrapper.wrap(newBase)
         super.attachBaseContext(ActivityUtils.updateBaseContextLocale(wrappedBase))
@@ -130,6 +135,21 @@ class DetailsActivity : BaseActivity() {
                 btnTimerReset.setOnClickListener {
                     resetTimer(txtTimerDuration, progressTimer, btnTimerStart)
                 }
+            }
+
+            // Initialize Remedy Notes
+            remedyNotesDbHelper = com.kp.beautytips.data.RemedyNotesDbHelper(this)
+            etRemedyNote = findViewById(R.id.etRemedyNote)
+            val btnSaveRemedyNote = findViewById<com.google.android.material.button.MaterialButton>(R.id.btnSaveRemedyNote)
+
+            val savedNote = remedyNotesDbHelper.getNoteForTip(title)
+            if (savedNote != null) {
+                etRemedyNote.setText(savedNote)
+                initialNoteContent = savedNote
+            }
+
+            btnSaveRemedyNote.setOnClickListener {
+                saveNote()
             }
         }
         setSupportActionBar(toolBar)
@@ -369,7 +389,21 @@ class DetailsActivity : BaseActivity() {
             val imgAudio = findViewById<androidx.appcompat.widget.AppCompatImageView>(R.id.imgAudio)
             stopSpeech(imgAudio)
         }
+        if (::remedyNotesDbHelper.isInitialized && ::etRemedyNote.isInitialized) {
+            val currentNote = etRemedyNote.text.toString().trim()
+            if (currentNote != initialNoteContent) {
+                remedyNotesDbHelper.saveNoteForTip(title, currentNote)
+                initialNoteContent = currentNote
+            }
+        }
         super.onPause()
+    }
+
+    private fun saveNote() {
+        val noteText = etRemedyNote.text.toString().trim()
+        remedyNotesDbHelper.saveNoteForTip(title, noteText)
+        initialNoteContent = noteText
+        Toast.makeText(this, getString(R.string.remedy_notes_saved), Toast.LENGTH_SHORT).show()
     }
 
     override fun onDestroy() {

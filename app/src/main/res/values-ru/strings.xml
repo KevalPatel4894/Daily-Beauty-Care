@@ -3613,4 +3613,9 @@
     <string name="profile_for_you_header">Для вас</string>
     <string name="profile_edit_link">Изменить</string>
     <string name="profile_saved_toast">Профиль красоты успешно сохранен!</string>
+
+    <!-- Feature 10: My Remedy Notes -->
+    <string name="remedy_notes_title">Мои заметки к рецепту</string>
+    <string name="remedy_notes_hint">Добавить личные заметки (например, реакция кожи, сделанные изменения, добавленные ингредиенты...)</string>
+    <string name="remedy_notes_saved">Заметки успешно сохранены!</string>
 </resources>

@@ -3613,4 +3613,9 @@
     <string name="profile_for_you_header">आपके लिए</string>
     <string name="profile_edit_link">संपादित करें</string>
     <string name="profile_saved_toast">ब्यूटी प्रोफाइल सफलतापूर्वक सहेज लिया गया!</string>
+
+    <!-- Feature 10: My Remedy Notes -->
+    <string name="remedy_notes_title">मेरी रेसिपी नोट्स</string>
+    <string name="remedy_notes_hint">व्यक्तिगत नोट्स जोड़ें (जैसे त्वचा की प्रतिक्रिया, किए गए बदलाव, जोड़ी गई सामग्री...)</string>
+    <string name="remedy_notes_saved">नोट्स सफलतापूर्वक सहेजे गए!</string>
 </resources>
