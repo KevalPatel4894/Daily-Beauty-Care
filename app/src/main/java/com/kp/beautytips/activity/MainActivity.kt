@@ -209,6 +209,13 @@ class MainActivity : BaseActivity(), CategoryAdapter.OnItemClick {
         categoryModel4.image = R.drawable.ic_hand_feet
         category.add(categoryModel4)
 
+        val categoryModel5 = CategoryModel()
+        categoryModel5.categoryName = getString(R.string.my_custom_tips)
+        categoryModel5.colorCode = "#FCF3CF"
+        categoryModel5.viewColorCode = "#F4D03F"
+        categoryModel5.image = R.drawable.ic_remedy
+        category.add(categoryModel5)
+
         rvCategory.layoutManager = LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false)
         rvCategory.adapter = CategoryAdapter(category, this)
 
@@ -270,6 +277,13 @@ class MainActivity : BaseActivity(), CategoryAdapter.OnItemClick {
     }
 
     override fun onItemClick(category: CategoryModel, position: Int) {
+        if (category.categoryName == getString(R.string.my_custom_tips)) {
+            Intent(this, CustomTipsActivity::class.java).also {
+                startActivity(it)
+                AppUtils.startFromRightToLeft(this)
+            }
+            return
+        }
         Intent(this, SubCategoryActivity::class.java).also {
             it.putExtra("position", position)
             it.putExtra("categoryName", category.categoryName)

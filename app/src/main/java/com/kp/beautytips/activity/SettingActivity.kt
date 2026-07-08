@@ -112,6 +112,14 @@ class SettingActivity : BaseActivity() {
             AppUtils.startFromRightToLeft(this)
         }
 
+        val rlCustomTips = findViewById<View>(R.id.rlCustomTips)
+        rlCustomTips.setOnClickListener {
+            Intent(this, CustomTipsActivity::class.java).also {
+                startActivity(it)
+                AppUtils.startFromRightToLeft(this)
+            }
+        }
+
         val rlReminders = findViewById<View>(R.id.rlReminders)
         rlReminders.setOnClickListener {
             Intent(this, ReminderActivity::class.java).also {

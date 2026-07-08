@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:fitsSystemWindows="true">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/toolBarColor">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txtTabTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/add_custom_tip"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/_18sdp" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/ad_view"
+        android:layout_below="@+id/toolBar"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/_16sdp">
+
+            <!-- Recipe Title -->
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/etCustomTipTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/custom_tip_title_hint"
+                android:textColor="@color/black"
+                android:textColorHint="#888888"
+                android:textSize="@dimen/_12sdp"
+                android:inputType="textCapSentences"
+                android:background="@drawable/bg_white_rounded_10"
+                android:padding="@dimen/_12sdp"
+                android:layout_marginBottom="@dimen/_12sdp"
+                android:maxLines="2" />
+
+            <!-- Category Selector Label -->
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_4sdp"
+                android:layout_marginBottom="4dp"
+                android:text="@string/custom_tip_category_hint"
+                android:textColor="@color/toolBarColor"
+                android:textSize="@dimen/_10sdp"
+                android:textStyle="bold" />
+
+            <!-- Category Spinner Container -->
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_white_rounded_10"
+                android:padding="@dimen/_2sdp"
+                android:layout_marginBottom="@dimen/_12sdp">
+
+                <Spinner
+                    android:id="@+id/spCustomTipCategory"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_10sdp"
+                    android:minHeight="@dimen/_40sdp" />
+            </FrameLayout>
+
+            <!-- Duration / Preparation Time -->
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/etCustomTipDuration"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/custom_tip_duration_hint"
+                android:textColor="@color/black"
+                android:textColorHint="#888888"
+                android:textSize="@dimen/_12sdp"
+                android:inputType="text"
+                android:background="@drawable/bg_white_rounded_10"
+                android:padding="@dimen/_12sdp"
+                android:layout_marginBottom="@dimen/_12sdp"
+                android:maxLines="1" />
+
+            <!-- Ingredients & Instructions Details -->
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/etCustomTipDetails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/custom_tip_details_hint"
+                android:textColor="@color/black"
+                android:textColorHint="#888888"
+                android:textSize="@dimen/_11sdp"
+                android:inputType="textMultiLine|textCapSentences"
+                android:background="@drawable/bg_white_rounded_10"
+                android:padding="@dimen/_12sdp"
+                android:layout_marginBottom="@dimen/_20sdp"
+                android:gravity="top"
+                android:minLines="8" />
+
+            <!-- Save Button -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnSaveCustomTip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/custom_tip_save"
+                android:textColor="@color/white"
+                app:backgroundTint="@color/toolBarColor"
+                android:layout_marginBottom="@dimen/_8sdp"
+                android:paddingVertical="@dimen/_10sdp"
+                app:cornerRadius="8dp" />
+
+            <!-- Delete Button (Only visible during edit) -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnDeleteCustomTip"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/custom_tip_delete"
+                android:textColor="#E74C3C"
+                android:visibility="gone"
+                tools:visibility="visible"
+                android:paddingVertical="@dimen/_10sdp" />
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <RelativeLayout
+        android:id="@+id/ad_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center" />
+
+</RelativeLayout>

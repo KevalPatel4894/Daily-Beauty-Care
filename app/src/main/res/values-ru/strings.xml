@@ -3618,4 +3618,39 @@
     <string name="remedy_notes_title">Мои заметки к рецепту</string>
     <string name="remedy_notes_hint">Добавить личные заметки (например, реакция кожи, сделанные изменения, добавленные ингредиенты...)</string>
     <string name="remedy_notes_saved">Заметки успешно сохранены!</string>
+
+    <!-- Feature 14: Custom User-Submitted Tips -->
+    <string name="my_custom_tips">Мои рецепты</string>
+    <string name="add_custom_tip">Добавить рецепт</string>
+    <string name="edit_custom_tip">Редактировать рецепт</string>
+    <string name="custom_tip_title_hint">Название рецепта</string>
+    <string name="custom_tip_duration_hint">Время приготовления (например, 15 мин, на ночь)</string>
+    <string name="custom_tip_details_hint">Ингредиенты и инструкции</string>
+    <string name="custom_tip_category_hint">Категория (например, Лицо, Волосы, Кожа)</string>
+    <string name="custom_tip_save">Сохранить рецепт</string>
+    <string name="custom_tip_delete">Удалить рецепт</string>
+    <string name="custom_tip_delete_confirm">Вы уверены, что хотите удалить этот рецепт?</string>
+    <string name="custom_tip_saved_toast">Рецепт успешно сохранен!</string>
+    <string name="custom_tip_deleted_toast">Рецепт успешно удален!</string>
+    <string name="custom_tip_empty_list">Вы еще не создали ни одного рецепта.</string>
+    <string name="custom_tip_empty_fields_warning">Пожалуйста, заполните название и ингредиенты с инструкциями.</string>
+    <string name="custom_tip_category_face">Лицо</string>
+    <string name="custom_tip_category_hair">Волосы</string>
+    <string name="custom_tip_category_skin">Кожа</string>
+    <string name="custom_tip_category_eyes">Глаза</string>
+    <string name="custom_tip_category_handsfeet">Руки и ноги</string>
+
+    <!-- Feature 25: Seasonal & Weather-Based Beauty Advisor -->
+    <string name="seasonal_advisor_title">Сезонный советник</string>
+    <string name="seasonal_summer_title">Летнее сияние</string>
+    <string name="seasonal_summer_desc">Освежайте кожу и защищайте её от жары</string>
+    <string name="seasonal_monsoon_title">Защита в сезон дождей</string>
+    <string name="seasonal_monsoon_desc">Борьба с выпадением волос и проблемами кожи из-за влажности</string>
+    <string name="seasonal_winter_title">Зимнее питание</string>
+    <string name="seasonal_winter_desc">Увлажнение и восстановление сухой кожи, губ и пяток</string>
+    <string name="seasonal_checklist_header">Сегодняшний сезонный уход</string>
+    <string name="seasonal_progress_label">Ежедневный прогресс</string>
+    <string name="seasonal_completed_all">Ежедневный уход выполнен!</string>
+    <string name="seasonal_not_started">Посмотрите рецепты и отметьте их после выполнения!</string>
+    <string name="seasonal_settings_option">Сезонный советник по красоте</string>
 </resources>

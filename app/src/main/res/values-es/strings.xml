@@ -3617,5 +3617,40 @@
     <!-- Feature 10: My Remedy Notes -->
     <string name="remedy_notes_title">Mis Notas del Remedio</string>
     <string name="remedy_notes_hint">Añadir notas personales (ej. reacción de la piel, cambios realizados, ingredientes añadidos...)</string>
-    <string name="remedy_notes_saved">¡Notas guardadas correctamente!</string>
+    <string name="remedy_notes_saved">¡Notas guardadas correctly!</string>
+
+    <!-- Feature 14: Custom User-Submitted Tips -->
+    <string name="my_custom_tips">Mis recetas</string>
+    <string name="add_custom_tip">Agregar receta</string>
+    <string name="edit_custom_tip">Editar receta</string>
+    <string name="custom_tip_title_hint">Título de la receta</string>
+    <string name="custom_tip_duration_hint">Tiempo de preparación (ej. 15 min, toda la noche)</string>
+    <string name="custom_tip_details_hint">Ingredientes e instrucciones</string>
+    <string name="custom_tip_category_hint">Categoría (ej. Cara, Cabello, Piel)</string>
+    <string name="custom_tip_save">Guardar receta</string>
+    <string name="custom_tip_delete">Eliminar receta</string>
+    <string name="custom_tip_delete_confirm">¿Está seguro de que desea eliminar esta receta?</string>
+    <string name="custom_tip_saved_toast">¡Receta guardada con éxito!</string>
+    <string name="custom_tip_deleted_toast">¡Receta eliminada con éxito!</string>
+    <string name="custom_tip_empty_list">Aún no has creado ninguna receta personalizada.</string>
+    <string name="custom_tip_empty_fields_warning">Por favor complete el título y las ingredientes e instrucciones.</string>
+    <string name="custom_tip_category_face">Cara</string>
+    <string name="custom_tip_category_hair">Cabello</string>
+    <string name="custom_tip_category_skin">Piel</string>
+    <string name="custom_tip_category_eyes">Ojos</string>
+    <string name="custom_tip_category_handsfeet">Manos y pies</string>
+
+    <!-- Feature 25: Seasonal & Weather-Based Beauty Advisor -->
+    <string name="seasonal_advisor_title">Asesor Estacional</string>
+    <string name="seasonal_summer_title">Cuidado de Brillo de Verano</string>
+    <string name="seasonal_summer_desc">Mantén tu piel fresca y protegida del calor</string>
+    <string name="seasonal_monsoon_title">Protección del Monzón</string>
+    <string name="seasonal_monsoon_desc">Combate la caída del cabello y los problemas de la piel por la humedad</string>
+    <string name="seasonal_winter_title">Nutrición de Invierno</string>
+    <string name="seasonal_winter_desc">Hidrata y cura la piel seca, labios y talones agrietados</string>
+    <string name="seasonal_checklist_header">Rutina Estacional de Hoy</string>
+    <string name="seasonal_progress_label">Progreso Diario</string>
+    <string name="seasonal_completed_all">¡Rutina diaria completada!</string>
+    <string name="seasonal_not_started">¡Mira las recetas y márcalas cuando termines!</string>
+    <string name="seasonal_settings_option">Asesor de Belleza Estacional</string>
 </resources>

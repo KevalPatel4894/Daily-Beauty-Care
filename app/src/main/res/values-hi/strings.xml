@@ -3618,4 +3618,39 @@
     <string name="remedy_notes_title">मेरी रेसिपी नोट्स</string>
     <string name="remedy_notes_hint">व्यक्तिगत नोट्स जोड़ें (जैसे त्वचा की प्रतिक्रिया, किए गए बदलाव, जोड़ी गई सामग्री...)</string>
     <string name="remedy_notes_saved">नोट्स सफलतापूर्वक सहेजे गए!</string>
+
+    <!-- Feature 14: Custom User-Submitted Tips -->
+    <string name="my_custom_tips">मेरे नुस्खे</string>
+    <string name="add_custom_tip">नुस्खा जोड़ें</string>
+    <string name="edit_custom_tip">नुस्खा संपादित करें</string>
+    <string name="custom_tip_title_hint">नुस्खा शीर्षक</string>
+    <string name="custom_tip_duration_hint">तैयारी का समय (जैसे 15 मिनट, रात भर)</string>
+    <string name="custom_tip_details_hint">सामग्री और निर्देश</string>
+    <string name="custom_tip_category_hint">श्रेणी (जैसे चेहरा, बाल, त्वचा)</string>
+    <string name="custom_tip_save">नुस्खा सहेजें</string>
+    <string name="custom_tip_delete">नुस्खा हटाएं</string>
+    <string name="custom_tip_delete_confirm">क्या आप वाकई इस नुस्खे को हटाना चाहते हैं?</string>
+    <string name="custom_tip_saved_toast">नुस्खा सफलतापूर्वक सहेजा गया!</string>
+    <string name="custom_tip_deleted_toast">नुस्खा सफलतापूर्वक हटा दिया गया!</string>
+    <string name="custom_tip_empty_list">आपने अभी तक कोई कस्टम नुस्खा नहीं बनाया है।</string>
+    <string name="custom_tip_empty_fields_warning">कृपया शीर्षक और सामग्री व निर्देश भरें।</string>
+    <string name="custom_tip_category_face">चेहरा</string>
+    <string name="custom_tip_category_hair">बाल</string>
+    <string name="custom_tip_category_skin">त्वचा</string>
+    <string name="custom_tip_category_eyes">आंखें</string>
+    <string name="custom_tip_category_handsfeet">हाथ और पैर</string>
+
+    <!-- Feature 25: Seasonal & Weather-Based Beauty Advisor -->
+    <string name="seasonal_advisor_title">मौसमी सलाहकार</string>
+    <string name="seasonal_summer_title">समर ग्लो केयर</string>
+    <string name="seasonal_summer_desc">अपनी त्वचा को तरोताजा रखें और गर्मी से बचाएं</string>
+    <string name="seasonal_monsoon_title">मानसून सुरक्षा</string>
+    <string name="seasonal_monsoon_desc">बालों के झड़ने और नमी से होने वाली त्वचा की समस्याओं से लड़ें</string>
+    <string name="seasonal_winter_title">शीतकालीन पोषण</string>
+    <string name="seasonal_winter_desc">रूखी त्वचा, होंठों और फटी एड़ियों को नमी दें और ठीक करें</string>
+    <string name="seasonal_checklist_header">आज की मौसमी दिनचर्या</string>
+    <string name="seasonal_progress_label">दैनिक प्रगति</string>
+    <string name="seasonal_completed_all">दैनिक दिनचर्या पूरी हुई!</string>
+    <string name="seasonal_not_started">नुस्खे देखें और पूरा होने पर टिक करें!</string>
+    <string name="seasonal_settings_option">मौसमी सौंदर्य सलाहकार</string>
 </resources>

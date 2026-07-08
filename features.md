@@ -81,7 +81,7 @@ This document tracks all zero-budget features designed to maximize user retentio
 * **Details:** Built-in alarm triggers a daily push notification with a random beauty tip at a set time (e.g. 9:00 AM). Clicking it opens that tip directly.
 * **Tech:** Android `WorkManager`.
 
-### [ ] Feature 14: Custom User-Submitted Tips (Local Recipe Book)
+### [x] Feature 14: Custom User-Submitted Tips (Local Recipe Book)
 * **Goal:** Empower users to write and save their own custom/family recipes.
 * **Details:** Add a form where users type their own natural remedies. These custom tips are saved offline and listed under a *"My Custom Tips"* category.
 * **Tech:** Room/SQLite Database.

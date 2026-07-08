@@ -3,14 +3,14 @@
     <string name="app_name">Daily Beauty Care</string>
 
     <!--ads local-->
-<!--    <string name="admob_app_id" translatable="false">ca-app-pub-5201293285638793~1348054154</string>
+    <string name="admob_app_id" translatable="false">ca-app-pub-5201293285638793~1348054154</string>
     <string name="banner_home_footer" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
-    <string name="interstitial_full_screen" translatable="false">ca-app-pub-3940256099942544/1033173712</string>-->
+    <string name="interstitial_full_screen" translatable="false">ca-app-pub-3940256099942544/1033173712</string>
 
     <!--ads live-->
-    <string name="admob_app_id" translatable="false">ca-app-pub-8227493781755679~1497458469</string>
+<!--    <string name="admob_app_id" translatable="false">ca-app-pub-8227493781755679~1497458469</string>
     <string name="banner_home_footer" translatable="false">ca-app-pub-8227493781755679/4181910678</string>
-    <string name="interstitial_full_screen" translatable="false">ca-app-pub-8227493781755679/4153990513</string>
+    <string name="interstitial_full_screen" translatable="false">ca-app-pub-8227493781755679/4153990513</string>-->
 
     //List
     <string name="accupressure_point_palm_side">accupressure point on palm side</string>
@@ -3640,4 +3640,39 @@
     <string name="remedy_notes_title">My Remedy Notes</string>
     <string name="remedy_notes_hint">Add personal notes (e.g. skin reaction, changes made, ingredients added...)</string>
     <string name="remedy_notes_saved">Notes saved successfully!</string>
+
+    <!-- Feature 14: Custom User-Submitted Tips -->
+    <string name="my_custom_tips">My Custom Tips</string>
+    <string name="add_custom_tip">Add Custom Tip</string>
+    <string name="edit_custom_tip">Edit Custom Tip</string>
+    <string name="custom_tip_title_hint">Recipe Title</string>
+    <string name="custom_tip_duration_hint">Preparation Time (e.g. 15 min, overnight)</string>
+    <string name="custom_tip_details_hint">Ingredients &amp; Instructions</string>
+    <string name="custom_tip_category_hint">Category (e.g. Face, Hair, Skin)</string>
+    <string name="custom_tip_save">Save Recipe</string>
+    <string name="custom_tip_delete">Delete Recipe</string>
+    <string name="custom_tip_delete_confirm">Are you sure you want to delete this recipe?</string>
+    <string name="custom_tip_saved_toast">Recipe saved successfully!</string>
+    <string name="custom_tip_deleted_toast">Recipe deleted successfully!</string>
+    <string name="custom_tip_empty_list">You haven\'t created any custom self-care recipes yet.</string>
+    <string name="custom_tip_empty_fields_warning">Please fill in Title and Ingredients &amp; Instructions.</string>
+    <string name="custom_tip_category_face">Face</string>
+    <string name="custom_tip_category_hair">Hair</string>
+    <string name="custom_tip_category_skin">Skin</string>
+    <string name="custom_tip_category_eyes">Eyes</string>
+    <string name="custom_tip_category_handsfeet">Hands &amp; Feet</string>
+
+    <!-- Feature 25: Seasonal & Weather-Based Beauty Advisor -->
+    <string name="seasonal_advisor_title">Seasonal Advisor</string>
+    <string name="seasonal_summer_title">Summer Glow Care</string>
+    <string name="seasonal_summer_desc">Keep your skin refreshed and protected from the heat</string>
+    <string name="seasonal_monsoon_title">Monsoon Protection</string>
+    <string name="seasonal_monsoon_desc">Fend off hair fall and humidity skin issues</string>
+    <string name="seasonal_winter_title">Winter Nourishment</string>
+    <string name="seasonal_winter_desc">Moisturize and heal dry skin, lips, and heels</string>
+    <string name="seasonal_checklist_header">Today\'s Seasonal Routine</string>
+    <string name="seasonal_progress_label">Daily Progress</string>
+    <string name="seasonal_completed_all">Daily routine completed!</string>
+    <string name="seasonal_not_started">View recipes below and check them off when done!</string>
+    <string name="seasonal_settings_option">Seasonal Beauty Advisor</string>
 </resources>

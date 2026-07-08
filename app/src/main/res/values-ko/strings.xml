@@ -3618,4 +3618,39 @@
     <string name="remedy_notes_title">나의 관리 노트</string>
     <string name="remedy_notes_hint">개인 메모 추가 (예: 피부 반응, 변경 사항, 추가된 성분...)</string>
     <string name="remedy_notes_saved">메모가 성공적으로 저장되었습니다!</string>
+
+    <!-- Feature 14: Custom User-Submitted Tips -->
+    <string name="my_custom_tips">나의 비법</string>
+    <string name="add_custom_tip">비법 추가</string>
+    <string name="edit_custom_tip">비법 편집</string>
+    <string name="custom_tip_title_hint">비법 제목</string>
+    <string name="custom_tip_duration_hint">준비 시간 (예: 15분, 밤새)</string>
+    <string name="custom_tip_details_hint">재료 및 방법</string>
+    <string name="custom_tip_category_hint">카테고리 (예: 얼굴, 헤어, 피부)</string>
+    <string name="custom_tip_save">비법 저장</string>
+    <string name="custom_tip_delete">비법 삭제</string>
+    <string name="custom_tip_delete_confirm">이 비법을 삭제하시겠습니까?</string>
+    <string name="custom_tip_saved_toast">비법이 성공적으로 저장되었습니다!</string>
+    <string name="custom_tip_deleted_toast">비법이 성공적으로 삭제되었습니다!</string>
+    <string name="custom_tip_empty_list">아직 커스텀 비법을 작성하지 않았습니다.</string>
+    <string name="custom_tip_empty_fields_warning">제목과 재료 및 방법을 입력해 주세요.</string>
+    <string name="custom_tip_category_face">얼굴</string>
+    <string name="custom_tip_category_hair">헤어</string>
+    <string name="custom_tip_category_skin">피부</string>
+    <string name="custom_tip_category_eyes">눈</string>
+    <string name="custom_tip_category_handsfeet">손 &amp; 발</string>
+
+    <!-- Feature 25: Seasonal & Weather-Based Beauty Advisor -->
+    <string name="seasonal_advisor_title">계절별 뷰티 어드바이저</string>
+    <string name="seasonal_summer_title">서머 글로우</string>
+    <string name="seasonal_summer_desc">피부를 상쾌하게 유지하고 열로부터 보호하세요</string>
+    <string name="seasonal_monsoon_title">장마철 보호</string>
+    <string name="seasonal_monsoon_desc">습도로 인한 탈모 및 피부 문제를 예방하세요</string>
+    <string name="seasonal_winter_title">겨울철 영양</string>
+    <string name="seasonal_winter_desc">건조한 피부, 입술, 발뒤꿈치를 보습하고 관리하세요</string>
+    <string name="seasonal_checklist_header">오늘의 계절 관리 체크리스트</string>
+    <string name="seasonal_progress_label">오늘의 진척도</string>
+    <string name="seasonal_completed_all">오늘의 루틴 완료!</string>
+    <string name="seasonal_not_started">레시피를 확인하고 완료 후 체크하세요!</string>
+    <string name="seasonal_settings_option">계절별 뷰티 어드바이저</string>
 </resources>

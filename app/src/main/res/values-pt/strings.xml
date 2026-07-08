@@ -3618,4 +3618,39 @@
     <string name="remedy_notes_title">Minhas Notas da Receita</string>
     <string name="remedy_notes_hint">Adicionar notas pessoais (ex: reação da pele, alterações feitas, ingredientes adicionados...)</string>
     <string name="remedy_notes_saved">Notas salvas com sucesso!</string>
+
+    <!-- Feature 14: Custom User-Submitted Tips -->
+    <string name="my_custom_tips">Minhas Receitas</string>
+    <string name="add_custom_tip">Adicionar Receita</string>
+    <string name="edit_custom_tip">Editar Receita</string>
+    <string name="custom_tip_title_hint">Título da Receita</string>
+    <string name="custom_tip_duration_hint">Tempo de Preparação (ex: 15 min, durante a noite)</string>
+    <string name="custom_tip_details_hint">Ingredientes e Instruções</string>
+    <string name="custom_tip_category_hint">Categoria (ex: Rosto, Cabelo, Pele)</string>
+    <string name="custom_tip_save">Salvar Receita</string>
+    <string name="custom_tip_delete">Excluir Receita</string>
+    <string name="custom_tip_delete_confirm">Tem certeza de que deseja excluir esta receita?</string>
+    <string name="custom_tip_saved_toast">Receita salva com sucesso!</string>
+    <string name="custom_tip_deleted_toast">Receita excluída com sucesso!</string>
+    <string name="custom_tip_empty_list">Você ainda não criou nenhuma receita personalizada.</string>
+    <string name="custom_tip_empty_fields_warning">Por favor, preencha o título e os ingredientes e instruções.</string>
+    <string name="custom_tip_category_face">Rosto</string>
+    <string name="custom_tip_category_hair">Cabelo</string>
+    <string name="custom_tip_category_skin">Pele</string>
+    <string name="custom_tip_category_eyes">Olhos</string>
+    <string name="custom_tip_category_handsfeet">Mãos &amp; Pés</string>
+
+    <!-- Feature 25: Seasonal & Weather-Based Beauty Advisor -->
+    <string name="seasonal_advisor_title">Conselheiro Sazonal</string>
+    <string name="seasonal_summer_title">Brilho de Verão</string>
+    <string name="seasonal_summer_desc">Mantenha a sua pele fresca e protegida do calor</string>
+    <string name="seasonal_monsoon_title">Proteção na Monção</string>
+    <string name="seasonal_monsoon_desc">Combata a queda de cabelo e problemas de pele causados pela umidade</string>
+    <string name="seasonal_winter_title">Nutrição de Inverno</string>
+    <string name="seasonal_winter_desc">Hidrate e recupere a pele seca, lábios e calcanhares</string>
+    <string name="seasonal_checklist_header">Rotina Sazonal de Hoje</string>
+    <string name="seasonal_progress_label">Progresso Diário</string>
+    <string name="seasonal_completed_all">Rotina diária concluída!</string>
+    <string name="seasonal_not_started">Veja as receitas e marque-as como concluídas!</string>
+    <string name="seasonal_settings_option">Conselheiro de Beleza Sazonal</string>
 </resources>
