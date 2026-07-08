@@ -95,7 +95,7 @@ This document tracks all zero-budget features designed to maximize user retentio
 * **Details:** Add a search bar to categories. Users search keywords like *"acne"*, *"hair loss"*, or *"turmeric"* to find matching tips.
 * **Tech:** Android `SearchView` filtering local adapters.
 
-### [ ] Feature 16: Ingredient Directory & Glossary
+### [x] Feature 16: Ingredient Directory & Glossary
 * **Goal:** Increase content depth and usability.
 * **Details:** A directory of ingredients (e.g., Honey, Aloe Vera, Lemon). Tapping an ingredient displays its benefits and a list of all beauty tips in the app that use it.
 * **Tech:** Database relations mapping ingredients to tips.

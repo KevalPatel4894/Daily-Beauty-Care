@@ -3653,4 +3653,73 @@
     <string name="seasonal_completed_all">今日のルーティン完了！</string>
     <string name="seasonal_not_started">レシピを表示し、完了したらチェックを入れてください！</string>
     <string name="seasonal_settings_option">季節のビューティーアドバイザー</string>
+
+    <!-- Feature 16: Ingredient Directory & Glossary -->
+    <string name="ingredient_glossary_title">成分辞典</string>
+    <string name="ingredient_search_hint">成分を検索...</string>
+    <string name="ingredient_benefits_header">美容効果</string>
+    <string name="ingredient_remedies_header">この成分を使ったケア方法</string>
+    <string name="ingredient_no_remedies">この成分を含むケア方法が見つかりませんでした。</string>
+    <string name="ingredient_empty_list">検索条件に一致する成分が見つかりませんでした。</string>
+    <string name="settings_ingredient_glossary">成分辞典</string>
+
+    <!-- Honey -->
+    <string name="ingredient_honey_name">はちみつ (Honey)</string>
+    <string name="ingredient_honey_benefits">はちみつは天然の保湿剤（湿潤剤）で、肌に水分を引き込み、深く潤いを与えます。強力な抗菌・抗炎症作用があり、ニキビを防ぎ、傷を修復して、自然なツヤを与えます。</string>
+    <string name="ingredient_honey_keywords">はちみつ,ハチミツ,蜂蜜,honey</string>
+
+    <!-- Lemon -->
+    <string name="ingredient_lemon_name">レモン (Lemon)</string>
+    <string name="ingredient_lemon_benefits">レモンはビタミンCとクエン酸が豊富で、シミやニキビ跡、くすみを薄くする天然の美白剤として働きます。収れん作用により過剰な皮脂を抑えます。</string>
+    <string name="ingredient_lemon_keywords">レモン,れもん,lemon</string>
+
+    <!-- Aloe Vera -->
+    <string name="ingredient_aloe_vera_name">アロエベラ (Aloe Vera)</string>
+    <string name="ingredient_aloe_vera_benefits">アロエベラはお肌の鎮静、消炎、保湿に極めて高い効果があります。日焼けをケアし、お肌の赤みを和らげ、ニキビを防ぐとともに、髪をすこやかに保ちます。</string>
+    <string name="ingredient_aloe_vera_keywords">アロエ,アロエベラ,aloe,aloevera</string>
+
+    <!-- Coconut Oil -->
+    <string name="ingredient_coconut_oil_name">ココナッツオイル (Coconut Oil)</string>
+    <string name="ingredient_coconut_oil_benefits">ココナッツオイルは髪や肌を深く保湿・栄養補給します。脂肪酸が含まれており、お肌を保護して潤いを閉じ込めます。乾燥肌の改善やヘアコンディショニングに最適です。</string>
+    <string name="ingredient_coconut_oil_keywords">ココナッツ,ココナッツオイル,coconut,coconut oil</string>
+
+    <!-- Cucumber -->
+    <string name="ingredient_cucumber_name">きゅうり (Cucumber)</string>
+    <string name="ingredient_cucumber_benefits">きゅうりは非常にお肌を冷却する効果があり、約96％が水分でできています。目の腫れやクマを和らげ、お肌をすばやく保水し、天然の化粧水として働きます。</string>
+    <string name="ingredient_cucumber_keywords">きゅうり,キュウリ,cucumber</string>
+
+    <!-- Yogurt -->
+    <string name="ingredient_yogurt_name">ヨーグルト (Yogurt)</string>
+    <string name="ingredient_yogurt_benefits">ヨーグルトに含まれる乳酸が古い角質を優しく除去（ピーリング）し、毛穴を引き締め、乾燥肌をうるおします。フケを防ぎ、髪にシルクのようなツヤを与える効果もあります。</string>
+    <string name="ingredient_yogurt_keywords">ヨーグルト,よーぐると,yogurt,curd</string>
+
+    <!-- Turmeric -->
+    <string name="ingredient_turmeric_name">ターメリック (Turmeric)</string>
+    <string name="ingredient_turmeric_benefits">ウコン（ターメリック）は、何世紀にもわたり使用されてきた強力な抗酸化・抗炎症ハーブです。肌のトーンを明るくし、ニキビの原因菌を抑え、シミを薄くします。</string>
+    <string name="ingredient_turmeric_keywords">ウコン,うこん,ターメリック,turmeric</string>
+
+    <!-- Rose Water -->
+    <string name="ingredient_rose_water_name">ローズウォーター (Rose Water)</string>
+    <string name="ingredient_rose_water_benefits">ローズウォーターはお肌のpHバランスを整え、赤みを抑え、素早く水分を補給します。毛穴を清潔に保ち、上品で爽やかな花の香りを残します。</string>
+    <string name="ingredient_rose_water_keywords">ローズウォーター,バラ水,rose water,rosewater</string>
+
+    <!-- Milk -->
+    <string name="ingredient_milk_name">牛乳 (Milk)</string>
+    <string name="ingredient_milk_benefits">牛乳は乳酸や必須ビタミンが豊富です。マイルドな洗顔料として機能し、乾燥した肌にたっぷりと潤いを与えて、キメの整った柔らかいもち肌にします。</string>
+    <string name="ingredient_milk_keywords">牛乳,ミルク,milk</string>
+
+    <!-- Oatmeal -->
+    <string name="ingredient_oatmeal_name">オートミール (Oatmeal)</string>
+    <string name="ingredient_oatmeal_benefits">オートミールは優れた天然の角質ケア成分であり、高い消炎効果を持っています。お肌のかゆみや乾燥を和らげ、敏感肌をやさしくケアします。</string>
+    <string name="ingredient_oatmeal_keywords">オートミール,oatmeal,oats</string>
+
+    <!-- Green Tea -->
+    <string name="ingredient_green_tea_name">緑茶 (Green Tea)</string>
+    <string name="ingredient_green_tea_benefits">緑茶はカテキンや抗酸化物質が豊富に含まれており、お肌の赤みを和らげ、疲れた目の腫れを解消し、お肌のエイジングケアを助けます。</string>
+    <string name="ingredient_green_tea_keywords">緑茶,お茶,green tea,tea</string>
+
+    <!-- Egg -->
+    <string name="ingredient_egg_name">卵 (Egg)</string>
+    <string name="ingredient_egg_benefits">卵白にはお肌を引き締め、毛穴を小さくするタンパク質が豊富です。卵黄はパサつく髪をディープコンディショニングし、お肌に栄養を行き渡らせます。</string>
+    <string name="ingredient_egg_keywords">卵,たまご,egg,egg white,egg yolk</string>
 </resources>

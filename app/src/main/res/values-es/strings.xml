@@ -3653,4 +3653,73 @@
     <string name="seasonal_completed_all">¡Rutina diaria completada!</string>
     <string name="seasonal_not_started">¡Mira las recetas y márcalas cuando termines!</string>
     <string name="seasonal_settings_option">Asesor de Belleza Estacional</string>
+
+    <!-- Feature 16: Ingredient Directory & Glossary -->
+    <string name="ingredient_glossary_title">Glosario de Ingredientes</string>
+    <string name="ingredient_search_hint">Buscar ingredientes...</string>
+    <string name="ingredient_benefits_header">Beneficios de Belleza</string>
+    <string name="ingredient_remedies_header">Recetas con este ingrediente</string>
+    <string name="ingredient_no_remedies">No se encontraron recetas con este ingrediente.</string>
+    <string name="ingredient_empty_list">Ningún ingrediente coincide con tu búsqueda.</string>
+    <string name="settings_ingredient_glossary">Glosario de Ingredientes</string>
+
+    <!-- Honey -->
+    <string name="ingredient_honey_name">Miel</string>
+    <string name="ingredient_honey_benefits">La miel es un humectante natural que atrae la humedad hacia la piel, aportando una hidratación intensa. Posee potentes propiedades antibacterianas y antiinflamatorias que ayudan a combatir el acné y cicatrizar.</string>
+    <string name="ingredient_honey_keywords">miel</string>
+
+    <!-- Lemon -->
+    <string name="ingredient_lemon_name">Limón</string>
+    <string name="ingredient_lemon_benefits">El limón es rico en vitamina C y ácido cítrico, que actúan como un aclarador natural para disminuir manchas oscuras y marcas de acné. Sus propiedades astringentes controlan el exceso de grasa.</string>
+    <string name="ingredient_lemon_keywords">limón,limon</string>
+
+    <!-- Aloe Vera -->
+    <string name="ingredient_aloe_vera_name">Aloe Vera</string>
+    <string name="ingredient_aloe_vera_benefits">El Aloe Vera es increíblemente calmante, antiinflamatorio e hidratante. Alivia quemaduras solares, calma la piel irritada, mantiene la piel limpia de acné y fortalece el cabello.</string>
+    <string name="ingredient_aloe_vera_keywords">aloe,aloevera</string>
+
+    <!-- Coconut Oil -->
+    <string name="ingredient_coconut_oil_name">Aceite de Coco</string>
+    <string name="ingredient_coconut_oil_benefits">El aceite de coco nutre profundamente y contiene ácidos grasos que protegen e hidratan la piel y el cabello. Funciona como acondicionador capilar y alivia la piel seca.</string>
+    <string name="ingredient_coconut_oil_keywords">coco,aceite de coco</string>
+
+    <!-- Cucumber -->
+    <string name="ingredient_cucumber_name">Pepino</string>
+    <string name="ingredient_cucumber_benefits">El pepino tiene un efecto sumamente refrescante y contiene 96% de agua. Reduce la hinchazón, aclara las ojeras debajo de los ojos, hidrata la piel y funciona como tónico natural.</string>
+    <string name="ingredient_cucumber_keywords">pepino</string>
+
+    <!-- Yogurt -->
+    <string name="ingredient_yogurt_name">Yogur / Cuajada</string>
+    <string name="ingredient_yogurt_benefits">El yogur contiene ácido láctico, que exfolia suavemente las células muertas de la piel, cierra los poros y humecta la piel seca. Además, combate la caspa y da brillo al cabello.</string>
+    <string name="ingredient_yogurt_keywords">yogur,yogurt,cuajada</string>
+
+    <!-- Turmeric -->
+    <string name="ingredient_turmeric_name">Cúrcuma</string>
+    <string name="ingredient_turmeric_benefits">La cúrcuma es un potente antioxidante y antiinflamatorio usado durante siglos. Ilumina el tono de la piel, combate las bacterias que causan acné y disminuye manchas oscuras.</string>
+    <string name="ingredient_turmeric_keywords">cúrcuma,curcuma</string>
+
+    <!-- Rose Water -->
+    <string name="ingredient_rose_water_name">Agua de Rosas</string>
+    <string name="ingredient_rose_water_benefits">El agua de rosas es un tónico natural que equilibra el pH cutáneo, reduce el enrojecimiento e hidrata la piel. Limpia los poros dejando una agradable fragancia floral.</string>
+    <string name="ingredient_rose_water_keywords">agua de rosas,rosas</string>
+
+    <!-- Milk -->
+    <string name="ingredient_milk_name">Leche</string>
+    <string name="ingredient_milk_benefits">La leche es rica en ácido láctico y vitaminas esenciales. Actúa como limpiador suave, hidrata la piel seca, aclara el bronceado y suaviza las zonas ásperas.</string>
+    <string name="ingredient_milk_keywords">leche</string>
+
+    <!-- Oatmeal -->
+    <string name="ingredient_oatmeal_name">Avena</string>
+    <string name="ingredient_oatmeal_benefits">La avena es un exfoliante natural y calmante antiinflamatorio magnífico. Alivia la picazón de la piel, combate la sequedad y trata las condiciones de la piel sensible.</string>
+    <string name="ingredient_oatmeal_keywords">avena</string>
+
+    <!-- Green Tea -->
+    <string name="ingredient_green_tea_name">Té Verde</string>
+    <string name="ingredient_green_tea_benefits">El té verde está lleno de catequinas y antioxidantes que disminuyen el enrojecimiento, desinflaman los ojos hinchados, combaten el acné y previenen el envejecimiento prematuro.</string>
+    <string name="ingredient_green_tea_keywords">té,té verde,te verde</string>
+
+    <!-- Egg -->
+    <string name="ingredient_egg_name">Huevo</string>
+    <string name="ingredient_egg_benefits">La clara de huevo contiene proteínas que reducen el tamaño de los poros y reafirman la piel. La yema acondiciona profundamente el cabello seco y nutre la piel.</string>
+    <string name="ingredient_egg_keywords">huevo,clara,yema</string>
 </resources>

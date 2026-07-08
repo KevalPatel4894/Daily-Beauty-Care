@@ -160,6 +160,14 @@ class SettingActivity : BaseActivity() {
             }
         }
 
+        val rlIngredientGlossary = findViewById<View>(R.id.rlIngredientGlossary)
+        rlIngredientGlossary.setOnClickListener {
+            Intent(this, IngredientGlossaryActivity::class.java).also {
+                startActivity(it)
+                AppUtils.startFromRightToLeft(this)
+            }
+        }
+
         val rlCalculators = findViewById<View>(R.id.rlCalculators)
         rlCalculators.setOnClickListener {
             Intent(this, CalculatorActivity::class.java).also {

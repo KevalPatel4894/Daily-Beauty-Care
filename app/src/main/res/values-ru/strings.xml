@@ -3653,4 +3653,73 @@
     <string name="seasonal_completed_all">Ежедневный уход выполнен!</string>
     <string name="seasonal_not_started">Посмотрите рецепты и отметьте их после выполнения!</string>
     <string name="seasonal_settings_option">Сезонный советник по красоте</string>
+
+    <!-- Feature 16: Ingredient Directory & Glossary -->
+    <string name="ingredient_glossary_title">Глоссарий ингредиентов</string>
+    <string name="ingredient_search_hint">Поиск ингредиентов...</string>
+    <string name="ingredient_benefits_header">Полезные свойства</string>
+    <string name="ingredient_remedies_header">Рецепты с этим ингредиентом</string>
+    <string name="ingredient_no_remedies">Рецепты с этим ингредиентом не найдены.</string>
+    <string name="ingredient_empty_list">Ингредиенты по вашему запросу не найдены.</string>
+    <string name="settings_ingredient_glossary">Глоссарий ингредиентов</string>
+
+    <!-- Honey -->
+    <string name="ingredient_honey_name">Мед (Honey)</string>
+    <string name="ingredient_honey_benefits">Мед — это натуральный увлажнитель, который притягивает влагу к коже, обеспечивая интенсивное увлажнение. Он обладает мощными антибактериальными и противовоспалительными свойствами, которые помогают бороться с акне, заживлять шрамы и придавать коже естественное сияние.</string>
+    <string name="ingredient_honey_keywords">мед,мёд,honey</string>
+
+    <!-- Lemon -->
+    <string name="ingredient_lemon_name">Лимон (Lemon)</string>
+    <string name="ingredient_lemon_benefits">Лимон богат витамином C и лимонной кислотой, которые действуют как природное осветляющее средство, уменьшая темные пятна, следы от акне и несовершенства кожи. Его вяжущие свойства контролируют избыточную выработку себума.</string>
+    <string name="ingredient_lemon_keywords">лимон,lemon</string>
+
+    <!-- Aloe Vera -->
+    <string name="ingredient_aloe_vera_name">Алоэ вера (Aloe Vera)</string>
+    <string name="ingredient_aloe_vera_benefits">Алоэ вера обладает выраженным успокаивающим, противовоспалительным и увлажняющим действием. Оно лечит солнечные ожоги, снимает раздражения, помогает бороться с акне и укрепляет волосы.</string>
+    <string name="ingredient_aloe_vera_keywords">алоэ,алоэ вера,aloe,aloevera</string>
+
+    <!-- Coconut Oil -->
+    <string name="ingredient_coconut_oil_name">Кокосовое масло (Coconut Oil)</string>
+    <string name="ingredient_coconut_oil_benefits">Кокосовое масло глубоко питает кожу и волосы, содержит жирные кислоты, которые защищают и удерживают влагу. Оно служит отличным кондиционером для волос, лечит сухость и укрепляет структуру волос.</string>
+    <string name="ingredient_coconut_oil_keywords">кокос,кокосовое масло,coconut,coconut oil</string>
+
+    <!-- Cucumber -->
+    <string name="ingredient_cucumber_name">Огурец (Cucumber)</string>
+    <string name="ingredient_cucumber_benefits">Огурец оказывает мощный охлаждающий эффект и на 96% состоит из воды. Он уменьшает отечность, осветляет темные круги под глазами, тонизирует и глубоко увлажняет кожу.</string>
+    <string name="ingredient_cucumber_keywords">огурец,огурцы,cucumber</string>
+
+    <!-- Yogurt -->
+    <string name="ingredient_yogurt_name">Йогурт / Творог (Yogurt)</string>
+    <string name="ingredient_yogurt_benefits">Йогурт содержит молочную кислоту, которая мягко отшелушивает омертвевшие клетки, сужает поры и увлажняет сухую кожу. Он также борется с перхотью и придает волосам шелковистый блеск.</string>
+    <string name="ingredient_yogurt_keywords">йогурт,творог,yogurt,curd</string>
+
+    <!-- Turmeric -->
+    <string name="ingredient_turmeric_name">Куркума (Turmeric)</string>
+    <string name="ingredient_turmeric_benefits">Куркума — мощный антиоксидант и противовоспалительное средство, используемое веками. Она выравнивает тон кожи, борется с бактериями, вызывающими акне, и осветляет пигментные пятна.</string>
+    <string name="ingredient_turmeric_keywords">куркума,turmeric</string>
+
+    <!-- Rose Water -->
+    <string name="ingredient_rose_water_name">Розовая вода (Rose Water)</string>
+    <string name="ingredient_rose_water_benefits">Розовая вода нормализует уровень pH кожи, уменьшает покраснения и увлажняет её. Она очищает поры, оставляя легкий освежающий аромат цветов.</string>
+    <string name="ingredient_rose_water_keywords">розовая вода,роза,rose water,rosewater</string>
+
+    <!-- Milk -->
+    <string name="ingredient_milk_name">Молоко (Milk)</string>
+    <string name="ingredient_milk_benefits">Молоко богато молочной кислотой и важными витаминами. Оно действует как мягкое очищающее средство, увлажняет сухую кожу, делает её мягкой и бархатистой.</string>
+    <string name="ingredient_milk_keywords">молоко,milk</string>
+
+    <!-- Oatmeal -->
+    <string name="ingredient_oatmeal_name">Овсянка (Oatmeal)</string>
+    <string name="ingredient_oatmeal_benefits">Овсянка — отличный натуральный эксфолиант с успокаивающими противовоспалительными свойствами. Она снимает зуд, борется с сухостью и деликатно ухаживает за чувствительной кожей.</string>
+    <string name="ingredient_oatmeal_keywords">овсянка,овес,овёс,овсяные хлопья,oatmeal,oats</string>
+
+    <!-- Green Tea -->
+    <string name="ingredient_green_tea_name">Зеленый чай (Green Tea)</string>
+    <string name="ingredient_green_tea_benefits">Зеленый чай богат катехинами и антиоксидантами, которые уменьшают покраснения, снимают припухлость вокруг глаз и замедляют процессы старения кожи.</string>
+    <string name="ingredient_green_tea_keywords">чай,зеленый чай,зелёный чай,чайный пакетик,green tea,tea</string>
+
+    <!-- Egg -->
+    <string name="ingredient_egg_name">Яйцо (Egg)</string>
+    <string name="ingredient_egg_benefits">Яичный белок богат белками, которые сужают поры и подтягивают кожу. Желток глубоко кондиционирует сухие волосы и интенсивно питает кожу.</string>
+    <string name="ingredient_egg_keywords">яйцо,яйца,белок,желток,egg,egg white,egg yolk</string>
 </resources>

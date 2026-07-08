@@ -3675,4 +3675,73 @@
     <string name="seasonal_completed_all">Daily routine completed!</string>
     <string name="seasonal_not_started">View recipes below and check them off when done!</string>
     <string name="seasonal_settings_option">Seasonal Beauty Advisor</string>
+
+    <!-- Feature 16: Ingredient Directory & Glossary -->
+    <string name="ingredient_glossary_title">Ingredient Glossary</string>
+    <string name="ingredient_search_hint">Search ingredients...</string>
+    <string name="ingredient_benefits_header">Beauty Benefits</string>
+    <string name="ingredient_remedies_header">Remedies Using This Ingredient</string>
+    <string name="ingredient_no_remedies">No remedies found containing this ingredient.</string>
+    <string name="ingredient_empty_list">No ingredients match your search.</string>
+    <string name="settings_ingredient_glossary">Ingredient Glossary</string>
+
+    <!-- Honey -->
+    <string name="ingredient_honey_name">Honey</string>
+    <string name="ingredient_honey_benefits">Honey is a natural humectant that draws moisture into the skin, making it intensely hydrating. It possesses strong antibacterial and anti-inflammatory properties, making it excellent for fighting acne, healing scars, and adding a natural glow.</string>
+    <string name="ingredient_honey_keywords">honey</string>
+
+    <!-- Lemon -->
+    <string name="ingredient_lemon_name">Lemon</string>
+    <string name="ingredient_lemon_benefits">Lemon is rich in Vitamin C and citric acid, which act as a natural brightening agent to lighten dark spots, acne scars, and blemishes. Its astringent properties help control excess oil production and clarify the skin.</string>
+    <string name="ingredient_lemon_keywords">lemon</string>
+
+    <!-- Aloe Vera -->
+    <string name="ingredient_aloe_vera_name">Aloe Vera</string>
+    <string name="ingredient_aloe_vera_benefits">Aloe Vera is incredibly soothing, anti-inflammatory, and hydrating. It heals sunburns, calms irritated skin, keeps acne-prone skin clean, and promotes hair strength and growth.</string>
+    <string name="ingredient_aloe_vera_keywords">aloe,aloevera</string>
+
+    <!-- Coconut Oil -->
+    <string name="ingredient_coconut_oil_name">Coconut Oil</string>
+    <string name="ingredient_coconut_oil_benefits">Coconut oil is deeply nourishing and contains fatty acids that protect and moisturize skin and hair. It acts as an excellent hair conditioner, cures dry skin, and strengthens hair strands.</string>
+    <string name="ingredient_coconut_oil_keywords">coconut oil,coconutoil</string>
+
+    <!-- Cucumber -->
+    <string name="ingredient_cucumber_name">Cucumber</string>
+    <string name="ingredient_cucumber_benefits">Cucumber has an extremely cooling effect and contains 96% water. It reduces puffiness, lightens dark circles under the eyes, hydrates the skin, and acts as a soothing natural toner.</string>
+    <string name="ingredient_cucumber_keywords">cucumber</string>
+
+    <!-- Yogurt -->
+    <string name="ingredient_yogurt_name">Yogurt / Curd</string>
+    <string name="ingredient_yogurt_benefits">Yogurt contains lactic acid, which gently exfoliates dead skin cells, tightens pores, and moisturizes dry skin. It also fights dandruff and adds a silky shine to hair.</string>
+    <string name="ingredient_yogurt_keywords">yogurt,curd,dahi</string>
+
+    <!-- Turmeric -->
+    <string name="ingredient_turmeric_name">Turmeric</string>
+    <string name="ingredient_turmeric_benefits">Turmeric is a powerful antioxidant and anti-inflammatory agent used for centuries. It brightens skin tone, fights acne-causing bacteria, heals skin damage, and reduces dark spots.</string>
+    <string name="ingredient_turmeric_keywords">turmeric,tuermeric,haldi</string>
+
+    <!-- Rose Water -->
+    <string name="ingredient_rose_water_name">Rose Water</string>
+    <string name="ingredient_rose_water_benefits">Rose water is a natural skin toner that balances skin pH, reduces redness, and hydrates the skin. It cleanses pores and leaves a refreshing floral scent.</string>
+    <string name="ingredient_rose_water_keywords">rose water,rosewater</string>
+
+    <!-- Milk -->
+    <string name="ingredient_milk_name">Milk</string>
+    <string name="ingredient_milk_benefits">Milk is rich in lactic acid and essential vitamins. It acts as a gentle cleanser, hydrates dry skin, lightens skin tan, and softens rough skin surfaces.</string>
+    <string name="ingredient_milk_keywords">milk</string>
+
+    <!-- Oatmeal -->
+    <string name="ingredient_oatmeal_name">Oatmeal</string>
+    <string name="ingredient_oatmeal_benefits">Oatmeal is a superb natural exfoliator and anti-inflammatory ingredient. It relieves skin itching, cures dryness, absorbs excess sebum, and treats sensitive skin conditions.</string>
+    <string name="ingredient_oatmeal_keywords">oatmeal,oat</string>
+
+    <!-- Green Tea -->
+    <string name="ingredient_green_tea_name">Green Tea</string>
+    <string name="ingredient_green_tea_benefits">Green tea is loaded with catechins and antioxidants that reduce skin redness, soothe puffiness around the eyes, fight acne, and combat early signs of skin aging.</string>
+    <string name="ingredient_green_tea_keywords">green tea,greentea,tea bag,teabag</string>
+
+    <!-- Egg -->
+    <string name="ingredient_egg_name">Egg</string>
+    <string name="ingredient_egg_benefits">Egg whites are rich in proteins that tighten skin pores, lift sagging skin, and control oil. Egg yolks are rich in fatty acids that deeply condition dry hair and nourish skin.</string>
+    <string name="ingredient_egg_keywords">egg</string>
 </resources>

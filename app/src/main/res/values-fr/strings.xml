@@ -3653,4 +3653,73 @@
     <string name="seasonal_completed_all">Routine quotidienne complétée !</string>
     <string name="seasonal_not_started">Consultez les recettes et cochez-les une fois terminées !</string>
     <string name="seasonal_settings_option">Conseiller Beauté Saisonnier</string>
+
+    <!-- Feature 16: Ingredient Directory & Glossary -->
+    <string name="ingredient_glossary_title">Glossaire des Ingrédients</string>
+    <string name="ingredient_search_hint">Rechercher des ingrédients...</string>
+    <string name="ingredient_benefits_header">Bienfaits Beauté</string>
+    <string name="ingredient_remedies_header">Recettes avec cet ingrédient</string>
+    <string name="ingredient_no_remedies">Aucune recette trouvée avec cet ingrédient.</string>
+    <string name="ingredient_empty_list">Aucun ingrédient ne correspond à votre recherche.</string>
+    <string name="settings_ingredient_glossary">Glossaire des Ingrédients</string>
+
+    <!-- Honey -->
+    <string name="ingredient_honey_name">Miel</string>
+    <string name="ingredient_honey_benefits">Le miel est un humectant naturel qui retient l\'humidité dans la peau, la rendant intensément hydratée. Il possède de puissantes propriétés antibactériennes et anti-inflammatoires, ce qui le rend excellent pour lutter contre l\'acné, cicatriser et apporter un éclat naturel.</string>
+    <string name="ingredient_honey_keywords">miel</string>
+
+    <!-- Lemon -->
+    <string name="ingredient_lemon_name">Citron</string>
+    <string name="ingredient_lemon_benefits">Le citron est riche en vitamine C et en acide citrique, qui agissent comme un agent éclaircissant naturel pour estomper les taches brunes, les cicatrices d\'acné et les imperfections. Ses propriétés astringentes aident à contrôler l\'excès de sébum.</string>
+    <string name="ingredient_lemon_keywords">citron</string>
+
+    <!-- Aloe Vera -->
+    <string name="ingredient_aloe_vera_name">Aloe Vera</string>
+    <string name="ingredient_aloe_vera_benefits">L\'aloe vera est incroyablement apaisant, anti-inflammatoire et hydratant. Il guérit les coups de soleil, calme les peaux irritées, maintient la peau acnéique propre et favorise la force et la croissance des cheveux.</string>
+    <string name="ingredient_aloe_vera_keywords">aloe,aloevera</string>
+
+    <!-- Coconut Oil -->
+    <string name="ingredient_coconut_oil_name">Huile de Coco</string>
+    <string name="ingredient_coconut_oil_benefits">L\'huile de coco nourrit en profondeur et contient des acides gras qui protègent et hydratent la peau et les cheveux. Elle agit comme un excellent revitalisant capillaire, guérit la peau sèche et renforce les cheveux.</string>
+    <string name="ingredient_coconut_oil_keywords">coco,huile de coco</string>
+
+    <!-- Cucumber -->
+    <string name="ingredient_cucumber_name">Concombre</string>
+    <string name="ingredient_cucumber_benefits">Le concombre a un effet extrêmement rafraîchissant et contient 96 % d\'eau. Il réduit les poches, atténue les cernes sous les yeux, hydrate la peau et agit comme un tonique naturel apaisant.</string>
+    <string name="ingredient_cucumber_keywords">concombre</string>
+
+    <!-- Yogurt -->
+    <string name="ingredient_yogurt_name">Yaourt / Caillé</string>
+    <string name="ingredient_yogurt_benefits">Le yaourt contient de l\'acide lactique, qui exfolie en douceur les cellules mortes de la peau, resserre les pores et hydrate les peaux sèches. Il combat également les pellicules et donne une brillance soyeuse aux cheveux.</string>
+    <string name="ingredient_yogurt_keywords">yaourt,lait caillé</string>
+
+    <!-- Turmeric -->
+    <string name="ingredient_turmeric_name">Curcuma</string>
+    <string name="ingredient_turmeric_benefits">Le curcuma est un puissant antioxydant et agent anti-inflammatoire utilisé depuis des siècles. Il illumine le teint, combat les bactéries responsables de l\'acné et réduit les taches brunes.</string>
+    <string name="ingredient_turmeric_keywords">curcuma</string>
+
+    <!-- Rose Water -->
+    <string name="ingredient_rose_water_name">Eau de Rose</string>
+    <string name="ingredient_rose_water_benefits">L\'eau de rose est un tonique naturel qui équilibre le pH de la peau, réduit les rougeurs et l\'hydrate. Elle nettoie les pores et laisse un parfum floral rafraîchissant.</string>
+    <string name="ingredient_rose_water_keywords">eau de rose,rosewater</string>
+
+    <!-- Milk -->
+    <string name="ingredient_milk_name">Lait</string>
+    <string name="ingredient_milk_benefits">Le lait est riche en acide lactique et en vitamines essentielles. Il agit comme un nettoyant doux, hydrate la peau sèche et adoucit l\'épiderme.</string>
+    <string name="ingredient_milk_keywords">lait</string>
+
+    <!-- Oatmeal -->
+    <string name="ingredient_oatmeal_name">Flocons d\'Avoine</string>
+    <string name="ingredient_oatmeal_benefits">Les flocons d\'avoine sont un superbe exfoliant naturel et un ingrédient anti-inflammatoire. Ils soulagent les démangeaisons, soignent la sécheresse et traitent les peaux sensibles.</string>
+    <string name="ingredient_oatmeal_keywords">avoine,flocons d\'avoine</string>
+
+    <!-- Green Tea -->
+    <string name="ingredient_green_tea_name">Thé Vert</string>
+    <string name="ingredient_green_tea_benefits">Le thé vert regorge de catéchines et d\'antioxydants qui réduisent les rougeurs, apaisent les poches sous les yeux, luttent contre l\'acné et combattent les premiers signes du vieillissement.</string>
+    <string name="ingredient_green_tea_keywords">thé,thé vert,sachet de thé</string>
+
+    <!-- Egg -->
+    <string name="ingredient_egg_name">Œuf</string>
+    <string name="ingredient_egg_benefits">Le blanc d\'œuf est riche en protéines qui resserrent les pores de la peau, la raffermissent et contrôlent le sébum. Le jaune d\'œuf hydrate en profondeur les cheveux secs et nourrit la peau.</string>
+    <string name="ingredient_egg_keywords">œuf,blanc d\'œuf,jaune d\'œuf</string>
 </resources>

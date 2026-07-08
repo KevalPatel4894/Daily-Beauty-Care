@@ -3653,4 +3653,73 @@
     <string name="seasonal_completed_all">Tägliche Routine abgeschlossen!</string>
     <string name="seasonal_not_started">Rezepte ansehen und nach der Fertigstellung abhaken!</string>
     <string name="seasonal_settings_option">Saisonaler Schönheitsberater</string>
+
+    <!-- Feature 16: Ingredient Directory & Glossary -->
+    <string name="ingredient_glossary_title">Zutaten-Glossar</string>
+    <string name="ingredient_search_hint">Zutaten suchen...</string>
+    <string name="ingredient_benefits_header">Schönheitsvorteile</string>
+    <string name="ingredient_remedies_header">Rezepte mit dieser Zutat</string>
+    <string name="ingredient_no_remedies">Keine Rezepte mit dieser Zutat gefunden.</string>
+    <string name="ingredient_empty_list">Keine Zutaten entsprechen Ihrer Suche.</string>
+    <string name="settings_ingredient_glossary">Zutaten-Glossar</string>
+
+    <!-- Honey -->
+    <string name="ingredient_honey_name">Honig</string>
+    <string name="ingredient_honey_benefits">Honig ist ein natürliches Feuchthaltemittel, das Feuchtigkeit in die Haut einzieht, was sie intensiv hydratisiert. Er besitzt starke antibakterielle und entzündungshemmende Eigenschaften, um Akne zu bekämpfen, Narben zu heilen und einen natürlichen Glow zu verleihen.</string>
+    <string name="ingredient_honey_keywords">honig</string>
+
+    <!-- Lemon -->
+    <string name="ingredient_lemon_name">Zitrone</string>
+    <string name="ingredient_lemon_benefits">Zitrone ist reich an Vitamin C und Zitronensäure, die als natürliches Aufhellungsmittel wirken, um dunkle Flecken, Aknenarben und Unreinheiten zu lindern. Ihre adstringierenden Eigenschaften helfen, überschüssiges Öl zu kontrollieren.</string>
+    <string name="ingredient_lemon_keywords">zitrone</string>
+
+    <!-- Aloe Vera -->
+    <string name="ingredient_aloe_vera_name">Aloe Vera</string>
+    <string name="ingredient_aloe_vera_benefits">Aloe Vera wirkt unglaublich beruhigend, entzündungshemmend und feuchtigkeitsspendend. Sie heilt Sonnenbrand, beruhigt gereizte Haut, hält zu Akne neigende Haut sauber und fördert das Haarwachstum.</string>
+    <string name="ingredient_aloe_vera_keywords">aloe,aloevera</string>
+
+    <!-- Coconut Oil -->
+    <string name="ingredient_coconut_oil_name">Kokosnussöl</string>
+    <string name="ingredient_coconut_oil_benefits">Kokosnussöl pflegt Haut und Haar intensiv und enthält Fettsäuren, die schützen und Feuchtigkeit spenden. Es dient als hervorragende Haarspülung, heilt trockene Haut und stärkt die Haare.</string>
+    <string name="ingredient_coconut_oil_keywords">kokos,kokosöl,kokosnussöl</string>
+
+    <!-- Cucumber -->
+    <string name="ingredient_cucumber_name">Gurke</string>
+    <string name="ingredient_cucumber_benefits">Gurke wirkt extrem kühlend und besteht zu 96% aus Wasser. Sie reduziert Schwellungen, lindert Augenringe, hydratisiert die Haut und dient als beruhigendes Gesichtswasser.</string>
+    <string name="ingredient_cucumber_keywords">gurke,gurken</string>
+
+    <!-- Yogurt -->
+    <string name="ingredient_yogurt_name">Joghurt / Quark</string>
+    <string name="ingredient_yogurt_benefits">Joghurt enthält Milchsäure, die sanft peelt, Poren verfeinert und trockene Haut hydratisiert. Zudem bekämpft er Schuppen und verleiht dem Haar einen seidigen Glanz.</string>
+    <string name="ingredient_yogurt_keywords">joghurt,quark</string>
+
+    <!-- Turmeric -->
+    <string name="ingredient_turmeric_name">Kurkuma</string>
+    <string name="ingredient_turmeric_benefits">Kurkuma ist ein starkes Antioxidans und entzündungshemmendes Mittel, das seit Jahrhunderten verwendet wird. Er hellt den Hautton auf, bekämpft Aknebakterien und lindert dunkle Flecken.</string>
+    <string name="ingredient_turmeric_keywords">kurkuma</string>
+
+    <!-- Rose Water -->
+    <string name="ingredient_rose_water_name">Rosenwasser</string>
+    <string name="ingredient_rose_water_benefits">Rosenwasser gleicht den pH-Wert der Haut aus, reduziert Rötungen und spendet Feuchtigkeit. Es reinigt die Poren und hinterlässt einen erfrischenden blumigen Duft.</string>
+    <string name="ingredient_rose_water_keywords">rosenwasser</string>
+
+    <!-- Milk -->
+    <string name="ingredient_milk_name">Milch</string>
+    <string name="ingredient_milk_benefits">Milch ist reich an Milchsäure und wichtigen Vitaminen. Sie wirkt als sanfter Reiniger, spendet trockener Haut Feuchtigkeit und macht sie wunderbar weich.</string>
+    <string name="ingredient_milk_keywords">milch</string>
+
+    <!-- Oatmeal -->
+    <string name="ingredient_oatmeal_name">Haferflocken</string>
+    <string name="ingredient_oatmeal_benefits">Haferflocken sind ein hervorragendes natürliches Peeling und entzündungshemmendes Mittel. Sie lindern Juckreiz, heilen Trockenheit und eignen sich ideal für empfindliche Haut.</string>
+    <string name="ingredient_oatmeal_keywords">haferflocken,hafer</string>
+
+    <!-- Green Tea -->
+    <string name="ingredient_green_tea_name">Grüner Tee</string>
+    <string name="ingredient_green_tea_benefits">Grüner Tee ist reich an Catechinen und Antioxidantien, die Rötungen lindern, Schwellungen um die Augen beruhigen und frühe Anzeichen von Hautalterung bekämpfen.</string>
+    <string name="ingredient_green_tea_keywords">tee,grüner tee,teebeutel</string>
+
+    <!-- Egg -->
+    <string name="ingredient_egg_name">Ei</string>
+    <string name="ingredient_egg_benefits">Eiweiß ist reich an Proteinen, die die Poren verfeinern und die Haut straffen. Eigelb enthält Fettsäuren, die trockenes Haar intensiv pflegen und die Haut nähren.</string>
+    <string name="ingredient_egg_keywords">ei,eigelb,eiweiß</string>
 </resources>

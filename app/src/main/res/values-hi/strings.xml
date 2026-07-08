@@ -3653,4 +3653,73 @@
     <string name="seasonal_completed_all">दैनिक दिनचर्या पूरी हुई!</string>
     <string name="seasonal_not_started">नुस्खे देखें और पूरा होने पर टिक करें!</string>
     <string name="seasonal_settings_option">मौसमी सौंदर्य सलाहकार</string>
+
+    <!-- Feature 16: Ingredient Directory & Glossary -->
+    <string name="ingredient_glossary_title">सामग्री शब्दकोश</string>
+    <string name="ingredient_search_hint">सामग्री खोजें...</string>
+    <string name="ingredient_benefits_header">सौंदर्य लाभ</string>
+    <string name="ingredient_remedies_header">इस सामग्री के नुस्खे</string>
+    <string name="ingredient_no_remedies">इस सामग्री वाला कोई नुस्खा नहीं मिला।</string>
+    <string name="ingredient_empty_list">आपकी खोज से मेल खाती कोई सामग्री नहीं मिली।</string>
+    <string name="settings_ingredient_glossary">सामग्री शब्दकोश (Glossary)</string>
+
+    <!-- Honey -->
+    <string name="ingredient_honey_name">शहद (Honey)</string>
+    <string name="ingredient_honey_benefits">शहद एक प्राकृतिक मॉइस्चराइज़र (humectant) है जो त्वचा में नमी को सोखता है और उसे गहराई से हाइड्रेट रखता है। इसमें मजबूत जीवाणुरोधी (antibacterial) और एंटी-इंफ्लेमेटरी गुण होते हैं जो मुंहासों से लड़ने और त्वचा को चमकाने में मदद करते हैं।</string>
+    <string name="ingredient_honey_keywords">शहद,honey,shahad</string>
+
+    <!-- Lemon -->
+    <string name="ingredient_lemon_name">नींबू (Lemon)</string>
+    <string name="ingredient_lemon_benefits">नींबू विटामिन C और साइट्रिक एसिड से भरपूर होता है, जो काले धब्बों, मुंहासों के निशान और दाग-धब्बों को हल्का करने के लिए प्राकृतिक ब्लीच के रूप में काम करता है। इसके एस्ट्रिंजेंट गुण अत्यधिक तेल को नियंत्रित करते हैं।</string>
+    <string name="ingredient_lemon_keywords">नींबू,nimbu,lemon</string>
+
+    <!-- Aloe Vera -->
+    <string name="ingredient_aloe_vera_name">एलोवेरा (Aloe Vera)</string>
+    <string name="ingredient_aloe_vera_benefits">एलोवेरा त्वचा को शांत करने, सूजन कम करने और नमी देने में बहुत असरदार है। यह सनबर्न को ठीक करता है, चिड़चिड़ी त्वचा को आराम देता है, मुंहासे रोकने में मदद करता है और बालों को मजबूत बनाता है।</string>
+    <string name="ingredient_aloe_vera_keywords">एलोवेरा,aloe,aloevera,ghritkumari</string>
+
+    <!-- Coconut Oil -->
+    <string name="ingredient_coconut_oil_name">नारियल तेल (Coconut Oil)</string>
+    <string name="ingredient_coconut_oil_benefits">नारियल तेल त्वचा और बालों को गहरा पोषण प्रदान करता है। इसमें फैटी एसिड होते हैं जो त्वचा की रक्षा करते हैं और नमी बनाए रखते हैं। यह रूखी त्वचा को ठीक करने और बालों को मुलायम बनाने के लिए बेहतरीन है।</string>
+    <string name="ingredient_coconut_oil_keywords">नारियल तेल,nariyal tel,coconut oil</string>
+
+    <!-- Cucumber -->
+    <string name="ingredient_cucumber_name">खीरा (Cucumber)</string>
+    <string name="ingredient_cucumber_benefits">खीरा त्वचा को ठंडक देता है और इसमें 96% पानी होता है। यह आंखों की सूजन और काले घेरों (dark circles) को कम करता है, त्वचा को हाइड्रेट करता है और एक प्राकृतिक टोनर के रूप में काम करता है।</string>
+    <string name="ingredient_cucumber_keywords">खीरा,kheera,cucumber</string>
+
+    <!-- Yogurt -->
+    <string name="ingredient_yogurt_name">दही (Yogurt / Curd)</string>
+    <string name="ingredient_yogurt_benefits">दही में लैक्टिक एसिड होता है जो मृत त्वचा कोशिकाओं को धीरे से हटाता है (exfoliate), छिद्रों को कसता है और रूखी त्वचा को नमी देता है। यह रूसी (dandruff) से लड़ने और बालों में चमक लाने में भी मददगार है।</string>
+    <string name="ingredient_yogurt_keywords">दही,dahi,curd,yogurt</string>
+
+    <!-- Turmeric -->
+    <string name="ingredient_turmeric_name">हल्दी (Turmeric)</string>
+    <string name="ingredient_turmeric_benefits">हल्दी एक शक्तिशाली एंटीऑक्सीडेंट और एंटी-इंफ्लेमेटरी औषधि है जिसका उपयोग सदियों से किया जा रहा है। यह रंगत निखारती है, मुंहासे पैदा करने वाले बैक्टीरिया से लड़ती है और काले धब्बों को कम करती है।</string>
+    <string name="ingredient_turmeric_keywords">हल्दी,haldi,turmeric</string>
+
+    <!-- Rose Water -->
+    <string name="ingredient_rose_water_name">गुलाब जल (Rose Water)</string>
+    <string name="ingredient_rose_water_benefits">गुलाब जल त्वचा के pH स्तर को संतुलित रखता है, लालिमा कम करता है और त्वचा को तुरंत ताजगी देता है। यह छिद्रों को साफ करता है और एक हल्की भीनी खुशबू छोड़ता है।</string>
+    <string name="ingredient_rose_water_keywords">गुलाब जल,gulab jal,rose water</string>
+
+    <!-- Milk -->
+    <string name="ingredient_milk_name">दूध (Milk)</string>
+    <string name="ingredient_milk_benefits">दूध लैक्टिक एसिड और आवश्यक विटामिन से भरपूर होता है। यह एक सौम्य क्लींजर के रूप में काम करता है, रूखी त्वचा को मॉइस्चराइज़ करता है और उसे बेहद कोमल और चमकदार बनाता है।</string>
+    <string name="ingredient_milk_keywords">दूध,doodh,milk</string>
+
+    <!-- Oatmeal -->
+    <string name="ingredient_oatmeal_name">जई का आटा (Oatmeal)</string>
+    <string name="ingredient_oatmeal_benefits">ओटमील (जई का आटा) एक बेहतरीन प्राकृतिक स्क्रबर और एंटी-इंफ्लेमेटरी एजेंट है। यह त्वचा की खुजली और रूखेपन से राहत देता है और संवेदनशील त्वचा के लिए बहुत फायदेमंद है।</string>
+    <string name="ingredient_oatmeal_keywords">ओट्स,जई,oatmeal,oats</string>
+
+    <!-- Green Tea -->
+    <string name="ingredient_green_tea_name">ग्रीन टी (Green Tea)</string>
+    <string name="ingredient_green_tea_benefits">ग्रीन टी कैटेचिन और एंटीऑक्सीडेंट से भरपूर होती है जो त्वचा की लालिमा कम करने, थकी हुई आंखों की सूजन दूर करने और बढ़ती उम्र के लक्षणों को रोकने में मदद करती है।</string>
+    <string name="ingredient_green_tea_keywords">चाय,ग्रीन टी,green tea,tea</string>
+
+    <!-- Egg -->
+    <string name="ingredient_egg_name">अंडा (Egg)</string>
+    <string name="ingredient_egg_benefits">अंडे की सफेदी में प्रोटीन होता है जो त्वचा के रोमछिद्रों को छोटा करता है और त्वचा में कसाव लाता है। अंडे की जर्दी रूखे बालों को गहराई से कंडीशन करती है और त्वचा को पोषण देती है।</string>
+    <string name="ingredient_egg_keywords">अंडा,anda,egg</string>
 </resources>
