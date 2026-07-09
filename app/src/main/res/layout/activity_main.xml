@@ -391,6 +391,308 @@
                     tools:listitem="@layout/item_personalized_tip" />
             </LinearLayout>
 
+            <!-- Mood-Based Tip Picker Section -->
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginStart="@dimen/_12sdp"
+                android:layout_marginEnd="@dimen/_12sdp"
+                android:layout_marginBottom="@dimen/_4sdp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="3dp"
+                app:cardBackgroundColor="@color/white"
+                app:strokeColor="#E8E8E8"
+                app:strokeWidth="1dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="@dimen/_12sdp">
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/skin_mood_picker_title"
+                        android:textColor="@color/toolBarColor"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:text="@string/skin_mood_picker_subtitle"
+                        android:textColor="#666666"
+                        android:textSize="10sp" />
+
+                    <!-- Grid Layout for 2 rows of 3 items -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginTop="@dimen/_10sdp">
+
+                        <!-- Row 1 -->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:weightSum="3"
+                            android:layout_marginBottom="@dimen/_6sdp">
+
+                            <!-- Dull (🌚) -->
+                            <com.google.android.material.card.MaterialCardView
+                                android:id="@+id/btnMoodDull"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:layout_marginEnd="4dp"
+                                android:clickable="true"
+                                android:focusable="true"
+                                app:cardCornerRadius="8dp"
+                                app:cardElevation="1dp"
+                                app:cardBackgroundColor="#F2F3F4"
+                                app:strokeColor="#D5D8DC"
+                                app:strokeWidth="1dp"
+                                app:rippleColor="#D5D8DC">
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical"
+                                    android:gravity="center"
+                                    android:paddingVertical="@dimen/_8sdp">
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="🌚"
+                                        android:textSize="22sp"/>
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="4dp"
+                                        android:text="@string/skin_mood_dull"
+                                        android:textColor="#333333"
+                                        android:textSize="11sp"
+                                        android:textStyle="bold"
+                                        android:ellipsize="end"
+                                        android:maxLines="1"/>
+                                </LinearLayout>
+                            </com.google.android.material.card.MaterialCardView>
+
+                            <!-- Oily (💦) -->
+                            <com.google.android.material.card.MaterialCardView
+                                android:id="@+id/btnMoodOily"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:layout_marginStart="2dp"
+                                android:layout_marginEnd="2dp"
+                                android:clickable="true"
+                                android:focusable="true"
+                                app:cardCornerRadius="8dp"
+                                app:cardElevation="1dp"
+                                app:cardBackgroundColor="#EBF5FB"
+                                app:strokeColor="#AED6F1"
+                                app:strokeWidth="1dp"
+                                app:rippleColor="#AED6F1">
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical"
+                                    android:gravity="center"
+                                    android:paddingVertical="@dimen/_8sdp">
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="💦"
+                                        android:textSize="22sp"/>
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="4dp"
+                                        android:text="@string/skin_mood_oily"
+                                        android:textColor="#2E86C1"
+                                        android:textSize="11sp"
+                                        android:textStyle="bold"
+                                        android:ellipsize="end"
+                                        android:maxLines="1"/>
+                                </LinearLayout>
+                            </com.google.android.material.card.MaterialCardView>
+
+                            <!-- Dry (🌵) -->
+                            <com.google.android.material.card.MaterialCardView
+                                android:id="@+id/btnMoodDry"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:layout_marginStart="4dp"
+                                android:clickable="true"
+                                android:focusable="true"
+                                app:cardCornerRadius="8dp"
+                                app:cardElevation="1dp"
+                                app:cardBackgroundColor="#FEF9E7"
+                                app:strokeColor="#F9E79F"
+                                app:strokeWidth="1dp"
+                                app:rippleColor="#F9E79F">
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical"
+                                    android:gravity="center"
+                                    android:paddingVertical="@dimen/_8sdp">
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="🌵"
+                                        android:textSize="22sp"/>
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="4dp"
+                                        android:text="@string/skin_mood_dry"
+                                        android:textColor="#B7950B"
+                                        android:textSize="11sp"
+                                        android:textStyle="bold"
+                                        android:ellipsize="end"
+                                        android:maxLines="1"/>
+                                </LinearLayout>
+                            </com.google.android.material.card.MaterialCardView>
+
+                        </LinearLayout>
+
+                        <!-- Row 2 -->
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:weightSum="3">
+
+                            <!-- Tired (🥱) -->
+                            <com.google.android.material.card.MaterialCardView
+                                android:id="@+id/btnMoodTired"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:layout_marginEnd="4dp"
+                                android:clickable="true"
+                                android:focusable="true"
+                                app:cardCornerRadius="8dp"
+                                app:cardElevation="1dp"
+                                app:cardBackgroundColor="#F4ECF7"
+                                app:strokeColor="#D7BDE2"
+                                app:strokeWidth="1dp"
+                                app:rippleColor="#D7BDE2">
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical"
+                                    android:gravity="center"
+                                    android:paddingVertical="@dimen/_8sdp">
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="🥱"
+                                        android:textSize="22sp"/>
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="4dp"
+                                        android:text="@string/skin_mood_tired"
+                                        android:textColor="#7D3C98"
+                                        android:textSize="11sp"
+                                        android:textStyle="bold"
+                                        android:ellipsize="end"
+                                        android:maxLines="1"/>
+                                </LinearLayout>
+                            </com.google.android.material.card.MaterialCardView>
+
+                            <!-- Sensitive (🛡️) -->
+                            <com.google.android.material.card.MaterialCardView
+                                android:id="@+id/btnMoodSensitive"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:layout_marginStart="2dp"
+                                android:layout_marginEnd="2dp"
+                                android:clickable="true"
+                                android:focusable="true"
+                                app:cardCornerRadius="8dp"
+                                app:cardElevation="1dp"
+                                app:cardBackgroundColor="#FDEDEC"
+                                app:strokeColor="#F9D3D3"
+                                app:strokeWidth="1dp"
+                                app:rippleColor="#F9D3D3">
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical"
+                                    android:gravity="center"
+                                    android:paddingVertical="@dimen/_8sdp">
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="🛡️"
+                                        android:textSize="22sp"/>
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="4dp"
+                                        android:text="@string/skin_mood_sensitive"
+                                        android:textColor="#CB4335"
+                                        android:textSize="11sp"
+                                        android:textStyle="bold"
+                                        android:ellipsize="end"
+                                        android:maxLines="1"/>
+                                </LinearLayout>
+                            </com.google.android.material.card.MaterialCardView>
+
+                            <!-- Glowing (✨) -->
+                            <com.google.android.material.card.MaterialCardView
+                                android:id="@+id/btnMoodGlowing"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:layout_marginStart="4dp"
+                                android:clickable="true"
+                                android:focusable="true"
+                                app:cardCornerRadius="8dp"
+                                app:cardElevation="1dp"
+                                app:cardBackgroundColor="#EAF2F8"
+                                app:strokeColor="#A9CCE3"
+                                app:strokeWidth="1dp"
+                                app:rippleColor="#A9CCE3">
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical"
+                                    android:gravity="center"
+                                    android:paddingVertical="@dimen/_8sdp">
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="✨"
+                                        android:textSize="22sp"/>
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="4dp"
+                                        android:text="@string/skin_mood_glowing"
+                                        android:textColor="#2471A3"
+                                        android:textSize="11sp"
+                                        android:textStyle="bold"
+                                        android:ellipsize="end"
+                                        android:maxLines="1"/>
+                                </LinearLayout>
+                            </com.google.android.material.card.MaterialCardView>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/rvCategory"
                 android:layout_width="match_parent"

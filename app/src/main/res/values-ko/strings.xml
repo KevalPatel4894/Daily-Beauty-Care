@@ -3653,4 +3653,28 @@
     <string name="seasonal_completed_all">오늘의 루틴 완료!</string>
     <string name="seasonal_not_started">레시피를 확인하고 완료 후 체크하세요!</string>
     <string name="seasonal_settings_option">계절별 뷰티 어드바이저</string>
+
+    <!-- Feature 32: Mood-Based Tip Picker -->
+    <string name="skin_mood_picker_title">오늘 피부 상태는 어떠신가요?</string>
+    <string name="skin_mood_picker_subtitle">상태를 선택하여 즉시 천연 요법을 확인하세요</string>
+    <string name="skin_mood_title_formatted">%1$s 피부를 위한 팁</string>
+    <string name="skin_mood_no_tips">이 상태에 맞는 요법을 찾지 못했습니다.</string>
+
+    <string name="skin_mood_dull">푸석함</string>
+    <string name="skin_mood_dull_keywords">푸석함,생기,광채,칙칙함,어두움,톤업</string>
+
+    <string name="skin_mood_oily">지성</string>
+    <string name="skin_mood_oily_keywords">지성,피지,기름기,번들거림,모공</string>
+
+    <string name="skin_mood_dry">건성</string>
+    <string name="skin_mood_dry_keywords">건성,보습,수분,건조,각질,수분부족</string>
+
+    <string name="skin_mood_tired">피로함</string>
+    <string name="skin_mood_tired_keywords">피로,수면부족,다크서클,눈가,스트레스</string>
+
+    <string name="skin_mood_sensitive">민감함</string>
+    <string name="skin_mood_sensitive_keywords">민감,붉은기,자극,가려움,진정</string>
+
+    <string name="skin_mood_glowing">윤기있음</string>
+    <string name="skin_mood_glowing_keywords">윤기,광채,건강한,글로우,피부결</string>
 </resources>

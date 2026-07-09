@@ -3722,4 +3722,28 @@
     <string name="ingredient_egg_name">Huevo</string>
     <string name="ingredient_egg_benefits">La clara de huevo contiene proteínas que reducen el tamaño de los poros y reafirman la piel. La yema acondiciona profundamente el cabello seco y nutre la piel.</string>
     <string name="ingredient_egg_keywords">huevo,clara,yema</string>
+
+    <!-- Feature 32: Mood-Based Tip Picker -->
+    <string name="skin_mood_picker_title">¿Cómo se siente tu piel hoy?</string>
+    <string name="skin_mood_picker_subtitle">Elige una condición para obtener remedios naturales al instante</string>
+    <string name="skin_mood_title_formatted">Consejos para Piel %1$s</string>
+    <string name="skin_mood_no_tips">No se encontraron remedios para esta condición.</string>
+
+    <string name="skin_mood_dull">Apagada</string>
+    <string name="skin_mood_dull_keywords">apagada,brillo,luminosidad,pálida,oscura,opaca</string>
+
+    <string name="skin_mood_oily">Grasa</string>
+    <string name="skin_mood_oily_keywords">grasa,sebo,grasa,brillo,poros</string>
+
+    <string name="skin_mood_dry">Seca</string>
+    <string name="skin_mood_dry_keywords">seca,hidratar,humectar,deshidratada,escamas,sequedad</string>
+
+    <string name="skin_mood_tired">Cansada</string>
+    <string name="skin_mood_tired_keywords">cansada,sueño,fatiga,ojeras,ojos,estrés</string>
+
+    <string name="skin_mood_sensitive">Sensible</string>
+    <string name="skin_mood_sensitive_keywords">sensible,roja,irritación,picazón,calmar</string>
+
+    <string name="skin_mood_glowing">Radiante</string>
+    <string name="skin_mood_glowing_keywords">brillante,radiante,brillo,piel de cristal,saludable,glow</string>
 </resources>

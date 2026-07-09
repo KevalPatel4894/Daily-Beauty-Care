@@ -3722,4 +3722,28 @@
     <string name="ingredient_egg_name">Œuf</string>
     <string name="ingredient_egg_benefits">Le blanc d\'œuf est riche en protéines qui resserrent les pores de la peau, la raffermissent et contrôlent le sébum. Le jaune d\'œuf hydrate en profondeur les cheveux secs et nourrit la peau.</string>
     <string name="ingredient_egg_keywords">œuf,blanc d\'œuf,jaune d\'œuf</string>
+
+    <!-- Feature 32: Mood-Based Tip Picker -->
+    <string name="skin_mood_picker_title">Comment se sent votre peau aujourd\'hui ?</string>
+    <string name="skin_mood_picker_subtitle">Choisissez un état pour obtenir instantanément des remèdes naturels</string>
+    <string name="skin_mood_title_formatted">Conseils pour Peau %1$s</string>
+    <string name="skin_mood_no_tips">Aucun remède trouvé pour cet état.</string>
+
+    <string name="skin_mood_dull">Terne</string>
+    <string name="skin_mood_dull_keywords">terne,éclat,illumine,pâle,sombre,brillance</string>
+
+    <string name="skin_mood_oily">Grasse</string>
+    <string name="skin_mood_oily_keywords">grasse,sébum,huile,brillance,pores</string>
+
+    <string name="skin_mood_dry">Sèche</string>
+    <string name="skin_mood_dry_keywords">sèche,hydratation,desquamation,sécheresse,déshydratée</string>
+
+    <string name="skin_mood_tired">Fatiguée</string>
+    <string name="skin_mood_tired_keywords">fatiguée,sommeil,fatigue,cernes,yeux,stress</string>
+
+    <string name="skin_mood_sensitive">Sensible</string>
+    <string name="skin_mood_sensitive_keywords">sensible,rougeurs,irritation,démangeaison,apaiser</string>
+
+    <string name="skin_mood_glowing">Éclatante</string>
+    <string name="skin_mood_glowing_keywords">éclatante,brillante,éclat,peau de verre,sain,glow</string>
 </resources>

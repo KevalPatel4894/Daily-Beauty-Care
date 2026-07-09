@@ -251,6 +251,8 @@ class MainActivity : BaseActivity(), CategoryAdapter.OnItemClick {
             }
         }
 
+        setupMoodPicker()
+
         imgSetting.setOnClickListener { Intent(this, SettingActivity::class.java).also {
             startActivity(it)
             AppUtils.startFromRightToLeft(this)
@@ -746,6 +748,39 @@ class MainActivity : BaseActivity(), CategoryAdapter.OnItemClick {
             }
         } catch (e: Exception) {
             e.printStackTrace()
+        }
+    }
+
+    private fun setupMoodPicker() {
+        val moods = listOf(
+            Triple("dull", getString(R.string.skin_mood_dull), "🌚"),
+            Triple("oily", getString(R.string.skin_mood_oily), "💦"),
+            Triple("dry", getString(R.string.skin_mood_dry), "🌵"),
+            Triple("tired", getString(R.string.skin_mood_tired), "🥱"),
+            Triple("sensitive", getString(R.string.skin_mood_sensitive), "🛡️"),
+            Triple("glowing", getString(R.string.skin_mood_glowing), "✨")
+        )
+
+        val ids = listOf(
+            R.id.btnMoodDull,
+            R.id.btnMoodOily,
+            R.id.btnMoodDry,
+            R.id.btnMoodTired,
+            R.id.btnMoodSensitive,
+            R.id.btnMoodGlowing
+        )
+
+        for (i in moods.indices) {
+            val mood = moods[i]
+            findViewById<View>(ids[i])?.setOnClickListener {
+                val intent = Intent(this, MoodTipsActivity::class.java).apply {
+                    putExtra("mood_key", mood.first)
+                    putExtra("mood_name", mood.second)
+                    putExtra("mood_emoji", mood.third)
+                }
+                startActivity(intent)
+                AppUtils.startFromRightToLeft(this)
+            }
         }
     }
 }

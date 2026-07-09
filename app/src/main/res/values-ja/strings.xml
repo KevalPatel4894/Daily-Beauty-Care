@@ -3722,4 +3722,28 @@
     <string name="ingredient_egg_name">卵 (Egg)</string>
     <string name="ingredient_egg_benefits">卵白にはお肌を引き締め、毛穴を小さくするタンパク質が豊富です。卵黄はパサつく髪をディープコンディショニングし、お肌に栄養を行き渡らせます。</string>
     <string name="ingredient_egg_keywords">卵,たまご,egg,egg white,egg yolk</string>
+
+    <!-- Feature 32: Mood-Based Tip Picker -->
+    <string name="skin_mood_picker_title">今日のお肌の調子はいかがですか？</string>
+    <string name="skin_mood_picker_subtitle">状態を選んで、最適な自然療法をチェック</string>
+    <string name="skin_mood_title_formatted">%1$s肌向けのアドバイス</string>
+    <string name="skin_mood_no_tips">この状態に合うケアが見つかりませんでした。</string>
+
+    <string name="skin_mood_dull">くすみ</string>
+    <string name="skin_mood_dull_keywords">くすみ,トーンアップ,透明感,明るさ,黒ずみ,カサつき</string>
+
+    <string name="skin_mood_oily">脂性肌</string>
+    <string name="skin_mood_oily_keywords">脂性肌,皮脂,テカリ,ベタつき,毛穴,オイリー</string>
+
+    <string name="skin_mood_dry">乾燥肌</string>
+    <string name="skin_mood_dry_keywords">乾燥肌,うるおい,保湿,カサカサ,水分不足,水分</string>
+
+    <string name="skin_mood_tired">お疲れ肌</string>
+    <string name="skin_mood_tired_keywords">疲れ,睡眠不足,クマ,目元,ストレス,疲労</string>
+
+    <string name="skin_mood_sensitive">敏感肌</string>
+    <string name="skin_mood_sensitive_keywords">敏感肌,赤み,ヒリヒリ,かゆみ,鎮静,おだやか</string>
+
+    <string name="skin_mood_glowing">ツヤ肌</string>
+    <string name="skin_mood_glowing_keywords">ツヤ肌,ツヤ,ハリ,輝き,美肌,すこやか</string>
 </resources>

@@ -3722,4 +3722,28 @@
     <string name="ingredient_egg_name">अंडा (Egg)</string>
     <string name="ingredient_egg_benefits">अंडे की सफेदी में प्रोटीन होता है जो त्वचा के रोमछिद्रों को छोटा करता है और त्वचा में कसाव लाता है। अंडे की जर्दी रूखे बालों को गहराई से कंडीशन करती है और त्वचा को पोषण देती है।</string>
     <string name="ingredient_egg_keywords">अंडा,anda,egg</string>
+
+    <!-- Feature 32: Mood-Based Tip Picker -->
+    <string name="skin_mood_picker_title">आज आपकी त्वचा कैसा महसूस कर रही है?</string>
+    <string name="skin_mood_picker_subtitle">प्राकृतिक उपचार तुरंत पाने के लिए एक स्थिति चुनें</string>
+    <string name="skin_mood_title_formatted">%1$s त्वचा के लिए सुझाव</string>
+    <string name="skin_mood_no_tips">इस स्थिति के लिए कोई उपचार नहीं मिला।</string>
+
+    <string name="skin_mood_dull">बेजान</string>
+    <string name="skin_mood_dull_keywords">बेजान,चमक,निखार,डुल,काले</string>
+
+    <string name="skin_mood_oily">तैलीय</string>
+    <string name="skin_mood_oily_keywords">तैलीय,तेल,सीबम,चिपचिपा,रोमछिद्र</string>
+
+    <string name="skin_mood_dry">रूखी</string>
+    <string name="skin_mood_dry_keywords">रूखी,सूखी,नमी,मॉइस्चराइज़,रूखापन,पपड़ी</string>
+
+    <string name="skin_mood_tired">थकी हुई</string>
+    <string name="skin_mood_tired_keywords">थकी,थकान,नींद,आंखें,डार्क सर्कल,तनाव</string>
+
+    <string name="skin_mood_sensitive">संवेदनशील</string>
+    <string name="skin_mood_sensitive_keywords">संवेदनशील,लालिमा,खुजली,जलन,राहत,शांत</string>
+
+    <string name="skin_mood_glowing">चमकदार</string>
+    <string name="skin_mood_glowing_keywords">चमकदार,चमक,ग्लोइंग,ग्लो,निखार</string>
 </resources>

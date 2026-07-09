@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:fitsSystemWindows="true">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/toolBarColor">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txtTabTitle"
+            style="@style/FontBold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/_18sdp"
+            tools:text="Tips for Dull Skin" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <!-- Info Banner showing chosen condition context -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardMoodHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolBar"
+        android:layout_marginStart="@dimen/_12sdp"
+        android:layout_marginEnd="@dimen/_12sdp"
+        android:layout_marginTop="@dimen/_12sdp"
+        android:layout_marginBottom="@dimen/_6sdp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="2dp"
+        app:cardBackgroundColor="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:padding="@dimen/_10sdp">
+
+            <TextView
+                android:id="@+id/txtMoodEmoji"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="28sp"
+                tools:text="🌚" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginStart="@dimen/_10sdp">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/txtMoodSubtitle"
+                    style="@style/FontBold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/toolBarColor"
+                    android:textSize="14sp"
+                    tools:text="Dull Skin Remedies" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:text="@string/skin_mood_picker_subtitle"
+                    android:textColor="#666666"
+                    android:textSize="10sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- Main Container -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/ad_view"
+        android:layout_below="@+id/cardMoodHeader"
+        android:padding="@dimen/_4sdp">
+
+        <!-- RecyclerView of matched remedies -->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvMoodTips"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical"
+            tools:listitem="@layout/item_list" />
+
+        <!-- Empty state layout -->
+        <LinearLayout
+            android:id="@+id/layoutEmptyTips"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="@dimen/_20sdp"
+            android:visibility="gone"
+            tools:visibility="visible">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="@dimen/_60sdp"
+                android:layout_height="@dimen/_60sdp"
+                android:src="@drawable/ic_book"
+                android:tint="@color/toolBarColor" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tvEmptyMessage"
+                style="@style/FontMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_12sdp"
+                android:text="@string/skin_mood_no_tips"
+                android:textColor="#555555"
+                android:textSize="@dimen/_11sdp"
+                android:gravity="center" />
+        </LinearLayout>
+    </FrameLayout>
+
+    <RelativeLayout
+        android:id="@+id/ad_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center" />
+
+</RelativeLayout>

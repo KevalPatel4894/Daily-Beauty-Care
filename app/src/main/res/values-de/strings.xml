@@ -3722,4 +3722,28 @@
     <string name="ingredient_egg_name">Ei</string>
     <string name="ingredient_egg_benefits">Eiweiß ist reich an Proteinen, die die Poren verfeinern und die Haut straffen. Eigelb enthält Fettsäuren, die trockenes Haar intensiv pflegen und die Haut nähren.</string>
     <string name="ingredient_egg_keywords">ei,eigelb,eiweiß</string>
+
+    <!-- Feature 32: Mood-Based Tip Picker -->
+    <string name="skin_mood_picker_title">Wie fühlt sich Ihre Haut heute an?</string>
+    <string name="skin_mood_picker_subtitle">Wählen Sie einen Zustand für sofortige natürliche Heilmittel</string>
+    <string name="skin_mood_title_formatted">Tipps für %1$s Haut</string>
+    <string name="skin_mood_no_tips">Keine Heilmittel für diesen Zustand gefunden.</string>
+
+    <string name="skin_mood_dull">Stumpf</string>
+    <string name="skin_mood_dull_keywords">stumpf,glanz,aufhellen,blass,dunkel</string>
+
+    <string name="skin_mood_oily">Ölig</string>
+    <string name="skin_mood_oily_keywords">fettig,ölig,sebum,poren,talg</string>
+
+    <string name="skin_mood_dry">Trocken</string>
+    <string name="skin_mood_dry_keywords">trocken,feuchtigkeit,schuppig,trockenheit,dehydriert</string>
+
+    <string name="skin_mood_tired">Müde</string>
+    <string name="skin_mood_tired_keywords">müde,schlaf,augenringe,augen,stress,müdigkeit</string>
+
+    <string name="skin_mood_sensitive">Empfindlich</string>
+    <string name="skin_mood_sensitive_keywords">empfindlich,rötung,irritation,juckreiz,beruhigen</string>
+
+    <string name="skin_mood_glowing">Strahlend</string>
+    <string name="skin_mood_glowing_keywords">strahlend,glanz,gesund,glow</string>
 </resources>

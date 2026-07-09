@@ -3722,4 +3722,28 @@
     <string name="ingredient_egg_name">Яйцо (Egg)</string>
     <string name="ingredient_egg_benefits">Яичный белок богат белками, которые сужают поры и подтягивают кожу. Желток глубоко кондиционирует сухие волосы и интенсивно питает кожу.</string>
     <string name="ingredient_egg_keywords">яйцо,яйца,белок,желток,egg,egg white,egg yolk</string>
+
+    <!-- Feature 32: Mood-Based Tip Picker -->
+    <string name="skin_mood_picker_title">Каково состояние вашей кожи сегодня?</string>
+    <string name="skin_mood_picker_subtitle">Выберите состояние, чтобы подобрать натуральные средства</string>
+    <string name="skin_mood_title_formatted">Советы для %1$s кожи</string>
+    <string name="skin_mood_no_tips">Для этого состояния рецептов не найдено.</string>
+
+    <string name="skin_mood_dull">Тусклая</string>
+    <string name="skin_mood_dull_keywords">тусклая,блеск,сияние,бледная,темная,уставшая</string>
+
+    <string name="skin_mood_oily">Жирная</string>
+    <string name="skin_mood_oily_keywords">жирная,кожное сало,жир,блеск,поры</string>
+
+    <string name="skin_mood_dry">Сухая</string>
+    <string name="skin_mood_dry_keywords">сухая,увлажнение,влажность,шелушение,сухость</string>
+
+    <string name="skin_mood_tired">Уставшая</string>
+    <string name="skin_mood_tired_keywords">уставшая,сон,усталость,темные круги,глаза,стресс</string>
+
+    <string name="skin_mood_sensitive">Чувствительная</string>
+    <string name="skin_mood_sensitive_keywords">чувствительная,красная,раздражение,зуд,успокоить</string>
+
+    <string name="skin_mood_glowing">Сияющая</string>
+    <string name="skin_mood_glowing_keywords">сияющая,блестящая,здоровая,glow,сияние</string>
 </resources>
