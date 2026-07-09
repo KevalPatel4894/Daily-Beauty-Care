@@ -3807,4 +3807,97 @@
 
     <string name="body_diet_omega_fats_title">Graisses Oméga Saines</string>
     <string name="body_diet_omega_fats_desc">Manger des noix, des graines de lin et des avocats pour nourrir la barrière lipidique cutanée de l\'intérieur.</string>
+
+    <!-- Feature 23: Men's Grooming & Beard Care Guide -->
+    <string name="men_grooming">Soins pour Hommes</string>
+    <string name="beard_growth">Pousse de la Barbe</string>
+    <string name="mustache_care">Soin de la Moustache</string>
+    <string name="men_hair_fall">Soin des Cheveux</string>
+
+    <string name="beard_growth_oil_title">Huile de Romarin &amp; Coco</string>
+    <string name="beard_growth_oil_desc">Mélangez 2 cuillères à soupe d\'huile de coco tiède avec 5 gouttes d\'huile essentielle de romarin. Massez quotidiennement la zone de la barbe pour stimuler les follicules et favoriser une pousse plus dense.</string>
+
+    <string name="beard_growth_castor_title">Mélange de Ricin &amp; Amla</string>
+    <string name="beard_growth_castor_desc">Combinez des parts égales d\'huile de ricin et de jus d\'amla. Appliquez sur les zones clairsemées, massez en cercles pendant 10 minutes, laissez poser 20 minutes, puis rincez.</string>
+
+    <string name="beard_growth_aloe_title">Aloe Vera et Eucalyptus</string>
+    <string name="beard_growth_aloe_desc">Mélangez du gel d\'aloe vera frais avec 2 gouttes d\'huile d\'eucalyptus. Appliquez sur la zone de la barbe pour apaiser la peau, prévenir les pellicules de barbe et nourrir les racines.</string>
+
+    <string name="beard_diet_protein_title">Apport Riche en Protéines</string>
+    <string name="beard_diet_protein_desc">Les cheveux et la barbe sont faits de kératine. Mangez des aliments riches en protéines comme les œufs, les lentilles, les viandes maigres et le yaourt grec pour stimuler la pousse de l\'intérieur.</string>
+
+    <string name="beard_diet_biotin_title">Aliments avec Biotine &amp; Zinc</string>
+    <string name="beard_diet_biotin_desc">Consommez des noix, des graines de citrouille, des patates douces et des œufs. La biotine et le zinc augmentent la conversion de la testostérone et favorisent des follicules pileux sains.</string>
+
+    <string name="mustache_softener_butter_title">Adoucissant au Beurre de Karité</string>
+    <string name="mustache_softener_butter_desc">Frottez une noisette de beurre de karité bio entre vos doigts et appliquez sur votre moustache quotidiennement après la douche pour adoucir les poils drus.</string>
+
+    <string name="mustache_softener_honey_title">Miel et Eau Tiède</string>
+    <string name="mustache_softener_honey_desc">Mélangez 1 cuillère à café de miel brut avec de l\'eau tiède. Appliquez sur la moustache, laissez poser 10 minutes pour sceller l\'hydratation, puis rincez abondamment.</string>
+
+    <string name="mustache_styling_wax_title">Cire d\'Abeille Naturelle</string>
+    <string name="mustache_styling_wax_desc">Faites fondre un peu de cire d\'abeille avec de l\'huile de coco pour faire une cire coiffante maison. Utilisez-la pour structurer et contrôler les poils rebelles sans produits chimiques agressifs.</string>
+
+    <string name="mustache_diet_vit_a_c_title">Apport en Vitamines A &amp; C</string>
+    <string name="mustache_diet_vit_a_c_desc">Mangez des carottes, des épinards et des agrumes. Ces vitamines produisent du sébum, le revitalisant naturel qui maintient les poils doux et évite la casse.</string>
+
+    <string name="mustache_diet_hydration_title">Hydratation Optimale</string>
+    <string name="mustache_diet_hydration_desc">Buvez au moins 8 à 10 verres d\'eau par jour. La déshydratation rend directement les poils de la moustache et de la barbe secs, cassants et irritants.</string>
+
+    <string name="men_hair_onion_title">Thérapie au Jus d\'Oignon</string>
+    <string name="men_hair_onion_desc">Extrayez le jus d\'un oignon rouge, appliquez directement sur le cuir chevelu, laissez poser 15 à 20 minutes, puis lavez avec un shampooing doux pour lutter contre la calvitie masculine.</string>
+
+    <string name="men_hair_green_tea_title">Rinçage au Thé Vert</string>
+    <string name="men_hair_green_tea_desc">Infusez du thé vert, laissez refroidir et versez sur votre cuir chevelu après le shampooing. Il bloque la DHT, l\'hormone responsable de la chute des cheveux chez l\'homme.</string>
+
+    <string name="men_hair_oil_massage_title">Massage Tiède au Jojoba</string>
+    <string name="men_hair_oil_massage_desc">Massez de l\'huile de jojoba ou d\'amande tiède sur votre cuir chevelu pendant 10 minutes deux fois par semaine pour améliorer la circulation, renforcer les racines et réparer les dégâts du gel.</string>
+
+    <string name="men_hair_diet_zinc_title">Apport en Zinc &amp; Fer</string>
+    <string name="men_hair_diet_zinc_desc">Mangez des graines de citrouille, des épinards, des haricots et de l\'avoine. Le zinc et le fer sont des minéraux essentiels à la régénération cellulaire et préviennent la chute des cheveux.</string>
+
+    <string name="men_hair_diet_protein_title">Protéines d\'Œuf &amp; Poisson</string>
+    <string name="men_hair_diet_protein_desc">Intégrez des protéines de qualité à votre alimentation pour fournir les acides aminés essentiels à la reconstruction de la fibre capillaire abîmée par le coiffage quotidien.</string>
+
+    <!-- Exercises for Body Wellness & Men's Grooming -->
+    <string name="body_stretch_ex_title">Relevé de Bassin &amp; Étirements</string>
+    <string name="body_stretch_ex_desc">Allongez-vous sur le dos, pliez les genoux et levez les hanches. Cela tonifie les cuisses, les fessiers et l\'abdomen pour réduire les vergetures.</string>
+    <string name="body_neck_ex_title">Rotation du Cou &amp; Étirements</string>
+    <string name="body_neck_ex_desc">Tournez lentement votre cou 10 fois dans le sens des aiguilles d\'une montre et inversement pour améliorer la circulation et lisser les plis du cou.</string>
+    <string name="body_scrub_ex_title">Massage Lymphatique</string>
+    <string name="body_scrub_ex_desc">Lors de l\'exfoliation, massez en cercles vers le cœur pour stimuler le drainage lymphatique et favoriser la régénération cellulaire.</string>
+    <string name="body_elbow_ex_title">Exercices de Flexion des Articulations</string>
+    <string name="body_elbow_ex_desc">Fléchissez et étirez régulièrement vos coudes et vos genoux. Cela évite les frictions de la peau sèche et active la circulation.</string>
+    <string name="beard_ex_massage_title">Massage par Tapotement Facial</string>
+    <string name="beard_ex_massage_desc">Tapotez doucement vos joues et votre mâchoire du bout des doigts pendant 5 minutes par jour pour stimuler le flux sanguin et la pousse.</string>
+    <string name="mustache_ex_stretch_title">Gymnastique d\'Étirement des Lèvres</string>
+    <string name="mustache_ex_stretch_desc">Étirez votre lèvre supérieure vers le bas sur vos dents et souriez grandement. Maintenez 10 secondes pour détendre la peau sous la moustache.</string>
+    <string name="men_hair_ex_massage_title">Frottement des Ongles (Balayam)</string>
+    <string name="men_hair_ex_massage_desc">Frottez les ongles des deux mains les uns contre les autres pendant 10 minutes par jour. Cette technique stimule les nerfs du cuir chevelu.</string>
+
+    
+    <!-- Patched Missing Translations for Features -->
+    <string name="settings_faq_myths">F.A.Q. et Mythes de Beauté</string>
+    <string name="faq_title">F.A.Q. et Mythes de Beauté</string>
+    <string name="faq_subtitle">Découvrez la vérité derrière les mythes populaires</string>
+    <string name="faq_label_myth">MYTHE</string>
+    <string name="faq_label_fact">RÉALITÉ</string>
+    <string name="faq_myth_1_title">Le dentifrice guérit les boutons</string>
+    <string name="faq_myth_1_desc">Le dentifrice peut assécher rapidement les boutons pendant la nuit.</string>
+    <string name="faq_myth_1_fact">Le dentifrice contient des ingrédients forts comme le bicarbonate de soude et le menthol qui peuvent irriter la peau, causer des brûlures chimiques et des taches sombres. Il est préférable d\'utiliser de l\'acide salicylique.</string>
+    <string name="faq_myth_2_title">La peau grasse n\'a pas besoin de crème hydratante</string>
+    <string name="faq_myth_2_desc">Les peaux grasses doivent éviter les hydratants car ils favorisent les boutons.</string>
+    <string name="faq_myth_2_fact">Éviter d\'hydrater déshydrate la peau. En réaction, la peau produit ENCORE PLUS de sébum, bouchant les pores. La solution est un gel hydratant léger et sans huile.</string>
+    <string name="faq_myth_3_title">Arracher un cheveu blanc en fait pousser d\'autres</string>
+    <string name="faq_myth_3_desc">Si vous arrachez un cheveu blanc, trois autres repousseront.</string>
+    <string name="faq_myth_3_fact">Un seul cheveu pousse par follicule. Arracher un cheveu blanc n\'affecte pas les follicules voisins. Cependant, cela peut endommager le follicule et stopper définitivement la repousse.</string>
+    <string name="faq_myth_4_title">Les ingrédients naturels sont toujours sûrs</string>
+    <string name="faq_myth_4_desc">Si un ingrédient est 100% naturel, il est totalement inoffensif pour la peau.</string>
+    <string name="faq_myth_4_fact">Le citron ou le bicarbonate de soude sont très acides ou alcalins. Ils perturbent la barrière cutanée et causent des irritations graves. Faites toujours un test.</string>
+    <string name="faq_myth_5_title">Laver son visage fréquemment guérit l\'acné</string>
+    <string name="faq_myth_5_desc">L\'acné est causée par une peau sale, donc la laver souvent la purifiera.</string>
+    <string name="faq_myth_5_fact">L\'acné est liée aux hormones et aux pores obstrués, pas à la saleté. Trop de lavages éliminent les huiles protectrices et agressent la barrière cutanée.</string>
+    <string name="faq_myth_6_title">L\'eau chaude ouvre les pores, le froid les ferme</string>
+    <string name="faq_myth_6_desc">La vapeur ouvre les pores, tandis que l\'eau froide les referme.</string>
+    <string name="faq_myth_6_fact">Les pores n\'ont pas de muscles pour s\'ouvrir ou se fermer. L\'eau chaude peut dilater les vaisseaux et assécher la peau. Utilisez de l\'eau tiède.</string>
 </resources>

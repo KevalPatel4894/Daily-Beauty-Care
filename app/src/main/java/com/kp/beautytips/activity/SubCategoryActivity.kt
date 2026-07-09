@@ -237,6 +237,43 @@ class SubCategoryActivity : BaseActivity(), SubCategoryAdapter.OnItemClick {
                 subCategoryModel8.image = R.drawable.ic_white_hands
                 subCategory.add(subCategoryModel8)
             }
+            5 -> {
+                val subCategoryModel = SubCategoryModel()
+                subCategoryModel.categoryName = getString(R.string.stretch_marks)
+                subCategoryModel.image = R.drawable.ic_stretch
+                subCategory.add(subCategoryModel)
+
+                val subCategoryModel1 = SubCategoryModel()
+                subCategoryModel1.categoryName = getString(R.string.dark_neck)
+                subCategoryModel1.image = R.drawable.ic_de_tanning
+                subCategory.add(subCategoryModel1)
+
+                val subCategoryModel2 = SubCategoryModel()
+                subCategoryModel2.categoryName = getString(R.string.body_scrub)
+                subCategoryModel2.image = R.drawable.ic_body_scrub
+                subCategory.add(subCategoryModel2)
+
+                val subCategoryModel3 = SubCategoryModel()
+                subCategoryModel3.categoryName = getString(R.string.elbow_knee)
+                subCategoryModel3.image = R.drawable.ic_white_hands
+                subCategory.add(subCategoryModel3)
+            }
+            6 -> {
+                val subCategoryModel = SubCategoryModel()
+                subCategoryModel.categoryName = getString(R.string.beard_growth)
+                subCategoryModel.image = R.drawable.ic_beard_growth
+                subCategory.add(subCategoryModel)
+
+                val subCategoryModel1 = SubCategoryModel()
+                subCategoryModel1.categoryName = getString(R.string.mustache_care)
+                subCategoryModel1.image = R.drawable.ic_mustache_care
+                subCategory.add(subCategoryModel1)
+
+                val subCategoryModel2 = SubCategoryModel()
+                subCategoryModel2.categoryName = getString(R.string.men_hair_fall)
+                subCategoryModel2.image = R.drawable.ic_men_hair_fall
+                subCategory.add(subCategoryModel2)
+            }
         }
         rvCategory.layoutManager = LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false)
         rvCategory.adapter = SubCategoryAdapter(subCategory, this)

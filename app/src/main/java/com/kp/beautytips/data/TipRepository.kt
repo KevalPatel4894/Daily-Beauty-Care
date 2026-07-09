@@ -37,9 +37,9 @@ object TipRepository {
                     val nameRes = subcategoryObj.getString("nameRes")
                     val imageRes = subcategoryObj.getString("imageRes")
                     
-                    val remedies = parseTips(context, subcategoryObj.getJSONArray("remedies"))
-                    val diets = parseTips(context, subcategoryObj.getJSONArray("diets"))
-                    val exercises = parseTips(context, subcategoryObj.getJSONArray("exercises"))
+                    val remedies = parseTips(context, subcategoryObj.optJSONArray("remedies") ?: JSONArray())
+                    val diets = parseTips(context, subcategoryObj.optJSONArray("diets") ?: JSONArray())
+                    val exercises = parseTips(context, subcategoryObj.optJSONArray("exercises") ?: JSONArray())
                     
                     val subcategoryData = SubCategoryData(
                         subcategoryKey = subcategoryKey,

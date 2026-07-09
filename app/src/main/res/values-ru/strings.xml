@@ -3807,4 +3807,97 @@
 
     <string name="body_diet_omega_fats_title">Полезные Омега-жиры</string>
     <string name="body_diet_omega_fats_desc">Ешьте грецкие орехи, семена льна и авокадо для питания липидного барьера кожи изнутри.</string>
+
+    <!-- Feature 23: Men's Grooming & Beard Care Guide -->
+    <string name="men_grooming">Мужской Уход</string>
+    <string name="beard_growth">Рост Бороды</string>
+    <string name="mustache_care">Уход за Усами</string>
+    <string name="men_hair_fall">Уход за Волосами</string>
+
+    <string name="beard_growth_oil_title">Масло розмарина и кокоса</string>
+    <string name="beard_growth_oil_desc">Смешайте 2 столовые ложки теплого кокосового масла с 5 каплями эфирного масла розмарина. Массажируйте область бороды ежедневно, чтобы стимулировать волосяные фолликулы и способствовать росту густой бороды.</string>
+
+    <string name="beard_growth_castor_title">Смесь касторового масла и амлы</string>
+    <string name="beard_growth_castor_desc">Смешайте равные части касторового масла и сока амлы. Нанесите на участки с редкими волосами, массируйте круговыми движениями 10 минут, оставьте на 20 минут, затем смойте.</string>
+
+    <string name="beard_growth_aloe_title">Алоэ вера и эвкалипт</string>
+    <string name="beard_growth_aloe_desc">Смешайте свежий гель алоэ вера с 2 каплями эвкалиптового масла. Нанесите на область бороды, чтобы успокоить кожу, предотвратить перхоть на бороде и напитать корни волос.</string>
+
+    <string name="beard_diet_protein_title">Рацион с высоким содержанием белка</string>
+    <string name="beard_diet_protein_desc">Волосы и борода состоят из кератина. Употребляйте продукты, богатые белком, такие как яйца, чечевица, постное мясо и греческий йогурт, чтобы стимулировать рост бороды изнутри.</string>
+
+    <string name="beard_diet_biotin_title">Продукты с биотином и цинком</string>
+    <string name="beard_diet_biotin_desc">Употребляйте в пищу орехи, тыквенные семечки, сладкий картофель и яйца. Биотин и цинк способствуют превращению тестостерона и поддерживают здоровье волосяных фолликулов.</string>
+
+    <string name="mustache_softener_butter_title">Смягчающее масло ши</string>
+    <string name="mustache_softener_butter_desc">Разотрите горошину органического масла ши между пальцами и наносите на усы ежедневно после душа для смягчения жестких волос.</string>
+
+    <string name="mustache_softener_honey_title">Мед и теплая вода</string>
+    <string name="mustache_softener_honey_desc">Смешайте 1 чайную ложку сырого меда с теплой водой. Нанесите на усы, оставьте на 10 минут для удержания влаги, затем тщательно промойте.</string>
+
+    <string name="mustache_styling_wax_title">Натуральный воск для усов</string>
+    <string name="mustache_styling_wax_desc">Растопите немного пчелиного воска с кокосовым маслом, чтобы получить домашний воск для укладки. Используйте для придания формы и усмирения непослушных волосков без химии.</string>
+
+    <string name="mustache_diet_vit_a_c_title">Витамины A и C</string>
+    <string name="mustache_diet_vit_a_c_desc">Ешьте морковь, шпинат и цитрусовые. Эти витамины способствуют выработке кожного сала, натурального кондиционера, сохраняющего мягкость волос на лице.</string>
+
+    <string name="mustache_diet_hydration_title">Оптимальное увлажнение</string>
+    <string name="mustache_diet_hydration_desc">Выпивайте не менее 8-10 стаканов воды ежедневно. Обезвоживание приводит к сухости, ломкости и зуду в области усов и бороды.</string>
+
+    <string name="men_hair_onion_title">Терапия луковым соком</string>
+    <string name="men_hair_onion_desc">Выжмите сок одной красной луковицы, нанесите непосредственно на кожу головы, оставьте на 15-20 минут, затем промойте мягким шампунем против выпадения волос.</string>
+
+    <string name="men_hair_green_tea_title">Ополаскивание зеленым чаем</string>
+    <string name="men_hair_green_tea_desc">Заварите зеленый чай, дайте остыть и ополосните кожу головы после мытья шампунем. Он блокирует ДГТ — гормон, вызывающий выпадение волос у мужчин.</string>
+
+    <string name="men_hair_oil_massage_title">Теплый массаж с маслом жожоба</string>
+    <string name="men_hair_oil_massage_desc">Массируйте кожу головы теплым маслом жожоба или миндаля в течение 10 минут дважды в неделю для улучшения кровотока, укрепления корней и восстановления волос.</string>
+
+    <string name="men_hair_diet_zinc_title">Цинк и железо для волос</string>
+    <string name="men_hair_diet_zinc_desc">Ешьте тыквенные семечки, шпинат, фасоль и овес. Цинк и железо являются ключевыми минералами для деления клеток и предотвращают поредение волос у мужчин.</string>
+
+    <string name="men_hair_diet_protein_title">Белок яиц и рыбы</string>
+    <string name="men_hair_diet_protein_desc">Включите в рацион качественный белок, обеспечивающий аминокислоты для восстановления структуры волос после ежедневной укладки.</string>
+
+    <!-- Exercises for Body Wellness & Men's Grooming -->
+    <string name="body_stretch_ex_title">Подъем таза и растяжка</string>
+    <string name="body_stretch_ex_desc">Лягте на спину, согните ноги в коленях и поднимите бедра. Это тонизирует ягодицы и живот, помогая уменьшить растяжки.</string>
+    <string name="body_neck_ex_title">Вращение и растяжка шеи</string>
+    <string name="body_neck_ex_desc">Медленно вращайте шеей по часовой стрелке и против нее по 10 раз в день для улучшения кровотока и уменьшения складок.</string>
+    <string name="body_scrub_ex_title">Лимфатический массаж</string>
+    <string name="body_scrub_ex_desc">При нанесении скраба массируйте круговыми движениями по направлению к сердцу для стимуляции лимфодренажа и обновления клеток.</string>
+    <string name="body_elbow_ex_title">Сгибание суставов</string>
+    <string name="body_elbow_ex_desc">Регулярно сгибайте и разгибайте локти и колени. Это предотвращает трение сухой кожи и улучшает кровоснабжение суставов.</string>
+    <string name="beard_ex_massage_title">Похлопывающий массаж лица</string>
+    <string name="beard_ex_massage_desc">Слегка постукивайте кончиками пальцев по щекам и челюсти в течение 5 минут в день для улучшения кровотока и роста бороды.</string>
+    <string name="mustache_ex_stretch_title">Растяжка верхней губы</string>
+    <string name="mustache_ex_stretch_desc">Натяните верхнюю губу вниз на зубы и широко улыбнитесь. Задержитесь на 10 секунд для тонуса мышц в зоне усов.</string>
+    <string name="men_hair_ex_massage_title">Трение ногтей (Балаям)</string>
+    <string name="men_hair_ex_massage_desc">Трите ногти обеих рук друг о друга в течение 10 минут ежедневно. Этот метод стимулирует нервные окончания для укрепления волос.</string>
+
+    
+    <!-- Patched Missing Translations for Features -->
+    <string name="settings_faq_myths">Частые Вопросы и Мифы</string>
+    <string name="faq_title">Частые Вопросы и Мифы</string>
+    <string name="faq_subtitle">Узнайте правду о популярных бьюти-мифах</string>
+    <string name="faq_label_myth">МИФ</string>
+    <string name="faq_label_fact">ФАКТ</string>
+    <string name="faq_myth_1_title">Зубная паста лечит прыщи</string>
+    <string name="faq_myth_1_desc">Зубная паста может быстро высушить прыщ за ночь и избавить от него.</string>
+    <string name="faq_myth_1_fact">Зубная паста содержит агрессивные компоненты, такие как сода и ментол, которые вызывают ожоги и пигментацию. Безопаснее использовать салициловую кислоту.</string>
+    <string name="faq_myth_2_title">Жирной коже не нужен крем</string>
+    <string name="faq_myth_2_desc">Людям с жирной кожей не стоит пользоваться увлажняющими кремами.</string>
+    <string name="faq_myth_2_fact">Отсутствие увлажнения обезвоживает кожу. В ответ она начинает вырабатывать ЕЩЕ БОЛЬШЕ кожного сала. Используйте легкие гели без масел.</string>
+    <string name="faq_myth_3_title">Вырывание седых волос увеличивает их число</string>
+    <string name="faq_myth_3_desc">Если вырвать один седой волос, на его месте вырастут три новых.</string>
+    <string name="faq_myth_3_fact">Из одного фолликула растет один волос. Вырывание не влияет на соседние корни, но может повредить фолликул, приведя к облысению или инфекции.</string>
+    <string name="faq_myth_4_title">Натуральные ингредиенты всегда безопасны</string>
+    <string name="faq_myth_4_desc">Если ингредиент 100% натуральный, его можно спокойно наносить на кожу.</string>
+    <string name="faq_myth_4_fact">Лимонный сок или сода слишком кислые или щелочные. Они повреждают защитный барьер, вызывая ожоги и раздражение. Всегда проводите патч-тест.</string>
+    <string name="faq_myth_5_title">Частое умывание лечит акне</string>
+    <string name="faq_myth_5_desc">Акне возникает от грязи, поэтому частое мытье лица поможет очистить его.</string>
+    <string name="faq_myth_5_fact">Акне связано с гормонами и забитыми порами, а не грязью. Умывание чаще двух раз в день смывает защитный слой и только усиливает воспаления.</string>
+    <string name="faq_myth_6_title">Горячая вода открывает поры, холодная закрывает</string>
+    <string name="faq_myth_6_desc">Пар открывает поры для чистки, а холодная вода закрывает их.</string>
+    <string name="faq_myth_6_fact">В порах нет мышц, они не могут открываться или закрываться. Горячая вода сушит кожу, вызывая раздражение. Полезнее умываться теплой водой.</string>
 </resources>

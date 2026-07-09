@@ -3769,4 +3769,117 @@
 
     <string name="body_diet_omega_fats_title">Gorduras Saudáveis Ômega</string>
     <string name="body_diet_omega_fats_desc">Coma nozes, sementes de linhaça e abacate para nutrir a barreira lipídica da pele por dentro.</string>
+
+    <!-- Feature 23: Men's Grooming & Beard Care Guide -->
+    <string name="men_grooming">Cuidados Masculinos</string>
+    <string name="beard_growth">Crescimento da Barba</string>
+    <string name="mustache_care">Cuidados com o Bigode</string>
+    <string name="men_hair_fall">Cuidados com o Cabelo</string>
+
+    <string name="beard_growth_oil_title">Óleo de Alecrim e Coco</string>
+    <string name="beard_growth_oil_desc">Misture 2 colheres de sopa de óleo de coco morno com 5 gotas de óleo essencial de alecrim. Massageie na área da barba diariamente para estimular os folículos e promover um crescimento mais grosso.</string>
+
+    <string name="beard_growth_castor_title">Mistura de Óleo de Rícino e Amla</string>
+    <string name="beard_growth_castor_desc">Combine partes iguais de óleo de rícino e suco de amla. Aplique nas áreas com falhas, massageie em círculos por 10 minutos, deixe agir por 20 minutos e depois enxágue.</string>
+
+    <string name="beard_growth_aloe_title">Aloe Vera e Eucalipto</string>
+    <string name="beard_growth_aloe_desc">Misture gel de aloe vera fresco com 2 gotas de óleo de eucalipto. Aplique na área da barba para acalmar a pele, prevenir a caspa da barba e nutrir as raízes.</string>
+
+    <string name="beard_diet_protein_title">Ingestão Rica em Proteínas</string>
+    <string name="beard_diet_protein_desc">O cabelo e a barba são feitos de queratina. Consuma alimentos ricos em proteínas, como ovos, lentilhas, carnes magras e iogurte grego para nutrir o crescimento de dentro para fora.</string>
+
+    <string name="beard_diet_biotin_title">Alimentos com Biotina e Zinco</string>
+    <string name="beard_diet_biotin_desc">Consuma nozes, sementes de abóbora, batata-doce e ovos. A biotina e o zinco aumentam a conversão de testosterona e promovem folículos capilares saudáveis.</string>
+
+    <string name="mustache_softener_butter_title">Amaciante de Manteiga de Karité</string>
+    <string name="mustache_softener_butter_desc">Esfregue uma quantidade do tamanho de uma ervilha de manteiga de karité orgânica entre os dedos e aplique no bigode diariamente após o banho para amaciar os pelos grossos.</string>
+
+    <string name="mustache_softener_honey_title">Mel e Água Morna</string>
+    <string name="mustache_softener_honey_desc">Misture 1 colher de chá de mel cru com água morna. Aplique no bigode, deixe agir por 10 minutos para reter a umidade e depois enxágue bem.</string>
+
+    <string name="mustache_styling_wax_title">Cera de Abelha Natural</string>
+    <string name="mustache_styling_wax_desc">Derreta um pouco de cera de abelha com óleo de coco para fazer uma cera de modelar caseira. Use para modelar e controlar os pelos rebeldes do bigode sem produtos químicos agressivos.</string>
+
+    <string name="mustache_diet_vit_a_c_title">Ingestão de Vitaminas A e C</string>
+    <string name="mustache_diet_vit_a_c_desc">Coma cenoura, espinafre e frutas cítricas. Essas vitaminas produzem sebo, o condicionador natural que mantém os pelos faciais macios e evita a quebra.</string>
+
+    <string name="mustache_diet_hydration_title">Hidratação Ideal</string>
+    <string name="mustache_diet_hydration_desc">Beba pelo menos de 8 a 10 copos de água diariamente. A desidratação leva diretamente a pelos do bigode e da barba secos, quebradiços e com coceira.</string>
+
+    <string name="men_hair_onion_title">Terapia com Suco de Cebola</string>
+    <string name="men_hair_onion_desc">Extraia o suco de uma cebola roxa, aplique diretamente no couro cabeludo, deixe agir por 15-20 minutos e depois lave com um xampu suave para combater a queda masculina.</string>
+
+    <string name="men_hair_green_tea_title">Enxágue de Chá Verde</string>
+    <string name="men_hair_green_tea_desc">Prepare o chá verde, deixe esfriar e despeje no couro cabeludo após o xampu. Bloqueia o DHT, o hormônio responsável pela calvície masculina.</string>
+
+    <string name="men_hair_oil_massage_title">Massagem Morna com Jojoba</string>
+    <string name="men_hair_oil_massage_desc">Massageie óleo de jojoba ou amêndoa morno no couro cabeludo por 10 minutos, duas vezes por semana, para melhorar o fluxo sanguíneo, fortalecer as raízes e reparar os danos do gel.</string>
+
+    <string name="men_hair_diet_zinc_title">Aumento de Zinco e Ferro</string>
+    <string name="men_hair_diet_zinc_desc">Coma sementes de abóbora, espinafre, feijão e aveia. O zinco e o ferro são minerais cruciais para a reprodução celular e previnem a queda de cabelo em homens.</string>
+
+    <string name="men_hair_diet_protein_title">Proteína de Ovo e Peixe</string>
+    <string name="men_hair_diet_protein_desc">Inclua proteínas de alta qualidade em sua dieta para fornecer aminoácidos essenciais para reconstruir os fios de cabelo danificados pela modelagem diária.</string>
+
+    <!-- Exercises for Body Wellness & Men's Grooming -->
+    <string name="body_stretch_ex_title">Elevação Pélvica e Alongamento</string>
+    <string name="body_stretch_ex_desc">Deite-se de costas, dobre os joelhos e levante os quadris. Isso tonifica as coxas, glúteos e abdômen para ajudar a reduzir as estrias.</string>
+    <string name="body_neck_ex_title">Rotação e Alongamento do Pescoço</string>
+    <string name="body_neck_ex_desc">Gire lentamente o pescoço no sentido horário e anti-horário 10 vezes ao dia para melhorar a circulação e reduzir as marcas no pescoço.</string>
+    <string name="body_scrub_ex_title">Massagem Linfática</string>
+    <string name="body_scrub_ex_desc">Ao aplicar esfoliantes, massageie em movimentos circulares em direção ao coração para estimular a drenagem linfática e a regeneração celular.</string>
+    <string name="body_elbow_ex_title">Exercícios de Flexão das Articulações</string>
+    <string name="body_elbow_ex_desc">Flexione e alongue os cotovelos e joelhos regularmente. Isso evita o atrito da pele seca e melhora o fluxo sanguíneo nas articulações.</string>
+    <string name="beard_ex_massage_title">Massagem de Toques Faciais</string>
+    <string name="beard_ex_massage_desc">Dê toques suaves nas bochechas e no maxilar com as pontas dos dedos por 5 minutos diários para aumentar o fluxo sanguíneo e a raiz da barba.</string>
+    <string name="mustache_ex_stretch_title">Ginástica de Alongamento dos Lábios</string>
+    <string name="mustache_ex_stretch_desc">Estique o lábio superior para baixo sobre os dentes e sorria amplamente. Segure por 10 segundos para exercitar a pele do bigode.</string>
+    <string name="men_hair_ex_massage_title">Fricção de Unhas (Balayam)</string>
+    <string name="men_hair_ex_massage_desc">Esfregue as unhas de ambas as mãos umas contra as outras por 10 minutos diários. Esta técnica estimula os nervos do couro cabeludo contra a queda.</string>
+
+    
+    <!-- Patched Missing Translations for Features -->
+    <string name="ingredient_glossary_title">Glossário de Ingredientes</string>
+    <string name="ingredient_search_hint">Buscar ingredientes...</string>
+    <string name="ingredient_benefits_header">Benefícios de Beleza</string>
+    <string name="ingredient_remedies_header">Receitas com este ingrediente</string>
+    <string name="ingredient_no_remedies">Nenhuma receita encontrada com este ingrediente.</string>
+    <string name="ingredient_empty_list">Nenhum ingrediente corresponde à sua busca.</string>
+    <string name="settings_ingredient_glossary">Glossário de Ingredientes</string>
+    <string name="ingredient_honey_name">Mel</string>
+    <string name="ingredient_honey_benefits">O mel é um umectante natural que atrai umidade para a pele, hidratando-a intensamente. Possui propriedades antibacterianas e anti-inflamatórias, ideal para combater a acne e cicatrizes.</string>
+    <string name="ingredient_honey_keywords">mel</string>
+    <string name="ingredient_lemon_name">Limão</string>
+    <string name="ingredient_lemon_benefits">O limão é rico em Vitamina C e ácido cítrico, que agem como clareadores naturais para manchas de sol, cicatrizes de acne e imperfeições. Controla o excesso de oleosidade.</string>
+    <string name="ingredient_lemon_keywords">limao,limão</string>
+    <string name="ingredient_aloe_vera_name">Aloe Vera / Babosa</string>
+    <string name="ingredient_aloe_vera_benefits">A Aloe Vera é altamente calmante, anti-inflamatória e hidratante. Cura queimaduras solares, acalma peles irritadas, previne acne e fortalece o cabelo.</string>
+    <string name="ingredient_aloe_vera_keywords">aloe,aloevera,babosa</string>
+    <string name="ingredient_coconut_oil_name">Óleo de Coco</string>
+    <string name="ingredient_coconut_oil_benefits">O óleo de coco é profundamente nutritivo e contém ácidos graxos que protegem e hidratam a pele e o cabelo. Atua como um excelente condicionador e cura pele seca.</string>
+    <string name="ingredient_coconut_oil_keywords">oleo de coco,óleo de coco,coconut</string>
+    <string name="ingredient_cucumber_name">Pepino</string>
+    <string name="ingredient_cucumber_benefits">O pepino tem efeito refrescante e contém 96% de água. Reduz o inchaço, clareia olheiras, hidrata a pele e funciona como um tônico natural calmante.</string>
+    <string name="ingredient_cucumber_keywords">pepino</string>
+    <string name="ingredient_yogurt_name">Iogurte</string>
+    <string name="ingredient_yogurt_benefits">O iogurte contém ácido lático, que esfolia suavemente as células mortas da pele, fecha os poros e hidrata a pele seca. Também combate a caspa e dá brilho ao cabelo.</string>
+    <string name="ingredient_yogurt_keywords">iogurte</string>
+    <string name="ingredient_turmeric_name">Cúrcuma / Açafrão</string>
+    <string name="ingredient_turmeric_benefits">A cúrcuma é um poderoso antioxidante e anti-inflamatório. Clareia o tom de pele, combate bactérias causadoras de acne, cura danos e reduz manchas escuras.</string>
+    <string name="ingredient_turmeric_keywords">curcuma,cúrcuma,açafrao,açafrão</string>
+    <string name="ingredient_rose_water_name">Água de Rosas</string>
+    <string name="ingredient_rose_water_benefits">A água de rosas é um tônico natural que equilibra o pH da pele, reduz a vermelhidão e hidrata a pele. Limpa os poros e deixa um aroma floral refrescante.</string>
+    <string name="ingredient_rose_water_keywords">agua de rosas,água de rosas,rose water</string>
+    <string name="ingredient_milk_name">Leite</string>
+    <string name="ingredient_milk_benefits">O leite é rico em ácido lático e vitaminas essenciais. Funciona como um limpador suave, hidrata a pele seca, clareia o bronzeado e amacia a pele áspera.</string>
+    <string name="ingredient_milk_keywords">leite,milk</string>
+    <string name="ingredient_oatmeal_name">Aveia</string>
+    <string name="ingredient_oatmeal_benefits">A aveia é um excelente esfoliante natural e ingrediente anti-inflamatório. Alivia a coceira, cura o ressecamento, absorve o excesso de sebo e trata peles sensíveis.</string>
+    <string name="ingredient_oatmeal_keywords">aveia,oatmeal</string>
+    <string name="ingredient_green_tea_name">Chá Verde</string>
+    <string name="ingredient_green_tea_benefits">O chá verde é repleto de catequinas e antioxidantes que reduzem a vermelhidão da pele, acalmam o inchaço nos olhos, combatem a acne e previnem o envelhecimento.</string>
+    <string name="ingredient_green_tea_keywords">cha verde,chá verde,green tea</string>
+    <string name="ingredient_egg_name">Ovo</string>
+    <string name="ingredient_egg_benefits">A clara do ovo é rica em proteínas que fecham os poros, firmam a pele e controlam a oleosidade. A gema condiciona profundamente o cabelo seco e nutre a pele.</string>
+    <string name="ingredient_egg_keywords">ovo,egg</string>
 </resources>

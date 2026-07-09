@@ -6126,6 +6126,14 @@
             "imageRes": "ic_zin_rich_food",
             "detailsRes": "body_diet_zinc_desc"
           }
+        ],
+        "exercises": [
+          {
+            "titleRes": "body_stretch_ex_title",
+            "durationRes": "daily",
+            "imageRes": "stretch_pelvicthrust",
+            "detailsRes": "body_stretch_ex_desc"
+          }
         ]
       },
       {
@@ -6165,6 +6173,14 @@
             "imageRes": "avoid_small",
             "detailsRes": "body_diet_low_gi_desc"
           }
+        ],
+        "exercises": [
+          {
+            "titleRes": "body_neck_ex_title",
+            "durationRes": "daily",
+            "imageRes": "ic_the_giraffe",
+            "detailsRes": "body_neck_ex_desc"
+          }
         ]
       },
       {
@@ -6198,6 +6214,14 @@
             "imageRes": "blemishes_darkberries_small",
             "detailsRes": "body_diet_berries_desc"
           }
+        ],
+        "exercises": [
+          {
+            "titleRes": "body_scrub_ex_title",
+            "durationRes": "daily",
+            "imageRes": "facebodymassage",
+            "detailsRes": "body_scrub_ex_desc"
+          }
         ]
       },
       {
@@ -6230,6 +6254,161 @@
             "durationRes": "daily",
             "imageRes": "ic_omega_acid",
             "detailsRes": "body_diet_omega_fats_desc"
+          }
+        ],
+        "exercises": [
+          {
+            "titleRes": "body_elbow_ex_title",
+            "durationRes": "daily",
+            "imageRes": "ic_triangle_pose",
+            "detailsRes": "body_elbow_ex_desc"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "categoryKey": "men_grooming",
+    "categoryNameRes": "men_grooming",
+    "subcategories": [
+      {
+        "subcategoryKey": "beard_growth",
+        "nameRes": "beard_growth",
+        "imageRes": "ic_beard_growth",
+        "remedies": [
+          {
+            "titleRes": "beard_growth_oil_title",
+            "durationRes": "few_min",
+            "imageRes": "hairfall_oils_diet_small",
+            "detailsRes": "beard_growth_oil_desc"
+          },
+          {
+            "titleRes": "beard_growth_castor_title",
+            "durationRes": "twenty_min",
+            "imageRes": "grey_rosemary_remdy_small",
+            "detailsRes": "beard_growth_castor_desc"
+          },
+          {
+            "titleRes": "beard_growth_aloe_title",
+            "durationRes": "fifteen_min",
+            "imageRes": "aloevera",
+            "detailsRes": "beard_growth_aloe_desc"
+          }
+        ],
+        "diets": [
+          {
+            "titleRes": "beard_diet_protein_title",
+            "durationRes": "daily",
+            "imageRes": "ic_amino_acid_food",
+            "detailsRes": "beard_diet_protein_desc"
+          },
+          {
+            "titleRes": "beard_diet_biotin_title",
+            "durationRes": "daily",
+            "imageRes": "hairfall_oats_diet_small",
+            "detailsRes": "beard_diet_biotin_desc"
+          }
+        ],
+        "exercises": [
+          {
+            "titleRes": "beard_ex_massage_title",
+            "durationRes": "daily",
+            "imageRes": "ic_beard_ex_massage",
+            "detailsRes": "beard_ex_massage_desc"
+          }
+        ]
+      },
+      {
+        "subcategoryKey": "mustache_care",
+        "nameRes": "mustache_care",
+        "imageRes": "ic_mustache_care",
+        "remedies": [
+          {
+            "titleRes": "mustache_softener_butter_title",
+            "durationRes": "few_min",
+            "imageRes": "drydmg_butter_small",
+            "detailsRes": "mustache_softener_butter_desc"
+          },
+          {
+            "titleRes": "mustache_softener_honey_title",
+            "durationRes": "ten_min",
+            "imageRes": "honey_small",
+            "detailsRes": "mustache_softener_honey_desc"
+          },
+          {
+            "titleRes": "mustache_styling_wax_title",
+            "durationRes": "few_min",
+            "imageRes": "ic_jojoba_oil",
+            "detailsRes": "mustache_styling_wax_desc"
+          }
+        ],
+        "diets": [
+          {
+            "titleRes": "mustache_diet_vit_a_c_title",
+            "durationRes": "daily",
+            "imageRes": "ic_vitamin_c_food",
+            "detailsRes": "mustache_diet_vit_a_c_desc"
+          },
+          {
+            "titleRes": "mustache_diet_hydration_title",
+            "durationRes": "daily",
+            "imageRes": "dandruff_water_small",
+            "detailsRes": "mustache_diet_hydration_desc"
+          }
+        ],
+        "exercises": [
+          {
+            "titleRes": "mustache_ex_stretch_title",
+            "durationRes": "daily",
+            "imageRes": "ic_mustache_ex_stretch",
+            "detailsRes": "mustache_ex_stretch_desc"
+          }
+        ]
+      },
+      {
+        "subcategoryKey": "men_hair_fall",
+        "nameRes": "men_hair_fall",
+        "imageRes": "ic_men_hair_fall",
+        "remedies": [
+          {
+            "titleRes": "men_hair_onion_title",
+            "durationRes": "fifteen_min",
+            "imageRes": "onion_juice",
+            "detailsRes": "men_hair_onion_desc"
+          },
+          {
+            "titleRes": "men_hair_green_tea_title",
+            "durationRes": "ten_min",
+            "imageRes": "ic_green_tea",
+            "detailsRes": "men_hair_green_tea_desc"
+          },
+          {
+            "titleRes": "men_hair_oil_massage_title",
+            "durationRes": "ten_min",
+            "imageRes": "coconutoil_hairfall_remedy",
+            "detailsRes": "men_hair_oil_massage_desc"
+          }
+        ],
+        "diets": [
+          {
+            "titleRes": "men_hair_diet_zinc_title",
+            "durationRes": "daily",
+            "imageRes": "ic_zin_rich_food",
+            "detailsRes": "men_hair_diet_zinc_desc"
+          },
+          {
+            "titleRes": "men_hair_diet_protein_title",
+            "durationRes": "daily",
+            "imageRes": "ic_white_egg",
+            "detailsRes": "men_hair_diet_protein_desc"
+          }
+        ],
+        "exercises": [
+          {
+            "titleRes": "men_hair_ex_massage_title",
+            "durationRes": "daily",
+            "imageRes": "ic_men_hair_fall",
+            "detailsRes": "men_hair_ex_massage_desc"
           }
         ]
       }

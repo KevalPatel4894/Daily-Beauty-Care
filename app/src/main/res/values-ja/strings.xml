@@ -3807,4 +3807,97 @@
 
     <string name="body_diet_omega_fats_title">ヘルシーなオメガ脂肪酸</string>
     <string name="body_diet_omega_fats_desc">クルミ、亜麻仁、アボカドなどを食べて、内側から肌の脂質バリアを育みます。</string>
+
+    <!-- Feature 23: Men's Grooming & Beard Care Guide -->
+    <string name="men_grooming">メンズグルーミング</string>
+    <string name="beard_growth">ヒゲの成長</string>
+    <string name="mustache_care">口ヒゲのお手入れ</string>
+    <string name="men_hair_fall">男性のヘアケア</string>
+
+    <string name="beard_growth_oil_title">ローズマリー＆ココナッツオイル</string>
+    <string name="beard_growth_oil_desc">温かいココナッツオイル大さじ2杯にローズマリー精油を5滴混ぜます。毎日ヒゲの生える部分にマッサージして毛包を刺激し、太い成長を促します。</string>
+
+    <string name="beard_growth_castor_title">ひまし油＆アムラミックス</string>
+    <string name="beard_growth_castor_desc">ひまし油とアムラジュースを同量ずつ混ぜます。ヒゲの薄い部分に塗り、10分間円を描くようにマッサージし、20分間置いてから洗い流します。</string>
+
+    <string name="beard_growth_aloe_title">アロエベラ＆ユーカリ</string>
+    <string name="beard_growth_aloe_desc">新鮮なアロエベラジェルにユーカリオイルを2滴混ぜます。ヒゲ部分に塗ることで肌を落ち着かせ、ヒゲのフケを防ぎ、毛根に栄養を与えます。</string>
+
+    <string name="beard_diet_protein_title">高タンパク質の摂取</string>
+    <string name="beard_diet_protein_desc">髪やヒゲはケラチンでできています。卵、レンズ豆、脂肪分の少ない肉、ギリシャヨーグルトなどのタンパク質豊富な食品を食べて、内側からヒゲの成長を促しましょう。</string>
+
+    <string name="beard_diet_biotin_title">ビオチン＆亜鉛豊富な食品</string>
+    <string name="beard_diet_biotin_desc">ナッツ、カボチャの種、サツマイモ、卵を摂取しましょう。ビオチンと亜鉛はテストステロンの変換を高め、健康な毛包を促進します。</string>
+
+    <string name="mustache_softener_butter_title">シアバターソフナー</string>
+    <string name="mustache_softener_butter_desc">シャワー後、指先で小豆大のオーガニックシアバターをこすり合わせ、毎日口ヒゲに塗布してゴワつく毛を柔らかくします。</string>
+
+    <string name="mustache_softener_honey_title">ハチミツ＆ぬるま湯</string>
+    <string name="mustache_softener_honey_desc">生のハチミツ小さじ1杯をぬるま湯と混ぜます。口ヒゲに塗り、水分を閉じ込めるために10分間置いてから、よく洗い流します。</string>
+
+    <string name="mustache_styling_wax_title">天然ミツロウスタイリング</string>
+    <string name="mustache_styling_wax_desc">ミツロウにココナッツオイルを少し混ぜて溶かし、自家製のスタイリングワックスを作ります。化学物質を使わずに、乱れた口ヒゲを整えコントロールするのに使います。</string>
+
+    <string name="mustache_diet_vit_a_c_title">ビタミンA＆Cの摂取</string>
+    <string name="mustache_diet_vit_a_c_desc">ニンジン、ほうれん草、柑橘系の果物を食べましょう。これらのビタミンは皮脂を分泌させ、顔の毛を柔らかく保ち切れ毛を防ぐ天然のコンディショナーとなります。</string>
+
+    <string name="mustache_diet_hydration_title">適切な水分補給</string>
+    <string name="mustache_diet_hydration_desc">毎日少なくともコップ8〜10杯の水を飲みましょう。水分不足は、口ヒゲやヒゲが乾燥し、もろくなり、かゆみを引き起こす直接的な原因となります。</string>
+
+    <string name="men_hair_onion_title">オニオンジュースセラピー</string>
+    <string name="men_hair_onion_desc">赤タマネギ1個の絞り汁を頭皮に直接塗り、15〜20分置いてから、マイルドなシャンプーで洗い流して男性の薄毛に対処します。</string>
+
+    <string name="men_hair_green_tea_title">緑茶頭皮リンス</string>
+    <string name="men_hair_green_tea_desc">緑茶を淹れて冷まし、シャンプーした後の頭皮に注ぎます。男性の脱毛の原因となるホルモンであるDHTをブロックします。</string>
+
+    <string name="men_hair_oil_massage_title">温かいホホバマッサージ</string>
+    <string name="men_hair_oil_massage_desc">週に2回、温めたホホバオイルまたはアーモンドオイルで頭皮を10分間マッサージし、血流を改善して毛根を強くし、スタイリング剤によるダメージを修復します。</string>
+
+    <string name="men_hair_diet_zinc_title">亜鉛＆鉄分の補給</string>
+    <string name="men_hair_diet_zinc_desc">カボチャの種、ほうれん草、豆類、オートミールを食べましょう。亜鉛と鉄は細胞分裂に不可欠なミネラルであり、男性の抜け毛を防ぎます。</string>
+
+    <string name="men_hair_diet_protein_title">卵＆魚のタンパク質</string>
+    <string name="men_hair_diet_protein_desc">毎日のスタイリングで傷んだ髪を修復するために、アミノ酸を供給する良質なタンパク質を食事に取り入れましょう。</string>
+
+    <!-- Exercises for Body Wellness & Men's Grooming -->
+    <string name="body_stretch_ex_title">ヒップリフト＆ストレッチ</string>
+    <string name="body_stretch_ex_desc">仰向けに寝て膝を曲げ、お尻を持ち上げます。太もも、お尻、お腹を引き締め、肉割れ・妊娠線を軽減します。</string>
+    <string name="body_neck_ex_title">首の回転＆ストレッチ</string>
+    <string name="body_neck_ex_desc">首を時計回りと反時計回りに毎日10回ずつゆっくり回し、血行を良くして首のシワを防ぎます。</string>
+    <string name="body_scrub_ex_title">リンパマッサージ</string>
+    <string name="body_scrub_ex_desc">スクラブを塗る際、心臓に向かって円を描くようにマッサージし、リンパの流れを刺激して細胞の修復を促します。</string>
+    <string name="body_elbow_ex_title">関節の曲げ伸ばし運動</string>
+    <string name="body_elbow_ex_desc">肘や膝を定期的に曲げ伸ばしします。乾燥肌の摩擦を防ぎ、関節部分の血流を改善します。</string>
+    <string name="beard_ex_massage_title">顔のタッピングマッサージ</string>
+    <string name="beard_ex_massage_desc">毎日5分間、指先で頬と顎のラインを優しく叩きます。血流を増やし、毛包の成長を刺激します。</string>
+    <string name="mustache_ex_stretch_title">唇のストレッチ運動</string>
+    <string name="mustache_ex_stretch_desc">上唇を歯の上に下ろすように伸ばし、横に広く微笑みます。10秒間キープして、口ヒゲ周辺の筋肉をほぐします。</string>
+    <string name="men_hair_ex_massage_title">爪もみ（バライヤム）</string>
+    <string name="men_hair_ex_massage_desc">毎日10分間、両手の爪同士をこすり合わせます。この反射療法は頭皮の神経を刺激し、男性の抜け毛を防ぎます。</string>
+
+    
+    <!-- Patched Missing Translations for Features -->
+    <string name="settings_faq_myths">美容の迷信とよくある質問</string>
+    <string name="faq_title">美容의迷信とよくある質問</string>
+    <string name="faq_subtitle">巷にあふれる美容のウワサの真実を知りましょう</string>
+    <string name="faq_label_myth">迷信</string>
+    <string name="faq_label_fact">事実</string>
+    <string name="faq_myth_1_title">歯磨き粉でニキビが治る</string>
+    <string name="faq_myth_1_desc">ニキビに歯磨き粉を塗ると一晩で乾燥して消える。</string>
+    <string name="faq_myth_1_fact">歯磨き粉の成分（重曹やメントール等）は肌を刺激し、化学火傷や色素沈着の原因になります。サリチル酸等の専用ケアを使用する方が安全です。</string>
+    <string name="faq_myth_2_title">脂性肌に保湿は不要</string>
+    <string name="faq_myth_2_desc">脂性肌の人は、肌がさらにベタついてニキビができるため保湿を避けるべきである。</string>
+    <string name="faq_myth_2_fact">保湿を怠ると肌が脱水状態になり、補正しようと余計に皮脂を分泌します。油分を含まない軽量なジェルモイスチャライザーで水分を補いましょう。</string>
+    <string name="faq_myth_3_title">白髪を抜くと増える</string>
+    <string name="faq_myth_3_desc">白髪を1本抜くと、その場所に3本以上の白髪が生えてくる。</string>
+    <string name="faq_myth_3_fact">1つの毛穴からは1本の毛しか生えません。白髪を抜いても周囲의毛根には影響しませんが、毛根を傷めて二度と生えなくなったり感染症の危険があります。</string>
+    <string name="faq_myth_4_title">天然成分なら常に安全</string>
+    <string name="faq_myth_4_desc">100%天然、オーガニック、または食べられる成分なら肌に塗っても完全に安全である。</string>
+    <string name="faq_myth_4_fact">レモン果汁や重曹は酸性・アルカリ性が強すぎます。肌のpHバリアを破壊し、酷いかぶれや日光過敏症を起こす可能性があるためパッチテストが必須です。</string>
+    <string name="faq_myth_5_title">頻繁な洗顔でニキビが治る</string>
+    <string name="faq_myth_5_desc">ニキ비는肌の汚れが原因なので、1日に何度も洗顔すれば改善する。</string>
+    <string name="faq_myth_5_fact">ニキビはホルモンや毛穴の詰まり、アクネ菌が原因で、表面の汚れではありません。過度な洗顔は必要な皮脂を奪いバリア機能を弱め、悪化させます。</string>
+    <string name="faq_myth_6_title">温水で毛穴が開き、冷水で閉じる</string>
+    <string name="faq_myth_6_desc">スチームや温水は毛穴を開き、冷水は毛穴を引き締めて閉じる。</string>
+    <string name="faq_myth_6_fact">毛穴には筋肉がないため開閉はしません。温水は血管を広げて皮脂を奪い乾燥を招きます。冷水は炎症を落ち着かせる効果がありますが、ぬるま湯が最適です。</string>
 </resources>

@@ -3738,4 +3738,140 @@
 
     <string name="body_diet_omega_fats_title">건강한 오메가 지방산</string>
     <string name="body_diet_omega_fats_desc">피부의 지질 장벽을 내부에서 영양을 공급하기 위해 호두, 아마씨, 아보카도를 섭취하세요.</string>
+
+    <!-- Feature 23: Men's Grooming & Beard Care Guide -->
+    <string name="men_grooming">남성 그루밍</string>
+    <string name="beard_growth">수염 성장</string>
+    <string name="mustache_care">콧수염 관리</string>
+    <string name="men_hair_fall">남성 헤어 케어</string>
+
+    <string name="beard_growth_oil_title">로즈마리 &amp; 코코넛 오일</string>
+    <string name="beard_growth_oil_desc">따뜻한 코코넛 오일 2큰술에 로즈마리 에센셜 오일 5방울을 섞습니다. 매일 수염 부위에 마사지하여 모낭을 자극하고 더 굵은 성장을 촉진합니다.</string>
+
+    <string name="beard_growth_castor_title">피마자 오일 &amp; 암라 믹스</string>
+    <string name="beard_growth_castor_desc">피마자 오일과 암라 즙을 같은 비율로 섞습니다. 수염이 빈 부분에 바르고 10분간 원을 그리며 마사지한 뒤, 20분 동안 방치한 후 헹굽니다.</string>
+
+    <string name="beard_growth_aloe_title">알로에 베라 &amp; 유칼립투스</string>
+    <string name="beard_growth_aloe_desc">신선한 알로에 베라 겔에 유칼립투스 오일 2방울을 섞습니다. 수염 부위에 발라 피부를 진정시키고 수염 비듬을 예방하며 모근에 영양을 공급합니다.</string>
+
+    <string name="beard_diet_protein_title">단백질이 풍부한 식단</string>
+    <string name="beard_diet_protein_desc">머리카락과 수염은 케라틴으로 구성되어 있습니다. 계란, 렌틸콩, 살코기, 그리스 요거트와 같이 단백질이 풍부한 음식을 섭취하여 내면에서부터 수염 성장을 촉진하세요.</string>
+
+    <string name="beard_diet_biotin_title">비오틴 &amp; 아연 식품</string>
+    <string name="beard_diet_biotin_desc">견과류, 호박씨, 고구마, 계란을 섭취하세요. 비오틴과 아연은 테스토스테론 전환을 높이고 건강한 모낭을 촉진합니다.</string>
+
+    <string name="mustache_softener_butter_title">시어 버터 소프트너</string>
+    <string name="mustache_softener_butter_desc">샤워 후 매일 손끝에 완두콩 크기의 유기농 시어 버터를 문질러 콧수염에 발라 거친 수염을 부드럽게 가꿔줍니다.</string>
+
+    <string name="mustache_softener_honey_title">꿀 &amp; 따뜻한 물</string>
+    <string name="mustache_softener_honey_desc">생꿀 1티스푼을 따뜻한 물과 섞습니다. 콧수염에 바르고 수분을 가두기 위해 10분간 둔 다음 깨끗이 헹굽니다.</string>
+
+    <string name="mustache_styling_wax_title">천연 밀랍 스타일링</string>
+    <string name="mustache_styling_wax_desc">밀랍에 코코넛 오일을 약간 섞어 녹여 수제 스타일링 왁스를 만듭니다. 화학 성분 없이 흐트러진 콧수염을 고정하고 정리하는 데 사용합니다.</string>
+
+    <string name="mustache_diet_vit_a_c_title">비타민 A &amp; C 섭취</string>
+    <string name="mustache_diet_vit_a_c_desc">당근, 시금치, 감귤류 과일을 섭취하세요. 이 비타민들은 피지를 생성하여 수염을 부드럽게 유지하고 부러짐을 방지하는 천연 컨디셔너 역할을 합니다.</string>
+
+    <string name="mustache_diet_hydration_title">적절한 수분 보충</string>
+    <string name="mustache_diet_hydration_desc">매일 최소 8~10잔의 물을 마십니다. 탈수는 콧수염과 수염을 건조하고 부서지기 쉬우며 가렵게 만드는 직접적인 원인이 됩니다.</string>
+
+    <string name="men_hair_onion_title">양파즙 요법</string>
+    <string name="men_hair_onion_desc">적양파 1개의 즙을 내어 두피에 직접 바르고 15~20분간 둔 뒤, 순한 샴푸로 감아 남성형 탈모를 방지합니다.</string>
+
+    <string name="men_hair_green_tea_title">녹차 두피 린스</string>
+    <string name="men_hair_green_tea_desc">녹차를 우려 식힌 뒤 샴푸 후 두피에 붓습니다. 남성 탈모를 유발하는 호르몬인 DHT를 차단합니다.</string>
+
+    <string name="men_hair_oil_massage_title">따뜻한 호호바 마사지</string>
+    <string name="men_hair_oil_massage_desc">일주일에 두 번, 따뜻한 호호바 또는 아몬드 오일로 두피를 10분간 마사지하여 혈류를 개선하고 모근을 강화하며 헤어 제품으로 인한 손상을 복구합니다.</string>
+
+    <string name="men_hair_diet_zinc_title">아연 &amp; 철분 보충</string>
+    <string name="men_hair_diet_zinc_desc">호박씨, 시금치, 콩류, 오트밀을 섭취하세요. 아연과 철분은 세포 재생에 필수적인 미네랄이며 남성 탈모를 예방합니다.</string>
+
+    <string name="men_hair_diet_protein_title">계란 &amp; 생선 단백질</string>
+    <string name="men_hair_diet_protein_desc">매일 스타일링으로 손상된 모발을 복구하는 데 필요한 아미노산을 제공하기 위해 양질의 단백질을 식단에 포함시키세요.</string>
+
+    <!-- Exercises for Body Wellness & Men's Grooming -->
+    <string name="body_stretch_ex_title">골반 들어올리기 &amp; 스트레칭</string>
+    <string name="body_stretch_ex_desc">등을 대고 누워 무릎을 굽힌 뒤 엉덩이를 들어 올립니다. 허벅지, 둔근, 복부를 탄력 있게 가꿔 튼살을 줄여줍니다.</string>
+    <string name="body_neck_ex_title">목 회전 &amp; 스트레칭</string>
+    <string name="body_neck_ex_desc">하루 10회씩 목을 시계 방향 및 반시계 방향으로 천천히 돌려 혈액 순환을 돕고 목 주름을 예방합니다.</string>
+    <string name="body_scrub_ex_title">림프 마사지</string>
+    <string name="body_scrub_ex_desc">스크럽을 바를 때 심장 방향으로 원을 그리며 마사지하여 림프 순환을 돕고 세포 재생을 촉진합니다.</string>
+    <string name="body_elbow_ex_title">관절 굽히기 운동</string>
+    <string name="body_elbow_ex_desc">팔꿈치와 무릎을 규칙적으로 굽히고 폅니다. 건조한 피부의 마찰을 방지하고 관절 부위 혈류를 개선합니다.</string>
+    <string name="beard_ex_massage_title">얼굴 태핑 마사지</string>
+    <string name="beard_ex_massage_desc">하루 5분씩 손가락 끝으로 볼과 턱선을 가볍게 두드려 혈류를 촉진하고 수염 모낭 성장을 자극합니다.</string>
+    <string name="mustache_ex_stretch_title">입술 늘리기 운동</string>
+    <string name="mustache_ex_stretch_desc">윗입술을 치아 아래로 잡아 늘린 상태로 넓게 미소를 짓습니다. 10초간 유지하여 콧수염 부위 근육을 자극합니다.</string>
+    <string name="men_hair_ex_massage_title">손톱 비비기 (발라얌)</string>
+    <string name="men_hair_ex_massage_desc">매일 10분간 양손의 손톱을 서로 마찰시킵니다. 이 반사 요법은 두피 신경을 자극하여 탈모를 예방해 줍니다.</string>
+
+    
+    <!-- Patched Missing Translations for Features -->
+    <string name="ingredient_glossary_title">성분 사전</string>
+    <string name="ingredient_search_hint">성분 검색...</string>
+    <string name="ingredient_benefits_header">미용 효과</string>
+    <string name="ingredient_remedies_header">이 성분을 사용한 관리법</string>
+    <string name="ingredient_no_remedies">이 성분을 포함하는 관리법을 찾을 수 없습니다.</string>
+    <string name="ingredient_empty_list">검색 조건에 맞는 성분이 없습니다.</string>
+    <string name="settings_ingredient_glossary">성분 사전</string>
+    <string name="ingredient_honey_name">꿀</string>
+    <string name="ingredient_honey_benefits">꿀은 피부로 수분을 끌어당기는 천연 보습제로 강력한 보습 효과를 제공합니다. 뛰어난 항균 및 항염 작용으로 여드름을 완화하고 흉터를 치유하며 피부에 윤기를 더합니다.</string>
+    <string name="ingredient_honey_keywords">꿀,허니</string>
+    <string name="ingredient_lemon_name">레몬</string>
+    <string name="ingredient_lemon_benefits">레몬은 비타민 C와 구연산이 풍부하여 기미, 여드름 흉터, 잡티를 밝혀주는 천연 미백제 역할을 합니다. 수렴 작용으로 과도한 피지 분비를 조절합니다.</string>
+    <string name="ingredient_lemon_keywords">레몬</string>
+    <string name="ingredient_aloe_vera_name">알로에 베라</string>
+    <string name="ingredient_aloe_vera_benefits">알로에 베라는 진정, 항염 및 보습 효과가 뛰어납니다. 햇빛에 탄 피부를 진정시키고, 자극받은 피부를 치유하며, 여드름 피부를 맑게 하고 모발을 튼튼하게 합니다.</string>
+    <string name="ingredient_aloe_vera_keywords">알로에,알로에베라</string>
+    <string name="ingredient_coconut_oil_name">코코넛 오일</string>
+    <string name="ingredient_coconut_oil_benefits">코코넛 오일은 깊은 영양을 공급하며 피부와 모발을 보호하고 보습하는 지방산이 풍부합니다. 모발 컨디셔너로 적합하며 건조한 피부를 개선합니다.</string>
+    <string name="ingredient_coconut_oil_keywords">코코넛,코코넛오일</string>
+    <string name="ingredient_cucumber_name">오이</string>
+    <string name="ingredient_cucumber_benefits">오이는 쿨링 효과가 뛰어나며 96%의 수분으로 구성되어 있습니다. 붓기를 줄이고 다크서클을 완화하며 피부를 촉촉하게 하는 천연 토너 역할을 합니다.</string>
+    <string name="ingredient_cucumber_keywords">오이</string>
+    <string name="ingredient_yogurt_name">요거트 / 요구르트</string>
+    <string name="ingredient_yogurt_benefits">요거트의 젖산 성분은 각질을 부드럽게 제거하고 모공을 수축시키며 건조한 피부를 촉촉하게 합니다. 비듬을 예방하고 머릿결에 윤기를 더합니다.</string>
+    <string name="ingredient_yogurt_keywords">요거트,요구르트</string>
+    <string name="ingredient_turmeric_name">강황</string>
+    <string name="ingredient_turmeric_benefits">강황은 강력한 항산화 및 항염 물질입니다. 피부톤을 밝히고 여드름 유발 박테리아를 억제하며 손상된 피부를 치유하고 기미를 완화합니다.</string>
+    <string name="ingredient_turmeric_keywords">강황,울금</string>
+    <string name="ingredient_rose_water_name">로즈 워터 / 장미수</string>
+    <string name="ingredient_rose_water_benefits">장미수는 피부 pH 균형을 맞추고 붉은 기를 완화하며 수분을 공급하는 천연 토너입니다. 모공을 청소하고 상쾌한 장미 향을 남깁니다.</string>
+    <string name="ingredient_rose_water_keywords">로즈워터,장미수</string>
+    <string name="ingredient_milk_name">우유</string>
+    <string name="ingredient_milk_benefits">우유는 젖산과 필수 비타민이 풍부하여 부드러운 클렌저 역할을 합니다. 건조한 피부에 수분을 공급하고 칙칙한 피부를 맑게 하며 거친 피부를 부드럽게 합니다.</string>
+    <string name="ingredient_milk_keywords">우유,밀크</string>
+    <string name="ingredient_oatmeal_name">오트밀 / 귀리</string>
+    <string name="ingredient_oatmeal_benefits">오트밀은 우수한 천연 각질 제거제이자 항염 성분입니다. 가려움증을 완화하고 건조함을 치유하며 과도한 피지를 흡수해 민감성 피부를 보호합니다.</string>
+    <string name="ingredient_oatmeal_keywords">오트밀,귀리</string>
+    <string name="ingredient_green_tea_name">녹차</string>
+    <string name="ingredient_green_tea_benefits">녹차에는 카테킨과 항산화 성분이 가득하여 피부의 붉은 기를 가라앉히고 눈가 붓기를 진정시키며 여드름과 조기 노화를 방지합니다.</string>
+    <string name="ingredient_green_tea_keywords">녹차,그린티,티백</string>
+    <string name="ingredient_egg_name">달걀 / 계란</string>
+    <string name="ingredient_egg_benefits">달걀흰자의 단백질은 모공을 수축시키고 피부 탄력을 높이며 유분을 조절합니다. 노른자의 지방산은 건조한 모발을 촉촉하게 하고 피부에 영양을 줍니다.</string>
+    <string name="ingredient_egg_keywords">계란,달걀,에그</string>
+    <string name="settings_faq_myths">자주 묻는 질문 및 미신</string>
+    <string name="faq_title">자주 묻는 질문 및 미신</string>
+    <string name="faq_subtitle">대중적인 뷰티 미신 뒤에 숨겨진 진실을 알아보세요</string>
+    <string name="faq_label_myth">미신</string>
+    <string name="faq_label_fact">사실</string>
+    <string name="faq_myth_1_title">치약이 여드름을 치료한다</string>
+    <string name="faq_myth_1_desc">치약은 밤새 여드름을 빠르게 말리고 없앨 수 있다.</string>
+    <string name="faq_myth_1_fact">치약에는 베이킹 소다, 멘톨 등 피부를 자극하고 화학적 화상이나 색소 침착을 유발할 수 있는 강한 성분이 포함되어 있습니다. 살리실산 성분의 제품을 사용하는 것이 더 안전합니다.</string>
+    <string name="faq_myth_2_title">지성 피부는 수분크림이 필요 없다</string>
+    <string name="faq_myth_2_desc">지성 피부인 사람은 피부를 더 기름지게 하고 트러블을 유발하므로 수분크림을 피해야 한다.</string>
+    <string name="faq_myth_2_fact">수분크림을 생략하면 피부가 탈수됩니다. 이에 대응하여 피부는 보상을 위해 실제로 더 많은 피지(기름)를 생성하여 모공이 더 막히게 됩니다. 해결책은 가볍고 오일 프리인 젤 수분크림을 사용하는 것입니다.</string>
+    <string name="faq_myth_3_title">흰머리를 뽑으면 더 많이 자란다</string>
+    <string name="faq_myth_3_desc">흰머리를 한 가닥 뽑으면 그 자리에 세 가닥 이상의 흰머리가 다시 자란다.</string>
+    <string name="faq_myth_3_fact">한 개의 모낭에서는 한 가닥의 머리카락만 자랄 수 있습니다. 흰머리를 뽑는 것이 주변 모낭에 영향을 주어 다른 머리카락을 하얗게 만들지는 않습니다. 다만 모낭이 손상되어 탈모나 감염을 유발할 수 있습니다.</string>
+    <string name="faq_myth_4_title">천연 성분은 항상 안전하다</string>
+    <string name="faq_myth_4_desc">100% 천연, 유기농 또는 먹을 수 있는 성분은 피부에 직접 발라도 완전히 안전하다.</string>
+    <string name="faq_myth_4_fact">레몬즙, 식초, 베이킹 소다 등 많은 천연 성분은 매우 산성이거나 알칼리성입니다. 이들은 피부 pH 장벽을 무너뜨려 화상이나 자극을 유발할 수 있으므로 항상 패치 테스트를 해야 합니다.</string>
+    <string name="faq_myth_5_title">세수를 자주 하면 여드름이 치료된다</string>
+    <string name="faq_myth_5_desc">여드름은 더러운 피부 때문에 발생하므로 하루에 여러 번 세수하면 피부가 깨끗해진다.</string>
+    <string name="faq_myth_5_fact">여드름은 호르몬 변화, 막힌 모공, 박테리아로 인해 발생하며 표면의 먼지 때문이 아닙니다. 하루에 두 번 이상 세안하면 보호용 천연 오일이 제거되어 피부 장벽을 손상시켜 오히려 악화될 수 있습니다.</string>
+    <string name="faq_myth_6_title">뜨거운 물은 모공을 열고 찬물은 닫는다</string>
+    <string name="faq_myth_6_desc">스팀이나 뜨거운 물은 딥클렌징을 위해 모공을 열고, 찬물은 모공을 닫거나 축소시킨다.</string>
+    <string name="faq_myth_6_fact">모공에는 근육이 없으므로 스스로 열거나 닫힐 수 없습니다. 뜨거운 물은 혈관을 확장시키고 오일을 빼앗아 건조함을 유발합니다. 찬물은 모공을 닫지 못하지만 진정 효과가 있습니다. 미온수가 가장 좋습니다.</string>
 </resources>

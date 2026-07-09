@@ -3746,4 +3746,138 @@
 
     <string name="skin_mood_glowing">चमकदार</string>
     <string name="skin_mood_glowing_keywords">चमकदार,चमक,ग्लोइंग,ग्लो,निखार</string>
+
+    <!-- Feature 23: Men's Grooming & Beard Care Guide -->
+    <string name="men_grooming">पुरुषों की ग्रूमिंग</string>
+    <string name="beard_growth">दाढ़ी का बढ़ना</string>
+    <string name="mustache_care">मूंछों की देखभाल</string>
+    <string name="men_hair_fall">पुरुषों के बालों की देखभाल</string>
+
+    <string name="beard_growth_oil_title">रोज़मेरी और नारियल तेल</string>
+    <string name="beard_growth_oil_desc">2 चम्मच गुनगुने नारियल तेल में 5 बूंद रोज़मेरी एसेंशियल ऑयल मिलाएं। बालों के रोम को उत्तेजित करने और घने विकास को बढ़ावा देने के लिए रोजाना अपनी दाढ़ी वाले क्षेत्र में मालिश करें।</string>
+
+    <string name="beard_growth_castor_title">अरंडी का तेल और आंवला मिश्रण</string>
+    <string name="beard_growth_castor_desc">अरंडी का तेल और आंवले का रस बराबर मात्रा में मिलाएं। पैच वाले स्थानों पर लगाएं, 10 मिनट के लिए गोलाकार गति में मालिश करें, 20 मिनट के लिए छोड़ दें, फिर धो लें।</string>
+
+    <string name="beard_growth_aloe_title">एलोवेरा और नीलगिरी</string>
+    <string name="beard_growth_aloe_desc">ताजे एलोवेरा जेल में 2 बूंद नीलगिरी का तेल मिलाएं। त्वचा को शांत करने, दाढ़ी की रूसी को रोकने और बालों की जड़ों को पोषण देने के लिए दाढ़ी वाले क्षेत्र में लगाएं।</string>
+
+    <string name="beard_diet_protein_title">प्रोटीन युक्त आहार</string>
+    <string name="beard_diet_protein_desc">बाल और दाढ़ी केराटिन से बने होते हैं। दाढ़ी के विकास को बढ़ावा देने के लिए अंडे, दालें, बिना वसा का मांस और ग्रीक योगर्ट जैसे प्रोटीन युक्त खाद्य पदार्थ खाएं।</string>
+
+    <string name="beard_diet_biotin_title">बायोटिन और जिंक खाद्य पदार्थ</string>
+    <string name="beard_diet_biotin_desc">नट्स, कद्दू के बीज, शकरकंद और अंडे का सेवन करें। बायोटिन और जिंक टेस्टोस्टेरोन रूपांतरण को बढ़ाते हैं और स्वस्थ बालों के रोम को बढ़ावा देते हैं।</string>
+
+    <string name="mustache_softener_butter_title">शिया बटर सॉफ्टनर</string>
+    <string name="mustache_softener_butter_desc">अपनी उंगलियों के बीच मटर के आकार का ऑर्गेनिक शिया बटर रगड़ें और नहाने के बाद रोजाना अपनी मूंछों पर लगाएं ताकि रूखे बाल मुलायम हो सकें।</string>
+
+    <string name="mustache_softener_honey_title">शहद और गुनगुना पानी</string>
+    <string name="mustache_softener_honey_desc">1 चम्मच कच्चे शहद को गुनगुने पानी में मिलाएं। अपनी मूंछों पर लगाएं, नमी बनाए रखने के लिए इसे 10 मिनट तक लगा रहने दें, फिर अच्छी तरह धो लें।</string>
+
+    <string name="mustache_styling_wax_title">प्राकृतिक मोम स्टाइलिंग</string>
+    <string name="mustache_styling_wax_desc">घर पर स्टाइलिंग वैक्स बनाने के लिए थोड़े से बीज़वैक्स को नारियल तेल के साथ पिघलाएं। बिना किसी कठोर रसायन के मूंछों के अनियंत्रित बालों को आकार देने और नियंत्रित करने के लिए इसका उपयोग करें।</string>
+
+    <string name="mustache_diet_vit_a_c_title">विटामिन ए और सी आहार</string>
+    <string name="mustache_diet_vit_a_c_desc">गाजर, पालक और खट्टे फल खाएं। ये विटामिन सीबम का उत्पादन करते हैं, जो प्राकृतिक कंडीशनर है और चेहरे के बालों को मुलायम रखता है और टूटने से बचाता है।</string>
+
+    <string name="mustache_diet_hydration_title">भरपूर पानी पीना</string>
+    <string name="mustache_diet_hydration_desc">रोजाना कम से कम 8-10 गिलास पानी पिएं। डिहाइड्रेशन से मूंछें और दाढ़ी के बाल सूखे, बेजान और खुजलीदार हो जाते हैं।</string>
+
+    <string name="men_hair_onion_title">प्याज के रस का उपचार</string>
+    <string name="men_hair_onion_desc">एक लाल प्याज का रस निकालें, इसे सीधे स्कैल्प पर लगाएं, 15-20 मिनट के लिए छोड़ दें, फिर पुरुषों के बालों के पतले होने की समस्या से लड़ने के लिए हल्के शैम्पू से धो लें।</string>
+
+    <string name="men_hair_green_tea_title">ग्रीन टी स्कैल्प रिंस</string>
+    <string name="men_hair_green_tea_desc">ग्रीन टी बनाएं, इसे ठंडा होने दें और शैम्पू करने के बाद इसे अपने स्कैल्प पर डालें। यह DHT को ब्लॉक करता है, जो पुरुषों में बालों के झड़ने के लिए जिम्मेदार हार्मोन है।</string>
+
+    <string name="men_hair_oil_massage_title">गुनगुने जोजोबा तेल की मालिश</string>
+    <string name="men_hair_oil_massage_desc">रक्त प्रवाह में सुधार करने, बालों की जड़ों को मजबूत करने और स्टाइलिंग जेल के नुकसान को ठीक करने के लिए सप्ताह में दो बार 10 मिनट के लिए अपने स्कैल्प में गुनगुने जोजोबा या बादाम के तेल की मालिश करें।</string>
+
+    <string name="men_hair_diet_zinc_title">जिंक और आयरन बूस्ट</string>
+    <string name="men_hair_diet_zinc_desc">कद्दू के बीज, पालक, बीन्स और ओट्स खाएं। जिंक और आयरन कोशिकाओं के पुनर्निर्माण के लिए महत्वपूर्ण खनिज हैं और पुरुषों में बालों को पतला होने से रोकते हैं।</string>
+
+    <string name="men_hair_diet_protein_title">अंडा और मछली प्रोटीन</string>
+    <string name="men_hair_diet_protein_desc">रोजाना स्टाइलिंग से खराब हुए बालों को फिर से ठीक करने के लिए अपने आहार में उच्च गुणवत्ता वाले प्रोटीन शामिल करें ताकि आवश्यक अमीनो एसिड मिल सके।</string>
+
+    <!-- Exercises for Body Wellness & Men's Grooming -->
+    <string name="body_stretch_ex_title">पेल्विक थ्रस्ट और स्ट्रेचिंग</string>
+    <string name="body_stretch_ex_desc">पीठ के बल लेटें, घुटने मोड़ें और कूल्हों को ऊपर उठाएं। यह जांघों, नितंबों और पेट को टोन करता है जिससे स्ट्रेच मार्क्स कम होते हैं।</string>
+    <string name="body_neck_ex_title">गर्दन घुमाना और स्ट्रेचिंग</string>
+    <string name="body_neck_ex_desc">रक्त परिसंचरण में सुधार और गर्दन की झुर्रियों को कम करने के लिए रोजाना 10 बार गर्दन को क्लॉकवाइज और एंटी-क्लॉकवाइज घुमाएं।</string>
+    <string name="body_scrub_ex_title">लिम्फैटिक मसाज</string>
+    <string name="body_scrub_ex_desc">स्क्रब लगाते समय, लिम्फैटिक ड्रेनेज को उत्तेजित करने और कोशिकाओं की मरम्मत को बढ़ावा देने के लिए दिल की ओर गोलाकार गति में मालिश करें।</string>
+    <string name="body_elbow_ex_title">जोड़ों को मोड़ने का व्यायाम</string>
+    <string name="body_elbow_ex_desc">नियमित रूप से अपनी कोहनी और घुटनों को मोड़ें और फैलाएं। यह सूखी त्वचा के घर्षण को रोकता है और रक्त प्रवाह में सुधार करता है।</string>
+    <string name="beard_ex_massage_title">चेहरे की टैपिंग मालिश</string>
+    <string name="beard_ex_massage_desc">रक्त प्रवाह बढ़ाने और रोमों के विकास को उत्तेजित करने के लिए रोजाना 5 मिनट तक उंगलियों से अपने गालों और जबड़े को धीरे से थपथपाएं।</string>
+    <string name="mustache_ex_stretch_title">होठों को खींचने का व्यायाम</string>
+    <string name="mustache_ex_stretch_desc">अपने ऊपरी होंठ को नीचे दांतों की ओर खींचें और बड़ी मुस्कान दें। मूंछों की मांसपेशियों को लचीला बनाने के लिए 10 सेकंड तक रोकें।</string>
+    <string name="men_hair_ex_massage_title">नाखून रगड़ना (बालायाम)</string>
+    <string name="men_hair_ex_massage_desc">रोजाना 10 मिनट तक दोनों हाथों के नाखूनों को आपस में रगड़ें। यह रिफ्लेक्सोलॉजी तकनीक बालों को झड़ने से रोकने के लिए स्कैल्प की नसों को उत्तेजित करती है।</string>
+
+    
+    <!-- Patched Missing Translations for Features -->
+    <string name="settings_faq_myths">एफ.ए.क्यू. और मिथक निवारक</string>
+    <string name="faq_title">एफ.ए.क्यू. और मिथक निवारक</string>
+    <string name="faq_subtitle">लोकप्रिय सौंदर्य मिथकों के पीछे की सच्चाई जानें</string>
+    <string name="faq_label_myth">मिथक</string>
+    <string name="faq_label_fact">तथ्य</string>
+    <string name="faq_myth_1_title">टूथपेस्ट मुंहासे ठीक करता है</string>
+    <string name="faq_myth_1_desc">टूथपेस्ट रातभर में मुंहासों को सुखा सकता है और मुंहासे गायब कर सकता है।</string>
+    <string name="faq_myth_1_fact">टूथपेस्ट में बेकिंग सोडा, हाइड्रोजन पेरोक्साइड और मेन्थॉल जैसी कठोर सामग्रियां होती हैं जो त्वचा में जलन पैदा कर सकती हैं, केमिकल बर्न कर सकती हैं और काले धब्बे बना सकती हैं। सैलिसिलिक एसिड या पिंपल पैच का उपयोग करना सुरक्षित है।</string>
+    <string name="faq_myth_2_title">तैलीय त्वचा को मॉइस्चराइज़र की आवश्यकता नहीं होती</string>
+    <string name="faq_myth_2_desc">तैलीय त्वचा वाले लोगों को मॉइस्चराइज़र से बचना चाहिए क्योंकि इससे त्वचा अधिक तैलीय हो जाती है और दाने निकलते हैं।</string>
+    <string name="faq_myth_2_fact">मॉइस्चराइज़र न लगाने से त्वचा डिहाइड्रेट हो जाती है। इसके जवाब में, आपकी त्वचा इसकी भरपाई के लिए वास्तव में अधिक सीबम (तेल) का उत्पादन करती है, जिससे रोमछिद्र और बंद हो जाते हैं। इसका उपाय हल्का, तेल-मुक्त, नॉन-कॉमेडोजेनिक जेल मॉइस्चराइज़र उपयोग करना है।</string>
+    <string name="faq_myth_3_title">सफेद बाल उखाड़ने से और अधिक उगते हैं</string>
+    <string name="faq_myth_3_desc">यदि आप एक सफेद बाल उखाड़ते हैं, तो उसकी जगह तीन या अधिक सफेद बाल उग आते हैं।</string>
+    <string name="faq_myth_3_fact">एक रोमछिद्र से केवल एक ही बाल उग सकता है। सफेद बाल उखाड़ने से आस-पास के रोमछिद्रों पर कोई प्रभाव नहीं पड़ता है या अन्य बाल सफेद नहीं होते हैं। हालांकि, बार-बार बाल उखाड़ने से रोमछिद्र क्षतिग्रस्त हो सकते हैं, जिससे बाल स्थायी रूप से झड़ सकते हैं या संक्रमण हो सकता है।</string>
+    <string name="faq_myth_4_title">प्राकृतिक सामग्रियां हमेशा सुरक्षित होती हैं</string>
+    <string name="faq_myth_4_desc">यदि कोई सामग्री 100% प्राकृतिक है, तो उसे सीधे त्वचा पर लगाना पूरी तरह से सुरक्षित है।</string>
+    <string name="faq_myth_4_fact">नींबू का रस, कच्चा सेब का सिरका और बेकिंग सोडा जैसी कई प्राकृतिक सामग्रियां अत्यधिक अम्लीय या क्षारीय होती हैं। वे आपकी त्वचा के pH बैरियर को बिगाड़ सकती हैं, जिससे जलन या धूप के प्रति संवेदनशीलता हो सकती है। हमेशा पैच टेस्ट करें।</string>
+    <string name="faq_myth_5_title">बार-बार चेहरा धोने से मुंहासे ठीक होते हैं</string>
+    <string name="faq_myth_5_desc">मुंहासे गंदी त्वचा के कारण होते हैं, इसलिए दिन में कई बार चेहरा धोने से यह साफ रहेगा।</string>
+    <string name="faq_myth_5_fact">मुंहासे हार्मोनल बदलाव, बंद रोमछिद्रों और बैक्टीरिया के कारण होते हैं, सतह की गंदगी से नहीं। दिन में दो से अधिक बार चेहरा धोने से प्राकृतिक सुरक्षात्मक तेल निकल जाते हैं, त्वचा में जलन होती है और त्वचा की परत खराब होती है, जिससे मुंहासे और बढ़ सकते हैं।</string>
+    <string name="faq_myth_6_title">गर्म पानी रोमछिद्र खोलता है, ठंडा पानी बंद करता है</string>
+    <string name="faq_myth_6_desc">भाप या गर्म पानी गहरी सफाई के लिए रोमछिद्रों को खोलता है, जबकि ठंडा पानी उन्हें बंद या छोटा करता है।</string>
+    <string name="faq_myth_6_fact">रोमछिद्रों में मांसपेशियां नहीं होती हैं, इसलिए वे खुल या बंद नहीं हो सकते। गर्म पानी रक्त वाहिकाओं को फैला सकता है और प्राकृतिक तेलों को छीन सकता है, जिससे सूखापन हो सकता है। ठंडा पानी रोमछिद्रों को बंद नहीं करता बल्कि सूजन को शांत कर सकता है। धोने के लिए गुनगुना पानी आदर्श है।</string>
+    <string name="body_wellness">बॉडी केयर</string>
+    <string name="stretch_marks">स्ट्रेच मार्क्स</string>
+    <string name="dark_neck">काली गर्दन</string>
+    <string name="body_scrub">बॉडी स्क्रब</string>
+    <string name="elbow_knee">कोहनी और घुटने</string>
+    <string name="body_stretch_cocoa_shea_title">कोको और शिया बटर</string>
+    <string name="body_stretch_cocoa_shea_desc">त्वचा के लचीलेपन में सुधार करने और स्ट्रेच मार्क्स को कम करने के लिए प्रभावित क्षेत्र पर रोजाना गुनगुने कोको बटर और शिया बटर की मालिश करें।</string>
+    <string name="body_stretch_aloe_vit_e_title">एलोवेरा और विटामिन ई</string>
+    <string name="body_stretch_aloe_vit_e_desc">ताजा एलोवेरा जेल में 2 विटामिन ई कैप्सूल का तेल मिलाएं। इसे लगाएं और 15 मिनट के लिए छोड़ दें।</string>
+    <string name="body_stretch_castor_wrap_title">अरंडी के तेल का रैप</string>
+    <string name="body_stretch_castor_wrap_desc">गुनगुना अरंडी का तेल लगाएं और क्षेत्र को प्लास्टिक रैप से लपेटें। 20 मिनट के लिए गर्म हीटिंग पैड लगाएं।</string>
+    <string name="body_diet_vit_c_e_title">विटामिन सी और ई युक्त भोजन</string>
+    <string name="body_diet_vit_c_e_desc">कोलेजन बढ़ाने के लिए खट्टे फल, बादाम, सूरजमुखी के बीज और हरी पत्तेदार सब्जियां खाएं।</string>
+    <string name="body_diet_zinc_title">जिंक बूस्ट</string>
+    <string name="body_diet_zinc_desc">त्वचा के ऊतकों की मरम्मत के लिए कद्दू के बीज, दालें और नट्स जैसे जिंक से भरपूर खाद्य पदार्थ शामिल करें।</string>
+    <string name="body_neck_lemon_rose_title">नींबू और गुलाब जल</string>
+    <string name="body_neck_lemon_rose_desc">समान मात्रा में नींबू का रस और गुलाब जल मिलाएं। रातभर गर्दन पर लगाएं।</string>
+    <string name="body_neck_baking_soda_title">बेकिंग सोडा स्क्रब</string>
+    <string name="body_neck_baking_soda_desc">पेस्ट बनाने के लिए बेकिंग सोडा को पानी के साथ मिलाएं। लगाएं, 10 मिनट के लिए छोड़ दें, फिर धीरे से स्क्रब करें।</string>
+    <string name="body_neck_potato_title">आलू का रस</string>
+    <string name="body_neck_potato_desc">गर्दन के काले हिस्सों पर कच्चे आलू का रस लगाएं और 15 मिनट के लिए छोड़ दें।</string>
+    <string name="body_diet_hydration_title">हाइड्रेटेड रहें</string>
+    <string name="body_diet_hydration_desc">विषाक्त पदार्थों को बाहर निकालने और त्वचा कोशिकाओं को स्वस्थ रखने के लिए खूब पानी पिएं।</string>
+    <string name="body_diet_low_gi_title">कम ग्लाइसेमिक वाले खाद्य पदार्थ</string>
+    <string name="body_diet_low_gi_desc">इंसुलिन स्पाइक्स को ट्रिगर करने वाले उच्च ग्लाइसेमिक खाद्य पदार्थों को सीमित करें, क्योंकि इंसुलिन प्रतिरोध गर्दन की त्वचा के काले होने का एक सामान्य कारण है।</string>
+    <string name="body_scrub_coffee_title">कॉफी और ब्राउन शुगर</string>
+    <string name="body_scrub_coffee_desc">पिसी हुई कॉफी, ब्राउन शुगर और नारियल का तेल मिलाएं। नहाते समय सर्कुलर मोशन में धीरे से स्क्रब करें।</string>
+    <string name="body_scrub_oatmeal_title">ओटमील और शहद</string>
+    <string name="body_scrub_oatmeal_desc">रूखी और संवेदनशील त्वचा को स्क्रब और शांत करने के लिए पिसा हुआ ओटमील, शहद और जैतून का तेल मिलाएं।</string>
+    <string name="body_scrub_salt_lemon_title">समुद्री नमक और नींबू</string>
+    <string name="body_scrub_salt_lemon_desc">त्वचा को चमकदार बनाने वाले ताज़ा स्क्रब के लिए समुद्री नमक, नींबू का रस और मीठे बादाम का तेल मिलाएं।</string>
+    <string name="body_diet_berries_title">एं티ऑक्सीडेंट बेरीज</string>
+    <string name="body_diet_berries_desc">ब्लूबेरी, स्ट्रॉबेरी और ब्लैकबेरी खाकर त्वचा कोशिकाओं को फ्री-रेडिकल डैमेज से बचाएं।</string>
+    <string name="body_elbow_turmeric_cream_title">हल्दी और मलाई</string>
+    <string name="body_elbow_turmeric_cream_desc">दूध की मलाई में एक चुटकी हल्दी मिलाएं। त्वचा को मुलायम और गोरा बनाने के लिए कोहनी और घुटनों पर 15 मिनट तक मालिश करें।</string>
+    <string name="body_elbow_coconut_lemon_title">नारियल तेल और नींबू</string>
+    <string name="body_elbow_coconut_lemon_desc">नहाने के बाद रोजाना कुछ बूंद नींबू के रस में मिलाया हुआ गुनगुना नारियल तेल की मालिश करें।</string>
+    <string name="body_elbow_aloe_honey_title">एलोवेра और शहद</string>
+    <string name="body_elbow_aloe_honey_desc">एلوवेरा जेल और शहद मिलाएं। रूखे हिस्सों को गहराई से हाइड्रेट करने के लिए 20 मिनट तक लगाएं।</string>
+    <string name="body_diet_omega_fats_title">स्वस्थ ओमेगा वसा</string>
+    <string name="body_diet_omega_fats_desc">त्वचा की परत के लिपिд स्तर को भीतर से पोषण देने के लिए अखरोट, अलसी के बीज और एवोकैडो खाएं।</string>
 </resources>

@@ -3838,4 +3838,71 @@
 
     <string name="body_diet_omega_fats_title">Gesunde Omega-Fette</string>
     <string name="body_diet_omega_fats_desc">Walnüsse, Leinsamen und Avocados essen, um die Lipidbarriere der Haut von innen heraus zu nähren.</string>
+
+    <!-- Feature 23: Men's Grooming & Beard Care Guide -->
+    <string name="men_grooming">Herrenpflege</string>
+    <string name="beard_growth">Bartwuchs</string>
+    <string name="mustache_care">Schnurrbartpflege</string>
+    <string name="men_hair_fall">Männer-Haarpflege</string>
+
+    <string name="beard_growth_oil_title">Rosmarin- und Kokosöl</string>
+    <string name="beard_growth_oil_desc">Mische 2 Esslöffel warmes Kokosnussöl mit 5 Tropfen ätherischem Rosmarinöl. Massiere es täglich in deinen Bartbereich ein, um die Haarfollikel zu stimulieren und ein dickeres Wachstum zu fördern.</string>
+
+    <string name="beard_growth_castor_title">Rizinusschalen- und Amla-Mischung</string>
+    <string name="beard_growth_castor_desc">Kombiniere gleiche Teile Rizinusöl und Amla-Saft. Trage es auf lückenhafte Stellen auf, massiere es 10 Minuten lang in Kreisen ein, lasse es 20 Minuten einwirken und spüle es dann aus.</string>
+
+    <string name="beard_growth_aloe_title">Aloe Vera und Eukalyptus</string>
+    <string name="beard_growth_aloe_desc">Mische frisches Aloe-Vera-Gel mit 2 Tropfen Eukalyptusöl. Auf den Bartbereich auftragen, um die Haut zu beruhigen, Bartschuppen vorzubeugen und die Haarwurzeln zu nähren.</string>
+
+    <string name="beard_diet_protein_title">Proteinreiche Ernährung</string>
+    <string name="beard_diet_protein_desc">Haare und Bart bestehen aus Keratin. Iss proteinreiche Lebensmittel wie Eier, Linsen, mageres Fleisch und griechischen Joghurt, um das Bartwuchs von innen heraus anzuregen.</string>
+
+    <string name="beard_diet_biotin_title">Biotin- und Zink-Lebensmittel</string>
+    <string name="beard_diet_biotin_desc">Verzehre Nüsse, Kürbiskerne, Süßkartoffeln und Eier. Biotin und Zink erhöhen die Testosteronkonversion und fördern gesunde Haarfollikel.</string>
+
+    <string name="mustache_softener_butter_title">Shea-Butter Weichmacher</string>
+    <string name="mustache_softener_butter_desc">Reibe täglich nach dem Duschen eine erbsengroße Menge Bio-Sheabutter zwischen deinen Fingern und trage sie auf deinen Schnurrbart auf, um grobes Haar weicher zu machen.</string>
+
+    <string name="mustache_softener_honey_title">Honig und warmes Wasser</string>
+    <string name="mustache_softener_honey_desc">Mische 1 Teelöffel rohen Honig mit warmem Wasser. Auf den Schnurrbart auftragen, 10 Minuten einwirken lassen, um Feuchtigkeit einzuschließen, und dann gründlich ausspülen.</string>
+
+    <string name="mustache_styling_wax_title">Natürliches Bienenwachs-Styling</string>
+    <string name="mustache_styling_wax_desc">Schmelze ein wenig Bienenwachs mit Kokosnussöl, um ein hausgemachtes Stylingwachs herzustellen. Verwende es, um verirrte Schnurrbarthaare ohne scharfe Chemikalien zu formen und zu kontrollieren.</string>
+
+    <string name="mustache_diet_vit_a_c_title">Vitamin A- und C-Zufuhr</string>
+    <string name="mustache_diet_vit_a_c_desc">Iss Karotten, Spinat und Zitrusfrüchte. Diese Vitamine produzieren Talg, die natürliche Spülung, die das Gesichtshaar weich hält und Haarbruch verhindert.</string>
+
+    <string name="mustache_diet_hydration_title">Optimale Hydratation</string>
+    <string name="mustache_diet_hydration_desc">Trinke täglich mindestens 8-10 Gläser Wasser. Dehydrierung führt direkt zu trockenem, brüchigem und juckendem Schnurr- und Barthaar.</string>
+
+    <string name="men_hair_onion_title">Zwiebelsafttherapie</string>
+    <string name="men_hair_onion_desc">Presse den Saft einer roten Zwiebel aus, trage ihn direkt auf die Kopfhaut auf, lasse ihn 15-20 Minuten einwirken und wasche ihn dann mit einem milden Shampoo aus, um Haarausfall bei Männern entgegenzuwirken.</string>
+
+    <string name="men_hair_green_tea_title">Grüntee-Kopfhautspülung</string>
+    <string name="men_hair_green_tea_desc">Grünen Tee aufbrühen, abkühlen lassen und nach dem Shampoonieren über die Kopfhaut gießen. Er blockiert DHT, das Hormon, das für den Haarausfall bei Männern verantwortlich ist.</string>
+
+    <string name="men_hair_oil_massage_title">Warme Jojoba-Massage</string>
+    <string name="men_hair_oil_massage_desc">Massiere zweimal wöchentlich 10 Minuten lang warmes Jojoba- oder Mandelöl in deine Kopfhaut ein, um die Durchblutung zu verbessern, die Haarwurzeln zu stärken und Stylingschäden durch Gel zu reparieren.</string>
+
+    <string name="men_hair_diet_zinc_title">Zink- und Eisen-Boost</string>
+    <string name="men_hair_diet_zinc_desc">Iss Kürbiskerne, Spinat, Bohnen und Haferflocken. Zink und Eisen sind entscheidende Mineralien für die Zellreproduktion und beugen Haarausfall bei Männern vor.</string>
+
+    <string name="men_hair_diet_protein_title">Ei- und Fischprotein</string>
+    <string name="men_hair_diet_protein_desc">Nimm hochwertige Proteine in deine Ernährung auf, um essentielle Aminosäuren für den Wiederaufbau von Haarschäften bereitzustellen, die durch das täliche Styling beschädigt wurden.</string>
+
+    <!-- Exercises for Body Wellness & Men's Grooming -->
+    <string name="body_stretch_ex_title">Beckenbodentraining &amp; Dehnung</string>
+    <string name="body_stretch_ex_desc">Lege dich auf den Rücken, beuge die Knie und hebe dein Becken. Dies strafft Oberschenkel, Gesäß und Bauch, um Dehnungsstreifen zu reduzieren.</string>
+    <string name="body_neck_ex_title">Nackendrehung &amp; Dehnung</string>
+    <string name="body_neck_ex_desc">Drehe deinen Nacken täglich 10 Mal langsam im und gegen den Uhrzeigersinn, um die Durchblutung zu fördern und Nackenfalten zu reduzieren.</string>
+    <string name="body_scrub_ex_title">Lymphmassage</string>
+    <string name="body_scrub_ex_desc">Massiere Peelings in kreisenden Bewegungen zum Herzen hin ein, um den Lymphabfluss anzuregen und die Zellerneuerung zu fördern.</string>
+    <string name="body_elbow_ex_title">Gelenkbeuge-Übungen</string>
+    <string name="body_elbow_ex_desc">Beuge und strecke deine Ellbogen und Knie regelmäßig. Dies verhindert Reibung durch trockene Haut und fördert die Durchblutung.</string>
+    <string name="beard_ex_massage_title">Klopfe-Massage fürs Gesicht</string>
+    <string name="beard_ex_massage_desc">Klopfe täglich 5 Minuten lang sanft mit den Fingerspitzen auf deine Wangen und Kieferpartie, um die Durchblutung zu steigern und das Bartwachstum anzuregen.</string>
+    <string name="mustache_ex_stretch_title">Lippendehnungs-Gymnastik</string>
+    <string name="mustache_ex_stretch_desc">Ziehe deine Oberlippe nach unten über deine Zähne und lächle breit. 10 Sekunden lang halten, um die Haut im Schnurrbartbereich zu dehnen.</string>
+    <string name="men_hair_ex_massage_title">Fingernägel reiben (Balayam)</string>
+    <string name="men_hair_ex_massage_desc">Reibe täglich 10 Minuten lang die Fingernägel beider Hände aneinander. Diese Reflexzonentechnik stimuliert Kopfhautnerven gegen Haarausfall.</string>
 </resources>

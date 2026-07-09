@@ -210,11 +210,25 @@ class MainActivity : BaseActivity(), CategoryAdapter.OnItemClick {
         category.add(categoryModel4)
 
         val categoryModel5 = CategoryModel()
-        categoryModel5.categoryName = getString(R.string.my_custom_tips)
-        categoryModel5.colorCode = "#FCF3CF"
-        categoryModel5.viewColorCode = "#F4D03F"
-        categoryModel5.image = R.drawable.ic_remedy
+        categoryModel5.categoryName = getString(R.string.body_wellness)
+        categoryModel5.colorCode = "#FDF2F4"
+        categoryModel5.viewColorCode = "#F9D5DB"
+        categoryModel5.image = R.drawable.ic_body_scrub
         category.add(categoryModel5)
+
+        val categoryModel6 = CategoryModel()
+        categoryModel6.categoryName = getString(R.string.men_grooming)
+        categoryModel6.colorCode = "#FDFEFE"
+        categoryModel6.viewColorCode = "#D6DBDF"
+        categoryModel6.image = R.drawable.ic_men_grooming
+        category.add(categoryModel6)
+
+        val categoryModel7 = CategoryModel()
+        categoryModel7.categoryName = getString(R.string.my_custom_tips)
+        categoryModel7.colorCode = "#FCF3CF"
+        categoryModel7.viewColorCode = "#F4D03F"
+        categoryModel7.image = R.drawable.ic_remedy
+        category.add(categoryModel7)
 
         rvCategory.layoutManager = LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false)
         rvCategory.adapter = CategoryAdapter(category, this)

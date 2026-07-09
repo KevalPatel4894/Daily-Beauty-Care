@@ -3838,4 +3838,71 @@
 
     <string name="body_diet_omega_fats_title">Grasas Omega Saludables</string>
     <string name="body_diet_omega_fats_desc">Coma nueces, semillas de lino y aguacates para nutrir la barrera lipídica de la piel desde el interior.</string>
+
+    <!-- Feature 23: Men's Grooming & Beard Care Guide -->
+    <string name="men_grooming">Cuidado Masculino</string>
+    <string name="beard_growth">Crecimiento de Barba</string>
+    <string name="mustache_care">Cuidado del Bigote</string>
+    <string name="men_hair_fall">Cuidado del Cabello</string>
+
+    <string name="beard_growth_oil_title">Aceite de Romero y Coco</string>
+    <string name="beard_growth_oil_desc">Mezcle 2 cucharadas de aceite de coco tibio con 5 gotas de aceite esencial de romero. Masajee en el área de la barba diariamente para estimular los folículos y promover un crecimiento más grueso.</string>
+
+    <string name="beard_growth_castor_title">Mezcla de Aceite de Ricino y Amla</string>
+    <string name="beard_growth_castor_desc">Combine partes iguales de aceite de ricino y jugo de amla. Aplique en las zonas irregulares, masajee en círculos durante 10 minutos, deje actuar 20 minutos y luego enjuague.</string>
+
+    <string name="beard_growth_aloe_title">Aloe Vera y Eucalipto</string>
+    <string name="beard_growth_aloe_desc">Mezcle gel de aloe vera fresco con 2 gotas de aceite de eucalipto. Aplique en el área de la barba para calmar la piel, prevenir la caspa de la barba y nutrir las raíces.</string>
+
+    <string name="beard_diet_protein_title">Consumo Rico en Proteínas</string>
+    <string name="beard_diet_protein_desc">El cabello y la barba están hechos de queratina. Consuma alimentos ricos en proteínas como huevos, lentejas, carnes magras y yogur griego para nutrir el crecimiento desde el interior.</string>
+
+    <string name="beard_diet_biotin_title">Alimentos con Biotina y Zinc</string>
+    <string name="beard_diet_biotin_desc">Consuma frutos secos, semillas de calabaza, batatas y huevos. La biotina y el zinc aumentan la conversión de testosterona y promueven folículos capilares saludables.</string>
+
+    <string name="mustache_softener_butter_title">Suavizante de Manteca de Karité</string>
+    <string name="mustache_softener_butter_desc">Frote una cantidad del tamaño de un guisante de manteca de karité orgánica entre sus dedos y aplíquela en el bigote diariamente después de ducharse para suavizar el vello grueso.</string>
+
+    <string name="mustache_softener_honey_title">Miel y Agua Tibia</string>
+    <string name="mustache_softener_honey_desc">Mezcle 1 cucharadita de miel cruda con agua tibia. Aplique en el bigote, deje actuar 10 minutos para retener la humedad y luego enjuague bien.</string>
+
+    <string name="mustache_styling_wax_title">Cera de Abejas Natural</string>
+    <string name="mustache_styling_wax_desc">Derrita un poco de cera de abejas con aceite de coco para hacer una cera de peinado casera. Úsela para dar forma y controlar los vellos rebeldes del bigote sin químicos agresivos.</string>
+
+    <string name="mustache_diet_vit_a_c_title">Consumo de Vitaminas A y C</string>
+    <string name="mustache_diet_vit_a_c_desc">Coma zanahorias, espinacas y frutas cítricas. Estas vitaminas producen sebo, el acondicionador natural que mantiene suave el vello facial y evita la rotura.</string>
+
+    <string name="mustache_diet_hydration_title">Hidratación Óptima</string>
+    <string name="mustache_diet_hydration_desc">Beba al menos de 8 a 10 vasos de agua al día. La deshidratación provoca directamente un vello de bigote y barba seco, quebradizo y con picazón.</string>
+
+    <string name="men_hair_onion_title">Terapia de Jugo de Cebolla</string>
+    <string name="men_hair_onion_desc">Extraiga el jugo de una cebolla roja, aplíquelo directamente sobre el cuero cabelludo, déjelo actuar durante 15 a 20 minutos, luego lávelo con un champú suave para combatir el adelgazamiento masculino.</string>
+
+    <string name="men_hair_green_tea_title">Enjuague de Té Verde</string>
+    <string name="men_hair_green_tea_desc">Prepare té verde, déjelo enfriar y viértalo sobre el cuero cabelludo después del champú. Bloquea la DHT, la hormona responsable de la caída del cabello masculino.</string>
+
+    <string name="men_hair_oil_massage_title">Masaje Tibio con Jojoba</string>
+    <string name="men_hair_oil_massage_desc">Masajee aceite de jojoba o almendras tibio en su cuero cabelludo durante 10 minutos dos veces por semana para mejorar el flujo sanguíneo, fortalecer las raíces y reparar los daños del gel de peinado.</string>
+
+    <string name="men_hair_diet_zinc_title">Impulso de Zinc e Hierro</string>
+    <string name="men_hair_diet_zinc_desc">Coma semillas de calabaza, espinacas, frijoles y avena. El zinc y el hierro son minerales cruciales para la reproducción celular y previenen el adelgazamiento del cabello en los hombres.</string>
+
+    <string name="men_hair_diet_protein_title">Proteína de Huevo y Pescado</string>
+    <string name="men_hair_diet_protein_desc">Incluya proteínas de alta calidad en su dieta para proporcionar aminoácidos esenciales para reconstruir las hebras de cabello dañadas por el peinado diario.</string>
+
+    <!-- Exercises for Body Wellness & Men's Grooming -->
+    <string name="body_stretch_ex_title">Elevación de Pelvis y Estiramiento</string>
+    <string name="body_stretch_ex_desc">Acuéstese boca arriba, doble las rodillas y levante las caderas. Esto tonifica los muslos, glúteos y abdomen para ayudar a reducir las estrías.</string>
+    <string name="body_neck_ex_title">Rotación y Estiramiento de Cuello</string>
+    <string name="body_neck_ex_desc">Gire lentamente el cuello en sentido horario y antihorario 10 veces al día para mejorar la circulación y reducir las arrugas del cuello.</string>
+    <string name="body_scrub_ex_title">Masaje Linfático</string>
+    <string name="body_scrub_ex_desc">Al aplicar exfoliantes, masajee en círculos hacia el corazón para estimular el drenaje linfático y promover la reparación celular.</string>
+    <string name="body_elbow_ex_title">Ejercicios de Flexión de Articulaciones</string>
+    <string name="body_elbow_ex_desc">Flexione y estire regularmente los codos y las rodillas. Esto evita la fricción por piel seca y mejora el flujo sanguíneo.</string>
+    <string name="beard_ex_massage_title">Masaje de Golpecitos Faciales</string>
+    <string name="beard_ex_massage_desc">Golpee suavemente sus mejillas y mandíbula con las yemas de los dedos durante 5 minutos al día para aumentar el flujo sanguíneo y estimular el crecimiento.</string>
+    <string name="mustache_ex_stretch_title">Gimnasia de Estiramiento de Labios</string>
+    <string name="mustache_ex_stretch_desc">Estire el labio superior hacia abajo sobre los dientes y sonría ampliamente. Sostenga por 10 segundos para flexionar los músculos de la zona.</string>
+    <string name="men_hair_ex_massage_title">Frotamiento de Uñas (Balayam)</string>
+    <string name="men_hair_ex_massage_desc">Frote las uñas de ambas manos entre sí durante 10 minutos al día. Esta técnica de reflexología estimula los nervios del cuero cabelludo.</string>
 </resources>

@@ -3,14 +3,14 @@
     <string name="app_name">Daily Beauty Care</string>
 
     <!--ads local-->
-    <string name="admob_app_id" translatable="false">ca-app-pub-5201293285638793~1348054154</string>
+<!--    <string name="admob_app_id" translatable="false">ca-app-pub-5201293285638793~1348054154</string>
     <string name="banner_home_footer" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
-    <string name="interstitial_full_screen" translatable="false">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="interstitial_full_screen" translatable="false">ca-app-pub-3940256099942544/1033173712</string>-->
 
     <!--ads live-->
-<!--    <string name="admob_app_id" translatable="false">ca-app-pub-8227493781755679~1497458469</string>
+    <string name="admob_app_id" translatable="false">ca-app-pub-8227493781755679~1497458469</string>
     <string name="banner_home_footer" translatable="false">ca-app-pub-8227493781755679/4181910678</string>
-    <string name="interstitial_full_screen" translatable="false">ca-app-pub-8227493781755679/4153990513</string>-->
+    <string name="interstitial_full_screen" translatable="false">ca-app-pub-8227493781755679/4153990513</string>
 
     //List
     <string name="accupressure_point_palm_side">accupressure point on palm side</string>
@@ -3616,6 +3616,14 @@
     <string name="profile_hair_type_label">Hair Type</string>
     <string name="profile_age_group_label">Age Group</string>
     <string name="profile_concern_label">Primary Concern</string>
+    <string name="profile_hair_normal">Normal</string>
+    <string name="profile_hair_dry">Dry</string>
+    <string name="profile_hair_oily">Oily</string>
+    <string name="profile_hair_dandruff">Dandruff-Prone</string>
+    <string name="profile_age_teens">Teens (13–19)</string>
+    <string name="profile_age_20s">20s</string>
+    <string name="profile_age_30s">30s</string>
+    <string name="profile_age_40s">40s+</string>
     <string name="profile_skin_test_prompt">Unsure of your Skin Type?</string>
     <string name="profile_skin_test_desc">Take the Skin Type Test to analyze your skin dynamically.</string>
     <string name="profile_banner_title">Personalize Your Routine</string>
@@ -3625,16 +3633,36 @@
     <string name="profile_edit_link">Edit</string>
     <string name="profile_saved_toast">Beauty Profile saved successfully!</string>
 
-    <!-- Profile Option Items -->
-    <string name="profile_hair_normal">Normal</string>
-    <string name="profile_hair_dry">Dry</string>
-    <string name="profile_hair_oily">Oily</string>
-    <string name="profile_hair_dandruff">Dandruff-prone</string>
-    
-    <string name="profile_age_teens">Teens (&lt; 20)</string>
-    <string name="profile_age_20s">20s</string>
-    <string name="profile_age_30s">30s</string>
-    <string name="profile_age_40s">40s+</string>
+    <!-- Feature 17: F.A.Q. & Myth Busters -->
+    <string name="settings_faq_myths">F.A.Q. &amp; Myth Busters</string>
+    <string name="faq_title">F.A.Q. &amp; Myth Busters</string>
+    <string name="faq_subtitle">Learn the truth behind popular beauty myths</string>
+    <string name="faq_label_myth">MYTH</string>
+    <string name="faq_label_fact">FACT</string>
+
+    <string name="faq_myth_1_title">Toothpaste Cures Pimples</string>
+    <string name="faq_myth_1_desc">Toothpaste can quickly dry out pimples overnight and make acne disappear.</string>
+    <string name="faq_myth_1_fact">Toothpaste contains strong ingredients like baking soda, hydrogen peroxide, and menthol that can irritate the skin, cause chemical burns, and lead to dark spots. It is safer to use targeted treatments like salicylic acid or hydrocolloid pimple patches.</string>
+
+    <string name="faq_myth_2_title">Oily Skin Doesn\'t Need Moisturizer</string>
+    <string name="faq_myth_2_desc">People with oily skin should avoid moisturizers because they make skin greasier and cause breakouts.</string>
+    <string name="faq_myth_2_fact">Skipping moisturizer dehydrates the skin. In response, your skin actually produces MORE sebum (oil) to compensate, leading to even more clogged pores. The solution is using a lightweight, oil-free, non-comedogenic gel moisturizer.</string>
+
+    <string name="faq_myth_3_title">Plucking Gray Hair Makes More Grow</string>
+    <string name="faq_myth_3_desc">If you pull out one gray hair, three or more gray hairs will grow back in its place.</string>
+    <string name="faq_myth_3_fact">Only one hair can grow from a single follicle. Plucking a gray hair won\'t affect neighboring follicles or cause other hairs to turn gray. However, repeated plucking can damage the follicle, leading to permanent hair loss or infection.</string>
+
+    <string name="faq_myth_4_title">Natural Ingredients Are Always Safe</string>
+    <string name="faq_myth_4_desc">If an ingredient is 100% natural, organic, or edible, it is completely safe to apply directly to the skin.</string>
+    <string name="faq_myth_4_fact">Many natural items like lemon juice, raw apple cider vinegar, and baking soda are extremely acidic or alkaline. They can disrupt your skin\'s pH barrier, cause chemical burns, severe irritation, or extreme sun sensitivity. Always run a patch test.</string>
+
+    <string name="faq_myth_5_title">Washing Your Face Frequently Cures Acne</string>
+    <string name="faq_myth_5_desc">Acne is caused by dirty skin, so washing your face multiple times a day will keep it clean and clear.</string>
+    <string name="faq_myth_5_fact">Acne is caused by hormonal fluctuations, clogged pores, and bacteria, not surface dirt. Washing your face more than twice a day strips natural protective oils, irritates the skin, and damages the skin barrier, which can actually worsen breakouts.</string>
+
+    <string name="faq_myth_6_title">Hot Water Opens Pores, Cold Closes Them</string>
+    <string name="faq_myth_6_desc">Steam or hot water opens up pores for deep cleaning, while cold water closes or shrinks them.</string>
+    <string name="faq_myth_6_fact">Pores do not have muscles, so they cannot open or close. Hot water can dilate blood vessels and strip essential oils, causing dryness and irritation. Cold water does not close pores but can calm inflammation. Lukewarm water is ideal for washing.</string>
 
     <!-- Feature 10: My Remedy Notes -->
     <string name="remedy_notes_title">My Remedy Notes</string>
@@ -3769,37 +3797,6 @@
     <string name="skin_mood_glowing">Glowing</string>
     <string name="skin_mood_glowing_keywords">glow,radiant,shine,glass skin,healthy</string>
 
-    <!-- Feature 17: F.A.Q. & Myth Busters -->
-    <string name="settings_faq_myths">F.A.Q. &amp; Myth Busters</string>
-    <string name="faq_title">F.A.Q. &amp; Myth Busters</string>
-    <string name="faq_subtitle">Learn the truth behind popular beauty myths</string>
-    <string name="faq_label_myth">MYTH</string>
-    <string name="faq_label_fact">FACT</string>
-
-    <string name="faq_myth_1_title">Toothpaste Cures Pimples</string>
-    <string name="faq_myth_1_desc">Toothpaste can quickly dry out pimples overnight and make acne disappear.</string>
-    <string name="faq_myth_1_fact">Toothpaste contains strong ingredients like baking soda, hydrogen peroxide, and menthol that can irritate the skin, cause chemical burns, and lead to dark spots. It is safer to use targeted treatments like salicylic acid or hydrocolloid pimple patches.</string>
-
-    <string name="faq_myth_2_title">Oily Skin Doesn\'t Need Moisturizer</string>
-    <string name="faq_myth_2_desc">People with oily skin should avoid moisturizers because they make skin greasier and cause breakouts.</string>
-    <string name="faq_myth_2_fact">Skipping moisturizer dehydrates the skin. In response, your skin actually produces MORE sebum (oil) to compensate, leading to even more clogged pores. The solution is using a lightweight, oil-free, non-comedogenic gel moisturizer.</string>
-
-    <string name="faq_myth_3_title">Plucking Gray Hair Makes More Grow</string>
-    <string name="faq_myth_3_desc">If you pull out one gray hair, three or more gray hairs will grow back in its place.</string>
-    <string name="faq_myth_3_fact">Only one hair can grow from a single follicle. Plucking a gray hair won\'t affect neighboring follicles or cause other hairs to turn gray. However, repeated plucking can damage the follicle, leading to permanent hair loss or infection.</string>
-
-    <string name="faq_myth_4_title">Natural Ingredients Are Always Safe</string>
-    <string name="faq_myth_4_desc">If an ingredient is 100% natural, organic, or edible, it is completely safe to apply directly to the skin.</string>
-    <string name="faq_myth_4_fact">Many natural items like lemon juice, raw apple cider vinegar, and baking soda are extremely acidic or alkaline. They can disrupt your skin\'s pH barrier, cause chemical burns, severe irritation, or extreme sun sensitivity. Always run a patch test.</string>
-
-    <string name="faq_myth_5_title">Washing Your Face Frequently Cures Acne</string>
-    <string name="faq_myth_5_desc">Acne is caused by dirty skin, so washing your face multiple times a day will keep it clean and clear.</string>
-    <string name="faq_myth_5_fact">Acne is caused by hormonal fluctuations, clogged pores, and bacteria, not surface dirt. Washing your face more than twice a day strips natural protective oils, irritates the skin, and damages the skin barrier, which can actually worsen breakouts.</string>
-
-    <string name="faq_myth_6_title">Hot Water Opens Pores, Cold Closes Them</string>
-    <string name="faq_myth_6_desc">Steam or hot water opens up pores for deep cleaning, while cold water closes or shrinks them.</string>
-    <string name="faq_myth_6_fact">Pores do not have muscles, so they cannot open or close. Hot water can dilate blood vessels and strip essential oils, causing dryness and irritation. Cold water does not close pores but can calm inflammation. Lukewarm water is ideal for washing.</string>
-
     <!-- Feature 21: Body & Wellness -->
     <string name="body_wellness">Body Care</string>
     <string name="stretch_marks">Stretch Marks</string>
@@ -3860,4 +3857,71 @@
 
     <string name="body_diet_omega_fats_title">Healthy Omega Fats</string>
     <string name="body_diet_omega_fats_desc">Eat walnuts, flaxseeds, and avocados to nourish skin barrier lipid levels from within.</string>
+
+    <!-- Feature 23: Men's Grooming & Beard Care Guide -->
+    <string name="men_grooming">Men\'s Grooming</string>
+    <string name="beard_growth">Beard Growth</string>
+    <string name="mustache_care">Mustache Care</string>
+    <string name="men_hair_fall">Men\'s Hair Care</string>
+
+    <string name="beard_growth_oil_title">Rosemary &amp; Coconut Oil</string>
+    <string name="beard_growth_oil_desc">Mix 2 tablespoons of warm coconut oil with 5 drops of rosemary essential oil. Massage into your beard area daily to stimulate hair follicles and promote thicker growth.</string>
+
+    <string name="beard_growth_castor_title">Castor Oil &amp; Amla Mix</string>
+    <string name="beard_growth_castor_desc">Combine equal parts of castor oil and amla juice. Apply to patchy spots, massage in circles for 10 minutes, leave for 20 minutes, then rinse.</string>
+
+    <string name="beard_growth_aloe_title">Aloe Vera &amp; Eucalyptus</string>
+    <string name="beard_growth_aloe_desc">Mix fresh aloe vera gel with 2 drops of eucalyptus oil. Apply to the beard area to soothe skin, prevent beard dandruff, and nourish hair roots.</string>
+
+    <string name="beard_diet_protein_title">Protein-Rich Intake</string>
+    <string name="beard_diet_protein_desc">Hair and beard are made of keratin. Eat protein-rich foods like eggs, lentils, lean meats, and Greek yogurt to fuel beard growth from within.</string>
+
+    <string name="beard_diet_biotin_title">Biotin &amp; Zinc Foods</string>
+    <string name="beard_diet_biotin_desc">Consume nuts, pumpkin seeds, sweet potatoes, and eggs. Biotin and zinc increase testosterone conversion and promote healthy hair follicles.</string>
+
+    <string name="mustache_softener_butter_title">Shea Butter Softener</string>
+    <string name="mustache_softener_butter_desc">Rub a pea-sized amount of organic shea butter between your fingers and apply it to your mustache daily after showering to soften coarse hair.</string>
+
+    <string name="mustache_softener_honey_title">Honey &amp; Warm Water</string>
+    <string name="mustache_softener_honey_desc">Mix 1 teaspoon of raw honey with warm water. Apply to your mustache, let it sit for 10 minutes to lock in moisture, then rinse thoroughly.</string>
+
+    <string name="mustache_styling_wax_title">Natural Beeswax Styling</string>
+    <string name="mustache_styling_wax_desc">Melt a small bit of beeswax with coconut oil to make a home styling wax. Use it to shape and control stray mustache hairs without harsh chemicals.</string>
+
+    <string name="mustache_diet_vit_a_c_title">Vitamin A &amp; C Intake</string>
+    <string name="mustache_diet_vit_a_c_desc">Eat carrots, spinach, and citrus fruits. These vitamins produce sebum, the natural conditioner that keeps facial hair soft and prevents breakage.</string>
+
+    <string name="mustache_diet_hydration_title">Optimal Hydration</string>
+    <string name="mustache_diet_hydration_desc">Drink at least 8-10 glasses of water daily. Dehydration directly leads to dry, brittle, and itchy mustache and beard hair.</string>
+
+    <string name="men_hair_onion_title">Onion Juice Therapy</string>
+    <string name="men_hair_onion_desc">Extract juice from one red onion, apply it directly to the scalp, leave for 15-20 minutes, then wash with a mild shampoo to fight male pattern thinning.</string>
+
+    <string name="men_hair_green_tea_title">Green Tea Scalp Rinse</string>
+    <string name="men_hair_green_tea_desc">Brew green tea, let it cool, and pour it over your scalp after shampooing. It blocks DHT, the hormone responsible for male hair loss.</string>
+
+    <string name="men_hair_oil_massage_title">Warm Jojoba Massage</string>
+    <string name="men_hair_oil_massage_desc">Massage warm jojoba or almond oil into your scalp for 10 minutes twice a week to improve blood flow, strengthen hair roots, and repair styling gel damage.</string>
+
+    <string name="men_hair_diet_zinc_title">Zinc &amp; Iron Boost</string>
+    <string name="men_hair_diet_zinc_desc">Eat pumpkin seeds, spinach, beans, and oats. Zinc and iron are crucial minerals for cell reproduction and preventing hair thinning in men.</string>
+
+    <string name="men_hair_diet_protein_title">Egg &amp; Fish Protein</string>
+    <string name="men_hair_diet_protein_desc">Include high-quality proteins in your diet to provide essential amino acids for rebuilding hair shafts damaged by daily styling.</string>
+
+    <!-- Exercises for Body Wellness and Men\'s Grooming -->
+    <string name="body_stretch_ex_title">Pelvic Thrust and Stretching</string>
+    <string name="body_stretch_ex_desc">Lie on your back, bend your knees, and lift your hips. This tones the thighs, glutes, and abdomen to help reduce stretch marks.</string>
+    <string name="body_neck_ex_title">Neck Rotation and Stretching</string>
+    <string name="body_neck_ex_desc">Slowly rotate your neck clockwise and counterclockwise 10 times daily to improve blood circulation and reduce neck creases.</string>
+    <string name="body_scrub_ex_title">Lymphatic Massage</string>
+    <string name="body_scrub_ex_desc">When applying body scrubs, massage in circular movements towards your heart to stimulate lymphatic drainage and promote cellular repair.</string>
+    <string name="body_elbow_ex_title">Joint Flexing Exercises</string>
+    <string name="body_elbow_ex_desc">Regularly flex and stretch your elbows and knees. This prevents dry skin friction and improves blood flow to joint areas.</string>
+    <string name="beard_ex_massage_title">Facial Tap Massage</string>
+    <string name="beard_ex_massage_desc">Gently tap your cheeks and jawline with your fingertips for 5 minutes daily to increase blood flow and stimulate follicle growth.</string>
+    <string name="mustache_ex_stretch_title">Lip Stretching Gymnastics</string>
+    <string name="mustache_ex_stretch_desc">Stretch your upper lip downwards over your teeth and smile wide. Hold for 10 seconds to flex mustache-area muscles and skin.</string>
+    <string name="men_hair_ex_massage_title">Nail Rubbing (Balayam)</string>
+    <string name="men_hair_ex_massage_desc">Rub the fingernails of both hands against each other for 10 minutes daily. This reflexology technique stimulates scalp nerves to prevent male hair loss.</string>
 </resources>
