@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.text.Editable
 import android.text.TextWatcher
 import android.view.View
+import android.view.ViewGroup
 import android.widget.RelativeLayout
 import androidx.appcompat.widget.AppCompatEditText
 import androidx.appcompat.widget.AppCompatImageView
@@ -13,6 +14,7 @@ import androidx.appcompat.widget.AppCompatTextView
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.kp.beautytips.R
+import com.kp.beautytips.utils.AdManager
 import com.kp.beautytips.adapter.ListAdapter
 import com.kp.beautytips.model.ListModel
 import com.kp.beautytips.utils.ActivityUtils
@@ -86,12 +88,8 @@ class SearchActivity : BaseActivity() {
         })
 
         adRequest = AdRequest.Builder().build()
-        val adContainer = findViewById<View>(R.id.ad_view)
-        val mAdView = AdView(this)
-        mAdView.setAdSize(AdSize.BANNER)
-        mAdView.adUnitId = getString(R.string.banner_home_footer)
-        (adContainer as RelativeLayout).addView(mAdView)
-        mAdView.loadAd(adRequest!!)
+        val adContainer = findViewById<ViewGroup>(R.id.ad_view)
+        AdManager.loadBanner(this, adContainer, getString(R.string.banner_home_footer))
 
         loadFullScreenAds()
     }

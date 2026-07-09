@@ -22,6 +22,7 @@ import android.view.LayoutInflater
 import android.view.Menu
 import android.view.MenuItem
 import android.view.View
+import android.view.ViewGroup
 import android.widget.ProgressBar
 import android.widget.RelativeLayout
 import android.widget.Toast
@@ -34,6 +35,7 @@ import com.google.android.gms.ads.AdView
 import com.google.android.gms.ads.interstitial.InterstitialAd
 import com.google.android.gms.ads.interstitial.InterstitialAdLoadCallback
 import com.kp.beautytips.R
+import com.kp.beautytips.utils.AdManager
 import com.kp.beautytips.data.CustomTipDbHelper
 import com.kp.beautytips.model.CustomTip
 import com.kp.beautytips.utils.ActivityUtils
@@ -248,12 +250,8 @@ class CustomTipDetailsActivity : BaseActivity() {
 
         adRequest = AdRequest.Builder().build()
 
-        val adContainer = findViewById<View>(R.id.ad_view)
-        val mAdView = AdView(this)
-        mAdView.setAdSize(AdSize.BANNER)
-        mAdView.adUnitId = getString(R.string.banner_home_footer)
-        (adContainer as RelativeLayout).addView(mAdView)
-        mAdView.loadAd(adRequest!!)
+        val adContainer = findViewById<ViewGroup>(R.id.ad_view)
+        AdManager.loadBanner(this, adContainer, getString(R.string.banner_home_footer))
 
         loadFullScreenAds()
     }

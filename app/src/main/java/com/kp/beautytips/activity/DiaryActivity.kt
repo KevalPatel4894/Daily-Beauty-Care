@@ -5,6 +5,7 @@ import android.content.Intent
 import android.graphics.Color
 import android.os.Bundle
 import android.view.View
+import android.view.ViewGroup
 import android.widget.LinearLayout
 import android.widget.RelativeLayout
 import androidx.appcompat.widget.AppCompatTextView
@@ -15,6 +16,7 @@ import com.google.android.gms.ads.AdSize
 import com.google.android.gms.ads.AdView
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.kp.beautytips.R
+import com.kp.beautytips.utils.AdManager
 import com.kp.beautytips.adapter.DiaryAdapter
 import com.kp.beautytips.data.DiaryDbHelper
 import com.kp.beautytips.model.DiaryEntry
@@ -111,13 +113,8 @@ class DiaryActivity : BaseActivity() {
 
     private fun loadAdBanner() {
         try {
-            val adContainer = findViewById<RelativeLayout>(R.id.ad_view)
-            val adRequest = AdRequest.Builder().build()
-            val mAdView = AdView(this)
-            mAdView.setAdSize(AdSize.BANNER)
-            mAdView.adUnitId = getString(R.string.banner_home_footer)
-            adContainer.addView(mAdView)
-            mAdView.loadAd(adRequest)
+            val adContainer = findViewById<ViewGroup>(R.id.ad_view) ?: return
+            AdManager.loadBanner(this, adContainer, getString(R.string.banner_home_footer))
         } catch (e: Exception) {
             e.printStackTrace()
         }

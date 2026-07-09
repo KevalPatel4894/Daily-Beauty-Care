@@ -4,6 +4,7 @@ import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
+import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.RadioButton
 import android.widget.RadioGroup
@@ -13,6 +14,7 @@ import androidx.appcompat.widget.AppCompatTextView
 import androidx.appcompat.widget.AppCompatRadioButton
 import com.google.android.gms.ads.*
 import com.kp.beautytips.R
+import com.kp.beautytips.utils.AdManager
 import com.kp.beautytips.utils.ActivityUtils
 import com.kp.beautytips.utils.AppUtils
 import io.github.inflationx.viewpump.ViewPumpContextWrapper
@@ -100,12 +102,8 @@ class SkinTestActivity : BaseActivity() {
 
         // Ads
         adRequest = AdRequest.Builder().build()
-        val adContainer = findViewById<View>(R.id.ad_view)
-        val mAdView = AdView(this)
-        mAdView.setAdSize(AdSize.BANNER)
-        mAdView.adUnitId = getString(R.string.banner_home_footer)
-        (adContainer as RelativeLayout).addView(mAdView)
-        mAdView.loadAd(adRequest!!)
+        val adContainer = findViewById<ViewGroup>(R.id.ad_view)
+        AdManager.loadBanner(this, adContainer, getString(R.string.banner_home_footer))
 
         displayQuestion()
 

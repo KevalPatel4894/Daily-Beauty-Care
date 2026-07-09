@@ -3,6 +3,7 @@ package com.kp.beautytips.activity
 import android.content.Context
 import android.os.Bundle
 import android.view.View
+import android.view.ViewGroup
 import android.widget.ProgressBar
 import android.widget.RelativeLayout
 import androidx.appcompat.widget.AppCompatTextView
@@ -13,6 +14,7 @@ import com.google.android.gms.ads.AdRequest
 import com.google.android.gms.ads.AdSize
 import com.google.android.gms.ads.AdView
 import com.kp.beautytips.R
+import com.kp.beautytips.utils.AdManager
 import com.kp.beautytips.adapter.ChallengeDaysAdapter
 import com.kp.beautytips.data.ChallengeRepository
 import com.kp.beautytips.model.Challenge
@@ -75,13 +77,8 @@ class ChallengeDetailActivity : BaseActivity() {
 
         // Ad configuration
         adRequest = AdRequest.Builder().build()
-        val adContainer = findViewById<View>(R.id.ad_view)
-        val mAdView = AdView(this).apply {
-            setAdSize(AdSize.BANNER)
-            adUnitId = getString(R.string.banner_home_footer)
-        }
-        (adContainer as RelativeLayout).addView(mAdView)
-        mAdView.loadAd(adRequest!!)
+                val adContainer = findViewById<ViewGroup>(R.id.ad_view)
+        AdManager.loadBanner(this, adContainer, getString(R.string.banner_home_footer))
     }
 
     override fun onResume() {

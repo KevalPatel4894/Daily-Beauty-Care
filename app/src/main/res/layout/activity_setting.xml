@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorPrimary"
     android:fitsSystemWindows="true"
     android:orientation="vertical">
 
+    <!-- Toolbar -->
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolBar"
         android:layout_width="match_parent"
@@ -22,12 +23,13 @@
             android:textSize="@dimen/_18sdp" />
     </androidx.appcompat.widget.Toolbar>
 
+    <!-- Scrollable Content — takes all remaining space above the ad banner -->
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_below="@+id/toolBar"
-        android:layout_above="@+id/ad_view"
-        android:fillViewport="true">
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:clipToPadding="false"
+        android:paddingBottom="@dimen/_15sdp">
 
         <androidx.appcompat.widget.LinearLayoutCompat
             android:layout_width="match_parent"
@@ -35,7 +37,6 @@
             android:layout_margin="@dimen/_15sdp"
             android:background="@drawable/default_background_rounded"
             android:orientation="vertical">
-
 
         <!-- 1. Beauty Profile -->
         <RelativeLayout
@@ -483,14 +484,16 @@
 
         </RelativeLayout>
 
-    </androidx.appcompat.widget.LinearLayoutCompat>
+        </androidx.appcompat.widget.LinearLayoutCompat>
     </ScrollView>
 
-    <RelativeLayout
+    <!-- AdMob Banner — always pinned at bottom, fixed 50dp height -->
+    <LinearLayout
         android:id="@+id/ad_view"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:gravity="center" />
-</RelativeLayout>
+        android:layout_height="50dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@color/colorPrimary" />
+
+</LinearLayout>

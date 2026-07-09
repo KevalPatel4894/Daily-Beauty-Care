@@ -3613,6 +3613,14 @@
     <string name="profile_for_you_header">Para Ti</string>
     <string name="profile_edit_link">Editar</string>
     <string name="profile_saved_toast">¡Perfil de belleza guardado correctamente!</string>
+    <string name="profile_hair_normal">Normal</string>
+    <string name="profile_hair_dry">Seco</string>
+    <string name="profile_hair_oily">Graso</string>
+    <string name="profile_hair_dandruff">Propenso a la caspa</string>
+    <string name="profile_age_teens">Adolescentes (13–19)</string>
+    <string name="profile_age_20s">20s</string>
+    <string name="profile_age_30s">30s</string>
+    <string name="profile_age_40s">40s+</string>
 
     <!-- Feature 10: My Remedy Notes -->
     <string name="remedy_notes_title">Mis Notas del Remedio</string>

@@ -3613,6 +3613,14 @@
     <string name="profile_for_you_header">Для вас</string>
     <string name="profile_edit_link">Изменить</string>
     <string name="profile_saved_toast">Профиль красоты успешно сохранен!</string>
+    <string name="profile_hair_normal">Нормальные</string>
+    <string name="profile_hair_dry">Сухие</string>
+    <string name="profile_hair_oily">Жирные</string>
+    <string name="profile_hair_dandruff">Склонные к перхоти</string>
+    <string name="profile_age_teens">Подростки (13–19)</string>
+    <string name="profile_age_20s">20-е годы</string>
+    <string name="profile_age_30s">30-е годы</string>
+    <string name="profile_age_40s">40+</string>
 
     <!-- Feature 10: My Remedy Notes -->
     <string name="remedy_notes_title">Мои заметки к рецепту</string>

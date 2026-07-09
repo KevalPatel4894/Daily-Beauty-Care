@@ -3613,6 +3613,14 @@
     <string name="profile_for_you_header">आपके लिए</string>
     <string name="profile_edit_link">संपादित करें</string>
     <string name="profile_saved_toast">ब्यूटी प्रोफाइल सफलतापूर्वक सहेज लिया गया!</string>
+    <string name="profile_hair_normal">सामान्य</string>
+    <string name="profile_hair_dry">रूखे</string>
+    <string name="profile_hair_oily">तैलीय</string>
+    <string name="profile_hair_dandruff">डैंड्रफ-प्रवण</string>
+    <string name="profile_age_teens">किशोर (13–19)</string>
+    <string name="profile_age_20s">20 के दशक</string>
+    <string name="profile_age_30s">30 के दशक</string>
+    <string name="profile_age_40s">40+</string>
 
     <!-- Feature 10: My Remedy Notes -->
     <string name="remedy_notes_title">मेरी रेसिपी नोट्स</string>

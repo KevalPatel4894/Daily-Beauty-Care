@@ -4,6 +4,7 @@ import android.content.Context
 import android.graphics.Color
 import android.os.Bundle
 import android.view.View
+import android.view.ViewGroup
 import android.widget.RelativeLayout
 import androidx.appcompat.widget.AppCompatTextView
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -12,6 +13,7 @@ import com.google.android.gms.ads.AdRequest
 import com.google.android.gms.ads.AdSize
 import com.google.android.gms.ads.AdView
 import com.kp.beautytips.R
+import com.kp.beautytips.utils.AdManager
 import com.kp.beautytips.adapter.ListAdapter
 import com.kp.beautytips.data.TipRepository
 import com.kp.beautytips.model.ListModel
@@ -108,13 +110,8 @@ class MoodTipsActivity : BaseActivity() {
     }
 
     private fun loadAdBanner() {
-        val adContainer = findViewById<View>(R.id.ad_view) ?: return
-        val adRequest = AdRequest.Builder().build()
-        val mAdView = AdView(this)
-        mAdView.setAdSize(AdSize.BANNER)
-        mAdView.adUnitId = getString(R.string.banner_home_footer)
-        (adContainer as RelativeLayout).addView(mAdView)
-        mAdView.loadAd(adRequest)
+        val adContainer = findViewById<ViewGroup>(R.id.ad_view) ?: return
+        AdManager.loadBanner(this, adContainer, getString(R.string.banner_home_footer))
     }
 
     override fun onSupportNavigateUp(): Boolean {

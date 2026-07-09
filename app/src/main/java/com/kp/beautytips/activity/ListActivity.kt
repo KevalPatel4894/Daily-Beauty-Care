@@ -3,9 +3,11 @@ package com.kp.beautytips.activity
 import android.content.Context
 import android.os.Bundle
 import android.view.View
+import android.view.ViewGroup
 import android.widget.RelativeLayout
 import androidx.viewpager.widget.ViewPager
 import com.kp.beautytips.R
+import com.kp.beautytips.utils.AdManager
 import com.kp.beautytips.adapter.ViewPagerAdapter
 import com.kp.beautytips.fragment.DietFragment
 import com.kp.beautytips.fragment.ExerciseFragment
@@ -60,12 +62,8 @@ class ListActivity : BaseActivity() {
         adRequest = AdRequest.Builder()
             .build()
 
-        val adContainer = findViewById<View>(R.id.ad_view)
-        val mAdView = AdView(this)
-        mAdView.setAdSize(AdSize.BANNER)
-        mAdView.adUnitId = getString(R.string.banner_home_footer)
-        (adContainer as RelativeLayout).addView(mAdView)
-        mAdView.loadAd(adRequest!!)
+        val adContainer = findViewById<ViewGroup>(R.id.ad_view)
+        AdManager.loadBanner(this, adContainer, getString(R.string.banner_home_footer))
 
         loadFullScreenAds()
 

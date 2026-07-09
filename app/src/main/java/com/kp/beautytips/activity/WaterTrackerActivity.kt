@@ -5,6 +5,7 @@ import android.content.SharedPreferences
 import android.graphics.Color
 import android.os.Bundle
 import android.view.View
+import android.view.ViewGroup
 import android.widget.FrameLayout
 import android.widget.RadioGroup
 import android.widget.RelativeLayout
@@ -21,6 +22,7 @@ import com.google.android.material.button.MaterialButton
 import com.google.android.material.progressindicator.CircularProgressIndicator
 import com.google.android.material.switchmaterial.SwitchMaterial
 import com.kp.beautytips.R
+import com.kp.beautytips.utils.AdManager
 import com.kp.beautytips.utils.ActivityUtils
 import com.kp.beautytips.utils.AppUtils
 import com.kp.beautytips.utils.WaterReminderScheduler
@@ -155,13 +157,8 @@ class WaterTrackerActivity : BaseActivity() {
 
     private fun loadAdBanner() {
         try {
-            val adContainer = findViewById<RelativeLayout>(R.id.ad_view)
-            val adRequest = AdRequest.Builder().build()
-            val mAdView = AdView(this)
-            mAdView.setAdSize(AdSize.BANNER)
-            mAdView.adUnitId = getString(R.string.banner_home_footer)
-            adContainer.addView(mAdView)
-            mAdView.loadAd(adRequest)
+            val adContainer = findViewById<ViewGroup>(R.id.ad_view) ?: return
+            AdManager.loadBanner(this, adContainer, getString(R.string.banner_home_footer))
         } catch (e: Exception) {
             e.printStackTrace()
         }

@@ -3613,6 +3613,14 @@
     <string name="profile_for_you_header">추천</string>
     <string name="profile_edit_link">편집</string>
     <string name="profile_saved_toast">뷰티 프로필이 저장되었습니다!</string>
+    <string name="profile_hair_normal">보통</string>
+    <string name="profile_hair_dry">건성</string>
+    <string name="profile_hair_oily">지성</string>
+    <string name="profile_hair_dandruff">비듬 유발성</string>
+    <string name="profile_age_teens">10대 (13–19)</string>
+    <string name="profile_age_20s">20대</string>
+    <string name="profile_age_30s">30대</string>
+    <string name="profile_age_40s">40대 이상</string>
 
     <!-- Feature 10: My Remedy Notes -->
     <string name="remedy_notes_title">나의 관리 노트</string>

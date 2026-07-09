@@ -3613,6 +3613,14 @@
     <string name="profile_for_you_header">Für Dich</string>
     <string name="profile_edit_link">Bearbeiten</string>
     <string name="profile_saved_toast">Schönheitsprofil erfolgreich gespeichert!</string>
+    <string name="profile_hair_normal">Normal</string>
+    <string name="profile_hair_dry">Trocken</string>
+    <string name="profile_hair_oily">Fettig</string>
+    <string name="profile_hair_dandruff">Schuppenanfällig</string>
+    <string name="profile_age_teens">Teenager (13–19)</string>
+    <string name="profile_age_20s">20er</string>
+    <string name="profile_age_30s">30er</string>
+    <string name="profile_age_40s">40er+</string>
 
     <!-- Feature 10: My Remedy Notes -->
     <string name="remedy_notes_title">Meine Rezept-Notizen</string>

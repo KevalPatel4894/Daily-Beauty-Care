@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.text.Editable
 import android.text.TextWatcher
 import android.view.View
+import android.view.ViewGroup
 import android.widget.RelativeLayout
 import androidx.appcompat.widget.AppCompatEditText
 import androidx.appcompat.widget.AppCompatImageView
@@ -16,6 +17,7 @@ import com.google.android.gms.ads.AdRequest
 import com.google.android.gms.ads.AdSize
 import com.google.android.gms.ads.AdView
 import com.kp.beautytips.R
+import com.kp.beautytips.utils.AdManager
 import com.kp.beautytips.adapter.IngredientAdapter
 import com.kp.beautytips.model.IngredientModel
 import com.kp.beautytips.utils.ActivityUtils
@@ -112,13 +114,8 @@ class IngredientGlossaryActivity : BaseActivity() {
     }
 
     private fun loadAdBanner() {
-        val adContainer = findViewById<View>(R.id.ad_view) ?: return
-        val adRequest = AdRequest.Builder().build()
-        val mAdView = AdView(this)
-        mAdView.setAdSize(AdSize.BANNER)
-        mAdView.adUnitId = getString(R.string.banner_home_footer)
-        (adContainer as RelativeLayout).addView(mAdView)
-        mAdView.loadAd(adRequest)
+        val adContainer = findViewById<ViewGroup>(R.id.ad_view) ?: return
+        AdManager.loadBanner(this, adContainer, getString(R.string.banner_home_footer))
     }
 
     override fun onSupportNavigateUp(): Boolean {

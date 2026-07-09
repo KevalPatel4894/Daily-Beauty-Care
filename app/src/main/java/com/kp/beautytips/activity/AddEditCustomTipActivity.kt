@@ -6,6 +6,7 @@ import android.content.Intent
 import android.graphics.Color
 import android.os.Bundle
 import android.view.View
+import android.view.ViewGroup
 import android.widget.ArrayAdapter
 import android.widget.EditText
 import android.widget.Spinner
@@ -16,6 +17,7 @@ import com.google.android.gms.ads.AdSize
 import com.google.android.gms.ads.AdView
 import com.google.android.material.button.MaterialButton
 import com.kp.beautytips.R
+import com.kp.beautytips.utils.AdManager
 import com.kp.beautytips.data.CustomTipDbHelper
 import com.kp.beautytips.model.CustomTip
 import com.kp.beautytips.utils.ActivityUtils
@@ -185,13 +187,8 @@ class AddEditCustomTipActivity : BaseActivity() {
 
     private fun loadAdBanner() {
         try {
-            val adContainer = findViewById<android.widget.RelativeLayout>(R.id.ad_view)
-            val adRequest = AdRequest.Builder().build()
-            val mAdView = AdView(this)
-            mAdView.setAdSize(AdSize.BANNER)
-            mAdView.adUnitId = getString(R.string.banner_home_footer)
-            adContainer.addView(mAdView)
-            mAdView.loadAd(adRequest)
+            val adContainer = findViewById<ViewGroup>(R.id.ad_view) ?: return
+            AdManager.loadBanner(this, adContainer, getString(R.string.banner_home_footer))
         } catch (e: Exception) {
             e.printStackTrace()
         }
