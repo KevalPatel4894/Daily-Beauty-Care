@@ -128,7 +128,7 @@ This document tracks all zero-budget features designed to maximize user retentio
 
 ## 📚 Category 6: Content Expansion & Data Architecture
 
-### [ ] Feature 21: Body & General Wellness Category (Content Expansion)
+### [x] Feature 21: Body & General Wellness Category (Content Expansion)
 * **Goal:** Expand application scope to capture full-body wellness searches, bringing in new user demographics.
 * **Details:** Add a new category for "Body Care & Wellness" covering subcategories like Stretch Marks, Neck Whitening, Body Scrub recipes, and Elbow/Knee Softening.
 * **Tech:** Content templates and new data classes/models.
