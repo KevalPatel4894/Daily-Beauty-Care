@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -28,7 +28,6 @@
         android:id="@+id/lrMain"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/toolBar"
         android:orientation="vertical">
 
         <androidx.appcompat.widget.AppCompatImageView
@@ -52,14 +51,12 @@
             android:textColor="@color/white"
             android:textSize="@dimen/_13sdp"
             tools:text="Custom Recipe Title" />
-
     </androidx.appcompat.widget.LinearLayoutCompat>
 
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_above="@+id/lrMainShare"
-        android:layout_below="@+id/lrMain"
+        android:layout_height="0dp"
+        android:layout_weight="1"
         android:fillViewport="true"
         android:paddingBottom="@dimen/_20sdp"
         android:clipToPadding="false">
@@ -72,7 +69,7 @@
             <androidx.appcompat.widget.AppCompatTextView
                 android:id="@+id/txtDetails"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:alpha="0.5"
                 android:padding="@dimen/_12sdp"
                 android:textColor="@color/black"
@@ -168,7 +165,6 @@
         android:id="@+id/lrMainShare"
         android:layout_width="match_parent"
         android:layout_height="@dimen/_45sdp"
-        android:layout_above="@+id/ad_view"
         android:background="@color/toolBarColor">
 
         <androidx.appcompat.widget.LinearLayoutCompat
@@ -248,7 +244,5 @@
         android:id="@+id/ad_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
         android:gravity="center" />
-</RelativeLayout>
+</LinearLayout>
