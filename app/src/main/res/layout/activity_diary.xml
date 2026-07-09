@@ -28,6 +28,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_above="@+id/ad_view"
+        android:layout_alignParentBottom="true"
         android:layout_below="@+id/toolBar"
         android:padding="@dimen/_8sdp">
 
@@ -86,6 +87,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_above="@+id/ad_view"
+        android:layout_alignParentBottom="true"
         android:layout_margin="@dimen/_16sdp"
         android:src="@android:drawable/ic_input_add"
         app:backgroundTint="@color/toolBarColor"
