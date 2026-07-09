@@ -3777,4 +3777,65 @@
     <string name="faq_myth_6_title">Heißes Wasser öffnet Poren, kaltes Wasser schließt sie</string>
     <string name="faq_myth_6_desc">Dampf oder heißes Wasser öffnet die Poren für eine Tiefenreinigung, während kaltes Wasser sie schließt oder verkleinert.</string>
     <string name="faq_myth_6_fact">Poren haben keine Muskeln, sie können sich also weder öffnen noch schließen. Heißes Wasser kann Blutgefäße erweitern, schützende Öle entziehen und Reizungen verursachen. Kaltes Wasser schließt Poren nicht, kann aber Entzündungen beruhigen. Lauwarmes Wasser ist ideal zum Waschen.</string>
+
+    <!-- Feature 21: Body & Wellness -->
+    <string name="body_wellness">Körperpflege</string>
+    <string name="stretch_marks">Dehnungsstreifen</string>
+    <string name="dark_neck">Dunkler Hals</string>
+    <string name="body_scrub">Körperpeelings</string>
+    <string name="elbow_knee">Ellbogen &amp; Knie</string>
+
+    <string name="body_stretch_cocoa_shea_title">Kakao- &amp;amp; Shea-Butter</string>
+    <string name="body_stretch_cocoa_shea_desc">Täglich warme Kakaobutter und Sheabutter in die betroffene Stelle einmassieren, um die Hautelastizität zu verbessern und Dehnungsstreifen verblassen zu lassen.</string>
+
+    <string name="body_stretch_aloe_vit_e_title">Aloe Vera &amp;amp; Vitamin E</string>
+    <string name="body_stretch_aloe_vit_e_desc">Frisches Aloe Vera Gel mit dem Öl aus 2 Vitamin-E-Kapseln mischen. Auftragen und 15 Minuten einwirken lassen.</string>
+
+    <string name="body_stretch_castor_wrap_title">Rizinusöl-Wickel</string>
+    <string name="body_stretch_castor_wrap_desc">Warmes Rizinusöl auftragen und die Stelle mit Frischhaltefolie umwickeln. Ein warmes Heizkissen für 20 Minuten auflegen.</string>
+
+    <string name="body_diet_vit_c_e_title">Vitamin C &amp;amp; E Lebensmittel</string>
+    <string name="body_diet_vit_c_e_desc">Zitrusfrüchte, Mandeln, Sonnenblumenkerne und grünes Blattgemüse essen, um Kollagen aufzubauen.</string>
+
+    <string name="body_diet_zinc_title">Zink-Boost</string>
+    <string name="body_diet_zinc_desc">Zinkreiche Lebensmittel wie Kürbiskerne, Linsen und Nüsse essen, um das Hautgewebe zu reparieren.</string>
+
+    <string name="body_neck_lemon_rose_title">Zitronen- &amp;amp; Rosenwasser</string>
+    <string name="body_neck_lemon_rose_desc">Gleiche Teile Zitronensaft und Rosenwasser mischen. Über Nacht auf den Hals auftragen.</string>
+
+    <string name="body_neck_baking_soda_title">Natron-Peeling</string>
+    <string name="body_neck_baking_soda_desc">Natron mit Wasser zu einer Paste mischen. Auftragen, 10 Minuten einwirken lassen, dann sanft abpeelen.</string>
+
+    <string name="body_neck_potato_title">Kartoffelsaft</string>
+    <string name="body_neck_potato_desc">Rohen Kartoffelsaft auf die dunklen Stellen des Halses auftragen und 15 Minuten einwirken lassen.</string>
+
+    <string name="body_diet_hydration_title">Ausreichend trinken</string>
+    <string name="body_diet_hydration_desc">Viel Wasser trinken, um Giftstoffe auszuspülen und Hautzellen gesund zu halten.</string>
+
+    <string name="body_diet_low_gi_title">Niedriger glykämischer Index</string>
+    <string name="body_diet_low_gi_desc">Lebensmittel mit hohem glykämischen Index einschränken, die Insulinspitzen auslösen, da Insulinresistenz eine häufige Ursache für dunkle Halshaut ist.</string>
+
+    <string name="body_scrub_coffee_title">Kaffee &amp;amp; brauner Zucker</string>
+    <string name="body_scrub_coffee_desc">Gemahlenen Kaffee, braunen Zucker und Kokosöl mischen. Beim Duschen sanft in kreisenden Bewegungen einreiben.</string>
+
+    <string name="body_scrub_oatmeal_title">Haferflocken &amp;amp; Honig</string>
+    <string name="body_scrub_oatmeal_desc">Gemahlene Haferflocken, Honig und Olivenöl mischen, um trockene, empfindliche Haut zu peelen und zu beruhigen.</string>
+
+    <string name="body_scrub_salt_lemon_title">Meersalz &amp;amp; Zitrone</string>
+    <string name="body_scrub_salt_lemon_desc">Meersalz, Zitronensaft und süßes Mandelöl für ein erfrischendes, hautaufhellendes Peeling mischen.</string>
+
+    <string name="body_diet_berries_title">Antioxidative Beeren</string>
+    <string name="body_diet_berries_desc">Hautzellen vor Schäden durch freie Radikale schützen, indem Sie Blaubeeren, Erdbeeren und Brombeeren essen.</string>
+
+    <string name="body_elbow_turmeric_cream_title">Kurkuma &amp;amp; Sahne</string>
+    <string name="body_elbow_turmeric_cream_desc">Milchrahm (Malai) mit einer Prise Kurkuma mischen. 15 Minuten lang in Ellbogen und Knie einmassieren, um die Haut weich zu machen und aufzuhellen.</string>
+
+    <string name="body_elbow_coconut_lemon_title">Kokosöl &amp;amp; Zitrone</string>
+    <string name="body_elbow_coconut_lemon_desc">Täglich nach dem Baden warmes Kokosöl gemischt mit ein paar Tropfen Zitronensaft einmassieren.</string>
+
+    <string name="body_elbow_aloe_honey_title">Aloe Vera &amp;amp; Honig</string>
+    <string name="body_elbow_aloe_honey_desc">Aloe-Vera-Gel und Honig mischen. 20 Minuten lang auftragen, um raue Stellen intensiv mit Feuchtigkeit zu versorgen.</string>
+
+    <string name="body_diet_omega_fats_title">Gesunde Omega-Fette</string>
+    <string name="body_diet_omega_fats_desc">Walnüsse, Leinsamen und Avocados essen, um die Lipidbarriere der Haut von innen heraus zu nähren.</string>
 </resources>

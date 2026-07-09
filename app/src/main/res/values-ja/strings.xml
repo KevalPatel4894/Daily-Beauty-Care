@@ -3746,4 +3746,65 @@
 
     <string name="skin_mood_glowing">ツヤ肌</string>
     <string name="skin_mood_glowing_keywords">ツヤ肌,ツヤ,ハリ,輝き,美肌,すこやか</string>
+
+    <!-- Feature 21: Body & Wellness -->
+    <string name="body_wellness">ボディケア</string>
+    <string name="stretch_marks">妊娠線・肉割れ</string>
+    <string name="dark_neck">首の黒ずみ</string>
+    <string name="body_scrub">ボディスクラブ</string>
+    <string name="elbow_knee">肘と膝のケア</string>
+
+    <string name="body_stretch_cocoa_shea_title">ココア＆シアバター</string>
+    <string name="body_stretch_cocoa_shea_desc">ココアバターとシアバターを温め、気になる部分に毎日マッサージしながらなじませることで、肌の弾力を高め、ストレッチマークを目立たなくします。</string>
+
+    <string name="body_stretch_aloe_vit_e_title">アロエベラ＆ビタミンE</string>
+    <string name="body_stretch_aloe_vit_e_desc">新鮮なアロエベラジェルにビタミンEカプセル2個分のオイルを混ぜます。肌に塗布し、15分間置いてから洗い流します。</string>
+
+    <string name="body_stretch_castor_wrap_title">ひまし油ラップ</string>
+    <string name="body_stretch_castor_wrap_desc">温めたひまし油を塗り、ラップで包みます。その上から温かい湯たんぽや温熱パッドを20分間あてます。</string>
+
+    <string name="body_diet_vit_c_e_title">ビタミンC＆E豊富な食事</string>
+    <string name="body_diet_vit_c_e_desc">柑橘類、アーモンド、ひまわりの種、緑黄色野菜などを積極的に摂り、コラーゲンの生成をサポートします。</string>
+
+    <string name="body_diet_zinc_title">亜鉛の補給</string>
+    <string name="body_diet_zinc_desc">カボチャの種、レンズ豆、ナッツ類など亜鉛が豊富な食材を摂ることで、皮膚組織の修復を助けます。</string>
+
+    <string name="body_neck_lemon_rose_title">レモン＆ローズウォーター</string>
+    <string name="body_neck_lemon_rose_desc">レモン汁とローズウォーターを同量ずつ混ぜ合わせます。就寝前に首の気になる部分に塗布します。</string>
+
+    <string name="body_neck_baking_soda_title">重曹スクラブ</string>
+    <string name="body_neck_baking_soda_desc">重曹に少量の水を加えてペースト状にします。首に塗って10分間置いた後、優しく円を描くようにマッサージして洗い流します。</string>
+
+    <string name="body_neck_potato_title">ジャガイモの絞り汁</string>
+    <string name="body_neck_potato_desc">生のジャガイモの絞り汁を首の黒ずんだ部分に塗り、15分間置いてから洗い流します。</string>
+
+    <string name="body_diet_hydration_title">十分な水分補給</string>
+    <string name="body_diet_hydration_desc">水をたくさん飲み、体内の老廃物を排出して、肌細胞を健康でみずみずしく保ちます。</string>
+
+    <string name="body_diet_low_gi_title">低GI食品の選択</string>
+    <string name="body_diet_low_gi_desc">インスリンの急激な上昇を招く高GI食品を控えましょう。インスリン抵抗性は、首の皮膚が黒ずむ一般的な原因の一つです。</string>
+
+    <string name="body_scrub_coffee_title">コーヒー＆ブラウンシュガー</string>
+    <string name="body_scrub_coffee_desc">コーヒー粉、ブラウンシュガー、ココナッツオイルを混ぜ合わせます。入浴時に優しく円を描くようにマッサージします。</string>
+
+    <string name="body_scrub_oatmeal_title">オートミール＆ハチミツ</string>
+    <string name="body_scrub_oatmeal_desc">細かく砕いたオートミール、ハチミツ、オリーブオイルを混ぜます。乾燥して敏感になった肌を優しく角質ケアし、落ち着かせます。</string>
+
+    <string name="body_scrub_salt_lemon_title">海塩＆レモン</string>
+    <string name="body_scrub_salt_lemon_desc">海塩、レモン汁、スイートアーモンドオイルを混ぜ合わせ、すっきりとした使用感で肌を明るく整えるスクラブを作ります。</string>
+
+    <string name="body_diet_berries_title">抗酸化ベリー類</string>
+    <string name="body_diet_berries_desc">ブルーベリー、イチゴ、ブラックベリーなどを食べて、肌細胞を活性酸素によるダメージから守ります。</string>
+
+    <string name="body_elbow_turmeric_cream_title">ターメリック＆乳脂クリーム</string>
+    <string name="body_elbow_turmeric_cream_desc">牛乳の膜（マライ）または生クリームにターメリックをひとつまみ混ぜます。肘や膝に15分間マッサージしながら塗り、肌を柔らかくしてトーンアップさせます。</string>
+
+    <string name="body_elbow_coconut_lemon_title">ココナッツオイル＆レモン</string>
+    <string name="body_elbow_coconut_lemon_desc">温めたココナッツオイルにレモン汁を数滴混ぜ、毎日入浴後に乾燥した肘や膝にマッサージするように塗り込みます。</string>
+
+    <string name="body_elbow_aloe_honey_title">アロエベラ＆ハチミツ</string>
+    <string name="body_elbow_aloe_honey_desc">アロエベラジェルとハチミツを混ぜ合わせます。20分間塗布し、ゴワつく部分をディープに保湿します。</string>
+
+    <string name="body_diet_omega_fats_title">ヘルシーなオメガ脂肪酸</string>
+    <string name="body_diet_omega_fats_desc">クルミ、亜麻仁、アボカドなどを食べて、内側から肌の脂質バリアを育みます。</string>
 </resources>

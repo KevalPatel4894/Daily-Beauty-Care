@@ -6084,5 +6084,155 @@
         ]
       }
     ]
+  },
+  {
+    "categoryKey": "body_wellness",
+    "categoryNameRes": "body_wellness",
+    "subcategories": [
+      {
+        "subcategoryKey": "stretch_marks",
+        "nameRes": "stretch_marks",
+        "imageRes": "strech_title_small",
+        "remedies": [
+          {
+            "titleRes": "body_stretch_cocoa_shea_title",
+            "durationRes": "few_min",
+            "imageRes": "strech_sheabutter",
+            "detailsRes": "body_stretch_cocoa_shea_desc"
+          },
+          {
+            "titleRes": "body_stretch_aloe_vit_e_title",
+            "durationRes": "fifteen_min",
+            "imageRes": "aloevera",
+            "detailsRes": "body_stretch_aloe_vit_e_desc"
+          },
+          {
+            "titleRes": "body_stretch_castor_wrap_title",
+            "durationRes": "twenty_min",
+            "imageRes": "strech_cocobutter",
+            "detailsRes": "body_stretch_castor_wrap_desc"
+          }
+        ],
+        "diets": [
+          {
+            "titleRes": "body_diet_vit_c_e_title",
+            "durationRes": "daily",
+            "imageRes": "ic_vitamin_c_food",
+            "detailsRes": "body_diet_vit_c_e_desc"
+          },
+          {
+            "titleRes": "body_diet_zinc_title",
+            "durationRes": "daily",
+            "imageRes": "ic_zin_rich_food",
+            "detailsRes": "body_diet_zinc_desc"
+          }
+        ]
+      },
+      {
+        "subcategoryKey": "dark_neck",
+        "nameRes": "dark_neck",
+        "imageRes": "underarms_title_small",
+        "remedies": [
+          {
+            "titleRes": "body_neck_lemon_rose_title",
+            "durationRes": "overnight",
+            "imageRes": "rosewater",
+            "detailsRes": "body_neck_lemon_rose_desc"
+          },
+          {
+            "titleRes": "body_neck_baking_soda_title",
+            "durationRes": "ten_min",
+            "imageRes": "baking_soda_dandruff",
+            "detailsRes": "body_neck_baking_soda_desc"
+          },
+          {
+            "titleRes": "body_neck_potato_title",
+            "durationRes": "fifteen_min",
+            "imageRes": "potato_tomato_honey_small",
+            "detailsRes": "body_neck_potato_desc"
+          }
+        ],
+        "diets": [
+          {
+            "titleRes": "body_diet_hydration_title",
+            "durationRes": "daily",
+            "imageRes": "dandruff_water",
+            "detailsRes": "body_diet_hydration_desc"
+          },
+          {
+            "titleRes": "body_diet_low_gi_title",
+            "durationRes": "daily",
+            "imageRes": "avoid_small",
+            "detailsRes": "body_diet_low_gi_desc"
+          }
+        ]
+      },
+      {
+        "subcategoryKey": "body_scrub",
+        "nameRes": "body_scrub",
+        "imageRes": "bodyscrub_title_small",
+        "remedies": [
+          {
+            "titleRes": "body_scrub_coffee_title",
+            "durationRes": "few_min",
+            "imageRes": "coffee_sugar_small",
+            "detailsRes": "body_scrub_coffee_desc"
+          },
+          {
+            "titleRes": "body_scrub_oatmeal_title",
+            "durationRes": "few_min",
+            "imageRes": "dryhands_oatmeal_small",
+            "detailsRes": "body_scrub_oatmeal_desc"
+          },
+          {
+            "titleRes": "body_scrub_salt_lemon_title",
+            "durationRes": "few_min",
+            "imageRes": "sea_salt",
+            "detailsRes": "body_scrub_salt_lemon_desc"
+          }
+        ],
+        "diets": [
+          {
+            "titleRes": "body_diet_berries_title",
+            "durationRes": "daily",
+            "imageRes": "blemishes_darkberries_small",
+            "detailsRes": "body_diet_berries_desc"
+          }
+        ]
+      },
+      {
+        "subcategoryKey": "elbow_knee",
+        "nameRes": "elbow_knee",
+        "imageRes": "darkhandsfeet_title_small",
+        "remedies": [
+          {
+            "titleRes": "body_elbow_turmeric_cream_title",
+            "durationRes": "fifteen_min",
+            "imageRes": "dryhands_yogurt_small",
+            "detailsRes": "body_elbow_turmeric_cream_desc"
+          },
+          {
+            "titleRes": "body_elbow_coconut_lemon_title",
+            "durationRes": "few_min",
+            "imageRes": "darkhandsfeet_lemon_small",
+            "detailsRes": "body_elbow_coconut_lemon_desc"
+          },
+          {
+            "titleRes": "body_elbow_aloe_honey_title",
+            "durationRes": "twenty_min",
+            "imageRes": "aloevera",
+            "detailsRes": "body_elbow_aloe_honey_desc"
+          }
+        ],
+        "diets": [
+          {
+            "titleRes": "body_diet_omega_fats_title",
+            "durationRes": "daily",
+            "imageRes": "ic_omega_acid",
+            "detailsRes": "body_diet_omega_fats_desc"
+          }
+        ]
+      }
+    ]
   }
 ]

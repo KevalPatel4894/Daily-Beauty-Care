@@ -3799,4 +3799,65 @@
     <string name="faq_myth_6_title">Hot Water Opens Pores, Cold Closes Them</string>
     <string name="faq_myth_6_desc">Steam or hot water opens up pores for deep cleaning, while cold water closes or shrinks them.</string>
     <string name="faq_myth_6_fact">Pores do not have muscles, so they cannot open or close. Hot water can dilate blood vessels and strip essential oils, causing dryness and irritation. Cold water does not close pores but can calm inflammation. Lukewarm water is ideal for washing.</string>
+
+    <!-- Feature 21: Body & Wellness -->
+    <string name="body_wellness">Body Care</string>
+    <string name="stretch_marks">Stretch Marks</string>
+    <string name="dark_neck">Dark Neck</string>
+    <string name="body_scrub">Body Scrubs</string>
+    <string name="elbow_knee">Elbow &amp; Knee</string>
+
+    <string name="body_stretch_cocoa_shea_title">Cocoa &amp; Shea Butter</string>
+    <string name="body_stretch_cocoa_shea_desc">Massage warm cocoa butter and shea butter onto the affected area daily to improve skin elasticity and fade stretch marks.</string>
+
+    <string name="body_stretch_aloe_vit_e_title">Aloe Vera &amp; Vitamin E</string>
+    <string name="body_stretch_aloe_vit_e_desc">Mix fresh aloe vera gel with oil from 2 vitamin E capsules. Apply and leave it on for 15 minutes.</string>
+
+    <string name="body_stretch_castor_wrap_title">Castor Oil Wrap</string>
+    <string name="body_stretch_castor_wrap_desc">Apply warm castor oil and wrap the area with plastic wrap. Apply a warm heating pad for 20 minutes.</string>
+
+    <string name="body_diet_vit_c_e_title">Vitamin C &amp; E Foods</string>
+    <string name="body_diet_vit_c_e_desc">Eat citrus fruits, almonds, sunflower seeds, and green leafy vegetables to boost collagen.</string>
+
+    <string name="body_diet_zinc_title">Zinc Boost</string>
+    <string name="body_diet_zinc_desc">Include zinc-rich foods like pumpkin seeds, lentils, and nuts to repair skin tissues.</string>
+
+    <string name="body_neck_lemon_rose_title">Lemon &amp; Rose Water</string>
+    <string name="body_neck_lemon_rose_desc">Mix equal parts lemon juice and rose water. Apply on the neck overnight.</string>
+
+    <string name="body_neck_baking_soda_title">Baking Soda Scrub</string>
+    <string name="body_neck_baking_soda_desc">Mix baking soda with water to form a paste. Apply, leave for 10 minutes, then scrub gently.</string>
+
+    <string name="body_neck_potato_title">Potato Juice</string>
+    <string name="body_neck_potato_desc">Apply raw potato juice on the dark areas of the neck and leave for 15 minutes.</string>
+
+    <string name="body_diet_hydration_title">Stay Hydrated</string>
+    <string name="body_diet_hydration_desc">Drink plenty of water to help flush out toxins and keep skin cells healthy.</string>
+
+    <string name="body_diet_low_gi_title">Low Glycemic Foods</string>
+    <string name="body_diet_low_gi_desc">Limit high-glycemic foods that trigger insulin spikes, as insulin resistance is a common cause of dark neck skin.</string>
+
+    <string name="body_scrub_coffee_title">Coffee &amp; Brown Sugar</string>
+    <string name="body_scrub_coffee_desc">Mix ground coffee, brown sugar, and coconut oil. Gently scrub in circular motions while showering.</string>
+
+    <string name="body_scrub_oatmeal_title">Oatmeal &amp; Honey</string>
+    <string name="body_scrub_oatmeal_desc">Mix ground oatmeal, honey, and olive oil to scrub and soothe dry, sensitive skin.</string>
+
+    <string name="body_scrub_salt_lemon_title">Sea Salt &amp; Lemon</string>
+    <string name="body_scrub_salt_lemon_desc">Mix sea salt, lemon juice, and sweet almond oil for a refreshing skin-brightening scrub.</string>
+
+    <string name="body_diet_berries_title">Antioxidant Berries</string>
+    <string name="body_diet_berries_desc">Protect skin cells from free-radical damage by eating blueberries, strawberries, and blackberries.</string>
+
+    <string name="body_elbow_turmeric_cream_title">Turmeric &amp; Cream</string>
+    <string name="body_elbow_turmeric_cream_desc">Mix milk cream (malai) with a pinch of turmeric. Massage onto elbows and knees for 15 minutes to soften and lighten the skin.</string>
+
+    <string name="body_elbow_coconut_lemon_title">Coconut Oil &amp; Lemon</string>
+    <string name="body_elbow_coconut_lemon_desc">Massage warm coconut oil mixed with a few drops of lemon juice daily after taking a bath.</string>
+
+    <string name="body_elbow_aloe_honey_title">Aloe Vera &amp; Honey</string>
+    <string name="body_elbow_aloe_honey_desc">Mix aloe vera gel and honey. Apply for 20 minutes to deeply hydrate rough patches.</string>
+
+    <string name="body_diet_omega_fats_title">Healthy Omega Fats</string>
+    <string name="body_diet_omega_fats_desc">Eat walnuts, flaxseeds, and avocados to nourish skin barrier lipid levels from within.</string>
 </resources>

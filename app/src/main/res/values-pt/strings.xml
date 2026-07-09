@@ -3708,4 +3708,65 @@
     <string name="faq_myth_6_title">Água quente abre os poros, água fria os fecha</string>
     <string name="faq_myth_6_desc">O vapor ou a água quente abrem os poros para uma limpeza profunda, enquanto a água fria os fecha ou reduz.</string>
     <string name="faq_myth_6_fact">Os poros não têm músculos, por isso não podem abrir ou fechar. A água quente pode dilatar os vasos sanguíneos e remover óleos essenciais, causando ressecamento e irritação. A água fria não fecha os poros, mas acalma a inflamação. A água morna é a ideal.</string>
+
+    <!-- Feature 21: Body & Wellness -->
+    <string name="body_wellness">Cuidados Corporais</string>
+    <string name="stretch_marks">Estrias</string>
+    <string name="dark_neck">Pescoço Escuro</string>
+    <string name="body_scrub">Esfoliantes</string>
+    <string name="elbow_knee">Cotovelos e Joelhos</string>
+
+    <string name="body_stretch_cocoa_shea_title">Manteiga de Cacau e Shea</string>
+    <string name="body_stretch_cocoa_shea_desc">Massageie a área afetada diariamente com manteiga de cacau e manteiga de shea morna para melhorar a elasticidade da pele e atenuar as estrias.</string>
+
+    <string name="body_stretch_aloe_vit_e_title">Aloe Vera e Vitamina E</string>
+    <string name="body_stretch_aloe_vit_e_desc">Misture gel de aloe vera fresco com o óleo de 2 cápsulas de vitamina E. Aplique e deixe agir por 15 minutos.</string>
+
+    <string name="body_stretch_castor_wrap_title">Envoltório de Óleo de Rícino</string>
+    <string name="body_stretch_castor_wrap_desc">Aplique óleo de rícino morno e envolva a área com plástico filme. Aplique uma bolsa térmica morna por 20 minutos.</string>
+
+    <string name="body_diet_vit_c_e_title">Vitaminas C e E</string>
+    <string name="body_diet_vit_c_e_desc">Consuma frutas cítricas, amêndoas, sementes de girassol e vegetais de folhas verdes para estimular a produção de colágeno.</string>
+
+    <string name="body_diet_zinc_title">Mais Zinco</string>
+    <string name="body_diet_zinc_desc">Inclua alimentos ricos em zinco (sementes de abóbora, lentilhas, nozes) para ajudar na regeneração dos tecidos da pele.</string>
+
+    <string name="body_neck_lemon_rose_title">Limão e Água de Rosas</string>
+    <string name="body_neck_lemon_rose_desc">Misture partes iguais de suco de limão e água de rosas. Aplique no pescoço antes de dormir.</string>
+
+    <string name="body_neck_baking_soda_title">Esfoliante de Bicarbonato</string>
+    <string name="body_neck_baking_soda_desc">Misture bicarbonato de sódio com água para formar uma pasta. Aplique, deixe agir por 10 minutos e depois esfregue suavemente.</string>
+
+    <string name="body_neck_potato_title">Suco de Batata</string>
+    <string name="body_neck_potato_desc">Aplique suco de batata crua nas áreas escuras do pescoço e deixe agir por 15 minutos.</string>
+
+    <string name="body_diet_hydration_title">Beba Água</string>
+    <string name="body_diet_hydration_desc">Beba bastante água para eliminar toxinas e manter as células da pele saudáveis.</string>
+
+    <string name="body_diet_low_gi_title">Baixo Índice Glicêmico</string>
+    <string name="body_diet_low_gi_desc">Limite alimentos de alto índice glicêmico que causam picos de insulina, pois a resistência à insulina é uma causa comum de escurecimento da pele do pescoço.</string>
+
+    <string name="body_scrub_coffee_title">Café e Açúcar Mascavo</string>
+    <string name="body_scrub_coffee_desc">Misture café moído, açúcar mascavo e óleo de coco. Massageie suavemente em movimentos circulares durante o banho.</string>
+
+    <string name="body_scrub_oatmeal_title">Aveia e Mel</string>
+    <string name="body_scrub_oatmeal_desc">Misture aveia moída, mel e azeite de oliva para esfoliar e acalmar a pele seca e sensível.</string>
+
+    <string name="body_scrub_salt_lemon_title">Sal Marinho e Limão</string>
+    <string name="body_scrub_salt_lemon_desc">Misture sal marinho, suco de limão e óleo de amêndoas doces para um esfoliante revigorante e clareador.</string>
+
+    <string name="body_diet_berries_title">Frutas Vermelhas</string>
+    <string name="body_diet_berries_desc">Proteja as células da pele contra danos dos radicais livres consumindo mirtilos, morangos e amoras.</string>
+
+    <string name="body_elbow_turmeric_cream_title">Cúrcuma e Nata</string>
+    <string name="body_elbow_turmeric_cream_desc">Misture nata de leite com uma pitada de cúrcuma. Massageie os cotovelos e joelhos por 15 minutos para amaciar e clarear.</string>
+
+    <string name="body_elbow_coconut_lemon_title">Óleo de Coco e Limão</string>
+    <string name="body_elbow_coconut_lemon_desc">Massageie cotovelos e joelhos secos com óleo de coco morno misturado com algumas gotas de suco de limão diariamente após o banho.</string>
+
+    <string name="body_elbow_aloe_honey_title">Aloe Vera e Mel</string>
+    <string name="body_elbow_aloe_honey_desc">Misture gel de aloe vera e mel. Aplique por 20 minutos para hidratar profundamente as áreas ásperas.</string>
+
+    <string name="body_diet_omega_fats_title">Gorduras Saudáveis Ômega</string>
+    <string name="body_diet_omega_fats_desc">Coma nozes, sementes de linhaça e abacate para nutrir a barreira lipídica da pele por dentro.</string>
 </resources>

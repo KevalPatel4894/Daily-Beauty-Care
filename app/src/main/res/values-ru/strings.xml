@@ -3746,4 +3746,65 @@
 
     <string name="skin_mood_glowing">Сияющая</string>
     <string name="skin_mood_glowing_keywords">сияющая,блестящая,здоровая,glow,сияние</string>
+
+    <!-- Feature 21: Body & Wellness -->
+    <string name="body_wellness">Уход за Телом</string>
+    <string name="stretch_marks">Растяжки</string>
+    <string name="dark_neck">Темная Шея</string>
+    <string name="body_scrub">Скрабы</string>
+    <string name="elbow_knee">Локти и Колени</string>
+
+    <string name="body_stretch_cocoa_shea_title">Масло Какао и Ши</string>
+    <string name="body_stretch_cocoa_shea_desc">Ежедневно массируйте пораженный участок теплым маслом какао и ши для повышения эластичности кожи и уменьшения растяжек.</string>
+
+    <string name="body_stretch_aloe_vit_e_title">Алоэ Вера и Витамин E</string>
+    <string name="body_stretch_aloe_vit_e_desc">Смешайте свежий гель алоэ вера с содержимым 2 капсул витамина E. Нанесите и оставьте на 15 минут.</string>
+
+    <string name="body_stretch_castor_wrap_title">Касторовое Обертывание</string>
+    <string name="body_stretch_castor_wrap_desc">Нанесите теплое касторовое масло и оберните область пищевой пленкой. Приложите теплую грелку на 20 минут.</string>
+
+    <string name="body_diet_vit_c_e_title">Витамины C и E</string>
+    <string name="body_diet_vit_c_e_desc">Употребляйте цитрусовые, миндаль, семена подсолнечника и зеленые овощи для стимуляции выработки коллагена.</string>
+
+    <string name="body_diet_zinc_title">Больше Цинка</string>
+    <string name="body_diet_zinc_desc">Включите в рацион продукты, богатые цинком (тыквенные семечки, чечевица, орехи) для восстановления тканей кожи.</string>
+
+    <string name="body_neck_lemon_rose_title">Лимон и Розовая Вода</string>
+    <string name="body_neck_lemon_rose_desc">Смешайте равные части лимонного сока и розовой воды. Нанесите на шею на ночь.</string>
+
+    <string name="body_neck_baking_soda_title">Содовый Скраб</string>
+    <string name="body_neck_baking_soda_desc">Смешайте пищевую соду с водой до состояния пасты. Нанесите, оставьте на 10 минут, затем аккуратно потрите.</string>
+
+    <string name="body_neck_potato_title">Картофельный Сок</string>
+    <string name="body_neck_potato_desc">Нанесите сок сырого картофеля на темные участки шеи и оставьте на 15 минут.</string>
+
+    <string name="body_diet_hydration_title">Пейте Воду</string>
+    <string name="body_diet_hydration_desc">Пейте много воды для вымывания токсинов и поддержания здоровья клеток кожи.</string>
+
+    <string name="body_diet_low_gi_title">Низкий Гликемический Индекс</string>
+    <string name="body_diet_low_gi_desc">Ограничьте продукты с высоким гликемическим индексом, вызывающие скачки инсулина, так как резистентность к инсулину является частой причиной потемнения кожи на шее.</string>
+
+    <string name="body_scrub_coffee_title">Кофе и Коричневый Сахар</string>
+    <string name="body_scrub_coffee_desc">Смешайте молотый кофе, коричневый сахар и кокосовое масло. Мягко массируйте круговыми движениями во время душа.</string>
+
+    <string name="body_scrub_oatmeal_title">Овсянка и Мед</string>
+    <string name="body_scrub_oatmeal_desc">Смешайте измельченную овсянку, мед и оливковое масло для отшелушивания и успокоения сухой чувствительной кожи.</string>
+
+    <string name="body_scrub_salt_lemon_title">Морская Соль и Лимон</string>
+    <string name="body_scrub_salt_lemon_desc">Смешайте морскую соль, лимонный сок и масло сладкого миндаля для бодрящего и осветляющего скраба.</string>
+
+    <string name="body_diet_berries_title">Ягоды с Антиоксидантами</string>
+    <string name="body_diet_berries_desc">Защитите клетки кожи от свободных радикалов, употребляя чернику, клубнику и ежевику.</string>
+
+    <string name="body_elbow_turmeric_cream_title">Куркума и Сливки</string>
+    <string name="body_elbow_turmeric_cream_desc">Смешайте молочные сливки с щепоткой куркумы. Массируйте локти и колени в течение 15 минут для смягчения и осветления.</string>
+
+    <string name="body_elbow_coconut_lemon_title">Кокосовое Масло и Лимон</string>
+    <string name="body_elbow_coconut_lemon_desc">Массируйте сухие локти и колени теплым кокосовым маслом с несколькими каплями лимонного сока ежедневно после душа.</string>
+
+    <string name="body_elbow_aloe_honey_title">Алоэ Вера и Мед</string>
+    <string name="body_elbow_aloe_honey_desc">Смешайте свежий гель алоэ вера с медом. Нанесите на 20 минут для глубокого увлажнения огрубевших участков.</string>
+
+    <string name="body_diet_omega_fats_title">Полезные Омега-жиры</string>
+    <string name="body_diet_omega_fats_desc">Ешьте грецкие орехи, семена льна и авокадо для питания липидного барьера кожи изнутри.</string>
 </resources>

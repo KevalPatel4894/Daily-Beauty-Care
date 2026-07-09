@@ -100,7 +100,7 @@ This document tracks all zero-budget features designed to maximize user retentio
 * **Details:** A directory of ingredients (e.g., Honey, Aloe Vera, Lemon). Tapping an ingredient displays its benefits and a list of all beauty tips in the app that use it.
 * **Tech:** Database relations mapping ingredients to tips.
 
-### [ ] Feature 17: F.A.Q. & Myth Busters Section
+### [x] Feature 17: F.A.Q. & Myth Busters Section
 * **Goal:** Educate users on natural care myths vs. facts (e.g., *"Toothpaste on pimples: Good or Bad?"*).
 * **Details:** A readable myth-vs-fact Q&A section with clean toggle animations.
 * **Tech:** Expandable RecyclerView layouts.

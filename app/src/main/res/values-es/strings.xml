@@ -3777,4 +3777,65 @@
     <string name="faq_myth_6_title">El agua caliente abre los poros, el agua fría los cierra</string>
     <string name="faq_myth_6_desc">El vapor o el agua caliente abren los poros para una limpieza profunda, mientras que el agua fría los cierra o los reduce.</string>
     <string name="faq_myth_6_fact">Los poros no tienen músculos, por lo que no pueden abrirse ni cerrarse. El agua caliente puede dilatar los vasos sanguíneos y eliminar aceites esenciales, causando sequedad e irritación. El agua fría no cierra los poros pero calma la inflamación. El agua tibia es la ideal.</string>
+
+    <!-- Feature 21: Body & Wellness -->
+    <string name="body_wellness">Cuidado Corporal</string>
+    <string name="stretch_marks">Estrías</string>
+    <string name="dark_neck">Cuello Oscuro</string>
+    <string name="body_scrub">Exfoliantes</string>
+    <string name="elbow_knee">Codos y Rodillas</string>
+
+    <string name="body_stretch_cocoa_shea_title">Manteca de Cacao y Kité</string>
+    <string name="body_stretch_cocoa_shea_desc">Masajee manteca de cacao y manteca de karité tibias en el área afectada diariamente para mejorar la elasticidad de la piel y desvanecer las estrías.</string>
+
+    <string name="body_stretch_aloe_vit_e_title">Aloe Vera y Vitamina E</string>
+    <string name="body_stretch_aloe_vit_e_desc">Mezcle gel de aloe vera fresco con el aceite de 2 cápsulas de vitamina E. Aplique y deje actuar durante 15 minutos.</string>
+
+    <string name="body_stretch_castor_wrap_title">Envoltura de Aceite de Ricino</string>
+    <string name="body_stretch_castor_wrap_desc">Aplique aceite de ricino tibio y envuelva el área con film plástico. Aplique una almohadilla térmica tibia durante 20 minutos.</string>
+
+    <string name="body_diet_vit_c_e_title">Alimentos con Vitamina C y E</string>
+    <string name="body_diet_vit_c_e_desc">Coma cítricos, almendras, semillas de girasol y verduras de hoja verde para aumentar el colágeno.</string>
+
+    <string name="body_diet_zinc_title">Aumento de Zinc</string>
+    <string name="body_diet_zinc_desc">Incluya alimentos ricos en zinc como semillas de calabaza, lentejas y nueces para reparar los tejidos de la piel.</string>
+
+    <string name="body_neck_lemon_rose_title">Limón y Agua de Rosas</string>
+    <string name="body_neck_lemon_rose_desc">Mezcle partes iguales de jugo de limón y agua de rosas. Aplique en el cuello durante la noche.</string>
+
+    <string name="body_neck_baking_soda_title">Exfoliante de Bicarbonato</string>
+    <string name="body_neck_baking_soda_desc">Mezcle bicarbonato de sodio con agua para formar a paste. Aplique, deje actuar durante 10 minutos y luego frote suavemente.</string>
+
+    <string name="body_neck_potato_title">Jugo de Patata</string>
+    <string name="body_neck_potato_desc">Aplique jugo de patata cruda en las zonas oscuras del cuello y deje actuar durante 15 minutos.</string>
+
+    <string name="body_diet_hydration_title">Manténgase Hidratado</string>
+    <string name="body_diet_hydration_desc">Beba mucha agua para ayudar a eliminar toxinas y mantener sanas las células de la piel.</string>
+
+    <string name="body_diet_low_gi_title">Alimentos de Bajo Índice Glucémico</string>
+    <string name="body_diet_low_gi_desc">Limite los alimentos con alto índice glucémico que provocan picos de insulina, ya que la resistencia a la insulina es una causa común de la piel oscura del cuello.</string>
+
+    <string name="body_scrub_coffee_title">Café y Azúcar Moreno</string>
+    <string name="body_scrub_coffee_desc">Mezcle café molido, azúcar moreno y aceite de coco. Exfolie suavemente con movimientos circulares durante la ducha.</string>
+
+    <string name="body_scrub_oatmeal_title">Avena y Miel</string>
+    <string name="body_scrub_oatmeal_desc">Mezcle avena molida, miel y aceite de oliva para exfoliar y calmar la piel seca y sensible.</string>
+
+    <string name="body_scrub_salt_lemon_title">Sal Marina y Limón</string>
+    <string name="body_scrub_salt_lemon_desc">Mezcle sal marina, jugo de limón y aceite de almendras dulces para obtener un exfoliante refrescante que ilumina la piel.</string>
+
+    <string name="body_diet_berries_title">Bayas Antioxidantes</string>
+    <string name="body_diet_berries_desc">Proteja las células de la piel del daño de los radicales libres comiendo arándanos, fresas y moras.</string>
+
+    <string name="body_elbow_turmeric_cream_title">Cúrcuma y Crema de Leche</string>
+    <string name="body_elbow_turmeric_cream_desc">Mezcle crema de leche (malai) con una pizca de cúrcuma. Masajee en codos y rodillas durante 15 minutos para suavizar y aclarar la piel.</string>
+
+    <string name="body_elbow_coconut_lemon_title">Aceite de Coco y Limón</string>
+    <string name="body_elbow_coconut_lemon_desc">Masajee aceite de coco tibio mezclado con unas gotas de jugo de limón diariamente después del baño.</string>
+
+    <string name="body_elbow_aloe_honey_title">Aloe Vera y Miel</string>
+    <string name="body_elbow_aloe_honey_desc">Mezcle gel de aloe vera y miel. Aplique durante 20 minutos para hidratar profundamente las zonas ásperas.</string>
+
+    <string name="body_diet_omega_fats_title">Grasas Omega Saludables</string>
+    <string name="body_diet_omega_fats_desc">Coma nueces, semillas de lino y aguacates para nutrir la barrera lipídica de la piel desde el interior.</string>
 </resources>

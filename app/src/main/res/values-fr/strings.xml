@@ -3746,4 +3746,65 @@
 
     <string name="skin_mood_glowing">Éclatante</string>
     <string name="skin_mood_glowing_keywords">éclatante,brillante,éclat,peau de verre,sain,glow</string>
+
+    <!-- Feature 21: Body & Wellness -->
+    <string name="body_wellness">Soins du Corps</string>
+    <string name="stretch_marks">Vergetures</string>
+    <string name="dark_neck">Cou Sombre</string>
+    <string name="body_scrub">Gommages</string>
+    <string name="elbow_knee">Coudes et Genoux</string>
+
+    <string name="body_stretch_cocoa_shea_title">Beurre de Cacao &amp;amp; Karité</string>
+    <string name="body_stretch_cocoa_shea_desc">Masser quotidiennement du beurre de cacao et du beurre de karité tièdes sur la zone affectée pour améliorer l\'élasticité de la peau et atténuer les vergetures.</string>
+
+    <string name="body_stretch_aloe_vit_e_title">Aloe Vera &amp;amp; Vitamine E</string>
+    <string name="body_stretch_aloe_vit_e_desc">Mélanger du gel d\'aloe vera frais avec l\'huile de 2 capsules de vitamine E. Appliquer et laisser agir 15 minutes.</string>
+
+    <string name="body_stretch_castor_wrap_title">Enveloppement à l\'huile de ricin</string>
+    <string name="body_stretch_castor_wrap_desc">Appliquer de l\'huile de ricin tiède et envelopper la zone avec du film plastique. Appliquer une compresse chaude pendant 20 minutes.</string>
+
+    <string name="body_diet_vit_c_e_title">Aliments en Vitamines C &amp;amp; E</string>
+    <string name="body_diet_vit_c_e_desc">Manger des agrumes, des amandes, des graines de tournesol et des légumes verts pour stimuler le collagène.</string>
+
+    <string name="body_diet_zinc_title">Boost de Zinc</string>
+    <string name="body_diet_zinc_desc">Inclure des aliments riches en zinc comme les graines de citrouille, les lentilles et les noix pour réparer les tissus cutanés.</string>
+
+    <string name="body_neck_lemon_rose_title">Citron &amp;amp; Eau de Rose</string>
+    <string name="body_neck_lemon_rose_desc">Mélanger des parts égales de jus de citron et d\'eau de rose. Appliquer sur le cou pendant la nuit.</string>
+
+    <string name="body_neck_baking_soda_title">Gommage au Bicarbonate</string>
+    <string name="body_neck_baking_soda_desc">Mélanger du bicarbonate de soude avec de l\'eau pour former une pâte. Appliquer, laisser agir 10 minutes, puis frotter doucement.</string>
+
+    <string name="body_neck_potato_title">Jus de Pomme de Terre</string>
+    <string name="body_neck_potato_desc">Appliquer du jus de pomme de terre crue sur les zones sombres du cou et laisser agir 15 minutes.</string>
+
+    <string name="body_diet_hydration_title">Rester Hydraté</string>
+    <string name="body_diet_hydration_desc">Boire beaucoup d\'eau pour éliminer les toxines et maintenir les cellules de la peau en bonne santé.</string>
+
+    <string name="body_diet_low_gi_title">Aliments à Faible Indice Glycémique</string>
+    <string name="body_diet_low_gi_desc">Limiter les aliments à indice glycémique élevé qui provoquent des pics d\'insuline, car la résistance à l\'insuline est une cause fréquente du cou noir.</string>
+
+    <string name="body_scrub_coffee_title">Café &amp;amp; Sucre Roux</string>
+    <string name="body_scrub_coffee_desc">Mélanger du café moulu, du sucre roux et de l\'huile de coco. Exfolier doucement en mouvements circulaires sous la douche.</string>
+
+    <string name="body_scrub_oatmeal_title">Flocons d\'Avoine &amp;amp; Miel</string>
+    <string name="body_scrub_oatmeal_desc">Mélanger de l\'avoine moulue, du miel et de l\'huile d\'olive pour exfolier et apaiser les peaux sèches et sensibles.</string>
+
+    <string name="body_scrub_salt_lemon_title">Sel Marin &amp;amp; Citron</string>
+    <string name="body_scrub_salt_lemon_desc">Mélanger du sel marin, du jus de citron et de l\'huile d\'amande douce pour un gommage rafraîchissant et éclaircissant.</string>
+
+    <string name="body_diet_berries_title">Baies Antioxydantes</string>
+    <string name="body_diet_berries_desc">Protéger les cellules de la peau contre les radicaux libres en mangeant des myrtilles, des fraises et des mûres.</string>
+
+    <string name="body_elbow_turmeric_cream_title">Curcuma &amp;amp; Crème de Lait</string>
+    <string name="body_elbow_turmeric_cream_desc">Mélanger de la crème de lait (malai) avec une pincée de curcuma. Masser sur les coudes et les genoux pendant 15 minutes pour adoucir et éclaircir.</string>
+
+    <string name="body_elbow_coconut_lemon_title">Huile de Coco &amp;amp; Citron</string>
+    <string name="body_elbow_coconut_lemon_desc">Masser quotidiennement après le bain de l\'huile de coco tiède mélangée à quelques gouttes de jus de citron.</string>
+
+    <string name="body_elbow_aloe_honey_title">Aloe Vera &amp;amp; Miel</string>
+    <string name="body_elbow_aloe_honey_desc">Mélanger du gel d\'aloe vera et du miel. Appliquer pendant 20 minutes pour hydrater en profondeur les zones rugueuses.</string>
+
+    <string name="body_diet_omega_fats_title">Graisses Oméga Saines</string>
+    <string name="body_diet_omega_fats_desc">Manger des noix, des graines de lin et des avocats pour nourrir la barrière lipidique cutanée de l\'intérieur.</string>
 </resources>
