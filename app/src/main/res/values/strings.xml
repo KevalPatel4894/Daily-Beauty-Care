@@ -3768,4 +3768,35 @@
 
     <string name="skin_mood_glowing">Glowing</string>
     <string name="skin_mood_glowing_keywords">glow,radiant,shine,glass skin,healthy</string>
+
+    <!-- Feature 17: F.A.Q. & Myth Busters -->
+    <string name="settings_faq_myths">F.A.Q. &amp; Myth Busters</string>
+    <string name="faq_title">F.A.Q. &amp; Myth Busters</string>
+    <string name="faq_subtitle">Learn the truth behind popular beauty myths</string>
+    <string name="faq_label_myth">MYTH</string>
+    <string name="faq_label_fact">FACT</string>
+
+    <string name="faq_myth_1_title">Toothpaste Cures Pimples</string>
+    <string name="faq_myth_1_desc">Toothpaste can quickly dry out pimples overnight and make acne disappear.</string>
+    <string name="faq_myth_1_fact">Toothpaste contains strong ingredients like baking soda, hydrogen peroxide, and menthol that can irritate the skin, cause chemical burns, and lead to dark spots. It is safer to use targeted treatments like salicylic acid or hydrocolloid pimple patches.</string>
+
+    <string name="faq_myth_2_title">Oily Skin Doesn\'t Need Moisturizer</string>
+    <string name="faq_myth_2_desc">People with oily skin should avoid moisturizers because they make skin greasier and cause breakouts.</string>
+    <string name="faq_myth_2_fact">Skipping moisturizer dehydrates the skin. In response, your skin actually produces MORE sebum (oil) to compensate, leading to even more clogged pores. The solution is using a lightweight, oil-free, non-comedogenic gel moisturizer.</string>
+
+    <string name="faq_myth_3_title">Plucking Gray Hair Makes More Grow</string>
+    <string name="faq_myth_3_desc">If you pull out one gray hair, three or more gray hairs will grow back in its place.</string>
+    <string name="faq_myth_3_fact">Only one hair can grow from a single follicle. Plucking a gray hair won\'t affect neighboring follicles or cause other hairs to turn gray. However, repeated plucking can damage the follicle, leading to permanent hair loss or infection.</string>
+
+    <string name="faq_myth_4_title">Natural Ingredients Are Always Safe</string>
+    <string name="faq_myth_4_desc">If an ingredient is 100% natural, organic, or edible, it is completely safe to apply directly to the skin.</string>
+    <string name="faq_myth_4_fact">Many natural items like lemon juice, raw apple cider vinegar, and baking soda are extremely acidic or alkaline. They can disrupt your skin\'s pH barrier, cause chemical burns, severe irritation, or extreme sun sensitivity. Always run a patch test.</string>
+
+    <string name="faq_myth_5_title">Washing Your Face Frequently Cures Acne</string>
+    <string name="faq_myth_5_desc">Acne is caused by dirty skin, so washing your face multiple times a day will keep it clean and clear.</string>
+    <string name="faq_myth_5_fact">Acne is caused by hormonal fluctuations, clogged pores, and bacteria, not surface dirt. Washing your face more than twice a day strips natural protective oils, irritates the skin, and damages the skin barrier, which can actually worsen breakouts.</string>
+
+    <string name="faq_myth_6_title">Hot Water Opens Pores, Cold Closes Them</string>
+    <string name="faq_myth_6_desc">Steam or hot water opens up pores for deep cleaning, while cold water closes or shrinks them.</string>
+    <string name="faq_myth_6_fact">Pores do not have muscles, so they cannot open or close. Hot water can dilate blood vessels and strip essential oils, causing dryness and irritation. Cold water does not close pores but can calm inflammation. Lukewarm water is ideal for washing.</string>
 </resources>

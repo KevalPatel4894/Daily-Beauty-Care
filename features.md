@@ -213,7 +213,7 @@ To support multiple languages and prevent packaging build errors:
 * **Details:** Users add steps in sequence (e.g. *"Step 1: Cleanse → Step 2: Toner → Step 3: Moisturize"*). Each step has an optional built-in countdown timer. Save multiple named routines (e.g. *"Morning Glow Routine"*, *"Sunday Deep Care"*) and launch them with one tap.
 * **Tech:** Room database storing routine steps; `CountDownTimer` per step; RecyclerView with drag-to-reorder.
 
-### [ ] Feature 32: Mood-Based Tip Picker
+### [x] Feature 32: Mood-Based Tip Picker
 * **Goal:** Drive deeper engagement with existing content by matching tips to how the user\'s skin feels right now.
 * **Details:** A card asks *"How is your skin feeling today?"* with options: Dull, Oily, Dry, Tired, Sensitive, Glowing. The app instantly shows curated tips matching that mood/condition.
 * **Tech:** Tag-based offline filter on existing JSON tips data; no extra database required.

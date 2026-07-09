@@ -3677,4 +3677,35 @@
 
     <string name="skin_mood_glowing">Radiante</string>
     <string name="skin_mood_glowing_keywords">brilhante,radiante,brilho,pele de vidro,saudável,glow</string>
+
+    <!-- Feature 17: F.A.Q. & Myth Busters -->
+    <string name="settings_faq_myths">FAQ e Mitos de Beleza</string>
+    <string name="faq_title">FAQ e Mitos de Beleza</string>
+    <string name="faq_subtitle">Descubra a verdade sobre os mitos de beleza mais populares</string>
+    <string name="faq_label_myth">MITO</string>
+    <string name="faq_label_fact">FATO</string>
+
+    <string name="faq_myth_1_title">Pasta de dente seca espinhas</string>
+    <string name="faq_myth_1_desc">A pasta de dente pode secar rapidamente as espinhas durante a noite e fazer o acne desaparecer.</string>
+    <string name="faq_myth_1_fact">A pasta de dente contém ingredientes fortes como bicarbonato de sódio, peróxido de hidrogênio e mentol, que podem irritar a pele, causar queimaduras químicas e manchas escuras. É mais seguro usar tratamentos específicos como ácido salicílico ou adesivos para espinhas.</string>
+
+    <string name="faq_myth_2_title">Pele oleosa não precisa de hidratante</string>
+    <string name="faq_myth_2_desc">Pessoas com pele oleosa devem evitar hidratantes porque eles deixam a pele mais oleosa e causam acne.</string>
+    <string name="faq_myth_2_fact">Não usar hidratante desidrata a pele. Como resposta, a pele produz MAIS sebo (óleo) para compensar, o que obstrui ainda mais os poros. A solução é usar um hidratante leve em gel, livre de óleo e não comedogênico.</string>
+
+    <string name="faq_myth_3_title">Arrancar um fio de cabelo branco faz crescer mais</string>
+    <string name="faq_myth_3_desc">Se você arrancar um fio de cabelo branco, três ou mais nascerão no mesmo lugar.</string>
+    <string name="faq_myth_3_fact">Apenas um fio de cabelo pode crescer de cada folículo. Arrancar um fio branco não afetará os folículos vizinhos nem fará outros cabelos ficarem grisalhos. No entanto, arrancar repetidamente pode danificar o folículo e causar perda permanente de cabelo.</string>
+
+    <string name="faq_myth_4_title">Ingredientes naturais são sempre seguros</string>
+    <string name="faq_myth_4_desc">Se um ingrediente é 100% natural, orgânico ou comestível, é totalmente seguro aplicá-lo diretamente na pele.</string>
+    <string name="faq_myth_4_fact">Muitos ingredientes naturais como suco de limão, vinagre de maçã e bicarbonato de sódio são extremamente ácidos ou alcalinos. Eles podem romper a barreira de pH da pele, causar queimaduras químicas, irritação grave ou sensibilidade extrema ao sol. Faça sempre um teste de contato.</string>
+
+    <string name="faq_myth_5_title">Lavar o rosto frequentemente cura a acne</string>
+    <string name="faq_myth_5_desc">A acne é causada por pele suja, então lavar o rosto várias vezes ao dia o manterá limpo e livre de espinhas.</string>
+    <string name="faq_myth_5_fact">A acne é causada por flutuações hormonales, poros obstruídos e bactérias, não por sujeira superficial. Lavar o rosto mais de duas vezes ao dia remove os óleos protetores naturais, irrita a pele e danifica a barreira cutânea, o que pode piorar a acne.</string>
+
+    <string name="faq_myth_6_title">Água quente abre os poros, água fria os fecha</string>
+    <string name="faq_myth_6_desc">O vapor ou a água quente abrem os poros para uma limpeza profunda, enquanto a água fria os fecha ou reduz.</string>
+    <string name="faq_myth_6_fact">Os poros não têm músculos, por isso não podem abrir ou fechar. A água quente pode dilatar os vasos sanguíneos e remover óleos essenciais, causando ressecamento e irritação. A água fria não fecha os poros, mas acalma a inflamação. A água morna é a ideal.</string>
 </resources>

@@ -3746,4 +3746,35 @@
 
     <string name="skin_mood_glowing">Radiante</string>
     <string name="skin_mood_glowing_keywords">brillante,radiante,brillo,piel de cristal,saludable,glow</string>
+
+    <!-- Feature 17: F.A.Q. & Myth Busters -->
+    <string name="settings_faq_myths">Preguntas frecuentes y mitos</string>
+    <string name="faq_title">Preguntas frecuentes y mitos</string>
+    <string name="faq_subtitle">Descubre la verdad sobre los mitos de belleza más populares</string>
+    <string name="faq_label_myth">MITO</string>
+    <string name="faq_label_fact">REALIDAD</string>
+
+    <string name="faq_myth_1_title">La pasta de dientes cura los granos</string>
+    <string name="faq_myth_1_desc">La pasta de dientes puede secar rápidamente los granos de la noche a la mañana y hacer que el acné desaparezca.</string>
+    <string name="faq_myth_1_fact">La pasta de dientes contiene ingredientes fuertes como bicarbonato de sodio, peróxido de hidrógeno y mentol que pueden irritar la piel, causar quemaduras químicas y manchas oscuras. Es más seguro usar tratamientos específicos como ácido salicílico o parches para granos.</string>
+
+    <string name="faq_myth_2_title">La piel grasa no necesita crema hidratante</string>
+    <string name="faq_myth_2_desc">Las personas con piel grasa deben evitar las cremas hidratantes porque hacen que la piel esté más grasa y causan brotes.</string>
+    <string name="faq_myth_2_fact">No usar crema hidratante deshidrata la piel. Como respuesta, la piel produce MÁS sebo (grasa) para compensar, lo que obstruye aún más los poros. La solución es usar una crema hidratante ligera en gel, libre de aceites y no comedogénica.</string>
+
+    <string name="faq_myth_3_title">Arrancar una cana hace que crezcan más</string>
+    <string name="faq_myth_3_desc">Si te arrancas una cana, crecerán tres o más canas en su lugar.</string>
+    <string name="faq_myth_3_fact">Solo puede crecer un cabello de cada folículo. Arrancar una cana no afectará a los folículos vecinos ni hará que otros cabellos se vuelvan grises. Sin embargo, arrancarse el cabello repetidamente puede dañar el folículo y provocar pérdida de cabello permanente.</string>
+
+    <string name="faq_myth_4_title">Los ingredientes naturales siempre son seguros</string>
+    <string name="faq_myth_4_desc">Si un ingrediente es 100% natural, orgánico o comestible, es completamente seguro aplicarlo directamente sobre la piel.</string>
+    <string name="faq_myth_4_fact">Muchos ingredientes naturales como el jugo de limón, el vinagre de sidra de manzana crudo y el bicarbonato de sodio son extremadamente ácidos o alcalinos. Pueden alterar la barrera del pH de la piel, causar quemaduras químicas, irritación grave o sensibilidad extrema al sol. Realice siempre una prueba de parche.</string>
+
+    <string name="faq_myth_5_title">Lavarse la cara con frecuencia cura el acné</string>
+    <string name="faq_myth_5_desc">El acné es causado por la piel sucia, por lo que lavarse la cara varias veces al día la mantendrá limpia y libre de brotes.</string>
+    <string name="faq_myth_5_fact">El acné se debe a fluctuaciones hormonales, poros obstruidos y bacterias, no a la suciedad superficial. Lavarse la cara más de dos veces al día elimina los aceites protectores naturales, irrita la piel y daña la barrera cutánea, lo que puede empeorar el acné.</string>
+
+    <string name="faq_myth_6_title">El agua caliente abre los poros, el agua fría los cierra</string>
+    <string name="faq_myth_6_desc">El vapor o el agua caliente abren los poros para una limpieza profunda, mientras que el agua fría los cierra o los reduce.</string>
+    <string name="faq_myth_6_fact">Los poros no tienen músculos, por lo que no pueden abrirse ni cerrarse. El agua caliente puede dilatar los vasos sanguíneos y eliminar aceites esenciales, causando sequedad e irritación. El agua fría no cierra los poros pero calma la inflamación. El agua tibia es la ideal.</string>
 </resources>

@@ -3746,4 +3746,35 @@
 
     <string name="skin_mood_glowing">Strahlend</string>
     <string name="skin_mood_glowing_keywords">strahlend,glanz,gesund,glow</string>
+
+    <!-- Feature 17: F.A.Q. & Myth Busters -->
+    <string name="settings_faq_myths">Häufige Fragen &amp; Mythen</string>
+    <string name="faq_title">Häufige Fragen &amp; Mythen</string>
+    <string name="faq_subtitle">Erfahren Sie die Wahrheit über bekannte Schönheitsmythen</string>
+    <string name="faq_label_myth">MYTHOS</string>
+    <string name="faq_label_fact">FAKT</string>
+
+    <string name="faq_myth_1_title">Zahnpasta heilt Pickel</string>
+    <string name="faq_myth_1_desc">Zahnpasta kann Pickel über Nacht schnell austrocknen und Akne verschwinden lassen.</string>
+    <string name="faq_myth_1_fact">Zahnpasta enthält aggressive Inhaltsstoffe wie Backpulver, Wasserstoffperoxid und Menthol, die die Haut reizen, chemische Verbrennungen verursachen und zu dunklen Flecken führen können. Es ist sicherer, gezielte Produkte wie Salicylsäure oder Pickel-Patches zu verwenden.</string>
+
+    <string name="faq_myth_2_title">Ölige Haut braucht keine Feuchtigkeitscreme</string>
+    <string name="faq_myth_2_desc">Menschen mit öliger Haut sollten Feuchtigkeitscremes meiden, da sie die Haut noch fettiger machen und Ausbrüche verursachen.</string>
+    <string name="faq_myth_2_fact">Das Weglassen von Feuchtigkeitscremes entzieht der Haut Feuchtigkeit. Als Reaktion produziert Ihre Haut tatsächlich MEHR Talg (Öl), was zu noch mehr verstopften Poren führt. Die Lösung ist die Verwendung einer leichten, ölfreien, nicht komedogenen Gel-Feuchtigkeitscreme.</string>
+
+    <string name="faq_myth_3_title">Graue Haare auszupfen führt zu mehr grauen Haaren</string>
+    <string name="faq_myth_3_desc">Wenn Sie ein graues Haar auszupfen, wachsen an dieser Stelle drei oder mehr graue Haare nach.</string>
+    <string name="faq_myth_3_fact">Aus einem einzelnen Follikel kann nur ein Haar wachsen. Das Auszupfen eines grauen Haares hat keinen Einfluss auf benachbarte Follikel und lässt andere Haare nicht grau werden. Wiederholtes Auszupfen kann jedoch den Follikel beschädigen und zu dauerhaftem Haarausfall führen.</string>
+
+    <string name="faq_myth_4_title">Natürliche Inhaltsstoffe sind immer sicher</string>
+    <string name="faq_myth_4_desc">Wenn eine Zutat 100 % natürlich, biologisch oder essbar ist, kann sie völlig unbedenklich direkt auf die Haut aufgetragen werden.</string>
+    <string name="faq_myth_4_fact">Viele natürliche Stoffe wie Zitronensaft, roher Apfelessig und Backpulver sind extrem sauer oder alkalisch. Sie können den pH-Wert der Haut stören, chemische Verbrennungen, starke Reizungen oder extreme Lichtempfindlichkeit verursachen. Machen Sie immer einen Test an einer kleinen Stelle.</string>
+
+    <string name="faq_myth_5_title">Häufiges Gesichtswaschen heilt Akne</string>
+    <string name="faq_myth_5_desc">Akne wird durch schmutzige Haut verursacht, daher hält mehrmaliges Waschen des Gesichts am Tag die Haut sauber und rein.</string>
+    <string name="faq_myth_5_fact">Akne wird durch hormonelle Schwankungen, verstopfte Poren und Bakterien verursacht, nicht durch Schmutz auf der Oberfläche. Das Waschen des Gesichts mehr als zweimal täglich entzieht der Haut ihre natürlichen Schutzöle, reizt sie und schädigt die Hautbarriere, was Akne verschlimmern kann.</string>
+
+    <string name="faq_myth_6_title">Heißes Wasser öffnet Poren, kaltes Wasser schließt sie</string>
+    <string name="faq_myth_6_desc">Dampf oder heißes Wasser öffnet die Poren für eine Tiefenreinigung, während kaltes Wasser sie schließt oder verkleinert.</string>
+    <string name="faq_myth_6_fact">Poren haben keine Muskeln, sie können sich also weder öffnen noch schließen. Heißes Wasser kann Blutgefäße erweitern, schützende Öle entziehen und Reizungen verursachen. Kaltes Wasser schließt Poren nicht, kann aber Entzündungen beruhigen. Lauwarmes Wasser ist ideal zum Waschen.</string>
 </resources>
