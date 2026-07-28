@@ -133,6 +133,7 @@ class CycleAdvisorActivity : BaseActivity() {
             .putLong("last_period_millis", lastPeriodTimeMillis)
             .putInt("cycle_length", cycleLengthDays)
             .apply()
+        com.kp.beautytips.utils.CycleReminderScheduler.scheduleCycleReminder(this)
     }
 
     private fun updateCycleStatus() {

@@ -133,6 +133,8 @@ class MainActivity : BaseActivity(), CategoryAdapter.OnItemClick {
             // Below Android 13 — no runtime permission needed, just schedule
             ReminderScheduler.scheduleReminder(this)
             DailyTipScheduler.scheduleDailyTip(this)
+            com.kp.beautytips.utils.WaterReminderScheduler.scheduleWaterReminder(this, force = false)
+            com.kp.beautytips.utils.CycleReminderScheduler.scheduleCycleReminder(this)
             return
         }
 
@@ -144,6 +146,8 @@ class MainActivity : BaseActivity(), CategoryAdapter.OnItemClick {
                 == PackageManager.PERMISSION_GRANTED) {
                 ReminderScheduler.scheduleReminder(this)
                 DailyTipScheduler.scheduleDailyTip(this)
+                com.kp.beautytips.utils.WaterReminderScheduler.scheduleWaterReminder(this, force = false)
+                com.kp.beautytips.utils.CycleReminderScheduler.scheduleCycleReminder(this)
             }
             return
         }
@@ -153,6 +157,8 @@ class MainActivity : BaseActivity(), CategoryAdapter.OnItemClick {
             == PackageManager.PERMISSION_GRANTED) {
             ReminderScheduler.scheduleReminder(this)
             DailyTipScheduler.scheduleDailyTip(this)
+            com.kp.beautytips.utils.WaterReminderScheduler.scheduleWaterReminder(this, force = false)
+            com.kp.beautytips.utils.CycleReminderScheduler.scheduleCycleReminder(this)
             launchPrefs.edit().putBoolean("notification_permission_asked", true).apply()
         } else {
             // Ask the user — system dialog will appear
