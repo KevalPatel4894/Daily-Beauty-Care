@@ -6411,6 +6411,53 @@
             "detailsRes": "men_hair_ex_massage_desc"
           }
         ]
+      },
+      {
+        "subcategoryKey": "razor_bumps",
+        "nameRes": "razor_bumps",
+        "imageRes": "ic_men_grooming",
+        "remedies": [
+          {
+            "titleRes": "razor_aloe_tea_tree_title",
+            "durationRes": "fifteen_min",
+            "imageRes": "aloevera",
+            "detailsRes": "razor_aloe_tea_tree_desc"
+          },
+          {
+            "titleRes": "razor_sugar_scrub_title",
+            "durationRes": "five_min",
+            "imageRes": "sugar_small",
+            "detailsRes": "razor_sugar_scrub_desc"
+          },
+          {
+            "titleRes": "razor_pre_shave_shield_title",
+            "durationRes": "few_min",
+            "imageRes": "ic_jojoba_oil",
+            "detailsRes": "razor_pre_shave_shield_desc"
+          },
+          {
+            "titleRes": "razor_post_shave_mask_title",
+            "durationRes": "ten_min",
+            "imageRes": "cucumber_small",
+            "detailsRes": "razor_post_shave_mask_desc"
+          }
+        ],
+        "diets": [
+          {
+            "titleRes": "razor_diet_anti_inflammatory_title",
+            "durationRes": "daily",
+            "imageRes": "ic_green_tea",
+            "detailsRes": "razor_diet_anti_inflammatory_desc"
+          }
+        ],
+        "exercises": [
+          {
+            "titleRes": "razor_ex_cold_press_title",
+            "durationRes": "daily",
+            "imageRes": "ic_men_grooming",
+            "detailsRes": "razor_ex_cold_press_desc"
+          }
+        ]
       }
     ]
   }

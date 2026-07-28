@@ -3937,4 +3937,22 @@
     <string name="routine_completed_congrats">Поздравляем! Вы завершили свою рутину!</string>
     <string name="step_timer_finished">Таймер шага завершен!</string>
     <string name="step_progress_format" formatted="false">Шаг %1$d из %2$d</string>
+
+    <!-- Feature 24: Razor Bumps & Shaving Care Companion -->
+    <string name="razor_bumps">Уход от раздражения после бритья</string>
+    <string name="razor_aloe_tea_tree_title">Гель с Алоэ и Чайным Деревом</string>
+    <string name="razor_aloe_tea_tree_desc">Смешайте 2 ст. л. геля алоэ вера с 2 каплями масла чайного дерева. Нанесите на выбритые участки.</string>
+    <string name="razor_sugar_scrub_title">Скраб перед бритьем из коричневого сахара</string>
+    <string name="razor_sugar_scrub_desc">Аккуратно помассируйте кожу сахаром с оливковым маслом перед бритьем, чтобы отшелушить омертвевшие клетки.</string>
+    <string name="razor_pre_shave_shield_title">Масло Жожоба перед бритьем</string>
+    <string name="razor_pre_shave_shield_desc">Нанесите несколько капель масла жожоба на влажную кожу перед нанесением пены для бритья.</string>
+    <string name="razor_post_shave_mask_title">Успокаивающая маска с огурцом и йогуртом</string>
+    <string name="razor_post_shave_mask_desc">Смешайте огуречный сок с йогуртом и оставьте на 10 минут после бритья для снятия покраснения.</string>
+    <string name="razor_diet_anti_inflammatory_title">Противовоспалительный зеленый чай</string>
+    <string name="razor_diet_anti_inflammatory_desc">Пейте зеленый чай и употребляйте продукты с Омега-3 для снижения воспаления кожи.</string>
+    <string name="razor_ex_cold_press_title">Холодный компресс</string>
+    <string name="razor_ex_cold_press_desc">Сразу после бритья приложите влажное холодное полотенце на 2 минуты для сужения пор.</string>
+
+    <string name="btn_previous">Назад</string>
+    <string name="save">Сохранить</string>
 </resources>

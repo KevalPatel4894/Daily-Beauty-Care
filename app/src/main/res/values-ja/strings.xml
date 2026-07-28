@@ -3937,4 +3937,22 @@
     <string name="routine_completed_congrats">おめでとうございます！ルーティンが完了しました！</string>
     <string name="step_timer_finished">タイマーが終了しました！</string>
     <string name="step_progress_format" formatted="false">ステップ %1$d / %2$d</string>
+
+    <!-- Feature 24: Razor Bumps & Shaving Care Companion -->
+    <string name="razor_bumps">カミソリ負け＆シェービングケア</string>
+    <string name="razor_aloe_tea_tree_title">アロエ＆ティーツリージェル</string>
+    <string name="razor_aloe_tea_tree_desc">生アロエベラジェル大さじ2にティーツリーオイル2滴を混ぜて塗布し、カミソリ負けを和らげます。</string>
+    <string name="razor_sugar_scrub_title">黒糖プレシェーブスクラブ</string>
+    <string name="razor_sugar_scrub_desc">シェービング前に黒糖とオリーブオイルで優しくスクラブし、古い角質を除去します。</string>
+    <string name="razor_pre_shave_shield_title">ホホバ・プレシェーブオイル</string>
+    <string name="razor_pre_shave_shield_desc">シェービングフォームを塗る前に、濡れた肌にホホバオイルを数滴馴染ませます。</string>
+    <string name="razor_post_shave_mask_title">きゅうり＆ヨーグルト保湿パック</string>
+    <string name="razor_post_shave_mask_desc">シェービング後にきゅうり果汁とヨーグルトを混ぜて10分パックし、赤みを抑えます。</string>
+    <string name="razor_diet_anti_inflammatory_title">抗炎症グリーンティー</string>
+    <string name="razor_diet_anti_inflammatory_desc">毎日緑茶を飲み、オメガ3が豊富な食品を摂取して肌の炎症を防ぎます。</string>
+    <string name="razor_ex_cold_press_title">冷水コンプレスクールダウン</string>
+    <string name="razor_ex_cold_press_desc">シェービング直後に冷たいタオルを2分間肌に当てて毛穴を引き締めます。</string>
+
+    <string name="btn_previous">前へ</string>
+    <string name="save">保存</string>
 </resources>

@@ -3919,4 +3919,22 @@
     <string name="routine_completed_congrats">Parabéns! Você concluiu sua rotina!</string>
     <string name="step_timer_finished">Temporizador do passo concluído!</string>
     <string name="step_progress_format" formatted="false">Passo %1$d de %2$d</string>
+
+    <!-- Feature 24: Razor Bumps & Shaving Care Companion -->
+    <string name="razor_bumps">Cuidados com Foliculite e Barba</string>
+    <string name="razor_aloe_tea_tree_title">Gel de Aloe Vera e Melaleuca</string>
+    <string name="razor_aloe_tea_tree_desc">Misture 2 colheres de gel de aloe vera com 2 gotas de óleo de melaleuca. Aplique na área barbeada.</string>
+    <string name="razor_sugar_scrub_title">Esfoliante Pré-Barba de Açúcar Mascavo</string>
+    <string name="razor_sugar_scrub_desc">Esfolie suavemente com 1 colher de açúcar mascavo e azeite antes de barbear para remover células mortas.</string>
+    <string name="razor_pre_shave_shield_title">Óleo Pré-Barba de Jojoba</string>
+    <string name="razor_pre_shave_shield_desc">Aplique gotas de óleo de jojoba na pele úmida antes da espuma de barbear.</string>
+    <string name="razor_post_shave_mask_title">Máscara Calmante de Pepino e Iogurte</string>
+    <string name="razor_post_shave_mask_desc">Misture suco de pepino com iogurte natural e deixe por 10 minutos após barbear para suavizar a vermelhidão.</string>
+    <string name="razor_diet_anti_inflammatory_title">Chá Verde Anti-Inflamatório</string>
+    <string name="razor_diet_anti_inflammatory_desc">Beba chá verde diariamente e coma alimentos ricos em Ômega-3 para prevenir inflamações da pele.</string>
+    <string name="razor_ex_cold_press_title">Compressa de Água Fria</string>
+    <string name="razor_ex_cold_press_desc">Logo após barbear, pressione uma toalha fria úmida por 2 minutos para fechar os poros.</string>
+
+    <string name="btn_previous">Anterior</string>
+    <string name="save">Salvar</string>
 </resources>

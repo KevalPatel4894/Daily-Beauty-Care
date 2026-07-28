@@ -51,7 +51,7 @@
             <ImageView
                 android:layout_width="@dimen/_60sdp"
                 android:layout_height="@dimen/_60sdp"
-                android:src="@drawable/ic_clock"
+                android:src="@drawable/ic_alarm"
                 app:tint="@color/toolBarColor" />
 
             <TextView

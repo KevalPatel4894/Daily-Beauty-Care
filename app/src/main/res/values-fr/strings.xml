@@ -3937,4 +3937,22 @@
     <string name="routine_completed_congrats">Félicitations ! Vous avez terminé votre routine !</string>
     <string name="step_timer_finished">Minuteur de l\'étape terminé !</string>
     <string name="step_progress_format" formatted="false">Étape %1$d sur %2$d</string>
+
+    <!-- Feature 24: Razor Bumps & Shaving Care Companion -->
+    <string name="razor_bumps">Boutons de rasage &amp; soins</string>
+    <string name="razor_aloe_tea_tree_title">Gel Aloe &amp; Arbre à Thé</string>
+    <string name="razor_aloe_tea_tree_desc">Mélangez 2 cuillères à soupe de gel d\'aloe vera frais avec 2 gouttes d\'huile d\'arbre à thé. Appliquez sur les zones rasées.</string>
+    <string name="razor_sugar_scrub_title">Gommage Pré-Rasage Sucre Roux</string>
+    <string name="razor_sugar_scrub_desc">Exfoliez doucement avec 1 cuillère à soupe de sucre roux mélangée à de l\'huile d\'olive avant le rasage.</string>
+    <string name="razor_pre_shave_shield_title">Huile Pré-Rasage au Jojoba</string>
+    <string name="razor_pre_shave_shield_desc">Appliquez quelques gouttes d\'huile de jojoba ou de coco sur peau humide avant la mousse à raser.</string>
+    <string name="razor_post_shave_mask_title">Masque Apaisant Concombre &amp; Yaourt</string>
+    <string name="razor_post_shave_mask_desc">Mélangez du jus de concombre et du yaourt nature, laissez poser 10 minutes après le rasage pour réduire les rougeurs.</string>
+    <string name="razor_diet_anti_inflammatory_title">Thé Vert Anti-Inflammatoire</string>
+    <string name="razor_diet_anti_inflammatory_desc">Buvez du thé vert chaque jour et consommez des aliments riches en Oméga-3 pour apaiser la peau.</string>
+    <string name="razor_ex_cold_press_title">Compresses d\'Eau Froide</string>
+    <string name="razor_ex_cold_press_desc">Juste après le rasage, appliquez une serviette froide mouillée pendant 2 minutes pour resserrer les pores.</string>
+
+    <string name="btn_previous">Précédent</string>
+    <string name="save">Enregistrer</string>
 </resources>

@@ -241,7 +241,7 @@
                 android:id="@+id/imgRoutineBuilder"
                 android:layout_width="@dimen/_25sdp"
                 android:layout_height="@dimen/_25sdp"
-                android:src="@drawable/ic_clock"
+                android:src="@drawable/ic_alarm"
                 app:tint="@color/white"
                 android:layout_centerVertical="true" />
 

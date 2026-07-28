@@ -5,6 +5,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
+import android.view.ViewGroup
 import android.widget.EditText
 import android.widget.ImageView
 import android.widget.LinearLayout
@@ -84,8 +85,8 @@ class RoutineBuilderActivity : BaseActivity() {
             showAddEditDialog(null)
         }
 
-        val adContainer = findViewById<RelativeLayout>(R.id.ad_view)
-        AdManager.showBannerAd(this, adContainer)
+        val adContainer = findViewById<ViewGroup>(R.id.ad_view)
+        AdManager.loadBanner(this, adContainer, getString(R.string.banner_home_footer))
     }
 
     private fun loadRoutines() {

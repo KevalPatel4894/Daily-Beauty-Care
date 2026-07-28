@@ -3942,4 +3942,22 @@
     <string name="routine_completed_congrats">¡Felicidades! ¡Completaste tu rutina!</string>
     <string name="step_timer_finished">¡Temporizador de paso finalizado!</string>
     <string name="step_progress_format" formatted="false">Paso %1$d de %2$d</string>
+
+    <!-- Feature 24: Razor Bumps & Shaving Care Companion -->
+    <string name="razor_bumps">Irritación por afeitado y cuidado</string>
+    <string name="razor_aloe_tea_tree_title">Gel de Aloe y Árbol de Té</string>
+    <string name="razor_aloe_tea_tree_desc">Mezcla 2 cucharadas de gel de aloe vera fresco con 2 gotas de aceite de árbol de té. Aplica para aliviar la quemadura del afeitado.</string>
+    <string name="razor_sugar_scrub_title">Exfoliante de Azúcar moreno Pre-Afeitado</string>
+    <string name="razor_sugar_scrub_desc">Exfolia suavemente tu piel con 1 cucharada de azúcar moreno mezclada con aceite de oliva antes de afeitarte.</string>
+    <string name="razor_pre_shave_shield_title">Aceite de Jojoba Pre-Afeitado</string>
+    <string name="razor_pre_shave_shield_desc">Aplica unas gotas de aceite de jojoba o coco sobre la piel húmeda antes de la espuma de afeitar.</string>
+    <string name="razor_post_shave_mask_title">Mascarilla Calmante de Pepino y Yogur</string>
+    <string name="razor_post_shave_mask_desc">Mezcla jugo de pepino con yogur natural y déjalo actuar durante 10 minutos tras el afeitado para reducir el enrojecimiento.</string>
+    <string name="razor_diet_anti_inflammatory_title">Té Verde Antiinflamatorio</string>
+    <string name="razor_diet_anti_inflammatory_desc">Bebe té verde diariamente y consume alimentos ricos en Omega-3 para calmar la inflamación cutánea.</string>
+    <string name="razor_ex_cold_press_title">Rutina de Compresa de Agua Fría</string>
+    <string name="razor_ex_cold_press_desc">Inmediatamente después de afeitarte, presiona una toalla fría húmeda durante 2 minutos para cerrar los poros.</string>
+
+    <string name="btn_previous">Anterior</string>
+    <string name="save">Guardar</string>
 </resources>

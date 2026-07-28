@@ -37,9 +37,9 @@ class RoutineAdapter(
         holder.txtSub.text = "${stepsCount} Steps • ~$mins Mins (${item.type})"
 
         if (item.type.equals("Night", ignoreCase = true)) {
-            holder.imgIcon.setImageResource(R.drawable.ic_clock)
+            holder.imgIcon.setImageResource(R.drawable.ic_alarm)
         } else {
-            holder.imgIcon.setImageResource(R.drawable.ic_clock)
+            holder.imgIcon.setImageResource(R.drawable.ic_alarm)
         }
 
         holder.btnStart.setOnClickListener { onStartClick(item) }

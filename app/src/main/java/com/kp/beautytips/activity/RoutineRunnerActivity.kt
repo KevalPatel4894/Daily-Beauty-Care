@@ -9,6 +9,7 @@ import android.os.VibrationEffect
 import android.os.Vibrator
 import android.os.VibratorManager
 import android.view.View
+import android.view.ViewGroup
 import android.widget.LinearLayout
 import android.widget.ProgressBar
 import android.widget.RelativeLayout
@@ -107,8 +108,8 @@ class RoutineRunnerActivity : BaseActivity() {
             }
         }
 
-        val adContainer = findViewById<RelativeLayout>(R.id.ad_view)
-        AdManager.showBannerAd(this, adContainer)
+        val adContainer = findViewById<ViewGroup>(R.id.ad_view)
+        AdManager.loadBanner(this, adContainer, getString(R.string.banner_home_footer))
     }
 
     private fun displayStep(index: Int) {

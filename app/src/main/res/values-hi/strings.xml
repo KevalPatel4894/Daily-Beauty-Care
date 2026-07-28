@@ -3917,4 +3917,22 @@
     <string name="routine_completed_congrats">बधाई हो! आपने अपनी रूटीन पूरी कर ली!</string>
     <string name="step_timer_finished">स्टेप टाइमर समाप्त!</string>
     <string name="step_progress_format" formatted="false">स्टेप %1$d / %2$d</string>
+
+    <!-- Feature 24: Razor Bumps & Shaving Care Companion -->
+    <string name="razor_bumps">रेज़र बंप्स और शेविंग केयर</string>
+    <string name="razor_aloe_tea_tree_title">एलोवेरा और टी ट्री जेल</string>
+    <string name="razor_aloe_tea_tree_desc">2 चम्मच ताजा एलोवेरा जेल में 2 बूंद टी ट्री ऑयल मिलाएं। शेव की गई त्वचा पर लगाएं ताकि जलन और बंप्स से राहत मिले।</string>
+    <string name="razor_sugar_scrub_title">ब्राउन शुगर प्री-शेव स्क्रब</string>
+    <string name="razor_sugar_scrub_desc">शेविंग से पहले 1 चम्मच ब्राउन शुगर और ऑलिव ऑयल मिलाकर त्वचा को धीरे से स्क्रब करें।</string>
+    <string name="razor_pre_shave_shield_title">जो जोबा प्री-शेव ऑयल</string>
+    <string name="razor_pre_shave_shield_desc">शेविंग क्रीम लगाने से पहले गीली त्वचा पर जोजोबा या नारियल तेल की कुछ बूंदें लगाएं।</string>
+    <string name="razor_post_shave_mask_title">खीरा और दही का कूलिंग मास्क</string>
+    <string name="razor_post_shave_mask_desc">शेविंग के बाद खीरे का रस और सादा दही मिलाकर 10 मिनट के लिए चेहरे पर लगाएं।</string>
+    <string name="razor_diet_anti_inflammatory_title">एंटी-इन्फ्लेमेटरी ग्रीन टी</string>
+    <string name="razor_diet_anti_inflammatory_desc">त्वचा की सूजन कम करने के लिए रोजाना ग्रीन टी पिएं और ओमेगा-3 से भरपूर चीजें खाएं।</string>
+    <string name="razor_ex_cold_press_title">ठंडे पानी की सिकाई</string>
+    <string name="razor_ex_cold_press_desc">शेविंग के तुरंत बाद ठंडे पानी में भीगा कपड़ा 2 मिनट के लिए चेहरे पर दबाएं ताकि पोर बंद हो सकें।</string>
+
+    <string name="btn_previous">पिछला</string>
+    <string name="save">सहेजें</string>
 </resources>

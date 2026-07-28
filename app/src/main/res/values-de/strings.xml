@@ -3942,4 +3942,22 @@
     <string name="routine_completed_congrats">Herzlichen Glückwunsch! Sie haben Ihre Routine abgeschlossen!</string>
     <string name="step_timer_finished">Schritt-Timer abgelaufen!</string>
     <string name="step_progress_format" formatted="false">Schritt %1$d von %2$d</string>
+
+    <!-- Feature 24: Razor Bumps & Shaving Care Companion -->
+    <string name="razor_bumps">Rasierpickel &amp; Rasurpflege</string>
+    <string name="razor_aloe_tea_tree_title">Aloe &amp; Teebaumöl Gel</string>
+    <string name="razor_aloe_tea_tree_desc">Mischen Sie 2 Esslöffel frisches Aloe Vera Gel mit 2 Tropfen Teebaumöl. Tragen Sie es auf rasierten Stellen auf, um Rasierbrand sofort zu lindern.</string>
+    <string name="razor_sugar_scrub_title">Brauner Zucker Pre-Shave Peeling</string>
+    <string name="razor_sugar_scrub_desc">Massen Sie vor der Rasur 1 Esslöffel braunen Zucker gemischt mit Olivenöl sanft ein, um abgestorbene Hautschuppen zu entfernen.</string>
+    <string name="razor_pre_shave_shield_title">Jojoba Pre-Shave Öl</string>
+    <string name="razor_pre_shave_shield_desc">Tragen Sie vor dem Rasierschaum ein paar Tropfen Jojoba- oder Kokosnussöl auf die feuchte Haut auf.</string>
+    <string name="razor_post_shave_mask_title">Gurke &amp; Joghurt Beruhigungsmaske</string>
+    <string name="razor_post_shave_mask_desc">Gurkensaft mit Naturjoghurt mischen und 10 Minuten nach der Rasur einwirken lassen, um Rötungen zu reduzieren.</string>
+    <string name="razor_diet_anti_inflammatory_title">Entzündungshemmender Grüner Tee</string>
+    <string name="razor_diet_anti_inflammatory_desc">Trinken Sie täglich grünen Tee und essen Sie Omega-3-reiche Nahrungsmittel zur Linderung von Hautentzündungen.</string>
+    <string name="razor_ex_cold_press_title">Kaltwasser-Kompressen Routine</string>
+    <string name="razor_ex_cold_press_desc">Drücken Sie direkt nach der Rasur ein kühles, feuchtes Tuch 2 Minuten lang auf die Haut, um die Poren zu schließen.</string>
+
+    <string name="btn_previous">Zurück</string>
+    <string name="save">Speichern</string>
 </resources>

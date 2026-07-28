@@ -20,6 +20,36 @@ class RoutineDbHelper(context: Context) : SQLiteOpenHelper(context, DATABASE_NAM
         const val COLUMN_TITLE = "title"
         const val COLUMN_TYPE = "type"
         const val COLUMN_STEPS_JSON = "steps_json"
+
+        fun stepsToJson(steps: List<RoutineStep>): String {
+            val array = JSONArray()
+            for (step in steps) {
+                val obj = JSONObject()
+                obj.put("stepName", step.stepName)
+                obj.put("description", step.description)
+                obj.put("timerSeconds", step.timerSeconds)
+                array.put(obj)
+            }
+            return array.toString()
+        }
+
+        fun jsonToSteps(jsonStr: String?): List<RoutineStep> {
+            if (jsonStr.isNullOrEmpty()) return emptyList()
+            val steps = ArrayList<RoutineStep>()
+            try {
+                val array = JSONArray(jsonStr)
+                for (i in 0 until array.length()) {
+                    val obj = array.getJSONObject(i)
+                    val name = obj.optString("stepName", "")
+                    val desc = obj.optString("description", "")
+                    val timer = obj.optInt("timerSeconds", 0)
+                    steps.add(RoutineStep(name, desc, timer))
+                }
+            } catch (e: Exception) {
+                e.printStackTrace()
+            }
+            return steps
+        }
     }
 
     override fun onCreate(db: SQLiteDatabase) {
@@ -105,37 +135,5 @@ class RoutineDbHelper(context: Context) : SQLiteOpenHelper(context, DATABASE_NAM
         }
         cursor.close()
         return list
-    }
-
-    companion object Helper {
-        fun stepsToJson(steps: List<RoutineStep>): String {
-            val array = JSONArray()
-            for (step in steps) {
-                val obj = JSONObject()
-                obj.put("stepName", step.stepName)
-                obj.put("description", step.description)
-                obj.put("timerSeconds", step.timerSeconds)
-                array.put(obj)
-            }
-            return array.toString()
-        }
-
-        fun jsonToSteps(jsonStr: String?): List<RoutineStep> {
-            if (jsonStr.isNullOrEmpty()) return emptyList()
-            val steps = ArrayList<RoutineStep>()
-            try {
-                val array = JSONArray(jsonStr)
-                for (i in 0 until array.length()) {
-                    val obj = array.getJSONObject(i)
-                    val name = obj.optString("stepName", "")
-                    val desc = obj.optString("description", "")
-                    val timer = obj.optInt("timerSeconds", 0)
-                    steps.add(RoutineStep(name, desc, timer))
-                }
-            } catch (e: Exception) {
-                e.printStackTrace()
-            }
-            return steps
-        }
     }
 }

@@ -28,7 +28,7 @@
                 android:layout_height="@dimen/_36sdp"
                 android:layout_alignParentStart="true"
                 android:layout_centerVertical="true"
-                android:src="@drawable/ic_clock"
+                android:src="@drawable/ic_alarm"
                 app:tint="@color/toolBarColor" />
 
             <LinearLayout

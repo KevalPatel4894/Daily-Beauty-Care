@@ -142,7 +142,7 @@ This document tracks all zero-budget features designed to maximize user retentio
 
 ## 🧔 Category 7: Men's Grooming & Boys' Personal Care (Content Expansion)
 
-### [x] Feature 23: Men's Grooming & Beard Care Guide
+### [x] Feature 23: Men's Grooming & Beard Care Category
 * **Goal:** Expand user demographics by targeting boys/men looking for grooming solutions, significantly increasing Play Store search visibility.
 * **Details:** A dedicated category for male-specific beauty needs:
   1. *Beard Growth & Patchy Beard remedies* (using natural oils and massage techniques).
@@ -150,7 +150,7 @@ This document tracks all zero-budget features designed to maximize user retentio
   3. *Men's Hair Fall & Styling damage control*.
 * **Tech:** Structured Kotlin object data classes or JSON integration.
 
-### [ ] Feature 24: Razor Bumps & Shaving Care Companion
+### [x] Feature 24: Razor Bumps & Shaving Care Companion
 * **Goal:** Address a highly common skincare problem for boys.
 * **Details:** Step-by-step remedies for curing razor burns, avoiding ingrown hairs, and making natural pre-shave/post-shave soothing masks.
 * **Tech:** Adding list adapters matching existing ListModel layouts.

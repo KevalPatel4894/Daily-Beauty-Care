@@ -3911,4 +3911,22 @@
     <string name="routine_completed_congrats">축하합니다! 루틴을 완료했습니다!</string>
     <string name="step_timer_finished">단계 타이머가 종료되었습니다!</string>
     <string name="step_progress_format" formatted="false">%2$d단계 중 %1$d단계</string>
+
+    <!-- Feature 24: Razor Bumps & Shaving Care Companion -->
+    <string name="razor_bumps">면도 트러블 및 진정 케어</string>
+    <string name="razor_aloe_tea_tree_title">알로에 &amp; 티트리 젤</string>
+    <string name="razor_aloe_tea_tree_desc">생 알로에 베라 젤 2큰술에 티트리 오일 2방울을 섞어 면도 부위에 바르면 즉각적인 진정 효과를 줍니다.</string>
+    <string name="razor_sugar_scrub_title">흑설탕 프리 쉐이빙 스크럽</string>
+    <string name="razor_sugar_scrub_desc">면도 전 흑설탕과 올리브 오일을 섞어 부드럽게 스크럽하여 각질을 제거합니다.</string>
+    <string name="razor_pre_shave_shield_title">호호바 프리 쉐이빙 오일</string>
+    <string name="razor_pre_shave_shield_desc">쉐이빙 폼을 바르기 전 젖은 피부에 호호바 오일 몇 방울을 도포합니다.</string>
+    <string name="razor_post_shave_mask_title">오이 &amp; 요거트 진정 팩</string>
+    <string name="razor_post_shave_mask_desc">면도 후 오이 즙과 플레인 요거트를 섞어 10분간 올려 붉은기를 진정시킵니다.</string>
+    <string name="razor_diet_anti_inflammatory_title">항염 효과 그린 티</string>
+    <string name="razor_diet_anti_inflammatory_desc">매일 녹차를 마시고 오메가-3가 풍부한 식품을 섭취하여 피부 염증을 완화하세요.</string>
+    <string name="razor_ex_cold_press_title">냉수 찜질 쿨링 루틴</string>
+    <string name="razor_ex_cold_press_desc">면도 직후 차가운 타월을 2분간 올려 모공을 축소시키고 자극을 줄입니다.</string>
+
+    <string name="btn_previous">이전</string>
+    <string name="save">저장</string>
 </resources>

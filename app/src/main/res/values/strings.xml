@@ -3953,4 +3953,22 @@
     <string name="routine_completed_congrats">Congratulations! You completed your routine!</string>
     <string name="step_timer_finished">Step timer finished!</string>
     <string name="step_progress_format" formatted="false">Step %1$d of %2$d</string>
+
+    <string name="btn_previous">Previous</string>
+    <string name="save">Save</string>
+
+    <!-- Feature 24: Razor Bumps & Shaving Care Companion -->
+    <string name="razor_bumps">Razor Bumps &amp; Shaving Care</string>
+    <string name="razor_aloe_tea_tree_title">Aloe &amp; Tea Tree Gel</string>
+    <string name="razor_aloe_tea_tree_desc">Mix 2 tablespoons of fresh aloe vera gel with 2 drops of tea tree oil. Apply to shaved areas to instantly soothe razor burns and kill bacteria causing ingrown bumps.</string>
+    <string name="razor_sugar_scrub_title">Brown Sugar Pre-Shave Scrub</string>
+    <string name="razor_sugar_scrub_desc">Gently scrub your skin with 1 tablespoon of brown sugar mixed with olive oil before shaving. This removes dead skin cells that trap hair follicles underneath.</string>
+    <string name="razor_pre_shave_shield_title">Jojoba Pre-Shave Oil</string>
+    <string name="razor_pre_shave_shield_desc">Apply a few drops of jojoba or coconut oil onto warm, wet skin before applying shaving cream. It creates a smooth barrier and reduces razor friction.</string>
+    <string name="razor_post_shave_mask_title">Cucumber &amp; Yogurt Soothing Mask</string>
+    <string name="razor_post_shave_mask_desc">Blend cucumber juice with plain yogurt and leave on your face for 10 minutes post-shave to reduce redness, cool irritated skin, and close open pores.</string>
+    <string name="razor_diet_anti_inflammatory_title">Anti-Inflammatory Green Tea</string>
+    <string name="razor_diet_anti_inflammatory_desc">Drink green tea daily and consume foods rich in Omega-3 fatty acids (flaxseeds, walnuts) to calm internal skin inflammation and reduce bump flare-ups.</string>
+    <string name="razor_ex_cold_press_title">Cold Water Compress Routine</string>
+    <string name="razor_ex_cold_press_desc">Immediately after shaving, press a cold wet towel or ice cube wrapped in cloth against your skin for 2 minutes to shrink pores and stop razor bump formation.</string>
 </resources>
