@@ -3961,4 +3961,30 @@
     <string name="season_winter_tip2_title">코코넛 오일 립 스크럽</string>
     <string name="season_winter_tip2_desc">코코넛 오일과 설탕으로 트는 입술 각질을 정리합니다.</string>
     <string name="home_seasonal_banner_title">현재 계절 맞춤 케어</string>
+
+    <string name="cycle_advisor_title">스킨케어 사이클 어드바이저</string>
+    <string name="cycle_advisor_subtitle">호르몬 여드름 예측 및 예방 케어</string>
+    <string name="btn_select_period_date">마지막 생리일 선택</string>
+    <string name="lbl_cycle_length">주기: %1$d일</string>
+    <string name="lbl_last_period">마지막 생리일: %1$s</string>
+    <string name="lbl_current_day">주기 %1$d / %2$d일째</string>
+    <string name="phase_follicular_name">🌸 여포기 (황금기)</string>
+    <string name="phase_follicular_desc">에스트로겐 상승 중. 피부가 맑고 촉촉합니다!</string>
+    <string name="phase_follicular_tip_title">가벼운 수분 공급 &amp; 스크럽</string>
+    <string name="phase_follicular_tip_desc">순한 수분 세럼과 과일 스크럽으로 영양 공급.</string>
+    <string name="phase_ovulation_name">✨ 배란기 (피지 분비 시작)</string>
+    <string name="phase_ovulation_desc">에스트로겐 피크. T존 중심으로 피지가 늘어납니다.</string>
+    <string name="phase_ovulation_tip_title">오일 프리 수분젤 &amp; 클렌저</string>
+    <string name="phase_ovulation_tip_desc">가벼운 젤 수분크림으로 모공 막힘을 예방하세요.</string>
+    <string name="phase_luteal_name">⚠️ 황체기 (여드름 고위험기)</string>
+    <string name="phase_luteal_desc">프로게스테론 급증! 피지가 2배 늘어나 호르몬 여드름 유발.</string>
+    <string name="phase_luteal_tip1_title">티트리 스팟 트레이닝</string>
+    <string name="phase_luteal_tip1_desc">밤에 턱선 주위에 티트리 오일을 1방울 발라줍니다.</string>
+    <string name="phase_luteal_tip2_title">숯 딥클렌징 팩</string>
+    <string name="phase_luteal_tip2_desc">주 2회 모공 깊은 노폐물을 제거하는 숯 팩 적용.</string>
+    <string name="phase_menstrual_name">💧 생리기 (휴식 및 진정)</string>
+    <string name="phase_menstrual_desc">호르몬 수치 최저. 피부가 민감하고 건조할 수 있습니다.</string>
+    <string name="phase_menstrual_tip_title">피부 진정 &amp; 장벽 케어</string>
+    <string name="phase_menstrual_tip_desc">자극적인 성분을 피하고 알로에로 촉촉하게 진정.</string>
+    <string name="msg_cycle_saved">주기 설정이 성공적으로 저장되었습니다!</string>
 </resources>

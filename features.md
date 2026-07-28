@@ -169,7 +169,7 @@ This document tracks all zero-budget features designed to maximize user retentio
 * **Details:** A simple, beautiful tracking card on the main screen where users tap to check off water glasses drank. App triggers gentle notifications: *"Drink a cup of water now for naturally glowing skin!"*
 * **Tech:** SharedPreferences storage and basic alarms.
 
-### [ ] Feature 27: Women's Skincare Cycle Advisor (Hormonal Acne Tracker)
+### [x] Feature 27: Women's Skincare Cycle Advisor (Hormonal Acne Tracker)
 * **Goal:** Highly personalized tool targeting female skin wellness.
 * **Details:** Let female users optionally input cycle details to predict hormonal spikes. Suggest preventative remedies (e.g. clay masks or tea tree routines) exactly when hormonal acne is most likely to breakout.
 * **Tech:** Offline cycle-tracking calculations stored in SharedPreferences.

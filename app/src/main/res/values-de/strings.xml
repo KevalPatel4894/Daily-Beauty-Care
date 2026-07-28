@@ -3992,4 +3992,30 @@
     <string name="season_winter_tip2_title">Kokosöl &amp; Zucker Lippen-Peeling</string>
     <string name="season_winter_tip2_desc">Peelen Sie spröde Lippen mit warmem Kokosöl und Zucker.</string>
     <string name="home_seasonal_banner_title">Aktuelle Jahreszeitenpflege</string>
+
+    <string name="cycle_advisor_title">Hautpflege-Zyklusberater</string>
+    <string name="cycle_advisor_subtitle">Hormoneller Akne-Tracker &amp; vorbeugende Tipps</string>
+    <string name="btn_select_period_date">Datum der letzten Periode wählen</string>
+    <string name="lbl_cycle_length">Zykluslänge: %1$d Tage</string>
+    <string name="lbl_last_period">Letzte Periode: %1$s</string>
+    <string name="lbl_current_day">Zyklustag %1$d von %2$d</string>
+    <string name="phase_follicular_name">🌸 Follikelphase (Glow-Phase)</string>
+    <string name="phase_follicular_desc">Östrogen steigt. Ihre Haut ist hydratisiert, ruhig und strahlend!</string>
+    <string name="phase_follicular_tip_title">Leichte Feuchtigkeit &amp; Sanftes Peeling</string>
+    <string name="phase_follicular_tip_desc">Verwenden Sie ein mildes Serum und Fruchtpeeling.</string>
+    <string name="phase_ovulation_name">✨ Eisprungphase (Öl steigt)</string>
+    <string name="phase_ovulation_desc">Östrogen erreicht seinen Höhepunkt. T-Zonen-Talg steigt.</string>
+    <string name="phase_ovulation_tip_title">Ölfreies Gel &amp; Salicyl-Reiniger</string>
+    <string name="phase_ovulation_tip_desc">Wechseln Sie zu einem leichten Gel-Moisturizer.</string>
+    <string name="phase_luteal_name">⚠️ Lutealphase (Hohes Akne-Risiko)</string>
+    <string name="phase_luteal_desc">Progesteron steigt! Talg verdoppelt sich, was Akne verursacht.</string>
+    <string name="phase_luteal_tip1_title">Teebaumöl-Spot-Behandlung</string>
+    <string name="phase_luteal_tip1_desc">Tragen Sie 1 Tropfen verdünntes Teebaumöl auf das Kinn auf.</string>
+    <string name="phase_luteal_tip2_title">Aktivkohle-Detox-Maske</string>
+    <string name="phase_luteal_tip2_desc">Wenden Sie zweimal diese Woche eine Kohlemaske an.</string>
+    <string name="phase_menstrual_name">💧 Menstruationsphase (Erholung &amp; Reparatur)</string>
+    <string name="phase_menstrual_desc">Hormone sinken. Haut kann sich trocken anfühlen.</string>
+    <string name="phase_menstrual_tip_title">Beruhigen &amp; Hautbarriere schützen</string>
+    <string name="phase_menstrual_tip_desc">Vermeiden Sie scharfe Säuren. Aloe Vera auftragen.</string>
+    <string name="msg_cycle_saved">Zykluseinstellungen erfolgreich gespeichert!</string>
 </resources>

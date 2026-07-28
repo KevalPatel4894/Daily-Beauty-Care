@@ -3987,4 +3987,30 @@
     <string name="season_winter_tip2_title">Gommage Lèvres Sucre &amp; Coco</string>
     <string name="season_winter_tip2_desc">Exfoliez les lèvres gercées avec de l\'huile de coco tiède et du sucre.</string>
     <string name="home_seasonal_banner_title">Soin de la Saison Actuelle</string>
+
+    <string name="cycle_advisor_title">Conseiller du Cycle Cutané</string>
+    <string name="cycle_advisor_subtitle">Suivi de l\'acné hormonale et soins préventifs</string>
+    <string name="btn_select_period_date">Sélectionner la date des règles</string>
+    <string name="lbl_cycle_length">Durée du cycle: %1$d Jours</string>
+    <string name="lbl_last_period">Dernières règles: %1$s</string>
+    <string name="lbl_current_day">Jour du cycle %1$d sur %2$d</string>
+    <string name="phase_follicular_name">🌸 Phase Folliculaire (Éclat)</string>
+    <string name="phase_follicular_desc">L\'œstrogène augmente. Votre peau est éclatante et hydratée!</string>
+    <string name="phase_follicular_tip_title">Hydratation Légère &amp; Gommage Doux</string>
+    <string name="phase_follicular_tip_desc">Utilisez un sérum doux et un gommage aux fruits.</string>
+    <string name="phase_ovulation_name">✨ Phase d\'Ovulation (Sébum en hausse)</string>
+    <string name="phase_ovulation_desc">Pics d\'œstrogènes. La zone T devient plus oily.</string>
+    <string name="phase_ovulation_tip_title">Gel Non Gras &amp; Nettoyant</string>
+    <string name="phase_ovulation_tip_desc">Optez pour un gel hydratant léger.</string>
+    <string name="phase_luteal_name">⚠️ Phase Lutéale (Risque d\'Acné)</string>
+    <string name="phase_luteal_desc">La progestérone augmente! Le sébum double et cause l\'acné.</string>
+    <string name="phase_luteal_tip1_title">Soin Ciblé Arbre à Thé</string>
+    <string name="phase_luteal_tip1_desc">Appliquez une goutte d\'huile d\'arbre à thé sur le menton.</string>
+    <string name="phase_luteal_tip2_title">Masque Détox au Charbon</string>
+    <string name="phase_luteal_tip2_desc">Appliquez un masque au charbon pour désincrustant les pores.</string>
+    <string name="phase_menstrual_name">💧 Phase Menstruelle (Réparation)</string>
+    <string name="phase_menstrual_desc">Chute d\'hormones. La peau peut être sèche et sensible.</string>
+    <string name="phase_menstrual_tip_title">Apaiser &amp; Hydrater la Barrière</string>
+    <string name="phase_menstrual_tip_desc">Évitez les acides forts. Appliquez de l\'aloe vera.</string>
+    <string name="msg_cycle_saved">Réglages du cycle enregistrés avec succès!</string>
 </resources>

@@ -3987,4 +3987,30 @@
     <string name="season_winter_tip2_title">ココナッツオイルリップスクラブ</string>
     <string name="season_winter_tip2_desc">温めたココナッツオイルと砂糖で唇をスクラブ。</string>
     <string name="home_seasonal_banner_title">現在の季節のお手入れ</string>
+
+    <string name="cycle_advisor_title">スキンサイクルアドバイザー</string>
+    <string name="cycle_advisor_subtitle">ホルモンニキビ予測＆予防ケア</string>
+    <string name="btn_select_period_date">生理開始日を選択</string>
+    <string name="lbl_cycle_length">周期: %1$d日</string>
+    <string name="lbl_last_period">前回の生理日: %1$s</string>
+    <string name="lbl_current_day">周期 %1$d / %2$d日目</string>
+    <string name="phase_follicular_name">🌸 卵胞期（ツヤ肌期）</string>
+    <string name="phase_follicular_desc">エストロゲンが上昇中。肌のコンディションが最高です！</string>
+    <string name="phase_follicular_tip_title">マイルド保湿＆角质ケア</string>
+    <string name="phase_follicular_tip_desc">やさしい美容液とフルーツスクラブでケア。</string>
+    <string name="phase_ovulation_name">✨ 排卵期（皮脂分泌開始）</string>
+    <string name="phase_ovulation_desc">エストロゲンのピーク。Tゾーンの皮脂が増加します。</string>
+    <string name="phase_ovulation_tip_title">オイルフリージェル＆洗顔</string>
+    <string name="phase_ovulation_tip_desc">軽いジェル保湿に切り替え、毛穴詰まりを予防。</string>
+    <string name="phase_luteal_name">⚠️ 黄体期（ニキビ高リスク期）</string>
+    <string name="phase_luteal_desc">プロゲステロンが急増！皮脂が増えてニキビができやすくなります。</string>
+    <string name="phase_luteal_tip1_title">ティーツリースポットケア</string>
+    <string name="phase_luteal_tip1_desc">夜あご周りにティーツリーオイルを1滴塗布。</string>
+    <string name="phase_luteal_tip2_title">竹炭デトックスパック</string>
+    <string name="phase_luteal_tip2_desc">クレイ・クレイパックで毛穴奥の汚れを吸着。</string>
+    <string name="phase_menstrual_name">💧 月経期（リセット＆修復）</string>
+    <string name="phase_menstrual_desc">ホルモン値が低下。肌が乾燥しやすくなります。</string>
+    <string name="phase_menstrual_tip_title">鎮静＆バリア保湿</string>
+    <string name="phase_menstrual_tip_desc">強い刺激を避け、アロエでたっぷり保湿。</string>
+    <string name="msg_cycle_saved">周期設定を保存しました！</string>
 </resources>

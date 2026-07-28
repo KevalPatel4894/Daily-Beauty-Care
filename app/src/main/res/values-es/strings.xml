@@ -3992,4 +3992,30 @@
     <string name="season_winter_tip2_title">Exfoliante de Labios de Coco y Azúcar</string>
     <string name="season_winter_tip2_desc">Exfolia los labios secos con aceite de coco tibio y azúcar.</string>
     <string name="home_seasonal_banner_title">Cuidado de la Estación Actual</string>
+
+    <string name="cycle_advisor_title">Asesor del Ciclo de la Piel</string>
+    <string name="cycle_advisor_subtitle">Seguimiento de acné hormonal y remedios preventivos</string>
+    <string name="btn_select_period_date">Seleccionar fecha de última regla</string>
+    <string name="lbl_cycle_length">Duración del ciclo: %1$d Días</string>
+    <string name="lbl_last_period">Última regla: %1$s</string>
+    <string name="lbl_current_day">Día del ciclo %1$d de %2$d</string>
+    <string name="phase_follicular_name">🌸 Fase Folicular (Fase Luminosa)</string>
+    <string name="phase_follicular_desc">Los estrógenos suben. ¡Tu piel está radiante e hidratada!</string>
+    <string name="phase_follicular_tip_title">Hidratación Ligera y Exfoliación Suave</string>
+    <string name="phase_follicular_tip_desc">Usa un sérum suave y exfoliante de frutas.</string>
+    <string name="phase_ovulation_name">✨ Fase de Ovulación (Aumento de Grasa)</string>
+    <string name="phase_ovulation_desc">Pico de estrógenos. Aumenta la producción de sebo.</string>
+    <string name="phase_ovulation_tip_title">Gel Libre de Aceites y Limpiador</string>
+    <string name="phase_ovulation_tip_desc">Usa gel hidratante ligero y lava tu rostro dos veces al día.</string>
+    <string name="phase_luteal_name">⚠️ Fase Lútea (Riesgo de Acné)</string>
+    <string name="phase_luteal_desc">¡Sube la progesterona! Se duplica el sebo provocando acné.</string>
+    <string name="phase_luteal_tip1_title">Tratamiento de Árbol de Té</string>
+    <string name="phase_luteal_tip1_desc">Aplica una gota de aceite de árbol de té en la barbilla por la noche.</string>
+    <string name="phase_luteal_tip2_title">Mascarilla Detox de Carbón</string>
+    <string name="phase_luteal_tip2_desc">Aplica una mascarilla de carbón para limpiar poros.</string>
+    <string name="phase_menstrual_name">💧 Fase Menstrual (Restauración)</string>
+    <string name="phase_menstrual_desc">Bajan las hormonas. La piel puede estar seca o sensible.</string>
+    <string name="phase_menstrual_tip_title">Calmar e Hidratar Barrera</string>
+    <string name="phase_menstrual_tip_desc">Evita ácidos fuertes. Aplica aloe vera y crema hidratante.</string>
+    <string name="msg_cycle_saved">¡Ajustes del ciclo guardados con éxito!</string>
 </resources>

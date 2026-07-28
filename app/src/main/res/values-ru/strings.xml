@@ -3987,4 +3987,30 @@
     <string name="season_winter_tip2_title">Скраб для губ с кокосовым маслом и сахаром</string>
     <string name="season_winter_tip2_desc">Скрабируйте сухость губ теплыми сахаром и кокосовым маслом.</string>
     <string name="home_seasonal_banner_title">Уход текущего сезона</string>
+
+    <string name="cycle_advisor_title">Советник по циклу кожи</string>
+    <string name="cycle_advisor_subtitle">Трекер гормонального акне и профилактика</string>
+    <string name="btn_select_period_date">Выбрать дату последней менструации</string>
+    <string name="lbl_cycle_length">Длина цикла: %1$d Дней</string>
+    <string name="lbl_last_period">Последняя менструация: %1$s</string>
+    <string name="lbl_current_day">День цикла %1$d из %2$d</string>
+    <string name="phase_follicular_name">🌸 Фолликулярная фаза (Сияние)</string>
+    <string name="phase_follicular_desc">Эстроген растет. Кожа естественным образом увлажнена и сияет!</string>
+    <string name="phase_follicular_tip_title">Легкое увлажнение и мягкий скраб</string>
+    <string name="phase_follicular_tip_desc">Используйте мягкую сыворотку и фруктовый скраб.</string>
+    <string name="phase_ovulation_name">✨ Фаза овуляции (Рост жирности)</string>
+    <string name="phase_ovulation_desc">Пик эстрогена. Увеличивается выработка кожного сала в T-зоне.</string>
+    <string name="phase_ovulation_tip_title">Обезжиренный гель и умывание</string>
+    <string name="phase_ovulation_tip_desc">Перейдите на легкий гель-увлажнитель для очищения пор.</string>
+    <string name="phase_luteal_name">⚠️ Лютеиновая фаза (Высокий риск акне)</string>
+    <string name="phase_luteal_desc">Скачок прогестерона! Выработка сала удваивается, вызывая прыщи.</string>
+    <string name="phase_luteal_tip1_title">Точечный уход с маслом чайного дерева</string>
+    <string name="phase_luteal_tip1_desc">Наносите 1 каплю масла чайного дерева на подбородок на ночь.</string>
+    <string name="phase_luteal_tip2_title">Очищающая маска с углем</string>
+    <string name="phase_luteal_tip2_desc">Используйте угольную маску 2 раза в неделю для очищения пор.</string>
+    <string name="phase_menstrual_name">💧 Менструальная фаза (Восстановление)</string>
+    <string name="phase_menstrual_desc">Падение гормонов. Кожа может быть сухой и чувствительной.</string>
+    <string name="phase_menstrual_tip_title">Успокоение и барьерный уход</string>
+    <string name="phase_menstrual_tip_desc">Избегайте агрессивных кислот. Наносите алоэ вера.</string>
+    <string name="msg_cycle_saved">Настройки цикла успешно сохранены!</string>
 </resources>

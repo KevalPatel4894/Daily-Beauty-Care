@@ -3969,4 +3969,30 @@
     <string name="season_winter_tip2_title">ESFOLIANTE LÁBIAL DE COCO E AÇÚCAR</string>
     <string name="season_winter_tip2_desc">Esfolie lábios ressecados com óleo de coco morno e açúcar.</string>
     <string name="home_seasonal_banner_title">Cuidados da Estação Atual</string>
+
+    <string name="cycle_advisor_title">Consultor do Ciclo da Pele</string>
+    <string name="cycle_advisor_subtitle">Rastreamento de acne hormonal e remédios preventivos</string>
+    <string name="btn_select_period_date">Selecionar data da última menstruação</string>
+    <string name="lbl_cycle_length">Duração do ciclo: %1$d Dias</string>
+    <string name="lbl_last_period">Última menstruação: %1$s</string>
+    <string name="lbl_current_day">Dia do ciclo %1$d de %2$d</string>
+    <string name="phase_follicular_name">🌸 Fase Folicular (Fase Luminosa)</string>
+    <string name="phase_follicular_desc">O estrogênio está aumentando. Sua pele está naturalmente radiante!</string>
+    <string name="phase_follicular_tip_title">Hidratação Leve e Esfoliação Suave</string>
+    <string name="phase_follicular_tip_desc">Use um sérum suave e esfoliante de frutas.</string>
+    <string name="phase_ovulation_name">✨ Fase de Ovulação (Aumento de Oleosidade)</string>
+    <string name="phase_ovulation_desc">Pico de estrogênio. Produção de sebo aumenta na zona T.</string>
+    <string name="phase_ovulation_tip_title">Gel Hidratante Sem Óleo</string>
+    <string name="phase_ovulation_tip_desc">Use um gel hidratante leve para evitar poros entupidos.</string>
+    <string name="phase_luteal_name">⚠️ Fase Lútea (Risco de Acne)</string>
+    <string name="phase_luteal_desc">A progesterona dispara! O sebo dobra, causando acne.</string>
+    <string name="phase_luteal_tip1_title">Tratamento de Óleo de Melaleuca</string>
+    <string name="phase_luteal_tip1_desc">Aplique 1 gota de óleo de melaleuca no queixo à noite.</string>
+    <string name="phase_luteal_tip2_title">Máscara Detox de Carvão</string>
+    <string name="phase_luteal_tip2_desc">Aplique uma máscara de carvão para desobstruir os poros.</string>
+    <string name="phase_menstrual_name">💧 Fase Menstrual (Restauração)</string>
+    <string name="phase_menstrual_desc">Queda hormonal. A pele pode ficar seca e sensível.</string>
+    <string name="phase_menstrual_tip_title">Acalmar e Hidratar a Barreira</string>
+    <string name="phase_menstrual_tip_desc">Evite ácidos fortes. Aplique aloe vera e hidratante.</string>
+    <string name="msg_cycle_saved">Configurações salvas com sucesso!</string>
 </resources>

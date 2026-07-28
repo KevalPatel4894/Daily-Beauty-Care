@@ -3967,4 +3967,30 @@
     <string name="season_winter_tip2_title">नारियल तेल और चीनी स्क्रब</string>
     <string name="season_winter_tip2_desc">फटे होंठों और एड़ियों पर नारियल तेल व चीनी से स्क्रब करें।</string>
     <string name="home_seasonal_banner_title">वर्तमान मौसम की देखभाल</string>
+
+    <string name="cycle_advisor_title">स्किनकेयर साइकिल एडवाइजर</string>
+    <string name="cycle_advisor_subtitle">हार्मोनल मुहांसे ट्रैकर और बचाव के उपाय</string>
+    <string name="btn_select_period_date">अंतिम पीरियड तिथि चुनें</string>
+    <string name="lbl_cycle_length">साइकिल लंबाई: %1$d दिन</string>
+    <string name="lbl_last_period">अंतिम पीरियड: %1$s</string>
+    <string name="lbl_current_day">साइकिल दिन %1$d / %2$d</string>
+    <string name="phase_follicular_name">🌸 कूपिक चरण (ग्लो फेज)</string>
+    <string name="phase_follicular_desc">एस्ट्रोजन बढ़ रहा है। त्वचा स्वाभाविक रूप से चमकदार है!</string>
+    <string name="phase_follicular_tip_title">हल्का मॉइस्चर और माइल्ड स्क्रब</string>
+    <string name="phase_follicular_tip_desc">हल्का सीरम और फ्रूट स्क्रब इस्तेमाल करें।</string>
+    <string name="phase_ovulation_name">✨ ओव्यूलेशन चरण (तेल उत्पादन)</string>
+    <string name="phase_ovulation_desc">एस्ट्रोजन चरम पर है। T-ज़ोन में तेल बढ़ रहा है।</string>
+    <string name="phase_ovulation_tip_title">ऑयल-फ्री जेल और फेसवॉश</string>
+    <string name="phase_ovulation_tip_desc">हल्के जेल मॉइस्चराइजर और फेसवॉश का उपयोग करें।</string>
+    <string name="phase_luteal_name">⚠️ ल्यूटियल चरण (मुहांसे का उच्च जोखिम)</string>
+    <string name="phase_luteal_desc">प्रोजेस्टेरोन बढ़ता है! सीबम दोगुना होकर मुहांसे पैदा करता है।</string>
+    <string name="phase_luteal_tip1_title">टी ट्री ऑयल स्पॉट ट्रीटमेंट</string>
+    <string name="phase_luteal_tip1_desc">ठोड़ी पर रात को 1 बूंद टी ट्री ऑयल लगाएं।</string>
+    <string name="phase_luteal_tip2_title">एक्टिवेटेड चारकोल मास्क</string>
+    <string name="phase_luteal_tip2_desc">सप्ताह में दो बार चारकोल मास्क लगाएं।</string>
+    <string name="phase_menstrual_name">💧 मासिक धर्म चरण (त्वचा की मरम्मत)</string>
+    <string name="phase_menstrual_desc">हार्मोन सबसे कम हैं। त्वचा रूखी महसूस हो सकती है।</string>
+    <string name="phase_menstrual_tip_title">त्वचा को शांत और हाइड्रेट करें</string>
+    <string name="phase_menstrual_tip_desc">कठोर एसिड से बचें। एलोवेरा और क्रीम लगाएं।</string>
+    <string name="msg_cycle_saved">साइकिल सेटिंग सफलतापूर्वक सहेजी गई!</string>
 </resources>

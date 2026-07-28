@@ -4009,4 +4009,36 @@
     <string name="season_winter_tip2_desc">Exfoliate chapped lips and dry heels with warm coconut oil mixed with granulated sugar, then seal with beeswax or vaseline.</string>
 
     <string name="home_seasonal_banner_title">Current Season Care</string>
+
+    <!-- Feature 27: Women's Skincare Cycle Advisor (Hormonal Acne Tracker) -->
+    <string name="cycle_advisor_title">Skincare Cycle Advisor</string>
+    <string name="cycle_advisor_subtitle">Hormonal acne tracker &amp; preventative remedies</string>
+    <string name="btn_select_period_date">Select Last Period Date</string>
+    <string name="lbl_cycle_length">Cycle Length: %1$d Days</string>
+    <string name="lbl_last_period">Last Period: %1$s</string>
+    <string name="lbl_current_day">Cycle Day %1$d of %2$d</string>
+
+    <string name="phase_follicular_name">🌸 Follicular Phase (Glow Phase)</string>
+    <string name="phase_follicular_desc">Estrogen is rising. Your skin is naturally hydrated, calm, and radiant!</string>
+    <string name="phase_follicular_tip_title">Light Hydration &amp; Gentle Scrub</string>
+    <string name="phase_follicular_tip_desc">Use a mild hyaluronic serum and gentle fruit scrub. Your skin absorbs nutrients best right now.</string>
+
+    <string name="phase_ovulation_name">✨ Ovulation Phase (Oil Rising)</string>
+    <string name="phase_ovulation_desc">Estrogen peaks. Sebum production is starting to increase around T-zone.</string>
+    <string name="phase_ovulation_tip_title">Oil-Free Gel &amp; Salicylic Cleanser</string>
+    <string name="phase_ovulation_tip_desc">Switch to a lightweight gel moisturizer and wash face twice daily with salicylic or neem cleanser to prevent clogged pores.</string>
+
+    <string name="phase_luteal_name">⚠️ Luteal Phase (High Acne Risk Window)</string>
+    <string name="phase_luteal_desc">Progesterone spikes! Sebum doubles, triggering hormonal breakouts along chin and jawline.</string>
+    <string name="phase_luteal_tip1_title">Tea Tree Spot Treatment</string>
+    <string name="phase_luteal_tip1_desc">Apply 1 drop of diluted tea tree oil onto chin &amp; jawline area at night to kill acne-causing bacteria before pimples surface.</string>
+    <string name="phase_luteal_tip2_title">Activated Charcoal Detox Mask</string>
+    <string name="phase_luteal_tip2_desc">Apply a charcoal or bentonite clay mask twice this week to pull deep impurities out of congested pores.</string>
+
+    <string name="phase_menstrual_name">💧 Menstrual Phase (Restoration &amp; Repair)</string>
+    <string name="phase_menstrual_desc">Hormones drop to lowest levels. Skin may feel dry, sensitive, or dull.</string>
+    <string name="phase_menstrual_tip_title">Soothe &amp; Barrier Moisturize</string>
+    <string name="phase_menstrual_tip_desc">Avoid harsh exfoliants or strong acids. Apply soothing aloe vera and ceramide cream to restore skin barrier.</string>
+
+    <string name="msg_cycle_saved">Cycle settings saved successfully!</string>
 </resources>
