@@ -4,8 +4,7 @@ import android.annotation.SuppressLint
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.CheckBox
-import androidx.appcompat.widget.AppCompatCheckBox
+import android.widget.CompoundButton
 import androidx.appcompat.widget.AppCompatTextView
 import androidx.recyclerview.widget.RecyclerView
 import com.kp.beautytips.R
@@ -20,9 +19,8 @@ class LanguagesAdapter(
 ) : RecyclerView.Adapter<LanguagesAdapter.HomeHolder>() {
 
     private var languageArrayList = ArrayList<LanguageModel>()
-    private var lastChecked: CheckBox? = null
-    private var lastCheckedPos = 0
-    private val selectedPosition = 0
+    private var lastChecked: CompoundButton? = null
+    private var lastCheckedPos = -1
 
     init {
         this.languageArrayList = languageArrayList
@@ -38,31 +36,29 @@ class LanguagesAdapter(
     override fun onBindViewHolder(holder: HomeHolder, @SuppressLint("RecyclerView") position: Int) {
         holder.languageName.text = languageArrayList[position].langName
 
-        //for default check in first item
-        if (AppUtils.getLanguageCode(holder.itemView.context) == languageArrayList[position].langCode) {
-            languageArrayList[position].setSelected(true)
-            holder.checkBox.isChecked = languageArrayList[position].isSelected
-            holder.checkBox.tag = position
+        val currentLangCode = AppUtils.getLanguageCode(holder.itemView.context)
+        val isSelected = (currentLangCode == languageArrayList[position].langCode)
+        languageArrayList[position].setSelected(isSelected)
+        holder.checkBox.isChecked = isSelected
+        holder.checkBox.tag = position
+
+        if (isSelected) {
+            lastChecked = holder.checkBox
             lastCheckedPos = position
-        } else {
-            languageArrayList[position].setSelected(false)
-            holder.checkBox.isChecked = languageArrayList[position].isSelected
-            holder.checkBox.tag = position
         }
 
-        holder.checkBox.setOnClickListener { v ->
-            if (holder.checkBox.tag != lastCheckedPos) {
-                val cb = v as CheckBox
-                val clickedPos = (cb.tag as Int).toInt()
-                if (cb.isChecked) {
-                    if (lastChecked != null) {
-                        lastChecked!!.isChecked = false
-                        languageArrayList[lastCheckedPos].setSelected(false)
-                    }
-                    lastChecked = cb
-                    lastCheckedPos = clickedPos
-                } else lastChecked = null
-                languageArrayList[clickedPos].setSelected(cb.isChecked)
+        val selectLanguageAction = {
+            if (position != lastCheckedPos) {
+                lastChecked?.isChecked = false
+                if (lastCheckedPos in 0 until languageArrayList.size) {
+                    languageArrayList[lastCheckedPos].setSelected(false)
+                }
+
+                holder.checkBox.isChecked = true
+                languageArrayList[position].setSelected(true)
+                lastChecked = holder.checkBox
+                lastCheckedPos = position
+
                 AppUtils.setLanguageCode(
                     holder.checkBox.context,
                     languageArrayList[position].langCode
@@ -73,6 +69,8 @@ class LanguagesAdapter(
             }
         }
 
+        holder.checkBox.setOnClickListener { selectLanguageAction() }
+        holder.itemView.setOnClickListener { selectLanguageAction() }
     }
 
     override fun getItemCount(): Int {
@@ -81,6 +79,6 @@ class LanguagesAdapter(
 
     inner class HomeHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         var languageName: AppCompatTextView = itemView.findViewById(R.id.tvLanguages)
-        var checkBox: AppCompatCheckBox = itemView.findViewById(R.id.checkbox)
+        var checkBox: CompoundButton = itemView.findViewById(R.id.checkbox)
     }
 }
