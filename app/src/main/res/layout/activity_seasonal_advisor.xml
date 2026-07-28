@@ -41,12 +41,13 @@
                 android:id="@+id/tabLayoutSeasons"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:tabMode="fixed"
+                app:tabMode="scrollable"
                 app:tabGravity="fill"
                 app:tabIndicatorColor="@color/toolBarColor"
                 app:tabSelectedTextColor="@color/toolBarColor"
-                app:tabTextColor="#777777"
+                app:tabTextColor="#666666"
                 app:tabRippleColor="@color/toolBarColor"
+                app:tabMinWidth="70dp"
                 android:background="@drawable/bg_white_rounded_10"
                 android:elevation="2dp" />
 

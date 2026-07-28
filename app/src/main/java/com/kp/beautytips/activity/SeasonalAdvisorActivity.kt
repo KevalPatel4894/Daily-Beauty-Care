@@ -139,9 +139,12 @@ class SeasonalAdvisorActivity : BaseActivity() {
         rvSeasonalTips.layoutManager = LinearLayoutManager(this)
         rvSeasonalTips.adapter = adapter
 
-        // Setup Tabs
-        seasonCategories.forEach { category ->
-            tabLayoutSeasons.addTab(tabLayoutSeasons.newTab().setText(getString(category.seasonNameRes)))
+        // Setup Tabs with seasonal icons
+        val seasonEmojis = arrayOf("☀️", "🌧️", "🍂", "❄️")
+        seasonCategories.forEachIndexed { index, category ->
+            val emoji = seasonEmojis.getOrElse(index) { "" }
+            val tabTitle = "$emoji ${getString(category.seasonNameRes)}"
+            tabLayoutSeasons.addTab(tabLayoutSeasons.newTab().setText(tabTitle))
         }
 
         tabLayoutSeasons.addOnTabSelectedListener(object : TabLayout.OnTabSelectedListener {
