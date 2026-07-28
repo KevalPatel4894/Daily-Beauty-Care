@@ -8,24 +8,53 @@ Use these texts for your Google Play Console store listing when uploading your n
 *This version corrects grammatical issues, aligns the "Hands & Feet" list items (e.g. correcting "pinky shiny eyes" to "pinky shiny nails"), and formats the text to look premium.*
 
 ### Short Description (Max 80 characters)
-Daily Beauty Care - Skin, Hair, Face, Eyes, Hands & Feet
+*Option A (Recommended):*
+Daily Beauty Care - Glowing Skin, Hair Fall, Beard Care & Men's Grooming
+
+*Option B:*
+Natural home remedies for skin, hair, beard growth, razor bumps & daily care.
 
 ### Long Description (Max 4000 characters)
-Daily Beauty Care - Skin, Hair, Face, Eyes is an app that serves as a beauty guide for both men and women all over the world. Anyone who loves and respects themselves should take care of their body, hair, and face.
+Daily Beauty Care - Skin, Hair, Face, Beard & Grooming is a complete natural self-care guide for both men and women all over the world. Take control of your daily routines with safe, effective, and 100% natural home remedies.
 
-This app includes a wide variety of natural home remedies for beauty-related needs, including skin care, hair care, eye remedies, face tips (lips, teeth, cheeks), and body care (hand & feet care tips). We all know that chemical-laden beauty products are expensive and can be harmful to our skin and body. In contrast, natural home remedies are safe, inexpensive, and have no side effects.
+This app includes a wide variety of natural home remedies for beauty and grooming needs, including skincare, hair care, men's grooming (beard & mustache care), razor bump solutions, eye remedies, face care, and body care (hand & feet tips). Chemical-laden products are expensive and can harm your skin. In contrast, natural home remedies are safe, affordable, and side-effect free.
 
-All tips in this application utilize natural, easily available ingredients such as lemon, salt, baking soda, turmeric, ginger, coconut oil, almond oil, curd, fruits, and vegetables. These beauty tips and tricks are suitable for men, women, and girls of all ages.
+All tips in this application utilize natural, easily available ingredients such as lemon, honey, aloe vera, turmeric, coconut oil, tea tree oil, curd, fruits, and herbal extracts. Suitable for men, women, boys, and girls of all ages.
 
 🌸 **Face Care:** Face Wrinkles, Pimple cure (acne), Fair skin, Blackheads, Facial Hair Removal, Sunburn Removal, Teeth Whitening, Dark Lips, Blemishes
 
 💇 **Hair Care:** Dandruff, Silky-Shine hair, Straight Hair, Split ends, Greying Hair, Hair Fall, Frizzy Hair, Head Lice, Dry and damaged hair
 
-✨ **Skin Care:** Glowing skin, Uneven skin, Warts, Stretch marks, Prickly Heat, Body Scrub, Body Polish
+🧔 **Men's Grooming & Boys' Care (NEW!):**
+• **Beard Growth & Patchy Beard:** Natural oil stimulation & beard growth massage techniques
+• **Mustache Care:** Softening coarse mustache hair, styling & nourishment tips
+• **Razor Bumps & Shaving Care:** Step-by-step remedies for razor burn relief, ingrown hair prevention & post-shave soothing masks
+• **Men's Hair Fall & Damage Control:** Scalp strengthening against hair thinning & styling damage
 
-👁️ **Eyes Care:** Dark Circles, Puffy eyes, Beautiful eyes, Sunken eyes, Better eyebrows, Thicker and longer eyelashes
+✨ **Skin Care:** Glowing skin, Uneven skin tone, Warts, Stretch marks, Prickly Heat, Body Scrub, Body Polish
+
+👁️ **Eyes Care:** Dark Circles, Puffy eyes, Beautiful eyes, Sunken eyes, Eyebrow growth, Thicker and longer eyelashes
 
 💅 **Hands & Feet:** Waxing at Home, Dry and rough hands, Nail growth, Pinky shiny nails, Dark underarms, Cracked heels
+
+📱 **Interactive Smart Features:**
+• **Daily Water Intake Tracker:** Track daily water glasses for glowing skin retention
+• **Personalized Beauty Profile:** Custom recommendations tailored to your skin type & concerns
+• **Custom Routine Builder:** Morning & Evening self-care countdown timers with alarms
+• **Beauty Wellness Score:** Track your daily self-care habit progress
+• **Ingredient Glossary:** Check safety ratings of cosmetic ingredients offline
+
+---
+
+### What's New Release Notes (Play Console Upload):
+```
+🎉 NEW UPDATE & MEN'S GROOMING EXPANSION!
+🧔 Added Men's Grooming & Beard Care Category (Beard growth, mustache styling, men's hair fall remedies)
+🪒 Added Razor Bumps & Shaving Companion (Pre-shave protection, post-shave cooling masks & ingrown hair fixes)
+✨ Reordered Home Screen for Instant Category Access
+🎨 Enhanced UI layout & radio button interaction design
+🌐 Updated translations across all 8 supported languages
+```
 
 ---
 
