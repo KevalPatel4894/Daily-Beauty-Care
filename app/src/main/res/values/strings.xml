@@ -3325,7 +3325,7 @@
     <string name="app_share">Here you will find your best desire beauty care tips and fashion style to uplift your self</string>
     <string name="read_now">Read Now</string>
 
-    <!-- Auto-Generated Translations for Challenges, Share Card, Reminders, Search & Favorites Features -->
+    <!-- Auto-Generated Translations for Challenges, Share Card, Reminders, Search &amp; Favorites Features -->
     <string name="beauty_challenges">Beauty Challenges</string>
     <string name="challenge_details">Challenge Details</string>
     <string name="daily_tasks">Daily Tasks</string>
@@ -3431,7 +3431,7 @@
     <string name="challenge_task_bright_eyes_day7_title">Eye Roll &amp; Focus Exercises</string>
     <string name="challenge_task_bright_eyes_day7_details">Roll your eyes in clockwise and counter-clockwise directions, then blink rapidly for 1 minute to boost blood flow.</string>
 
-    <!-- Auto-Generated Translations for Daily Check-In & Streaks Feature -->
+    <!-- Auto-Generated Translations for Daily Check-In &amp; Streaks Feature -->
     <string name="daily_check_in">Daily Check-In</string>
     <string name="check_in_streak_format" formatted="false">%1$d Days</string>
     <string name="check_in_subtitle">Tap to record your daily check-in &amp; build streaks!</string>
@@ -3571,7 +3571,7 @@
     <string name="wellness_score_detail_reads_advice" formatted="false">Read at least %1$d beauty tips today to learn new natural remedies.</string>
     <string name="close">Close</string>
 
-    <!-- Feature 3: Achievements & Badges -->
+    <!-- Feature 3: Achievements &amp; Badges -->
     <string name="settings_achievements">Achievements &amp; Badges</string>
     <string name="badge_locked">Locked</string>
     <string name="badge_unlocked">Unlocked!</string>
@@ -3633,7 +3633,7 @@
     <string name="profile_edit_link">Edit</string>
     <string name="profile_saved_toast">Beauty Profile saved successfully!</string>
 
-    <!-- Feature 17: F.A.Q. & Myth Busters -->
+    <!-- Feature 17: F.A.Q. &amp; Myth Busters -->
     <string name="settings_faq_myths">F.A.Q. &amp; Myth Busters</string>
     <string name="faq_title">F.A.Q. &amp; Myth Busters</string>
     <string name="faq_subtitle">Learn the truth behind popular beauty myths</string>
@@ -3690,7 +3690,7 @@
     <string name="custom_tip_category_eyes">Eyes</string>
     <string name="custom_tip_category_handsfeet">Hands &amp; Feet</string>
 
-    <!-- Feature 25: Seasonal & Weather-Based Beauty Advisor -->
+    <!-- Feature 25: Seasonal &amp; Weather-Based Beauty Advisor -->
     <string name="seasonal_advisor_title">Seasonal Advisor</string>
     <string name="seasonal_summer_title">Summer Glow Care</string>
     <string name="seasonal_summer_desc">Keep your skin refreshed and protected from the heat</string>
@@ -3704,7 +3704,7 @@
     <string name="seasonal_not_started">View recipes below and check them off when done!</string>
     <string name="seasonal_settings_option">Seasonal Beauty Advisor</string>
 
-    <!-- Feature 16: Ingredient Directory & Glossary -->
+    <!-- Feature 16: Ingredient Directory &amp; Glossary -->
     <string name="ingredient_glossary_title">Ingredient Glossary</string>
     <string name="ingredient_search_hint">Search ingredients...</string>
     <string name="ingredient_benefits_header">Beauty Benefits</string>
@@ -3797,7 +3797,7 @@
     <string name="skin_mood_glowing">Glowing</string>
     <string name="skin_mood_glowing_keywords">glow,radiant,shine,glass skin,healthy</string>
 
-    <!-- Feature 21: Body & Wellness -->
+    <!-- Feature 21: Body &amp; Wellness -->
     <string name="body_wellness">Body Care</string>
     <string name="stretch_marks">Stretch Marks</string>
     <string name="dark_neck">Dark Neck</string>
@@ -3858,7 +3858,7 @@
     <string name="body_diet_omega_fats_title">Healthy Omega Fats</string>
     <string name="body_diet_omega_fats_desc">Eat walnuts, flaxseeds, and avocados to nourish skin barrier lipid levels from within.</string>
 
-    <!-- Feature 23: Men's Grooming & Beard Care Guide -->
+    <!-- Feature 23: Men's Grooming &amp; Beard Care Guide -->
     <string name="men_grooming">Men\'s Grooming</string>
     <string name="beard_growth">Beard Growth</string>
     <string name="mustache_care">Mustache Care</string>
@@ -3957,7 +3957,7 @@
     <string name="btn_previous">Previous</string>
     <string name="save">Save</string>
 
-    <!-- Feature 24: Razor Bumps & Shaving Care Companion -->
+    <!-- Feature 24: Razor Bumps &amp; Shaving Care Companion -->
     <string name="razor_bumps">Razor Bumps &amp; Shaving Care</string>
     <string name="razor_aloe_tea_tree_title">Aloe &amp; Tea Tree Gel</string>
     <string name="razor_aloe_tea_tree_desc">Mix 2 tablespoons of fresh aloe vera gel with 2 drops of tea tree oil. Apply to shaved areas to instantly soothe razor burns and kill bacteria causing ingrown bumps.</string>
@@ -3971,4 +3971,42 @@
     <string name="razor_diet_anti_inflammatory_desc">Drink green tea daily and consume foods rich in Omega-3 fatty acids (flaxseeds, walnuts) to calm internal skin inflammation and reduce bump flare-ups.</string>
     <string name="razor_ex_cold_press_title">Cold Water Compress Routine</string>
     <string name="razor_ex_cold_press_desc">Immediately after shaving, press a cold wet towel or ice cube wrapped in cloth against your skin for 2 minutes to shrink pores and stop razor bump formation.</string>
+
+    <!-- Feature 25: Seasonal &amp; Weather-Based Beauty Advisor -->
+    <string name="seasonal_beauty_advisor">Seasonal Beauty Advisor</string>
+    <string name="seasonal_advisor_subtitle">Customized natural skincare for every time of year</string>
+    <string name="season_summer">Summer</string>
+    <string name="season_monsoon">Monsoon</string>
+    <string name="season_autumn">Autumn</string>
+    <string name="season_winter">Winter</string>
+
+    <string name="season_summer_title">☀️ Summer Heat &amp; Sun Defense</string>
+    <string name="season_summer_desc">Protect your skin from harsh UV rays, excess oil, and heat rashes during hot summer months.</string>
+    <string name="season_summer_tip1_title">Cucumber Aloe Cooling Face Pack</string>
+    <string name="season_summer_tip1_desc">Blend fresh cucumber juice with aloe vera gel. Apply for 15 minutes to cool sun-exposed skin and prevent heat rashes.</string>
+    <string name="season_summer_tip2_title">Hydrating Rosewater Facial Mist</string>
+    <string name="season_summer_tip2_desc">Spray chilled rose water on your face twice daily to regulate skin temperature, restore hydration, and control excess sweat.</string>
+
+    <string name="season_monsoon_title">🌧️ Monsoon Humidity &amp; Anti-Fungal Care</string>
+    <string name="season_monsoon_desc">Combat damp humidity, scalp fungal infections, and excessive monsoon hair fall.</string>
+    <string name="season_monsoon_tip1_title">Neem &amp; Turmeric Scalp Cleanser</string>
+    <string name="season_monsoon_tip1_desc">Boil neem leaves in water and add a pinch of turmeric. Use as a final rinse after shampooing to prevent fungal scalp itchiness during rains.</string>
+    <string name="season_monsoon_tip2_title">Multani Mitti Pore Detox Mask</string>
+    <string name="season_monsoon_tip2_desc">Mix Fuller’s earth with rosewater to absorb stubborn monsoon grease and unclog moisture-clogged pores.</string>
+
+    <string name="season_autumn_title">🍂 Autumn Barrier Repair</string>
+    <string name="season_autumn_desc">Restore skin moisture and balance after summer damage as weather begins to cool down.</string>
+    <string name="season_autumn_tip1_title">Honey &amp; Milk Exfoliating Wash</string>
+    <string name="season_autumn_tip1_desc">Gently massage raw honey and raw milk into skin. Lactic acid gently sloughs dry skin while honey locks in deep moisture.</string>
+    <string name="season_autumn_tip2_title">Almond Oil Night Renewal</string>
+    <string name="season_autumn_tip2_desc">Massage 3 drops of pure sweet almond oil into damp face before sleeping to repair skin barrier integrity.</string>
+
+    <string name="season_winter_title">❄️ Winter Deep Hydration &amp; Lip Care</string>
+    <string name="season_winter_desc">Intensive remedies for dry flaky skin, cracked heels, and chapped winter lips.</string>
+    <string name="season_winter_tip1_title">Malai &amp; Glycerin Deep Moisture Mask</string>
+    <string name="season_winter_tip1_desc">Mix 1 tsp milk cream (malai) with 2 drops of vegetable glycerin. Apply to dry face for 20 minutes to eliminate winter scaling.</string>
+    <string name="season_winter_tip2_title">Coconut Oil &amp; Sugar Heel &amp; Lip Scrub</string>
+    <string name="season_winter_tip2_desc">Exfoliate chapped lips and dry heels with warm coconut oil mixed with granulated sugar, then seal with beeswax or vaseline.</string>
+
+    <string name="home_seasonal_banner_title">Current Season Care</string>
 </resources>

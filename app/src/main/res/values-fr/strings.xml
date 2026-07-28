@@ -3314,7 +3314,7 @@
     <string name="app_share">Vous trouverez ici vos meilleurs conseils de soins de beauté et votre style de mode pour vous élever</string>
     <string name="read_now">Lisez maintenant</string>
 
-    <!-- Auto-Generated Translations for Challenges, Share Card, Reminders, Search & Favorites Features -->
+    <!-- Auto-Generated Translations for Challenges, Share Card, Reminders, Search &amp; Favorites Features -->
     <string name="beauty_challenges">Défis de beauté</string>
     <string name="challenge_details">Détails du défi</string>
     <string name="daily_tasks">Tâches quotidiennes</string>
@@ -3420,7 +3420,7 @@
     <string name="challenge_task_bright_eyes_day7_title">Exercices de rotation et de mise au point des yeux</string>
     <string name="challenge_task_bright_eyes_day7_details">Faites rouler vos yeux dans le sens des aiguilles d\'une montre et dans le sens inverse, puis clignez des yeux rapidement pendant 1 minute pour stimuler la circulation.</string>
 
-    <!-- Auto-Generated Translations for Daily Check-In & Streaks Feature -->
+    <!-- Auto-Generated Translations for Daily Check-In &amp; Streaks Feature -->
     <string name="daily_check_in">Enregistrement Quotidien</string>
     <string name="check_in_streak_format" formatted="false">%1$d jours</string>
     <string name="check_in_subtitle">Appuyez pour enregistrer votre présence quotidienne !</string>
@@ -3560,7 +3560,7 @@
     <string name="wellness_score_detail_reads_advice" formatted="false">Lisez au moins %1$d conseils de beauté aujourd\'hui pour apprendre de nouveaux remèdes naturels.</string>
     <string name="close">Fermer</string>
 
-    <!-- Feature 3: Achievements & Badges -->
+    <!-- Feature 3: Achievements &amp; Badges -->
     <string name="settings_achievements">Succès et Badges</string>
     <string name="badge_locked">Verrouillé</string>
     <string name="badge_unlocked">Déverrouillé!</string>
@@ -3648,7 +3648,7 @@
     <string name="custom_tip_category_eyes">Yeux</string>
     <string name="custom_tip_category_handsfeet">Mains &amp; Pieds</string>
 
-    <!-- Feature 25: Seasonal & Weather-Based Beauty Advisor -->
+    <!-- Feature 25: Seasonal &amp; Weather-Based Beauty Advisor -->
     <string name="seasonal_advisor_title">Conseiller Saisonnier</string>
     <string name="seasonal_summer_title">Soin Éclat d\'Été</string>
     <string name="seasonal_summer_desc">Gardez votre peau fraîche et protégée de la chaleur</string>
@@ -3662,7 +3662,7 @@
     <string name="seasonal_not_started">Consultez les recettes et cochez-les une fois terminées !</string>
     <string name="seasonal_settings_option">Conseiller Beauté Saisonnier</string>
 
-    <!-- Feature 16: Ingredient Directory & Glossary -->
+    <!-- Feature 16: Ingredient Directory &amp; Glossary -->
     <string name="ingredient_glossary_title">Glossaire des Ingrédients</string>
     <string name="ingredient_search_hint">Rechercher des ingrédients...</string>
     <string name="ingredient_benefits_header">Bienfaits Beauté</string>
@@ -3755,7 +3755,7 @@
     <string name="skin_mood_glowing">Éclatante</string>
     <string name="skin_mood_glowing_keywords">éclatante,brillante,éclat,peau de verre,sain,glow</string>
 
-    <!-- Feature 21: Body & Wellness -->
+    <!-- Feature 21: Body &amp; Wellness -->
     <string name="body_wellness">Soins du Corps</string>
     <string name="stretch_marks">Vergetures</string>
     <string name="dark_neck">Cou Sombre</string>
@@ -3816,7 +3816,7 @@
     <string name="body_diet_omega_fats_title">Graisses Oméga Saines</string>
     <string name="body_diet_omega_fats_desc">Manger des noix, des graines de lin et des avocats pour nourrir la barrière lipidique cutanée de l\'intérieur.</string>
 
-    <!-- Feature 23: Men's Grooming & Beard Care Guide -->
+    <!-- Feature 23: Men's Grooming &amp; Beard Care Guide -->
     <string name="men_grooming">Soins pour Hommes</string>
     <string name="beard_growth">Pousse de la Barbe</string>
     <string name="mustache_care">Soin de la Moustache</string>
@@ -3867,7 +3867,7 @@
     <string name="men_hair_diet_protein_title">Protéines d\'Œuf &amp; Poisson</string>
     <string name="men_hair_diet_protein_desc">Intégrez des protéines de qualité à votre alimentation pour fournir les acides aminés essentiels à la reconstruction de la fibre capillaire abîmée par le coiffage quotidien.</string>
 
-    <!-- Exercises for Body Wellness & Men's Grooming -->
+    <!-- Exercises for Body Wellness &amp; Men's Grooming -->
     <string name="body_stretch_ex_title">Relevé de Bassin &amp; Étirements</string>
     <string name="body_stretch_ex_desc">Allongez-vous sur le dos, pliez les genoux et levez les hanches. Cela tonifie les cuisses, les fessiers et l\'abdomen pour réduire les vergetures.</string>
     <string name="body_neck_ex_title">Rotation du Cou &amp; Étirements</string>
@@ -3938,7 +3938,7 @@
     <string name="step_timer_finished">Minuteur de l\'étape terminé !</string>
     <string name="step_progress_format" formatted="false">Étape %1$d sur %2$d</string>
 
-    <!-- Feature 24: Razor Bumps & Shaving Care Companion -->
+    <!-- Feature 24: Razor Bumps &amp; Shaving Care Companion -->
     <string name="razor_bumps">Boutons de rasage &amp; soins</string>
     <string name="razor_aloe_tea_tree_title">Gel Aloe &amp; Arbre à Thé</string>
     <string name="razor_aloe_tea_tree_desc">Mélangez 2 cuillères à soupe de gel d\'aloe vera frais avec 2 gouttes d\'huile d\'arbre à thé. Appliquez sur les zones rasées.</string>
@@ -3955,4 +3955,36 @@
 
     <string name="btn_previous">Précédent</string>
     <string name="save">Enregistrer</string>
+
+    <string name="seasonal_beauty_advisor">Conseiller Beauté Saisonnier</string>
+    <string name="seasonal_advisor_subtitle">Soins naturels adaptés à chaque période de l\'année</string>
+    <string name="season_summer">Été</string>
+    <string name="season_monsoon">Mousson</string>
+    <string name="season_autumn">Automne</string>
+    <string name="season_winter">Hiver</string>
+    <string name="season_summer_title">☀️ Chaleur Estivale &amp; Protection Solaire</string>
+    <string name="season_summer_desc">Protégez votre peau des rayons UV et de l\'excès de sébum.</string>
+    <string name="season_summer_tip1_title">Masque Rafraîchissant Concombre &amp; Aloe Vera</string>
+    <string name="season_summer_tip1_desc">Mélangez du jus de concombre frais avec du gel d\'aloe vera. Laissez poser 15 min.</string>
+    <string name="season_summer_tip2_title">Brume Hydratante à l\'Eau de Rose</string>
+    <string name="season_summer_tip2_desc">Vaporisez de l\'eau de rose fraîche deux fois par jour.</string>
+    <string name="season_monsoon_title">🌧️ Soin Anti-Humidité &amp; Anti-Fongique</string>
+    <string name="season_monsoon_desc">Luttez contre la chute de cheveux et les irritations de la mousson.</string>
+    <string name="season_monsoon_tip1_title">Rinçage Curcuma &amp; Neem</string>
+    <string name="season_monsoon_tip1_desc">Faites bouillir des feuilles de neem avec du curcuma en rincer apaisant.</string>
+    <string name="season_monsoon_tip2_title">Masque Purifiant Multani Mitti</string>
+    <string name="season_monsoon_tip2_desc">Mélangez de l\'argile à l\'eau de rose pour absorber l\'excès d\'huile.</string>
+    <string name="season_autumn_title">🍂 Réparation Automnale de la Barrière Cutanée</string>
+    <string name="season_autumn_desc">Restaurez l\'hydratation de la peau après les dégâts de l\'été.</string>
+    <string name="season_autumn_tip1_title">Soin Exfoliant Miel &amp; Lait</string>
+    <string name="season_autumn_tip1_desc">Massez du miel pur et du lait cru pour adoucir la peau.</string>
+    <string name="season_autumn_tip2_title">Soin de Nuit à l\'Huile d\'Amande</string>
+    <string name="season_autumn_tip2_desc">Massez 3 gouttes d\'huile d\'amande douce avant de dormir.</string>
+    <string name="season_winter_title">❄️ Hydratation Intense d\'Hiver &amp; Lèvres</string>
+    <string name="season_winter_desc">Soins contre la peau sèche, les talons fendillés et lèvres gercées.</string>
+    <string name="season_winter_tip1_title">Masque Crème &amp; Glycérine</string>
+    <string name="season_winter_tip1_desc">Mélangez de la crème de lait et de la glycérine. Laissez poser 20 min.</string>
+    <string name="season_winter_tip2_title">Gommage Lèvres Sucre &amp; Coco</string>
+    <string name="season_winter_tip2_desc">Exfoliez les lèvres gercées avec de l\'huile de coco tiède et du sucre.</string>
+    <string name="home_seasonal_banner_title">Soin de la Saison Actuelle</string>
 </resources>

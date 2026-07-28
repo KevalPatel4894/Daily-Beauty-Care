@@ -3314,7 +3314,7 @@
     <string name="app_share">ここであなたはあなたの自己を高揚させるためのあなたの最高の欲望の美容ケアのヒントとファッションスタイルを見つけるでしょう</string>
     <string name="read_now">今すぐ読む</string>
 
-    <!-- Auto-Generated Translations for Challenges, Share Card, Reminders, Search & Favorites Features -->
+    <!-- Auto-Generated Translations for Challenges, Share Card, Reminders, Search &amp; Favorites Features -->
     <string name="beauty_challenges">ビューティーチャレンジ</string>
     <string name="challenge_details">チャレンジの詳細</string>
     <string name="daily_tasks">毎日のタスク</string>
@@ -3420,7 +3420,7 @@
     <string name="challenge_task_bright_eyes_day7_title">アイロール＆フォーカス運動</string>
     <string name="challenge_task_bright_eyes_day7_details">目を時計回りと反時計回りに回し、その後1分間素早く瞬きをして血流を促進します。</string>
 
-    <!-- Auto-Generated Translations for Daily Check-In & Streaks Feature -->
+    <!-- Auto-Generated Translations for Daily Check-In &amp; Streaks Feature -->
     <string name="daily_check_in">毎日チェックイン</string>
     <string name="check_in_streak_format" formatted="false">%1$d 日間</string>
     <string name="check_in_subtitle">タップして毎日のチェックインを記録し、継続日数を増やしましょう！</string>
@@ -3560,7 +3560,7 @@
     <string name="wellness_score_detail_reads_advice" formatted="false">新しい自然療法を学ぶために、今日は少なくとも %1$d つのビューティーヒントを読みましょう。</string>
     <string name="close">閉じる</string>
 
-    <!-- Feature 3: Achievements & Badges -->
+    <!-- Feature 3: Achievements &amp; Badges -->
     <string name="settings_achievements">実績とバッジ</string>
     <string name="badge_locked">ロック中</string>
     <string name="badge_unlocked">アンロック！</string>
@@ -3648,7 +3648,7 @@
     <string name="custom_tip_category_eyes">目</string>
     <string name="custom_tip_category_handsfeet">手と足</string>
 
-    <!-- Feature 25: Seasonal & Weather-Based Beauty Advisor -->
+    <!-- Feature 25: Seasonal &amp; Weather-Based Beauty Advisor -->
     <string name="seasonal_advisor_title">季節のビューティーアドバイザー</string>
     <string name="seasonal_summer_title">サマーグロウ</string>
     <string name="seasonal_summer_desc">お肌をリフレッシュし、熱から守ります</string>
@@ -3662,7 +3662,7 @@
     <string name="seasonal_not_started">レシピを表示し、完了したらチェックを入れてください！</string>
     <string name="seasonal_settings_option">季節のビューティーアドバイザー</string>
 
-    <!-- Feature 16: Ingredient Directory & Glossary -->
+    <!-- Feature 16: Ingredient Directory &amp; Glossary -->
     <string name="ingredient_glossary_title">成分辞典</string>
     <string name="ingredient_search_hint">成分を検索...</string>
     <string name="ingredient_benefits_header">美容効果</string>
@@ -3755,7 +3755,7 @@
     <string name="skin_mood_glowing">ツヤ肌</string>
     <string name="skin_mood_glowing_keywords">ツヤ肌,ツヤ,ハリ,輝き,美肌,すこやか</string>
 
-    <!-- Feature 21: Body & Wellness -->
+    <!-- Feature 21: Body &amp; Wellness -->
     <string name="body_wellness">ボディケア</string>
     <string name="stretch_marks">妊娠線・肉割れ</string>
     <string name="dark_neck">首の黒ずみ</string>
@@ -3816,7 +3816,7 @@
     <string name="body_diet_omega_fats_title">ヘルシーなオメガ脂肪酸</string>
     <string name="body_diet_omega_fats_desc">クルミ、亜麻仁、アボカドなどを食べて、内側から肌の脂質バリアを育みます。</string>
 
-    <!-- Feature 23: Men's Grooming & Beard Care Guide -->
+    <!-- Feature 23: Men's Grooming &amp; Beard Care Guide -->
     <string name="men_grooming">メンズグルーミング</string>
     <string name="beard_growth">ヒゲの成長</string>
     <string name="mustache_care">口ヒゲのお手入れ</string>
@@ -3867,7 +3867,7 @@
     <string name="men_hair_diet_protein_title">卵＆魚のタンパク質</string>
     <string name="men_hair_diet_protein_desc">毎日のスタイリングで傷んだ髪を修復するために、アミノ酸を供給する良質なタンパク質を食事に取り入れましょう。</string>
 
-    <!-- Exercises for Body Wellness & Men's Grooming -->
+    <!-- Exercises for Body Wellness &amp; Men's Grooming -->
     <string name="body_stretch_ex_title">ヒップリフト＆ストレッチ</string>
     <string name="body_stretch_ex_desc">仰向けに寝て膝を曲げ、お尻を持ち上げます。太もも、お尻、お腹を引き締め、肉割れ・妊娠線を軽減します。</string>
     <string name="body_neck_ex_title">首の回転＆ストレッチ</string>
@@ -3938,7 +3938,7 @@
     <string name="step_timer_finished">タイマーが終了しました！</string>
     <string name="step_progress_format" formatted="false">ステップ %1$d / %2$d</string>
 
-    <!-- Feature 24: Razor Bumps & Shaving Care Companion -->
+    <!-- Feature 24: Razor Bumps &amp; Shaving Care Companion -->
     <string name="razor_bumps">カミソリ負け＆シェービングケア</string>
     <string name="razor_aloe_tea_tree_title">アロエ＆ティーツリージェル</string>
     <string name="razor_aloe_tea_tree_desc">生アロエベラジェル大さじ2にティーツリーオイル2滴を混ぜて塗布し、カミソリ負けを和らげます。</string>
@@ -3955,4 +3955,36 @@
 
     <string name="btn_previous">前へ</string>
     <string name="save">保存</string>
+
+    <string name="seasonal_beauty_advisor">季節のビューティーアドバイザー</string>
+    <string name="seasonal_advisor_subtitle">季節に応じたナチュラルスキンケアガイド</string>
+    <string name="season_summer">夏</string>
+    <string name="season_monsoon">梅雨・雨季</string>
+    <string name="season_autumn">秋</string>
+    <string name="season_winter">冬</string>
+    <string name="season_summer_title">☀️ 夏の紫外線＆汗対策</string>
+    <string name="season_summer_desc">紫外線や皮脂トラブルから肌を守ります。</string>
+    <string name="season_summer_tip1_title">きゅうりとアロエの冷却パック</string>
+    <string name="season_summer_tip1_desc">きゅうり果汁とアロエベラジェルを混ぜて15分パック。</string>
+    <string name="season_summer_tip2_title">ローズウォーターミスト</string>
+    <string name="season_summer_tip2_desc">冷やしたローズウォーターを1日2回スプレー。</string>
+    <string name="season_monsoon_title">🌧️ 湿度＆頭皮ケア</string>
+    <string name="season_monsoon_desc">湿気によるベタつきや頭皮のかゆみをケア。</string>
+    <string name="season_monsoon_tip1_title">ニーム＆ターメリック頭皮リンス</string>
+    <string name="season_monsoon_tip1_desc">ニームの葉を煮出し、ターメリックを加えて頭皮を洗います。</string>
+    <string name="season_monsoon_tip2_title">毛穴クレイパック</string>
+    <string name="season_monsoon_tip2_desc">クレイとローズウォーターで余分な皮脂を吸収。</string>
+    <string name="season_autumn_title">🍂 秋のバリア機能修復</string>
+    <string name="season_autumn_desc">夏のダメージを受けた肌にうるおいを補給。</string>
+    <string name="season_autumn_tip1_title">ハチミツ＆ミルク角質ケア</string>
+    <string name="season_autumn_tip1_desc">生ハチミツと牛乳で優しくマッサージ。</string>
+    <string name="season_autumn_tip2_title">アーモンドオイル夜用美容</string>
+    <string name="season_autumn_tip2_desc">就寝前にアーモンドオイルを3滴なじませます。</string>
+    <string name="season_winter_title">❄️ 冬の濃厚保湿＆リップケア</string>
+    <string name="season_winter_desc">乾燥肌や唇のカサつきを集中ケア。</string>
+    <string name="season_winter_tip1_title">ミルククリーム＆グリセリンパック</string>
+    <string name="season_winter_tip1_desc">生クリームとグリセリンを混ぜて20分保湿。</string>
+    <string name="season_winter_tip2_title">ココナッツオイルリップスクラブ</string>
+    <string name="season_winter_tip2_desc">温めたココナッツオイルと砂糖で唇をスクラブ。</string>
+    <string name="home_seasonal_banner_title">現在の季節のお手入れ</string>
 </resources>

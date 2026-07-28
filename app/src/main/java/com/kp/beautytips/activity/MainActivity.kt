@@ -10,6 +10,7 @@ import android.view.MenuItem
 import android.view.View
 import android.view.ViewGroup
 import android.widget.RelativeLayout
+import android.widget.TextView
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.widget.Toolbar
 import androidx.core.content.ContextCompat
@@ -250,6 +251,23 @@ class MainActivity : BaseActivity(), CategoryAdapter.OnItemClick {
         val cardWaterTrackerBanner = findViewById<View>(R.id.cardWaterTrackerBanner)
         cardWaterTrackerBanner.setOnClickListener {
             Intent(this, WaterTrackerActivity::class.java).also {
+                startActivity(it)
+                AppUtils.startFromRightToLeft(this)
+            }
+        }
+
+        val cardSeasonalAdvisor = findViewById<View>(R.id.cardSeasonalAdvisor)
+        val txtHomeSeasonEmoji = findViewById<TextView>(R.id.txtHomeSeasonEmoji)
+        val currentMonth = java.util.Calendar.getInstance().get(java.util.Calendar.MONTH)
+        val seasonEmoji = when (currentMonth) {
+            java.util.Calendar.MARCH, java.util.Calendar.APRIL, java.util.Calendar.MAY, java.util.Calendar.JUNE -> "☀️"
+            java.util.Calendar.JULY, java.util.Calendar.AUGUST, java.util.Calendar.SEPTEMBER -> "🌧️"
+            java.util.Calendar.OCTOBER, java.util.Calendar.NOVEMBER -> "🍂"
+            else -> "❄️"
+        }
+        txtHomeSeasonEmoji.text = seasonEmoji
+        cardSeasonalAdvisor.setOnClickListener {
+            Intent(this, SeasonalAdvisorActivity::class.java).also {
                 startActivity(it)
                 AppUtils.startFromRightToLeft(this)
             }

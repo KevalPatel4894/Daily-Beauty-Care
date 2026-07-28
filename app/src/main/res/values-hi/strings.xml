@@ -3314,7 +3314,7 @@
     <string name="app_share">यहां आपको अपने आप को ऊपर उठाने के लिए अपनी सर्वश्रेष्ठ इच्छा सौंदर्य देखभाल युक्तियाँ और फैशन शैली मिलेगी</string>
     <string name="read_now">अभी पढ़ो</string>
 
-    <!-- Auto-Generated Translations for Challenges, Share Card, Reminders, Search & Favorites Features -->
+    <!-- Auto-Generated Translations for Challenges, Share Card, Reminders, Search &amp; Favorites Features -->
     <string name="beauty_challenges">ब्यूटी चुनौतियाँ</string>
     <string name="challenge_details">चुनौती का विवरण</string>
     <string name="daily_tasks">दैनिक कार्य</string>
@@ -3420,7 +3420,7 @@
     <string name="challenge_task_bright_eyes_day7_title">आई रोल और फोकस एक्सरसाइज</string>
     <string name="challenge_task_bright_eyes_day7_details">अपनी आंखों को दक्षिणावर्त और वामावर्त दिशाओं में घुमाएं, फिर रक्त प्रवाह बढ़ाने के लिए 1 मिनट तक तेजी से पलकें झपकाएं।</string>
 
-    <!-- Auto-Generated Translations for Daily Check-In & Streaks Feature -->
+    <!-- Auto-Generated Translations for Daily Check-In &amp; Streaks Feature -->
     <string name="daily_check_in">दैनिक चेक-इन</string>
     <string name="check_in_streak_format" formatted="false">%1$d दिन</string>
     <string name="check_in_subtitle">अपने दैनिक चेक-इन को रिकॉर्ड करने के लिए टैप करें!</string>
@@ -3560,7 +3560,7 @@
     <string name="wellness_score_detail_reads_advice" formatted="false">प्राकृतिक उपचार सीखने के लिए आज कम से कम %1$d ब्यूटी टिप्स पढ़ें।</string>
     <string name="close">बंद करें</string>
 
-    <!-- Feature 3: Achievements & Badges -->
+    <!-- Feature 3: Achievements &amp; Badges -->
     <string name="settings_achievements">उपलब्धियां और बैज</string>
     <string name="badge_locked">लॉक्ड</string>
     <string name="badge_unlocked">अनलॉक!</string>
@@ -3648,7 +3648,7 @@
     <string name="custom_tip_category_eyes">आंखें</string>
     <string name="custom_tip_category_handsfeet">हाथ और पैर</string>
 
-    <!-- Feature 25: Seasonal & Weather-Based Beauty Advisor -->
+    <!-- Feature 25: Seasonal &amp; Weather-Based Beauty Advisor -->
     <string name="seasonal_advisor_title">मौसमी सलाहकार</string>
     <string name="seasonal_summer_title">समर ग्लो केयर</string>
     <string name="seasonal_summer_desc">अपनी त्वचा को तरोताजा रखें और गर्मी से बचाएं</string>
@@ -3662,7 +3662,7 @@
     <string name="seasonal_not_started">नुस्खे देखें और पूरा होने पर टिक करें!</string>
     <string name="seasonal_settings_option">मौसमी सौंदर्य सलाहकार</string>
 
-    <!-- Feature 16: Ingredient Directory & Glossary -->
+    <!-- Feature 16: Ingredient Directory &amp; Glossary -->
     <string name="ingredient_glossary_title">सामग्री शब्दकोश</string>
     <string name="ingredient_search_hint">सामग्री खोजें...</string>
     <string name="ingredient_benefits_header">सौंदर्य लाभ</string>
@@ -3755,7 +3755,7 @@
     <string name="skin_mood_glowing">चमकदार</string>
     <string name="skin_mood_glowing_keywords">चमकदार,चमक,ग्लोइंग,ग्लो,निखार</string>
 
-    <!-- Feature 23: Men's Grooming & Beard Care Guide -->
+    <!-- Feature 23: Men's Grooming &amp; Beard Care Guide -->
     <string name="men_grooming">पुरुषों की ग्रूमिंग</string>
     <string name="beard_growth">दाढ़ी का बढ़ना</string>
     <string name="mustache_care">मूंछों की देखभाल</string>
@@ -3806,7 +3806,7 @@
     <string name="men_hair_diet_protein_title">अंडा और मछली प्रोटीन</string>
     <string name="men_hair_diet_protein_desc">रोजाना स्टाइलिंग से खराब हुए बालों को फिर से ठीक करने के लिए अपने आहार में उच्च गुणवत्ता वाले प्रोटीन शामिल करें ताकि आवश्यक अमीनो एसिड मिल सके।</string>
 
-    <!-- Exercises for Body Wellness & Men's Grooming -->
+    <!-- Exercises for Body Wellness &amp; Men's Grooming -->
     <string name="body_stretch_ex_title">पेल्विक थ्रस्ट और स्ट्रेचिंग</string>
     <string name="body_stretch_ex_desc">पीठ के बल लेटें, घुटने मोड़ें और कूल्हों को ऊपर उठाएं। यह जांघों, नितंबों और पेट को टोन करता है जिससे स्ट्रेच मार्क्स कम होते हैं।</string>
     <string name="body_neck_ex_title">गर्दन घुमाना और स्ट्रेचिंग</string>
@@ -3918,7 +3918,7 @@
     <string name="step_timer_finished">स्टेप टाइमर समाप्त!</string>
     <string name="step_progress_format" formatted="false">स्टेप %1$d / %2$d</string>
 
-    <!-- Feature 24: Razor Bumps & Shaving Care Companion -->
+    <!-- Feature 24: Razor Bumps &amp; Shaving Care Companion -->
     <string name="razor_bumps">रेज़र बंप्स और शेविंग केयर</string>
     <string name="razor_aloe_tea_tree_title">एलोवेरा और टी ट्री जेल</string>
     <string name="razor_aloe_tea_tree_desc">2 चम्मच ताजा एलोवेरा जेल में 2 बूंद टी ट्री ऑयल मिलाएं। शेव की गई त्वचा पर लगाएं ताकि जलन और बंप्स से राहत मिले।</string>
@@ -3935,4 +3935,36 @@
 
     <string name="btn_previous">पिछला</string>
     <string name="save">सहेजें</string>
+
+    <string name="seasonal_beauty_advisor">मौसमी ब्यूटी एडवाइजर</string>
+    <string name="seasonal_advisor_subtitle">हर मौसम के लिए प्राकृतिक स्किनकेयर टिप्स</string>
+    <string name="season_summer">गर्मी</string>
+    <string name="season_monsoon">मानसून</string>
+    <string name="season_autumn">शरद</string>
+    <string name="season_winter">सर्दी</string>
+    <string name="season_summer_title">☀️ गर्मी से बचाव और धूप से सुरक्षा</string>
+    <string name="season_summer_desc">तेज धूप, अत्यधिक तेल और घमौरियों से त्वचा की रक्षा करें।</string>
+    <string name="season_summer_tip1_title">खीरा और एलोवेरा कूलिंग पैक</string>
+    <string name="season_summer_tip1_desc">ताजे खीरे के रस में एलोवेरा जेल मिलाकर 15 मिनट लगाएं।</string>
+    <string name="season_summer_tip2_title">गुलाब जल फेस मिस्ट</string>
+    <string name="season_summer_tip2_desc">दिन में दो बार ठंडा गुलाब जल चेहरे पर स्प्रे करें।</string>
+    <string name="season_monsoon_title">🌧️ मानसून नमी और फंगल केयर</string>
+    <string name="season_monsoon_desc">चिपचिपाहट, सिर की खुजली और बाल झड़ने से राहत पाएं।</string>
+    <string name="season_monsoon_tip1_title">नीम और हल्दी स्कैल्प वॉश</string>
+    <string name="season_monsoon_tip1_desc">नीम की पत्तियों को उबालकर हल्दी मिलाएं और सिर धोएं।</string>
+    <string name="season_monsoon_tip2_title">मुल्तानी मिट्टी डिटॉक्स पैक</string>
+    <string name="season_monsoon_tip2_desc">मुल्तानी मिट्टी और गुलाब जल मिलाकर अतिरिक्त तेल हटाएं।</string>
+    <string name="season_autumn_title">🍂 शरद ऋतु त्वचा की देखभाल</string>
+    <string name="season_autumn_desc">गर्मी के नुकसान के बाद त्वचा की नमी वापस लाएं।</string>
+    <string name="season_autumn_tip1_title">शहद और दूध एक्सफोलिएटर</string>
+    <string name="season_autumn_tip1_desc">कच्चा शहद और दूध चेहरे पर हल्के हाथों से मलें।</string>
+    <string name="season_autumn_tip2_title">बादाम तेल नाइट केयर</string>
+    <string name="season_autumn_tip2_desc">सोने से पहले बादाम तेल की 3 बूंदें मालिश करें।</string>
+    <string name="season_winter_title">❄️ सर्दी में गहरी नमी और होंठों की देखभाल</string>
+    <string name="season_winter_desc">रूखी त्वचा, फटी एड़ियों और फटे होंठों का समाधान।</string>
+    <string name="season_winter_tip1_title">मलाई और ग्लिसरीन मॉइस्चर मास्क</string>
+    <string name="season_winter_tip1_desc">1 चम्मच मलाई में 2 बूंद ग्लिसरीन मिलाकर 20 मिनट लगाएं।</string>
+    <string name="season_winter_tip2_title">नारियल तेल और चीनी स्क्रब</string>
+    <string name="season_winter_tip2_desc">फटे होंठों और एड़ियों पर नारियल तेल व चीनी से स्क्रब करें।</string>
+    <string name="home_seasonal_banner_title">वर्तमान मौसम की देखभाल</string>
 </resources>

@@ -3314,7 +3314,7 @@
     <string name="app_share">Aquí encontrará los mejores consejos de cuidado de belleza y estilo de moda para elevarse a sí mismo.</string>
     <string name="read_now">Lee ahora</string>
 
-    <!-- Auto-Generated Translations for Challenges, Share Card, Reminders, Search & Favorites Features -->
+    <!-- Auto-Generated Translations for Challenges, Share Card, Reminders, Search &amp; Favorites Features -->
     <string name="beauty_challenges">Desafíos de belleza</string>
     <string name="challenge_details">Detalles del desafío</string>
     <string name="daily_tasks">Tareas diarias</string>
@@ -3420,7 +3420,7 @@
     <string name="challenge_task_bright_eyes_day7_title">Ejercicios de enfoque y rotación ocular</string>
     <string name="challenge_task_bright_eyes_day7_details">Gira los ojos en sentido horario y antihorario, luego parpadea rápidamente durante 1 minuto para estimular el flujo sanguíneo.</string>
 
-    <!-- Auto-Generated Translations for Daily Check-In & Streaks Feature -->
+    <!-- Auto-Generated Translations for Daily Check-In &amp; Streaks Feature -->
     <string name="daily_check_in">Registro Diario</string>
     <string name="check_in_streak_format" formatted="false">%1$d Días</string>
     <string name="check_in_subtitle">¡Toca para registrar tu check-in diario y acumular días!</string>
@@ -3560,7 +3560,7 @@
     <string name="wellness_score_detail_reads_advice" formatted="false">Lee al menos %1$d consejos de belleza hoy para aprender nuevos remedios naturales.</string>
     <string name="close">Cerrar</string>
 
-    <!-- Feature 3: Achievements & Badges -->
+    <!-- Feature 3: Achievements &amp; Badges -->
     <string name="settings_achievements">Logros e Insignias</string>
     <string name="badge_locked">Bloqueado</string>
     <string name="badge_unlocked">¡Desbloqueado!</string>
@@ -3648,7 +3648,7 @@
     <string name="custom_tip_category_eyes">Ojos</string>
     <string name="custom_tip_category_handsfeet">Manos y pies</string>
 
-    <!-- Feature 25: Seasonal & Weather-Based Beauty Advisor -->
+    <!-- Feature 25: Seasonal &amp; Weather-Based Beauty Advisor -->
     <string name="seasonal_advisor_title">Asesor Estacional</string>
     <string name="seasonal_summer_title">Cuidado de Brillo de Verano</string>
     <string name="seasonal_summer_desc">Mantén tu piel fresca y protegida del calor</string>
@@ -3662,7 +3662,7 @@
     <string name="seasonal_not_started">¡Mira las recetas y márcalas cuando termines!</string>
     <string name="seasonal_settings_option">Asesor de Belleza Estacional</string>
 
-    <!-- Feature 16: Ingredient Directory & Glossary -->
+    <!-- Feature 16: Ingredient Directory &amp; Glossary -->
     <string name="ingredient_glossary_title">Glosario de Ingredientes</string>
     <string name="ingredient_search_hint">Buscar ingredientes...</string>
     <string name="ingredient_benefits_header">Beneficios de Belleza</string>
@@ -3755,7 +3755,7 @@
     <string name="skin_mood_glowing">Radiante</string>
     <string name="skin_mood_glowing_keywords">brillante,radiante,brillo,piel de cristal,saludable,glow</string>
 
-    <!-- Feature 17: F.A.Q. & Myth Busters -->
+    <!-- Feature 17: F.A.Q. &amp; Myth Busters -->
     <string name="settings_faq_myths">Preguntas frecuentes y mitos</string>
     <string name="faq_title">Preguntas frecuentes y mitos</string>
     <string name="faq_subtitle">Descubre la verdad sobre los mitos de belleza más populares</string>
@@ -3786,7 +3786,7 @@
     <string name="faq_myth_6_desc">El vapor o el agua caliente abren los poros para una limpieza profunda, mientras que el agua fría los cierra o los reduce.</string>
     <string name="faq_myth_6_fact">Los poros no tienen músculos, por lo que no pueden abrirse ni cerrarse. El agua caliente puede dilatar los vasos sanguíneos y eliminar aceites esenciales, causando sequedad e irritación. El agua fría no cierra los poros pero calma la inflamación. El agua tibia es la ideal.</string>
 
-    <!-- Feature 21: Body & Wellness -->
+    <!-- Feature 21: Body &amp; Wellness -->
     <string name="body_wellness">Cuidado Corporal</string>
     <string name="stretch_marks">Estrías</string>
     <string name="dark_neck">Cuello Oscuro</string>
@@ -3847,7 +3847,7 @@
     <string name="body_diet_omega_fats_title">Grasas Omega Saludables</string>
     <string name="body_diet_omega_fats_desc">Coma nueces, semillas de lino y aguacates para nutrir la barrera lipídica de la piel desde el interior.</string>
 
-    <!-- Feature 23: Men's Grooming & Beard Care Guide -->
+    <!-- Feature 23: Men's Grooming &amp; Beard Care Guide -->
     <string name="men_grooming">Cuidado Masculino</string>
     <string name="beard_growth">Crecimiento de Barba</string>
     <string name="mustache_care">Cuidado del Bigote</string>
@@ -3898,7 +3898,7 @@
     <string name="men_hair_diet_protein_title">Proteína de Huevo y Pescado</string>
     <string name="men_hair_diet_protein_desc">Incluya proteínas de alta calidad en su dieta para proporcionar aminoácidos esenciales para reconstruir las hebras de cabello dañadas por el peinado diario.</string>
 
-    <!-- Exercises for Body Wellness & Men's Grooming -->
+    <!-- Exercises for Body Wellness &amp; Men's Grooming -->
     <string name="body_stretch_ex_title">Elevación de Pelvis y Estiramiento</string>
     <string name="body_stretch_ex_desc">Acuéstese boca arriba, doble las rodillas y levante las caderas. Esto tonifica los muslos, glúteos y abdomen para ayudar a reducir las estrías.</string>
     <string name="body_neck_ex_title">Rotación y Estiramiento de Cuello</string>
@@ -3943,7 +3943,7 @@
     <string name="step_timer_finished">¡Temporizador de paso finalizado!</string>
     <string name="step_progress_format" formatted="false">Paso %1$d de %2$d</string>
 
-    <!-- Feature 24: Razor Bumps & Shaving Care Companion -->
+    <!-- Feature 24: Razor Bumps &amp; Shaving Care Companion -->
     <string name="razor_bumps">Irritación por afeitado y cuidado</string>
     <string name="razor_aloe_tea_tree_title">Gel de Aloe y Árbol de Té</string>
     <string name="razor_aloe_tea_tree_desc">Mezcla 2 cucharadas de gel de aloe vera fresco con 2 gotas de aceite de árbol de té. Aplica para aliviar la quemadura del afeitado.</string>
@@ -3960,4 +3960,36 @@
 
     <string name="btn_previous">Anterior</string>
     <string name="save">Guardar</string>
+
+    <string name="seasonal_beauty_advisor">Asesor de Belleza Estacional</string>
+    <string name="seasonal_advisor_subtitle">Cuidado natural de la piel adaptado a cada época del año</string>
+    <string name="season_summer">Verano</string>
+    <string name="season_monsoon">Monzón</string>
+    <string name="season_autumn">Otoño</string>
+    <string name="season_winter">Invierno</string>
+    <string name="season_summer_title">☀️ Calor de Verano y Protección Solar</string>
+    <string name="season_summer_desc">Protege tu piel de los rayos UV, el exceso de grasa y las erupciones.</string>
+    <string name="season_summer_tip1_title">Mascara Refrescante de Pepino y Aloe</string>
+    <string name="season_summer_tip1_desc">Mezcla jugo de pepino fresco con gel de aloe vera. Aplica 15 min.</string>
+    <string name="season_summer_tip2_title">Bruma Facial Hidratante de Agua de Rosas</string>
+    <string name="season_summer_tip2_desc">Rocía agua de rosas fría dos veces al día para refrescar la piel.</string>
+    <string name="season_monsoon_title">🌧️ Cuidado Anti-Humedad y Antifúngico</string>
+    <string name="season_monsoon_desc">Combate la humedad, infecciones del cuero cabelludo y caída del cabello.</string>
+    <string name="season_monsoon_tip1_title">Limpiador de Neem y Cúrcuma</string>
+    <string name="season_monsoon_tip1_desc">Hieve hojas de neem con cúrcuma y úsalo como enjuague final.</string>
+    <string name="season_monsoon_tip2_title">Mascarilla Detox de Poro Multani Mitti</string>
+    <string name="season_monsoon_tip2_desc">Mezcla arcilla con agua de rosas para absorber la grasa.</string>
+    <string name="season_autumn_title">🍂 Reparación de la Barrera de Otoño</string>
+    <string name="season_autumn_desc">Restaura la hidratación cutánea tras los daños del verano.</string>
+    <string name="season_autumn_tip1_title">Lavado Exfoliante de Miel y Leche</string>
+    <string name="season_autumn_tip1_desc">Masajea miel pura y leche sobre la piel para retirar células muertas.</string>
+    <string name="season_autumn_tip2_title">Renovación Nocturna con Aceite de Almendras</string>
+    <string name="season_autumn_tip2_desc">Masajea 3 gotas de aceite de almendras antes de dormir.</string>
+    <string name="season_winter_title">❄️ Hidratación Profunda e Invierno</string>
+    <string name="season_winter_desc">Remedios intensivos para piel seca, talones agrietados y labios.</string>
+    <string name="season_winter_tip1_title">Mascarilla de Crema de Leche y Glicerina</string>
+    <string name="season_winter_tip1_desc">Mezcla crema de leche con glicerina y aplica 20 minutos.</string>
+    <string name="season_winter_tip2_title">Exfoliante de Labios de Coco y Azúcar</string>
+    <string name="season_winter_tip2_desc">Exfolia los labios secos con aceite de coco tibio y azúcar.</string>
+    <string name="home_seasonal_banner_title">Cuidado de la Estación Actual</string>
 </resources>

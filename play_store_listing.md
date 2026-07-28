@@ -34,6 +34,7 @@ All tips in this application utilize natural, easily available ingredients such 
 💅 **Hands & Feet:** Waxing at Home, Dry and rough hands, Nail growth, Pinky shiny nails, Dark underarms, Cracked heels
 
 📱 **Interactive Smart Features:**
+• **Seasonal Beauty Advisor:** Customized natural care checklists for Summer, Monsoon, Autumn & Winter
 • **Daily Water Intake Tracker:** Track daily water glasses for glowing skin retention
 • **Personalized Beauty Profile:** Custom recommendations tailored to your skin type & concerns
 • **Custom Routine Builder:** Morning & Evening self-care countdown timers with alarms
@@ -44,7 +45,8 @@ All tips in this application utilize natural, easily available ingredients such 
 
 ### What's New / Release Notes (Play Console Upload):
 ```
-🎉 NEW UPDATE & MEN'S GROOMING EXPANSION!
+🎉 NEW UPDATE & SEASONAL BEAUTY ADVISOR!
+🍂 Added Seasonal Beauty Advisor (Summer, Monsoon, Autumn & Winter natural care checklists)
 🧔 Added Men's Grooming & Beard Care Category (Beard growth, mustache styling, men's hair fall remedies)
 🪒 Added Razor Bumps & Shaving Companion (Pre-shave protection, post-shave cooling masks & ingrown hair fixes)
 ✨ Reordered Home Screen for Instant Category Access

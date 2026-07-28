@@ -3314,7 +3314,7 @@
     <string name="app_share">Aqui você encontrará suas melhores dicas de cuidados de beleza e estilo de moda para se elevar</string>
     <string name="read_now">Leia agora</string>
 
-    <!-- Auto-Generated Translations for Challenges, Share Card, Reminders, Search & Favorites Features -->
+    <!-- Auto-Generated Translations for Challenges, Share Card, Reminders, Search &amp; Favorites Features -->
     <string name="beauty_challenges">Desafios de beleza</string>
     <string name="challenge_details">Detalhes do desafio</string>
     <string name="daily_tasks">Tarefas diárias</string>
@@ -3420,7 +3420,7 @@
     <string name="challenge_task_bright_eyes_day7_title">Exercícios de foco e rotação ocular</string>
     <string name="challenge_task_bright_eyes_day7_details">Gira os olhos no sentido horário e anti-horário, depois pisque rapidamente por 1 minuto para estimular o fluxo sanguíneo.</string>
 
-    <!-- Auto-Generated Translations for Daily Check-In & Streaks Feature -->
+    <!-- Auto-Generated Translations for Daily Check-In &amp; Streaks Feature -->
     <string name="daily_check_in">Check-in Diário</string>
     <string name="check_in_streak_format" formatted="false">%1$d Dias</string>
     <string name="check_in_subtitle">Toque para registrar seu check-in diário e aumentar seus dias!</string>
@@ -3560,7 +3560,7 @@
     <string name="wellness_score_detail_reads_advice" formatted="false">Leia pelo menos %1$d dicas de beleza hoje para aprender novos remédios naturais.</string>
     <string name="close">Fechar</string>
 
-    <!-- Feature 3: Achievements & Badges -->
+    <!-- Feature 3: Achievements &amp; Badges -->
     <string name="settings_achievements">Conquistas e Insígnias</string>
     <string name="badge_locked">Bloqueado</string>
     <string name="badge_unlocked">Desbloqueado!</string>
@@ -3648,7 +3648,7 @@
     <string name="custom_tip_category_eyes">Olhos</string>
     <string name="custom_tip_category_handsfeet">Mãos &amp; Pés</string>
 
-    <!-- Feature 25: Seasonal & Weather-Based Beauty Advisor -->
+    <!-- Feature 25: Seasonal &amp; Weather-Based Beauty Advisor -->
     <string name="seasonal_advisor_title">Conselheiro Sazonal</string>
     <string name="seasonal_summer_title">Brilho de Verão</string>
     <string name="seasonal_summer_desc">Mantenha a sua pele fresca e protegida do calor</string>
@@ -3686,7 +3686,7 @@
     <string name="skin_mood_glowing">Radiante</string>
     <string name="skin_mood_glowing_keywords">brilhante,radiante,brilho,pele de vidro,saudável,glow</string>
 
-    <!-- Feature 17: F.A.Q. & Myth Busters -->
+    <!-- Feature 17: F.A.Q. &amp; Myth Busters -->
     <string name="settings_faq_myths">FAQ e Mitos de Beleza</string>
     <string name="faq_title">FAQ e Mitos de Beleza</string>
     <string name="faq_subtitle">Descubra a verdade sobre os mitos de beleza mais populares</string>
@@ -3717,7 +3717,7 @@
     <string name="faq_myth_6_desc">O vapor ou a água quente abrem os poros para uma limpeza profunda, enquanto a água fria os fecha ou reduz.</string>
     <string name="faq_myth_6_fact">Os poros não têm músculos, por isso não podem abrir ou fechar. A água quente pode dilatar os vasos sanguíneos e remover óleos essenciais, causando ressecamento e irritação. A água fria não fecha os poros, mas acalma a inflamação. A água morna é a ideal.</string>
 
-    <!-- Feature 21: Body & Wellness -->
+    <!-- Feature 21: Body &amp; Wellness -->
     <string name="body_wellness">Cuidados Corporais</string>
     <string name="stretch_marks">Estrias</string>
     <string name="dark_neck">Pescoço Escuro</string>
@@ -3778,7 +3778,7 @@
     <string name="body_diet_omega_fats_title">Gorduras Saudáveis Ômega</string>
     <string name="body_diet_omega_fats_desc">Coma nozes, sementes de linhaça e abacate para nutrir a barreira lipídica da pele por dentro.</string>
 
-    <!-- Feature 23: Men's Grooming & Beard Care Guide -->
+    <!-- Feature 23: Men's Grooming &amp; Beard Care Guide -->
     <string name="men_grooming">Cuidados Masculinos</string>
     <string name="beard_growth">Crescimento da Barba</string>
     <string name="mustache_care">Cuidados com o Bigode</string>
@@ -3829,7 +3829,7 @@
     <string name="men_hair_diet_protein_title">Proteína de Ovo e Peixe</string>
     <string name="men_hair_diet_protein_desc">Inclua proteínas de alta qualidade em sua dieta para fornecer aminoácidos essenciais para reconstruir os fios de cabelo danificados pela modelagem diária.</string>
 
-    <!-- Exercises for Body Wellness & Men's Grooming -->
+    <!-- Exercises for Body Wellness &amp; Men's Grooming -->
     <string name="body_stretch_ex_title">Elevação Pélvica e Alongamento</string>
     <string name="body_stretch_ex_desc">Deite-se de costas, dobre os joelhos e levante os quadris. Isso tonifica as coxas, glúteos e abdômen para ajudar a reduzir as estrias.</string>
     <string name="body_neck_ex_title">Rotação e Alongamento do Pescoço</string>
@@ -3920,7 +3920,7 @@
     <string name="step_timer_finished">Temporizador do passo concluído!</string>
     <string name="step_progress_format" formatted="false">Passo %1$d de %2$d</string>
 
-    <!-- Feature 24: Razor Bumps & Shaving Care Companion -->
+    <!-- Feature 24: Razor Bumps &amp; Shaving Care Companion -->
     <string name="razor_bumps">Cuidados com Foliculite e Barba</string>
     <string name="razor_aloe_tea_tree_title">Gel de Aloe Vera e Melaleuca</string>
     <string name="razor_aloe_tea_tree_desc">Misture 2 colheres de gel de aloe vera com 2 gotas de óleo de melaleuca. Aplique na área barbeada.</string>
@@ -3937,4 +3937,36 @@
 
     <string name="btn_previous">Anterior</string>
     <string name="save">Salvar</string>
+
+    <string name="seasonal_beauty_advisor">Consultor de Beleza Sazonal</string>
+    <string name="seasonal_advisor_subtitle">Cuidados naturais com a pele para cada época do ano</string>
+    <string name="season_summer">Verão</string>
+    <string name="season_monsoon">Monção</string>
+    <string name="season_autumn">Outono</string>
+    <string name="season_winter">Inverno</string>
+    <string name="season_summer_title">☀️ Calor de Verão e Proteção Solar</string>
+    <string name="season_summer_desc">Proteja sua pele dos raios UV e do excesso de oleosidade.</string>
+    <string name="season_summer_tip1_title">MÁSCARA REFRESCANTE DE PEPINO E ALOE</string>
+    <string name="season_summer_tip1_desc">Misture suco de pepino com gel de aloe vera. Aplique por 15 min.</string>
+    <string name="season_summer_tip2_title">NÉVOA FACIAL DE ÁGUA DE ROSAS</string>
+    <string name="season_summer_tip2_desc">Borrife água de rosas gelada duas vezes ao dia.</string>
+    <string name="season_monsoon_title">🌧️ CUIDADOS ANTI-UMIDADE E FÚNGICOS</string>
+    <string name="season_monsoon_desc">Combata a umidade e queda de cabelo durante as chuvas.</string>
+    <string name="season_monsoon_tip1_title">ENXÁGUE DE NEEM E CÚRCUMA</string>
+    <string name="season_monsoon_tip1_desc">Ferva folhas de neem com cúrcuma para enxaguar o couro cabeludo.</string>
+    <string name="season_monsoon_tip2_title">MÁSCARA DETOX DE POROS</string>
+    <string name="season_monsoon_tip2_desc">Misture argila com água de rosas para absorver a oleosidade.</string>
+    <string name="season_autumn_title">🍂 REPARAÇÃO DA BARREIRA DE OUTONO</string>
+    <string name="season_autumn_desc">Restaure a umidade da pele após os danos do verão.</string>
+    <string name="season_autumn_tip1_title">ESFOLIAÇÃO DE MEL E LEITE</string>
+    <string name="season_autumn_tip1_desc">Massageie mel puro e leite na pele para suavizar.</string>
+    <string name="season_autumn_tip2_title">NUTRICAO NOTURNA COM ÓLEO DE AMÊNDOAS</string>
+    <string name="season_autumn_tip2_desc">Massageie 3 gotas de óleo de amêndoas antes de dormir.</string>
+    <string name="season_winter_title">❄️ HIDRATAÇÃO PROFUNDA DE INVERNO</string>
+    <string name="season_winter_desc">Soluções intensivas para pele seca e lábios rachados.</string>
+    <string name="season_winter_tip1_title">MÁSCARA DE NATA E GLICERINA</string>
+    <string name="season_winter_tip1_desc">Misture creme de leite com glicerina e aplique por 20 min.</string>
+    <string name="season_winter_tip2_title">ESFOLIANTE LÁBIAL DE COCO E AÇÚCAR</string>
+    <string name="season_winter_tip2_desc">Esfolie lábios ressecados com óleo de coco morno e açúcar.</string>
+    <string name="home_seasonal_banner_title">Cuidados da Estação Atual</string>
 </resources>

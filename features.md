@@ -159,7 +159,7 @@ This document tracks all zero-budget features designed to maximize user retentio
 
 ## 👩 Category 8: Advanced Skincare & Wellness Utilities
 
-### [ ] Feature 25: Seasonal & Weather-Based Beauty Advisor
+### [x] Feature 25: Seasonal & Weather-Based Beauty Advisor
 * **Goal:** Increase user engagement by suggesting relevant seasonal care lists.
 * **Details:** Dynamic advice depending on current calendar month (e.g. *Summer Glow checklist* with hydration remedies, *Winter Care checklist* with dry skin/chapped lips remedies, *Monsoon Hair Fall control*).
 * **Tech:** Standard local system Calendar class checking local date.

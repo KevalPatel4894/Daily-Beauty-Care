@@ -3314,7 +3314,7 @@
     <string name="app_share">Здесь вы найдете лучшие советы по уходу за красотой и модный стиль, чтобы поднять себя.</string>
     <string name="read_now">Прочитай сейчас</string>
 
-    <!-- Auto-Generated Translations for Challenges, Share Card, Reminders, Search & Favorites Features -->
+    <!-- Auto-Generated Translations for Challenges, Share Card, Reminders, Search &amp; Favorites Features -->
     <string name="beauty_challenges">Бьюти-челленджи</string>
     <string name="challenge_details">Детали челленджа</string>
     <string name="daily_tasks">Ежедневные задачи</string>
@@ -3420,7 +3420,7 @@
     <string name="challenge_task_bright_eyes_day7_title">Гимнастика для глаз</string>
     <string name="challenge_task_bright_eyes_day7_details">Вращайте глазами по часовой стрелке и против нее, затем быстро моргайте в течение 1 минуты для стимуляции кровообращения.</string>
 
-    <!-- Auto-Generated Translations for Daily Check-In & Streaks Feature -->
+    <!-- Auto-Generated Translations for Daily Check-In &amp; Streaks Feature -->
     <string name="daily_check_in">Ежедневная отметка</string>
     <string name="check_in_streak_format" formatted="false">%1$d дн.</string>
     <string name="check_in_subtitle">Нажмите, чтобы отметиться сегодня и продлить серию!</string>
@@ -3560,7 +3560,7 @@
     <string name="wellness_score_detail_reads_advice" formatted="false">Прочитайте сегодня как минимум %1$d советов, чтобы узнать о новых рецептах.</string>
     <string name="close">Закрыть</string>
 
-    <!-- Feature 3: Achievements & Badges -->
+    <!-- Feature 3: Achievements &amp; Badges -->
     <string name="settings_achievements">Достижения и значки</string>
     <string name="badge_locked">Закрыто</string>
     <string name="badge_unlocked">Открыто!</string>
@@ -3648,7 +3648,7 @@
     <string name="custom_tip_category_eyes">Глаза</string>
     <string name="custom_tip_category_handsfeet">Руки и ноги</string>
 
-    <!-- Feature 25: Seasonal & Weather-Based Beauty Advisor -->
+    <!-- Feature 25: Seasonal &amp; Weather-Based Beauty Advisor -->
     <string name="seasonal_advisor_title">Сезонный советник</string>
     <string name="seasonal_summer_title">Летнее сияние</string>
     <string name="seasonal_summer_desc">Освежайте кожу и защищайте её от жары</string>
@@ -3662,7 +3662,7 @@
     <string name="seasonal_not_started">Посмотрите рецепты и отметьте их после выполнения!</string>
     <string name="seasonal_settings_option">Сезонный советник по красоте</string>
 
-    <!-- Feature 16: Ingredient Directory & Glossary -->
+    <!-- Feature 16: Ingredient Directory &amp; Glossary -->
     <string name="ingredient_glossary_title">Глоссарий ингредиентов</string>
     <string name="ingredient_search_hint">Поиск ингредиентов...</string>
     <string name="ingredient_benefits_header">Полезные свойства</string>
@@ -3755,7 +3755,7 @@
     <string name="skin_mood_glowing">Сияющая</string>
     <string name="skin_mood_glowing_keywords">сияющая,блестящая,здоровая,glow,сияние</string>
 
-    <!-- Feature 21: Body & Wellness -->
+    <!-- Feature 21: Body &amp; Wellness -->
     <string name="body_wellness">Уход за Телом</string>
     <string name="stretch_marks">Растяжки</string>
     <string name="dark_neck">Темная Шея</string>
@@ -3816,7 +3816,7 @@
     <string name="body_diet_omega_fats_title">Полезные Омега-жиры</string>
     <string name="body_diet_omega_fats_desc">Ешьте грецкие орехи, семена льна и авокадо для питания липидного барьера кожи изнутри.</string>
 
-    <!-- Feature 23: Men's Grooming & Beard Care Guide -->
+    <!-- Feature 23: Men's Grooming &amp; Beard Care Guide -->
     <string name="men_grooming">Мужской Уход</string>
     <string name="beard_growth">Рост Бороды</string>
     <string name="mustache_care">Уход за Усами</string>
@@ -3867,7 +3867,7 @@
     <string name="men_hair_diet_protein_title">Белок яиц и рыбы</string>
     <string name="men_hair_diet_protein_desc">Включите в рацион качественный белок, обеспечивающий аминокислоты для восстановления структуры волос после ежедневной укладки.</string>
 
-    <!-- Exercises for Body Wellness & Men's Grooming -->
+    <!-- Exercises for Body Wellness &amp; Men's Grooming -->
     <string name="body_stretch_ex_title">Подъем таза и растяжка</string>
     <string name="body_stretch_ex_desc">Лягте на спину, согните ноги в коленях и поднимите бедра. Это тонизирует ягодицы и живот, помогая уменьшить растяжки.</string>
     <string name="body_neck_ex_title">Вращение и растяжка шеи</string>
@@ -3938,7 +3938,7 @@
     <string name="step_timer_finished">Таймер шага завершен!</string>
     <string name="step_progress_format" formatted="false">Шаг %1$d из %2$d</string>
 
-    <!-- Feature 24: Razor Bumps & Shaving Care Companion -->
+    <!-- Feature 24: Razor Bumps &amp; Shaving Care Companion -->
     <string name="razor_bumps">Уход от раздражения после бритья</string>
     <string name="razor_aloe_tea_tree_title">Гель с Алоэ и Чайным Деревом</string>
     <string name="razor_aloe_tea_tree_desc">Смешайте 2 ст. л. геля алоэ вера с 2 каплями масла чайного дерева. Нанесите на выбритые участки.</string>
@@ -3955,4 +3955,36 @@
 
     <string name="btn_previous">Назад</string>
     <string name="save">Сохранить</string>
+
+    <string name="seasonal_beauty_advisor">Сезонный советник по красоте</string>
+    <string name="seasonal_advisor_subtitle">Персональный уход за кожей для каждого времени года</string>
+    <string name="season_summer">Лето</string>
+    <string name="season_monsoon">Муссон</string>
+    <string name="season_autumn">Осень</string>
+    <string name="season_winter">Зима</string>
+    <string name="season_summer_title">☀️ Летняя жара и защита от солнца</string>
+    <string name="season_summer_desc">Защитите кожу от УФ-лучей и жирного блеска.</string>
+    <string name="season_summer_tip1_title">Огуречно-алое охлаждающая маска</string>
+    <string name="season_summer_tip1_desc">Смешайте сок огурца с гелем алоэ вера. Нанесите на 15 минут.</string>
+    <string name="season_summer_tip2_title">Увлажняющий спрей с розовой водой</string>
+    <string name="season_summer_tip2_desc">Распыляйте охлажденную розовую воду дважды в день.</string>
+    <string name="season_monsoon_title">🌧️ Защита от влажности и грибка</string>
+    <string name="season_monsoon_desc">Борьба с зудом кожи головы и выпадением волос во время дождей.</string>
+    <string name="season_monsoon_tip1_title">Ополаскиватель с нимом и куркумой</string>
+    <string name="season_monsoon_tip1_desc">Заварите листья нима с куркумой и ополосните кожу головы.</string>
+    <string name="season_monsoon_tip2_title">Очищающая маска для пор</string>
+    <string name="season_monsoon_tip2_desc">Смешайте глину с розовой водой для впитывания жира.</string>
+    <string name="season_autumn_title">🍂 Осеннее восстановление барьера кожи</string>
+    <string name="season_autumn_desc">Восстановите баланс влаги после летнего солнца.</string>
+    <string name="season_autumn_tip1_title">Медово-молочный отшелушивающий уход</string>
+    <string name="season_autumn_tip1_desc">Нанесите натуральный мед с молоком мягкими движениями.</string>
+    <string name="season_autumn_tip2_title">Миндальное масло перед сном</string>
+    <string name="season_autumn_tip2_desc">Вмассируйте 3 капли миндального масла перед сном.</string>
+    <string name="season_winter_title">❄️ Зимнее глубокое увлажнение и уход за губами</string>
+    <string name="season_winter_desc">Интенсивные средства против сухой кожи и обветренных губ.</string>
+    <string name="season_winter_tip1_title">Маска со сливками и глицерином</string>
+    <string name="season_winter_tip1_desc">Смешайте сливки с глицерином и нанесите на 20 минут.</string>
+    <string name="season_winter_tip2_title">Скраб для губ с кокосовым маслом и сахаром</string>
+    <string name="season_winter_tip2_desc">Скрабируйте сухость губ теплыми сахаром и кокосовым маслом.</string>
+    <string name="home_seasonal_banner_title">Уход текущего сезона</string>
 </resources>

@@ -3314,7 +3314,7 @@
     <string name="app_share">Hier finden Sie Ihre schönsten Schönheitspflegetipps und Modestile, um sich selbst zu verbessern</string>
     <string name="read_now">Lies jetzt</string>
 
-    <!-- Auto-Generated Translations for Challenges, Share Card, Reminders, Search & Favorites Features -->
+    <!-- Auto-Generated Translations for Challenges, Share Card, Reminders, Search &amp; Favorites Features -->
     <string name="beauty_challenges">Schönheits-Herausforderungen</string>
     <string name="challenge_details">Herausforderungsdetails</string>
     <string name="daily_tasks">Tägliche Aufgaben</string>
@@ -3420,7 +3420,7 @@
     <string name="challenge_task_bright_eyes_day7_title">Augenrollen &amp; Fokusübungen</string>
     <string name="challenge_task_bright_eyes_day7_details">Rollen Sie Ihre Augen im Uhrzeigersinn und gegen den Uhrzeigersinn, blinzeln Sie dann 1 minute lang schnell, um die Durchblutung zu fördern.</string>
 
-    <!-- Auto-Generated Translations for Daily Check-In & Streaks Feature -->
+    <!-- Auto-Generated Translations for Daily Check-In &amp; Streaks Feature -->
     <string name="daily_check_in">Täglicher Check-in</string>
     <string name="check_in_streak_format" formatted="false">%1$d Tage</string>
     <string name="check_in_subtitle">Tippen Sie hier, um Ihren täglichen Check-in zu registrieren!</string>
@@ -3560,7 +3560,7 @@
     <string name="wellness_score_detail_reads_advice" formatted="false">Lies heute mindestens %1$d Schönheitstipps, um neue Naturheilmittel kennenzulernen.</string>
     <string name="close">Schließen</string>
 
-    <!-- Feature 3: Achievements & Badges -->
+    <!-- Feature 3: Achievements &amp; Badges -->
     <string name="settings_achievements">Erfolge &amp; Abzeichen</string>
     <string name="badge_locked">Gesperrt</string>
     <string name="badge_unlocked">Freigeschaltet!</string>
@@ -3648,7 +3648,7 @@
     <string name="custom_tip_category_eyes">Augen</string>
     <string name="custom_tip_category_handsfeet">Hände &amp; Füße</string>
 
-    <!-- Feature 25: Seasonal & Weather-Based Beauty Advisor -->
+    <!-- Feature 25: Seasonal &amp; Weather-Based Beauty Advisor -->
     <string name="seasonal_advisor_title">Saisonaler Berater</string>
     <string name="seasonal_summer_title">Sommer-Glow-Pflege</string>
     <string name="seasonal_summer_desc">Halten Sie Ihre Haut erfrischt und geschützt vor Hitze</string>
@@ -3662,7 +3662,7 @@
     <string name="seasonal_not_started">Rezepte ansehen und nach der Fertigstellung abhaken!</string>
     <string name="seasonal_settings_option">Saisonaler Schönheitsberater</string>
 
-    <!-- Feature 16: Ingredient Directory & Glossary -->
+    <!-- Feature 16: Ingredient Directory &amp; Glossary -->
     <string name="ingredient_glossary_title">Zutaten-Glossar</string>
     <string name="ingredient_search_hint">Zutaten suchen...</string>
     <string name="ingredient_benefits_header">Schönheitsvorteile</string>
@@ -3755,7 +3755,7 @@
     <string name="skin_mood_glowing">Strahlend</string>
     <string name="skin_mood_glowing_keywords">strahlend,glanz,gesund,glow</string>
 
-    <!-- Feature 17: F.A.Q. & Myth Busters -->
+    <!-- Feature 17: F.A.Q. &amp; Myth Busters -->
     <string name="settings_faq_myths">Häufige Fragen &amp; Mythen</string>
     <string name="faq_title">Häufige Fragen &amp; Mythen</string>
     <string name="faq_subtitle">Erfahren Sie die Wahrheit über bekannte Schönheitsmythen</string>
@@ -3786,7 +3786,7 @@
     <string name="faq_myth_6_desc">Dampf oder heißes Wasser öffnet die Poren für eine Tiefenreinigung, während kaltes Wasser sie schließt oder verkleinert.</string>
     <string name="faq_myth_6_fact">Poren haben keine Muskeln, sie können sich also weder öffnen noch schließen. Heißes Wasser kann Blutgefäße erweitern, schützende Öle entziehen und Reizungen verursachen. Kaltes Wasser schließt Poren nicht, kann aber Entzündungen beruhigen. Lauwarmes Wasser ist ideal zum Waschen.</string>
 
-    <!-- Feature 21: Body & Wellness -->
+    <!-- Feature 21: Body &amp; Wellness -->
     <string name="body_wellness">Körperpflege</string>
     <string name="stretch_marks">Dehnungsstreifen</string>
     <string name="dark_neck">Dunkler Hals</string>
@@ -3847,7 +3847,7 @@
     <string name="body_diet_omega_fats_title">Gesunde Omega-Fette</string>
     <string name="body_diet_omega_fats_desc">Walnüsse, Leinsamen und Avocados essen, um die Lipidbarriere der Haut von innen heraus zu nähren.</string>
 
-    <!-- Feature 23: Men's Grooming & Beard Care Guide -->
+    <!-- Feature 23: Men's Grooming &amp; Beard Care Guide -->
     <string name="men_grooming">Herrenpflege</string>
     <string name="beard_growth">Bartwuchs</string>
     <string name="mustache_care">Schnurrbartpflege</string>
@@ -3898,7 +3898,7 @@
     <string name="men_hair_diet_protein_title">Ei- und Fischprotein</string>
     <string name="men_hair_diet_protein_desc">Nimm hochwertige Proteine in deine Ernährung auf, um essentielle Aminosäuren für den Wiederaufbau von Haarschäften bereitzustellen, die durch das täliche Styling beschädigt wurden.</string>
 
-    <!-- Exercises for Body Wellness & Men's Grooming -->
+    <!-- Exercises for Body Wellness &amp; Men's Grooming -->
     <string name="body_stretch_ex_title">Beckenbodentraining &amp; Dehnung</string>
     <string name="body_stretch_ex_desc">Lege dich auf den Rücken, beuge die Knie und hebe dein Becken. Dies strafft Oberschenkel, Gesäß und Bauch, um Dehnungsstreifen zu reduzieren.</string>
     <string name="body_neck_ex_title">Nackendrehung &amp; Dehnung</string>
@@ -3943,7 +3943,7 @@
     <string name="step_timer_finished">Schritt-Timer abgelaufen!</string>
     <string name="step_progress_format" formatted="false">Schritt %1$d von %2$d</string>
 
-    <!-- Feature 24: Razor Bumps & Shaving Care Companion -->
+    <!-- Feature 24: Razor Bumps &amp; Shaving Care Companion -->
     <string name="razor_bumps">Rasierpickel &amp; Rasurpflege</string>
     <string name="razor_aloe_tea_tree_title">Aloe &amp; Teebaumöl Gel</string>
     <string name="razor_aloe_tea_tree_desc">Mischen Sie 2 Esslöffel frisches Aloe Vera Gel mit 2 Tropfen Teebaumöl. Tragen Sie es auf rasierten Stellen auf, um Rasierbrand sofort zu lindern.</string>
@@ -3960,4 +3960,36 @@
 
     <string name="btn_previous">Zurück</string>
     <string name="save">Speichern</string>
+
+    <string name="seasonal_beauty_advisor">Saisonaler Schönheitsberater</string>
+    <string name="seasonal_advisor_subtitle">Maßgeschneiderte natürliche Hautpflege für jede Jahreszeit</string>
+    <string name="season_summer">Sommer</string>
+    <string name="season_monsoon">Monsun</string>
+    <string name="season_autumn">Herbst</string>
+    <string name="season_winter">Winter</string>
+    <string name="season_summer_title">☀️ Sommerhitze &amp; Sonnenschutz</string>
+    <string name="season_summer_desc">Schützen Sie Ihre Haut vor UV-Strahlen, übermäßigem Öl und Hitzerotungen.</string>
+    <string name="season_summer_tip1_title">Gurken-Aloe-Kühlmaske</string>
+    <string name="season_summer_tip1_desc">Mischen Sie frischen Gurkensaft mit Aloe Vera Gel. 15 Minuten auftragen.</string>
+    <string name="season_summer_tip2_title">Feuchtigkeitsspendendes Rosenwasserspray</string>
+    <string name="season_summer_tip2_desc">Sprühen Sie zweimal täglich gekühltes Rosenwasser auf das Gesicht.</string>
+    <string name="season_monsoon_title">🌧️ Monsun Feuchtigkeit &amp; Pilzschutz</string>
+    <string name="season_monsoon_desc">Bekämpfen Sie feuchte Luft, Kopfhautinfektionen und Haarausfall.</string>
+    <string name="season_monsoon_tip1_title">Neem &amp; Kurkuma Kopfhautspülung</string>
+    <string name="season_monsoon_tip1_desc">Neemblätter kochen, Kurkuma hinzufügen und als Spülung verwenden.</string>
+    <string name="season_monsoon_tip2_title">Poren-Detox-Maske</string>
+    <string name="season_monsoon_tip2_desc">Heilerde mit Rosenwasser mischen, um Fett zu absorbieren.</string>
+    <string name="season_autumn_title">🍂 Herbst Hautschutz-Reparatur</string>
+    <string name="season_autumn_desc">Stellen Sie die Feuchtigkeit der Haut nach dem Sommer wieder her.</string>
+    <string name="season_autumn_tip1_title">Honig &amp; Milch Peeling-Wäsche</string>
+    <string name="season_autumn_tip1_desc">Sanft rohen Honig und Milch in die Haut einmassieren.</string>
+    <string name="season_autumn_tip2_title">Mandelöl-Nachtpflege</string>
+    <string name="season_autumn_tip2_desc">Massieren Sie vor dem Schlafen 3 Tropfen Mandelöl ein.</string>
+    <string name="season_winter_title">❄️ Winter Tiefenfeuchtigkeit &amp; Lippenpflege</string>
+    <string name="season_winter_desc">Intensivkur für trockene Haut, rissige Fersen und Lippen.</string>
+    <string name="season_winter_tip1_title">Sahne &amp; Glycerin Maske</string>
+    <string name="season_winter_tip1_desc">1 TL Rahm mit 2 Tropfen Glycerin mischen und 20 Min. auftragen.</string>
+    <string name="season_winter_tip2_title">Kokosöl &amp; Zucker Lippen-Peeling</string>
+    <string name="season_winter_tip2_desc">Peelen Sie spröde Lippen mit warmem Kokosöl und Zucker.</string>
+    <string name="home_seasonal_banner_title">Aktuelle Jahreszeitenpflege</string>
 </resources>

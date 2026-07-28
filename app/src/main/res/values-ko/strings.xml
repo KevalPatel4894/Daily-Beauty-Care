@@ -3314,7 +3314,7 @@
     <string name="app_share">여기에서 당신의 최고의 욕망 뷰티 케어 팁과 자신을 향상시키는 패션 스타일을 찾을 수 있습니다.</string>
     <string name="read_now">지금 읽어라</string>
 
-    <!-- Auto-Generated Translations for Challenges, Share Card, Reminders, Search & Favorites Features -->
+    <!-- Auto-Generated Translations for Challenges, Share Card, Reminders, Search &amp; Favorites Features -->
     <string name="beauty_challenges">뷰티 챌린지</string>
     <string name="challenge_details">챌린지 상세 정보</string>
     <string name="daily_tasks">일일 작업</string>
@@ -3420,7 +3420,7 @@
     <string name="challenge_task_bright_eyes_day7_title">안구 롤링 및 초점 맞추기 운동</string>
     <string name="challenge_task_bright_eyes_day7_details">눈을 시계 방향과 반시계 방향으로 굴린 후, 1분 동안 빠르게 깜박여 혈류를 촉진합니다.</string>
 
-    <!-- Auto-Generated Translations for Daily Check-In & Streaks Feature -->
+    <!-- Auto-Generated Translations for Daily Check-In &amp; Streaks Feature -->
     <string name="daily_check_in">일일 체크인</string>
     <string name="check_in_streak_format" formatted="false">%1$d일</string>
     <string name="check_in_subtitle">일일 체크인을 기록하고 연속 일수를 쌓으려면 탭하세요!</string>
@@ -3560,7 +3560,7 @@
     <string name="wellness_score_detail_reads_advice" formatted="false">새로운 천연 요법을 알아보기 위해 오늘 최소 %1$d개의 뷰티 팁을 읽어보세요.</string>
     <string name="close">닫기</string>
 
-    <!-- Feature 3: Achievements & Badges -->
+    <!-- Feature 3: Achievements &amp; Badges -->
     <string name="settings_achievements">업적 및 배지</string>
     <string name="badge_locked">잠김</string>
     <string name="badge_unlocked">잠금 해제!</string>
@@ -3648,7 +3648,7 @@
     <string name="custom_tip_category_eyes">눈</string>
     <string name="custom_tip_category_handsfeet">손 &amp; 발</string>
 
-    <!-- Feature 25: Seasonal & Weather-Based Beauty Advisor -->
+    <!-- Feature 25: Seasonal &amp; Weather-Based Beauty Advisor -->
     <string name="seasonal_advisor_title">계절별 뷰티 어드바이저</string>
     <string name="seasonal_summer_title">서머 글로우</string>
     <string name="seasonal_summer_desc">피부를 상쾌하게 유지하고 열로부터 보호하세요</string>
@@ -3686,7 +3686,7 @@
     <string name="skin_mood_glowing">윤기있음</string>
     <string name="skin_mood_glowing_keywords">윤기,광채,건강한,글로우,피부결</string>
 
-    <!-- Feature 21: Body & Wellness -->
+    <!-- Feature 21: Body &amp; Wellness -->
     <string name="body_wellness">바디 케어</string>
     <string name="stretch_marks">튼살</string>
     <string name="dark_neck">목 색소 침착</string>
@@ -3747,7 +3747,7 @@
     <string name="body_diet_omega_fats_title">건강한 오메가 지방산</string>
     <string name="body_diet_omega_fats_desc">피부의 지질 장벽을 내부에서 영양을 공급하기 위해 호두, 아마씨, 아보카도를 섭취하세요.</string>
 
-    <!-- Feature 23: Men's Grooming & Beard Care Guide -->
+    <!-- Feature 23: Men's Grooming &amp; Beard Care Guide -->
     <string name="men_grooming">남성 그루밍</string>
     <string name="beard_growth">수염 성장</string>
     <string name="mustache_care">콧수염 관리</string>
@@ -3798,7 +3798,7 @@
     <string name="men_hair_diet_protein_title">계란 &amp; 생선 단백질</string>
     <string name="men_hair_diet_protein_desc">매일 스타일링으로 손상된 모발을 복구하는 데 필요한 아미노산을 제공하기 위해 양질의 단백질을 식단에 포함시키세요.</string>
 
-    <!-- Exercises for Body Wellness & Men's Grooming -->
+    <!-- Exercises for Body Wellness &amp; Men's Grooming -->
     <string name="body_stretch_ex_title">골반 들어올리기 &amp; 스트레칭</string>
     <string name="body_stretch_ex_desc">등을 대고 누워 무릎을 굽힌 뒤 엉덩이를 들어 올립니다. 허벅지, 둔근, 복부를 탄력 있게 가꿔 튼살을 줄여줍니다.</string>
     <string name="body_neck_ex_title">목 회전 &amp; 스트레칭</string>
@@ -3912,7 +3912,7 @@
     <string name="step_timer_finished">단계 타이머가 종료되었습니다!</string>
     <string name="step_progress_format" formatted="false">%2$d단계 중 %1$d단계</string>
 
-    <!-- Feature 24: Razor Bumps & Shaving Care Companion -->
+    <!-- Feature 24: Razor Bumps &amp; Shaving Care Companion -->
     <string name="razor_bumps">면도 트러블 및 진정 케어</string>
     <string name="razor_aloe_tea_tree_title">알로에 &amp; 티트리 젤</string>
     <string name="razor_aloe_tea_tree_desc">생 알로에 베라 젤 2큰술에 티트리 오일 2방울을 섞어 면도 부위에 바르면 즉각적인 진정 효과를 줍니다.</string>
@@ -3929,4 +3929,36 @@
 
     <string name="btn_previous">이전</string>
     <string name="save">저장</string>
+
+    <string name="seasonal_beauty_advisor">계절별 뷰티 어드바이저</string>
+    <string name="seasonal_advisor_subtitle">계절 변화에 맞춘 맞춤형 천연 스킨케어</string>
+    <string name="season_summer">여름</string>
+    <string name="season_monsoon">장마철</string>
+    <string name="season_autumn">가을</string>
+    <string name="season_winter">겨울</string>
+    <string name="season_summer_title">☀️ 여름철 자외선 및 피지 케어</string>
+    <string name="season_summer_desc">강한 자외선과 과도한 피지로부터 피부를 보호합니다.</string>
+    <string name="season_summer_tip1_title">오이 알로에 진정 팩</string>
+    <string name="season_summer_tip1_desc">오이 즙과 알로에 젤을 섞어 15분간 얹어줍니다.</string>
+    <string name="season_summer_tip2_title">수분 로즈워터 미스트</string>
+    <string name="season_summer_tip2_desc">시원한 로즈워터를 하루 2번 뿌려 피지를 조절합니다.</string>
+    <string name="season_monsoon_title">🌧️ 습기 및 두피 케어</string>
+    <string name="season_monsoon_desc">습한 날씨의 두피 가려움과 탈모를 예방합니다.</string>
+    <string name="season_monsoon_tip1_title">님 &amp; 강황 두피 클렌저</string>
+    <string name="season_monsoon_tip1_desc">님 잎 달인 물에 강황을 섞어 마지막 헹굼 시 사용합니다.</string>
+    <string name="season_monsoon_tip2_title">모공 디톡스 찰흙 팩</string>
+    <string name="season_monsoon_tip2_desc">진흙 팩과 로즈워터를 섞어 유분기를 흡수합니다.</string>
+    <string name="season_autumn_title">🍂 가을 장벽 강화 케어</string>
+    <string name="season_autumn_desc">여름철 자극받은 피부 수분 밸런스를 회복합니다.</string>
+    <string name="season_autumn_tip1_title">꿀 &amp; 우유 각질 세안</string>
+    <string name="season_autumn_tip1_desc">꿀과 우유를 섞어 부드럽게 각질을 제거합니다.</string>
+    <string name="season_autumn_tip2_title">아몬드 오일 나이트 나이트 오일</string>
+    <string name="season_autumn_tip2_desc">취침 전 아몬드 오일 3방울을 부드럽게 마사지합니다.</string>
+    <string name="season_winter_title">❄️ 겨울 집중 보습 &amp; 입술 케어</string>
+    <string name="season_winter_desc">건조한 피부와 트는 입술, 뒤꿈치 집중 영양 공급.</string>
+    <string name="season_winter_tip1_title">밀크 크림 &amp; 글리세린 팩</string>
+    <string name="season_winter_tip1_desc">우유 크림과 글리세린을 섞어 20분간 팩을 진행합니다.</string>
+    <string name="season_winter_tip2_title">코코넛 오일 립 스크럽</string>
+    <string name="season_winter_tip2_desc">코코넛 오일과 설탕으로 트는 입술 각질을 정리합니다.</string>
+    <string name="home_seasonal_banner_title">현재 계절 맞춤 케어</string>
 </resources>
