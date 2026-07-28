@@ -3924,4 +3924,33 @@
     <string name="mustache_ex_stretch_desc">Stretch your upper lip downwards over your teeth and smile wide. Hold for 10 seconds to flex mustache-area muscles and skin.</string>
     <string name="men_hair_ex_massage_title">Nail Rubbing (Balayam)</string>
     <string name="men_hair_ex_massage_desc">Rub the fingernails of both hands against each other for 10 minutes daily. This reflexology technique stimulates scalp nerves to prevent male hair loss.</string>
+
+    <!-- Feature 31: Beauty Routine Builder -->
+    <string name="routine_builder_title">Beauty Routine Builder</string>
+    <string name="routine_runner_title">Routine Runner</string>
+    <string name="no_routines_found">No Routines Found</string>
+    <string name="create_first_routine_desc">Create custom Morning or Night routines with step-by-step timers to track your daily self-care.</string>
+    <string name="btn_start_routine">Start Routine</string>
+    <string name="btn_add_step">Add Step</string>
+    <string name="btn_next_step">Next Step</string>
+    <string name="btn_finish_routine">Finish Routine</string>
+    <string name="btn_start_timer">Start Timer</string>
+    <string name="btn_pause_timer">Pause Timer</string>
+    <string name="add_routine">Add Beauty Routine</string>
+    <string name="edit_routine">Edit Beauty Routine</string>
+    <string name="hint_routine_title">Routine Title (e.g. Sunday Glow)</string>
+    <string name="hint_step_name">Step Name (e.g. Cleanser)</string>
+    <string name="hint_step_desc">Description / Instructions</string>
+    <string name="hint_timer_sec">Timer (seconds)</string>
+    <string name="routine_type">Routine Type</string>
+    <string name="routine_type_morning">Morning</string>
+    <string name="routine_type_night">Night</string>
+    <string name="routine_type_custom">Custom</string>
+    <string name="routine_steps">Routine Steps</string>
+    <string name="msg_confirm_delete_routine">Are you sure you want to delete this routine?</string>
+    <string name="enter_title">Please enter a title</string>
+    <string name="add_at_least_one_step">Please add at least one step</string>
+    <string name="routine_completed_congrats">Congratulations! You completed your routine!</string>
+    <string name="step_timer_finished">Step timer finished!</string>
+    <string name="step_progress_format" formatted="false">Step %1$d of %2$d</string>
 </resources>

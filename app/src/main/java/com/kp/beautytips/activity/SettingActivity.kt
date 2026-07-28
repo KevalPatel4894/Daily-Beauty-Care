@@ -118,6 +118,14 @@ class SettingActivity : BaseActivity() {
             }
         }
 
+        val rlRoutineBuilder = findViewById<View>(R.id.rlRoutineBuilder)
+        rlRoutineBuilder.setOnClickListener {
+            Intent(this, RoutineBuilderActivity::class.java).also {
+                startActivity(it)
+                AppUtils.startFromRightToLeft(this)
+            }
+        }
+
         val rlReminders = findViewById<View>(R.id.rlReminders)
         rlReminders.setOnClickListener {
             Intent(this, ReminderActivity::class.java).also {

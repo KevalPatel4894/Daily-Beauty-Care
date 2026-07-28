@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:fitsSystemWindows="true">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/toolBarColor">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txtTabTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/routine_runner_title"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/_18sdp" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/ad_view"
+        android:layout_below="@+id/toolBar"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/_16sdp"
+            android:gravity="center_horizontal">
+
+            <!-- Progress Header -->
+            <TextView
+                android:id="@+id/txtStepProgress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/toolBarColor"
+                android:textSize="@dimen/_14sdp"
+                android:textStyle="bold"
+                tools:text="Step 1 of 5" />
+
+            <ProgressBar
+                android:id="@+id/progressBarRoutine"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:progressDrawable="@drawable/custom_progressbar"
+                android:max="100"
+                android:progress="20" />
+
+            <!-- Main Step Card -->
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_20sdp"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="4dp"
+                app:cardBackgroundColor="@color/white">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="@dimen/_20sdp"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/txtStepName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_18sdp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        tools:text="Gentle Cleanser" />
+
+                    <TextView
+                        android:id="@+id/txtStepDescription"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:textColor="#555555"
+                        android:textSize="@dimen/_12sdp"
+                        android:gravity="center"
+                        tools:text="Wash face with tepid water and mild cleanser thoroughly." />
+
+                    <!-- Timer Container -->
+                    <LinearLayout
+                        android:id="@+id/layoutTimerContainer"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_20sdp"
+                        android:orientation="vertical"
+                        android:gravity="center">
+
+                        <TextView
+                            android:id="@+id/txtTimerDisplay"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/toolBarColor"
+                            android:textSize="@dimen/_32sdp"
+                            android:textStyle="bold"
+                            tools:text="01:00" />
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/btnToggleTimer"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_10sdp"
+                            android:text="@string/btn_start_timer"
+                            app:backgroundTint="@color/toolBarColor"
+                            app:cornerRadius="20dp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <!-- Navigation Controls -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_24sdp"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnPrevStep"
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="@dimen/_8sdp"
+                    android:text="@string/btn_previous"
+                    android:textColor="@color/toolBarColor"
+                    app:strokeColor="@color/toolBarColor"
+                    app:cornerRadius="10dp" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnNextStep"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginStart="@dimen/_8sdp"
+                    android:text="@string/btn_next_step"
+                    android:textColor="@color/white"
+                    app:backgroundTint="@color/toolBarColor"
+                    app:cornerRadius="10dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/ad_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center" />
+
+</RelativeLayout>

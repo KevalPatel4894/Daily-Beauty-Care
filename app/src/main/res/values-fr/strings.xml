@@ -3908,4 +3908,33 @@
     <string name="faq_myth_6_title">L\'eau chaude ouvre les pores, le froid les ferme</string>
     <string name="faq_myth_6_desc">La vapeur ouvre les pores, tandis que l\'eau froide les referme.</string>
     <string name="faq_myth_6_fact">Les pores n\'ont pas de muscles pour s\'ouvrir ou se fermer. L\'eau chaude peut dilater les vaisseaux et assécher la peau. Utilisez de l\'eau tiède.</string>
+
+    <!-- Feature 31: Beauty Routine Builder -->
+    <string name="routine_builder_title">Créateur de Routine Beauté</string>
+    <string name="routine_runner_title">Lancer la Routine</string>
+    <string name="no_routines_found">Aucune routine trouvée</string>
+    <string name="create_first_routine_desc">Créez des routines personnalisées du matin ou du soir avec des minuteurs étape par étape.</string>
+    <string name="btn_start_routine">Démarrer la routine</string>
+    <string name="btn_add_step">Ajouter une étape</string>
+    <string name="btn_next_step">Étape suivante</string>
+    <string name="btn_finish_routine">Terminer la routine</string>
+    <string name="btn_start_timer">Démarrer le minuteur</string>
+    <string name="btn_pause_timer">Pause minuteur</string>
+    <string name="add_routine">Ajouter une routine beauté</string>
+    <string name="edit_routine">Modifier la routine beauté</string>
+    <string name="hint_routine_title">Titre de la routine (ex. Éclat du Dimanche)</string>
+    <string name="hint_step_name">Nom de l\'étape (ex. Nettoyant)</string>
+    <string name="hint_step_desc">Description / Instructions</string>
+    <string name="hint_timer_sec">Minuteur (secondes)</string>
+    <string name="routine_type">Type de routine</string>
+    <string name="routine_type_morning">Matin</string>
+    <string name="routine_type_night">Soir</string>
+    <string name="routine_type_custom">Personnalisée</string>
+    <string name="routine_steps">Étapes de la routine</string>
+    <string name="msg_confirm_delete_routine">Voulez-vous vraiment supprimer cette routine ?</string>
+    <string name="enter_title">Veuillez entrer un titre</string>
+    <string name="add_at_least_one_step">Veuillez ajouter au moins une étape</string>
+    <string name="routine_completed_congrats">Félicitations ! Vous avez terminé votre routine !</string>
+    <string name="step_timer_finished">Minuteur de l\'étape terminé !</string>
+    <string name="step_progress_format" formatted="false">Étape %1$d sur %2$d</string>
 </resources>

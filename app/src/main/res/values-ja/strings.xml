@@ -3908,4 +3908,33 @@
     <string name="faq_myth_6_title">温水で毛穴が開き、冷水で閉じる</string>
     <string name="faq_myth_6_desc">スチームや温水は毛穴を開き、冷水は毛穴を引き締めて閉じる。</string>
     <string name="faq_myth_6_fact">毛穴には筋肉がないため開閉はしません。温水は血管を広げて皮脂を奪い乾燥を招きます。冷水は炎症を落ち着かせる効果がありますが、ぬるま湯が最適です。</string>
+
+    <!-- Feature 31: Beauty Routine Builder -->
+    <string name="routine_builder_title">ビューティールーティン作成</string>
+    <string name="routine_runner_title">ルーティン実行</string>
+    <string name="no_routines_found">ルーティンが見つかりません</string>
+    <string name="create_first_routine_desc">タイマー付きのカスタム朝・夜のスキンケアルーティンを作成しましょう。</string>
+    <string name="btn_start_routine">ルーティンを開始</string>
+    <string name="btn_add_step">ステップを追加</string>
+    <string name="btn_next_step">次のステップ</string>
+    <string name="btn_finish_routine">ルーティンを終了</string>
+    <string name="btn_start_timer">タイマー開始</string>
+    <string name="btn_pause_timer">タイマー一時停止</string>
+    <string name="add_routine">ルーティンを追加</string>
+    <string name="edit_routine">ルーティンを編集</string>
+    <string name="hint_routine_title">ルーティン名（例：ホリデーケア）</string>
+    <string name="hint_step_name">ステップ名（例：洗顔）</string>
+    <string name="hint_step_desc">説明・手順</string>
+    <string name="hint_timer_sec">タイマー（秒）</string>
+    <string name="routine_type">ルーティンの種類</string>
+    <string name="routine_type_morning">朝</string>
+    <string name="routine_type_night">夜</string>
+    <string name="routine_type_custom">カスタム</string>
+    <string name="routine_steps">ルーティンのステップ</string>
+    <string name="msg_confirm_delete_routine">このルーティンを削除してもよろしいですか？</string>
+    <string name="enter_title">タイトルを入力してください</string>
+    <string name="add_at_least_one_step">少なくとも1つのステップを追加してください</string>
+    <string name="routine_completed_congrats">おめでとうございます！ルーティンが完了しました！</string>
+    <string name="step_timer_finished">タイマーが終了しました！</string>
+    <string name="step_progress_format" formatted="false">ステップ %1$d / %2$d</string>
 </resources>

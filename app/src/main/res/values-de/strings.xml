@@ -3913,4 +3913,33 @@
     <string name="mustache_ex_stretch_desc">Ziehe deine Oberlippe nach unten über deine Zähne und lächle breit. 10 Sekunden lang halten, um die Haut im Schnurrbartbereich zu dehnen.</string>
     <string name="men_hair_ex_massage_title">Fingernägel reiben (Balayam)</string>
     <string name="men_hair_ex_massage_desc">Reibe täglich 10 Minuten lang die Fingernägel beider Hände aneinander. Diese Reflexzonentechnik stimuliert Kopfhautnerven gegen Haarausfall.</string>
+
+    <!-- Feature 31: Beauty Routine Builder -->
+    <string name="routine_builder_title">Schönheitsroutinen-Planer</string>
+    <string name="routine_runner_title">Routine ausführen</string>
+    <string name="no_routines_found">Keine Routinen gefunden</string>
+    <string name="create_first_routine_desc">Erstellen Sie individuelle Morgen- oder Abendroutinen mit Schritt-für-Schritt-Timern.</string>
+    <string name="btn_start_routine">Routine starten</string>
+    <string name="btn_add_step">Schritt hinzufügen</string>
+    <string name="btn_next_step">Nächster Schritt</string>
+    <string name="btn_finish_routine">Routine beenden</string>
+    <string name="btn_start_timer">Timer starten</string>
+    <string name="btn_pause_timer">Timer pausieren</string>
+    <string name="add_routine">Schönheitsroutine hinzufügen</string>
+    <string name="edit_routine">Schönheitsroutine bearbeiten</string>
+    <string name="hint_routine_title">Titel der Routine (z. B. Sonntags-Glow)</string>
+    <string name="hint_step_name">Name des Schritts (z. B. Reiniger)</string>
+    <string name="hint_step_desc">Beschreibung / Anweisungen</string>
+    <string name="hint_timer_sec">Timer (Sekunden)</string>
+    <string name="routine_type">Routinetyp</string>
+    <string name="routine_type_morning">Morgen</string>
+    <string name="routine_type_night">Abend</string>
+    <string name="routine_type_custom">Benutzerdefiniert</string>
+    <string name="routine_steps">Routineschritte</string>
+    <string name="msg_confirm_delete_routine">Möchten Sie diese Routine wirklich löschen?</string>
+    <string name="enter_title">Bitte geben Sie einen Titel ein</string>
+    <string name="add_at_least_one_step">Bitte fügen Sie mindestens einen Schritt hinzu</string>
+    <string name="routine_completed_congrats">Herzlichen Glückwunsch! Sie haben Ihre Routine abgeschlossen!</string>
+    <string name="step_timer_finished">Schritt-Timer abgelaufen!</string>
+    <string name="step_progress_format" formatted="false">Schritt %1$d von %2$d</string>
 </resources>

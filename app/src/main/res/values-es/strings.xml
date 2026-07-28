@@ -3913,4 +3913,33 @@
     <string name="mustache_ex_stretch_desc">Estire el labio superior hacia abajo sobre los dientes y sonría ampliamente. Sostenga por 10 segundos para flexionar los músculos de la zona.</string>
     <string name="men_hair_ex_massage_title">Frotamiento de Uñas (Balayam)</string>
     <string name="men_hair_ex_massage_desc">Frote las uñas de ambas manos entre sí durante 10 minutos al día. Esta técnica de reflexología estimula los nervios del cuero cabelludo.</string>
+
+    <!-- Feature 31: Beauty Routine Builder -->
+    <string name="routine_builder_title">Creador de Rutinas de Belleza</string>
+    <string name="routine_runner_title">Ejecutar Rutina</string>
+    <string name="no_routines_found">No se encontraron rutinas</string>
+    <string name="create_first_routine_desc">Crea rutinas personalizadas de mañana o noche con temporizadores paso a paso.</string>
+    <string name="btn_start_routine">Iniciar rutina</string>
+    <string name="btn_add_step">Añadir paso</string>
+    <string name="btn_next_step">Siguiente paso</string>
+    <string name="btn_finish_routine">Finalizar rutina</string>
+    <string name="btn_start_timer">Iniciar temporizador</string>
+    <string name="btn_pause_timer">Pausar temporizador</string>
+    <string name="add_routine">Añadir rutina de belleza</string>
+    <string name="edit_routine">Editar rutina de belleza</string>
+    <string name="hint_routine_title">Título de la rutina (ej. Brillo dominical)</string>
+    <string name="hint_step_name">Nombre del paso (ej. Limpiador)</string>
+    <string name="hint_step_desc">Descripción / Instrucciones</string>
+    <string name="hint_timer_sec">Temporizador (segundos)</string>
+    <string name="routine_type">Tipo de rutina</string>
+    <string name="routine_type_morning">Mañana</string>
+    <string name="routine_type_night">Noche</string>
+    <string name="routine_type_custom">Personalizada</string>
+    <string name="routine_steps">Pasos de la rutina</string>
+    <string name="msg_confirm_delete_routine">¿Estás seguro de que deseas eliminar esta rutina?</string>
+    <string name="enter_title">Por favor ingresa un título</string>
+    <string name="add_at_least_one_step">Por favor añade al menos un paso</string>
+    <string name="routine_completed_congrats">¡Felicidades! ¡Completaste tu rutina!</string>
+    <string name="step_timer_finished">¡Temporizador de paso finalizado!</string>
+    <string name="step_progress_format" formatted="false">Paso %1$d de %2$d</string>
 </resources>

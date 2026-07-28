@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorPrimary"
@@ -212,6 +213,45 @@
                 android:layout_marginStart="@dimen/_20sdp"
                 android:layout_toEndOf="@+id/imgCustomTips"
                 android:text="@string/my_custom_tips"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_13sdp" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_arrow_forward" />
+
+        </RelativeLayout>
+
+        <!-- 4.2. Routine Builder -->
+        <RelativeLayout
+            android:id="@+id/rlRoutineBuilder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_marginEnd="@dimen/_8sdp"
+            android:padding="@dimen/_8sdp"
+            android:clickable="true"
+            android:focusable="true">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/imgRoutineBuilder"
+                android:layout_width="@dimen/_25sdp"
+                android:layout_height="@dimen/_25sdp"
+                android:src="@drawable/ic_clock"
+                app:tint="@color/white"
+                android:layout_centerVertical="true" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:layout_toEndOf="@+id/imgRoutineBuilder"
+                android:text="@string/routine_builder_title"
                 android:textColor="@color/white"
                 android:textSize="@dimen/_13sdp" />
 

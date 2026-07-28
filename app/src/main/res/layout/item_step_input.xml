@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/_8sdp"
+    android:background="@drawable/bg_rounded_card"
+    android:orientation="vertical"
+    android:padding="@dimen/_8sdp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/etStepName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/hint_step_name"
+            android:inputType="textCapSentences"
+            android:textSize="@dimen/_12sdp" />
+
+        <ImageView
+            android:id="@+id/btnRemoveStep"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_marginStart="@dimen/_6sdp"
+            android:src="@android:drawable/ic_menu_delete"
+            app:tint="#D32F2F"
+            android:contentDescription="@string/app_name" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_4sdp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/etStepDesc"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:hint="@string/hint_step_desc"
+            android:inputType="textCapSentences"
+            android:textSize="@dimen/_10sdp" />
+
+        <EditText
+            android:id="@+id/etStepTimer"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="@dimen/_6sdp"
+            android:hint="@string/hint_timer_sec"
+            android:inputType="number"
+            android:textSize="@dimen/_10sdp" />
+
+    </LinearLayout>
+
+</LinearLayout>

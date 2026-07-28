@@ -3908,4 +3908,33 @@
     <string name="faq_myth_6_title">Горячая вода открывает поры, холодная закрывает</string>
     <string name="faq_myth_6_desc">Пар открывает поры для чистки, а холодная вода закрывает их.</string>
     <string name="faq_myth_6_fact">В порах нет мышц, они не могут открываться или закрываться. Горячая вода сушит кожу, вызывая раздражение. Полезнее умываться теплой водой.</string>
+
+    <!-- Feature 31: Beauty Routine Builder -->
+    <string name="routine_builder_title">Конструктор бьюти-рутин</string>
+    <string name="routine_runner_title">Запуск рутины</string>
+    <string name="no_routines_found">Рутины не найдены</string>
+    <string name="create_first_routine_desc">Создавайте персональные утренние и вечерние ритуалы с таймерами шагов.</string>
+    <string name="btn_start_routine">Начать рутину</string>
+    <string name="btn_add_step">Добавить шаг</string>
+    <string name="btn_next_step">Следующий шаг</string>
+    <string name="btn_finish_routine">Завершить рутину</string>
+    <string name="btn_start_timer">Запустить таймер</string>
+    <string name="btn_pause_timer">Пауза таймера</string>
+    <string name="add_routine">Добавить бьюти-рутину</string>
+    <string name="edit_routine">Редактировать бьюти-рутину</string>
+    <string name="hint_routine_title">Название (например: Воскресный уход)</string>
+    <string name="hint_step_name">Название шага (например: Очищение)</string>
+    <string name="hint_step_desc">Описание / Инструкции</string>
+    <string name="hint_timer_sec">Таймер (секунды)</string>
+    <string name="routine_type">Тип рутины</string>
+    <string name="routine_type_morning">Утро</string>
+    <string name="routine_type_night">Вечер</string>
+    <string name="routine_type_custom">Свой вариант</string>
+    <string name="routine_steps">Шаги рутины</string>
+    <string name="msg_confirm_delete_routine">Вы уверены, что хотите удалить эту рутину?</string>
+    <string name="enter_title">Пожалуйста, введите название</string>
+    <string name="add_at_least_one_step">Пожалуйста, добавьте хотя бы один шаг</string>
+    <string name="routine_completed_congrats">Поздравляем! Вы завершили свою рутину!</string>
+    <string name="step_timer_finished">Таймер шага завершен!</string>
+    <string name="step_progress_format" formatted="false">Шаг %1$d из %2$d</string>
 </resources>

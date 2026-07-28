@@ -3888,4 +3888,33 @@
     <string name="body_elbow_aloe_honey_desc">एلوवेरा जेल और शहद मिलाएं। रूखे हिस्सों को गहराई से हाइड्रेट करने के लिए 20 मिनट तक लगाएं।</string>
     <string name="body_diet_omega_fats_title">स्वस्थ ओमेगा वसा</string>
     <string name="body_diet_omega_fats_desc">त्वचा की परत के लिपिд स्तर को भीतर से पोषण देने के लिए अखरोट, अलसी के बीज और एवोकैडो खाएं।</string>
+
+    <!-- Feature 31: Beauty Routine Builder -->
+    <string name="routine_builder_title">ब्यूटी रूटीन बिल्डर</string>
+    <string name="routine_runner_title">रूटीन शुरू करें</string>
+    <string name="no_routines_found">कोई रूटीन नहीं मिला</string>
+    <string name="create_first_routine_desc">स्टेप-बाय-स्टेप टाइमर के साथ अपनी सुबह या रात की ब्यूटी रूटीन बनाएं।</string>
+    <string name="btn_start_routine">रूटीन शुरू करें</string>
+    <string name="btn_add_step">स्टेप जोड़ें</string>
+    <string name="btn_next_step">अगला स्टेप</string>
+    <string name="btn_finish_routine">रूटीन समाप्त करें</string>
+    <string name="btn_start_timer">टाइमर शुरू करें</string>
+    <string name="btn_pause_timer">टाइमर रोकें</string>
+    <string name="add_routine">ब्यूटी रूटीन जोड़ें</string>
+    <string name="edit_routine">ब्यूटी रूटीन संपादित करें</string>
+    <string name="hint_routine_title">रूटीन का नाम (जैसे संडे ग्लो)</string>
+    <string name="hint_step_name">स्टेप का नाम (जैसे क्लींजर)</string>
+    <string name="hint_step_desc">विवरण / निर्देश</string>
+    <string name="hint_timer_sec">टाइमर (सेकंड)</string>
+    <string name="routine_type">रूटीन का प्रकार</string>
+    <string name="routine_type_morning">सुबह</string>
+    <string name="routine_type_night">रात</string>
+    <string name="routine_type_custom">कस्टम</string>
+    <string name="routine_steps">रूटीन के स्टेप्स</string>
+    <string name="msg_confirm_delete_routine">क्या आप वाकई इस रूटीन को हटाना चाहते हैं?</string>
+    <string name="enter_title">कृपया एक शीर्षक दर्ज करें</string>
+    <string name="add_at_least_one_step">कृपया कम से कम एक स्टेप जोड़ें</string>
+    <string name="routine_completed_congrats">बधाई हो! आपने अपनी रूटीन पूरी कर ली!</string>
+    <string name="step_timer_finished">स्टेप टाइमर समाप्त!</string>
+    <string name="step_progress_format" formatted="false">स्टेप %1$d / %2$d</string>
 </resources>

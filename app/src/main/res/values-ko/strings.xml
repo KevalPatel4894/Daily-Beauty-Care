@@ -3882,4 +3882,33 @@
     <string name="faq_myth_6_title">뜨거운 물은 모공을 열고 찬물은 닫는다</string>
     <string name="faq_myth_6_desc">스팀이나 뜨거운 물은 딥클렌징을 위해 모공을 열고, 찬물은 모공을 닫거나 축소시킨다.</string>
     <string name="faq_myth_6_fact">모공에는 근육이 없으므로 스스로 열거나 닫힐 수 없습니다. 뜨거운 물은 혈관을 확장시키고 오일을 빼앗아 건조함을 유발합니다. 찬물은 모공을 닫지 못하지만 진정 효과가 있습니다. 미온수가 가장 좋습니다.</string>
+
+    <!-- Feature 31: Beauty Routine Builder -->
+    <string name="routine_builder_title">뷰티 루틴 빌더</string>
+    <string name="routine_runner_title">루틴 실행</string>
+    <string name="no_routines_found">루틴을 찾을 수 없습니다</string>
+    <string name="create_first_routine_desc">단계별 타이머 기능이 포함된 맞춤형 아침/저녁 루틴을 만들어 보세요.</string>
+    <string name="btn_start_routine">루틴 시작</string>
+    <string name="btn_add_step">단계 추가</string>
+    <string name="btn_next_step">다음 단계</string>
+    <string name="btn_finish_routine">루틴 완료</string>
+    <string name="btn_start_timer">타이머 시작</string>
+    <string name="btn_pause_timer">타이머 일시정지</string>
+    <string name="add_routine">뷰티 루틴 추가</string>
+    <string name="edit_routine">뷰티 루틴 수정</string>
+    <string name="hint_routine_title">루틴 제목 (예: 주말 글로우)</string>
+    <string name="hint_step_name">단계 이름 (예: 클렌저)</string>
+    <string name="hint_step_desc">설명 / 지침</string>
+    <string name="hint_timer_sec">타이머 (초)</string>
+    <string name="routine_type">루틴 유형</string>
+    <string name="routine_type_morning">아침</string>
+    <string name="routine_type_night">저녁</string>
+    <string name="routine_type_custom">사용자 지정</string>
+    <string name="routine_steps">루틴 단계</string>
+    <string name="msg_confirm_delete_routine">이 루틴을 삭제하시겠습니까?</string>
+    <string name="enter_title">제목을 입력해 주세요</string>
+    <string name="add_at_least_one_step">최소 하나 이상의 단계를 추가해 주세요</string>
+    <string name="routine_completed_congrats">축하합니다! 루틴을 완료했습니다!</string>
+    <string name="step_timer_finished">단계 타이머가 종료되었습니다!</string>
+    <string name="step_progress_format" formatted="false">%2$d단계 중 %1$d단계</string>
 </resources>

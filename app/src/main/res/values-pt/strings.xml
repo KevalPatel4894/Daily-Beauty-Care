@@ -3890,4 +3890,33 @@
     <string name="ingredient_egg_name">Ovo</string>
     <string name="ingredient_egg_benefits">A clara do ovo é rica em proteínas que fecham os poros, firmam a pele e controlam a oleosidade. A gema condiciona profundamente o cabelo seco e nutre a pele.</string>
     <string name="ingredient_egg_keywords">ovo,egg</string>
+
+    <!-- Feature 31: Beauty Routine Builder -->
+    <string name="routine_builder_title">Criador de Rotinas de Beleza</string>
+    <string name="routine_runner_title">Executar Rotina</string>
+    <string name="no_routines_found">Nenhuma rotina encontrada</string>
+    <string name="create_first_routine_desc">Crie rotinas personalizadas matinais ou noturnas com cronômetros passo a passo.</string>
+    <string name="btn_start_routine">Iniciar rotina</string>
+    <string name="btn_add_step">Adicionar passo</string>
+    <string name="btn_next_step">Próximo passo</string>
+    <string name="btn_finish_routine">Concluir rotina</string>
+    <string name="btn_start_timer">Iniciar temporizador</string>
+    <string name="btn_pause_timer">Pausar temporizador</string>
+    <string name="add_routine">Adicionar rotina de beleza</string>
+    <string name="edit_routine">Editar rotina de beleza</string>
+    <string name="hint_routine_title">Título da rotina (ex: Brilho de Domingo)</string>
+    <string name="hint_step_name">Nome do passo (ex: Limpeza)</string>
+    <string name="hint_step_desc">Descrição / Instruções</string>
+    <string name="hint_timer_sec">Temporizador (segundos)</string>
+    <string name="routine_type">Tipo de rotina</string>
+    <string name="routine_type_morning">Manhã</string>
+    <string name="routine_type_night">Noite</string>
+    <string name="routine_type_custom">Personalizada</string>
+    <string name="routine_steps">Passos da rotina</string>
+    <string name="msg_confirm_delete_routine">Tem certeza de que deseja excluir esta rotina?</string>
+    <string name="enter_title">Por favor, insira um título</string>
+    <string name="add_at_least_one_step">Por favor, adicione pelo menos um passo</string>
+    <string name="routine_completed_congrats">Parabéns! Você concluiu sua rotina!</string>
+    <string name="step_timer_finished">Temporizador do passo concluído!</string>
+    <string name="step_progress_format" formatted="false">Passo %1$d de %2$d</string>
 </resources>

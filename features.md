@@ -208,7 +208,7 @@ To support multiple languages and prevent packaging build errors:
 
 ## 🧴 Category 10: Personalization & Smart Tools
 
-### [ ] Feature 31: Beauty Routine Builder
+### [x] Feature 31: Beauty Routine Builder
 * **Goal:** Let users create their own fully custom morning and night beauty routines — a unique offline differentiator.
 * **Details:** Users add steps in sequence (e.g. *"Step 1: Cleanse → Step 2: Toner → Step 3: Moisturize"*). Each step has an optional built-in countdown timer. Save multiple named routines (e.g. *"Morning Glow Routine"*, *"Sunday Deep Care"*) and launch them with one tap.
 * **Tech:** Room database storing routine steps; `CountDownTimer` per step; RecyclerView with drag-to-reorder.
