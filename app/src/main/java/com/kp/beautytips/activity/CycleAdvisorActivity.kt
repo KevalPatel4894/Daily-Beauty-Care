@@ -106,6 +106,7 @@ class CycleAdvisorActivity : BaseActivity() {
         val cal = Calendar.getInstance().apply { timeInMillis = lastPeriodTimeMillis }
         val dialog = DatePickerDialog(
             this,
+            R.style.DialogTheme,
             { _, year, month, dayOfMonth ->
                 val selectedCal = Calendar.getInstance().apply {
                     set(Calendar.YEAR, year)
@@ -125,6 +126,10 @@ class CycleAdvisorActivity : BaseActivity() {
             cal.get(Calendar.DAY_OF_MONTH)
         )
         dialog.datePicker.maxDate = System.currentTimeMillis()
+        dialog.setOnShowListener {
+            dialog.getButton(DatePickerDialog.BUTTON_POSITIVE)?.setTextColor(resources.getColor(R.color.toolBarColor))
+            dialog.getButton(DatePickerDialog.BUTTON_NEGATIVE)?.setTextColor(resources.getColor(R.color.toolBarColor))
+        }
         dialog.show()
     }
 

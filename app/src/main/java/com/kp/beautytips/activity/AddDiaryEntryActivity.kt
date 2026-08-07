@@ -110,13 +110,19 @@ class AddDiaryEntryActivity : BaseActivity() {
         }
 
         val datePickerClick = View.OnClickListener {
-            DatePickerDialog(
+            val dialog = DatePickerDialog(
                 this,
+                R.style.DialogTheme,
                 dateSetListener,
                 calendar.get(Calendar.YEAR),
                 calendar.get(Calendar.MONTH),
                 calendar.get(Calendar.DAY_OF_MONTH)
-            ).show()
+            )
+            dialog.setOnShowListener {
+                dialog.getButton(DatePickerDialog.BUTTON_POSITIVE)?.setTextColor(resources.getColor(R.color.toolBarColor))
+                dialog.getButton(DatePickerDialog.BUTTON_NEGATIVE)?.setTextColor(resources.getColor(R.color.toolBarColor))
+            }
+            dialog.show()
         }
         btnChangeDate.setOnClickListener(datePickerClick)
         txtEntryDate.setOnClickListener(datePickerClick)
