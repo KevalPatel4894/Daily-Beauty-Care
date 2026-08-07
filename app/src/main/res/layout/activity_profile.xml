@@ -137,6 +137,30 @@
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>
 
+            <!-- Age Group Selector -->
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/age_group_title"
+                android:textColor="@color/toolBarColor"
+                android:textSize="@dimen/_11sdp"
+                android:textStyle="bold"
+                android:layout_marginBottom="4dp" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_white_rounded_10"
+                android:paddingHorizontal="@dimen/_8sdp"
+                android:layout_marginBottom="@dimen/_16sdp">
+
+                <Spinner
+                    android:id="@+id/spinnerAgeGroup"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_40sdp"
+                    android:textColor="@color/black" />
+            </FrameLayout>
+
             <!-- Hair Type Selector -->
             <androidx.appcompat.widget.AppCompatTextView
                 android:layout_width="match_parent"

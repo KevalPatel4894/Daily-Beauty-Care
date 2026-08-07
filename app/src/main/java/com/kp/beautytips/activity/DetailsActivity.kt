@@ -240,6 +240,7 @@ class DetailsActivity : BaseActivity() {
         lrWhatShare.setOnClickListener { showShareChooserDialog("com.whatsapp") }
 
         setupTipRating(title)
+        checkAgeGroupBadge(tabName, title, details)
 
         val btnCompleteChallenge = findViewById<androidx.appcompat.widget.AppCompatButton>(R.id.btnCompleteChallenge)
         if (challengeId.isNotEmpty() && !isChallengeTaskCompleted && dayIndex != -1) {
@@ -826,6 +827,32 @@ class DetailsActivity : BaseActivity() {
                     .apply()
                 txtLikeCount.text = likes.toString()
                 txtDislikeCount.text = dislikes.toString()
+            }
+        } catch (e: Exception) {
+            e.printStackTrace()
+        }
+    }
+
+    private fun checkAgeGroupBadge(tabName: String, title: String, details: String) {
+        try {
+            val prefs = getSharedPreferences("BeautyProfile", Context.MODE_PRIVATE)
+            val userAgeGroup = prefs.getString("profile_age_group", "20s") ?: "20s"
+            val txtAgeGroupBadge = findViewById<TextView>(R.id.txtAgeGroupBadge) ?: return
+
+            val lowerText = (title + " " + details).lowercase()
+
+            val isMatch = when (userAgeGroup) {
+                "Teens" -> lowerText.contains("acne") || lowerText.contains("pimple") || lowerText.contains("oil") || lowerText.contains("blackhead")
+                "20s" -> lowerText.contains("glow") || lowerText.contains("fair") || lowerText.contains("moistur") || lowerText.contains("sun")
+                "30s" -> lowerText.contains("dark circle") || lowerText.contains("eye") || lowerText.contains("tan") || lowerText.contains("wrinkle")
+                "40s" -> lowerText.contains("wrinkle") || lowerText.contains("firm") || lowerText.contains("aging") || lowerText.contains("collagen") || lowerText.contains("tight")
+                else -> false
+            }
+
+            if (isMatch) {
+                txtAgeGroupBadge.visibility = View.VISIBLE
+            } else {
+                txtAgeGroupBadge.visibility = View.GONE
             }
         } catch (e: Exception) {
             e.printStackTrace()

@@ -4084,4 +4084,13 @@
     <string name="porosity_high_desc">水分が抜けやすくパサつきやすい。</string>
     <string name="porosity_high_remedies">卵タンパク質パックでキューティクルを補修。</string>
     <string name="porosity_high_avoid">熱湯でのすすぎを避ける。</string>
+
+    <string name="age_group_title">年代別パーソナライズ</string>
+    <string name="age_group_subtitle">あなたの年齢に最適な美容アドバイス</string>
+    <string name="badge_best_for_your_age">⭐ あなたの年代におすすめ</string>
+    <string name="age_teens">10代 (13-19)</string>
+    <string name="age_twenties">20代 (20-29)</string>
+    <string name="age_thirties">30代 (30-39)</string>
+    <string name="age_forties_plus">40代以上 (40+)</string>
+    <string name="msg_age_group_saved">年代設定を更新しました！</string>
 </resources>

@@ -4084,4 +4084,13 @@
     <string name="porosity_high_desc">Волосы быстро теряют влагу и пушатся.</string>
     <string name="porosity_high_remedies">Яичные протеиновые маски и авокадо.</string>
     <string name="porosity_high_avoid">Избегайте горячей воды.</string>
+
+    <string name="age_group_title">Персонализация по возрасту</string>
+    <string name="age_group_subtitle">Подбор советов под ваш возраст</string>
+    <string name="badge_best_for_your_age">⭐ Рекомендовано для вашего возраста</string>
+    <string name="age_teens">Подростки (13-19)</string>
+    <string name="age_twenties">20-29 лет</string>
+    <string name="age_thirties">30-39 лет</string>
+    <string name="age_forties_plus">40+ лет</string>
+    <string name="msg_age_group_saved">Возрастная группа обновлена!</string>
 </resources>

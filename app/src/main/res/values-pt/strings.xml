@@ -4066,4 +4066,13 @@
     <string name="porosity_high_desc">Perde umidade rápido causando frizz.</string>
     <string name="porosity_high_remedies">Máscara de proteína de ovo e abacate.</string>
     <string name="porosity_high_avoid">Evite água quente.</string>
+
+    <string name="age_group_title">Personalização por Idade</string>
+    <string name="age_group_subtitle">Dicas adaptadas à sua faixa etária</string>
+    <string name="badge_best_for_your_age">⭐ Ideal para sua idade</string>
+    <string name="age_teens">Adolescentes (13-19)</string>
+    <string name="age_twenties">20s (20-29)</string>
+    <string name="age_thirties">30s (30-39)</string>
+    <string name="age_forties_plus">40s+ (40 ou mais)</string>
+    <string name="msg_age_group_saved">Faixa etária atualizada!</string>
 </resources>

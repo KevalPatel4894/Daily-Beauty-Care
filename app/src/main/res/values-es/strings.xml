@@ -4089,4 +4089,13 @@
     <string name="porosity_high_desc">El cabello pierde humedad rápido provocando frizz.</string>
     <string name="porosity_high_remedies">Aplica mascarillas de proteína de huevo y aguacate.</string>
     <string name="porosity_high_avoid">Evita agua caliente.</string>
+
+    <string name="age_group_title">Personalización por Edad</string>
+    <string name="age_group_subtitle">Adapta los consejos a tu etapa de vida</string>
+    <string name="badge_best_for_your_age">⭐ Ideal para tu edad</string>
+    <string name="age_teens">Adolescentes (13-19)</string>
+    <string name="age_twenties">20s (20-29)</string>
+    <string name="age_thirties">30s (30-39)</string>
+    <string name="age_forties_plus">40s+ (40 o más)</string>
+    <string name="msg_age_group_saved">¡Grupo de edad actualizado!</string>
 </resources>

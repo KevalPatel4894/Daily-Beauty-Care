@@ -233,7 +233,7 @@ To support multiple languages and prevent packaging build errors:
 * **Details:** A 3-step interactive quiz tests hair porosity (Low / Normal / High). Result explains what it means and links to targeted remedies (e.g. protein treatments for high porosity, lightweight oils for low porosity).
 * **Tech:** Simple quiz scoring logic; result links to existing hair tips in the app.
 
-### [ ] Feature 36: Age Group Filter
+### [x] Feature 36: Age Group Filter
 * **Goal:** Make tips feel personally relevant by surfacing age-appropriate content.
 * **Details:** Users set their age group once in Settings (Teens / 20s / 30s / 40s+). Tips relevant to their age show a *"Best for your age"* badge. A *"For You"* section shows only age-matched tips.
 * **Tech:** Age tag field added to JSON tips data; `SharedPreferences` storing selected age group; filtered adapter.

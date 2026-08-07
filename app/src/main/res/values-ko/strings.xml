@@ -4058,4 +4058,13 @@
     <string name="porosity_high_desc">수분이 쉽게 빠져나가 부스스함.</string>
     <string name="porosity_high_remedies">달걀 단백질 팩과 아보카도 버터 케어.</string>
     <string name="porosity_high_avoid">뜨거운 물 헹굼 피하기.</string>
+
+    <string name="age_group_title">연령대별 맞춤 추천</string>
+    <string name="age_group_subtitle">내 나이에 꼭 맞는 뷰티 레시피</string>
+    <string name="badge_best_for_your_age">⭐ 내 연령대 추천 팁</string>
+    <string name="age_teens">10대 (13-19)</string>
+    <string name="age_twenties">20대 (20-29)</string>
+    <string name="age_thirties">30대 (30-39)</string>
+    <string name="age_forties_plus">40대 이상 (40+)</string>
+    <string name="msg_age_group_saved">연령대가 업데이트되었습니다!</string>
 </resources>

@@ -4089,4 +4089,13 @@
     <string name="porosity_high_desc">Haar verliert schnell Feuchtigkeit.</string>
     <string name="porosity_high_remedies">Proteinmasken und Avocadoöl verwenden.</string>
     <string name="porosity_high_avoid">Heißes Wasser vermeiden.</string>
+
+    <string name="age_group_title">Altersgruppen-Personalisierung</string>
+    <string name="age_group_subtitle">Schönheitstipps an Ihr Alter anpassen</string>
+    <string name="badge_best_for_your_age">⭐ Beste Wahl für Ihr Alter</string>
+    <string name="age_teens">Teens (13-19)</string>
+    <string name="age_twenties">20er (20-29)</string>
+    <string name="age_thirties">30er (30-39)</string>
+    <string name="age_forties_plus">40+ (40 und älter)</string>
+    <string name="msg_age_group_saved">Altersgruppe aktualisiert!</string>
 </resources>

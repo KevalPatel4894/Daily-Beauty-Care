@@ -4084,4 +4084,13 @@
     <string name="porosity_high_desc">Perte rapide d\'hydratation et frisottis.</string>
     <string name="porosity_high_remedies">Masque protéiné à l\'œuf et l\'avocat.</string>
     <string name="porosity_high_avoid">Évitez l\'eau très chaude.</string>
+
+    <string name="age_group_title">Personnalisation par Âge</string>
+    <string name="age_group_subtitle">Adaptez vos soins selon votre âge</string>
+    <string name="badge_best_for_your_age">⭐ Recommandé pour votre âge</string>
+    <string name="age_teens">Ados (13-19)</string>
+    <string name="age_twenties">20s (20-29)</string>
+    <string name="age_thirties">30s (30-39)</string>
+    <string name="age_forties_plus">40s+ (40 et plus)</string>
+    <string name="msg_age_group_saved">Tranche d\'âge mise à jour!</string>
 </resources>

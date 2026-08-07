@@ -4064,4 +4064,13 @@
     <string name="porosity_high_desc">नमी तुरंत निकल जाती है जिससे बाल उलझते हैं।</string>
     <string name="porosity_high_remedies">अंडे का प्रोटीन मास्क और एवोकाडो लगाएं।</string>
     <string name="porosity_high_avoid">बहुत गर्म पानी से धोने से बचें।</string>
+
+    <string name="age_group_title">उम्र के अनुसार टिप चयन</string>
+    <string name="age_group_subtitle">अपनी उम्र के हिसाब से ब्यूटी टिप्स पाएं</string>
+    <string name="badge_best_for_your_age">⭐ आपकी उम्र के लिए बेस्ट</string>
+    <string name="age_teens">टीनएज (13-19)</string>
+    <string name="age_twenties">20s (20-29)</string>
+    <string name="age_thirties">30s (30-39)</string>
+    <string name="age_forties_plus">40s+ (40 या अधिक)</string>
+    <string name="msg_age_group_saved">आयु वर्ग अपडेट हो गया!</string>
 </resources>

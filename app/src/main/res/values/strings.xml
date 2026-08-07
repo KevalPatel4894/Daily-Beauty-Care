@@ -4124,4 +4124,14 @@
     <string name="porosity_high_desc">Cuticles have gaps &amp; tears. Hair absorbs moisture fast but loses it quickly, causing frizzy hair.</string>
     <string name="porosity_high_remedies">Apply egg protein masks, avocado butter, and leave-in conditioner to seal cuticles.</string>
     <string name="porosity_high_avoid">Avoid hot water rinses and sulfates which strip natural oils.</string>
+
+    <!-- Feature 36: Age Group Filter -->
+    <string name="age_group_title">Age Group Personalization</string>
+    <string name="age_group_subtitle">Tailor beauty tips to your life stage</string>
+    <string name="badge_best_for_your_age">⭐ Best for your age</string>
+    <string name="age_teens">Teens (13-19)</string>
+    <string name="age_twenties">20s (20-29)</string>
+    <string name="age_thirties">30s (30-39)</string>
+    <string name="age_forties_plus">40s+ (40 and above)</string>
+    <string name="msg_age_group_saved">Age group updated!</string>
 </resources>

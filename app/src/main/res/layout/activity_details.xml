@@ -50,6 +50,21 @@
             android:gravity="center"
             android:textColor="@color/white"
             android:textSize="@dimen/_13sdp" />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txtAgeGroupBadge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/bg_white_rounded_10"
+            android:backgroundTint="#FFF3CD"
+            android:paddingHorizontal="@dimen/_10sdp"
+            android:paddingVertical="@dimen/_4sdp"
+            android:text="@string/badge_best_for_your_age"
+            android:textColor="#856404"
+            android:textSize="@dimen/_9sdp"
+            android:textStyle="bold"
+            android:visibility="gone" />
     </androidx.appcompat.widget.LinearLayoutCompat>
 
     <androidx.core.widget.NestedScrollView
