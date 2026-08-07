@@ -156,12 +156,16 @@ class BeautyCalendarActivity : BaseActivity() {
     }
 
     private fun showAddTaskDialog() {
-        val builder = AlertDialog.Builder(this)
+        val builder = AlertDialog.Builder(this, R.style.DialogTheme)
         builder.setTitle(R.string.dialog_add_task_title)
 
-        val input = EditText(this)
-        input.hint = getString(R.string.hint_task_name)
-        input.setPadding(32, 24, 32, 24)
+        val input = EditText(this).apply {
+            hint = getString(R.string.hint_task_name)
+            setHintTextColor(0xFF888888.toInt())
+            setTextColor(0xFF333333.toInt())
+            setPadding(40, 30, 40, 30)
+            textSize = 14f
+        }
         builder.setView(input)
 
         builder.setPositiveButton(android.R.string.ok) { dialog, _ ->
@@ -182,7 +186,13 @@ class BeautyCalendarActivity : BaseActivity() {
         builder.setNegativeButton(android.R.string.cancel) { dialog, _ ->
             dialog.dismiss()
         }
-        builder.show()
+
+        val alertDialog = builder.create()
+        alertDialog.setOnShowListener {
+            alertDialog.getButton(AlertDialog.BUTTON_POSITIVE)?.setTextColor(resources.getColor(R.color.toolBarColor))
+            alertDialog.getButton(AlertDialog.BUTTON_NEGATIVE)?.setTextColor(resources.getColor(R.color.toolBarColor))
+        }
+        alertDialog.show()
     }
 
     private fun loadTasks() {
