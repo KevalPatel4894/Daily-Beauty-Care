@@ -4146,4 +4146,10 @@
     <string name="tip_of_week_3_desc">髪の芯まで浸透し、サラツヤ髪へ仕上げます。</string>
     <string name="tip_of_week_4_title">🥑 アボカド＆オートミールスクラブ</string>
     <string name="tip_of_week_4_desc">古い角質をやさしく取り除き、なめらかな肌に。</string>
+
+    <string name="recently_viewed_title"> 최근に見たヒント</string>
+    <string name="recently_viewed_subtitle">最近チェックしたケアを再確認</string>
+    <string name="btn_clear_history">履歴を消去</string>
+    <string name="no_recently_viewed">閲覧履歴はありません。</string>
+    <string name="msg_history_cleared">閲覧履歴を消去しました！</string>
 </resources>

@@ -242,6 +242,7 @@ class DetailsActivity : BaseActivity() {
         setupTipRating(title)
         checkAgeGroupBadge(tabName, title, details)
         checkAllergenWarning(title, details)
+        saveRecentlyViewed(title, tabName, details)
 
         val btnCompleteChallenge = findViewById<androidx.appcompat.widget.AppCompatButton>(R.id.btnCompleteChallenge)
         if (challengeId.isNotEmpty() && !isChallengeTaskCompleted && dayIndex != -1) {
@@ -880,6 +881,40 @@ class DetailsActivity : BaseActivity() {
             } else {
                 txtAllergenWarning.visibility = View.GONE
             }
+        } catch (e: Exception) {
+            e.printStackTrace()
+        }
+    }
+
+    private fun saveRecentlyViewed(title: String, tabName: String, details: String) {
+        if (title.isEmpty()) return
+        try {
+            val prefs = getSharedPreferences("beautytips_prefs", Context.MODE_PRIVATE)
+            val jsonStr = prefs.getString("recently_viewed_tips_json", null)
+            val list = mutableListOf<org.json.JSONObject>()
+
+            if (jsonStr != null) {
+                val array = org.json.JSONArray(jsonStr)
+                for (i in 0 until array.length()) {
+                    val obj = array.getJSONObject(i)
+                    if (obj.optString("title") != title) {
+                        list.add(obj)
+                    }
+                }
+            }
+
+            val newObj = org.json.JSONObject().apply {
+                put("title", title)
+                put("tabName", tabName)
+                put("details", details)
+            }
+            list.add(0, newObj)
+
+            val trimmedList = if (list.size > 15) list.subList(0, 15) else list
+            val newArray = org.json.JSONArray()
+            trimmedList.forEach { newArray.put(it) }
+
+            prefs.edit().putString("recently_viewed_tips_json", newArray.toString()).apply()
         } catch (e: Exception) {
             e.printStackTrace()
         }

@@ -189,6 +189,14 @@ class SettingActivity : BaseActivity() {
                 AppUtils.startFromRightToLeft(this)
             }
         }
+
+        val rlRecentlyViewed = findViewById<View>(R.id.rlRecentlyViewed)
+        rlRecentlyViewed?.setOnClickListener {
+            Intent(this, RecentlyViewedActivity::class.java).also {
+                startActivity(it)
+                AppUtils.startFromRightToLeft(this)
+            }
+        }
     }
 
     override fun onSupportNavigateUp(): Boolean {

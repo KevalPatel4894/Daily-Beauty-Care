@@ -4146,4 +4146,10 @@
     <string name="tip_of_week_3_desc">Глубокое восстановление для шелковистых и сильных волос.</string>
     <string name="tip_of_week_4_title">🥑 Скраб с авокадо и овсянкой</string>
     <string name="tip_of_week_4_desc">Мягко отшелушивает, делая кожу гладкой и нежной.</string>
+
+    <string name="recently_viewed_title">Недавно просмотренные</string>
+    <string name="recently_viewed_subtitle">Быстрый доступ к ранее открытым советам</string>
+    <string name="btn_clear_history">Очистить историю</string>
+    <string name="no_recently_viewed">Нет недавно просмотренных советов.</string>
+    <string name="msg_history_cleared">История успешно очищена!</string>
 </resources>

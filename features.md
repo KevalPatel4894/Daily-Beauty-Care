@@ -267,7 +267,7 @@ To support multiple languages and prevent packaging build errors:
 * **Details:** One tip is featured at the top of the home screen in a highlighted banner card. Auto-rotates weekly using a deterministic weekly index. Shows a *"This Week\'s Pick"* badge with the tip title and category.
 * **Tech:** `Calendar.WEEK_OF_YEAR` as index into tip list; no backend required; home screen card view.
 
-### [ ] Feature 42: Recently Viewed History
+### [x] Feature 42: Recently Viewed History
 * **Goal:** Let users quickly return to tips they were reading without searching again.
 * **Details:** Every time a user opens a tip detail screen, its ID and title are stored in a *"Recently Viewed"* list (max 15 entries, newest first). Accessible from the Search screen or Settings menu.
 * **Tech:** `SharedPreferences` storing a JSON array of last 15 tip IDs/titles; displayed in a simple RecyclerView.

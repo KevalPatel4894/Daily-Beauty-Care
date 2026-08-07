@@ -4151,4 +4151,10 @@
     <string name="tip_of_week_3_desc">Tratamiento de acondicionamiento profundo para cabello sedoso.</string>
     <string name="tip_of_week_4_title">🥑 Exfoliante de Aguacate y Avena</string>
     <string name="tip_of_week_4_desc">Exfoliante natural suave que elimina células muertas sin resecar.</string>
+
+    <string name="recently_viewed_title">Vistos Recientemente</string>
+    <string name="recently_viewed_subtitle">Accede rápidamente a los remedios que abriste</string>
+    <string name="btn_clear_history">Borrar Historial</string>
+    <string name="no_recently_viewed">No hay remedios vistos recientemente.</string>
+    <string name="msg_history_cleared">¡Historial borrado!</string>
 </resources>

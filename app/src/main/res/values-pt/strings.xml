@@ -4128,4 +4128,10 @@
     <string name="tip_of_week_3_desc">Tratamento profundo para cabelos macios e fortalecidos.</string>
     <string name="tip_of_week_4_title">🥑 Esfoliante de Abacate e Aveia</string>
     <string name="tip_of_week_4_desc">Esfoliação suave que remove células mortas com maciez.</string>
+
+    <string name="recently_viewed_title">Vistos Recentemente</string>
+    <string name="recently_viewed_subtitle">Acesse rapidamente remédios abertos anteriormente</string>
+    <string name="btn_clear_history">Limpar Histórico</string>
+    <string name="no_recently_viewed">Nenhuma dica vista recentemente.</string>
+    <string name="msg_history_cleared">Histórico limpo com sucesso!</string>
 </resources>

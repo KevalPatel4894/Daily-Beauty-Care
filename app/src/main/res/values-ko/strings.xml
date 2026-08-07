@@ -4120,4 +4120,10 @@
     <string name="tip_of_week_3_desc">부드럽고 건강한 머릿결을 위한 딥 케어 트리트먼트.</string>
     <string name="tip_of_week_4_title">🥑 아보카도 &amp; 귀리 페이스 스크럽</string>
     <string name="tip_of_week_4_desc">자극 없이 각질을 제거해 매끄러운 피부로 가꿔줍니다.</string>
+
+    <string name="recently_viewed_title">최근 본 뷰티 팁</string>
+    <string name="recently_viewed_subtitle">이전에 확인한 팁 빠르게 열기</string>
+    <string name="btn_clear_history">기록 삭제</string>
+    <string name="no_recently_viewed">최근 본 팁이 없습니다.</string>
+    <string name="msg_history_cleared">최근 본 기록이 삭제되었습니다!</string>
 </resources>

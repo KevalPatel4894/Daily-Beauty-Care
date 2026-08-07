@@ -4191,4 +4191,11 @@
     <string name="tip_of_week_3_desc">Deep conditioning treatment for silky smooth hair and strong, damage-free roots.</string>
     <string name="tip_of_week_4_title">🥑 Creamy Avocado &amp; Oatmeal Face Scrub</string>
     <string name="tip_of_week_4_desc">Gentle natural exfoliator that removes dead skin cells without stripping natural moisture.</string>
+
+    <!-- Feature 42: Recently Viewed History -->
+    <string name="recently_viewed_title">Recently Viewed Tips</string>
+    <string name="recently_viewed_subtitle">Quickly access remedies you previously opened</string>
+    <string name="btn_clear_history">Clear History</string>
+    <string name="no_recently_viewed">No recently viewed tips found.</string>
+    <string name="msg_history_cleared">Recently viewed history cleared!</string>
 </resources>

@@ -4126,4 +4126,10 @@
     <string name="tip_of_week_3_desc">बालों को सिल्की और मजबूत बनाने के लिए डीप केयर।</string>
     <string name="tip_of_week_4_title">🥑 एवोकैडो और ओट्स फेस स्क्रब</string>
     <string name="tip_of_week_4_desc">डेड स्किन हटाकर चेहरे को कोमल बनाता है।</string>
+
+    <string name="recently_viewed_title">हाल ही में देखे गए टिप्स</string>
+    <string name="recently_viewed_subtitle">पहले खोले गए टिप्स पर तुरंत जाएं</string>
+    <string name="btn_clear_history">हिस्ट्री साफ करें</string>
+    <string name="no_recently_viewed">कोई हालिया टिप्स नहीं मिले।</string>
+    <string name="msg_history_cleared">हिस्ट्री साफ हो गई!</string>
 </resources>

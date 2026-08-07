@@ -4151,4 +4151,10 @@
     <string name="tip_of_week_3_desc">Tiefenpflege für seidiges Haar und kräftige Wurzeln.</string>
     <string name="tip_of_week_4_title">🥑 Avocado- &amp; Hafer-Gesichtspeeling</string>
     <string name="tip_of_week_4_desc">Sanftes Peeling für ein klares und geschmeidiges Hautbild.</string>
+
+    <string name="recently_viewed_title">Zuletzt angesehene Tipps</string>
+    <string name="recently_viewed_subtitle">Schnell auf zuvor geöffnete Tipps zugreifen</string>
+    <string name="btn_clear_history">Verlauf löschen</string>
+    <string name="no_recently_viewed">Keine kürzlich angesehenen Tipps gefunden.</string>
+    <string name="msg_history_cleared">Verlauf erfolgreich gelöscht!</string>
 </resources>

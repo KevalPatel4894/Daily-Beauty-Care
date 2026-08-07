@@ -4146,4 +4146,10 @@
     <string name="tip_of_week_3_desc">Soin revitalisant profond pour des cheveux doux et fortifiés.</string>
     <string name="tip_of_week_4_title">🥑 Gommage Avocat &amp; Avoine</string>
     <string name="tip_of_week_4_desc">Exfoliant naturel doux qui préserve l\'hydratation de la peau.</string>
+
+    <string name="recently_viewed_title">Consultés Récemment</string>
+    <string name="recently_viewed_subtitle">Accédez rapidement aux soins ouverts</string>
+    <string name="btn_clear_history">Effacer l\'Historique</string>
+    <string name="no_recently_viewed">Aucun soin consulté récemment.</string>
+    <string name="msg_history_cleared">Historique effacé!</string>
 </resources>
