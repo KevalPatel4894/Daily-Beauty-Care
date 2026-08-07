@@ -4015,4 +4015,9 @@
     <string name="msg_cycle_saved">Réglages du cycle enregistrés avec succès!</string>
 
     <string name="ingredient_glossary_subtitle">Évaluations de sécurité et compatibilité cutanée</string>
+
+    <string name="was_this_helpful">Ce conseil vous a-t-il été utile?</string>
+    <string name="msg_thank_you_rating">Merci pour votre évaluation!</string>
+    <string name="top_rated_tips">Conseils Les Mieux Notés</string>
+    <string name="top_rated_subtitle">Les recettes de beauté les plus aimées</string>
 </resources>

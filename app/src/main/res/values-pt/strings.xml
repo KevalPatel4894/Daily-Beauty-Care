@@ -3997,4 +3997,9 @@
     <string name="msg_cycle_saved">Configurações salvas com sucesso!</string>
 
     <string name="ingredient_glossary_subtitle">Classificação de segurança e compatibilidade</string>
+
+    <string name="was_this_helpful">Esta dica foi útil?</string>
+    <string name="msg_thank_you_rating">Obrigado pela sua avaliação!</string>
+    <string name="top_rated_tips">Dicas Mais Bem Avaliadas</string>
+    <string name="top_rated_subtitle">Remédios de beleza mais curtidos</string>
 </resources>

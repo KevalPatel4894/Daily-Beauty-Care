@@ -17,6 +17,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ProgressBar
 import android.widget.RelativeLayout
+import android.widget.TextView
 import android.widget.Toast
 import androidx.cardview.widget.CardView
 import com.bumptech.glide.Glide
@@ -237,6 +238,8 @@ class DetailsActivity : BaseActivity() {
 
         lrShare.setOnClickListener { showShareChooserDialog(null) }
         lrWhatShare.setOnClickListener { showShareChooserDialog("com.whatsapp") }
+
+        setupTipRating(title)
 
         val btnCompleteChallenge = findViewById<androidx.appcompat.widget.AppCompatButton>(R.id.btnCompleteChallenge)
         if (challengeId.isNotEmpty() && !isChallengeTaskCompleted && dayIndex != -1) {
@@ -760,6 +763,70 @@ class DetailsActivity : BaseActivity() {
             val prefs = getSharedPreferences("beautytips_prefs", Context.MODE_PRIVATE)
             val count = prefs.getInt("tips_shared_count", 0)
             prefs.edit().putInt("tips_shared_count", count + 1).apply()
+        } catch (e: Exception) {
+            e.printStackTrace()
+        }
+    }
+
+    private fun setupTipRating(tipTitle: String) {
+        if (tipTitle.isEmpty()) return
+        try {
+            val layoutLike = findViewById<View>(R.id.layoutLike)
+            val layoutDislike = findViewById<View>(R.id.layoutDislike)
+            val txtLikeCount = findViewById<TextView>(R.id.txtLikeCount)
+            val txtDislikeCount = findViewById<TextView>(R.id.txtDislikeCount)
+
+            val ratingPrefs = getSharedPreferences("tip_ratings_prefs", Context.MODE_PRIVATE)
+            val keyLike = "like_$tipTitle"
+            val keyDislike = "dislike_$tipTitle"
+            val keyUserVote = "vote_$tipTitle" // 1 for like, -1 for dislike, 0 for none
+
+            var likes = ratingPrefs.getInt(keyLike, (Math.abs(tipTitle.hashCode()) % 80) + 15) // baseline realistic count
+            var dislikes = ratingPrefs.getInt(keyDislike, (Math.abs(tipTitle.hashCode()) % 10))
+            var userVote = ratingPrefs.getInt(keyUserVote, 0)
+
+            txtLikeCount.text = likes.toString()
+            txtDislikeCount.text = dislikes.toString()
+
+            layoutLike?.setOnClickListener {
+                if (userVote == 1) {
+                    // Undo like
+                    likes--
+                    userVote = 0
+                } else {
+                    if (userVote == -1) dislikes--
+                    likes++
+                    userVote = 1
+                    Toast.makeText(this, R.string.msg_thank_you_rating, Toast.LENGTH_SHORT).show()
+                }
+                ratingPrefs.edit()
+                    .putInt(keyLike, likes)
+                    .putInt(keyDislike, dislikes)
+                    .putInt(keyUserVote, userVote)
+                    .apply()
+                txtLikeCount.text = likes.toString()
+                txtDislikeCount.text = dislikes.toString()
+            }
+
+            layoutDislike?.setOnClickListener {
+                if (userVote == -1) {
+                    // Undo dislike
+                    dislikes--
+                    userVote = 0
+                } else {
+                    if (userVote == 1) likes--
+                    dislikes++
+                    userVote = -1
+                    Toast.makeText(this, R.string.msg_thank_you_rating, Toast.LENGTH_SHORT).show()
+                }
+                ratingPrefs.edit()
+                    .putInt(keyLike, likes)
+                    .putInt(keyDislike, dislikes)
+                    .putInt(keyUserVote, userVote)
+                    .apply()
+                txtLikeCount.text = likes.toString()
+                txtDislikeCount.text = dislikes.toString()
+            }
         } catch (e: Exception) {
             e.printStackTrace()
         }

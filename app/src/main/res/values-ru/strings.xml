@@ -4015,4 +4015,9 @@
     <string name="msg_cycle_saved">Настройки цикла успешно сохранены!</string>
 
     <string name="ingredient_glossary_subtitle">Оценка безопасности и совместимости с кожей</string>
+
+    <string name="was_this_helpful">Был ли этот совет полезен?</string>
+    <string name="msg_thank_you_rating">Спасибо за вашу оценку!</string>
+    <string name="top_rated_tips">Лучшие советы по рейтингу</string>
+    <string name="top_rated_subtitle">Самые популярные рецепты красоты</string>
 </resources>

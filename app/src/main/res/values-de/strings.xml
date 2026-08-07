@@ -4020,4 +4020,9 @@
     <string name="msg_cycle_saved">Zykluseinstellungen erfolgreich gespeichert!</string>
 
     <string name="ingredient_glossary_subtitle">Sicherheitsbewertungen &amp; Hautverträglichkeit</string>
+
+    <string name="was_this_helpful">War dieser Tipp hilfreich?</string>
+    <string name="msg_thank_you_rating">Vielen Dank für Ihre Bewertung!</string>
+    <string name="top_rated_tips">Am besten bewertete Tipps</string>
+    <string name="top_rated_subtitle">Die am meisten geschätzten Schönheitsrezepte</string>
 </resources>

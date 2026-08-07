@@ -3995,4 +3995,9 @@
     <string name="msg_cycle_saved">साइकिल सेटिंग सफलतापूर्वक सहेजी गई!</string>
 
     <string name="ingredient_glossary_subtitle">सुरक्षा रेटिंग और त्वचा अनुकूलता शब्दकोश</string>
+
+    <string name="was_this_helpful">क्या यह टिप आपके लिए उपयोगी थी?</string>
+    <string name="msg_thank_you_rating">रेटिंग के लिए धन्यवाद!</string>
+    <string name="top_rated_tips">टॉप रेटेड टिप्स</string>
+    <string name="top_rated_subtitle">उपयोगकर्ताओं द्वारा सबसे ज्यादा पसंद किए गए नुस्खे</string>
 </resources>

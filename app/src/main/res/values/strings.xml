@@ -4042,4 +4042,10 @@
     <string name="phase_menstrual_tip_desc">Avoid harsh exfoliants or strong acids. Apply soothing aloe vera and ceramide cream to restore skin barrier.</string>
 
     <string name="msg_cycle_saved">Cycle settings saved successfully!</string>
+
+    <!-- Feature 33: Tip Rating System -->
+    <string name="was_this_helpful">Was this tip helpful?</string>
+    <string name="msg_thank_you_rating">Thank you for rating!</string>
+    <string name="top_rated_tips">Top Rated Tips</string>
+    <string name="top_rated_subtitle">Most liked natural beauty remedies by users</string>
 </resources>

@@ -3989,4 +3989,9 @@
     <string name="msg_cycle_saved">주기 설정이 성공적으로 저장되었습니다!</string>
 
     <string name="ingredient_glossary_subtitle">안전 등급 및 피부 타입별 성분 사전</string>
+
+    <string name="was_this_helpful">이 팁이 도움이 되었나요?</string>
+    <string name="msg_thank_you_rating">평가해 주셔서 감사합니다!</string>
+    <string name="top_rated_tips">최고 평점 뷰티 팁</string>
+    <string name="top_rated_subtitle">사용자들이 가장 좋아하는 천연 뷰티 레시피</string>
 </resources>

@@ -4020,4 +4020,9 @@
     <string name="msg_cycle_saved">¡Ajustes del ciclo guardados con éxito!</string>
 
     <string name="ingredient_glossary_subtitle">Evaluación de seguridad y compatibilidad de piel</string>
+
+    <string name="was_this_helpful">¿Te ha resultado útil este consejo?</string>
+    <string name="msg_thank_you_rating">¡Gracias por tu valoración!</string>
+    <string name="top_rated_tips">Consejos Mejor Valorados</string>
+    <string name="top_rated_subtitle">Los remedios de belleza con más me gusta</string>
 </resources>

@@ -4015,4 +4015,9 @@
     <string name="msg_cycle_saved">周期設定を保存しました！</string>
 
     <string name="ingredient_glossary_subtitle">成分の安全性評価＆肌相性辞書</string>
+
+    <string name="was_this_helpful">このヒントは役に立ちましたか？</string>
+    <string name="msg_thank_you_rating">評価ありがとうございます！</string>
+    <string name="top_rated_tips">高評価の美容ヒント</string>
+    <string name="top_rated_subtitle">最も「いいね」された天然美容レシピ</string>
 </resources>

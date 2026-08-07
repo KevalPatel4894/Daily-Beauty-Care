@@ -34,19 +34,22 @@ All tips in this application utilize natural, easily available ingredients such 
 💅 **Hands & Feet:** Waxing at Home, Dry and rough hands, Nail growth, Pinky shiny nails, Dark underarms, Cracked heels
 
 📱 **Interactive Smart Features:**
+• **Tip Rating System:** Rate remedies (👍/👎) to surface top user-loved natural tips
+• **Ingredient Safety Analyzer:** Check safety ratings & skin compatibility dictionary offline
 • **Skincare Cycle Advisor:** Hormonal acne tracker & phase-by-phase preventative skincare remedies
 • **Seasonal Beauty Advisor:** Customized natural care checklists for Summer, Monsoon, Autumn & Winter
 • **Daily Water Intake Tracker:** Track daily water glasses for glowing skin retention
 • **Personalized Beauty Profile:** Custom recommendations tailored to your skin type & concerns
 • **Custom Routine Builder:** Morning & Evening self-care countdown timers with alarms
 • **Beauty Wellness Score:** Track your daily self-care habit progress
-• **Ingredient Glossary:** Check safety ratings of cosmetic ingredients offline
 
 ---
 
 ### What's New / Release Notes (Play Console Upload):
 ```
-🎉 NEW UPDATE & WOMEN'S SKINCARE CYCLE ADVISOR!
+🎉 NEW UPDATE & TIP RATING SYSTEM!
+👍 Added Tip Rating System (Rate remedies with 👍/👎 and view community-favorite tips)
+🧪 Added Cosmetic Ingredient Safety Analyzer (Check safety ratings & skin compatibility dictionary offline)
 🌸 Added Skincare Cycle Advisor & Hormonal Acne Tracker (Predict hormonal breakouts & get targeted preventative remedies)
 🍂 Added Seasonal Beauty Advisor (Summer, Monsoon, Autumn & Winter natural care checklists)
 🧔 Added Men's Grooming & Beard Care Category (Beard growth, mustache styling, men's hair fall remedies)

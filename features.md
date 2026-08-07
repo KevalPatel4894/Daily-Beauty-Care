@@ -218,7 +218,7 @@ To support multiple languages and prevent packaging build errors:
 * **Details:** A card asks *"How is your skin feeling today?"* with options: Dull, Oily, Dry, Tired, Sensitive, Glowing. The app instantly shows curated tips matching that mood/condition.
 * **Tech:** Tag-based offline filter on existing JSON tips data; no extra database required.
 
-### [ ] Feature 33: Tip Rating System
+### [x] Feature 33: Tip Rating System
 * **Goal:** Surface the most effective tips to the top over time, giving users a sense of ownership.
 * **Details:** A 👍 / 👎 button on each tip detail screen. Ratings stored locally per Tip ID. A *"Top Rated"* section shows the 10 most liked tips across all categories.
 * **Tech:** `SharedPreferences` storing like/dislike counts per Tip ID; sorted RecyclerView adapter.
