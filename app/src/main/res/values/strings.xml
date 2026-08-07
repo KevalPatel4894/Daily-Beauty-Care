@@ -4046,6 +4046,47 @@
     <!-- Feature 33: Tip Rating System -->
     <string name="was_this_helpful">Was this tip helpful?</string>
     <string name="msg_thank_you_rating">Thank you for rating!</string>
-    <string name="top_rated_tips">Top Rated Tips</string>
-    <string name="top_rated_subtitle">Most liked natural beauty remedies by users</string>
+    <!-- Feature 34: Face Shape Guide -->
+    <string name="face_shape_guide_title">Face Shape Guide</string>
+    <string name="face_shape_guide_subtitle">Contouring, eyebrows &amp; hairstyle advisor</string>
+    <string name="btn_calculate_face_shape">Calculate My Face Shape</string>
+
+    <string name="q_widest_part">1. Where is your face the widest?</string>
+    <string name="opt_widest_cheekbones">Cheekbones</string>
+    <string name="opt_widest_forehead">Forehead</string>
+    <string name="opt_widest_jaw">Jawline</string>
+    <string name="opt_widest_equal">Equal width everywhere</string>
+
+    <string name="q_jaw_shape">2. What is the shape of your jawline?</string>
+    <string name="opt_jaw_round">Soft / Rounded</string>
+    <string name="opt_jaw_square">Sharp / Square</string>
+    <string name="opt_jaw_pointed">Pointed / Narrow</string>
+
+    <string name="q_face_length">3. How long is your face compared to width?</string>
+    <string name="opt_length_longer">Longer than wide</string>
+    <string name="opt_length_equal">Equal length and width</string>
+
+    <string name="shape_oval_title">👤 Oval Face Shape</string>
+    <string name="shape_oval_desc">Slightly longer than wide with balanced proportions. Oval is considered the most versatile face shape!</string>
+    <string name="shape_oval_contour">Contour lightly under cheekbones to add depth.</string>
+    <string name="shape_oval_brows">Softly angled eyebrows enhance natural symmetry.</string>
+    <string name="shape_oval_hair">Bobs, long waves, or layered cuts look stunning on you.</string>
+
+    <string name="shape_round_title">🌕 Round Face Shape</string>
+    <string name="shape_round_desc">Equal width and length with soft, curved jawlines and full cheeks.</string>
+    <string name="shape_round_contour">Contour sides of forehead and jawline to elongate facial structure.</string>
+    <string name="shape_round_brows">High, sharp arched brows create vertical length.</string>
+    <string name="shape_round_hair">Long layers, side-swept bangs, and high top knots add height.</string>
+
+    <string name="shape_square_title">🔳 Square Face Shape</string>
+    <string name="shape_square_desc">Forehead, cheekbones, and jawline are equal width with a strong, angular jaw.</string>
+    <string name="shape_square_contour">Contour sharp corners of jaw and forehead to soften features.</string>
+    <string name="shape_square_brows">Softly curved rounded brows balance strong angles.</string>
+    <string name="shape_square_hair">Soft side bangs, curtain bangs, and shoulder-length waves look best.</string>
+
+    <string name="shape_heart_title">💖 Heart Face Shape</string>
+    <string name="shape_heart_desc">Wider forehead and cheekbones tapering down to a pointed chin.</string>
+    <string name="shape_heart_contour">Contour temples and sides of forehead to balance chin point.</string>
+    <string name="shape_heart_brows">Softly rounded low-arch eyebrows soften sharp chin.</string>
+    <string name="shape_heart_hair">Chin-length bobs and side-parted curls add volume near jawline.</string>
 </resources>

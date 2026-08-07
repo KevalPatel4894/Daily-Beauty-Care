@@ -223,7 +223,7 @@ To support multiple languages and prevent packaging build errors:
 * **Details:** A 👍 / 👎 button on each tip detail screen. Ratings stored locally per Tip ID. A *"Top Rated"* section shows the 10 most liked tips across all categories.
 * **Tech:** `SharedPreferences` storing like/dislike counts per Tip ID; sorted RecyclerView adapter.
 
-### [ ] Feature 34: Face Shape Guide
+### [x] Feature 34: Face Shape Guide
 * **Goal:** Provide hyper-personalized makeup and hairstyle tips based on the user\'s face shape.
 * **Details:** A short interactive quiz (4–5 questions about facial proportions) determines face shape (Oval, Round, Square, Heart, Diamond). Results show personalized contouring tips and ideal hairstyle recommendations.
 * **Tech:** Offline quiz logic similar to existing Skin Type Test; result screen with image illustrations.
