@@ -238,7 +238,7 @@ To support multiple languages and prevent packaging build errors:
 * **Details:** Users set their age group once in Settings (Teens / 20s / 30s / 40s+). Tips relevant to their age show a *"Best for your age"* badge. A *"For You"* section shows only age-matched tips.
 * **Tech:** Age tag field added to JSON tips data; `SharedPreferences` storing selected age group; filtered adapter.
 
-### [ ] Feature 37: Allergy & Ingredient Avoid List
+### [x] Feature 37: Allergy & Ingredient Avoid List
 * **Goal:** Protect users from harmful suggestions by flagging ingredients they are allergic or sensitive to.
 * **Details:** Users add ingredients to avoid (e.g. Lemon, Honey, Coconut Oil) in Settings. Any tip mentioning those ingredients shows a ⚠️ *"Contains allergen you marked"* warning banner on its card.
 * **Tech:** `SharedPreferences` storing a Set of avoided ingredient keywords; string search in tip text on adapter bind.

@@ -4093,4 +4093,19 @@
     <string name="age_thirties">30-39 лет</string>
     <string name="age_forties_plus">40+ лет</string>
     <string name="msg_age_group_saved">Возрастная группа обновлена!</string>
+
+    <string name="allergen_manager_title">Аллергены и чувствительные ингредиенты</string>
+    <string name="allergen_manager_subtitle">Отметьте ингредиенты, которых избегаете</string>
+    <string name="allergen_intro">Выберите ингредиенты, которых хотите избегать.</string>
+    <string name="allergen_lemon">Лимон / Цитрусовые</string>
+    <string name="allergen_honey">Мед</string>
+    <string name="allergen_coconut">Кокосовое масло</string>
+    <string name="allergen_egg">Яйцо</string>
+    <string name="allergen_milk">Молоко / Молочные продукты</string>
+    <string name="allergen_nuts">Миндаль / Орехи</string>
+    <string name="allergen_teatree">Масло чайного дерева</string>
+    <string name="allergen_onion">Лук / Чеснок</string>
+    <string name="btn_save_allergens">Сохранить</string>
+    <string name="msg_allergens_saved">Настройки сохранены!</string>
+    <string name="warning_allergen_detected">⚠️ Содержит нежелательный ингредиент (%1$s)</string>
 </resources>

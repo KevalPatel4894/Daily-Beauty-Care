@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:fitsSystemWindows="true">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/toolBarColor">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txtTabTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/allergen_manager_title"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/_18sdp" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/ad_view"
+        android:layout_below="@+id/toolBar"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/_14sdp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/allergen_intro"
+                android:textColor="#555555"
+                android:textSize="12sp"
+                android:layout_marginBottom="16dp" />
+
+            <!-- Checklist of Allergens -->
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="2dp"
+                app:cardBackgroundColor="@android:color/white"
+                app:strokeColor="#E0E0E0"
+                app:strokeWidth="1dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="@dimen/_10sdp">
+
+                    <CheckBox
+                        android:id="@+id/cbLemon"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/allergen_lemon"
+                        android:textColor="#333333"
+                        android:textSize="13sp"
+                        app:buttonTint="@color/toolBarColor" />
+
+                    <CheckBox
+                        android:id="@+id/cbHoney"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/allergen_honey"
+                        android:textColor="#333333"
+                        android:textSize="13sp"
+                        app:buttonTint="@color/toolBarColor" />
+
+                    <CheckBox
+                        android:id="@+id/cbCoconut"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/allergen_coconut"
+                        android:textColor="#333333"
+                        android:textSize="13sp"
+                        app:buttonTint="@color/toolBarColor" />
+
+                    <CheckBox
+                        android:id="@+id/cbEgg"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/allergen_egg"
+                        android:textColor="#333333"
+                        android:textSize="13sp"
+                        app:buttonTint="@color/toolBarColor" />
+
+                    <CheckBox
+                        android:id="@+id/cbMilk"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/allergen_milk"
+                        android:textColor="#333333"
+                        android:textSize="13sp"
+                        app:buttonTint="@color/toolBarColor" />
+
+                    <CheckBox
+                        android:id="@+id/cbNuts"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/allergen_nuts"
+                        android:textColor="#333333"
+                        android:textSize="13sp"
+                        app:buttonTint="@color/toolBarColor" />
+
+                    <CheckBox
+                        android:id="@+id/cbTeaTree"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/allergen_teatree"
+                        android:textColor="#333333"
+                        android:textSize="13sp"
+                        app:buttonTint="@color/toolBarColor" />
+
+                    <CheckBox
+                        android:id="@+id/cbOnion"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/allergen_onion"
+                        android:textColor="#333333"
+                        android:textSize="13sp"
+                        app:buttonTint="@color/toolBarColor" />
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnSaveAllergens"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/btn_save_allergens"
+                android:textColor="@android:color/white"
+                app:backgroundTint="@color/toolBarColor"
+                app:cornerRadius="10dp" />
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <RelativeLayout
+        android:id="@+id/ad_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center" />
+
+</RelativeLayout>

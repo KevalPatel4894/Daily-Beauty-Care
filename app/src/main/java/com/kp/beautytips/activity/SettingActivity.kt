@@ -181,6 +181,14 @@ class SettingActivity : BaseActivity() {
                 AppUtils.startFromRightToLeft(this)
             }
         }
+
+        val rlAllergens = findViewById<View>(R.id.rlAllergens)
+        rlAllergens?.setOnClickListener {
+            Intent(this, AllergenActivity::class.java).also {
+                startActivity(it)
+                AppUtils.startFromRightToLeft(this)
+            }
+        }
     }
 
     override fun onSupportNavigateUp(): Boolean {

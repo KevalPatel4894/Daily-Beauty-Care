@@ -4093,4 +4093,19 @@
     <string name="age_thirties">30代 (30-39)</string>
     <string name="age_forties_plus">40代以上 (40+)</string>
     <string name="msg_age_group_saved">年代設定を更新しました！</string>
+
+    <string name="allergen_manager_title">アレルゲン・避ける成分管理</string>
+    <string name="allergen_manager_subtitle">苦手な成分・アレルギー成分を設定</string>
+    <string name="allergen_intro">避ける成分を選択してください。警告が表示されます。</string>
+    <string name="allergen_lemon">レモン / 柑橘類</string>
+    <string name="allergen_honey">ハチミツ</string>
+    <string name="allergen_coconut">ココナッツオイル</string>
+    <string name="allergen_egg">卵</string>
+    <string name="allergen_milk">牛乳 / 乳製品</string>
+    <string name="allergen_nuts">アーモンド / ナッツ類</string>
+    <string name="allergen_teatree">ティーツリーオイル</string>
+    <string name="allergen_onion">タマネギ / ニンニク</string>
+    <string name="btn_save_allergens">設定を保存</string>
+    <string name="msg_allergens_saved">アレルゲン設定を保存しました！</string>
+    <string name="warning_allergen_detected">⚠️ 避ける成分が含まれています (%1$s)</string>
 </resources>

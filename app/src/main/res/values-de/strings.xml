@@ -4098,4 +4098,19 @@
     <string name="age_thirties">30er (30-39)</string>
     <string name="age_forties_plus">40+ (40 und älter)</string>
     <string name="msg_age_group_saved">Altersgruppe aktualisiert!</string>
+
+    <string name="allergen_manager_title">Allergene &amp; empfindliche Inhaltsstoffe</string>
+    <string name="allergen_manager_subtitle">Zutaten markieren, die Sie vermeiden möchten</string>
+    <string name="allergen_intro">Wählen Sie Inhaltsstoffe aus, die Sie meiden möchten.</string>
+    <string name="allergen_lemon">Zitrone / Zitrusfrüchte</string>
+    <string name="allergen_honey">Honig</string>
+    <string name="allergen_coconut">Kokosnussöl</string>
+    <string name="allergen_egg">Ei</string>
+    <string name="allergen_milk">Milch / Molkereiprodukte</string>
+    <string name="allergen_nuts">Mandel / Nüsse</string>
+    <string name="allergen_teatree">Teebaumöl</string>
+    <string name="allergen_onion">Zwiebel / Knoblauch</string>
+    <string name="btn_save_allergens">Einstellungen speichern</string>
+    <string name="msg_allergens_saved">Einstellungen gespeichert!</string>
+    <string name="warning_allergen_detected">⚠️ Enthält von Ihnen gemiedene Zutat (%1$s)</string>
 </resources>

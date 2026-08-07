@@ -4073,4 +4073,19 @@
     <string name="age_thirties">30s (30-39)</string>
     <string name="age_forties_plus">40s+ (40 या अधिक)</string>
     <string name="msg_age_group_saved">आयु वर्ग अपडेट हो गया!</string>
+
+    <string name="allergen_manager_title">एलर्जी और संवेदनशील सामग्री</string>
+    <string name="allergen_manager_subtitle">जिन सामग्रियों से परहेज करना है उन्हें चुनें</string>
+    <string name="allergen_intro">अपनी पसंद के अनुसार उन चीज़ों को मार्क करें जिनसे आपको एलर्जी है।</string>
+    <string name="allergen_lemon">नींबू / सिट्रस</string>
+    <string name="allergen_honey">शहद</string>
+    <string name="allergen_coconut">नारियल का तेल</string>
+    <string name="allergen_egg">अंडा</string>
+    <string name="allergen_milk">दूध / डेयरी</string>
+    <string name="allergen_nuts">बादाम / ड्राई फ्रूट्स</string>
+    <string name="allergen_teatree">टी ट्री ऑयल</string>
+    <string name="allergen_onion">प्याज / लहसुन</string>
+    <string name="btn_save_allergens">सेव करें</string>
+    <string name="msg_allergens_saved">सेटिंग्स सेव हो गईं!</string>
+    <string name="warning_allergen_detected">⚠️ इसमें आपकी मार्क की गई सामग्री शामिल है (%1$s)</string>
 </resources>

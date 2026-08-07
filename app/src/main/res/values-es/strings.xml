@@ -4098,4 +4098,19 @@
     <string name="age_thirties">30s (30-39)</string>
     <string name="age_forties_plus">40s+ (40 o más)</string>
     <string name="msg_age_group_saved">¡Grupo de edad actualizado!</string>
+
+    <string name="allergen_manager_title">Alergenos e Ingredientes Sensibles</string>
+    <string name="allergen_manager_subtitle">Marca los ingredientes que deseas evitar</string>
+    <string name="allergen_intro">Selecciona los ingredientes que deseas evitar.</string>
+    <string name="allergen_lemon">Limón / Cítricos</string>
+    <string name="allergen_honey">Miel</string>
+    <string name="allergen_coconut">Aceite de Coco</string>
+    <string name="allergen_egg">Huevo</string>
+    <string name="allergen_milk">Leche / Lácteos</string>
+    <string name="allergen_nuts">Almendra / Frutos Secos</string>
+    <string name="allergen_teatree">Aceite de Árbol de Té</string>
+    <string name="allergen_onion">Cebolla / Ajo</string>
+    <string name="btn_save_allergens">Guardar Preferencias</string>
+    <string name="msg_allergens_saved">¡Preferencias guardadas!</string>
+    <string name="warning_allergen_detected">⚠️ Contiene ingrediente marcado a evitar (%1$s)</string>
 </resources>

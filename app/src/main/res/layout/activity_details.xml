@@ -65,6 +65,23 @@
             android:textSize="@dimen/_9sdp"
             android:textStyle="bold"
             android:visibility="gone" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txtAllergenWarning"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_15sdp"
+            android:layout_marginEnd="@dimen/_15sdp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/bg_white_rounded_10"
+            android:backgroundTint="#FADBD8"
+            android:paddingHorizontal="@dimen/_10sdp"
+            android:paddingVertical="@dimen/_6sdp"
+            android:textColor="#78281F"
+            android:textSize="@dimen/_10sdp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:visibility="gone" />
     </androidx.appcompat.widget.LinearLayoutCompat>
 
     <androidx.core.widget.NestedScrollView

@@ -241,6 +241,7 @@ class DetailsActivity : BaseActivity() {
 
         setupTipRating(title)
         checkAgeGroupBadge(tabName, title, details)
+        checkAllergenWarning(title, details)
 
         val btnCompleteChallenge = findViewById<androidx.appcompat.widget.AppCompatButton>(R.id.btnCompleteChallenge)
         if (challengeId.isNotEmpty() && !isChallengeTaskCompleted && dayIndex != -1) {
@@ -853,6 +854,31 @@ class DetailsActivity : BaseActivity() {
                 txtAgeGroupBadge.visibility = View.VISIBLE
             } else {
                 txtAgeGroupBadge.visibility = View.GONE
+            }
+        } catch (e: Exception) {
+            e.printStackTrace()
+        }
+    }
+
+    private fun checkAllergenWarning(title: String, details: String) {
+        try {
+            val prefs = getSharedPreferences("beautytips_prefs", Context.MODE_PRIVATE)
+            val avoidedSet = prefs.getStringSet("avoided_ingredients_set", emptySet()) ?: emptySet()
+            if (avoidedSet.isEmpty()) return
+
+            val txtAllergenWarning = findViewById<TextView>(R.id.txtAllergenWarning) ?: return
+            val lowerText = (title + " " + details).lowercase()
+
+            val detectedAllergens = avoidedSet.filter { allergen ->
+                lowerText.contains(allergen.lowercase())
+            }
+
+            if (detectedAllergens.isNotEmpty()) {
+                val allergenListStr = detectedAllergens.joinToString(", ") { it.capitalize() }
+                txtAllergenWarning.text = getString(R.string.warning_allergen_detected, allergenListStr)
+                txtAllergenWarning.visibility = View.VISIBLE
+            } else {
+                txtAllergenWarning.visibility = View.GONE
             }
         } catch (e: Exception) {
             e.printStackTrace()

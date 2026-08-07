@@ -74,6 +74,10 @@
             android:name=".activity.HairPorosityActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".activity.AllergenActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
 
         <activity
             android:name=".activity.ChallengesActivity"
