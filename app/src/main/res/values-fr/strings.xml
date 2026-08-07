@@ -4125,4 +4125,15 @@
     <string name="default_task_sun">🥑 Masque Hydratant à l\'Avocat</string>
     <string name="default_task_wed">💇‍♀️ Massage du Cuir Chevelu &amp; Huile d\'Argan</string>
     <string name="default_task_fri">✨ Gommage Corporel aux Herbes</string>
+
+    <string name="daily_mini_challenge_title">⚡ Défi Quotidien de 5 Minutes</string>
+    <string name="btn_complete_mini_challenge">Marquer comme Fait</string>
+    <string name="msg_mini_challenge_completed">Bravo! Défi du jour accompli 🎉</string>
+    <string name="mini_challenge_1">Massez doucement votre cuir chevelu pendant 5 minutes</string>
+    <string name="mini_challenge_2">Posez des cuillères froides sous les yeux 2 minutes</string>
+    <string name="mini_challenge_3">Buvez 2 verres d\'eau tiède avec du citron</string>
+    <string name="mini_challenge_4">Appliquez du gel d\'aloe vera sur le visage</string>
+    <string name="mini_challenge_5">Faites 3 minutes de massage lymphatique du visage</string>
+    <string name="mini_challenge_6">Trempez vos mains dans du lait tiède 5 minutes</string>
+    <string name="mini_challenge_7">Massez vos cuticules avec de l\'huile de coco</string>
 </resources>

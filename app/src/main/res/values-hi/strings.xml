@@ -4105,4 +4105,15 @@
     <string name="default_task_sun">🥑 एवोकैडो फेस मास्क</string>
     <string name="default_task_wed">💇‍♀️ स्कैल्प मसाज और अरगन ऑयल</string>
     <string name="default_task_fri">✨ हर्बल बॉडी स्क्रब</string>
+
+    <string name="daily_mini_challenge_title">⚡ डेली 5-मिनट चैलेंज</string>
+    <string name="btn_complete_mini_challenge">चैलेंज पूरा मार्क करें</string>
+    <string name="msg_mini_challenge_completed">शाबाश! आज का चैलेंज पूरा हुआ 🎉</string>
+    <string name="mini_challenge_1">5 मिनट तक स्कैल्प की मालिश करें</string>
+    <string name="mini_challenge_2">आँखों के नीचे 2 मिनट ठंडी चम्मच रखें</string>
+    <string name="mini_challenge_3">नींबू के साथ 2 गिलास गुनगुना पानी पीएं</string>
+    <string name="mini_challenge_4">चेहरे पर ताजा एलोवेरा जेल लगाएं</string>
+    <string name="mini_challenge_5">3 मिनट तक चेहरे की मसाज करें</string>
+    <string name="mini_challenge_6">हाथों को 5 मिनट गुनगुने दूध में डुबोएं</string>
+    <string name="mini_challenge_7">नाखूनों और क्यूटिकल्स पर नारियल तेल लगाएं</string>
 </resources>

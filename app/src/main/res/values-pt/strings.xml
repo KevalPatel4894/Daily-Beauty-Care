@@ -4107,4 +4107,15 @@
     <string name="default_task_sun">🥑 Máscara de Abacate</string>
     <string name="default_task_wed">💇‍♀️ Massagem Capilar e Óleo de Argan</string>
     <string name="default_task_fri">✨ Esfoliante Corporal de Ervas</string>
+
+    <string name="daily_mini_challenge_title">⚡ Desafio Diário de 5 Minutos</string>
+    <string name="btn_complete_mini_challenge">Marcar como Concluído</string>
+    <string name="msg_mini_challenge_completed">Parabéns! Desafio de hoje concluído 🎉</string>
+    <string name="mini_challenge_1">Massageie o couro cabeludo suavemente por 5 minutos</string>
+    <string name="mini_challenge_2">Coloque colheres frias sob os olhos por 2 minutos</string>
+    <string name="mini_challenge_3">Beba 2 copos de água morna com limão</string>
+    <string name="mini_challenge_4">Aplique gel de aloe vera no rosto limpo</string>
+    <string name="mini_challenge_5">Faça 3 minutos de massagem linfática facial</string>
+    <string name="mini_challenge_6">Mergulhe as mãos em leite morno por 5 minutos</string>
+    <string name="mini_challenge_7">Massageie óleo de coco nas cutículas</string>
 </resources>

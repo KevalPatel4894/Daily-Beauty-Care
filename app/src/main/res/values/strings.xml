@@ -4168,4 +4168,16 @@
     <string name="default_task_sun">🥑 Deep Hydrating Avocado Face Mask</string>
     <string name="default_task_wed">💇‍♀️ Scalp Massage &amp; Warm Argan Oil Care</string>
     <string name="default_task_fri">✨ Exfoliating Herbal Body Scrub</string>
+
+    <!-- Feature 40: Daily Mini Challenge -->
+    <string name="daily_mini_challenge_title">⚡ Daily 5-Minute Challenge</string>
+    <string name="btn_complete_mini_challenge">Mark Challenge Done</string>
+    <string name="msg_mini_challenge_completed">Great job! Mini-challenge completed for today 🎉</string>
+    <string name="mini_challenge_1">Massage your scalp gently for 5 minutes using fingertips</string>
+    <string name="mini_challenge_2">Apply chilled metal spoons under eyes for 2 minutes to depuff</string>
+    <string name="mini_challenge_3">Drink 2 full glasses of lukewarm water with lemon slice</string>
+    <string name="mini_challenge_4">Apply raw aloe vera gel or cucumber slices on clean face</string>
+    <string name="mini_challenge_5">Practice 3 minutes of deep facial lymphatic drainage massage</string>
+    <string name="mini_challenge_6">Soak hands in warm milk &amp; honey water for 5 minutes</string>
+    <string name="mini_challenge_7">Apply coconut oil to fingernails and massage cuticles</string>
 </resources>

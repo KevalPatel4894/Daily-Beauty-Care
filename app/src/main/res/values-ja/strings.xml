@@ -4125,4 +4125,15 @@
     <string name="default_task_sun">🥑 アボカド保湿フェイスパック</string>
     <string name="default_task_wed">💇‍♀️ 頭皮マッサージ＆アルガンオイル</string>
     <string name="default_task_fri">✨ ハーブボディスクラブ</string>
+
+    <string name="daily_mini_challenge_title">⚡ デイリー5分チャレンジ</string>
+    <string name="btn_complete_mini_challenge">完了にする</string>
+    <string name="msg_mini_challenge_completed">お疲れ様です！本日のチャレンジ達成 🎉</string>
+    <string name="mini_challenge_1">指の腹で5分間やさしく頭皮をマッサージ</string>
+    <string name="mini_challenge_2">冷やしたスプーンを目の下に2分間当てる</string>
+    <string name="mini_challenge_3">レモン白湯をコップ2杯飲む</string>
+    <string name="mini_challenge_4">アロエベラジェルを顔全体になじませる</string>
+    <string name="mini_challenge_5">3分間フェイスラインをリンパマッサージ</string>
+    <string name="mini_challenge_6">温かいミルクに5分間手を浸す</string>
+    <string name="mini_challenge_7">爪と甘皮にココナッツオイルを塗る</string>
 </resources>

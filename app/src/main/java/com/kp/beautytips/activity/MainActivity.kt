@@ -12,6 +12,10 @@ import android.view.ViewGroup
 import android.widget.RelativeLayout
 import android.widget.TextView
 import androidx.activity.result.contract.ActivityResultContracts
+import java.text.SimpleDateFormat
+import java.util.Calendar
+import java.util.Date
+import java.util.Locale
 import androidx.appcompat.widget.Toolbar
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -45,9 +49,6 @@ import com.google.android.play.core.install.model.UpdateAvailability
 import android.widget.Toast
 import android.widget.ProgressBar
 import androidx.appcompat.widget.AppCompatTextView
-import java.text.SimpleDateFormat
-import java.util.Calendar
-import java.util.Locale
 
 
 
@@ -328,6 +329,7 @@ class MainActivity : BaseActivity(), CategoryAdapter.OnItemClick {
         }
 
         setupMoodPicker()
+        setupDailyMiniChallenge()
 
         imgSetting.setOnClickListener { Intent(this, SettingActivity::class.java).also {
             startActivity(it)
@@ -857,6 +859,63 @@ class MainActivity : BaseActivity(), CategoryAdapter.OnItemClick {
                 startActivity(intent)
                 AppUtils.startFromRightToLeft(this)
             }
+        }
+    }
+
+    private fun setupDailyMiniChallenge() {
+        try {
+            val miniChallenges = listOf(
+                R.string.mini_challenge_1,
+                R.string.mini_challenge_2,
+                R.string.mini_challenge_3,
+                R.string.mini_challenge_4,
+                R.string.mini_challenge_5,
+                R.string.mini_challenge_6,
+                R.string.mini_challenge_7
+            )
+
+            val dayOfYear = Calendar.getInstance().get(Calendar.DAY_OF_YEAR)
+            val challengeResId = miniChallenges[dayOfYear % miniChallenges.size]
+
+            val txtDesc = findViewById<TextView>(R.id.txtMiniChallengeDesc)
+            val txtStreak = findViewById<TextView>(R.id.txtMiniChallengeStreak)
+            val btnDone = findViewById<com.google.android.material.button.MaterialButton>(R.id.btnCompleteMiniChallenge)
+
+            txtDesc?.setText(challengeResId)
+
+            val prefs = getSharedPreferences("beautytips_prefs", Context.MODE_PRIVATE)
+            val todayStr = SimpleDateFormat("yyyy-MM-dd", Locale.getDefault()).format(Date())
+            val lastCompletedDate = prefs.getString("mini_challenge_last_date", "")
+            var streak = prefs.getInt("mini_challenge_streak", 0)
+
+            txtStreak?.text = "🔥 $streak Days"
+
+            if (lastCompletedDate == todayStr) {
+                btnDone?.isEnabled = false
+                btnDone?.text = "Completed ✓"
+            } else {
+                btnDone?.isEnabled = true
+                btnDone?.text = getString(R.string.btn_complete_mini_challenge)
+            }
+
+            btnDone?.setOnClickListener {
+                val currentToday = SimpleDateFormat("yyyy-MM-dd", Locale.getDefault()).format(Date())
+                if (prefs.getString("mini_challenge_last_date", "") != currentToday) {
+                    streak++
+                    prefs.edit()
+                        .putString("mini_challenge_last_date", currentToday)
+                        .putInt("mini_challenge_streak", streak)
+                        .apply()
+
+                    txtStreak?.text = "🔥 $streak Days"
+                    btnDone.isEnabled = false
+                    btnDone.text = "Completed ✓"
+
+                    Toast.makeText(this, R.string.msg_mini_challenge_completed, Toast.LENGTH_SHORT).show()
+                }
+            }
+        } catch (e: Exception) {
+            e.printStackTrace()
         }
     }
 }

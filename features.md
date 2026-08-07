@@ -257,7 +257,7 @@ To support multiple languages and prevent packaging build errors:
 * **Details:** A monthly calendar view where users schedule recurring routines (e.g. *"Face Mask every Sunday"*, *"Hair Oil every Wednesday"*). Scheduled days show colored dots. Tapping a day shows the planned routine with a check-off button.
 * **Tech:** Room database storing scheduled events per day-of-week; simple 7-column week row UI.
 
-### [ ] Feature 40: Daily Mini Challenge
+### [x] Feature 40: Daily Mini Challenge
 * **Goal:** Deliver one fresh, quick, achievable beauty challenge every day to build a micro-habit.
 * **Details:** Each day a new *"5-Minute Challenge"* appears (e.g. *"Massage your scalp for 5 minutes"*, *"Apply a cold spoon under eyes for 2 minutes"*). Users tap *"Done"* to complete it and build a mini-challenge streak. Different from the 7/14-day challenges — these are single-step daily tasks.
 * **Tech:** Deterministic daily index from `Calendar.DAY_OF_YEAR` into a local challenges array; streak in `SharedPreferences`.

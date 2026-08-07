@@ -4130,4 +4130,15 @@
     <string name="default_task_sun">🥑 Mascarilla de Aguacate</string>
     <string name="default_task_wed">💇‍♀️ Masaje de Cuero Cabelludo y Aceite de Argán</string>
     <string name="default_task_fri">✨ Exfoliante Corporal de Hierbas</string>
+
+    <string name="daily_mini_challenge_title">⚡ Desafío Diario de 5 Minutos</string>
+    <string name="btn_complete_mini_challenge">Marcar como Hecho</string>
+    <string name="msg_mini_challenge_completed">¡Gran trabajo! Desafío diario completado 🎉</string>
+    <string name="mini_challenge_1">Masajea suavemente tu cuero cabelludo durante 5 minutos</string>
+    <string name="mini_challenge_2">Aplica cucharas frías bajo los ojos durante 2 minutos</string>
+    <string name="mini_challenge_3">Bebe 2 vasos de agua tibia con limón</string>
+    <string name="mini_challenge_4">Aplica gel de aloe vera en el rostro limpio</string>
+    <string name="mini_challenge_5">Practica 3 minutos de masaje drenante facial</string>
+    <string name="mini_challenge_6">Sumerge las manos en leche tibia durante 5 minutos</string>
+    <string name="mini_challenge_7">Masajea las cutículas con aceite de coco</string>
 </resources>

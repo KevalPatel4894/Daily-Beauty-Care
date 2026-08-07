@@ -34,6 +34,7 @@ All tips in this application utilize natural, easily available ingredients such 
 💅 **Hands & Feet:** Waxing at Home, Dry and rough hands, Nail growth, Pinky shiny nails, Dark underarms, Cracked heels
 
 📱 **Interactive Smart Features:**
+• **Daily 5-Minute Mini Challenge:** Fresh quick self-care tasks every day with streak counter (🔥)
 • **Beauty Calendar & Routine Planner:** 7-day weekly self-care scheduler with task check-offs & custom routines
 • **Allergen & Sensitive Ingredient Avoidance:** Flag sensitive ingredients (Lemon, Honey, Coconut Oil, Nuts) with auto-warning banners
 • **Age Group Personalization:** Tailored beauty tips & badges for Teens, 20s, 30s & 40s+ life stages
@@ -52,7 +53,8 @@ All tips in this application utilize natural, easily available ingredients such 
 
 ### What's New / Release Notes (Play Console Upload):
 ```
-🎉 NEW UPDATE & BEAUTY ROUTINE CALENDAR!
+🎉 NEW UPDATE & DAILY 5-MINUTE MINI CHALLENGES!
+⚡ Added Daily 5-Minute Mini Challenge (Complete quick daily self-care tasks & build a daily streak 🔥)
 📅 Added Beauty Routine Calendar (Plan weekly self-care schedules, track routine tasks & check off daily care)
 ⚠️ Added Allergen & Sensitive Ingredient Manager (Flag ingredients to avoid and get instant warning banners on remedies)
 ⭐ Added Age Group Personalization (Tailor natural remedies & get age-matched badges for Teens, 20s, 30s & 40s+)

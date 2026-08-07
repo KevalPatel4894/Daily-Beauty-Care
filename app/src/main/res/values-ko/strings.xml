@@ -4099,4 +4099,15 @@
     <string name="default_task_sun">🥑 아보카도 수분 보습 팩</string>
     <string name="default_task_wed">💇‍♀️ 두피 마사지 &amp; 아르간 오일</string>
     <string name="default_task_fri">✨ 허브 바디 스크럽</string>
+
+    <string name="daily_mini_challenge_title">⚡ 데일리 5분 챌린지</string>
+    <string name="btn_complete_mini_challenge">완료 표시하기</string>
+    <string name="msg_mini_challenge_completed">수고하셨습니다! 오늘의 챌린지 완료 🎉</string>
+    <string name="mini_challenge_1">손가락으로 5분간 두피 마사지하기</string>
+    <string name="mini_challenge_2">차가운 숟가락을 눈가에 2분간 대기</string>
+    <string name="mini_challenge_3">레몬을 띄운 미온수 2잔 마시기</string>
+    <string name="mini_challenge_4">얼굴에 알로에 베라 젤 바르기</string>
+    <string name="mini_challenge_5">3분간 얼굴 림프 순환 마사지하기</string>
+    <string name="mini_challenge_6">따뜻한 우유에 5분간 손 담그기</string>
+    <string name="mini_challenge_7">손톱과 큐티클에 코코넛 오일 바르기</string>
 </resources>

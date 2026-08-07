@@ -4125,4 +4125,15 @@
     <string name="default_task_sun">🥑 Маска для лица с авокадо</string>
     <string name="default_task_wed">💇‍♀️ Массаж головы и аргановое масло</string>
     <string name="default_task_fri">✨ Травяной скраб для тела</string>
+
+    <string name="daily_mini_challenge_title">⚡ Ежедневный 5-минутный челлендж</string>
+    <string name="btn_complete_mini_challenge">Отметить выполненным</string>
+    <string name="msg_mini_challenge_completed">Отличная работа! Челлендж дня выполнен 🎉</string>
+    <string name="mini_challenge_1">Массажируйте кожу головы 5 минут</string>
+    <string name="mini_challenge_2">Приложите холодные ложки под глаза на 2 минуты</string>
+    <string name="mini_challenge_3">Выпейте 2 стакана теплой воды с лимоном</string>
+    <string name="mini_challenge_4">Нанесите гель алоэ вера на лицо</string>
+    <string name="mini_challenge_5">Делайте 3 минуты лимфодренажный массаж лица</string>
+    <string name="mini_challenge_6">Погрузите руки в теплое молоко на 5 минут</string>
+    <string name="mini_challenge_7">Нанесите кокосовое масло на кутикулу</string>
 </resources>

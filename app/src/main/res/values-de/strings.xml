@@ -4130,4 +4130,15 @@
     <string name="default_task_sun">🥑 Avocado-Gesichtsmaske</string>
     <string name="default_task_wed">💇‍♀️ Kopfhautmassage &amp; Arganöl</string>
     <string name="default_task_fri">✨ Kräuter-Körperpeeling</string>
+
+    <string name="daily_mini_challenge_title">⚡ Tägliche 5-Minuten-Challenge</string>
+    <string name="btn_complete_mini_challenge">Als erledigt markieren</string>
+    <string name="msg_mini_challenge_completed">Gute Arbeit! Heutige Challenge abgeschlossen 🎉</string>
+    <string name="mini_challenge_1">Massieren Sie Ihre Kopfhaut 5 Minuten lang sanft</string>
+    <string name="mini_challenge_2">Löffel 2 Min. unter die Augen legen</string>
+    <string name="mini_challenge_3">2 Gläser lauwarmes Wasser mit Zitrone trinken</string>
+    <string name="mini_challenge_4">Aloe Vera Gel auf das gesicht auftragen</string>
+    <string name="mini_challenge_5">3 Min. Gesichtsmassage durchführen</string>
+    <string name="mini_challenge_6">Hände 5 Min. in warmer Milch einweichen</string>
+    <string name="mini_challenge_7">Kokosöl in Nägel und Nagelhaut einmassieren</string>
 </resources>
