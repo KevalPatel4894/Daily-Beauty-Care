@@ -4113,4 +4113,21 @@
     <string name="btn_save_allergens">Guardar Preferencias</string>
     <string name="msg_allergens_saved">¡Preferencias guardadas!</string>
     <string name="warning_allergen_detected">⚠️ Contiene ingrediente marcado a evitar (%1$s)</string>
+
+    <string name="beauty_calendar_title">Calendario de Rutinas de Belleza</string>
+    <string name="beauty_calendar_subtitle">Planificador semanal de autocuidado</string>
+    <string name="btn_add_scheduled_task">+ Añadir Tarea</string>
+    <string name="dialog_add_task_title">Programar Tarea de Belleza</string>
+    <string name="hint_task_name">Nombre de la tarea (ej. Mascarilla de Aguacate)</string>
+    <string name="day_monday">Lun</string>
+    <string name="day_tuesday">Mar</string>
+    <string name="day_wednesday">Mié</string>
+    <string name="day_thursday">Jue</string>
+    <string name="day_friday">Vie</string>
+    <string name="day_saturday">Sáb</string>
+    <string name="day_sunday">Dom</string>
+    <string name="no_tasks_scheduled">No hay tareas programadas para este día.</string>
+    <string name="default_task_sun">🥑 Mascarilla de Aguacate</string>
+    <string name="default_task_wed">💇‍♀️ Masaje de Cuero Cabelludo y Aceite de Argán</string>
+    <string name="default_task_fri">✨ Exfoliante Corporal de Hierbas</string>
 </resources>

@@ -4082,4 +4082,21 @@
     <string name="btn_save_allergens">설정 저장</string>
     <string name="msg_allergens_saved">알레르기 설정이 저장되었습니다!</string>
     <string name="warning_allergen_detected">⚠️ 기피 설정한 성분이 포함되어 있습니다 (%1$s)</string>
+
+    <string name="beauty_calendar_title">뷰티 루틴 달력</string>
+    <string name="beauty_calendar_subtitle">주간 셀프케어 일률 플래너</string>
+    <string name="btn_add_scheduled_task">+ 일정 추가하기</string>
+    <string name="dialog_add_task_title">뷰티 일정 등록</string>
+    <string name="hint_task_name">일정 이름 (예: 아보카도 팩)</string>
+    <string name="day_monday">월</string>
+    <string name="day_tuesday">화</string>
+    <string name="day_wednesday">수</string>
+    <string name="day_thursday">목</string>
+    <string name="day_friday">금</string>
+    <string name="day_saturday">토</string>
+    <string name="day_sunday">일</string>
+    <string name="no_tasks_scheduled">이 날짜에 등록된 일정이 없습니다.</string>
+    <string name="default_task_sun">🥑 아보카도 수분 보습 팩</string>
+    <string name="default_task_wed">💇‍♀️ 두피 마사지 &amp; 아르간 오일</string>
+    <string name="default_task_fri">✨ 허브 바디 스크럽</string>
 </resources>

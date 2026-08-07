@@ -311,6 +311,14 @@ class MainActivity : BaseActivity(), CategoryAdapter.OnItemClick {
             }
         }
 
+        val cardBeautyCalendar = findViewById<View>(R.id.cardBeautyCalendar)
+        cardBeautyCalendar.setOnClickListener {
+            Intent(this, BeautyCalendarActivity::class.java).also {
+                startActivity(it)
+                AppUtils.startFromRightToLeft(this)
+            }
+        }
+
         val imgSearch = findViewById<androidx.appcompat.widget.AppCompatImageView>(R.id.imgSearch)
         imgSearch.setOnClickListener {
             Intent(this, SearchActivity::class.java).also {

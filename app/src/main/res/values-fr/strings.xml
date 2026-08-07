@@ -4108,4 +4108,21 @@
     <string name="btn_save_allergens">Enregistrer</string>
     <string name="msg_allergens_saved">Préférences enregistrées!</string>
     <string name="warning_allergen_detected">⚠️ Contient un ingrédient évité (%1$s)</string>
+
+    <string name="beauty_calendar_title">Calendrier des Soins de Beauté</string>
+    <string name="beauty_calendar_subtitle">Planificateur hebdomadaire</string>
+    <string name="btn_add_scheduled_task">+ Ajouter un Soin</string>
+    <string name="dialog_add_task_title">Planifier un Soin</string>
+    <string name="hint_task_name">Nom du soin (ex. Masque à l\'avocat)</string>
+    <string name="day_monday">Lun</string>
+    <string name="day_tuesday">Mar</string>
+    <string name="day_wednesday">Mer</string>
+    <string name="day_thursday">Jeu</string>
+    <string name="day_friday">Ven</string>
+    <string name="day_saturday">Sam</string>
+    <string name="day_sunday">Dim</string>
+    <string name="no_tasks_scheduled">Aucun soin planifié pour ce jour.</string>
+    <string name="default_task_sun">🥑 Masque Hydratant à l\'Avocat</string>
+    <string name="default_task_wed">💇‍♀️ Massage du Cuir Chevelu &amp; Huile d\'Argan</string>
+    <string name="default_task_fri">✨ Gommage Corporel aux Herbes</string>
 </resources>

@@ -4150,4 +4150,22 @@
     <string name="btn_save_allergens">Save Allergen Preferences</string>
     <string name="msg_allergens_saved">Allergen preferences saved!</string>
     <string name="warning_allergen_detected">⚠️ Contains ingredient you marked to avoid (%1$s)</string>
+
+    <!-- Feature 39: Beauty Calendar &amp; Routine Planner -->
+    <string name="beauty_calendar_title">Beauty Routine Calendar</string>
+    <string name="beauty_calendar_subtitle">Weekly self-care schedule &amp; routine planner</string>
+    <string name="btn_add_scheduled_task">+ Add Routine Task</string>
+    <string name="dialog_add_task_title">Schedule Self-Care Task</string>
+    <string name="hint_task_name">Task name (e.g. Avocado Hair Mask)</string>
+    <string name="day_monday">Mon</string>
+    <string name="day_tuesday">Tue</string>
+    <string name="day_wednesday">Wed</string>
+    <string name="day_thursday">Thu</string>
+    <string name="day_friday">Fri</string>
+    <string name="day_saturday">Sat</string>
+    <string name="day_sunday">Sun</string>
+    <string name="no_tasks_scheduled">No routines scheduled for this day yet.</string>
+    <string name="default_task_sun">🥑 Deep Hydrating Avocado Face Mask</string>
+    <string name="default_task_wed">💇‍♀️ Scalp Massage &amp; Warm Argan Oil Care</string>
+    <string name="default_task_fri">✨ Exfoliating Herbal Body Scrub</string>
 </resources>

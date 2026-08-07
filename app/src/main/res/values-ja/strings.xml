@@ -4108,4 +4108,21 @@
     <string name="btn_save_allergens">設定を保存</string>
     <string name="msg_allergens_saved">アレルゲン設定を保存しました！</string>
     <string name="warning_allergen_detected">⚠️ 避ける成分が含まれています (%1$s)</string>
+
+    <string name="beauty_calendar_title">美容ルーティンカレンダー</string>
+    <string name="beauty_calendar_subtitle">週間セルフケア・スケジューラー</string>
+    <string name="btn_add_scheduled_task">+ タスクを追加</string>
+    <string name="dialog_add_task_title">美容タスクを予約</string>
+    <string name="hint_task_name">タスク名（例：アボカドパック）</string>
+    <string name="day_monday">月</string>
+    <string name="day_tuesday">火</string>
+    <string name="day_wednesday">水</string>
+    <string name="day_thursday">木</string>
+    <string name="day_friday">金</string>
+    <string name="day_saturday">土</string>
+    <string name="day_sunday">日</string>
+    <string name="no_tasks_scheduled">この日に予定されているタスクはありません。</string>
+    <string name="default_task_sun">🥑 アボカド保湿フェイスパック</string>
+    <string name="default_task_wed">💇‍♀️ 頭皮マッサージ＆アルガンオイル</string>
+    <string name="default_task_fri">✨ ハーブボディスクラブ</string>
 </resources>

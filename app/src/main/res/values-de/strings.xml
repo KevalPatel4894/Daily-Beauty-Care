@@ -4113,4 +4113,21 @@
     <string name="btn_save_allergens">Einstellungen speichern</string>
     <string name="msg_allergens_saved">Einstellungen gespeichert!</string>
     <string name="warning_allergen_detected">⚠️ Enthält von Ihnen gemiedene Zutat (%1$s)</string>
+
+    <string name="beauty_calendar_title">Schönheits-Routine-Kalender</string>
+    <string name="beauty_calendar_subtitle">Wöchentlicher Pflegeplaner</string>
+    <string name="btn_add_scheduled_task">+ Pflegeaufgabe hinzufügen</string>
+    <string name="dialog_add_task_title">Pflegeaufgabe planen</string>
+    <string name="hint_task_name">Aufgabenname (z. B. Haarmaske)</string>
+    <string name="day_monday">Mo</string>
+    <string name="day_tuesday">Di</string>
+    <string name="day_wednesday">Mi</string>
+    <string name="day_thursday">Do</string>
+    <string name="day_friday">Fr</string>
+    <string name="day_saturday">Sa</string>
+    <string name="day_sunday">So</string>
+    <string name="no_tasks_scheduled">Keine Aufgaben für diesen Tag geplant.</string>
+    <string name="default_task_sun">🥑 Avocado-Gesichtsmaske</string>
+    <string name="default_task_wed">💇‍♀️ Kopfhautmassage &amp; Arganöl</string>
+    <string name="default_task_fri">✨ Kräuter-Körperpeeling</string>
 </resources>

@@ -4108,4 +4108,21 @@
     <string name="btn_save_allergens">Сохранить</string>
     <string name="msg_allergens_saved">Настройки сохранены!</string>
     <string name="warning_allergen_detected">⚠️ Содержит нежелательный ингредиент (%1$s)</string>
+
+    <string name="beauty_calendar_title">Календарь бьюти-рутины</string>
+    <string name="beauty_calendar_subtitle">Еженедельный планировщик ухода</string>
+    <string name="btn_add_scheduled_task">+ Добавить задачу</string>
+    <string name="dialog_add_task_title">Запланировать уход</string>
+    <string name="hint_task_name">Название (например, Маска с авокадо)</string>
+    <string name="day_monday">Пн</string>
+    <string name="day_tuesday">Вт</string>
+    <string name="day_wednesday">Ср</string>
+    <string name="day_thursday">Чт</string>
+    <string name="day_friday">Пт</string>
+    <string name="day_saturday">Сб</string>
+    <string name="day_sunday">Вс</string>
+    <string name="no_tasks_scheduled">На этот день ничего не запланировано.</string>
+    <string name="default_task_sun">🥑 Маска для лица с авокадо</string>
+    <string name="default_task_wed">💇‍♀️ Массаж головы и аргановое масло</string>
+    <string name="default_task_fri">✨ Травяной скраб для тела</string>
 </resources>

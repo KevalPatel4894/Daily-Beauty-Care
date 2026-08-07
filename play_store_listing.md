@@ -34,6 +34,7 @@ All tips in this application utilize natural, easily available ingredients such 
 💅 **Hands & Feet:** Waxing at Home, Dry and rough hands, Nail growth, Pinky shiny nails, Dark underarms, Cracked heels
 
 📱 **Interactive Smart Features:**
+• **Beauty Calendar & Routine Planner:** 7-day weekly self-care scheduler with task check-offs & custom routines
 • **Allergen & Sensitive Ingredient Avoidance:** Flag sensitive ingredients (Lemon, Honey, Coconut Oil, Nuts) with auto-warning banners
 • **Age Group Personalization:** Tailored beauty tips & badges for Teens, 20s, 30s & 40s+ life stages
 • **Hair Porosity Test:** Interactive float & drying test to determine Low, Normal or High hair porosity
@@ -51,7 +52,8 @@ All tips in this application utilize natural, easily available ingredients such 
 
 ### What's New / Release Notes (Play Console Upload):
 ```
-🎉 NEW UPDATE & ALLERGEN SAFETY WARNINGS!
+🎉 NEW UPDATE & BEAUTY ROUTINE CALENDAR!
+📅 Added Beauty Routine Calendar (Plan weekly self-care schedules, track routine tasks & check off daily care)
 ⚠️ Added Allergen & Sensitive Ingredient Manager (Flag ingredients to avoid and get instant warning banners on remedies)
 ⭐ Added Age Group Personalization (Tailor natural remedies & get age-matched badges for Teens, 20s, 30s & 40s+)
 💇‍♀️ Added Hair Porosity Test (Identify Low/Normal/High porosity hair with tailored natural remedies)

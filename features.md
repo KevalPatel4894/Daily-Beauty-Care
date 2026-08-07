@@ -252,7 +252,7 @@ To support multiple languages and prevent packaging build errors:
 
 ## 📅 Category 11: Engagement & Retention
 
-### [ ] Feature 39: Beauty Calendar & Routine Planner
+### [x] Feature 39: Beauty Calendar & Routine Planner
 * **Goal:** Help users plan and stick to their weekly self-care schedule with a visual calendar.
 * **Details:** A monthly calendar view where users schedule recurring routines (e.g. *"Face Mask every Sunday"*, *"Hair Oil every Wednesday"*). Scheduled days show colored dots. Tapping a day shows the planned routine with a check-off button.
 * **Tech:** Room database storing scheduled events per day-of-week; simple 7-column week row UI.
