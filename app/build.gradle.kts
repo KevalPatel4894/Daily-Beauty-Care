@@ -9,7 +9,7 @@ android {
 
     defaultConfig {
         applicationId = "com.kp.beautytips"
-        minSdk = 21
+        minSdk = 23
         targetSdk = 36
         versionCode = 16
         versionName = "1.0.7"
@@ -48,16 +48,16 @@ android {
 
 dependencies {
     implementation("androidx.core:core-ktx:1.15.0")
-    implementation("org.jetbrains.kotlin:kotlin-stdlib:2.0.0")
+    implementation("org.jetbrains.kotlin:kotlin-stdlib:2.0.21")
     implementation("androidx.appcompat:appcompat:1.7.0")
     implementation("com.google.android.material:material:1.12.0")
-    implementation("androidx.constraintlayout:constraintlayout:2.2.0")
+    implementation("androidx.constraintlayout:constraintlayout:2.2.1")
 
     //SDP Libs
     implementation("com.intuit.sdp:sdp-android:1.1.1")
 
     // WorkManager
-    implementation("androidx.work:work-runtime-ktx:2.9.1")
+    implementation("androidx.work:work-runtime-ktx:2.10.0")
 
     //calligraphy
     implementation("io.github.inflationx:calligraphy3:3.1.1")
@@ -74,7 +74,7 @@ dependencies {
     implementation("com.github.joielechong:bubble-navigation:dd96a64d1d6c70d3ee8ed87d8f5f76658c9e9bcd")
 
     //Admob
-    implementation("com.google.android.gms:play-services-ads:23.6.0")
+    implementation("com.google.android.gms:play-services-ads:24.0.0")
 
     //Google Play In-App Updates
     implementation("com.google.android.play:app-update-ktx:2.1.0")
