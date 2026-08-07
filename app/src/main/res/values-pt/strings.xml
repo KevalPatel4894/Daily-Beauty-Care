@@ -4118,4 +4118,14 @@
     <string name="mini_challenge_5">Faça 3 minutos de massagem linfática facial</string>
     <string name="mini_challenge_6">Mergulhe as mãos em leite morno por 5 minutos</string>
     <string name="mini_challenge_7">Massageie óleo de coco nas cutículas</string>
+
+    <string name="tip_of_week_badge">🌟 DICA DA SEMANA</string>
+    <string name="tip_of_week_1_title">🍯 Máscara de Mel e Cúrcuma</string>
+    <string name="tip_of_week_1_desc">Nutre a pele profundamente e traz um brilho radiante e natural.</string>
+    <string name="tip_of_week_2_title">🌿 Gel Refrescante de Aloe e Pepino</string>
+    <string name="tip_of_week_2_desc">Alívio refrescante imediato para olhos cansados e olheiras.</string>
+    <string name="tip_of_week_3_title">🥥 Spa Capilar de Coco e Hibisco</string>
+    <string name="tip_of_week_3_desc">Tratamento profundo para cabelos macios e fortalecidos.</string>
+    <string name="tip_of_week_4_title">🥑 Esfoliante de Abacate e Aveia</string>
+    <string name="tip_of_week_4_desc">Esfoliação suave que remove células mortas com maciez.</string>
 </resources>

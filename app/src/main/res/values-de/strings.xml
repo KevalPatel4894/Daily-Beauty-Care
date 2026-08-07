@@ -4141,4 +4141,14 @@
     <string name="mini_challenge_5">3 Min. Gesichtsmassage durchführen</string>
     <string name="mini_challenge_6">Hände 5 Min. in warmer Milch einweichen</string>
     <string name="mini_challenge_7">Kokosöl in Nägel und Nagelhaut einmassieren</string>
+
+    <string name="tip_of_week_badge">🌟 TIPP DER WOCHE</string>
+    <string name="tip_of_week_1_title">🍯 Honig &amp; Kurkuma Glanz-Maske</string>
+    <string name="tip_of_week_1_desc">Pflegt die Haut tiefenwirksam und sorgt für einen natürlichen Glanz.</string>
+    <string name="tip_of_week_2_title">🌿 Aloe Vera &amp; Gurken Augengel</string>
+    <string name="tip_of_week_2_desc">Sofortige Kühlung für müde Augen und Minderung von Augenschatten.</string>
+    <string name="tip_of_week_3_title">🥥 Warmes Kokos- &amp; Hibiskus-Haar-Spa</string>
+    <string name="tip_of_week_3_desc">Tiefenpflege für seidiges Haar und kräftige Wurzeln.</string>
+    <string name="tip_of_week_4_title">🥑 Avocado- &amp; Hafer-Gesichtspeeling</string>
+    <string name="tip_of_week_4_desc">Sanftes Peeling für ein klares und geschmeidiges Hautbild.</string>
 </resources>

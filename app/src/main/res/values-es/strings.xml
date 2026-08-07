@@ -4141,4 +4141,14 @@
     <string name="mini_challenge_5">Practica 3 minutos de masaje drenante facial</string>
     <string name="mini_challenge_6">Sumerge las manos en leche tibia durante 5 minutos</string>
     <string name="mini_challenge_7">Masajea las cutículas con aceite de coco</string>
+
+    <string name="tip_of_week_badge">🌟 CONSEJO DE LA SEMANA</string>
+    <string name="tip_of_week_1_title">🍯 Mascarilla de Miel y Cúrcuma</string>
+    <string name="tip_of_week_1_desc">Nutre profundamente la piel y revela un brillo natural y radiante.</string>
+    <string name="tip_of_week_2_title">🌿 Gel Frío de Aloe Vera y Pepino</string>
+    <string name="tip_of_week_2_desc">Alivio refrescante instantáneo para ojos cansados y ojeras.</string>
+    <string name="tip_of_week_3_title">🥥 Spa Capilar de Coco y Hibisco</string>
+    <string name="tip_of_week_3_desc">Tratamiento de acondicionamiento profundo para cabello sedoso.</string>
+    <string name="tip_of_week_4_title">🥑 Exfoliante de Aguacate y Avena</string>
+    <string name="tip_of_week_4_desc">Exfoliante natural suave que elimina células muertas sin resecar.</string>
 </resources>

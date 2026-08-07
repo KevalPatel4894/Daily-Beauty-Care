@@ -4136,4 +4136,14 @@
     <string name="mini_challenge_5">3分間フェイスラインをリンパマッサージ</string>
     <string name="mini_challenge_6">温かいミルクに5分間手を浸す</string>
     <string name="mini_challenge_7">爪と甘皮にココナッツオイルを塗る</string>
+
+    <string name="tip_of_week_badge">🌟 今週のおすすめケア</string>
+    <string name="tip_of_week_1_title">🍯 ハチミツ＆ターメリック美容パック</string>
+    <string name="tip_of_week_1_desc">肌に潤いを与え、透明感のあるツヤ肌へ導きます。</string>
+    <string name="tip_of_week_2_title">🌿 アロエ＆きゅうりクールアイジェル</string>
+    <string name="tip_of_week_2_desc">疲れた目元をひんやり癒やし、くすみをケアします。</string>
+    <string name="tip_of_week_3_title">🥥 ココナッツ＆ハイビスカス髪スパ</string>
+    <string name="tip_of_week_3_desc">髪の芯まで浸透し、サラツヤ髪へ仕上げます。</string>
+    <string name="tip_of_week_4_title">🥑 アボカド＆オートミールスクラブ</string>
+    <string name="tip_of_week_4_desc">古い角質をやさしく取り除き、なめらかな肌に。</string>
 </resources>

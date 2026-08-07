@@ -4136,4 +4136,14 @@
     <string name="mini_challenge_5">Делайте 3 минуты лимфодренажный массаж лица</string>
     <string name="mini_challenge_6">Погрузите руки в теплое молоко на 5 минут</string>
     <string name="mini_challenge_7">Нанесите кокосовое масло на кутикулу</string>
+
+    <string name="tip_of_week_badge">🌟 СОВЕТ НЕДЕЛИ</string>
+    <string name="tip_of_week_1_title">🍯 Маска с медом и куркумой</string>
+    <string name="tip_of_week_1_desc">Глубоко питает кожу и придает естественное сияние.</string>
+    <string name="tip_of_week_2_title">🌿 Охлаждающий гель с алоэ и огурцом</string>
+    <string name="tip_of_week_2_desc">Мгновенно освежает уставшую кожу вокруг глаз.</string>
+    <string name="tip_of_week_3_title">🥥 Кокосовый спа-уход для волос</string>
+    <string name="tip_of_week_3_desc">Глубокое восстановление для шелковистых и сильных волос.</string>
+    <string name="tip_of_week_4_title">🥑 Скраб с авокадо и овсянкой</string>
+    <string name="tip_of_week_4_desc">Мягко отшелушивает, делая кожу гладкой и нежной.</string>
 </resources>

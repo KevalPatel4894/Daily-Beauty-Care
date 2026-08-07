@@ -555,6 +555,59 @@
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>
 
+            <!-- Tip of the Week (Featured Content) Banner -->
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardTipOfTheWeek"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_6sdp"
+                android:layout_marginStart="@dimen/_12sdp"
+                android:layout_marginEnd="@dimen/_12sdp"
+                android:clickable="true"
+                android:focusable="true"
+                app:cardCornerRadius="14dp"
+                app:cardElevation="3dp"
+                app:cardBackgroundColor="#F4ECF7"
+                app:strokeColor="#BB8FCE"
+                app:strokeWidth="1dp"
+                app:rippleColor="#D7BDE2">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="@dimen/_12sdp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tip_of_week_badge"
+                        android:textColor="#6C3483"
+                        android:textSize="11sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txtTipOfWeekTitle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:textColor="#4A235A"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        tools:text="🍯 Royal Honey &amp; Turmeric Glow Mask" />
+
+                    <TextView
+                        android:id="@+id/txtTipOfWeekDesc"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:textColor="#555555"
+                        android:textSize="11sp"
+                        tools:text="Deeply nourishes skin, reduces blemishes, and reveals a radiant, healthy glow naturally." />
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
             <!-- Horizontal Grid of 3 Quick Action Cards -->
             <androidx.appcompat.widget.LinearLayoutCompat
                 android:layout_width="match_parent"

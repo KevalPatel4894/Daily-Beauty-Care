@@ -330,6 +330,7 @@ class MainActivity : BaseActivity(), CategoryAdapter.OnItemClick {
 
         setupMoodPicker()
         setupDailyMiniChallenge()
+        setupTipOfTheWeek()
 
         imgSetting.setOnClickListener { Intent(this, SettingActivity::class.java).also {
             startActivity(it)
@@ -913,6 +914,42 @@ class MainActivity : BaseActivity(), CategoryAdapter.OnItemClick {
 
                     Toast.makeText(this, R.string.msg_mini_challenge_completed, Toast.LENGTH_SHORT).show()
                 }
+            }
+        } catch (e: Exception) {
+            e.printStackTrace()
+        }
+    }
+
+    private fun setupTipOfTheWeek() {
+        try {
+            val featuredList = listOf(
+                Pair(R.string.tip_of_week_1_title, R.string.tip_of_week_1_desc),
+                Pair(R.string.tip_of_week_2_title, R.string.tip_of_week_2_desc),
+                Pair(R.string.tip_of_week_3_title, R.string.tip_of_week_3_desc),
+                Pair(R.string.tip_of_week_4_title, R.string.tip_of_week_4_desc)
+            )
+
+            val weekOfYear = Calendar.getInstance().get(Calendar.WEEK_OF_YEAR)
+            val featuredItem = featuredList[weekOfYear % featuredList.size]
+
+            val cardTipOfWeek = findViewById<View>(R.id.cardTipOfTheWeek)
+            val txtTitle = findViewById<TextView>(R.id.txtTipOfWeekTitle)
+            val txtDesc = findViewById<TextView>(R.id.txtTipOfWeekDesc)
+
+            val titleText = getString(featuredItem.first)
+            val descText = getString(featuredItem.second)
+
+            txtTitle?.text = titleText
+            txtDesc?.text = descText
+
+            cardTipOfWeek?.setOnClickListener {
+                val intent = Intent(this, DetailsActivity::class.java).apply {
+                    putExtra("TabName", "Featured Remedies")
+                    putExtra("Title", titleText)
+                    putExtra("Details", descText)
+                }
+                startActivity(intent)
+                AppUtils.startFromRightToLeft(this)
             }
         } catch (e: Exception) {
             e.printStackTrace()

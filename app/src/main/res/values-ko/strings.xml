@@ -4110,4 +4110,14 @@
     <string name="mini_challenge_5">3분간 얼굴 림프 순환 마사지하기</string>
     <string name="mini_challenge_6">따뜻한 우유에 5분간 손 담그기</string>
     <string name="mini_challenge_7">손톱과 큐티클에 코코넛 오일 바르기</string>
+
+    <string name="tip_of_week_badge">🌟 이주의 추천 뷰티 팁</string>
+    <string name="tip_of_week_1_title">🍯 꿀 &amp; 강황 글로우 팩</string>
+    <string name="tip_of_week_1_desc">피부에 깊은 영양을 공급하여 화사한 광채를 선사합니다.</string>
+    <string name="tip_of_week_2_title">🌿 알로에 &amp; 오이 쿨링 아이 젤</string>
+    <string name="tip_of_week_2_desc">피로한 눈가를 즉각적으로 진정시키고 붓기를 완화합니다.</string>
+    <string name="tip_of_week_3_title">🥥 코코넛 &amp; 하이비스커스 헤어 스파</string>
+    <string name="tip_of_week_3_desc">부드럽고 건강한 머릿결을 위한 딥 케어 트리트먼트.</string>
+    <string name="tip_of_week_4_title">🥑 아보카도 &amp; 귀리 페이스 스크럽</string>
+    <string name="tip_of_week_4_desc">자극 없이 각질을 제거해 매끄러운 피부로 가꿔줍니다.</string>
 </resources>

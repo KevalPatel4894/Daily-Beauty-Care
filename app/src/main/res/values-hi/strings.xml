@@ -4116,4 +4116,14 @@
     <string name="mini_challenge_5">3 मिनट तक चेहरे की मसाज करें</string>
     <string name="mini_challenge_6">हाथों को 5 मिनट गुनगुने दूध में डुबोएं</string>
     <string name="mini_challenge_7">नाखूनों और क्यूटिकल्स पर नारियल तेल लगाएं</string>
+
+    <string name="tip_of_week_badge">🌟 इस हफ्ते की खास टिप</string>
+    <string name="tip_of_week_1_title">🍯 शहद और हल्दी ग्लो मास्क</string>
+    <string name="tip_of_week_1_desc">त्वचा को पोषण देता है और प्राकृतिक निखार लाता है।</string>
+    <string name="tip_of_week_2_title">🌿 एलोवेरा और खीरा आई जेल</string>
+    <string name="tip_of_week_2_desc">थकी आंखों को ताजगी देता है और डार्क सर्कल्स कम करता है।</string>
+    <string name="tip_of_week_3_title">🥥 नारियल और गुड़हल हेयर स्पा</string>
+    <string name="tip_of_week_3_desc">बालों को सिल्की और मजबूत बनाने के लिए डीप केयर।</string>
+    <string name="tip_of_week_4_title">🥑 एवोकैडो और ओट्स फेस स्क्रब</string>
+    <string name="tip_of_week_4_desc">डेड स्किन हटाकर चेहरे को कोमल बनाता है।</string>
 </resources>

@@ -262,7 +262,7 @@ To support multiple languages and prevent packaging build errors:
 * **Details:** Each day a new *"5-Minute Challenge"* appears (e.g. *"Massage your scalp for 5 minutes"*, *"Apply a cold spoon under eyes for 2 minutes"*). Users tap *"Done"* to complete it and build a mini-challenge streak. Different from the 7/14-day challenges — these are single-step daily tasks.
 * **Tech:** Deterministic daily index from `Calendar.DAY_OF_YEAR` into a local challenges array; streak in `SharedPreferences`.
 
-### [ ] Feature 41: Tip of the Week (Featured Content)
+### [x] Feature 41: Tip of the Week (Featured Content)
 * **Goal:** Give returning users a reason to open the app every week with highlighted premium content.
 * **Details:** One tip is featured at the top of the home screen in a highlighted banner card. Auto-rotates weekly using a deterministic weekly index. Shows a *"This Week\'s Pick"* badge with the tip title and category.
 * **Tech:** `Calendar.WEEK_OF_YEAR` as index into tip list; no backend required; home screen card view.

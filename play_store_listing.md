@@ -34,6 +34,7 @@ All tips in this application utilize natural, easily available ingredients such 
 💅 **Hands & Feet:** Waxing at Home, Dry and rough hands, Nail growth, Pinky shiny nails, Dark underarms, Cracked heels
 
 📱 **Interactive Smart Features:**
+• **Tip of the Week (Featured Remedy):** Weekly rotating premium remedy highlight on home screen (🌟)
 • **Daily 5-Minute Mini Challenge:** Fresh quick self-care tasks every day with streak counter (🔥)
 • **Beauty Calendar & Routine Planner:** 7-day weekly self-care scheduler with task check-offs & custom routines
 • **Allergen & Sensitive Ingredient Avoidance:** Flag sensitive ingredients (Lemon, Honey, Coconut Oil, Nuts) with auto-warning banners
@@ -53,7 +54,8 @@ All tips in this application utilize natural, easily available ingredients such 
 
 ### What's New / Release Notes (Play Console Upload):
 ```
-🎉 NEW UPDATE & DAILY 5-MINUTE MINI CHALLENGES!
+🎉 NEW UPDATE & TIP OF THE WEEK!
+🌟 Added Tip of the Week (Auto-rotating weekly featured natural remedy card on home screen)
 ⚡ Added Daily 5-Minute Mini Challenge (Complete quick daily self-care tasks & build a daily streak 🔥)
 📅 Added Beauty Routine Calendar (Plan weekly self-care schedules, track routine tasks & check off daily care)
 ⚠️ Added Allergen & Sensitive Ingredient Manager (Flag ingredients to avoid and get instant warning banners on remedies)

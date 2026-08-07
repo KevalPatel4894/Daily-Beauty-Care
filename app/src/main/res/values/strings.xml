@@ -4180,4 +4180,15 @@
     <string name="mini_challenge_5">Practice 3 minutes of deep facial lymphatic drainage massage</string>
     <string name="mini_challenge_6">Soak hands in warm milk &amp; honey water for 5 minutes</string>
     <string name="mini_challenge_7">Apply coconut oil to fingernails and massage cuticles</string>
+
+    <!-- Feature 41: Tip of the Week -->
+    <string name="tip_of_week_badge">🌟 THIS WEEK\'S FEATURED REMEDY</string>
+    <string name="tip_of_week_1_title">🍯 Royal Honey &amp; Turmeric Glow Mask</string>
+    <string name="tip_of_week_1_desc">Deeply nourishes skin, reduces blemishes, and reveals a radiant, healthy glow naturally.</string>
+    <string name="tip_of_week_2_title">🌿 Aloe Vera &amp; Cucumber Eye Cooling Gel</string>
+    <string name="tip_of_week_2_desc">Instant cooling relief for tired eyes, reduces dark circles and morning puffiness.</string>
+    <string name="tip_of_week_3_title">🥥 Warm Coconut &amp; Hibiscus Hair Spa</string>
+    <string name="tip_of_week_3_desc">Deep conditioning treatment for silky smooth hair and strong, damage-free roots.</string>
+    <string name="tip_of_week_4_title">🥑 Creamy Avocado &amp; Oatmeal Face Scrub</string>
+    <string name="tip_of_week_4_desc">Gentle natural exfoliator that removes dead skin cells without stripping natural moisture.</string>
 </resources>

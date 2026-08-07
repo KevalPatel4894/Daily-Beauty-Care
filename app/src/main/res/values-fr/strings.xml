@@ -4136,4 +4136,14 @@
     <string name="mini_challenge_5">Faites 3 minutes de massage lymphatique du visage</string>
     <string name="mini_challenge_6">Trempez vos mains dans du lait tiède 5 minutes</string>
     <string name="mini_challenge_7">Massez vos cuticules avec de l\'huile de coco</string>
+
+    <string name="tip_of_week_badge">🌟 ASTUCE DE LA SEMAINE</string>
+    <string name="tip_of_week_1_title">🍯 Masque Éclat Miel &amp; Curcuma</string>
+    <string name="tip_of_week_1_desc">Nourrit la peau en profondeur et révèle un éclat naturel.</string>
+    <string name="tip_of_week_2_title">🌿 Gel Rafraîchissant Aloe &amp; Concombre</string>
+    <string name="tip_of_week_2_desc">Soulagement rafraîchissant pour les yeux fatigués et les cernes.</string>
+    <string name="tip_of_week_3_title">🥥 Spa Capillaire Coco &amp; Hibiscus</string>
+    <string name="tip_of_week_3_desc">Soin revitalisant profond pour des cheveux doux et fortifiés.</string>
+    <string name="tip_of_week_4_title">🥑 Gommage Avocat &amp; Avoine</string>
+    <string name="tip_of_week_4_desc">Exfoliant naturel doux qui préserve l\'hydratation de la peau.</string>
 </resources>
