@@ -154,6 +154,8 @@ class RoutineBuilderActivity : BaseActivity() {
             .setView(dialogView)
             .create()
 
+        alertDialog.window?.setBackgroundDrawableResource(android.R.color.transparent)
+
         btnAddStepItem.setOnClickListener {
             addStepRow(layoutStepsContainer, RoutineStep("", "", 60))
         }

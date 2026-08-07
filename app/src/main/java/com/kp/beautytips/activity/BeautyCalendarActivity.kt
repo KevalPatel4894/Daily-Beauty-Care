@@ -165,6 +165,8 @@ class BeautyCalendarActivity : BaseActivity() {
             .setView(dialogView)
             .create()
 
+        alertDialog.window?.setBackgroundDrawableResource(android.R.color.transparent)
+
         btnCancelTask.setOnClickListener {
             alertDialog.dismiss()
         }

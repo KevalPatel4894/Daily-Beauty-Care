@@ -2,148 +2,211 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent">
 
-    <LinearLayout
+    <com.google.android.material.card.MaterialCardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:padding="@dimen/_16sdp">
+        android:layout_margin="8dp"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="6dp"
+        app:cardBackgroundColor="@android:color/white"
+        app:strokeColor="#EBEBEB"
+        app:strokeWidth="1dp">
 
-        <TextView
-            android:id="@+id/txtDialogTitle"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/add_routine"
-            android:textColor="@color/toolBarColor"
-            android:textSize="@dimen/_16sdp"
-            android:textStyle="bold" />
-
-        <com.google.android.material.textfield.TextInputLayout
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/_12sdp"
-            android:hint="@string/hint_routine_title">
+            android:orientation="vertical">
 
-            <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/etRoutineTitle"
+            <!-- Dialog Top Header -->
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="#333333"
-                android:textColorHint="#888888"
-                android:inputType="textCapWords"
-                android:maxLines="1" />
+                android:background="@color/toolBarColor"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:paddingHorizontal="16dp"
+                android:paddingVertical="14dp">
 
-        </com.google.android.material.textfield.TextInputLayout>
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/ic_star_rate"
+                    app:tint="@android:color/white" />
 
-        <!-- Routine Type Selector -->
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/_12sdp"
-            android:text="@string/routine_type"
-            android:textColor="@color/black"
-            android:textSize="@dimen/_11sdp"
-            android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/txtDialogTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:text="@string/add_routine"
+                    android:textColor="@android:color/white"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
 
-        <RadioGroup
-            android:id="@+id/rgRoutineType"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/_4sdp"
-            android:orientation="horizontal">
-
-            <androidx.appcompat.widget.AppCompatRadioButton
-                android:id="@+id/rbMorning"
-                android:layout_width="0dp"
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:checked="true"
-                android:text="@string/routine_type_morning"
-                android:textColor="#333333"
-                android:textSize="12sp"
-                app:buttonTint="@color/radio_button_tint" />
+                android:orientation="vertical"
+                android:padding="16dp">
 
-            <androidx.appcompat.widget.AppCompatRadioButton
-                android:id="@+id/rbNight"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="@string/routine_type_night"
-                android:textColor="#333333"
-                android:textSize="12sp"
-                app:buttonTint="@color/radio_button_tint" />
+                <!-- 1. Routine Title Input -->
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/hint_routine_title"
+                    app:boxStrokeColor="@color/toolBarColor"
+                    app:hintTextColor="@color/toolBarColor"
+                    app:cornerRadius="10dp">
 
-            <androidx.appcompat.widget.AppCompatRadioButton
-                android:id="@+id/rbCustom"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="@string/routine_type_custom"
-                android:textColor="#333333"
-                android:textSize="12sp"
-                app:buttonTint="@color/radio_button_tint" />
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/etRoutineTitle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textCapWords"
+                        android:maxLines="1"
+                        android:textColor="#333333"
+                        android:textColorHint="#888888"
+                        android:textSize="14sp" />
+                </com.google.android.material.textfield.TextInputLayout>
 
-        </RadioGroup>
+                <!-- 2. Routine Type Selector -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="14dp"
+                    android:text="@string/routine_type"
+                    android:textColor="@color/toolBarColor"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
 
-        <!-- Steps Section -->
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/_16sdp"
-            android:text="@string/routine_steps"
-            android:textColor="@color/toolBarColor"
-            android:textSize="@dimen/_13sdp"
-            android:textStyle="bold" />
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="0dp"
+                    app:cardBackgroundColor="#F8F8F8"
+                    app:strokeColor="#E0E0E0"
+                    app:strokeWidth="1dp">
 
-        <LinearLayout
-            android:id="@+id/layoutStepsContainer"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/_8sdp"
-            android:orientation="vertical" />
+                    <RadioGroup
+                        android:id="@+id/rgRoutineType"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="4dp"
+                        android:orientation="horizontal">
 
-        <com.google.android.material.button.MaterialButton
-            android:id="@+id/btnAddStepItem"
-            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/_8sdp"
-            android:text="@string/btn_add_step"
-            android:textColor="@color/toolBarColor"
-            app:strokeColor="@color/toolBarColor"
-            app:cornerRadius="8dp" />
+                        <androidx.appcompat.widget.AppCompatRadioButton
+                            android:id="@+id/rbMorning"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:checked="true"
+                            android:text="@string/routine_type_morning"
+                            android:textColor="#333333"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:buttonTint="@color/radio_button_tint" />
 
-        <!-- Dialog Action Buttons -->
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/_20sdp"
-            android:gravity="end"
-            android:orientation="horizontal">
+                        <androidx.appcompat.widget.AppCompatRadioButton
+                            android:id="@+id/rbNight"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/routine_type_night"
+                            android:textColor="#333333"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:buttonTint="@color/radio_button_tint" />
 
-            <com.google.android.material.button.MaterialButton
-                android:id="@+id/btnCancelDialog"
-                style="@style/Widget.MaterialComponents.Button.TextButton"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/cancel"
-                android:textColor="@color/toolBarColor"
-                android:textStyle="bold" />
+                        <androidx.appcompat.widget.AppCompatRadioButton
+                            android:id="@+id/rbCustom"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="@string/routine_type_custom"
+                            android:textColor="#333333"
+                            android:textSize="12sp"
+                            android:textStyle="bold"
+                            app:buttonTint="@color/radio_button_tint" />
+                    </RadioGroup>
+                </com.google.android.material.card.MaterialCardView>
 
-            <com.google.android.material.button.MaterialButton
-                android:id="@+id/btnSaveRoutine"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="@dimen/_8sdp"
-                android:text="@string/save"
-                android:textColor="@color/white"
-                app:backgroundTint="@color/toolBarColor"
-                app:cornerRadius="8dp" />
+                <!-- 3. Steps Section Header -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/routine_steps"
+                    android:textColor="@color/toolBarColor"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
 
+                <LinearLayout
+                    android:id="@+id/layoutStepsContainer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:orientation="vertical" />
+
+                <!-- Add Step Button -->
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnAddStepItem"
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/btn_add_step"
+                    android:textColor="@color/toolBarColor"
+                    android:textSize="13sp"
+                    android:textStyle="bold"
+                    app:strokeColor="@color/toolBarColor"
+                    app:strokeWidth="1.5dp"
+                    app:cornerRadius="10dp"
+                    app:icon="@drawable/ic_star_rate"
+                    app:iconTint="@color/toolBarColor"
+                    app:iconGravity="textStart" />
+
+                <!-- Action Buttons -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:gravity="end"
+                    android:orientation="horizontal">
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/btnCancelDialog"
+                        style="@style/Widget.MaterialComponents.Button.TextButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/cancel"
+                        android:textColor="@color/toolBarColor"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/btnSaveRoutine"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:paddingHorizontal="20dp"
+                        android:text="@string/save"
+                        android:textColor="@android:color/white"
+                        android:textSize="14sp"
+                        android:textStyle="bold"
+                        app:backgroundTint="@color/toolBarColor"
+                        app:cornerRadius="10dp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
         </LinearLayout>
-
-    </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
 
 </ScrollView>
