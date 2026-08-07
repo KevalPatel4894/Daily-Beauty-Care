@@ -104,11 +104,12 @@ class DetailsActivity : BaseActivity() {
 
         val bundle: Bundle? = intent.extras
         if (bundle != null) {
-            tabName = bundle.getString("tabName").toString()
-            title = bundle.getString("title").toString()
-            image = bundle.getInt("image")
-            details = bundle.getString("details").toString()
-            durationText = bundle.getString("descriptionName").toString()
+            tabName = (bundle.getString("tabName") ?: bundle.getString("TabName") ?: "").ifEmpty { getString(R.string.app_name) }
+            title = bundle.getString("title") ?: bundle.getString("Title") ?: ""
+            image = bundle.getInt("image", R.drawable.ic_remedy)
+            if (image == 0) image = R.drawable.ic_remedy
+            details = bundle.getString("details") ?: bundle.getString("Details") ?: ""
+            durationText = bundle.getString("descriptionName") ?: bundle.getString("DescriptionName") ?: ""
             challengeId = bundle.getString("challenge_id", "")
             dayIndex = bundle.getInt("day_index", -1)
             isChallengeTaskCompleted = bundle.getBoolean("challenge_task_completed", false)

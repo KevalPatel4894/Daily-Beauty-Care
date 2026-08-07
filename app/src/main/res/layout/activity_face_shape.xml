@@ -57,7 +57,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/opt_widest_cheekbones"
-                    android:textColor="#555555"
+                    android:textColor="#222222"
                     android:textSize="12sp"
                     app:buttonTint="@color/radio_button_tint"
                     android:checked="true" />
@@ -67,7 +67,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/opt_widest_forehead"
-                    android:textColor="#555555"
+                    android:textColor="#222222"
                     android:textSize="12sp"
                     app:buttonTint="@color/radio_button_tint" />
 
@@ -76,7 +76,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/opt_widest_jaw"
-                    android:textColor="#555555"
+                    android:textColor="#222222"
                     android:textSize="12sp"
                     app:buttonTint="@color/radio_button_tint" />
 
@@ -85,7 +85,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/opt_widest_equal"
-                    android:textColor="#555555"
+                    android:textColor="#222222"
                     android:textSize="12sp"
                     app:buttonTint="@color/radio_button_tint" />
             </RadioGroup>
@@ -111,7 +111,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/opt_jaw_round"
-                    android:textColor="#555555"
+                    android:textColor="#222222"
                     android:textSize="12sp"
                     app:buttonTint="@color/radio_button_tint"
                     android:checked="true" />
@@ -121,7 +121,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/opt_jaw_square"
-                    android:textColor="#555555"
+                    android:textColor="#222222"
                     android:textSize="12sp"
                     app:buttonTint="@color/radio_button_tint" />
 
@@ -130,7 +130,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/opt_jaw_pointed"
-                    android:textColor="#555555"
+                    android:textColor="#222222"
                     android:textSize="12sp"
                     app:buttonTint="@color/radio_button_tint" />
             </RadioGroup>
@@ -156,7 +156,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/opt_length_longer"
-                    android:textColor="#555555"
+                    android:textColor="#222222"
                     android:textSize="12sp"
                     app:buttonTint="@color/radio_button_tint"
                     android:checked="true" />

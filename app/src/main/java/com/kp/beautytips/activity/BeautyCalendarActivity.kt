@@ -156,20 +156,21 @@ class BeautyCalendarActivity : BaseActivity() {
     }
 
     private fun showAddTaskDialog() {
-        val builder = AlertDialog.Builder(this, R.style.DialogTheme)
-        builder.setTitle(R.string.dialog_add_task_title)
+        val dialogView = LayoutInflater.from(this).inflate(R.layout.dialog_add_calendar_task, null)
+        val etTaskName = dialogView.findViewById<EditText>(R.id.etTaskName)
+        val btnCancelTask = dialogView.findViewById<View>(R.id.btnCancelTask)
+        val btnSaveTask = dialogView.findViewById<View>(R.id.btnSaveTask)
 
-        val input = EditText(this).apply {
-            hint = getString(R.string.hint_task_name)
-            setHintTextColor(0xFF888888.toInt())
-            setTextColor(0xFF333333.toInt())
-            setPadding(40, 30, 40, 30)
-            textSize = 14f
+        val alertDialog = AlertDialog.Builder(this, R.style.DialogTheme)
+            .setView(dialogView)
+            .create()
+
+        btnCancelTask.setOnClickListener {
+            alertDialog.dismiss()
         }
-        builder.setView(input)
 
-        builder.setPositiveButton(android.R.string.ok) { dialog, _ ->
-            val taskText = input.text.toString().trim()
+        btnSaveTask.setOnClickListener {
+            val taskText = etTaskName.text.toString().trim()
             if (taskText.isNotEmpty()) {
                 val newTask = BeautyCalendarTask(
                     id = System.currentTimeMillis().toString(),
@@ -181,17 +182,9 @@ class BeautyCalendarActivity : BaseActivity() {
                 saveTasks()
                 updateListForDay()
             }
-            dialog.dismiss()
-        }
-        builder.setNegativeButton(android.R.string.cancel) { dialog, _ ->
-            dialog.dismiss()
+            alertDialog.dismiss()
         }
 
-        val alertDialog = builder.create()
-        alertDialog.setOnShowListener {
-            alertDialog.getButton(AlertDialog.BUTTON_POSITIVE)?.setTextColor(resources.getColor(R.color.toolBarColor))
-            alertDialog.getButton(AlertDialog.BUTTON_NEGATIVE)?.setTextColor(resources.getColor(R.color.toolBarColor))
-        }
         alertDialog.show()
     }
 

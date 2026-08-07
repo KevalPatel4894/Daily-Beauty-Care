@@ -98,18 +98,18 @@ class IngredientGlossaryActivity : BaseActivity() {
 
     private fun getIngredients(): List<IngredientModel> {
         return listOf(
-            IngredientModel("honey", R.string.ingredient_honey_name, R.string.ingredient_honey_benefits, R.drawable.ic_book_white, R.string.ingredient_honey_keywords),
-            IngredientModel("lemon", R.string.ingredient_lemon_name, R.string.ingredient_lemon_benefits, R.drawable.ic_book_white, R.string.ingredient_lemon_keywords),
-            IngredientModel("aloe_vera", R.string.ingredient_aloe_vera_name, R.string.ingredient_aloe_vera_benefits, R.drawable.ic_book_white, R.string.ingredient_aloe_vera_keywords),
-            IngredientModel("coconut_oil", R.string.ingredient_coconut_oil_name, R.string.ingredient_coconut_oil_benefits, R.drawable.ic_book_white, R.string.ingredient_coconut_oil_keywords),
-            IngredientModel("cucumber", R.string.ingredient_cucumber_name, R.string.ingredient_cucumber_benefits, R.drawable.ic_book_white, R.string.ingredient_cucumber_keywords),
-            IngredientModel("yogurt", R.string.ingredient_yogurt_name, R.string.ingredient_yogurt_benefits, R.drawable.ic_book_white, R.string.ingredient_yogurt_keywords),
-            IngredientModel("turmeric", R.string.ingredient_turmeric_name, R.string.ingredient_turmeric_benefits, R.drawable.ic_book_white, R.string.ingredient_turmeric_keywords),
-            IngredientModel("rose_water", R.string.ingredient_rose_water_name, R.string.ingredient_rose_water_benefits, R.drawable.ic_book_white, R.string.ingredient_rose_water_keywords),
-            IngredientModel("milk", R.string.ingredient_milk_name, R.string.ingredient_milk_benefits, R.drawable.ic_book_white, R.string.ingredient_milk_keywords),
-            IngredientModel("oatmeal", R.string.ingredient_oatmeal_name, R.string.ingredient_oatmeal_benefits, R.drawable.ic_book_white, R.string.ingredient_oatmeal_keywords),
-            IngredientModel("green_tea", R.string.ingredient_green_tea_name, R.string.ingredient_green_tea_benefits, R.drawable.ic_book_white, R.string.ingredient_green_tea_keywords),
-            IngredientModel("egg", R.string.ingredient_egg_name, R.string.ingredient_egg_benefits, R.drawable.ic_book_white, R.string.ingredient_egg_keywords)
+            IngredientModel("honey", R.string.ingredient_honey_name, R.string.ingredient_honey_benefits, R.drawable.honey, R.string.ingredient_honey_keywords),
+            IngredientModel("lemon", R.string.ingredient_lemon_name, R.string.ingredient_lemon_benefits, R.drawable.ic_lemon_juice, R.string.ingredient_lemon_keywords),
+            IngredientModel("aloe_vera", R.string.ingredient_aloe_vera_name, R.string.ingredient_aloe_vera_benefits, R.drawable.aloevera, R.string.ingredient_aloe_vera_keywords),
+            IngredientModel("coconut_oil", R.string.ingredient_coconut_oil_name, R.string.ingredient_coconut_oil_benefits, R.drawable.coconutoil_hairfall_remedy, R.string.ingredient_coconut_oil_keywords),
+            IngredientModel("cucumber", R.string.ingredient_cucumber_name, R.string.ingredient_cucumber_benefits, R.drawable.ic_cucumber_mask, R.string.ingredient_cucumber_keywords),
+            IngredientModel("yogurt", R.string.ingredient_yogurt_name, R.string.ingredient_yogurt_benefits, R.drawable.curd_dandruff, R.string.ingredient_yogurt_keywords),
+            IngredientModel("turmeric", R.string.ingredient_turmeric_name, R.string.ingredient_turmeric_benefits, R.drawable.darkcrcl_tuermeric, R.string.ingredient_turmeric_keywords),
+            IngredientModel("rose_water", R.string.ingredient_rose_water_name, R.string.ingredient_rose_water_benefits, R.drawable.rosewater, R.string.ingredient_rose_water_keywords),
+            IngredientModel("milk", R.string.ingredient_milk_name, R.string.ingredient_milk_benefits, R.drawable.darkcrcl_milk, R.string.ingredient_milk_keywords),
+            IngredientModel("oatmeal", R.string.ingredient_oatmeal_name, R.string.ingredient_oatmeal_benefits, R.drawable.dryhands_oatmeal, R.string.ingredient_oatmeal_keywords),
+            IngredientModel("green_tea", R.string.ingredient_green_tea_name, R.string.ingredient_green_tea_benefits, R.drawable.ic_green_tea, R.string.ingredient_green_tea_keywords),
+            IngredientModel("egg", R.string.ingredient_egg_name, R.string.ingredient_egg_benefits, R.drawable.egg_dandruff, R.string.ingredient_egg_keywords)
         )
     }
 

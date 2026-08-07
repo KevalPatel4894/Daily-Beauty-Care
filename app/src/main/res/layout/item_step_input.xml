@@ -20,6 +20,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:hint="@string/hint_step_name"
+            android:textColor="#333333"
+            android:textColorHint="#888888"
             android:inputType="textCapSentences"
             android:textSize="@dimen/_12sdp" />
 
@@ -28,7 +30,7 @@
             android:layout_width="@dimen/_20sdp"
             android:layout_height="@dimen/_20sdp"
             android:layout_marginStart="@dimen/_6sdp"
-            android:src="@android:drawable/ic_menu_delete"
+            android:src="@drawable/ic_delete"
             app:tint="#D32F2F"
             android:contentDescription="@string/app_name" />
 
@@ -47,6 +49,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="2"
             android:hint="@string/hint_step_desc"
+            android:textColor="#333333"
+            android:textColorHint="#888888"
             android:inputType="textCapSentences"
             android:textSize="@dimen/_10sdp" />
 
@@ -57,6 +61,8 @@
             android:layout_weight="1"
             android:layout_marginStart="@dimen/_6sdp"
             android:hint="@string/hint_timer_sec"
+            android:textColor="#333333"
+            android:textColorHint="#888888"
             android:inputType="number"
             android:textSize="@dimen/_10sdp" />
 

@@ -129,8 +129,8 @@ class ProfileActivity : BaseActivity() {
 
     private fun setupSpinner(spinner: Spinner, options: List<SpinnerOption>) {
         val displayNames = options.map { getString(it.displayResId) }
-        val adapter = ArrayAdapter(this, android.R.layout.simple_spinner_item, displayNames)
-        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
+        val adapter = ArrayAdapter(this, R.layout.item_spinner_item, displayNames)
+        adapter.setDropDownViewResource(R.layout.item_spinner_item)
         spinner.adapter = adapter
     }
 

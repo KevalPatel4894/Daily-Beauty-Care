@@ -944,9 +944,13 @@ class MainActivity : BaseActivity(), CategoryAdapter.OnItemClick {
 
             cardTipOfWeek?.setOnClickListener {
                 val intent = Intent(this, DetailsActivity::class.java).apply {
-                    putExtra("TabName", "Featured Remedies")
+                    putExtra("tabName", getString(R.string.tip_of_week_badge))
+                    putExtra("TabName", getString(R.string.tip_of_week_badge))
+                    putExtra("title", titleText)
                     putExtra("Title", titleText)
+                    putExtra("details", descText)
                     putExtra("Details", descText)
+                    putExtra("image", R.drawable.ic_remedy)
                 }
                 startActivity(intent)
                 AppUtils.startFromRightToLeft(this)

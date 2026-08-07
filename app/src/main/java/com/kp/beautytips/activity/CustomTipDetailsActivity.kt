@@ -574,13 +574,19 @@ class CustomTipDetailsActivity : BaseActivity() {
     }
 
     private fun confirmDelete() {
-        android.app.AlertDialog.Builder(this)
+        val dialog = androidx.appcompat.app.AlertDialog.Builder(this, R.style.DialogTheme)
             .setMessage(getString(R.string.custom_tip_delete_confirm))
             .setPositiveButton(android.R.string.yes) { _, _ ->
                 deleteTip()
             }
             .setNegativeButton(android.R.string.no, null)
-            .show()
+            .create()
+
+        dialog.setOnShowListener {
+            dialog.getButton(androidx.appcompat.app.AlertDialog.BUTTON_POSITIVE)?.setTextColor(resources.getColor(R.color.toolBarColor))
+            dialog.getButton(androidx.appcompat.app.AlertDialog.BUTTON_NEGATIVE)?.setTextColor(resources.getColor(R.color.toolBarColor))
+        }
+        dialog.show()
     }
 
     private fun deleteTip() {

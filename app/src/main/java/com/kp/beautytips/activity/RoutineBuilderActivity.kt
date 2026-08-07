@@ -104,7 +104,7 @@ class RoutineBuilderActivity : BaseActivity() {
     }
 
     private fun confirmDelete(routine: RoutineModel) {
-        AlertDialog.Builder(this)
+        val dialog = AlertDialog.Builder(this, R.style.DialogTheme)
             .setTitle(R.string.routine_builder_title)
             .setMessage(R.string.msg_confirm_delete_routine)
             .setPositiveButton(R.string.save) { _, _ ->
@@ -112,7 +112,13 @@ class RoutineBuilderActivity : BaseActivity() {
                 loadRoutines()
             }
             .setNegativeButton(R.string.cancel, null)
-            .show()
+            .create()
+
+        dialog.setOnShowListener {
+            dialog.getButton(AlertDialog.BUTTON_POSITIVE)?.setTextColor(resources.getColor(R.color.toolBarColor))
+            dialog.getButton(AlertDialog.BUTTON_NEGATIVE)?.setTextColor(resources.getColor(R.color.toolBarColor))
+        }
+        dialog.show()
     }
 
     private fun showAddEditDialog(routine: RoutineModel?) {
@@ -144,7 +150,7 @@ class RoutineBuilderActivity : BaseActivity() {
             addStepRow(layoutStepsContainer, RoutineStep("", "", 60))
         }
 
-        val alertDialog = AlertDialog.Builder(this)
+        val alertDialog = AlertDialog.Builder(this, R.style.DialogTheme)
             .setView(dialogView)
             .create()
 

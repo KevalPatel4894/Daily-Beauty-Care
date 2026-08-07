@@ -57,7 +57,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/opt_float_top"
-                    android:textColor="#555555"
+                    android:textColor="#222222"
                     android:textSize="12sp"
                     app:buttonTint="@color/radio_button_tint"
                     android:checked="true" />
@@ -67,7 +67,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/opt_float_middle"
-                    android:textColor="#555555"
+                    android:textColor="#222222"
                     android:textSize="12sp"
                     app:buttonTint="@color/radio_button_tint" />
 
@@ -76,7 +76,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/opt_float_bottom"
-                    android:textColor="#555555"
+                    android:textColor="#222222"
                     android:textSize="12sp"
                     app:buttonTint="@color/radio_button_tint" />
             </RadioGroup>
@@ -102,7 +102,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/opt_dry_slow"
-                    android:textColor="#555555"
+                    android:textColor="#222222"
                     android:textSize="12sp"
                     app:buttonTint="@color/radio_button_tint"
                     android:checked="true" />
@@ -112,7 +112,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/opt_dry_normal"
-                    android:textColor="#555555"
+                    android:textColor="#222222"
                     android:textSize="12sp"
                     app:buttonTint="@color/radio_button_tint" />
 
@@ -121,7 +121,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/opt_dry_fast"
-                    android:textColor="#555555"
+                    android:textColor="#222222"
                     android:textSize="12sp"
                     app:buttonTint="@color/radio_button_tint" />
             </RadioGroup>
