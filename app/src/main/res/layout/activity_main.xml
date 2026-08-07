@@ -361,6 +361,70 @@
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>
 
+            <!-- Hair Porosity Test Banner -->
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardHairPorosity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_6sdp"
+                android:layout_marginStart="@dimen/_12sdp"
+                android:layout_marginEnd="@dimen/_12sdp"
+                android:clickable="true"
+                android:focusable="true"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="3dp"
+                app:cardBackgroundColor="#EBF5FB"
+                app:strokeColor="#A9CCE3"
+                app:strokeWidth="1dp"
+                app:rippleColor="#A9CCE3">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:padding="@dimen/_10sdp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="💇‍♀️"
+                        android:textSize="26sp" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginStart="@dimen/_10sdp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/hair_porosity_title"
+                            android:textColor="#1F618D"
+                            android:textSize="13sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="2dp"
+                            android:text="@string/hair_porosity_subtitle"
+                            android:textColor="#555555"
+                            android:textSize="10sp"
+                            android:maxLines="1"
+                            android:ellipsize="end" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="@dimen/_16sdp"
+                        android:layout_height="@dimen/_16sdp"
+                        android:src="@drawable/ic_arrow_forward"
+                        android:tint="#1F618D" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
             <!-- Horizontal Grid of 3 Quick Action Cards -->
             <androidx.appcompat.widget.LinearLayoutCompat
                 android:layout_width="match_parent"

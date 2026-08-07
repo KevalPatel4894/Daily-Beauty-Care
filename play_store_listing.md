@@ -34,6 +34,7 @@ All tips in this application utilize natural, easily available ingredients such 
 💅 **Hands & Feet:** Waxing at Home, Dry and rough hands, Nail growth, Pinky shiny nails, Dark underarms, Cracked heels
 
 📱 **Interactive Smart Features:**
+• **Hair Porosity Test:** Interactive float & drying test to determine Low, Normal or High hair porosity
 • **Face Shape Guide:** Interactive test for Oval, Round, Square & Heart face shapes with contouring & hairstyle advice
 • **Tip Rating System:** Rate remedies (👍/👎) to surface top user-loved natural tips
 • **Ingredient Safety Analyzer:** Check safety ratings & skin compatibility dictionary offline
@@ -48,7 +49,8 @@ All tips in this application utilize natural, easily available ingredients such 
 
 ### What's New / Release Notes (Play Console Upload):
 ```
-🎉 NEW UPDATE & FACE SHAPE ADVISOR!
+🎉 NEW UPDATE & HAIR POROSITY ADVISOR!
+💇‍♀️ Added Hair Porosity Test (Identify Low/Normal/High porosity hair with tailored natural remedies)
 👤 Added Face Shape Guide (Interactive test for facial contouring, eyebrow shaping & hairstyle advice)
 👍 Added Tip Rating System (Rate remedies with 👍/👎 and view community-favorite tips)
 🧪 Added Cosmetic Ingredient Safety Analyzer (Check safety ratings & skin compatibility dictionary offline)

@@ -4056,4 +4056,32 @@
     <string name="shape_heart_contour">ハチ周りにシェーディング。</string>
     <string name="shape_heart_brows">やわらかなアーチ眉。</string>
     <string name="shape_heart_hair">アゴラインにボリュームを置くボブ。</string>
+
+    <string name="hair_porosity_title">髪の多孔性（ポロシティ）診断</string>
+    <string name="hair_porosity_subtitle">髪質に合わせたお手入れガイド</string>
+    <string name="btn_calculate_porosity">髪のポロシティを診断する</string>
+    <string name="q_float_test">1. 水浮かべテスト：水を入れたコップに髪を浮かべると？</string>
+    <string name="opt_float_top">上に浮いたまま</string>
+    <string name="opt_float_middle">真ん中に浮遊する</string>
+    <string name="opt_float_bottom">すぐに底へ沈む</string>
+    <string name="q_drying_time">2. 乾燥スピード：洗髪後、乾く速さは？</string>
+    <string name="opt_dry_slow">かなり時間がかかる</string>
+    <string name="opt_dry_normal">普通（45〜60分）</string>
+    <string name="opt_dry_fast">一瞬で乾く</string>
+    <string name="q_product_absorption">3. オイルの浸透：オイルを塗ったときの反応は？</string>
+    <string name="opt_product_sits">表面に留まりベタつく</string>
+    <string name="opt_product_absorbs">しっかり浸透して潤う</string>
+    <string name="opt_product_soaks">すぐ吸い込むがパサつく</string>
+    <string name="porosity_low_title">💧 ロー・ポロシティ（低多孔性）</string>
+    <string name="porosity_low_desc">キューティクルが固く閉じている。</string>
+    <string name="porosity_low_remedies">ホホバオイルなど軽いオイルを温めてなじませる。</string>
+    <string name="porosity_low_avoid">重いシアバターなどは避ける。</string>
+    <string name="porosity_normal_title">✨ ノーマル・ポロシティ（普通）</string>
+    <string name="porosity_normal_desc">水分バランスが完璧な状態。</string>
+    <string name="porosity_normal_remedies">アロエベラやハチミツで水分を維持。</string>
+    <string name="porosity_normal_avoid">過度な熱ダメージを避ける。</string>
+    <string name="porosity_high_title">🌾 ハイ・ポロシティ（高多孔性）</string>
+    <string name="porosity_high_desc">水分が抜けやすくパサつきやすい。</string>
+    <string name="porosity_high_remedies">卵タンパク質パックでキューティクルを補修。</string>
+    <string name="porosity_high_avoid">熱湯でのすすぎを避ける。</string>
 </resources>

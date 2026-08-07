@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:fitsSystemWindows="true">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/toolBarColor">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txtTabTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/hair_porosity_title"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/_18sdp" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/ad_view"
+        android:layout_below="@+id/toolBar"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/_12sdp">
+
+            <!-- Question 1: Float test -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/q_float_test"
+                android:textColor="#333333"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:id="@+id/rgFloatTest"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="12dp">
+
+                <RadioButton
+                    android:id="@+id/rbFloatTop"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/opt_float_top"
+                    android:textColor="#555555"
+                    android:textSize="12sp"
+                    app:buttonTint="@color/radio_button_tint"
+                    android:checked="true" />
+
+                <RadioButton
+                    android:id="@+id/rbFloatMiddle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/opt_float_middle"
+                    android:textColor="#555555"
+                    android:textSize="12sp"
+                    app:buttonTint="@color/radio_button_tint" />
+
+                <RadioButton
+                    android:id="@+id/rbFloatBottom"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/opt_float_bottom"
+                    android:textColor="#555555"
+                    android:textSize="12sp"
+                    app:buttonTint="@color/radio_button_tint" />
+            </RadioGroup>
+
+            <!-- Question 2: Drying time -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/q_drying_time"
+                android:textColor="#333333"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:id="@+id/rgDryingTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="12dp">
+
+                <RadioButton
+                    android:id="@+id/rbDrySlow"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/opt_dry_slow"
+                    android:textColor="#555555"
+                    android:textSize="12sp"
+                    app:buttonTint="@color/radio_button_tint"
+                    android:checked="true" />
+
+                <RadioButton
+                    android:id="@+id/rbDryNormal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/opt_dry_normal"
+                    android:textColor="#555555"
+                    android:textSize="12sp"
+                    app:buttonTint="@color/radio_button_tint" />
+
+                <RadioButton
+                    android:id="@+id/rbDryFast"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/opt_dry_fast"
+                    android:textColor="#555555"
+                    android:textSize="12sp"
+                    app:buttonTint="@color/radio_button_tint" />
+            </RadioGroup>
+
+            <!-- Question 3: Product absorption -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/q_product_absorption"
+                android:textColor="#333333"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:id="@+id/rgProductAbsorption"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="14dp">
+
+                <RadioButton
+                    android:id="@+id/rbProductSits"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/opt_product_sits"
+                    android:textColor="#555555"
+                    android:textSize="12sp"
+                    app:buttonTint="@color/radio_button_tint"
+                    android:checked="true" />
+
+                <RadioButton
+                    android:id="@+id/rbProductAbsorbs"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/opt_product_absorbs"
+                    android:textColor="#555555"
+                    android:textSize="12sp"
+                    app:buttonTint="@color/radio_button_tint" />
+
+                <RadioButton
+                    android:id="@+id/rbProductSoaks"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/opt_product_soaks"
+                    android:textColor="#555555"
+                    android:textSize="12sp"
+                    app:buttonTint="@color/radio_button_tint" />
+            </RadioGroup>
+
+            <!-- Calculate Button -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnCalculatePorosity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_calculate_porosity"
+                android:textColor="@android:color/white"
+                app:backgroundTint="@color/toolBarColor"
+                app:cornerRadius="10dp" />
+
+            <!-- Result Card -->
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardPorosityResult"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:visibility="gone"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="3dp"
+                app:cardBackgroundColor="#EBF5FB"
+                app:strokeColor="#A9CCE3"
+                app:strokeWidth="1dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="@dimen/_14sdp">
+
+                    <TextView
+                        android:id="@+id/txtResultTitle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/toolBarColor"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        tools:text="💧 Low Hair Porosity" />
+
+                    <TextView
+                        android:id="@+id/txtResultDesc"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:textColor="#555555"
+                        android:textSize="12sp"
+                        tools:text="Cuticles are tightly bound." />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="#E0E0E0" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="🌿 Recommended Remedies:"
+                        android:textColor="#333333"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txtResultRemedies"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:textColor="#555555"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="⚠️ Ingredients &amp; Care to Avoid:"
+                        android:textColor="#333333"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txtResultAvoid"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:textColor="#555555"
+                        android:textSize="12sp" />
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <RelativeLayout
+        android:id="@+id/ad_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center" />
+
+</RelativeLayout>

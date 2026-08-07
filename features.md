@@ -228,7 +228,7 @@ To support multiple languages and prevent packaging build errors:
 * **Details:** A short interactive quiz (4–5 questions about facial proportions) determines face shape (Oval, Round, Square, Heart, Diamond). Results show personalized contouring tips and ideal hairstyle recommendations.
 * **Tech:** Offline quiz logic similar to existing Skin Type Test; result screen with image illustrations.
 
-### [ ] Feature 35: Hair Porosity Test
+### [x] Feature 35: Hair Porosity Test
 * **Goal:** Help users understand their hair type for better remedy and product decisions.
 * **Details:** A 3-step interactive quiz tests hair porosity (Low / Normal / High). Result explains what it means and links to targeted remedies (e.g. protein treatments for high porosity, lightweight oils for low porosity).
 * **Tech:** Simple quiz scoring logic; result links to existing hair tips in the app.

@@ -4030,4 +4030,32 @@
     <string name="shape_heart_contour">관자놀이와 이마 라인 셰이딩.</string>
     <string name="shape_heart_brows">부드러운 라운드 눈썹.</string>
     <string name="shape_heart_hair">턱선 길이의 C컬 단발.</string>
+
+    <string name="hair_porosity_title">모발 다공성 (Porosity) 진단</string>
+    <string name="hair_porosity_subtitle">모발 타입 진단 및 맞춤 홈케어</string>
+    <string name="btn_calculate_porosity">모발 다공성 진단하기</string>
+    <string name="q_float_test">1. 물 테스트: 물컵에 머리카락을 넣었을 때 5분 후 상태는?</string>
+    <string name="opt_float_top">물 위에 떠 있음</string>
+    <string name="opt_float_middle">중간에 가라앉음</string>
+    <string name="opt_float_bottom">바닥으로 즉시 가라앉음</string>
+    <string name="q_drying_time">2. 건조 속도: 샴푸 후 자연 건조 속도는?</string>
+    <string name="opt_dry_slow">매우 오래 걸림 (몇 시간)</string>
+    <string name="opt_dry_normal">보통 (45~60분)</string>
+    <string name="opt_dry_fast">금방 말라버림</string>
+    <string name="q_product_absorption">3. 제품 흡수: 헤어 오일을 바르면?</string>
+    <string name="opt_product_sits">겉돌고 끈적거림</string>
+    <string name="opt_product_absorbs">잘 흡수되어 부드러움</string>
+    <string name="opt_product_soaks">금방 흡수되지만 다시 건조함</string>
+    <string name="porosity_low_title">💧 저다공성 모발 (Low Porosity)</string>
+    <string name="porosity_low_desc">큐티클이 촘촘해 수분이 잘 안 들어감.</string>
+    <string name="porosity_low_remedies">가벼운 호호바, 아르간 오일을 미온수와 함께 사용.</string>
+    <string name="porosity_low_avoid">무거운 버터류 제형 피하기.</string>
+    <string name="porosity_normal_title">✨ 일반 모발 (Normal Porosity)</string>
+    <string name="porosity_normal_desc">수분 밸런스가 이상적인 상태.</string>
+    <string name="porosity_normal_remedies">알로에 젤과 꿀 팩으로 보습 유지.</string>
+    <string name="porosity_normal_avoid">과도한 열기구 사용 금지.</string>
+    <string name="porosity_high_title">🌾 고다공성 모발 (High Porosity)</string>
+    <string name="porosity_high_desc">수분이 쉽게 빠져나가 부스스함.</string>
+    <string name="porosity_high_remedies">달걀 단백질 팩과 아보카도 버터 케어.</string>
+    <string name="porosity_high_avoid">뜨거운 물 헹굼 피하기.</string>
 </resources>

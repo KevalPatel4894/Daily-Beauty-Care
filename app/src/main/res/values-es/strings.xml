@@ -4061,4 +4061,32 @@
     <string name="shape_heart_contour">Contornea sienes y frentes.</string>
     <string name="shape_heart_brows">Cejas redondeadas.</string>
     <string name="shape_heart_hair">Cortes a la barbilla con ondas.</string>
+
+    <string name="hair_porosity_title">Test de Porosidad del Cabello</string>
+    <string name="hair_porosity_subtitle">Descubre tu tipo de cabello y remedios</string>
+    <string name="btn_calculate_porosity">Calcular Porosidad del Cabello</string>
+    <string name="q_float_test">1. Prueba del vaso de agua: Pon una hebra de cabello en agua. ¿Qué pasa?</string>
+    <string name="opt_float_top">Flota en la superficie</string>
+    <string name="opt_float_middle">Flota en el medio</string>
+    <string name="opt_float_bottom">Se hunde al fondo de inmediato</string>
+    <string name="q_drying_time">2. Tiempo de secado: ¿Cuán rápido se seca tu cabello?</string>
+    <string name="opt_dry_slow">Tarda mucho (horas)</string>
+    <string name="opt_dry_normal">Tiempo normal (45-60 min)</string>
+    <string name="opt_dry_fast">Se seca casi al instante</string>
+    <string name="q_product_absorption">3. Absorción de productos: ¿Cómo reacciona al aceite?</string>
+    <string name="opt_product_sits">El producto se queda encima y engrasa</string>
+    <string name="opt_product_absorbs">Absorbe bien y queda suave</string>
+    <string name="opt_product_soaks">Absorbe al instante pero sigue seco</string>
+    <string name="porosity_low_title">💧 Porosidad Baja</string>
+    <string name="porosity_low_desc">Cutículas muy cerradas.</string>
+    <string name="porosity_low_remedies">Usa aceites ligeros (Jojoba, Argán) con calor suave.</string>
+    <string name="porosity_low_avoid">Evita mantecas pesadas.</string>
+    <string name="porosity_normal_title">✨ Porosidad Normal</string>
+    <string name="porosity_normal_desc">Equilibrio perfecto de humedad.</string>
+    <string name="porosity_normal_remedies">Mantiene con gel de aloe vera y mascarillas de miel.</string>
+    <string name="porosity_normal_avoid">Evita calor excesivo.</string>
+    <string name="porosity_high_title">🌾 Porosidad Alta</string>
+    <string name="porosity_high_desc">El cabello pierde humedad rápido provocando frizz.</string>
+    <string name="porosity_high_remedies">Aplica mascarillas de proteína de huevo y aguacate.</string>
+    <string name="porosity_high_avoid">Evita agua caliente.</string>
 </resources>

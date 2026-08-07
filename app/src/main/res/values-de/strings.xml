@@ -4061,4 +4061,32 @@
     <string name="shape_heart_contour">Schläfen konturieren.</string>
     <string name="shape_heart_brows">Abgerundete Brauen.</string>
     <string name="shape_heart_hair">Kinnholhe Bobs und Wellen.</string>
+
+    <string name="hair_porosity_title">Haarporositätstest</string>
+    <string name="hair_porosity_subtitle">Entdecken Sie Ihren Haartyp &amp; Pflegetipps</string>
+    <string name="btn_calculate_porosity">Haarporosität berechnen</string>
+    <string name="q_float_test">1. Schwimmtest: Legen Sie ein Haar in ein Glas Wasser. Was passiert nach 5 Min.?</string>
+    <string name="opt_float_top">Schwimmt an der Oberfläche</string>
+    <string name="opt_float_middle">Schwimmt in der Mitte</string>
+    <string name="opt_float_bottom">Sinkt sofort auf den Boden</string>
+    <string name="q_drying_time">2. Trocknungszeit: Wie schnell trocknet Ihr Haar?</string>
+    <string name="opt_dry_slow">Dauert sehr lange (Stunden)</string>
+    <string name="opt_dry_normal">Normale Zeit (45-60 Min.)</string>
+    <string name="opt_dry_fast">Trocknet fast sofort</string>
+    <string name="q_product_absorption">3. Produktaufnahme: Wie reagiert das Haar auf Öle?</string>
+    <string name="opt_product_sits">Produkt liegt auf &amp; fettet</string>
+    <string name="opt_product_absorbs">Zieht gut ein &amp; wird weich</string>
+    <string name="opt_product_soaks">Zieht sofort ein, bleibt aber trocken</string>
+    <string name="porosity_low_title">💧 Geringe Haarporosität</string>
+    <string name="porosity_low_desc">Schuppenschicht ist eng geschlossen.</string>
+    <string name="porosity_low_remedies">Leichte Öle (Jojoba, Argan) mit Wärme verwenden.</string>
+    <string name="porosity_low_avoid">Schwere Butter vermeiden.</string>
+    <string name="porosity_normal_title">✨ Normale Haarporosität</string>
+    <string name="porosity_normal_desc">Ausgewogene Schuppenschicht.</string>
+    <string name="porosity_normal_remedies">Aloe Vera Gel und Honigmasken nutzen.</string>
+    <string name="porosity_normal_avoid">Übermäßige Hitze vermeiden.</string>
+    <string name="porosity_high_title">🌾 Hohe Haarporosität</string>
+    <string name="porosity_high_desc">Haar verliert schnell Feuchtigkeit.</string>
+    <string name="porosity_high_remedies">Proteinmasken und Avocadoöl verwenden.</string>
+    <string name="porosity_high_avoid">Heißes Wasser vermeiden.</string>
 </resources>

@@ -4056,4 +4056,32 @@
     <string name="shape_heart_contour">Ombrez les tempes.</string>
     <string name="shape_heart_brows">Sourcils arrondis.</string>
     <string name="shape_heart_hair">Carrés au menton.</string>
+
+    <string name="hair_porosity_title">Test de Porosité des Cheveux</string>
+    <string name="hair_porosity_subtitle">Découvrez votre type de cheveux &amp; soins adaptés</string>
+    <string name="btn_calculate_porosity">Calculer la Porosité des Cheveux</string>
+    <string name="q_float_test">1. Test du verre d\'eau: Déposez un cheveu dans l\'eau. Que se passe-t-il?</string>
+    <string name="opt_float_top">Flotte à la surface</string>
+    <string name="opt_float_middle">Flotte au milieu</string>
+    <string name="opt_float_bottom">Coule au fond immédiatement</string>
+    <string name="q_drying_time">2. Temps de séchage: À quelle vitesse sèchent vos cheveux?</string>
+    <string name="opt_dry_slow">Prend très longtemps (heures)</string>
+    <string name="opt_dry_normal">Temps normal (45-60 min)</string>
+    <string name="opt_dry_fast">Sèche presque instantanément</string>
+    <string name="q_product_absorption">3. Absorption des soins: Réaction aux huiles?</string>
+    <string name="opt_product_sits">Le produit reste en surface et graisser</string>
+    <string name="opt_product_absorbs">Absorbe bien et reste doux</string>
+    <string name="opt_product_soaks">Absorbe vite mais reste sec</string>
+    <string name="porosity_low_title">💧 Porosité Faible</string>
+    <string name="porosity_low_desc">Écailles très fermées.</string>
+    <string name="porosity_low_remedies">Utilisez des huiles légères (Jojoba, Argan) avec de la chaleur.</string>
+    <string name="porosity_low_avoid">Évitez les beurre lourds.</string>
+    <string name="porosity_normal_title">✨ Porosité Normale</string>
+    <string name="porosity_normal_desc">Écailles équilibrées.</string>
+    <string name="porosity_normal_remedies">Masque à l\'aloe vera et miel.</string>
+    <string name="porosity_normal_avoid">Évitez la chaleur excessive.</string>
+    <string name="porosity_high_title">🌾 Porosité Élevée</string>
+    <string name="porosity_high_desc">Perte rapide d\'hydratation et frisottis.</string>
+    <string name="porosity_high_remedies">Masque protéiné à l\'œuf et l\'avocat.</string>
+    <string name="porosity_high_avoid">Évitez l\'eau très chaude.</string>
 </resources>

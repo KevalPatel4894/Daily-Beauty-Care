@@ -4038,4 +4038,32 @@
     <string name="shape_heart_contour">Contorne as têmporas.</string>
     <string name="shape_heart_brows">Sobrancelhas arredondadas.</string>
     <string name="shape_heart_hair">Cortes na altura do queixo.</string>
+
+    <string name="hair_porosity_title">Teste de Porosidade do Cabelo</string>
+    <string name="hair_porosity_subtitle">Descubra seu tipo de cabelo e receitas</string>
+    <string name="btn_calculate_porosity">Calcular Porosidade do Cabelo</string>
+    <string name="q_float_test">1. Teste do copo d\'água: Coloque um fio de cabelo na água. O que acontece?</string>
+    <string name="opt_float_top">Fica boiando na superfície</string>
+    <string name="opt_float_middle">Bóia no meio</string>
+    <string name="opt_float_bottom">Afunda para o fundo imediatamente</string>
+    <string name="q_drying_time">2. Tempo de secagem: Quão rápido seu cabelo seca?</string>
+    <string name="opt_dry_slow">Demora muito tempo (horas)</string>
+    <string name="opt_dry_normal">Tempo normal (45-60 min)</string>
+    <string name="opt_dry_fast">Seca quase instantaneamente</string>
+    <string name="q_product_absorption">3. Absorção de produtos: Reação a óleos?</string>
+    <string name="opt_product_sits">O produto fica por cima e oleoso</string>
+    <string name="opt_product_absorbs">Absorve bem e fica macio</string>
+    <string name="opt_product_soaks">Absorve rápido mas continua seco</string>
+    <string name="porosity_low_title">💧 Baixa Porosidade</string>
+    <string name="porosity_low_desc">Cutículas muito fechadas.</string>
+    <string name="porosity_low_remedies">Use óleos leves (Jojoba, Argan) com calor morno.</string>
+    <string name="porosity_low_avoid">Evite manteigas pesadas.</string>
+    <string name="porosity_normal_title">✨ Porosidade Normal</string>
+    <string name="porosity_normal_desc">Equilíbrio perfeito de hidratação.</string>
+    <string name="porosity_normal_remedies">Máscara de aloe vera e mel.</string>
+    <string name="porosity_normal_avoid">Evite calor excessivo.</string>
+    <string name="porosity_high_title">🌾 Alta Porosidade</string>
+    <string name="porosity_high_desc">Perde umidade rápido causando frizz.</string>
+    <string name="porosity_high_remedies">Máscara de proteína de ovo e abacate.</string>
+    <string name="porosity_high_avoid">Evite água quente.</string>
 </resources>

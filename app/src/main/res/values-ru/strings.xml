@@ -4056,4 +4056,32 @@
     <string name="shape_heart_contour">Затемняйте виски.</string>
     <string name="shape_heart_brows">Округлые брови.</string>
     <string name="shape_heart_hair">Каре до подбородка.</string>
+
+    <string name="hair_porosity_title">Тест пористости волос</string>
+    <string name="hair_porosity_subtitle">Определите тип волос и подходящие рецепты</string>
+    <string name="btn_calculate_porosity">Определить пористость волос</string>
+    <string name="q_float_test">1. Тест с водой: Опустите волос в стакан с водой. Что произошло?</string>
+    <string name="opt_float_top">Плавает на поверхности</string>
+    <string name="opt_float_middle">Плавает посередине</string>
+    <string name="opt_float_bottom">Мгновенно тонет на дно</string>
+    <string name="q_drying_time">2. Время сушки: Как быстро высыхают волосы?</string>
+    <string name="opt_dry_slow">Сохнут очень долго (часы)</string>
+    <string name="opt_dry_normal">Обычно (45-60 мин)</string>
+    <string name="opt_dry_fast">Сохнут моментально</string>
+    <string name="q_product_absorption">3. Впитывание средств: Как реагируют на масла?</string>
+    <string name="opt_product_sits">Масло остается на поверхности</string>
+    <string name="opt_product_absorbs">Впитывают отлично, волосы мягкие</string>
+    <string name="opt_product_soaks">Впитывают сразу, но остаются сухими</string>
+    <string name="porosity_low_title">💧 Низкая пористость волос</string>
+    <string name="porosity_low_desc">Чешуйки плотно закрыты.</string>
+    <string name="porosity_low_remedies">Используйте легкие масла (жожоба, арган) с теплым полотенцем.</string>
+    <string name="porosity_low_avoid">Избегайте тяжелых масел.</string>
+    <string name="porosity_normal_title">✨ Нормальная пористость волос</string>
+    <string name="porosity_normal_desc">Идеальный баланс влаги.</string>
+    <string name="porosity_normal_remedies">Маски с алоэ вера и медом.</string>
+    <string name="porosity_normal_avoid">Избегайте сильного нагрева.</string>
+    <string name="porosity_high_title">🌾 Высокая пористость волос</string>
+    <string name="porosity_high_desc">Волосы быстро теряют влагу и пушатся.</string>
+    <string name="porosity_high_remedies">Яичные протеиновые маски и авокадо.</string>
+    <string name="porosity_high_avoid">Избегайте горячей воды.</string>
 </resources>

@@ -4036,4 +4036,32 @@
     <string name="shape_heart_contour">माथे के किनारों पर कंटूर करें।</string>
     <string name="shape_heart_brows">सॉफ्ट राउंडेड आइब्रो।</string>
     <string name="shape_heart_hair">ठोड़ी तक बॉब कट।</string>
+
+    <string name="hair_porosity_title">बालों का पोरोसिटी टेस्ट</string>
+    <string name="hair_porosity_subtitle">बालों का प्रकार और घरेलू नुस्खे जानें</string>
+    <string name="btn_calculate_porosity">पोरोसिटी की जांच करें</string>
+    <string name="q_float_test">1. वाटर फ्लोट टेस्ट: एक गिलास पानी में बाल डालें। 5 मिनट बाद क्या होता है?</string>
+    <string name="opt_float_top">पानी के ऊपर तैरता रहता है</string>
+    <string name="opt_float_middle">बीच में तैरता है</string>
+    <string name="opt_float_bottom">तुरंत नीचे बैठ जाता है</string>
+    <string name="q_drying_time">2. सूखने की गति: धोने के बाद बाल कितनी जल्दी सूखते हैं?</string>
+    <string name="opt_dry_slow">बहुत समय लगता है (घंटे)</string>
+    <string name="opt_dry_normal">सामान्य समय (45-60 मिनट)</string>
+    <string name="opt_dry_fast">तुरंत सूख जाते हैं</string>
+    <string name="q_product_absorption">3. तेल/क्रीम सोखना: तेल लगाने पर बाल कैसा महसूस करते हैं?</string>
+    <string name="opt_product_sits">तेल ऊपर ही रहता है और चिपचिपा लगता है</string>
+    <string name="opt_product_absorbs">अच्छी तरह सोखता है और मुलायम रहता है</string>
+    <string name="opt_product_soaks">तुरंत सोख लेता है पर फिर भी सूखा लगता है</string>
+    <string name="porosity_low_title">💧 लो हेयर पोरोसिटी (कम पोरोसिटी)</string>
+    <string name="porosity_low_desc">बालों में नमी मुश्किल से जाती है।</string>
+    <string name="porosity_low_remedies">हल्के तेल (जो जोबा, अरगन) को हल्का गुनगुना करके लगाएं।</string>
+    <string name="porosity_low_avoid">भारी बटर और गाढ़े नारियल तेल से बचें।</string>
+    <string name="porosity_normal_title">✨ नॉर्मल हेयर पोरोसिटी</string>
+    <string name="porosity_normal_desc">बालों में नमी का संतुलन सही रहता है।</string>
+    <string name="porosity_normal_remedies">एलोवेरा जेल और शहद मास्क का उपयोग करें।</string>
+    <string name="porosity_normal_avoid">अत्यधिक हीट स्टाइलिंग से बचें।</string>
+    <string name="porosity_high_title">🌾 हाई हेयर पोरोसिटी (ज्यादा पोरोसिटी)</string>
+    <string name="porosity_high_desc">नमी तुरंत निकल जाती है जिससे बाल उलझते हैं।</string>
+    <string name="porosity_high_remedies">अंडे का प्रोटीन मास्क और एवोकाडो लगाएं।</string>
+    <string name="porosity_high_avoid">बहुत गर्म पानी से धोने से बचें।</string>
 </resources>

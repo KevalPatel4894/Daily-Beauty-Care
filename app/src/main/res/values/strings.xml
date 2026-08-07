@@ -4089,4 +4089,39 @@
     <string name="shape_heart_contour">Contour temples and sides of forehead to balance chin point.</string>
     <string name="shape_heart_brows">Softly rounded low-arch eyebrows soften sharp chin.</string>
     <string name="shape_heart_hair">Chin-length bobs and side-parted curls add volume near jawline.</string>
+
+    <!-- Feature 35: Hair Porosity Test -->
+    <string name="hair_porosity_title">Hair Porosity Test</string>
+    <string name="hair_porosity_subtitle">Discover your hair type &amp; customized remedy guide</string>
+    <string name="btn_calculate_porosity">Calculate Hair Porosity</string>
+
+    <string name="q_float_test">1. Water Float Test: Drop a clean hair strand in a glass of water. What happens after 5 minutes?</string>
+    <string name="opt_float_top">Floats on top of water</string>
+    <string name="opt_float_middle">Floats in the middle / slow sink</string>
+    <string name="opt_float_bottom">Sinks to the bottom immediately</string>
+
+    <string name="q_drying_time">2. Drying Speed: How fast does your hair air-dry after washing?</string>
+    <string name="opt_dry_slow">Takes a very long time (hours)</string>
+    <string name="opt_dry_normal">Normal time (45-60 mins)</string>
+    <string name="opt_dry_fast">Dries almost instantly</string>
+
+    <string name="q_product_absorption">3. Product Absorption: How does hair react when applying oils or creams?</string>
+    <string name="opt_product_sits">Product sits on top &amp; feels greasy</string>
+    <string name="opt_product_absorbs">Absorbs well and feels soft</string>
+    <string name="opt_product_soaks">Soaks in instantly but feels dry fast</string>
+
+    <string name="porosity_low_title">💧 Low Hair Porosity</string>
+    <string name="porosity_low_desc">Cuticles are tightly bound. Hair resists moisture absorption but retains it well once inside.</string>
+    <string name="porosity_low_remedies">Use lightweight oils (Jojoba, Argan) with mild heat (warm towel wrap) to open cuticles.</string>
+    <string name="porosity_low_avoid">Avoid heavy butter (Shea butter, thick coconut oil) which cause buildup.</string>
+
+    <string name="porosity_normal_title">✨ Normal Hair Porosity</string>
+    <string name="porosity_normal_desc">Cuticles are balanced. Hair easily absorbs and retains moisture effortlessly.</string>
+    <string name="porosity_normal_remedies">Maintain balance with aloe vera gel, honey masks, and regular herbal washes.</string>
+    <string name="porosity_normal_avoid">Avoid excessive heat styling or harsh chemical treatments.</string>
+
+    <string name="porosity_high_title">🌾 High Hair Porosity</string>
+    <string name="porosity_high_desc">Cuticles have gaps &amp; tears. Hair absorbs moisture fast but loses it quickly, causing frizzy hair.</string>
+    <string name="porosity_high_remedies">Apply egg protein masks, avocado butter, and leave-in conditioner to seal cuticles.</string>
+    <string name="porosity_high_avoid">Avoid hot water rinses and sulfates which strip natural oils.</string>
 </resources>
