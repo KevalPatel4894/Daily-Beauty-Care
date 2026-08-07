@@ -4018,4 +4018,6 @@
     <string name="phase_menstrual_tip_title">Calmar e Hidratar Barrera</string>
     <string name="phase_menstrual_tip_desc">Evita ácidos fuertes. Aplica aloe vera y crema hidratante.</string>
     <string name="msg_cycle_saved">¡Ajustes del ciclo guardados con éxito!</string>
+
+    <string name="ingredient_glossary_subtitle">Evaluación de seguridad y compatibilidad de piel</string>
 </resources>

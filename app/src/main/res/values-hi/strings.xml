@@ -3993,4 +3993,6 @@
     <string name="phase_menstrual_tip_title">त्वचा को शांत और हाइड्रेट करें</string>
     <string name="phase_menstrual_tip_desc">कठोर एसिड से बचें। एलोवेरा और क्रीम लगाएं।</string>
     <string name="msg_cycle_saved">साइकिल सेटिंग सफलतापूर्वक सहेजी गई!</string>
+
+    <string name="ingredient_glossary_subtitle">सुरक्षा रेटिंग और त्वचा अनुकूलता शब्दकोश</string>
 </resources>

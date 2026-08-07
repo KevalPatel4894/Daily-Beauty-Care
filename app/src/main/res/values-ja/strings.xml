@@ -4013,4 +4013,6 @@
     <string name="phase_menstrual_tip_title">鎮静＆バリア保湿</string>
     <string name="phase_menstrual_tip_desc">強い刺激を避け、アロエでたっぷり保湿。</string>
     <string name="msg_cycle_saved">周期設定を保存しました！</string>
+
+    <string name="ingredient_glossary_subtitle">成分の安全性評価＆肌相性辞書</string>
 </resources>

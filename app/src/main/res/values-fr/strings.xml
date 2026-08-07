@@ -4013,4 +4013,6 @@
     <string name="phase_menstrual_tip_title">Apaiser &amp; Hydrater la Barrière</string>
     <string name="phase_menstrual_tip_desc">Évitez les acides forts. Appliquez de l\'aloe vera.</string>
     <string name="msg_cycle_saved">Réglages du cycle enregistrés avec succès!</string>
+
+    <string name="ingredient_glossary_subtitle">Évaluations de sécurité et compatibilité cutanée</string>
 </resources>

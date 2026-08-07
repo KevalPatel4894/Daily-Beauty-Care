@@ -287,6 +287,14 @@ class MainActivity : BaseActivity(), CategoryAdapter.OnItemClick {
             }
         }
 
+        val cardIngredientGlossary = findViewById<View>(R.id.cardIngredientGlossary)
+        cardIngredientGlossary.setOnClickListener {
+            Intent(this, IngredientGlossaryActivity::class.java).also {
+                startActivity(it)
+                AppUtils.startFromRightToLeft(this)
+            }
+        }
+
         val imgSearch = findViewById<androidx.appcompat.widget.AppCompatImageView>(R.id.imgSearch)
         imgSearch.setOnClickListener {
             Intent(this, SearchActivity::class.java).also {

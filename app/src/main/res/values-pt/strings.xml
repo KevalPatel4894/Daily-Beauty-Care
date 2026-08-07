@@ -3995,4 +3995,6 @@
     <string name="phase_menstrual_tip_title">Acalmar e Hidratar a Barreira</string>
     <string name="phase_menstrual_tip_desc">Evite ácidos fortes. Aplique aloe vera e hidratante.</string>
     <string name="msg_cycle_saved">Configurações salvas com sucesso!</string>
+
+    <string name="ingredient_glossary_subtitle">Classificação de segurança e compatibilidade</string>
 </resources>

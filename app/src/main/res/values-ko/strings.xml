@@ -3987,4 +3987,6 @@
     <string name="phase_menstrual_tip_title">피부 진정 &amp; 장벽 케어</string>
     <string name="phase_menstrual_tip_desc">자극적인 성분을 피하고 알로에로 촉촉하게 진정.</string>
     <string name="msg_cycle_saved">주기 설정이 성공적으로 저장되었습니다!</string>
+
+    <string name="ingredient_glossary_subtitle">안전 등급 및 피부 타입별 성분 사전</string>
 </resources>

@@ -4018,4 +4018,6 @@
     <string name="phase_menstrual_tip_title">Beruhigen &amp; Hautbarriere schützen</string>
     <string name="phase_menstrual_tip_desc">Vermeiden Sie scharfe Säuren. Aloe Vera auftragen.</string>
     <string name="msg_cycle_saved">Zykluseinstellungen erfolgreich gespeichert!</string>
+
+    <string name="ingredient_glossary_subtitle">Sicherheitsbewertungen &amp; Hautverträglichkeit</string>
 </resources>

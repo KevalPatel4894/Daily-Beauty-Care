@@ -3706,6 +3706,7 @@
 
     <!-- Feature 16: Ingredient Directory &amp; Glossary -->
     <string name="ingredient_glossary_title">Ingredient Glossary</string>
+    <string name="ingredient_glossary_subtitle">Safety ratings &amp; skin compatibility dictionary</string>
     <string name="ingredient_search_hint">Search ingredients...</string>
     <string name="ingredient_benefits_header">Beauty Benefits</string>
     <string name="ingredient_remedies_header">Remedies Using This Ingredient</string>

@@ -4013,4 +4013,6 @@
     <string name="phase_menstrual_tip_title">Успокоение и барьерный уход</string>
     <string name="phase_menstrual_tip_desc">Избегайте агрессивных кислот. Наносите алоэ вера.</string>
     <string name="msg_cycle_saved">Настройки цикла успешно сохранены!</string>
+
+    <string name="ingredient_glossary_subtitle">Оценка безопасности и совместимости с кожей</string>
 </resources>
