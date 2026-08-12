@@ -56,16 +56,16 @@ All tips in this application utilize natural, easily available ingredients such 
 
 ---
 
-### What's New / Release Notes (Play Console Upload - Max 500 Chars Allowed):
+### What's New / Release Notes (Play Console Upload - Simple & Short):
 ```
-🎉 NEW UPDATE & BEAUTY MYTHS QUIZ!
-❓ Added Beauty Myths & Facts Quiz (Test your skincare knowledge with 5 weekly true/false myths & explanations)
-🕒 Added Recently Viewed History (Quickly revisit your last 15 opened natural remedies)
-🌟 Added Tip of the Week (Auto-rotating weekly featured natural remedy card)
-⚡ Added Daily 5-Minute Challenge with live streak counter (🔥)
-📅 Added Beauty Routine Calendar & weekly self-care planner
-✨ Redesigned dialogs & enhanced UI text readability
-🌐 Updated translations across all 8 supported languages
+🎉 NEW UPDATE!
+• ❓ Beauty Myths & Facts Quiz
+• 🌿 Daily Ingredient Spotlight
+• ✨ 7-Day Beginner Skincare Guide
+• 🕒 Recently Viewed Tips History
+• 🌟 Tip of the Week Highlight
+• 🎨 Enhanced UI readability & dialog designs
+• 🌐 Updated 8-language translations
 ```
 
 ---
