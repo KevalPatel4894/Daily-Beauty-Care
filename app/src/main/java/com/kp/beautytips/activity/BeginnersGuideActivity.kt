@@ -93,6 +93,10 @@ class BeginnersGuideActivity : BaseActivity() {
         progressGuide.progress = completedCount
         val percent = (completedCount * 100) / steps.size
         txtProgressStatus.text = getString(R.string.beginner_progress_format, completedCount, steps.size, percent)
+
+        if (completedCount == steps.size) {
+            com.kp.beautytips.utils.AppRatingManager.showRatingDialog(this)
+        }
     }
 
     override fun onSupportNavigateUp(): Boolean {
