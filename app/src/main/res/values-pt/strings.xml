@@ -4159,4 +4159,55 @@
     <string name="quiz_myth_4_ans">VERDADEIRO! A hidratação melhora a circulação e a elasticidade da pele.</string>
     <string name="quiz_myth_5_q">Os poros se abrem e fecham com água quente ou fria.</string>
     <string name="quiz_myth_5_ans">FALSO! Poros não têm músculos. O vapor solta a oleosidade mas o tamanho é fixo.</string>
+
+    <!-- Feature 44: Ingredient Spotlight -->
+    <string name="ingredient_spotlight_title">Ingrediente do Dia</string>
+    <string name="spotlight_daily_badge">EM DESTAQUE HOJE</string>
+    <string name="spotlight_benefits_header">🌿 Benefícios para Pele e Cabelo</string>
+    <string name="spotlight_recipes_header">🍯 3 Receitas Caseiras Naturais</string>
+    <string name="spotlight_turmeric_name">Cúrcuma Dourada (Haldi)</string>
+    <string name="spotlight_turmeric_tagline">Poderoso Anti-inflamatório e Brilho</string>
+    <string name="spotlight_turmeric_desc">A cúrcuma é usada há séculos para iluminar a pele e acalmar a acne.</string>
+    <string name="spotlight_turmeric_benefits">• Suaviza manchas escuras
+• Acalma acnes e vermelhidões
+• Aumenta o brilho natural</string>
+    <string name="spotlight_turmeric_recipes">1. Máscara de Brilho: 1/2 colher de Cúrcuma + Mel + Iogurte por 15 min.
+2. Tratamento Pontual: Cúrcuma + Água de rosas.
+3. Esfoliante Corporal: Cúrcuma + Óleo de coco.</string>
+    <string name="spotlight_honey_name">Mel Orgânico Cru</string>
+    <string name="spotlight_honey_tagline">Umectante Natural &amp; Antimicrobiano</string>
+    <string name="spotlight_honey_desc">O mel cru atrai hidratação profunda e oferece proteção antibacteriana.</string>
+    <string name="spotlight_honey_benefits">• Mantém a hidratação celular
+• Combate bactérias da acne
+• Acelera a cicatrização</string>
+    <string name="spotlight_honey_recipes">1. Máscara Hidratante: Mel cru por 20 min.
+2. Esfoliante Labial: Mel + Açúcar mascavo.
+3. Enxágue Capilar: Mel + Água morna.</string>
+    <string name="spotlight_aloe_name">Gel de Aloe Vera Fresco</string>
+    <string name="spotlight_aloe_tagline">Hidratante Calmante</string>
+    <string name="spotlight_aloe_desc">Rico em vitaminas C e E, o aloe vera acalma a pele irritada e hidrata.</string>
+    <string name="spotlight_aloe_benefits">• Alívio imediato para pele pós-sol
+• Hidrata sem obstruir poros
+• Reduz o inchaço dos olhos</string>
+    <string name="spotlight_aloe_recipes">1. Máscara Noturna: Gel de Aloe puro durante a noite.
+2. Almofadas Oculares: Aloe + Suco de pepino.
+3. Sérum Capilar: Gel nas pontas úmidas.</string>
+    <string name="spotlight_coconut_name">Óleo de Coco Extra Virgem</string>
+    <string name="spotlight_coconut_tagline">Condicionamento Profundo</string>
+    <string name="spotlight_coconut_desc">O óleo de coco virgem penetra nos fios e mantém a umidade da pele.</string>
+    <string name="spotlight_coconut_benefits">• Evita perda de proteína capilar
+• Recupera calcanhares ressecados
+• Remove maquiagem suavemente</string>
+    <string name="spotlight_coconut_recipes">1. Banho de Óleo: Óleo morno 30 min antes de lavar.
+2. Hidratação Corporal: Aplicar pós-banho.
+3. Cuidado com Unhas: Massagear cutículas.</string>
+    <string name="spotlight_rosewater_name">Água de Rosas Pura</string>
+    <string name="spotlight_rosewater_tagline">Tônico Refrescante</string>
+    <string name="spotlight_rosewater_desc">A água de rosas tonifica os poros e equilibra o pH ideal da pele.</string>
+    <string name="spotlight_rosewater_benefits">• Equilibra o pH da pele
+• Suaviza a aparência dos poros
+• Refresca a pele cansada</string>
+    <string name="spotlight_rosewater_recipes">1. Bruma Hidratante: Borrifar de manhã e à noite.
+2. Máscara de Argila: Misturar com argila.
+3. Compressa Ocular: Algodão embebido por 10 min.</string>
 </resources>

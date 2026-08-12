@@ -4223,4 +4223,55 @@
     <string name="quiz_myth_4_ans">TRUE! Proper hydration boosts blood circulation and supports skin elasticity and cell renewal.</string>
     <string name="quiz_myth_5_q">Pores can physically open and close with hot or cold water.</string>
     <string name="quiz_myth_5_ans">FALSE! Pores do not have muscles to open or close. Steam loosens oil and cold water reduces inflammation, but pore size remains fixed.</string>
+
+    <!-- Feature 44: Ingredient Spotlight -->
+    <string name="ingredient_spotlight_title">Daily Ingredient Spotlight</string>
+    <string name="spotlight_daily_badge">TODAY\'S SPOTLIGHT</string>
+    <string name="spotlight_benefits_header">🌿 Key Skin &amp; Hair Benefits</string>
+    <string name="spotlight_recipes_header">🍯 3 DIY Natural Recipes To Try Today</string>
+    <string name="spotlight_turmeric_name">Golden Turmeric (Haldi)</string>
+    <string name="spotlight_turmeric_tagline">Powerful Anti-Inflammatory &amp; Glow Booster</string>
+    <string name="spotlight_turmeric_desc">Turmeric has been used for centuries in Ayurveda to brighten complexion, soothe active acne, and fade stubborn dark spots naturally.</string>
+    <string name="spotlight_turmeric_benefits">• Fades hyperpigmentation &amp; dark spots
+• Calms active acne &amp; facial redness
+• Boosts natural skin radiance &amp; collagen</string>
+    <string name="spotlight_turmeric_recipes">1. Radiance Glow Mask: Mix 1/2 tsp Turmeric + 1 tbsp Raw Honey + 1 tbsp Plain Yogurt. Apply for 15 mins.
+2. Spot Treatment: Mix Turmeric + Rosewater into paste. Dab onto acne spots.
+3. Body Polish: Mix Turmeric + Coconut Oil + Gram Flour.</string>
+    <string name="spotlight_honey_name">Raw Organic Honey</string>
+    <string name="spotlight_honey_tagline">Natural Humectant &amp; Healing Antimicrobial</string>
+    <string name="spotlight_honey_desc">Raw honey draws moisture deep into the skin while offering gentle antibacterial protection against breakout-causing bacteria.</string>
+    <string name="spotlight_honey_benefits">• Locks in deep cellular hydration
+• Fights acne-causing skin bacteria
+• Accelerates wound &amp; scar healing</string>
+    <string name="spotlight_honey_recipes">1. Hydration Boost Mask: Apply 1 tbsp Raw Honey directly to clean face for 20 mins.
+2. Gentle Lip Scrub: Mix Honey + Brown Sugar + Almond Oil.
+3. Scalp Soother: Mix Honey + Warm Water as pre-shampoo rinse.</string>
+    <string name="spotlight_aloe_name">Fresh Aloe Vera Gel</string>
+    <string name="spotlight_aloe_tagline">Soothing Hydrator &amp; Sun Damage Saver</string>
+    <string name="spotlight_aloe_desc">Rich in vitamins C and E, fresh aloe vera gel cools inflamed skin, soothes sunburns, and provides lightweight non-greasy moisture.</string>
+    <string name="spotlight_aloe_benefits">• Instant cooling relief for sunburnt skin
+• Hydrates without clogging pores
+• Reduces under-eye morning puffiness</string>
+    <string name="spotlight_aloe_recipes">1. Soothing Face Mask: Pure Aloe Vera gel applied overnight as sleeping mask.
+2. Eye Cooling Pads: Soak cotton pads in Aloe Vera + Cucumber juice.
+3. Hair Hydration Serum: Apply Aloe gel to damp hair ends.</string>
+    <string name="spotlight_coconut_name">Extra Virgin Coconut Oil</string>
+    <string name="spotlight_coconut_tagline">Deep Nourishing Conditioner &amp; Barrier Repair</string>
+    <string name="spotlight_coconut_desc">Packed with lauric acid and essential fatty acids, virgin coconut oil penetrates hair shafts and locks in body moisture.</string>
+    <string name="spotlight_coconut_benefits">• Prevents protein loss in hair strands
+• Repairs cracked heels &amp; dry elbows
+• Melts away waterproof makeup easily</string>
+    <string name="spotlight_coconut_recipes">1. Hot Oil Hair Treatment: Warm Coconut Oil + massage scalp 30 mins before wash.
+2. Body Moisture Lock: Apply on damp skin after showering.
+3. Cuticle Care: Rub 1 drop onto nail beds before sleep.</string>
+    <string name="spotlight_rosewater_name">Pure Rose Water (Gulab Jal)</string>
+    <string name="spotlight_rosewater_tagline">Refreshing Toner &amp; Natural pH Balancer</string>
+    <string name="spotlight_rosewater_desc">Distilled rose petal water tightens pores, balances facial oil production, and restores optimal skin pH after cleansing.</string>
+    <string name="spotlight_rosewater_benefits">• Balances skin pH after washing
+• Tightens appearance of enlarged pores
+• Instantly refreshes tired skin mid-day</string>
+    <string name="spotlight_rosewater_recipes">1. Daily Hydrating Mist: Spray pure Rose Water on clean face morning &amp; night.
+2. Clay Mask Activator: Mix Rose Water with Multani Mitti (Fuller\'s Earth).
+3. Eye Soother: Place Rose Water soaked cotton pads over eyes for 10 mins.</string>
 </resources>

@@ -4151,4 +4151,55 @@
     <string name="quiz_myth_4_ans">참! 적절한 수분 공급은 혈액 순환과 피부 탄력을 돕습니다.</string>
     <string name="quiz_myth_5_q">모공은 온수나 냉수로 열리고 닫힌다.</string>
     <string name="quiz_myth_5_ans">거짓! 모공에는 근육이 없습니다. 스팀은 피지를 녹이지만 크기는 변하지 않습니다.</string>
+
+    <!-- Feature 44: Ingredient Spotlight -->
+    <string name="ingredient_spotlight_title">오늘의 성분 스포트라이트</string>
+    <string name="spotlight_daily_badge">오늘의 추천 성분</string>
+    <string name="spotlight_benefits_header">🌿 피부 및 헤어 핵심 효능</string>
+    <string name="spotlight_recipes_header">🍯 3가지 홈메이드 천연 레시피</string>
+    <string name="spotlight_turmeric_name">골든 강황 (Haldi)</string>
+    <string name="spotlight_turmeric_tagline">강력한 항염 및 광채 부스터</string>
+    <string name="spotlight_turmeric_desc">강황은 안색을 밝히고 여드름을 진정시키기 위해 수세기 동안 사용되었습니다.</string>
+    <string name="spotlight_turmeric_benefits">• 잡티 및 다크 스팟 케어
+• 여드름 및 붉은기 진정
+• 피부 자연 광채 개선</string>
+    <string name="spotlight_turmeric_recipes">1. 광채 팩: 강황 1/2작은술 + 꿀 1큰술 + 요출거트 1큰술 (15분).
+2. 스팟 케어: 강황 + 로즈워터 반죽.
+3. 바디 스크럽: 강황 + 코코넛 오일.</string>
+    <string name="spotlight_honey_name">유기농 생꿀</string>
+    <string name="spotlight_honey_tagline">천연 보습 및 항균 작용</string>
+    <string name="spotlight_honey_desc">생꿀은 피부 깊숙이 수분을 끌어당기고 항균 보호를 제공합니다.</string>
+    <string name="spotlight_honey_benefits">• 깊은 수분 유지
+• 여드름 균 케어
+• 피부 회복 지원</string>
+    <string name="spotlight_honey_recipes">1. 수분 팩: 생꿀을 20분간 도포.
+2. 립 스크럽: 꿀 + 흑설탕.
+3. 두피 린스: 꿀 + 미온수.</string>
+    <string name="spotlight_aloe_name">신선한 알로에 베라 젤</string>
+    <string name="spotlight_aloe_tagline">진정 수분 케어</string>
+    <string name="spotlight_aloe_desc">비타민 C와 E가 풍부하여 자극받은 피부를 쿨링하고 산뜻하게 보습합니다.</string>
+    <string name="spotlight_aloe_benefits">• 햇빛에 탄 피부 즉각 쿨링
+• 모공 막힘 없는 수분 공급
+• 눈가 붓기 완화</string>
+    <string name="spotlight_aloe_recipes">1. 슬리핑 팩: 알로에 젤을 바르고 수면.
+2. 아이 패드: 알로에 + 오이 즙.
+3. 헤어 세럼: 젖은 모발 끝에 도포.</string>
+    <string name="spotlight_coconut_name">엑스트라 버진 코코넛 오일</string>
+    <string name="spotlight_coconut_tagline">딥 뷰티 컨디셔너</string>
+    <string name="spotlight_coconut_desc">코코넛 오일은 모발 깊숙이 침투하여 단백질 손실을 막아줍니다.</string>
+    <string name="spotlight_coconut_benefits">• 모발 단백질 손실 예방
+• 거칠어진 뒤꿈치 케어
+• 자극 없는 클렌징</string>
+    <string name="spotlight_coconut_recipes">1. 핫 오일 팩: 따뜻한 오일로 30분 마사지.
+2. 바디 로션: 샤워 직후 도포.
+3. 네일 케어: 큐티클 마사지.</string>
+    <string name="spotlight_rosewater_name">순수 로즈 워터</string>
+    <string name="spotlight_rosewater_tagline">상쾌한 토너</string>
+    <string name="spotlight_rosewater_desc">로즈 워터는 모공을 정돈하고 피부 pH 밸런스를 맞춰줍니다.</string>
+    <string name="spotlight_rosewater_benefits">• 피부 pH 밸런스 유지
+• 모공 정돈 효과
+• 지친 피부 즉각 리프레시</string>
+    <string name="spotlight_rosewater_recipes">1. 수분 미스트: 아침저녁 분사.
+2. 클레이 팩: 클레이와 믹스.
+3. 아이 팩: 솜에 적셔 10분 도포.</string>
 </resources>

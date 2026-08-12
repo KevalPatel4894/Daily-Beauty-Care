@@ -2291,7 +2291,7 @@
     <string name="skin_glowingskin_main_ten">टमाटर</string>
     <string name="skin_glowingskin_main_three">संतरे का रस</string>
     <string name="skin_glowingskin_main_two">करेला</string>
-    <string name="skin_normal_detail">यह संभवतः सबसे अच्छी और समस्या-मुक्त त्वचा का प्रकार है। आमतौर पर ऐसी त्वचा में औसत आकार के रोमछिद्र होते हैं और साथ ही ऐसी त्वचा कोमल, लोचदार, प्राकृतिक चमक वाली और अच्छी तरह से हाइड्रेटेड होती है। \n\nआपकी त्वचा बहुत साफ और चिकनी दिखती है और इसमें अच्छा रक्त परिसंचरण होता है। आपकी त्वचा को बहुत कम देखभाल की आवश्यकता होती है। \\n\\nकम से कम मॉइस्चराइज़र, सनस्क्रीन और विटामिन से भरपूर मास्क या सीरम के साथ बस एक सामान्य त्वचा देखभाल दिनचर्या, चीजों को संतुलन में रखने के लिए करेगी।</string>
+    <string name="skin_normal_detail">यह संभवतः सबसे अच्छी और समस्या-मुक्त त्वचा का प्रकार है। आमतौर पर ऐसी त्वचा में औसत आकार के रोमछिद्र होते हैं और साथ ही ऐसी त्वचा कोमल, लोचदार, प्राकृतिक चमक वाली और अच्छी तरह से हाइड्रेटेड होती है। \n\nआपकी त्वचा बहुत साफ और चिकनी दिखती है और इसमें अच्छा रक्त परिसंचरण होता है। आपकी त्वचा को बहुत कम देखभाल की आवश्यकता होती है। \n\nकम से कम मॉइस्चराइज़र, सनस्क्रीन और विटामिन से भरपूर मास्क या सीरम के साथ बस एक सामान्य त्वचा देखभाल दिनचर्या, चीजों को संतुलन में रखने के लिए करेगी।</string>
     <string name="skin_normal_title">हुर्रे! आपकी त्वचा सामान्य है।</string>
     <string name="skin_oily_detail">आपकी त्वचा अत्यधिक चमकदार है। आपकी त्वचा ग्रीसी दिखती है, साथ ही ऐसी त्वचा में मोटे और चिकने रोमछिद्र दिखाई देते है जो मुंहासों, फुंसी या ब्लैकहेड्स का कारण बनते हैं। लेकिन ख़ुशी की बात यह है कि आपकी त्वचा को एजिंग और झुर्रियों का खतरा नहीं है। \n\nआपको अपने चेहरे को दिन में कम से कम 2 बार पानी या हल्के क्लींजर से साफ करना चाहिए और इसे हल्के सीरम या जैल से हाइड्रेटेड रखना चाहिए। कभी भी अपनी त्वचा पर कठोर उत्पादों का उपयोग न करें और न ही अत्यधिक मेकअप करें।</string>
     <string name="skin_oily_title">आपकी त्वचा तैलीय (ऑयली) है।</string>
@@ -4157,4 +4157,55 @@
     <string name="quiz_myth_4_ans">सही! उचित हाइड्रेशन रक्त संचार और त्वचा के लचीलेपन को बढ़ावा देता है।</string>
     <string name="quiz_myth_5_q">रोमछिद्र गर्म या ठंडे पानी से खुल और बंद हो सकते हैं।</string>
     <string name="quiz_myth_5_ans">गलत! रोमछिद्रों में मांसपेशियां नहीं होतीं। भाप तेल को ढीला करती है लेकिन आकार वही रहता है।</string>
+
+    <!-- Feature 44: Ingredient Spotlight -->
+    <string name="ingredient_spotlight_title">दैनिक प्राकृतिक सामग्री</string>
+    <string name="spotlight_daily_badge">आज की विशेष सामग्री</string>
+    <string name="spotlight_benefits_header">🌿 त्वचा और बालों के मुख्य लाभ</string>
+    <string name="spotlight_recipes_header">🍯 3 आसान घरेलू नुस्खे</string>
+    <string name="spotlight_turmeric_name">सुनहरी हल्दी (Haldi)</string>
+    <string name="spotlight_turmeric_tagline">शक्तिशाली सूजन-रोधी और चमक बढ़ाने वाली</string>
+    <string name="spotlight_turmeric_desc">हल्दी का उपयोग सदियों से रंगत निखारने, मुहांसों को शांत करने और काले धब्बों को कम करने के लिए किया जाता रहा है।</string>
+    <string name="spotlight_turmeric_benefits">• काले धब्बों और झाइयों को कम करे
+• मुहांसों और चेहरे की लाली को शांत करे
+• प्राकृतिक चमक और निखार बढ़ाए</string>
+    <string name="spotlight_turmeric_recipes">1. ग्लो पैक: 1/2 चम्मच हल्दी + 1 चम्मच शहद + 1 चम्मच दही मिलाकर 15 मिनट लगाएं।
+2. पिंपल पैक: हल्दी + गुलाब जल का लेप लगाएं।
+3. बॉडी स्क्रब: हल्दी + नारियल तेल + बेसन।</string>
+    <string name="spotlight_honey_name">शुद्ध कच्चा शहद</string>
+    <string name="spotlight_honey_tagline">प्राकृतिक नमी और जीवाणुरोधी</string>
+    <string name="spotlight_honey_desc">कच्चा शहद त्वचा में गहराई से नमी प्रदान करता है और मुहांसे पैदा करने वाले बैक्टीरिया से बचाता है।</string>
+    <string name="spotlight_honey_benefits">• त्वचा में गहराई से नमी बनाए रखे
+• मुहांसों के बैक्टीरिया से लड़े
+• त्वचा के घावों को जल्दी भरे</string>
+    <string name="spotlight_honey_recipes">1. हाइड्रेशन पैक: 20 मिनट के लिए कच्चा शहद लगाएं।
+2. लिप स्क्रब: शहद + भूरी चीनी।
+3. स्कैल्प रिंस: शहद + गुनगुना पानी।</string>
+    <string name="spotlight_aloe_name">ताजा एलोवेरा जेल</string>
+    <string name="spotlight_aloe_tagline">शीतलक और प्राकृतिक नमीदाता</string>
+    <string name="spotlight_aloe_desc">विटामिन C और E से भरपूर एलोवेरा त्वचा को ठंडक देता है और बिना चिपचिपाहट नमी प्रदान करता है।</string>
+    <string name="spotlight_aloe_benefits">• धूप से झुलसी त्वचा को तुरंत ठंडक
+• बिना रोमछिद्र बंद किए नमी दे
+• आंखों की सूजन कम करे</string>
+    <string name="spotlight_aloe_recipes">1. नाइटकांति पैक: रात भर एलोवेरा जेल लगाएं।
+2. आई पैड: एलोवेरा + खीरे का रस।
+3. हेयर सीरम: गीले बालों पर लगाएं।</string>
+    <string name="spotlight_coconut_name">शुद्ध नारियल तेल</string>
+    <string name="spotlight_coconut_tagline">गहरा पोषण और कंडीशनिंग</string>
+    <string name="spotlight_coconut_desc">नारियल तेल बालों की जड़ों में गहराई तक जाकर प्रोटीन के नुकसान को रोकता है।</string>
+    <string name="spotlight_coconut_benefits">• बालों में प्रोटीन के नुकसान को रोके
+• फटी एड़ियों और सूखी कोहनी को ठीक करे
+• मेकअप को आसानी से हटाए</string>
+    <string name="spotlight_coconut_recipes">1. हॉट ऑयल मसाज: गुनगुना तेल 30 मिनट पहले लगाएं।
+2. बॉडी मॉइस्चराइजर: नहाने के बाद लगाएं।
+3. नाखून देखभाल: नाखूनों पर मालिश करें।</string>
+    <string name="spotlight_rosewater_name">शुद्ध गुलाब जल (Gulab Jal)</string>
+    <string name="spotlight_rosewater_tagline">ताजगी देने वाला टोनर</string>
+    <string name="spotlight_rosewater_desc">गुलाब जल रोमछिद्रों को कसता है और त्वचा के pH स्तर को संतुलित करता है।</string>
+    <string name="spotlight_rosewater_benefits">• त्वचा के pH स्तर को संतुलित करे
+• बड़े रोमछिद्रों को कसे
+• थकी त्वचा को तुरंत ताजगी दे</string>
+    <string name="spotlight_rosewater_recipes">1. डेली मिस्ट: सुबह-शाम स्प्रे करें।
+2. मुल्तानी मिट्टी पैक: गुलाब जल मिलाकर लगाएं।
+3. आई सोथर: रुई भिगोकर 10 मिनट आंखों पर रखें।</string>
 </resources>

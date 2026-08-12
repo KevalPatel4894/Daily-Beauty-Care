@@ -4177,4 +4177,55 @@
     <string name="quiz_myth_4_ans">ПРАВДА! Правильное увлажнение улучшает кровообращение и эластичность кожи.</string>
     <string name="quiz_myth_5_q">Поры физически открываются и закрываются от горячей или холодной воды.</string>
     <string name="quiz_myth_5_ans">ЛОЖЬ! У пор нет мышц. Пар размягчает жир, но размер пор остается прежним.</string>
+
+    <!-- Feature 44: Ingredient Spotlight -->
+    <string name="ingredient_spotlight_title">Ингредиент Дня</string>
+    <string name="spotlight_daily_badge">В ФОКУСЕ СЕГОДНЯ</string>
+    <string name="spotlight_benefits_header">🌿 Полоза для Кожи и Волос</string>
+    <string name="spotlight_recipes_header">🍯 3 Домашних Рецепта</string>
+    <string name="spotlight_turmeric_name">Золотая Куркума (Haldi)</string>
+    <string name="spotlight_turmeric_tagline">Мощный Антиоксидант и Сияние</string>
+    <string name="spotlight_turmeric_desc">Куркума веками используется для осветления кожи и успокоения акне.</string>
+    <string name="spotlight_turmeric_benefits">• Осветляет пигментные пятна
+• Успокаивает воспаления и акне
+• Усиливает естественное сияние</string>
+    <string name="spotlight_turmeric_recipes">1. Маска Сияния: 1/2 ч.л. Куркумы + 1 ст.л. Меда + Йогурт на 15 мин.
+2. Точечное Средство: Куркума + Розовая вода.
+3. Скраб для Тела: Куркума + Кокосовое масло.</string>
+    <string name="spotlight_honey_name">Натуральный Сырой Мед</string>
+    <string name="spotlight_honey_tagline">Природный Увлажнитель</string>
+    <string name="spotlight_honey_desc">Сырой мед глубоко увлажняет кожу и защищает от бактерий.</string>
+    <string name="spotlight_honey_benefits">• Удерживает глубокую влагу
+• Борется с бактериями акне
+• Ускоряет заживление кожи</string>
+    <string name="spotlight_honey_recipes">1. Увлажняющая Маска: Мед на 20 мин.
+2. Скраб для Губ: Мед + Коричневый сахар.
+3. Ополаскивание Волос: Мед + Теплая вода.</string>
+    <string name="spotlight_aloe_name">Свежий Гель Алоэ Вера</string>
+    <string name="spotlight_aloe_tagline">Успокаивающий Гель</string>
+    <string name="spotlight_aloe_desc">Богат витаминами C и E, охлаждает раздраженную кожу и увлажняет.</string>
+    <string name="spotlight_aloe_benefits">• Охлаждает кожу после солнца
+• Увлажняет без забивания пор
+• Снимает отечность вокруг глаз</string>
+    <string name="spotlight_aloe_recipes">1. Ночная Маска: Гель Алоэ на всю ночь.
+2. Компрессы для Глаз: Алоэ + Сок огурца.
+3. Сыворотка для Волос: Гель на влажные кончики.</string>
+    <string name="spotlight_coconut_name">Кокосовое Масло Extra Virgin</string>
+    <string name="spotlight_coconut_tagline">Глубокий Уход</string>
+    <string name="spotlight_coconut_desc">Кокосовое масло проникает в структуру волос и удерживает влагу.</string>
+    <string name="spotlight_coconut_benefits">• Предотвращает потерю белка волос
+• Заживляет трещины на пятках
+• Бережно снимает макияж</string>
+    <string name="spotlight_coconut_recipes">1. Масляная Маска: Теплое масло на 30 мин до мытья.
+2. Увлажнение Тела: Наносить после душа.
+3. Уход за Кутикулой: Втирать в ногти.</string>
+    <string name="spotlight_rosewater_name">Чистая Розовая Вода</string>
+    <string name="spotlight_rosewater_tagline">Освежающий Тоник</string>
+    <string name="spotlight_rosewater_desc">Розовая вода сужает поры и восстанавливает естественный pH кожи.</string>
+    <string name="spotlight_rosewater_benefits">• Нормализует pH кожи
+• Стягивает расширенные поры
+• Мгновенно освежает лицо</string>
+    <string name="spotlight_rosewater_recipes">1. Увлажняющий Мист: Распылять утром и вечером.
+2. Маска с Глиной: Смешать с глиной.
+3. Компрессы для Век: Ватные диски на 10 мин.</string>
 </resources>

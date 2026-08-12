@@ -4177,4 +4177,55 @@
     <string name="quiz_myth_4_ans">本当！適切な水分補給は血行と肌の弾力を促進します。</string>
     <string name="quiz_myth_5_q">毛穴は温水や冷水で開閉する。</string>
     <string name="quiz_myth_5_ans">嘘！毛穴には開閉する筋肉がありません。蒸気は皮脂を緩めますが毛穴サイズは固定です。</string>
+
+    <!-- Feature 44: Ingredient Spotlight -->
+    <string name="ingredient_spotlight_title">本日の美容成分</string>
+    <string name="spotlight_daily_badge">本日のスポットライト</string>
+    <string name="spotlight_benefits_header">🌿 肌と髪への主な効果</string>
+    <string name="spotlight_recipes_header">🍯 3つの簡単ナチュラルレシピ</string>
+    <string name="spotlight_turmeric_name">ゴールデンターメリック (Haldi)</string>
+    <string name="spotlight_turmeric_tagline">強力な抗炎症＆ツヤUP成分</string>
+    <string name="spotlight_turmeric_desc">ターメリックは肌を明るくし、ニキビを鎮静するために何世紀も使われてきました。</string>
+    <string name="spotlight_turmeric_benefits">• シミや色素沈着をケア
+• ニキビや赤みを鎮静
+• 自然な肌のツヤを高める</string>
+    <string name="spotlight_turmeric_recipes">1. ツヤ肌パック: ターメリック小さじ1/2 + ハチミツ大さじ1 + ヨーグルト大さじ1（15分）。
+2. スポットケア: ターメリック + ローズウォーター。
+3. ボディスクラブ: ターメリック + ココナッツオイル。</string>
+    <string name="spotlight_honey_name">生オーガニックハチミツ</string>
+    <string name="spotlight_honey_tagline">天然の保湿＆抗菌成分</string>
+    <string name="spotlight_honey_desc">生ハチミツは肌の奥まで水分を引き込み、抗菌保護を提供します。</string>
+    <string name="spotlight_honey_benefits">• 深い潤いをキープ
+• ニキビ菌と戦う
+• 肌の修復をサポート</string>
+    <string name="spotlight_honey_recipes">1. 保湿パック: 生ハチミツを20分塗布。
+2. リップスクラブ: ハチミツ + ブラウンシュガー。
+3. 頭皮ケア: ハチミツ + ぬるま湯。</string>
+    <string name="spotlight_aloe_name">フレッシュアロエベラジェル</string>
+    <string name="spotlight_aloe_tagline">鎮静＆水分補給</string>
+    <string name="spotlight_aloe_desc">ビタミンCとEが豊富で、日焼けや炎症を起こした肌をクールダウンします。</string>
+    <string name="spotlight_aloe_benefits">• 日焼け肌の即時冷却
+• 毛穴を詰まらせずに保湿
+• 目元のむくみを軽減</string>
+    <string name="spotlight_aloe_recipes">1. ナイトパック: アロエジェルを塗って就寝。
+2. アイパッド: アロエ + きゅうり汁。
+3. ヘアセラム: 湿った毛先に塗布。</string>
+    <string name="spotlight_coconut_name">エキストラバージンココナッツオイル</string>
+    <string name="spotlight_coconut_tagline">深層ディープコンディショナー</string>
+    <string name="spotlight_coconut_desc">ココナッツオイルは髪の内部まで浸透し、タンパク質の流出を防ぎます。</string>
+    <string name="spotlight_coconut_benefits">• 髪のタンパク質損失を予防
+• ひび割れたかかとをケア
+• メイクを優しくオフ</string>
+    <string name="spotlight_coconut_recipes">1. オイルパック: 温かいオイルで30分頭皮マッサージ。
+2. ボディケア: シャワー後の湿った肌に。
+3. ネイルケア: 甘皮にすり込む。</string>
+    <string name="spotlight_rosewater_name">ピュアローズウォーター</string>
+    <string name="spotlight_rosewater_tagline">爽やかなリフレッシュトナー</string>
+    <string name="spotlight_rosewater_desc">ローズウォーターは毛穴を引き締め、肌の最適pHバランスを整えます。</string>
+    <string name="spotlight_rosewater_benefits">• 洗顔後のpHバランス調整
+• 毛穴を引き締める
+• 疲れ肌を瞬間リフレッシュ</string>
+    <string name="spotlight_rosewater_recipes">1. 保湿ミスト: 朝晩スプレー。
+2. クレイパック: クレイと混ぜる。
+3. アイパック: コットンに浸して10分。</string>
 </resources>

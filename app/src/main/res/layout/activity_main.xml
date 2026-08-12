@@ -233,6 +233,71 @@
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>
 
+            <!-- Feature 44: Daily Ingredient Spotlight Banner -->
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardIngredientSpotlight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_6sdp"
+                android:layout_marginStart="@dimen/_12sdp"
+                android:layout_marginEnd="@dimen/_12sdp"
+                android:clickable="true"
+                android:focusable="true"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="3dp"
+                app:cardBackgroundColor="#FEF9E7"
+                app:strokeColor="#F9E79F"
+                app:strokeWidth="1dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:padding="@dimen/_10sdp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="🌿"
+                        android:textSize="26sp" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_marginStart="@dimen/_10sdp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/txtSpotlightHomeTitle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#B7950B"
+                            android:textSize="13sp"
+                            android:textStyle="bold"
+                            tools:text="🌿 TODAY'S INGREDIENT: TURMERIC" />
+
+                        <TextView
+                            android:id="@+id/txtSpotlightHomeSub"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="2dp"
+                            android:textColor="#666666"
+                            android:textSize="10sp"
+                            android:maxLines="1"
+                            android:ellipsize="end"
+                            tools:text="Discover benefits, uses &amp; 3 natural DIY recipes" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="@dimen/_16sdp"
+                        android:layout_height="@dimen/_16sdp"
+                        android:src="@drawable/ic_arrow_forward"
+                        app:tint="#B7950B" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
             <!-- Cosmetic Ingredient Safety Analyzer Banner -->
             <com.google.android.material.card.MaterialCardView
                 android:id="@+id/cardIngredientGlossary"

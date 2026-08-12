@@ -4182,4 +4182,55 @@
     <string name="quiz_myth_4_ans">WAHR! Gute Hydratation fördert die Durchblutung und Hautelastizität.</string>
     <string name="quiz_myth_5_q">Poren können sich mit warmem oder kaltem Wasser öffnen und schließen.</string>
     <string name="quiz_myth_5_ans">FALSCH! Poren haben keine Muskeln. Dampf lockert Öl, aber die Porengröße bleibt unverändert.</string>
+
+    <!-- Feature 44: Ingredient Spotlight -->
+    <string name="ingredient_spotlight_title">Tägliches Inhaltsstoff-Highlight</string>
+    <string name="spotlight_daily_badge">HEUTIGES HIGHLIGHT</string>
+    <string name="spotlight_benefits_header">🌿 Wichtigste Vorteile für Haut &amp; Haar</string>
+    <string name="spotlight_recipes_header">🍯 3 Natur-Rezepte zum Ausprobieren</string>
+    <string name="spotlight_turmeric_name">Goldene Kurkuma (Haldi)</string>
+    <string name="spotlight_turmeric_tagline">Starker Entzündungshemmer &amp; Glow-Booster</string>
+    <string name="spotlight_turmeric_desc">Kurkuma wird seit Jahrhunderten verwendet, um den Teint aufzuhellen und Akne zu beruhigen.</string>
+    <string name="spotlight_turmeric_benefits">• Mildert Pigmentflecken
+• Beruhigt Akne &amp; Rötungen
+• Fördert natürlichen Haut-Glow</string>
+    <string name="spotlight_turmeric_recipes">1. Glow-Maske: 1/2 TL Kurkuma + 1 EL Honig + 1 EL Joghurt 15 Min. auftragen.
+2. Flecken-Behandlung: Kurkuma + Rosenwasser mischen.
+3. Körper-Peeling: Kurkuma + Kokosöl + Kichererbsenmehl.</string>
+    <string name="spotlight_honey_name">Bio-Rohhonig</string>
+    <string name="spotlight_honey_tagline">Natürlicher Feuchtigkeitsspender</string>
+    <string name="spotlight_honey_desc">Rohhonig spendet tiefenwirksame Feuchtigkeit und bietet antibakteriellen Schutz.</string>
+    <string name="spotlight_honey_benefits">• Speichert tiefenwirksame Feuchtigkeit
+• Bekämpft Aknebakterien
+• Beschleunigt die Hautheilung</string>
+    <string name="spotlight_honey_recipes">1. Feuchtigkeits-Maske: Rohhonig 20 Min. auftragen.
+2. Lippen-Peeling: Honig + brauner Zucker.
+3. Kopfhaut-Pflege: Honig + warmes Wasser.</string>
+    <string name="spotlight_aloe_name">Frisches Aloe Vera Gel</string>
+    <string name="spotlight_aloe_tagline">Beruhigend &amp; Erfrischend</string>
+    <string name="spotlight_aloe_desc">Reich an Vitamin C &amp; E, kühlt Aloe Vera gereizte Haut und spendet leichte Feuchtigkeit.</string>
+    <string name="spotlight_aloe_benefits">• Kühlt sonnenverbrannte Haut
+• Spendet Feuchtigkeit ohne zu verstopfen
+• Minderung von Augen-Schwellungen</string>
+    <string name="spotlight_aloe_recipes">1. Beruhigende Maske: Aloe Gel über Nacht auftragen.
+2. Augen-Pads: Aloe + Gurkensaft.
+3. Haar-Serum: Aloe Gel in die Haarspitzen geben.</string>
+    <string name="spotlight_coconut_name">Natives Kokosöl</string>
+    <string name="spotlight_coconut_tagline">Tiefenwirksame Pflege</string>
+    <string name="spotlight_coconut_desc">Natives Kokosöl dringt tief in das Haar ein und schützt vor Feuchtigkeitsverlust.</string>
+    <string name="spotlight_coconut_benefits">• Schützt vor Proteinverlust im Haar
+• Pflegt rissige Fersen
+• Entfernt Make-up sanft</string>
+    <string name="spotlight_coconut_recipes">1. Heiße Öl-Behandlung: Warmes Kokosöl 30 Min. einmassieren.
+2. Körperpflege: Nach dem Duschen auftragen.
+3. Nagelpflege: Einreiben der Nagelbetten.</string>
+    <string name="spotlight_rosewater_name">Reines Rosenwasser</string>
+    <string name="spotlight_rosewater_tagline">Erfrischendes Gesichtswasser</string>
+    <string name="spotlight_rosewater_desc">Rosenwasser verfeinert Poren und bringt den pH-Wert der Haut ins Gleichgewicht.</string>
+    <string name="spotlight_rosewater_benefits">• Gleicht den pH-Wert der Haut aus
+• Verfeinert das Hautbild
+• Erfrischt müde Haut</string>
+    <string name="spotlight_rosewater_recipes">1. Feuchtigkeitsspray: Morgens &amp; abends aufsprühen.
+2. Heilerde-Maske: Mit Heilerde mischen.
+3. Augenberuhigung: Rosenwasser-Pads 10 Min. auflegen.</string>
 </resources>

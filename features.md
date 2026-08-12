@@ -281,7 +281,7 @@ To support multiple languages and prevent packaging build errors:
 * **Details:** A weekly *"True or False"* quiz with 5 beauty myths (e.g. *"Lemon permanently removes dark spots — True or False?"*). Users answer all 5 and see a score with correct explanations. Results are shareable as a card image.
 * **Tech:** Static quiz data in a Kotlin object; `SharedPreferences` storing last played week to prevent repeats; score result screen with share option.
 
-### [ ] Feature 44: Ingredient Spotlight (Daily Feature)
+### [x] Feature 44: Ingredient Spotlight (Daily Feature)
 * **Goal:** Educate users on natural ingredients — complementary to the Ingredient Directory (Feature 16) which is a full glossary; this is a curated daily highlight card.
 * **Details:** One natural ingredient spotlighted daily on the home screen (e.g. *"Today: Turmeric — Benefits, Uses & 3 Recipes"*). Tapping opens a dedicated page with skin/hair benefits and links to related tips already in the app.
 * **Tech:** Deterministic daily index from `Calendar.DAY_OF_YEAR` into a local ingredients array; no backend.

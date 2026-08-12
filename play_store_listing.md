@@ -34,6 +34,7 @@ All tips in this application utilize natural, easily available ingredients such 
 💅 **Hands & Feet:** Waxing at Home, Dry and rough hands, Nail growth, Pinky shiny nails, Dark underarms, Cracked heels
 
 📱 **Interactive Smart Features:**
+• **Daily Ingredient Spotlight:** Daily rotating spotlight showcasing natural ingredient benefits & 3 DIY recipes
 • **Beauty Myths & Facts Quiz:** Interactive 5-question weekly True/False skincare quiz with explanations
 • **Recently Viewed History:** Quick access to last 15 opened natural remedies & tips
 • **Tip of the Week (Featured Remedy):** Weekly rotating premium remedy highlight on home screen (🌟)

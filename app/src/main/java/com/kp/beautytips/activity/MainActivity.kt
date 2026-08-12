@@ -288,6 +288,20 @@ class MainActivity : BaseActivity(), CategoryAdapter.OnItemClick {
             }
         }
 
+        val cardIngredientSpotlight = findViewById<View>(R.id.cardIngredientSpotlight)
+        val txtSpotlightHomeTitle = findViewById<TextView>(R.id.txtSpotlightHomeTitle)
+        val spotlightData = IngredientSpotlightActivity.getSpotlightData()
+        val dayOfYear = Calendar.getInstance().get(Calendar.DAY_OF_YEAR)
+        val todaySpotlight = spotlightData[dayOfYear % spotlightData.size]
+        txtSpotlightHomeTitle?.text = "🌿 TODAY'S INGREDIENT: " + getString(todaySpotlight.nameResId).uppercase()
+
+        cardIngredientSpotlight?.setOnClickListener {
+            Intent(this, IngredientSpotlightActivity::class.java).also {
+                startActivity(it)
+                AppUtils.startFromRightToLeft(this)
+            }
+        }
+
         val cardIngredientGlossary = findViewById<View>(R.id.cardIngredientGlossary)
         cardIngredientGlossary.setOnClickListener {
             Intent(this, IngredientGlossaryActivity::class.java).also {
