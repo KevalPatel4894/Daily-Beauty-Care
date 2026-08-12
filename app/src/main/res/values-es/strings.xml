@@ -4157,4 +4157,29 @@
     <string name="btn_clear_history">Borrar Historial</string>
     <string name="no_recently_viewed">No hay remedios vistos recientemente.</string>
     <string name="msg_history_cleared">¡Historial borrado!</string>
+
+    <!-- Feature 43: Beauty Myths Quiz -->
+    <string name="beauty_quiz_title">Cuestionario de Mitos de Belleza</string>
+    <string name="beauty_quiz_subtitle">¡Pon a prueba tus conocimientos de cuidado de la piel!</string>
+    <string name="quiz_question_counter">Pregunta %1$d de %2$d</string>
+    <string name="btn_true">VERDADERO</string>
+    <string name="btn_false">FALSO</string>
+    <string name="btn_next_question">Siguiente Pregunta</string>
+    <string name="btn_restart_quiz">Jugar de Nuevo</string>
+    <string name="btn_share_score">Compartir Puntuación</string>
+    <string name="quiz_score_title">¡Cuestionario Completado! 🎉</string>
+    <string name="quiz_score_result">¡Lograste %1$d de %2$d!</string>
+    <string name="quiz_result_expert">⭐ ¡Genio del Cuidado de la Piel!</string>
+    <string name="quiz_result_good">👍 ¡Buen trabajo! Tienes sólidos conocimientos.</string>
+    <string name="quiz_result_learn">💡 Sigue aprendiendo datos naturales para proteger tu piel.</string>
+    <string name="quiz_myth_1_q">Arrancar una cana hace que crezcan 3 más en su lugar.</string>
+    <string name="quiz_myth_1_ans">¡FALSO! Arrancar no aumenta los folículos pilosos, pero puede dañarlos.</string>
+    <string name="quiz_myth_2_q">El jugo de limón es 100 % seguro para la piel sensible.</string>
+    <string name="quiz_myth_2_ans">¡FALSO! El jugo de limón puro es muy ácido y puede causar irritación o fotosensibilidad.</string>
+    <string name="quiz_myth_3_q">La piel grasa necesita hidratante diario.</string>
+    <string name="quiz_myth_3_ans">¡VERDADERO! Omitir la crema hace que la piel produzca aún más grasa.</string>
+    <string name="quiz_myth_4_q">Beber suficiente agua ayuda a mantener la piel hidratada.</string>
+    <string name="quiz_myth_4_ans">¡VERDADERO! La hidratación adecuada favorece la circulación y elasticidad.</string>
+    <string name="quiz_myth_5_q">Los poros se abren y cierran con agua caliente o fría.</string>
+    <string name="quiz_myth_5_ans">¡FALSO! Los poros no tienen músculos. El vapor afloja la grasa pero el tamaño no cambia.</string>
 </resources>

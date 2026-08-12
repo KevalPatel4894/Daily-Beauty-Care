@@ -4198,4 +4198,29 @@
     <string name="btn_clear_history">Clear History</string>
     <string name="no_recently_viewed">No recently viewed tips found.</string>
     <string name="msg_history_cleared">Recently viewed history cleared!</string>
+
+    <!-- Feature 43: Beauty Myths Quiz -->
+    <string name="beauty_quiz_title">Beauty Myths &amp; Facts Quiz</string>
+    <string name="beauty_quiz_subtitle">Test your skincare knowledge! True or False?</string>
+    <string name="quiz_question_counter">Question %1$d of %2$d</string>
+    <string name="btn_true">TRUE</string>
+    <string name="btn_false">FALSE</string>
+    <string name="btn_next_question">Next Question</string>
+    <string name="btn_restart_quiz">Play Again</string>
+    <string name="btn_share_score">Share Score</string>
+    <string name="quiz_score_title">Quiz Complete! 🎉</string>
+    <string name="quiz_score_result">You scored %1$d out of %2$d!</string>
+    <string name="quiz_result_expert">⭐ Skincare Genius! You know your beauty facts!</string>
+    <string name="quiz_result_good">👍 Good Job! You have solid beauty knowledge.</string>
+    <string name="quiz_result_learn">💡 Keep Learning! Learn natural facts to protect your skin.</string>
+    <string name="quiz_myth_1_q">Plucking one grey hair will cause 3 more grey hairs to grow in its place.</string>
+    <string name="quiz_myth_1_ans">FALSE! Plucking cannot increase the number of hair follicles. However, plucking can damage the follicle permanently.</string>
+    <string name="quiz_myth_2_q">Natural lemon juice is 100% safe to apply directly onto sensitive facial skin.</string>
+    <string name="quiz_myth_2_ans">FALSE! Pure lemon juice is highly acidic (pH 2) and can cause severe irritation, chemical burns, or sun sensitivity.</string>
+    <string name="quiz_myth_3_q">Oily skin still needs daily moisturizer to stay healthy.</string>
+    <string name="quiz_myth_3_ans">TRUE! Skipping moisturizer causes oily skin to produce even MORE oil to compensate for moisture loss.</string>
+    <string name="quiz_myth_4_q">Drinking enough water daily helps maintain hydrated, plump-looking skin.</string>
+    <string name="quiz_myth_4_ans">TRUE! Proper hydration boosts blood circulation and supports skin elasticity and cell renewal.</string>
+    <string name="quiz_myth_5_q">Pores can physically open and close with hot or cold water.</string>
+    <string name="quiz_myth_5_ans">FALSE! Pores do not have muscles to open or close. Steam loosens oil and cold water reduces inflammation, but pore size remains fixed.</string>
 </resources>

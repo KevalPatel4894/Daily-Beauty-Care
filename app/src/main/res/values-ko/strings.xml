@@ -4126,4 +4126,29 @@
     <string name="btn_clear_history">기록 삭제</string>
     <string name="no_recently_viewed">최근 본 팁이 없습니다.</string>
     <string name="msg_history_cleared">최근 본 기록이 삭제되었습니다!</string>
+
+    <!-- Feature 43: Beauty Myths Quiz -->
+    <string name="beauty_quiz_title">뷰티 미신 퀴즈</string>
+    <string name="beauty_quiz_subtitle">스킨케어 지식을 테스트해보세요!</string>
+    <string name="quiz_question_counter">질문 %1$d / %2$d</string>
+    <string name="btn_true">참</string>
+    <string name="btn_false">거짓</string>
+    <string name="btn_next_question">다음 질문</string>
+    <string name="btn_restart_quiz">다시 하기</string>
+    <string name="btn_share_score">점수 공유</string>
+    <string name="quiz_score_title">퀴즈 완료! 🎉</string>
+    <string name="quiz_score_result">%2$d점 중 %1$d점을 획득했습니다!</string>
+    <string name="quiz_result_expert">⭐ 스킨케어 천재! 뷰티 상식을 잘 알고 계시네요!</string>
+    <string name="quiz_result_good">👍 잘하셨습니다! 탄탄한 지식을 가지고 계십니다.</string>
+    <string name="quiz_result_learn">💡 계속 배워보세요! 피부를 지키는 자연 지식을 알아봅시다.</string>
+    <string name="quiz_myth_1_q">흰머리를 하나 뽑으면 그 자리에 3개가 더 자란다.</string>
+    <string name="quiz_myth_1_ans">거짓! 뽑는다고 모낭 수가 늘어나지 않습니다. 하지만 모낭이 손상될 수 있습니다.</string>
+    <string name="quiz_myth_2_q">레몬즙을 민감한 얼굴 피부에 직접 바르는 것은 100% 안전하다.</string>
+    <string name="quiz_myth_2_ans">거짓! 순수 레몬즙은 산성이 강해 자극이나 자외선 민감성을 유발합니다.</string>
+    <string name="quiz_myth_3_q">지성 피부도 건강을 위해 매일 수분 크림이 필요하다.</string>
+    <string name="quiz_myth_3_ans">참! 보습을 건너뛰면 피부는 유분을 더 많이 생성하게 됩니다.</string>
+    <string name="quiz_myth_4_q">매일 충분한 물을 마시면 촉촉한 피부 유지에 도움이 된다.</string>
+    <string name="quiz_myth_4_ans">참! 적절한 수분 공급은 혈액 순환과 피부 탄력을 돕습니다.</string>
+    <string name="quiz_myth_5_q">모공은 온수나 냉수로 열리고 닫힌다.</string>
+    <string name="quiz_myth_5_ans">거짓! 모공에는 근육이 없습니다. 스팀은 피지를 녹이지만 크기는 변하지 않습니다.</string>
 </resources>

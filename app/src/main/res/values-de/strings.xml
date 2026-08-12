@@ -4157,4 +4157,29 @@
     <string name="btn_clear_history">Verlauf löschen</string>
     <string name="no_recently_viewed">Keine kürzlich angesehenen Tipps gefunden.</string>
     <string name="msg_history_cleared">Verlauf erfolgreich gelöscht!</string>
+
+    <!-- Feature 43: Beauty Myths Quiz -->
+    <string name="beauty_quiz_title">Schönheitsmythen-Quiz</string>
+    <string name="beauty_quiz_subtitle">Testen Sie Ihr Hautpflege-Wissen!</string>
+    <string name="quiz_question_counter">Frage %1$d von %2$d</string>
+    <string name="btn_true">WAHR</string>
+    <string name="btn_false">FALSCH</string>
+    <string name="btn_next_question">Nächste Frage</string>
+    <string name="btn_restart_quiz">Erneut spielen</string>
+    <string name="btn_share_score">Ergebnis teilen</string>
+    <string name="quiz_score_title">Quiz abgeschlossen! 🎉</string>
+    <string name="quiz_score_result">Sie haben %1$d von %2$d erreicht!</string>
+    <string name="quiz_result_expert">⭐ Hautpflege-Genie! Sie kennen Ihre Fakten!</string>
+    <string name="quiz_result_good">👍 Gute Arbeit! Sie haben solides Wissen.</string>
+    <string name="quiz_result_learn">💡 Weiter lernen! Lernen Sie Fakten zum Hautschutz.</string>
+    <string name="quiz_myth_1_q">Das Auszupfen eines grauen Haares führt dazu, dass 3 weitere nachwachsen.</string>
+    <string name="quiz_myth_1_ans">FALSCH! Zupfen kann die Anzahl der Haarfollikel nicht erhöhen. Es kann jedoch den Follikel dauerhaft schädigen.</string>
+    <string name="quiz_myth_2_q">Zitronensaft ist 100 % sicher für empfindliche Gesichtshaut.</string>
+    <string name="quiz_myth_2_ans">FALSCH! Reiner Zitronensaft ist sehr sauer und kann Reizungen oder Sonnenempfindlichkeit verursachen.</string>
+    <string name="quiz_myth_3_q">Fettige Haut benötigt täglich Feuchtigkeitspflege.</string>
+    <string name="quiz_myth_3_ans">WAHR! Ohne Feuchtigkeitscreme produziert fettige Haut noch mehr Öl.</string>
+    <string name="quiz_myth_4_q">Ausreichend Wasser trinken hilft, die Haut hydratisiert zu halten.</string>
+    <string name="quiz_myth_4_ans">WAHR! Gute Hydratation fördert die Durchblutung und Hautelastizität.</string>
+    <string name="quiz_myth_5_q">Poren können sich mit warmem oder kaltem Wasser öffnen und schließen.</string>
+    <string name="quiz_myth_5_ans">FALSCH! Poren haben keine Muskeln. Dampf lockert Öl, aber die Porengröße bleibt unverändert.</string>
 </resources>

@@ -265,6 +265,45 @@
 
         </RelativeLayout>
 
+        <!-- 3.3. Beauty Myths Quiz -->
+        <RelativeLayout
+            android:id="@+id/rlBeautyQuiz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_marginEnd="@dimen/_8sdp"
+            android:padding="@dimen/_8sdp"
+            android:clickable="true"
+            android:focusable="true">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/imgBeautyQuiz"
+                android:layout_width="@dimen/_25sdp"
+                android:layout_height="@dimen/_25sdp"
+                android:src="@drawable/ic_star_rate"
+                android:tint="@color/white"
+                android:layout_centerVertical="true" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:layout_toEndOf="@+id/imgBeautyQuiz"
+                android:text="@string/beauty_quiz_title"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_13sdp" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_arrow_forward" />
+
+        </RelativeLayout>
+
         <!-- 4.1. My Custom Tips -->
         <RelativeLayout
             android:id="@+id/rlCustomTips"

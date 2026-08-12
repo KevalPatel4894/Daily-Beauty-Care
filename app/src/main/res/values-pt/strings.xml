@@ -4134,4 +4134,29 @@
     <string name="btn_clear_history">Limpar Histórico</string>
     <string name="no_recently_viewed">Nenhuma dica vista recentemente.</string>
     <string name="msg_history_cleared">Histórico limpo com sucesso!</string>
+
+    <!-- Feature 43: Beauty Myths Quiz -->
+    <string name="beauty_quiz_title">Quiz Mitos de Beleza</string>
+    <string name="beauty_quiz_subtitle">Teste seus conhecimentos de cuidados com a pele!</string>
+    <string name="quiz_question_counter">Pergunta %1$d de %2$d</string>
+    <string name="btn_true">VERDADEIRO</string>
+    <string name="btn_false">FALSO</string>
+    <string name="btn_next_question">Próxima Pergunta</string>
+    <string name="btn_restart_quiz">Jogar Novamente</string>
+    <string name="btn_share_score">Compartilhar Pontuação</string>
+    <string name="quiz_score_title">Quiz Concluído! 🎉</string>
+    <string name="quiz_score_result">Você pontuou %1$d de %2$d!</string>
+    <string name="quiz_result_expert">⭐ Gênio do Skincare!</string>
+    <string name="quiz_result_good">👍 Bom trabalho! Você tem ótimos conhecimentos.</string>
+    <string name="quiz_result_learn">💡 Continue aprendendo para proteger sua pele.</string>
+    <string name="quiz_myth_1_q">Arrancar um fio grisalho faz nascerem mais 3 no lugar.</string>
+    <string name="quiz_myth_1_ans">FALSO! Arrancar não multiplica folículos capilares, mas pode danificá-los.</string>
+    <string name="quiz_myth_2_q">Suco de limão é 100% seguro para aplicar no rosto sensível.</string>
+    <string name="quiz_myth_2_ans">FALSO! Suco de limão puro é altamente ácido e causa irritação na pele.</string>
+    <string name="quiz_myth_3_q">Pele oleosa precisa de hidratante diário.</string>
+    <string name="quiz_myth_3_ans">VERDADEIRO! Sem hidratante, a pele produz ainda mais óleo.</string>
+    <string name="quiz_myth_4_q">Beber água suficiente ajuda a manter a pele hidratada.</string>
+    <string name="quiz_myth_4_ans">VERDADEIRO! A hidratação melhora a circulação e a elasticidade da pele.</string>
+    <string name="quiz_myth_5_q">Os poros se abrem e fecham com água quente ou fria.</string>
+    <string name="quiz_myth_5_ans">FALSO! Poros não têm músculos. O vapor solta a oleosidade mas o tamanho é fixo.</string>
 </resources>

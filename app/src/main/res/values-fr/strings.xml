@@ -4152,4 +4152,29 @@
     <string name="btn_clear_history">Effacer l\'Historique</string>
     <string name="no_recently_viewed">Aucun soin consulté récemment.</string>
     <string name="msg_history_cleared">Historique effacé!</string>
+
+    <!-- Feature 43: Beauty Myths Quiz -->
+    <string name="beauty_quiz_title">Quiz Mythes de Beauté</string>
+    <string name="beauty_quiz_subtitle">Testez vos connaissances en soins de la peau !</string>
+    <string name="quiz_question_counter">Question %1$d sur %2$d</string>
+    <string name="btn_true">VRAI</string>
+    <string name="btn_false">FAUX</string>
+    <string name="btn_next_question">Question Suivante</string>
+    <string name="btn_restart_quiz">Rejouer</string>
+    <string name="btn_share_score">Partager le Score</string>
+    <string name="quiz_score_title">Quiz Terminé ! 🎉</string>
+    <string name="quiz_score_result">Vous avez obtenu %1$d sur %2$d !</string>
+    <string name="quiz_result_expert">⭐ Génie des Soins de la Peau !</string>
+    <string name="quiz_result_good">👍 Bon travail ! Vous avez de bonnes connaissances.</string>
+    <string name="quiz_result_learn">💡 Continuez d\'apprendre pour protéger votre peau.</string>
+    <string name="quiz_myth_1_q">Arracher un cheveu blanc en fait pousser 3 autres.</string>
+    <string name="quiz_myth_1_ans">FAUX ! Arracher un cheveu ne multiplie pas les follicules.</string>
+    <string name="quiz_myth_2_q">Le jus de citron est 100 % sûr pour le visage sensible.</string>
+    <string name="quiz_myth_2_ans">FAUX ! Le jus de citron pur est très acide et peut irriter la peau.</string>
+    <string name="quiz_myth_3_q">La peau grasse a besoin d\'hydratant quotidien.</string>
+    <string name="quiz_myth_3_ans">VRAI ! Ne pas hydrater incite la peau à produire encore plus de sébum.</string>
+    <string name="quiz_myth_4_q">Boire assez d\'eau aide à maintenir une peau hydratée.</string>
+    <string name="quiz_myth_4_ans">VRAI ! Une bonne hydratation favorise la circulation et l\'élasticité.</string>
+    <string name="quiz_myth_5_q">Les pores s\'ouvrent et se ferment avec l\'eau chaude ou froide.</string>
+    <string name="quiz_myth_5_ans">FAUX ! Les pores n\'ont pas de muscles. La vapeur détend le sébum mais la taille reste fixe.</string>
 </resources>

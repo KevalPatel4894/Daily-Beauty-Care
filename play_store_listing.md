@@ -34,6 +34,7 @@ All tips in this application utilize natural, easily available ingredients such 
 💅 **Hands & Feet:** Waxing at Home, Dry and rough hands, Nail growth, Pinky shiny nails, Dark underarms, Cracked heels
 
 📱 **Interactive Smart Features:**
+• **Beauty Myths & Facts Quiz:** Interactive 5-question weekly True/False skincare quiz with explanations
 • **Recently Viewed History:** Quick access to last 15 opened natural remedies & tips
 • **Tip of the Week (Featured Remedy):** Weekly rotating premium remedy highlight on home screen (🌟)
 • **Daily 5-Minute Mini Challenge:** Fresh quick self-care tasks every day with streak counter (🔥)
@@ -53,25 +54,15 @@ All tips in this application utilize natural, easily available ingredients such 
 
 ---
 
-### What's New / Release Notes (Play Console Upload):
+### What's New / Release Notes (Play Console Upload - Max 500 Chars Allowed):
 ```
-🎉 NEW UPDATE & RECENTLY VIEWED HISTORY!
-🕒 Added Recently Viewed History (Quickly revisit your 15 most recently opened natural remedies)
-🌟 Added Tip of the Week (Auto-rotating weekly featured natural remedy card on home screen)
-⚡ Added Daily 5-Minute Mini Challenge (Complete quick daily self-care tasks & build a daily streak 🔥)
-📅 Added Beauty Routine Calendar (Plan weekly self-care schedules, track routine tasks & check off daily care)
-⚠️ Added Allergen & Sensitive Ingredient Manager (Flag ingredients to avoid and get instant warning banners on remedies)
-⭐ Added Age Group Personalization (Tailor natural remedies & get age-matched badges for Teens, 20s, 30s & 40s+)
-💇‍♀️ Added Hair Porosity Test (Identify Low/Normal/High porosity hair with tailored natural remedies)
-👤 Added Face Shape Guide (Interactive test for facial contouring, eyebrow shaping & hairstyle advice)
-👍 Added Tip Rating System (Rate remedies with 👍/👎 and view community-favorite tips)
-🧪 Added Cosmetic Ingredient Safety Analyzer (Check safety ratings & skin compatibility dictionary offline)
-🌸 Added Skincare Cycle Advisor & Hormonal Acne Tracker (Predict hormonal breakouts & get targeted preventative remedies)
-🍂 Added Seasonal Beauty Advisor (Summer, Monsoon, Autumn & Winter natural care checklists)
-🧔 Added Men's Grooming & Beard Care Category (Beard growth, mustache styling, men's hair fall remedies)
-🪒 Added Razor Bumps & Shaving Companion (Pre-shave protection, post-shave cooling masks & ingrown hair fixes)
-✨ Reordered Home Screen for Instant Category Access
-🎨 Enhanced UI layout & radio button interaction design
+🎉 NEW UPDATE & BEAUTY MYTHS QUIZ!
+❓ Added Beauty Myths & Facts Quiz (Test your skincare knowledge with 5 weekly true/false myths & explanations)
+🕒 Added Recently Viewed History (Quickly revisit your last 15 opened natural remedies)
+🌟 Added Tip of the Week (Auto-rotating weekly featured natural remedy card)
+⚡ Added Daily 5-Minute Challenge with live streak counter (🔥)
+📅 Added Beauty Routine Calendar & weekly self-care planner
+✨ Redesigned dialogs & enhanced UI text readability
 🌐 Updated translations across all 8 supported languages
 ```
 

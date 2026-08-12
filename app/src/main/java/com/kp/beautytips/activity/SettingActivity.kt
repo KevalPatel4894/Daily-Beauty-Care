@@ -197,6 +197,14 @@ class SettingActivity : BaseActivity() {
                 AppUtils.startFromRightToLeft(this)
             }
         }
+
+        val rlBeautyQuiz = findViewById<View>(R.id.rlBeautyQuiz)
+        rlBeautyQuiz?.setOnClickListener {
+            Intent(this, BeautyQuizActivity::class.java).also {
+                startActivity(it)
+                AppUtils.startFromRightToLeft(this)
+            }
+        }
     }
 
     override fun onSupportNavigateUp(): Boolean {

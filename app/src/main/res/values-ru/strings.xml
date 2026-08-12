@@ -4152,4 +4152,29 @@
     <string name="btn_clear_history">Очистить историю</string>
     <string name="no_recently_viewed">Нет недавно просмотренных советов.</string>
     <string name="msg_history_cleared">История успешно очищена!</string>
+
+    <!-- Feature 43: Beauty Myths Quiz -->
+    <string name="beauty_quiz_title">Викторина Мифы Красоты</string>
+    <string name="beauty_quiz_subtitle">Проверьте свои знания об уходе за кожей!</string>
+    <string name="quiz_question_counter">Вопрос %1$d из %2$d</string>
+    <string name="btn_true">ПРАВДА</string>
+    <string name="btn_false">ЛОЖЬ</string>
+    <string name="btn_next_question">Следующий Вопрос</string>
+    <string name="btn_restart_quiz">Играть Снова</string>
+    <string name="btn_share_score">Поделиться Результатом</string>
+    <string name="quiz_score_title">Викторина Завершена! 🎉</string>
+    <string name="quiz_score_result">Вы набрали %1$d из %2$d!</string>
+    <string name="quiz_result_expert">⭐ Гений ухода за кожей! Вы отлично знаете факты!</string>
+    <string name="quiz_result_good">👍 Хорошая работа! У вас отличные знания.</string>
+    <string name="quiz_result_learn">💡 Продолжайте учиться, чтобы защищать свою кожу.</string>
+    <string name="quiz_myth_1_q">Выщипывание седого волоса приводит к росту 3 новых.</string>
+    <string name="quiz_myth_1_ans">ЛОЖЬ! Выщипывание не может увеличить количество фолликулов, но может повредить их.</string>
+    <string name="quiz_myth_2_q">Сок лимона на 100% безопасен для чувствительной кожи лица.</string>
+    <string name="quiz_myth_2_ans">ЛОЖЬ! Лимонный сок очень кислый и может вызвать раздражение или ожоги.</string>
+    <string name="quiz_myth_3_q">Жирной коже также необходим ежедневный увлажняющий крем.</string>
+    <string name="quiz_myth_3_ans">ПРАВДА! Без увлажнения жирная кожа начинает вырабатывать еще больше кожного сала.</string>
+    <string name="quiz_myth_4_q">Питье достаточного количества воды помогает поддерживать увлажненность кожи.</string>
+    <string name="quiz_myth_4_ans">ПРАВДА! Правильное увлажнение улучшает кровообращение и эластичность кожи.</string>
+    <string name="quiz_myth_5_q">Поры физически открываются и закрываются от горячей или холодной воды.</string>
+    <string name="quiz_myth_5_ans">ЛОЖЬ! У пор нет мышц. Пар размягчает жир, но размер пор остается прежним.</string>
 </resources>

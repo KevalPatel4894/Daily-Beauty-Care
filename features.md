@@ -276,7 +276,7 @@ To support multiple languages and prevent packaging build errors:
 
 ## 🎓 Category 12: Education & Learning
 
-### [ ] Feature 43: Beauty Myths Quiz
+### [x] Feature 43: Beauty Myths Quiz
 * **Goal:** Drive weekly re-engagement through a fun, shareable education format — different from the static FAQ (Feature 17) which is expandable Q&A content.
 * **Details:** A weekly *"True or False"* quiz with 5 beauty myths (e.g. *"Lemon permanently removes dark spots — True or False?"*). Users answer all 5 and see a score with correct explanations. Results are shareable as a card image.
 * **Tech:** Static quiz data in a Kotlin object; `SharedPreferences` storing last played week to prevent repeats; score result screen with share option.

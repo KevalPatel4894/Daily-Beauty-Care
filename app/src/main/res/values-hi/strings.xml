@@ -4132,4 +4132,29 @@
     <string name="btn_clear_history">हिस्ट्री साफ करें</string>
     <string name="no_recently_viewed">कोई हालिया टिप्स नहीं मिले।</string>
     <string name="msg_history_cleared">हिस्ट्री साफ हो गई!</string>
+
+    <!-- Feature 43: Beauty Myths Quiz -->
+    <string name="beauty_quiz_title">ब्यूटी मिथक और तथ्य क्विज़</string>
+    <string name="beauty_quiz_subtitle">अपनी त्वचा की देखभाल के ज्ञान का परीक्षण करें!</string>
+    <string name="quiz_question_counter">प्रश्न %1$d / %2$d</string>
+    <string name="btn_true">सही</string>
+    <string name="btn_false">गलत</string>
+    <string name="btn_next_question">अगला प्रश्न</string>
+    <string name="btn_restart_quiz">पुनः खेलें</string>
+    <string name="btn_share_score">स्कोर शेयर करें</string>
+    <string name="quiz_score_title">क्विज़ पूरा हुआ! 🎉</string>
+    <string name="quiz_score_result">आपने %2$d में से %1$d स्कोर किया!</string>
+    <string name="quiz_result_expert">⭐ स्किनकेयर जीनियस! आप सौंदर्य तथ्यों को अच्छे से जानते हैं!</string>
+    <string name="quiz_result_good">👍 बढ़िया काम! आपके पास अच्छा ज्ञान है।</string>
+    <string name="quiz_result_learn">💡 सीखते रहें! अपनी त्वचा की सुरक्षा के लिए प्राकृतिक तथ्य जानें।</string>
+    <string name="quiz_myth_1_q">एक सफेद बाल तोड़ने से उसकी जगह 3 और सफेद बाल उग आते हैं।</string>
+    <string name="quiz_myth_1_ans">गलत! बाल तोड़ने से नए रोमछिद्र नहीं बनते, हालांकि इससे जड़ को नुकसान हो सकता है।</string>
+    <string name="quiz_myth_2_q">प्राकृतिक नींबू का रस संवेदनशील चेहरे की त्वचा पर सीधे लगाना 100% सुरक्षित है।</string>
+    <string name="quiz_myth_2_ans">गलत! शुद्ध नींबू का रस अत्यधिक अम्लीय होता है और त्वचा में जलन पैदा कर सकता है।</string>
+    <string name="quiz_myth_3_q">तैलीय त्वचा को भी स्वस्थ रहने के लिए रोजाना मॉइस्चराइजर की जरूरत होती है।</string>
+    <string name="quiz_myth_3_ans">सही! मॉइस्चराइज़र न लगाने से त्वचा और अधिक तेल बनाने लगती है।</string>
+    <string name="quiz_myth_4_q">रोजाना पर्याप्त पानी पीने से त्वचा में नमी बनी रहती है।</string>
+    <string name="quiz_myth_4_ans">सही! उचित हाइड्रेशन रक्त संचार और त्वचा के लचीलेपन को बढ़ावा देता है।</string>
+    <string name="quiz_myth_5_q">रोमछिद्र गर्म या ठंडे पानी से खुल और बंद हो सकते हैं।</string>
+    <string name="quiz_myth_5_ans">गलत! रोमछिद्रों में मांसपेशियां नहीं होतीं। भाप तेल को ढीला करती है लेकिन आकार वही रहता है।</string>
 </resources>

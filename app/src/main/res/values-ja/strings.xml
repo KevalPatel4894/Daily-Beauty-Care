@@ -4152,4 +4152,29 @@
     <string name="btn_clear_history">履歴を消去</string>
     <string name="no_recently_viewed">閲覧履歴はありません。</string>
     <string name="msg_history_cleared">閲覧履歴を消去しました！</string>
+
+    <!-- Feature 43: Beauty Myths Quiz -->
+    <string name="beauty_quiz_title">美容神話クイズ</string>
+    <string name="beauty_quiz_subtitle">スキンケア知識をテストしよう！</string>
+    <string name="quiz_question_counter">質問 %1$d / %2$d</string>
+    <string name="btn_true">本当</string>
+    <string name="btn_false">嘘</string>
+    <string name="btn_next_question">次の質問</string>
+    <string name="btn_restart_quiz">もう一度プレイ</string>
+    <string name="btn_share_score">スコアを共有</string>
+    <string name="quiz_score_title">クイズ完了！ 🎉</string>
+    <string name="quiz_score_result">%2$d 点中 %1$d 点を獲得しました！</string>
+    <string name="quiz_result_expert">⭐ スキンケアの天才！美容の事実をよく知っています！</string>
+    <string name="quiz_result_good">👍 素晴らしい！しっかりした知識があります。</string>
+    <string name="quiz_result_learn">💡 学び続けましょう！自然な事実を学び肌を守りましょう。</string>
+    <string name="quiz_myth_1_q">白髪を1本抜くと、代わりに3本生えてくる。</string>
+    <string name="quiz_myth_1_ans">嘘！抜いても毛胞が増えることはありません。ただし毛胞を傷つける恐れがあります。</string>
+    <string name="quiz_myth_2_q">レモン汁は敏感な顔の肌に直接塗っても100% safeである。</string>
+    <string name="quiz_myth_2_ans">嘘！純粋なレモン汁は酸性が強く、刺激や日焼けの原因になります。</string>
+    <string name="quiz_myth_3_q">脂性肌でも健康を保つために毎日の保湿が必要である。</string>
+    <string name="quiz_myth_3_ans">本当！保湿を怠ると肌は水分不足を補うために余計に皮脂を出します。</string>
+    <string name="quiz_myth_4_q">毎日十分な水を飲むと、肌の潤いを保つのに役立つ。</string>
+    <string name="quiz_myth_4_ans">本当！適切な水分補給は血行と肌の弾力を促進します。</string>
+    <string name="quiz_myth_5_q">毛穴は温水や冷水で開閉する。</string>
+    <string name="quiz_myth_5_ans">嘘！毛穴には開閉する筋肉がありません。蒸気は皮脂を緩めますが毛穴サイズは固定です。</string>
 </resources>
