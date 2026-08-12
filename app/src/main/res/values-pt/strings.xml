@@ -4210,4 +4210,23 @@
     <string name="spotlight_rosewater_recipes">1. Bruma Hidratante: Borrifar de manhã e à noite.
 2. Máscara de Argila: Misturar com argila.
 3. Compressa Ocular: Algodão embebido por 10 min.</string>
+
+    <!-- Feature 45: Beginner Guide Mode -->
+    <string name="beginners_guide_title">Guia de Skincare de 7 Dias para Iniciantes</string>
+    <string name="beginners_guide_subtitle">Crie hábitos saudáveis de beleza natural em 7 dias</string>
+    <string name="beginner_progress_format">Dia %1$d de %2$d concluído (%3$d%%)</string>
+    <string name="beginner_day_1_title">Dia 1: Limpeza Suave</string>
+    <string name="beginner_day_1_desc">Lave o rosto duas vezes ao dia com água morna e um sabonete suave.</string>
+    <string name="beginner_day_2_title">Dia 2: Proteção Solar Diária</string>
+    <string name="beginner_day_2_desc">Aplique protetor solar FPS 30+ todas as manhãs para prevenir o envelhecimento precoce.</string>
+    <string name="beginner_day_3_title">Dia 3: Hábitado de Hidratação</string>
+    <string name="beginner_day_3_desc">Beba pelo menos 8 copos de água hoje. A hidratação é o segredo da pele radiante.</string>
+    <string name="beginner_day_4_title">Dia 4: Hidratação Noturna</string>
+    <string name="beginner_day_4_desc">Aplique um hidratante leve ou gel de aloe vera antes de dormir.</string>
+    <string name="beginner_day_5_title">Dia 5: Esfoliação Suave</string>
+    <string name="beginner_day_5_desc">Esfolie suavemente com aveia natural 1 a 2 vezes por semana.</string>
+    <string name="beginner_day_6_title">Dia 6: Nutrição Capilar</string>
+    <string name="beginner_day_6_desc">Massageie óleo de coco morno no couro cabeludo 10 minutos antes de lavar o cabelo.</string>
+    <string name="beginner_day_7_title">Dia 7: Sono Reparador</string>
+    <string name="beginner_day_7_desc">Durma de 7 a 8 horas por noite. O sono profundo estimula a renovação celular da pele.</string>
 </resources>

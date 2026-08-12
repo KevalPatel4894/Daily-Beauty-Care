@@ -4233,4 +4233,23 @@
     <string name="spotlight_rosewater_recipes">1. Bruma Hidratante: Rociar mañana y noche.
 2. Mascarilla de Arcilla: Mezclar con arcilla.
 3. Compresas Oculares: Discos empapados por 10 min.</string>
+
+    <!-- Feature 45: Beginner Guide Mode -->
+    <string name="beginners_guide_title">Guía de Cuidado de la Piel de 7 Días</string>
+    <string name="beginners_guide_subtitle">Crea hábitos saludables de belleza natural en 7 días</string>
+    <string name="beginner_progress_format">Día %1$d de %2$d completado (%3$d%%)</string>
+    <string name="beginner_day_1_title">Día 1: Rutina de Limpieza Suave</string>
+    <string name="beginner_day_1_desc">Lava tu rostro dos veces al día con agua tibia y un limpiador suave adecuado para tu piel.</string>
+    <string name="beginner_day_2_title">Día 2: Protección Solar Diaria</string>
+    <string name="beginner_day_2_desc">Aplica protector solar FPS 30+ cada mañana para prevenir el envejecimiento prematuro.</string>
+    <string name="beginner_day_3_title">Día 3: Hábito de Hidratación</string>
+    <string name="beginner_day_3_desc">Bebe al menos 8 vasos de agua hoy. La hidratación es la base para una piel radiante.</string>
+    <string name="beginner_day_4_title">Día 4: Hidratación Nocturna</string>
+    <string name="beginner_day_4_desc">Aplica una crema hidratante ligera o gel de aloe vera antes de dormir para reparar la piel.</string>
+    <string name="beginner_day_5_title">Día 5: Exfoliación Suave</string>
+    <string name="beginner_day_5_desc">Exfolia suavemente con avena natural 1 o 2 veces por semana para eliminar células muertas.</string>
+    <string name="beginner_day_6_title">Día 6: Nutrición Capilar</string>
+    <string name="beginner_day_6_desc">Masajea aceite de coco tibio en el cuero cabelludo durante 10 minutos antes del champú.</string>
+    <string name="beginner_day_7_title">Día 7: Sueño Reparador</string>
+    <string name="beginner_day_7_desc">Duerme entre 7 y 8 horas. El sueño profundo promueve la renovación celular de la piel.</string>
 </resources>

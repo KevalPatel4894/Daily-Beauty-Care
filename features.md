@@ -286,7 +286,7 @@ To support multiple languages and prevent packaging build errors:
 * **Details:** One natural ingredient spotlighted daily on the home screen (e.g. *"Today: Turmeric — Benefits, Uses & 3 Recipes"*). Tapping opens a dedicated page with skin/hair benefits and links to related tips already in the app.
 * **Tech:** Deterministic daily index from `Calendar.DAY_OF_YEAR` into a local ingredients array; no backend.
 
-### [ ] Feature 45: Beginner\'s Guide Mode
+### [x] Feature 45: Beginner's Guide Mode
 * **Goal:** Reduce new-user churn by giving first-time users a clear, friendly starting path.
 * **Details:** On first launch, users are offered a *"Start Here"* 7-day beginner program — one simple tip or habit per day, unlocking sequentially. Day 1: *"Cleanse twice a day"*, Day 2: *"Always moisturize after washing"*, etc. A progress bar shows progress through the guide.
 * **Tech:** `SharedPreferences` tracking current day index; static 7-item beginner tips array; home screen banner card.

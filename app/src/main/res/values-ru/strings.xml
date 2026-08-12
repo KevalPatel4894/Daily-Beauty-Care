@@ -4228,4 +4228,23 @@
     <string name="spotlight_rosewater_recipes">1. Увлажняющий Мист: Распылять утром и вечером.
 2. Маска с Глиной: Смешать с глиной.
 3. Компрессы для Век: Ватные диски на 10 мин.</string>
+
+    <!-- Feature 45: Beginner Guide Mode -->
+    <string name="beginners_guide_title">7-Дневное Руководство по Уходу за Кожей</string>
+    <string name="beginners_guide_subtitle">Создайте здоровые привычки ухода за 7 дней</string>
+    <string name="beginner_progress_format">День %1$d из %2$d завершен (%3$d%%)</string>
+    <string name="beginner_day_1_title">День 1: Мягкое Очищение</string>
+    <string name="beginner_day_1_desc">Умывайте лицо дважды в день теплой водой и мягким гелем.</string>
+    <string name="beginner_day_2_title">День 2: Ежедневная Защита от Солнца</string>
+    <string name="beginner_day_2_desc">Наносите солнцезащитный крем SPF 30+ каждое утро для защиты от старения.</string>
+    <string name="beginner_day_3_title">День 3: Привычка Пить Воду</string>
+    <string name="beginner_day_3_desc">Выпейте сегодня минимум 8 стаканов воды. Питьевой режим — залог сияния кожи.</string>
+    <string name="beginner_day_4_title">День 4: Ночное Увлажнение</string>
+    <string name="beginner_day_4_desc">Наносите легкий увлажняющий крем или гель Алоэ каждый вечер перед сном.</string>
+    <string name="beginner_day_5_title">День 5: Мягкое Отшелушивание</string>
+    <string name="beginner_day_5_desc">Делайте мягкий скраб 1-2 раза в неделю для удаления омертвевших клеток.</string>
+    <string name="beginner_day_6_title">День 6: Питание Волос и Кожи Головы</string>
+    <string name="beginner_day_6_desc">Массируйте кожу головы теплым кокосовым маслом за 10 минут до мытья.</string>
+    <string name="beginner_day_7_title">День 7: Полноценный Сон</string>
+    <string name="beginner_day_7_desc">Спите 7-8 часов в сутки. Глубокий сон способствует регенерации кожи.</string>
 </resources>

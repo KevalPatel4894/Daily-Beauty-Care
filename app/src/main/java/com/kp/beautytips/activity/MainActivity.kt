@@ -280,6 +280,24 @@ class MainActivity : BaseActivity(), CategoryAdapter.OnItemClick {
             }
         }
 
+        val cardBeginnersGuide = findViewById<View>(R.id.cardBeginnersGuide)
+        val txtBeginnerHomeSub = findViewById<TextView>(R.id.txtBeginnerHomeSub)
+        val guidePrefs = getSharedPreferences("beginners_guide_prefs", Context.MODE_PRIVATE)
+        var doneCount = 0
+        for (i in 1..7) {
+            if (guidePrefs.getBoolean("day_${i}_completed", false)) doneCount++
+        }
+        if (doneCount > 0) {
+            txtBeginnerHomeSub?.text = "Day $doneCount of 7 Completed 🎉"
+        }
+
+        cardBeginnersGuide?.setOnClickListener {
+            Intent(this, BeginnersGuideActivity::class.java).also {
+                startActivity(it)
+                AppUtils.startFromRightToLeft(this)
+            }
+        }
+
         val cardCycleAdvisor = findViewById<View>(R.id.cardCycleAdvisor)
         cardCycleAdvisor.setOnClickListener {
             Intent(this, CycleAdvisorActivity::class.java).also {

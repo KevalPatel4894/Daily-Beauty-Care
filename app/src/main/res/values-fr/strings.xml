@@ -4228,4 +4228,23 @@
     <string name="spotlight_rosewater_recipes">1. Brume Hydratante : Vaporiser matin et soir.
 2. Masque Argile : Mélanger avec de l\'argile.
 3. Compresses Yeux : Disques imbibés pendant 10 min.</string>
+
+    <!-- Feature 45: Beginner Guide Mode -->
+    <string name="beginners_guide_title">Guide Soins de la Peau 7 Jours</string>
+    <string name="beginners_guide_subtitle">Adoptez de bonnes habitudes beauté en 7 jours</string>
+    <string name="beginner_progress_format">Jour %1$d sur %2$d terminé (%3$d%%)</string>
+    <string name="beginner_day_1_title">Jour 1 : Nettoyage Doux</string>
+    <string name="beginner_day_1_desc">Nettoyez votre visage deux fois par jour avec de l\'eau tiède et un nettoyant doux.</string>
+    <string name="beginner_day_2_title">Jour 2 : Protection Solaire</string>
+    <string name="beginner_day_2_desc">Appliquez une crème solaire SPF 30+ chaque matin pour prévenir le vieillissement prématuré.</string>
+    <string name="beginner_day_3_title">Jour 3 : Hydratation Quotidienne</string>
+    <string name="beginner_day_3_desc">Buvez au moins 8 verres d\'eau aujourd\'hui. Une bonne hydratation est essentielle.</string>
+    <string name="beginner_day_4_title">Jour 4 : Hydratation du Soir</string>
+    <string name="beginner_day_4_desc">Appliquez un soin hydratant ou du gel d\'aloe vera chaque soir avant de vous coucher.</string>
+    <string name="beginner_day_5_title">Jour 5 : Exfoliation Douce</string>
+    <string name="beginner_day_5_desc">Exfoliez doucement avec un gommage naturel 1 à 2 fois par semaine.</string>
+    <string name="beginner_day_6_title">Jour 6 : Soin des Cheveux</string>
+    <string name="beginner_day_6_desc">Massez votre cuir chevelu avec de l\'huile de coco tiède 10 minutes avant le shampooing.</string>
+    <string name="beginner_day_7_title">Jour 7 : Sommeil Réparateur</string>
+    <string name="beginner_day_7_desc">Dormez 7 à 8 heures par nuit. Le sommeil favorise le renouvellement cellulaire.</string>
 </resources>

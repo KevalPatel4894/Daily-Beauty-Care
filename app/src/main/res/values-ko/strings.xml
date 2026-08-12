@@ -4202,4 +4202,23 @@
     <string name="spotlight_rosewater_recipes">1. 수분 미스트: 아침저녁 분사.
 2. 클레이 팩: 클레이와 믹스.
 3. 아이 팩: 솜에 적셔 10분 도포.</string>
+
+    <!-- Feature 45: Beginner Guide Mode -->
+    <string name="beginners_guide_title">7일 스킨케어 초보자 가이드</string>
+    <string name="beginners_guide_subtitle">7일 만에 건강한 자연 뷰티 습관 만들기</string>
+    <string name="beginner_progress_format">%2$d일 중 %1$d일 완료 (%3$d%%)</string>
+    <string name="beginner_day_1_title">1일 차: 자극 없는 세안 습관</string>
+    <string name="beginner_day_1_desc">미온수와 순한 클렌저로 하루 두 번 깨끗하게 세안하세요.</string>
+    <string name="beginner_day_2_title">2일 차: 매일 자외선 차단</string>
+    <string name="beginner_day_2_desc">피부 노화를 예방하기 위해 매일 아침 SPF 30+ 선크림을 바르세요.</string>
+    <string name="beginner_day_3_title">3일 차: 수분 섭취 습관</string>
+    <string name="beginner_day_3_desc">오늘 최소 8잔의 물을 마셔보세요. 수분은 촉촉한 피부의 기본입니다.</string>
+    <string name="beginner_day_4_title">4일 차: 나이트 보습 케어</string>
+    <string name="beginner_day_4_desc">매일 밤 취침 전 수분 크림이나 알로에 젤을 발라 피부 장벽을 보습하세요.</string>
+    <string name="beginner_day_5_title">5일 차: 저자극 각질 케어</string>
+    <string name="beginner_day_5_desc">주 1~2회 천연 오트밀 스크럽으로 각질을 부드럽게 정돈하세요.</string>
+    <string name="beginner_day_6_title">6일 차: 모발 및 두피 영양 공급</string>
+    <string name="beginner_day_6_desc">샴푸 10분 전 따뜻한 코코넛 오일로 두피를 지압 마사지하세요.</string>
+    <string name="beginner_day_7_title">7일 차: 꿀잠 및 스트레스 완화</string>
+    <string name="beginner_day_7_desc">오늘 밤 7~8시간 숙면을 취하세요. 깊은 잠은 피부 재생을 돕습니다.</string>
 </resources>

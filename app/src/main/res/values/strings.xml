@@ -4274,4 +4274,23 @@
     <string name="spotlight_rosewater_recipes">1. Daily Hydrating Mist: Spray pure Rose Water on clean face morning &amp; night.
 2. Clay Mask Activator: Mix Rose Water with Multani Mitti (Fuller\'s Earth).
 3. Eye Soother: Place Rose Water soaked cotton pads over eyes for 10 mins.</string>
+
+    <!-- Feature 45: Beginner Guide Mode -->
+    <string name="beginners_guide_title">7-Day Beginner Skincare Guide</string>
+    <string name="beginners_guide_subtitle">Build healthy natural beauty habits in 7 days</string>
+    <string name="beginner_progress_format">Day %1$d of %2$d completed (%3$d%%)</string>
+    <string name="beginner_day_1_title">Day 1: Gentle Cleansing Routine</string>
+    <string name="beginner_day_1_desc">Cleanse your face twice daily with lukewarm water and a gentle sulphate-free cleanser suited for your skin type.</string>
+    <string name="beginner_day_2_title">Day 2: Daily Sun Protection</string>
+    <string name="beginner_day_2_desc">Apply broad-spectrum sunscreen SPF 30+ every morning, even on cloudy days, to prevent premature skin aging.</string>
+    <string name="beginner_day_3_title">Day 3: Hydration Habit</string>
+    <string name="beginner_day_3_desc">Drink at least 8 glasses (2 Liters) of water today. Proper hydration is the secret foundation for glowing skin.</string>
+    <string name="beginner_day_4_title">Day 4: Evening Moisture Lock</string>
+    <string name="beginner_day_4_desc">Apply a lightweight moisturizer or pure aloe vera gel every night before bed to repair your skin barrier.</string>
+    <string name="beginner_day_5_title">Day 5: Gentle Exfoliation Basics</string>
+    <string name="beginner_day_5_desc">Exfoliate gently using natural oatmeal or chickpea flour scrub once or twice a week to remove dead skin cells.</string>
+    <string name="beginner_day_6_title">Day 6: Hair &amp; Scalp Nourishment</string>
+    <string name="beginner_day_6_desc">Massage warm coconut or almond oil into your scalp for 10 minutes before shampooing to strengthen hair roots.</string>
+    <string name="beginner_day_7_title">Day 7: Beauty Sleep &amp; Stress Relief</string>
+    <string name="beginner_day_7_desc">Aim for 7-8 hours of restful sleep tonight. Deep sleep promotes cellular repair and natural skin renewal.</string>
 </resources>

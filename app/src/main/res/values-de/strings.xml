@@ -4233,4 +4233,23 @@
     <string name="spotlight_rosewater_recipes">1. Feuchtigkeitsspray: Morgens &amp; abends aufsprühen.
 2. Heilerde-Maske: Mit Heilerde mischen.
 3. Augenberuhigung: Rosenwasser-Pads 10 Min. auflegen.</string>
+
+    <!-- Feature 45: Beginner Guide Mode -->
+    <string name="beginners_guide_title">7-Tage Hautpflege-Guide für Anfänger</string>
+    <string name="beginners_guide_subtitle">Bauen Sie in 7 Tagen gesunde Pflegegewohnheiten auf</string>
+    <string name="beginner_progress_format">Tag %1$d von %2$d abgeschlossen (%3$d%%)</string>
+    <string name="beginner_day_1_title">Tag 1: Sanfte Reinigung</string>
+    <string name="beginner_day_1_desc">Reinigen Sie Ihr Gesicht zweimal täglich mit lauwarmem Wasser und einem milden Reiniger.</string>
+    <string name="beginner_day_2_title">Tag 2: Täglicher Sonnenschutz</string>
+    <string name="beginner_day_2_desc">Tragen Sie jeden Morgen Sonnencreme mit LSF 30+ auf, um vorzeitiger Hautalterung vorzubeugen.</string>
+    <string name="beginner_day_3_title">Tag 3: Ausreichend Trinken</string>
+    <string name="beginner_day_3_desc">Trinken Sie heute mindestens 8 Gläser Wasser. Hydratation ist die Basis für strahlende Haut.</string>
+    <string name="beginner_day_4_title">Tag 4: Abendliche Feuchtigkeitspflege</string>
+    <string name="beginner_day_4_desc">Tragen Sie jeden Abend vor dem Schlafengehen eine feuchtigkeitsspendende Creme auf.</string>
+    <string name="beginner_day_5_title">Tag 5: Sanftes Peeling</string>
+    <string name="beginner_day_5_desc">Peelen Sie Ihre Haut 1-2 Mal pro Woche mit einem natürlichen Haferflocken-Peeling.</string>
+    <string name="beginner_day_6_title">Tag 6: Haar- &amp; Kopfhautpflege</string>
+    <string name="beginner_day_6_desc">Massieren Sie vor dem Haarewaschen warmes Kokosöl 10 Minuten lang in die Kopfhaut ein.</string>
+    <string name="beginner_day_7_title">Tag 7: Schönheitsschlaf &amp; Entspannung</string>
+    <string name="beginner_day_7_desc">Achten Sie auf 7-8 Stunden erholsamen Schlaf. Schlaf fördert die Zellerneuerung der Haut.</string>
 </resources>

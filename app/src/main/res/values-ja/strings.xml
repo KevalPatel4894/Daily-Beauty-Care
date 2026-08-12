@@ -4228,4 +4228,23 @@
     <string name="spotlight_rosewater_recipes">1. 保湿ミスト: 朝晩スプレー。
 2. クレイパック: クレイと混ぜる。
 3. アイパック: コットンに浸して10分。</string>
+
+    <!-- Feature 45: Beginner Guide Mode -->
+    <string name="beginners_guide_title">7日間スキンケア初心者ガイド</string>
+    <string name="beginners_guide_subtitle">7日間で健康的なナチュラルビューティ習慣を作る</string>
+    <string name="beginner_progress_format">%2$d日中 %1$d日目完了 (%3$d%%)</string>
+    <string name="beginner_day_1_title">1日目: 優しく洗顔する習慣</string>
+    <string name="beginner_day_1_desc">ぬるま湯とマイルドな洗顔料で朝晩1日2回洗顔しましょう。</string>
+    <string name="beginner_day_2_title">2日目: 毎日の UV 対策</string>
+    <string name="beginner_day_2_desc">光老化を防ぐために毎朝 SPF 30+ の日焼け止めを塗布しましょう。</string>
+    <string name="beginner_day_3_title">3日目: 水分補給習慣</string>
+    <string name="beginner_day_3_desc">今日はコップ8杯以上の水を飲みましょう。水分補給はツヤ肌の基本です。</string>
+    <string name="beginner_day_4_title">4日目: 夜の保湿ケア</string>
+    <string name="beginner_day_4_desc">毎晩就寝前にアロエベラジェルや保湿クリームを塗布しましょう。</string>
+    <string name="beginner_day_5_title">5日目: 優しく角質ケア</string>
+    <string name="beginner_day_5_desc">週に1〜2回、自然派スクラブで優しく角質を取り除きましょう。</string>
+    <string name="beginner_day_6_title">6日目: 頭皮と髪の栄養補給</string>
+    <string name="beginner_day_6_desc">シャンプーの10分前に温かいココナッツオイルで頭皮をマッサージしましょう。</string>
+    <string name="beginner_day_7_title">7日目: 質の良い睡眠</string>
+    <string name="beginner_day_7_desc">7〜8時間の質の良い睡眠をとりましょう。睡眠は肌の生まれ変わりを促します。</string>
 </resources>

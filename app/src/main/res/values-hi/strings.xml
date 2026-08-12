@@ -4208,4 +4208,23 @@
     <string name="spotlight_rosewater_recipes">1. डेली मिस्ट: सुबह-शाम स्प्रे करें।
 2. मुल्तानी मिट्टी पैक: गुलाब जल मिलाकर लगाएं।
 3. आई सोथर: रुई भिगोकर 10 मिनट आंखों पर रखें।</string>
+
+    <!-- Feature 45: Beginner Guide Mode -->
+    <string name="beginners_guide_title">7-दिवसीय शुरुआती स्किनकेयर गाइड</string>
+    <string name="beginners_guide_subtitle">7 दिनों में प्राकृतिक सुंदरता की स्वस्थ आदतें बनाएं</string>
+    <string name="beginner_progress_format">%2$d में से दिन %1$d पूरा हुआ (%3$d%%)</string>
+    <string name="beginner_day_1_title">दिन 1: सौम्य सफाई दिनचर्या</string>
+    <string name="beginner_day_1_desc">दिन में दो बार गुनगुने पानी और अपनी त्वचा के अनुकूल सौम्य क्लींजर से चेहरा साफ करें।</string>
+    <string name="beginner_day_2_title">दिन 2: दैनिक सूर्य सुरक्षा (सनस्क्रीन)</string>
+    <string name="beginner_day_2_desc">त्वचा को झुर्रियों से बचाने के लिए हर सुबह SPF 30+ सनस्क्रीन लगाएं।</string>
+    <string name="beginner_day_3_title">दिन 3: भरपूर पानी पीने की आदत</string>
+    <string name="beginner_day_3_desc">आज कम से कम 8 गिलास पानी पीएं। उचित हाइड्रेशन चमकदार त्वचा का रहस्य है।</string>
+    <string name="beginner_day_4_title">दिन 4: रात की नमी देखभाल</string>
+    <string name="beginner_day_4_desc">त्वचा की मरम्मत के लिए हर रात सोने से पहले एलोवेरा जेल या मॉइस्चराइजर लगाएं।</string>
+    <string name="beginner_day_5_title">दिन 5: सौम्य स्क्रब (एक्सफोलिएशन)</string>
+    <string name="beginner_day_5_desc">मृत त्वचा हटाने के लिए हफ्ते में 1-2 बार प्राकृतिक बेसन या ओट्स से स्क्रब करें।</string>
+    <string name="beginner_day_6_title">दिन 6: बालों का पोषण</string>
+    <string name="beginner_day_6_desc">बाल धोने से 10 मिनट पहले गुनगुने नारियल तेल से सिर की मालिश करें।</string>
+    <string name="beginner_day_7_title">दिन 7: भरपूर नींद और तनाव राहत</string>
+    <string name="beginner_day_7_desc">आज रात 7-8 घंटे की गहरी नींद लें। नींद त्वचा की कोशिकाओं को नया बनाती है।</string>
 </resources>
