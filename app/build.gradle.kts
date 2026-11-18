@@ -9,10 +9,10 @@ android {
 
     defaultConfig {
         applicationId = "com.kp.beautytips"
-        minSdk = 23
+        minSdk = 24
         targetSdk = 36
-        versionCode = 20
-        versionName = "1.0.11"
+        versionCode = 21
+        versionName = "1.0.12"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
