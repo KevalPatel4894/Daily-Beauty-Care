@@ -11,9 +11,18 @@ android {
         applicationId = "com.kp.beautytips"
         minSdk = 24
         targetSdk = 36
-        versionCode = 21
-        versionName = "1.0.12"
+        versionCode = 22
+        versionName = "1.0.13"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    signingConfigs {
+        create("release") {
+            storeFile = file("${rootProject.projectDir}/keystore/keystore.jks")
+            storePassword = "kpappslab"
+            keyAlias = "beautytips"
+            keyPassword = "kpappslab"
+        }
     }
 
     buildTypes {
@@ -25,6 +34,7 @@ android {
         getByName("release") {
             isMinifyEnabled = true
             isShrinkResources = false
+            signingConfig = signingConfigs.getByName("release")
             proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
         }
     }
