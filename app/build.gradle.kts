@@ -1,6 +1,15 @@
+import java.util.Properties
+import java.io.FileInputStream
+
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
+}
+
+val localProperties = Properties()
+val localPropertiesFile = rootProject.file("local.properties")
+if (localPropertiesFile.exists()) {
+    localProperties.load(FileInputStream(localPropertiesFile))
 }
 
 android {
@@ -18,10 +27,19 @@ android {
 
     signingConfigs {
         create("release") {
-            storeFile = file("${rootProject.projectDir}/keystore/keystore.jks")
-            storePassword = "kpappslab"
-            keyAlias = "beautytips"
-            keyPassword = "kpappslab"
+            val keyStoreFilePath = localProperties.getProperty("KEYSTORE_FILE")
+                ?: System.getenv("KEYSTORE_FILE")
+                ?: "keystore/keystore.jks"
+            storeFile = rootProject.file(keyStoreFilePath)
+            storePassword = localProperties.getProperty("KEYSTORE_PASSWORD")
+                ?: System.getenv("KEYSTORE_PASSWORD")
+                ?: ""
+            keyAlias = localProperties.getProperty("KEY_ALIAS")
+                ?: System.getenv("KEY_ALIAS")
+                ?: ""
+            keyPassword = localProperties.getProperty("KEY_PASSWORD")
+                ?: System.getenv("KEY_PASSWORD")
+                ?: ""
         }
     }
 
